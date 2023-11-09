@@ -1,0 +1,7 @@
+README.md
+setup.py
+JakeSilbersteinMachineLearning.egg-info/PKG-INFO
+JakeSilbersteinMachineLearning.egg-info/SOURCES.txt
+JakeSilbersteinMachineLearning.egg-info/dependency_links.txt
+JakeSilbersteinMachineLearning.egg-info/requires.txt
+JakeSilbersteinMachineLearning.egg-info/top_level.txt
