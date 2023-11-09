@@ -1,0 +1,9 @@
+kaleido
+mysql-connector-python
+pandas
+plotly
+psycopg2-binary
+pyodbc
+reportlab
+redis
+requests
