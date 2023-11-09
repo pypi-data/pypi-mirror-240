@@ -1,0 +1,10 @@
+setup.py
+neelmdist/Binomialdistribution.py
+neelmdist/Gaussiandistribution.py
+neelmdist/Generaldistribution.py
+neelmdist/__init__.py
+neelmdist.egg-info/PKG-INFO
+neelmdist.egg-info/SOURCES.txt
+neelmdist.egg-info/dependency_links.txt
+neelmdist.egg-info/not-zip-safe
+neelmdist.egg-info/top_level.txt
