@@ -1,0 +1,9 @@
+pyconversor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyconversor/pyconvert.py,sha256=ItNQI2KBt6hHVjaQZhN3bA9fLvXn7SMj0VtN1q3ywsY,255
+pyconversor/modules/Node.py,sha256=GK2jr2_YCHXWyh3cOTxXp_gP8qNZzIar5cIPtUKr5E4,1413
+pyconversor/modules/Tree.py,sha256=D5gAi1aZzdIiziqjSpQSfZpvRjqxR1JIq_788Vwqey8,228
+pyconversor/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyconversor-0.0.1.dist-info/METADATA,sha256=WHwLe2q0k4nTw8ij4I3O6JNx5l0R_Db1Ovr2wTR7P1U,1392
+pyconversor-0.0.1.dist-info/WHEEL,sha256=z6xSPN0Mo_h_NAjjk0VNneWjIiXMjAF_l8uGkjgc2-A,105
+pyconversor-0.0.1.dist-info/licenses/LICENSE,sha256=2jQSg4xUqPazAekY3DufsTwZ13GRwGJVZ_AMBtkF-0s,1090
+pyconversor-0.0.1.dist-info/RECORD,,
