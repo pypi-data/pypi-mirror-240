@@ -1,0 +1,15 @@
+ttg/__init__.py,sha256=doPRCLeybvOrBtlIv2SEjxreu0zEbpxtvseEcD4bWJY,1322
+ttg/ttg.py,sha256=r4QQlZ_Qm-wshGO1At5OTaAGdqK26dwnQ_Dn8wk9OZM,6737
+ttg/ttg_cli.py,sha256=Omw_uCUa2cYU2dpcOdzsINURCZZyBbdja67o7lfcTe8,2409
+ttg/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ttg/tests/test_ttg.py,sha256=mw3aiwiLum5x6fgPBCWsLp_kfCxJFH_bm1XxsX4PO1I,20860
+ttg/tests/test_ttg_cli.py,sha256=tIwxFCPWgB5QKZbsrWKclse7o9qRAHegQJub1u2OBaA,7669
+ttg/tools/__init__.py,sha256=KZQmgS8xp0gBgymgrXt5b2v4a0DdYXsnF6hsEVPSu4E,965
+ttg/tools/evaluation.py,sha256=sub7bfRJyeJqBGY_1HmztmqCuUgneI8p38LGeMxN8uw,1254
+ttg/tools/parsing.py,sha256=JBBCbGqTGpd4Y1CQRLRbgnyulFD11__QTB0JVjUJho8,1832
+truth_table_generator-2.0.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+truth_table_generator-2.0.0.dist-info/METADATA,sha256=rdrl69j6Z_-1zbuMfVYIiH_8IIBp5tUXDAvShhYyQS0,15378
+truth_table_generator-2.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+truth_table_generator-2.0.0.dist-info/entry_points.txt,sha256=jcIU6inwgon0AdIvHHmpC5IfYuT7P5Dorxhuo4EY8IE,54
+truth_table_generator-2.0.0.dist-info/top_level.txt,sha256=sp6n61A1y2yxRRzHCZgmVohbL4Idzl-ldD671-zbc3w,4
+truth_table_generator-2.0.0.dist-info/RECORD,,
