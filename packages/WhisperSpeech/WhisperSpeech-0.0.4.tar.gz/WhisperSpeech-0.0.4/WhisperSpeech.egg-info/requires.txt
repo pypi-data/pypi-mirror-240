@@ -1,0 +1,15 @@
+openai-whisper
+encodec
+vocos
+vector_quantize_pytorch
+huggingface_hub
+fastprogress
+webdataset
+
+[dev]
+matplotlib
+pandas
+pyarrow
+scikit-learn
+jiwer
+whisper_normalizer
