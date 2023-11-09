@@ -1,0 +1,19 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bankstatementparser/__init__.py
+bankstatementparser/bank_statement_parsers.py
+bankstatementparser/camt_parser.py
+bankstatementparser/cli.py
+bankstatementparser/pain001_parser.py
+bankstatementparser.egg-info/PKG-INFO
+bankstatementparser.egg-info/SOURCES.txt
+bankstatementparser.egg-info/dependency_links.txt
+bankstatementparser.egg-info/not-zip-safe
+bankstatementparser.egg-info/requires.txt
+bankstatementparser.egg-info/top_level.txt
+tests/test_ pain001_parser.py
+tests/test_bank_statement_parsers.py
+tests/test_camt_parser.py
+tests/test_cli.py
