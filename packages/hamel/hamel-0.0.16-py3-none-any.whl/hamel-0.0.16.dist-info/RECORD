@@ -1,0 +1,10 @@
+hamel/__init__.py,sha256=8ss7zPyQ3YfaQJw9IIGX35NOL7ASZ7-LErAxKnQDN7c,23
+hamel/_modidx.py,sha256=wGnzPqk0EjvLLWbVW9Dm_k96JMsHlPBzaZ2dOrtpbuo,1616
+hamel/context.py,sha256=uR_dgapx5lC6KPHxEMhMmnId5fWMdkNptd8fAyUYkEg,6278
+hamel/oai.py,sha256=AXS8GgfFEAYXCBuxmVLLlG3bfHXRYLdi8-sVHxrUdyw,6143
+hamel-0.0.16.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+hamel-0.0.16.dist-info/METADATA,sha256=N7rIfx4IiZWQQDoACd0zcRJkvYeoMiSZUP6ua2ZBCwY,3443
+hamel-0.0.16.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+hamel-0.0.16.dist-info/entry_points.txt,sha256=7146bD6MVelMGl_DdQxXNQDm8fOyfJMk7LsT8zAXfZM,200
+hamel-0.0.16.dist-info/top_level.txt,sha256=6CGd7JM1H3CZMw5l6SCwhDsCAMDa1EX1dARbj6CIBK8,6
+hamel-0.0.16.dist-info/RECORD,,
