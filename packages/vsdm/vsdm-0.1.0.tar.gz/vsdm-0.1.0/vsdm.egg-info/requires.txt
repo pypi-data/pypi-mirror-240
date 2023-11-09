@@ -1,0 +1,5 @@
+scipy
+vegas
+h5py
+spherical
+quaternionic

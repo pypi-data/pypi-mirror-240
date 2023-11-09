@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: vsdm
+Version: 0.1.0
+Summary: Vector space integration for dark matter direct detection
+Author-email: "Ben G. Lillard" <blillard@uoregon.edu>
+Project-URL: Homepage, https://github.com/blillard/vsdm
+Project-URL: Source, https://github.com/blillard/vsdm/
+Project-URL: Documentation, https://github.com/blillard/vsdm/blob/main/README.md
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scipy
+Requires-Dist: vegas
+Requires-Dist: h5py
+Requires-Dist: spherical
+Requires-Dist: quaternionic
+
+# vsdm
+
+By Benjamin Lillard
+
+**Vector space dark matter rate calculation** 
+
+
+[![arXiv](https://img.shields.io/badge/arXiv-2310.01480%20-green.svg)](https://arxiv.org/abs/2310.01480)
+[![arXiv](https://img.shields.io/badge/arXiv-2310.01483%20-green.svg)](https://arxiv.org/abs/2310.01483)
+
+
+### DESCRIPTION: ##########################################################
+
+VSDM is the Python implementation of the wavelet-harmonic integration method, designed for the efficient calculation of dark matter direct detection scattering rates in anisotropic detectors, and for arbitrary dark matter velocity distributions.
+
+The code is still under development. Many of the components have been tested for accuracy, but no guarantee is made for the accuracy of the complete package.
+
+
+
+
+
