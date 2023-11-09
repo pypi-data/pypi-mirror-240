@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: deltatextsplitter
+Version: 0.0.2
+Summary: This packages can efficiently measure the text structure recognition capabilities ofn pdftextsplitter
+Home-page: https://gitlab.com/datainnovatielab/public/deltatextsplitter/dist/
+Download-URL: https://gitlab.com/datainnovatielab/public/deltatextsplitter/dist/
+Author: Unit Data en Innovatie, Ministerie van Infrastructuur en Waterstaat, Netherlands
+Author-email: dataloket@minienw.nl
+License: MIT
+Keywords: NLP,PDF,Text recognition,Structure recognition,ChatGPT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: setuptools>=59.6.0
+Requires-Dist: wheel>=0.41.1
+Requires-Dist: build>=0.10.0
+Requires-Dist: numpy>=1.25.2
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: openpyxl>=3.1.2
+Requires-Dist: pytest<=7.4.0,>=7.3.0
+Requires-Dist: coverage>=7.3.0
+Requires-Dist: pylint>=2.17.5
+Requires-Dist: pdftextsplitter>=1.2.5
+
+# DeltaTextsplitter package
+
+This package is meant for evaluating the text structure recognition capabilities of the package
+[pdftextsplitter](https://pypi.org/project/pdftextsplitter/)
+It is under development.
+
+### Excel-parser
+
+from deltattextsplitter import documentclass <br />
+mydoc.splitter.set_documentname("mydocument") <br />
+mydoc.splitter.set_documentpath("/path/to/document/") <br />
+mydoc.splitter.set_outputpath("/path/for/writing/") <br />
+mydoc.splitter.standard_params() <br />
+mydoc.splitter.process() <br />
+mydoc.outputpath = "/path/to/my/new/excel/" <br />
+mydoc.export_outcomes() <br />
+<br />
+And then you have your output excel. You can also read an excel by:
+mydoc.referencepath = "/path/to/my/new/excel/" <br />
+mydoc.read_references() <br />
+and then compare pandas dataframes mydoc.outcomes and mydoc.references
+to calculate KPI's and other comparisons.

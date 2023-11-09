@@ -1,0 +1,25 @@
+Een hoofdstukje
+Hier even een stukje text om te zorgen dat een normale regelafstand het
+vaakste voorkomt.
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that Mrs.
+Bennet, however, with the assistance of her five daughters, could ask on the subject,
+was sufficient to draw from her husband any satisfactory description of Mr. Bingley.
+They attacked him in various ways–with barefaced questions, ingenious suppositions,
+and distant surmises; but he eluded the skill of them all, and they were at last obliged
+to accept the second-hand intelligence of their neighbour, Lady Lucas. Her report was
+highly favourable. Sir William had been delighted with him. He was quite young,
+wonderfully handsome, extremely agreeable, and, to crown the whole, he meant to
+be at the next assembly with a large party. Nothing could be more delightful! To be
+fond of dancing was a certain step towards falling in love; and very lively hopes of
+Mr. Bingley’s heart were entertained.
+III) Dit moet dus bigroman worden.
+iv) en dit dan smallroman.
+A) en dan willen we ook nog een bigletter type.
+f) en natuurlijk een smallletter erbij.
+3) en dan ook nog een cijfertje (digit).
+- en to slotte een signmark.
+1 and some stupid footertext.

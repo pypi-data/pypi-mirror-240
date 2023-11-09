@@ -1,0 +1,117 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Sixenums] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Sixenums
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Hier even een stukje text om te zorgen dat een normale regelafstand het vaakste voorkomt. Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that Mrs. Bennet, however, 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Een hoofdstukje
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Hier even een stukje text om te zorgen dat een normale regelafstand het vaakste voorkomt. Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that Mrs. Bennet, however, 
+
+ [ALINEA-CONTENT]:
+Hier even een stukje text om te zorgen dat een normale regelafstand het
+vaakste voorkomt.
+Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young
+
+          ***          [--- more alinea content ---]        ***          
+
+be at the next assembly with a large party. Nothing could be more delightful! To be
+fond of dancing was a certain step towards falling in love; and very lively hopes of
+Mr. Bingley’s heart were entertained.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = III) Dit moet dus bigroman worden. 
+ nativeID=2 parentID=1 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+III) Dit moet dus bigroman worden. iv) en dit dan smallroman. A) en dan willen we ook nog een bigletter type. f) en natuurlijk een smallletter erbij. 3) en dan ook nog een cijfertje (digit). - en to slotte een signmark. 
+
+ [ALINEA-CONTENT]:
+III) Dit moet dus bigroman worden.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = iv) en dit dan smallroman. 
+ nativeID=3 parentID=2 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+iv) en dit dan smallroman. A) en dan willen we ook nog een bigletter type. f) en natuurlijk een smallletter erbij. 3) en dan ook nog een cijfertje (digit). - en to slotte een signmark. 
+
+ [ALINEA-CONTENT]:
+iv) en dit dan smallroman.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = A) en dan willen we ook ...
+ nativeID=4 parentID=3 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A) en dan willen we ook nog een bigletter type. f) en natuurlijk een smallletter erbij. 3) en dan ook nog een cijfertje (digit). - en to slotte een signmark. 
+
+ [ALINEA-CONTENT]:
+A) en dan willen we ook nog een bigletter type.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=5
+ [TITLE] = f) en natuurlijk een smallletter erbij. 
+ nativeID=5 parentID=4 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+f) en natuurlijk een smallletter erbij. 3) en dan ook nog een cijfertje (digit). - en to slotte een signmark. 
+
+ [ALINEA-CONTENT]:
+f) en natuurlijk een smallletter erbij.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=6
+ [TITLE] = 3) en dan ook nog een ...
+ nativeID=6 parentID=5 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3) en dan ook nog een cijfertje (digit). - en to slotte een signmark. 
+
+ [ALINEA-CONTENT]:
+3) en dan ook nog een cijfertje (digit).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=7
+ [TITLE] = - en to slotte een signmark. 
+ nativeID=7 parentID=6 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+- en to slotte een signmark. 
+
+ [ALINEA-CONTENT]:
+- en to slotte een signmark.
+
+---------------------------------------------------------------------------------

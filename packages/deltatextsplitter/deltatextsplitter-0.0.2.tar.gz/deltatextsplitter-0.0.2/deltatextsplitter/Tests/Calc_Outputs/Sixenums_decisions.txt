@@ -1,0 +1,44 @@
+##################################################################
+### [TEXTSPLITTER CLASS] #########################################
+### [Breakdown decisions for document Sixenums] ###
+##################################################################
+
+Left=17.374849999999995 | Value=24.71297750000001 | Right=24.93534500000001 | Freq=0.010861132660977503 | Cascade=1 | Regular=False
+Left=9.81435499999998 | Value=10.03672249999998 | Right=17.374849999999995 | Freq=0.9891388673390225 | Cascade=2 | Regular=True
+
+
+
+L=-4.184873136 | Val=-1.9554407880000002 | R=-1.5500894520000001 | Freq=0.04 | Reg=False | small=True | BIG=False | zero=False | valid=False
+L=-1.5500894520000001 | Val=-1.144738116 | R=5.34088326 | Freq=0.04 | Reg=False | small=True | BIG=False | zero=True | valid=True
+L=5.34088326 | Val=11.826504636000001 | R=15.474666660000004 | Freq=0.64 | Reg=True | small=False | BIG=False | zero=False | valid=True
+L=15.474666660000004 | Val=19.122828684000005 | R=20.541558360000003 | Freq=0.04 | Reg=False | small=False | BIG=True | zero=False | valid=True
+L=20.541558360000003 | Val=21.960288036000005 | R=100000.0 | Freq=0.24 | Reg=False | small=False | BIG=True | zero=False | valid=True
+
+
+
+[FONTSIZE=24.78710000000001] <=> [VERTPOS=589.6563026] <=> [WHITELINES=-1.0;19.042047000000025] <=> [TEXTLEVEL=1] <=> [TEXTLABEL=<texttype.HEADLINES] <=> [CONTENT=<Een hoofdstukje>]
+[FONTSIZE=9.962600000000066] <=> [VERTPOS=570.6142556] <=> [WHITELINES=19.042047000000025;11.955000000000041] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<Hier even een stukje text om te zorgen dat een normale regelafstand het>]
+[FONTSIZE=9.962600000000066] <=> [VERTPOS=558.6592555999999] <=> [WHITELINES=11.955000000000041;11.955000000000041] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<vaakste voorkomt.>]
+[FONTSIZE=9.962600000000066] <=> [VERTPOS=546.7042555999999] <=> [WHITELINES=11.955000000000041;11.955000000000041] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<Why, my dear, you must know, Mrs. Long says that Netherfield is taken by a young>]
+[FONTSIZE=9.962600000000066] <=> [VERTPOS=534.7492555999999] <=> [WHITELINES=11.955000000000041;11.955000000000041] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<man of large fortune from the north of England; that he came down on Monday in a>]
+[FONTSIZE=9.962600000000066] <=> [VERTPOS=522.7942555999998] <=> [WHITELINES=11.955000000000041;11.95599999999996] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<chaise and four to see the place, and was so much delighted with it, that he agreed>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=510.83825559999985] <=> [WHITELINES=11.95599999999996;11.954999999999984] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<with Mr. Morris immediately; that he is to take possession before Michaelmas, and>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=498.88325559999987] <=> [WHITELINES=11.954999999999984;11.954999999999984] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<some of his servants are to be in the house by the end of next week. Not all that Mrs.>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=486.9282555999999] <=> [WHITELINES=11.954999999999984;11.954999999999984] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<Bennet, however, with the assistance of her five daughters, could ask on the subject,>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=474.9732555999999] <=> [WHITELINES=11.954999999999984;11.954999999999984] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<was sufficient to draw from her husband any satisfactory description of Mr. Bingley.>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=463.0182555999999] <=> [WHITELINES=11.954999999999984;11.954999999999984] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<They attacked him in various ways–with barefaced questions, ingenious suppositions,>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=451.06325559999993] <=> [WHITELINES=11.954999999999984;11.956000000000017] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<and distant surmises; but he eluded the skill of them all, and they were at last obliged>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=439.1072555999999] <=> [WHITELINES=11.956000000000017;11.954999999999984] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<to accept the second-hand intelligence of their neighbour, Lady Lucas. Her report was>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=427.15225559999993] <=> [WHITELINES=11.954999999999984;11.954999999999984] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<highly favourable. Sir William had been delighted with him. He was quite young,>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=415.19725559999995] <=> [WHITELINES=11.954999999999984;11.954999999999984] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<wonderfully handsome, extremely agreeable, and, to crown the whole, he meant to>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=403.24225559999996] <=> [WHITELINES=11.954999999999984;11.954999999999984] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<be at the next assembly with a large party. Nothing could be more delightful! To be>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=391.2872556] <=> [WHITELINES=11.954999999999984;11.956000000000017] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<fond of dancing was a certain step towards falling in love; and very lively hopes of>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=379.33125559999996] <=> [WHITELINES=11.956000000000017;21.916999999999973] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<Mr. Bingley’s heart were entertained.>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=357.4142556] <=> [WHITELINES=21.916999999999973;21.918000000000006] <=> [TEXTLEVEL=2] <=> [TEXTLABEL=<texttype.ENUMERATION] <=> [CONTENT=<III) Dit moet dus bigroman worden.>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=335.4962556] <=> [WHITELINES=21.918000000000006;21.918000000000006] <=> [TEXTLEVEL=3] <=> [TEXTLABEL=<texttype.ENUMERATION] <=> [CONTENT=<iv) en dit dan smallroman.>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=313.5782556] <=> [WHITELINES=21.918000000000006;21.918000000000006] <=> [TEXTLEVEL=4] <=> [TEXTLABEL=<texttype.ENUMERATION] <=> [CONTENT=<A) en dan willen we ook nog een bigletter type.>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=291.66025559999997] <=> [WHITELINES=21.918000000000006;21.918000000000006] <=> [TEXTLEVEL=5] <=> [TEXTLABEL=<texttype.ENUMERATION] <=> [CONTENT=<f) en natuurlijk een smallletter erbij.>]
+[FONTSIZE=9.962600000000009] <=> [VERTPOS=269.74225559999996] <=> [WHITELINES=21.918000000000006;21.917] <=> [TEXTLEVEL=6] <=> [TEXTLABEL=<texttype.ENUMERATION] <=> [CONTENT=<3) en dan ook nog een cijfertje (digit).>]
+[FONTSIZE=9.96259999999998] <=> [VERTPOS=247.82525559999996] <=> [WHITELINES=21.917;-2.0] <=> [TEXTLEVEL=7] <=> [TEXTLABEL=<texttype.ENUMERATION] <=> [CONTENT=<- en to slotte een signmark.>]
+[FONTSIZE=9.962599999999995] <=> [VERTPOS=37.14725559999996] <=> [WHITELINES=-2.0;-2.0] <=> [TEXTLEVEL=3] <=> [TEXTLABEL=<texttype.FOOTER] <=> [CONTENT=<1 and some stupid footertext.>]
+[FONTSIZE=9.962599999999995] <=> [VERTPOS=37.14725559999996] <=> [WHITELINES=-2.0;-2.0] <=> [TEXTLEVEL=3] <=> [TEXTLABEL=<texttype.FOOTER] <=> [CONTENT=<>]
