@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: flake8-zale
+Version: 0.1.0.post1
+Summary: Indentation checker for flake8
+Home-page: https://github.com/Kirill-Lekhov/flake8-zale
+License: MIT
+Keywords: flake8,plugin
+Author: Kirill_Lekhov
+Author-email: Kirill.Lekhov@mail.ru
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/Kirill-Lekhov/flake8-zale
+Description-Content-Type: text/markdown
+
+# flake8-zale [![codecov](https://codecov.io/gh/Kirill-Lekhov/flake8-zale/graph/badge.svg?token=6T2V5MTDA7)](https://codecov.io/gh/Kirill-Lekhov/flake8-zale)
+
+
+This is a plugin for Flake8 that allows you to check the use of tabs, not spaces.
+
+## Installation
+```shell
+pip install flake8-zale
+```
