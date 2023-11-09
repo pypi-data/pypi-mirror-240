@@ -1,0 +1,12 @@
+RobotFrameworkService/Config.py,sha256=1c4NQAFybeGg50vAFWhBfI4S8bSFK8HEzyVK2fnZKVg,573
+RobotFrameworkService/__init__.py,sha256=EkZF3ZHgE9RgH3NaTXGrS7tlbHidJgFFOMGwonlMPXA,61
+RobotFrameworkService/constants.py,sha256=XaDnCsivSS_WBUHVxGCqXzHaXBX6FX6__juyCzmWlg4,50
+RobotFrameworkService/main.py,sha256=R2IqCVnIbogJDnYMx4O9T5TUJgfYN92-Tn27t3piItw,2924
+RobotFrameworkService/version.py,sha256=TCAYyLD5kTaVPct3038WXq_-IiMpFA2x7wWd4TdaRWY,59
+RobotFrameworkService/routers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RobotFrameworkService/routers/robotframework.py,sha256=NeraCtogWSaFOpNTsnaXtg71RqscK9EIbmF368z67MQ,8523
+robotframework_webservice-0.10.0.dist-info/LICENSE,sha256=GpjfXPe7H7eFjMhe3pGWySco0T3FLvyuGNd3KU6xwm8,11364
+robotframework_webservice-0.10.0.dist-info/METADATA,sha256=6HVAzBeKMjZ6MWKfsXxGQqgXHJ8SkXT3NWTeKCu4owg,4706
+robotframework_webservice-0.10.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+robotframework_webservice-0.10.0.dist-info/top_level.txt,sha256=KK09xEKl5FRPJ1R4IBNy3cOr3g5Iih5HcONizULERbU,22
+robotframework_webservice-0.10.0.dist-info/RECORD,,
