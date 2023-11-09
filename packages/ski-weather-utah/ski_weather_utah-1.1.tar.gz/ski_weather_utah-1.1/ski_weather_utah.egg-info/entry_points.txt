@@ -1,0 +1,3 @@
+[console_scripts]
+ski-utah-config = ski_weather_utah.setup_script:run_setup_script
+ski-utah-cron = ski_weather_utah.configure_cron:main
