@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: python-semantic-retrieval
+Version: 0.1.1
+Summary: Semantic Retrieval Python Library
+Author-email: Sarmad Qadri <sarmad@lastmileai.dev>
+Project-URL: Homepage, https://github.com/lastmile-ai/semantic-retrieval
+Project-URL: Bug Tracker, https://github.com/lastmile-ai/semantic-retrieval/issues
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests ==2.30.0
+Requires-Dist: black
+Requires-Dist: flake8
+Requires-Dist: pytest
+Requires-Dist: pydantic >=2.1
+Requires-Dist: openai ==0.28.1
+Requires-Dist: python-dotenv
+Requires-Dist: pytest-asyncio
+Requires-Dist: pyright
+Requires-Dist: cchardet
+Requires-Dist: pandas
+Requires-Dist: chardet
+Requires-Dist: scikit-learn
+Requires-Dist: result
+Requires-Dist: langchain ==0.0.325
+Requires-Dist: tiktoken
+Requires-Dist: pinecone-client
+Requires-Dist: python-aiconfig
+
+# Semantic Retrieval Python
+
+Python library for Semantic Retreival project
+
+# Development
+
+```
+conda env create -f environment.yml
+conda activate semantic_retrieval
+```
+
+Setup VSCode to use conda virtual environment
+
+# Testing
+
+In virtual env, link package to src directory, then run pytest
+
+```
+pip install -e .
+```
+
+```
+pytest
+```
