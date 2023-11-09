@@ -1,0 +1,2 @@
+[console_scripts]
+isd_s3 = isd_s3.__main__:pipmain
