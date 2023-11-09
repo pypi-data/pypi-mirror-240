@@ -1,0 +1,10 @@
+odoo/addons/ssi_quality_control_related_attachment/README.rst,sha256=c_7Zrrsn5VuczjlknuuZVwkQB6qF0YrYiHRmRZfQD9A,1350
+odoo/addons/ssi_quality_control_related_attachment/__init__.py,sha256=M7twq1SJz2cc98CkgeiDiDg05QWWFb09lt5oh03-axA,181
+odoo/addons/ssi_quality_control_related_attachment/__manifest__.py,sha256=RbVAqLmX6Q8t_jZ3Yxpva6Crn737SnEV17MTNN11q20,534
+odoo/addons/ssi_quality_control_related_attachment/models/__init__.py,sha256=QtMd4q2VNV9pMejAD1vA-M89qmIihp5kE1UUtlp4zZo,187
+odoo/addons/ssi_quality_control_related_attachment/models/qc_worksheet.py,sha256=XacJ4d8FTJ5x-KCCX9oKAIDALM4eBxVBUmuUPj-s7iU,363
+odoo/addons/ssi_quality_control_related_attachment/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_quality_control_related_attachment-14.0.1.0.0.dist-info/METADATA,sha256=kJZ_5IA5sZt7dPB0z3UKEc-qwpgaxJcAoE6HX1CC06k,2008
+odoo14_addon_ssi_quality_control_related_attachment-14.0.1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_quality_control_related_attachment-14.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_quality_control_related_attachment-14.0.1.0.0.dist-info/RECORD,,
