@@ -1,0 +1,7 @@
+src/PyNUT.py,sha256=FhIPR5Vb63JmhpMYcQC1W6Sdm58iq8H59MzxrFy2wlo,18592
+src/__init__.py,sha256=cfdTOHcNCIu-S3KzTIKK4gI7TzFNI6ESUUtsp1ckeVw,20
+src/test_nutclient.py,sha256=-6Lbzkym9n9s8Jo4nb_71WTVnHb5kdBIx0LWmu70IN0,6532
+PyNUTClient-2.8.1.dist-info/METADATA,sha256=vgMbCaPPn5oWxAOoLWQvkc_91oxNzvB77x97i6NUFwA,12634
+PyNUTClient-2.8.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+PyNUTClient-2.8.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+PyNUTClient-2.8.1.dist-info/RECORD,,
