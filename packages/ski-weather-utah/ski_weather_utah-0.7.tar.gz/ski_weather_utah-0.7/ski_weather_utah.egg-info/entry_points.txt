@@ -1,0 +1,2 @@
+[console_scripts]
+ski-utah-config = ski_weather_utah.setup_script:run_setup_script
