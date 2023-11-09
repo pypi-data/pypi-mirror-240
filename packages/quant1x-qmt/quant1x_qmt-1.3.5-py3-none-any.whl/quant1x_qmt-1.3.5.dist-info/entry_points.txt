@@ -1,0 +1,3 @@
+[console_scripts]
+quant1x-proxy = quant1x.proxy.__main__:mini_qmt_trader
+quant1x-qmt = quant1x.qmt.__main__:main
