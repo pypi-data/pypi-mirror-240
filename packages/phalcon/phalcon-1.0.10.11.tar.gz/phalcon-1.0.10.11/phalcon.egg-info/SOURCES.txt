@@ -1,0 +1,8 @@
+README.md
+setup.py
+phalcon.egg-info/PKG-INFO
+phalcon.egg-info/SOURCES.txt
+phalcon.egg-info/dependency_links.txt
+phalcon.egg-info/entry_points.txt
+phalcon.egg-info/requires.txt
+phalcon.egg-info/top_level.txt
