@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+src/pointing/__init__.py
+src/pointing.egg-info/PKG-INFO
+src/pointing.egg-info/SOURCES.txt
+src/pointing.egg-info/dependency_links.txt
+src/pointing.egg-info/top_level.txt
