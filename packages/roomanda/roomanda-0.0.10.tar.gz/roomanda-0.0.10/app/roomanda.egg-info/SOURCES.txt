@@ -1,0 +1,9 @@
+setup.py
+app/room/__init__.py
+app/room/src/__init__.py
+app/room/src/room.py
+app/roomanda.egg-info/PKG-INFO
+app/roomanda.egg-info/SOURCES.txt
+app/roomanda.egg-info/dependency_links.txt
+app/roomanda.egg-info/requires.txt
+app/roomanda.egg-info/top_level.txt
