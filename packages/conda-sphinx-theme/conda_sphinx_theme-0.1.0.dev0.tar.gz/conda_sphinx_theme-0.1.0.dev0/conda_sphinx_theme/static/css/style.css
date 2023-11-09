@@ -1,0 +1,161 @@
+/* rgb #11557c */
+html[data-theme="light"] {
+  --pst-color-text-base: rgb(51, 51, 51);
+  --sd-color-primary-text: rgb(250, 250, 250);
+  --pst-color-link: hsl(202, 76%, 25%);
+  --pst-color-primary: #348721;
+  --pst-color-primary-highlight: #2f7a1e;
+
+  --ifm-color-primary-dark: #2f7a1e;
+  --ifm-color-primary-darker: #2c731c;
+  --ifm-color-primary-darkest: #245e17;
+  --ifm-color-primary-light: #399524;
+  --ifm-color-primary-lighter: #3c9b26;
+  --ifm-color-primary-lightest: #44b02b;
+  --ifm-color-primary-contrast-background: #f0fded;
+}
+
+html[data-theme="dark"] {
+  --pst-color-primary: rgb(70, 152, 198);
+  --pst-color-text-base: rgb(250, 250, 250);
+  --sd-color-primary-text: rgb(51, 51, 51);
+  --pst-color-link: hsl(202, 53%, 80%);
+  --pst-color-primary: #43b02a;
+  --pst-color-primary-highlight: #3c9e26;
+  --ifm-color-primary-dark: #3c9e26;
+  --ifm-color-primary-darker: #399624;
+  --ifm-color-primary-darkest: #2f7b1d;
+  --ifm-color-primary-light: #4ac22e;
+  --ifm-color-primary-lighter: #4dca30;
+  --ifm-color-primary-lightest: #62d348;
+  --ifm-color-primary-contrast-background: #245e17;
+}
+
+:root {
+--pst-color-link-hover: var(--pst-color-secondary);
+}
+
+.sidebar-cheatsheets, .sidebar-donate {
+  margin: 2.75rem 0;
+}
+
+#navbar-icon-links {
+    margin-left: 1.5em;
+}
+
+#navbar-icon-links .nav-link {
+  color: #989898;
+}
+
+#navbar-icon-links .nav-link:hover {
+  color: var(--pst-color-primary);
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+/** Custom Fonts **/
+
+@font-face {
+  font-family: open-sans;
+  src: url("../fonts/opensans-bolditalic-webfont.woff2") format("woff2");
+  src: url("../fonts/opensans-bolditalic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: open-sans;
+  src: url("../fonts/opensans-italic-webfont.woff2") format("woff2");
+  src: url("../fonts/opensans-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: open-sans;
+  src: url("../fonts/opensans-regular-webfont.woff2") format("woff2");
+  src: url("../fonts/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: open-sans;
+  src: url("../fonts/opensans-bold-webfont.woff2") format("woff2");
+  src: url("../fonts/opensans-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nunito;
+  src: url("../fonts/nunito-bolditalic-webfont.woff2") format("woff2");
+  src: url("../fonts/nunito-bolditalic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: nunito;
+  src: url("../fonts/nunito-italic-webfont.woff2") format("woff2");
+  src: url("../fonts/nunito-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: nunito;
+  src: url("../fonts/nunito-regular-webfont.woff2") format("woff2");
+  src: url("../fonts/nunito-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: nunito;
+  src: url("../fonts/nunito-bold-webfont.woff2") format("woff2");
+  src: url("../fonts/nunito-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+html, body {
+    font-family: open-sans, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: nunito, sans-serif;
+}
+/** End Custom Fonts **/
+
+/** Navbar CSS **/
+a.navbar-brand > p.title {
+    margin-left: 0.5em;
+}
+
+/** Bootstrap overrides **/
+
+.text-bg-primary {
+    background-color: var(--pst-color-primary) !important;
+    color: #fff !important;
+}
+
+.text-small {
+    font-size: 0.875rem;
+}
+
+/** End Bootstrap overrides **/
+
+/** Front page cards **/
+
+.front-page-card > .card-header {
+    font-size: 1.25em;
+    font-family: nunito, sans-serif;
+    text-align: center;
+}
+
+
+/** End front page cards **/
