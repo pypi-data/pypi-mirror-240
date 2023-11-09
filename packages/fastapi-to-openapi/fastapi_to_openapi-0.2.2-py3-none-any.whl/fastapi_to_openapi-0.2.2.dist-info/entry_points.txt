@@ -1,0 +1,3 @@
+[console_scripts]
+fastapi_to_openapi=fastapi_to_openapi.main:cli
+
