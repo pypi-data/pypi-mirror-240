@@ -1,0 +1,6 @@
+README.md
+setup.py
+chenhuiming.egg-info/PKG-INFO
+chenhuiming.egg-info/SOURCES.txt
+chenhuiming.egg-info/dependency_links.txt
+chenhuiming.egg-info/top_level.txt
