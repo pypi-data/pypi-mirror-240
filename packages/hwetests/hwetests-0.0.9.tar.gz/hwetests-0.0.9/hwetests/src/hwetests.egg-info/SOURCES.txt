@@ -1,0 +1,7 @@
+README.md
+setup.py
+hwetests/src/hwetests.egg-info/PKG-INFO
+hwetests/src/hwetests.egg-info/SOURCES.txt
+hwetests/src/hwetests.egg-info/dependency_links.txt
+hwetests/src/hwetests.egg-info/top_level.txt
+hwetests/src/hwetests.egg-info/SOURCES.txt
