@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: lightkurve-ext
+Version: 0.1.1
+Summary: Extras for the "lightkurve" library.
+Home-page: https://github.com/ckm3/lightkurve-ext
+Author: Kaiming Cui
+Author-email: cuikaiming@sjtu.edu.cn
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+        # LightKurve-ext
+        This is an extension for the [LightKurve](https://github.com/lightkurve/lightkurve) package.
+        It provides some useful functions for light curve analysis.
+        E.g. ``search_lightcurve`` can search your downloaded light curve files locally and return a LightCurveCollection object.
+    

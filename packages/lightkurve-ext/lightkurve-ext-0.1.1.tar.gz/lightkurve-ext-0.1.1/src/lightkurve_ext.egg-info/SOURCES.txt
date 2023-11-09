@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/lightkurve_ext/__init__.py
+src/lightkurve_ext/helper_func.py
+src/lightkurve_ext/lc_collection.py
+src/lightkurve_ext/scan.py
+src/lightkurve_ext/search_local.py
+src/lightkurve_ext.egg-info/PKG-INFO
+src/lightkurve_ext.egg-info/SOURCES.txt
+src/lightkurve_ext.egg-info/dependency_links.txt
+src/lightkurve_ext.egg-info/requires.txt
+src/lightkurve_ext.egg-info/top_level.txt
+tests/test_lc_objects.py
+tests/test_search.py
