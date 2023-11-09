@@ -1,0 +1,7 @@
+tlgbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tlgbot/rest.py,sha256=MG0FxoUxqqJAD2xDKZ_XsxyDCmb0sEjEeKoDILBVqVw,3558
+tlgbot/tlgbot.py,sha256=rQoVTJifeyqrYXr58JFh4UMRB021VZqt_2xFIbRJyVU,6639
+tlgbot-1.1.dist-info/METADATA,sha256=ifdVjGiV-lVbQHncEaaIDfiUuOP6jyhf7AQFlpfY_Tg,4123
+tlgbot-1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tlgbot-1.1.dist-info/top_level.txt,sha256=p5eRBWwLqXhbNbrWXygsLjM98pIVd-zuoODIXnfJ5qQ,7
+tlgbot-1.1.dist-info/RECORD,,
