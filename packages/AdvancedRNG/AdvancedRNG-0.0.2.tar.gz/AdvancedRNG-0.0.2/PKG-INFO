@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: AdvancedRNG
+Version: 0.0.2
+Summary: Advanced random number generator with tokens
+Home-page: https://github.com/ProjectMPL/CustomRNG
+Author: LunarDev
+Author-email: -MrBASSkator@gmail.com
+Project-URL: Bug Tracker, https://github.com/ProjectMPL/CustomRNG/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a custom random number generator with advanced features including:
+-giving you a token for every random number so you can recreate your results
