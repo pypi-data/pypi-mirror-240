@@ -1,0 +1,5 @@
+pandas
+scipy
+torch==1.12.0
+transformers==4.17.0
+bert_score

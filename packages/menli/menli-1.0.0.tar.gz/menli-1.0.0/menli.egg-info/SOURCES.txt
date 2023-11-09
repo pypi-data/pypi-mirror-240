@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+menli/MENLI.py
+menli/__init__.py
+menli/metric_utils.py
+menli/moverscore_re.py
+menli.egg-info/PKG-INFO
+menli.egg-info/SOURCES.txt
+menli.egg-info/dependency_links.txt
+menli.egg-info/requires.txt
+menli.egg-info/top_level.txt

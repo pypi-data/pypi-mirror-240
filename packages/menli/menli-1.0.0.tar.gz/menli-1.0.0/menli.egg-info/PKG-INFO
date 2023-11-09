@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: menli
+Version: 1.0.0
+Summary: MENLI metric v1
+Home-page: https://github.com/cyr19/MENLI
+Author: cyr
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: torch==1.12.0
+Requires-Dist: transformers==4.17.0
+Requires-Dist: bert_score
+
+MENLI metrics
