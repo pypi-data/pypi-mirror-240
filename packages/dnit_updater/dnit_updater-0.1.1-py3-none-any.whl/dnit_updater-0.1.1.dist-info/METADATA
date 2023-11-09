@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dnit_updater
+Version: 0.1.1
+Summary: Servidor para o deploy contínuo dos serviços do DNIT EPS FGA
+License: MIT
+Author: Thiago Paiva
+Author-email: thiagohdaqw@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.104.1,<0.105.0)
+Requires-Dist: python-multipart (>=0.0.6,<0.0.7)
