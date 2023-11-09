@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cell-ann
+Version: 0.0.1rc1
+Summary: cell-ann: Cell approximate nearest neighbors
+Home-page: https://github.com/mvinyard/cell-ann
+Author: Michael E. Vinyard
+Author-email: mvinyard.ai@gmail.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.9.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: anndata >=0.10.3
+Requires-Dist: annoy >=1.17.3
+Requires-Dist: ABCParse >=0.0.7
+Requires-Dist: adata-query >=0.0.2
+
+# cell-ann
+Cell approximate nearest neighbors (ANN)
