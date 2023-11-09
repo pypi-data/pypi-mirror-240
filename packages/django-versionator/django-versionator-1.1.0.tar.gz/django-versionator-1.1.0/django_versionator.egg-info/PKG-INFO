@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-versionator
+Version: 1.1.0
+Home-page: https://github.com/AlexCleduc/django-versionator
+Author: AlexCLeduc
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: changelog
+Requires-Dist: pleasant-promises>=1.1; extra == "changelog"
+Requires-Dist: graphene<4,>=3.1.1; extra == "changelog"
+Requires-Dist: graphene-django<4,>=3; extra == "changelog"
+Requires-Dist: graphql-core-promise<4,>=3.2.3; extra == "changelog"
+
+# Django-versionator
+
+Work in progress

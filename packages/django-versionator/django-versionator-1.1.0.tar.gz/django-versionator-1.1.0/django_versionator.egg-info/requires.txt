@@ -1,0 +1,6 @@
+
+[changelog]
+pleasant-promises>=1.1
+graphene<4,>=3.1.1
+graphene-django<4,>=3
+graphql-core-promise<4,>=3.2.3
