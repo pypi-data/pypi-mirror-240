@@ -1,0 +1,10 @@
+numpy
+cvxpy
+pandas
+scipy
+pysam
+pararead
+logmuse
+
+[mosek]
+mosek
