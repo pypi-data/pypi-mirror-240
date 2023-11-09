@@ -1,0 +1,18 @@
+AUTHORS.rst
+LICENSE.rst
+MANIFEST.in
+README.rst
+setup.py
+docs/IO License Terms.pdf
+docs/Seeker_Reference_Manual.pdf
+docs/Seeker_User_s_Manual.pdf
+docs/authors.rst
+docs/index.rst
+docs/installation.rst
+docs/readme.rst
+docs/usage.rst
+seeker/insideopt_seeker.egg-info/PKG-INFO
+seeker/insideopt_seeker.egg-info/SOURCES.txt
+seeker/insideopt_seeker.egg-info/dependency_links.txt
+seeker/insideopt_seeker.egg-info/not-zip-safe
+seeker/insideopt_seeker.egg-info/top_level.txt
