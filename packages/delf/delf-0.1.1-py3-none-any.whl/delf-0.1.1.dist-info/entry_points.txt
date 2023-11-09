@@ -1,0 +1,3 @@
+[console_scripts]
+delf=load:main
+
