@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: planned
+Version: 0.1.0
+Summary: planned is job monitoring library which designed to observe user-defined triggers
+Home-page: https://github.com/nisaji/planned
+Author: nisaji
+Author-email: nisaji27@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# planned
+
+planned is job monitoring library which designed to observe user-defined triggers
+
+## Installation
+
+To install Puppets, simply use pip:
+
+```bash
+pip install puppets
+
+```
