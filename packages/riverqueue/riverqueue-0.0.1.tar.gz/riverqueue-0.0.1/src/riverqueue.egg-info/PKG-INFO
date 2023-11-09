@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: riverqueue
+Version: 0.0.1
+Summary: A fast job queue for Go
+Author-email: Brandur Leach <brandur@brandur.org>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: GitHub, https://github.com/riverqueue/riverqueue-python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# River Python bindings
+
+A future home for River's Python bindings. For now, the [MyPI package is registered](https://pypi.org/project/riverqueue/), but nothing else is done.
+
+``` sh
+$ python3 -m pip install --upgrade build
+$ python3 -m pip install --upgrade twine
+```
+
+``` sh
+$ python3 -m build
+$ python3 -m twine upload --repository pypi dist/*
+```
