@@ -1,0 +1,68 @@
+[flake8]
+
+# It's 2021. We can fit more than 80 columns on today's terminals
+max-line-length = 100
+
+# B902
+#
+# This complains about catching `Exception`. The idea is a noble one.
+# However, Python lacks checked exceptions and is not very formal in
+# documenting exceptions that can be thrown by varions methods. For 
+# example, there appears to be no mention in the Python documentation 
+# about exceptions that could be thrown by IO.close(). However, 
+# https://github.com/python/cpython/blob/master/Modules/_io/fileio.c
+# indicates that close() can throw an OSError. There is no other
+# reasonable solution to catching exceptions thrown by methods 
+# whose exceptions are unspecified than catching generic exceptions.
+
+
+# D401 - "First line should be in imperative mood". 
+#
+# It's somewhat ironic that a language with such a lax type system
+# have such a rigid style spec.
+
+# D100 - "Missing docstring in public module"
+#
+# It is more common than not in this implementation for a module to
+# contain a single class. Consequently, module docstrings are mostly
+# redundant.
+
+# W503 - "Line break before binary operator"
+#
+# Well, so "Line break after binary operator" also gives a warning,
+# which means there's no way to break long lines of consecutive
+# binary operators! Welcome to Python.
+#
+# See https://www.python.org/dev/peps/pep-0008/#should-a-line-break-before-or-after-a-binary-operator
+# for a discussion about the issue and why we disable this.
+
+# D205 - "1 blank line required between summary line and description"
+# D400 - "First line should end with a period"
+#
+# Sphinx (autoclass) has three modes of operation when it comes to
+# documenting classes: 'class', 'init', and 'both'. This pertains to how
+# docstrings for the class and init method are handled. Autoclass does
+# not produce a separate text for the class and init methods, but the
+# options above describe where the constructor documentation comes from.
+# This can be either the class docstring (autoclass_content = 'class')
+# or the __init__ docstring or both concatenated. The 'class' options
+# results in empty decriptions for the __init__ parameters. The
+# 'init' option ignores the class docstring, so, in order to get that
+# part into the output, it would need to be duplicated in the __init__
+# docstring. The better option is 'both'. However saying something like
+# "This class..." in the class docstring and "Initializes..." in the
+# __init__ docstring results in awkward phrasing when put together.
+# One can omit the description on the __init__ docstring and simply
+# document the parameters, but then flake8 complains about the
+# structure of the __init__ doctsring. The D205 and D400 errors are
+# precisely those complains. We disable these in order to have a
+# sane way of documenting classes with Sphinx' autoclass.
+
+
+ignore = B902, D205, D400, D401, D100, W503
+
+# D103 - Missing docstring in public function
+#
+# Ignore docstrings requirement in tests
+
+per-file-ignores = tests/*:D103

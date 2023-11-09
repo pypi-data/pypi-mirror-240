@@ -1,0 +1,28 @@
+#!/usr/bin/python3
+import os
+import sys
+
+from qlib import *
+from filelock import FileLock
+
+
+if len(sys.argv) > 1:
+    ids = sys.argv[1]
+else:
+    ids = None
+
+
+with FileLock(lock_file):
+    if not state_file.exists():
+        sys.exit(0)
+    state = read_state()
+
+if ids is not None:
+    idlist = ids.split(',')
+    for id in idlist:
+        if id in state['jobs']:
+            j = state['jobs'][id]
+            print('%s %s %s' % (id, j['state'], j['error']))
+else:
+    for id in state['jobs'].keys():
+        print(id)
