@@ -1,0 +1,16 @@
+opencv-python
+mediapipe
+regex
+scipy
+gradio
+uuid7
+scikit-learn
+xxhash
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
