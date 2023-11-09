@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: isd-s3
+Version: 1.1.0
+Summary: 
+License: LICENSE
+Author: Riley Conroy
+Author-email: rpconroy@ucar.edu
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boto3 (>=1.28.80,<2.0.0)
+Description-Content-Type: text/markdown
+
+# isd-s3
+NCAR ISD S3 Object Storage utility.
+
+A command line tool to manage data access to the NCAR S3 Object Storage
+system.  Developed by the Information Systems Division (ISD), a division 
+within the Computational and Information Systems Laboratory (CISL) at the
+National Center for Atmospheric Research (NCAR).
+
+Source Code: [https://github.com/NCAR/isd-s3](https://github.com/NCAR/isd-s3)
+
+### Installation
+Install with `pip install ncar-isd-s3`
+
+You can then import the module `isd_s3`.  For example:
+```
+from isd_s3 import isd_s3
+session = isd_s3.Session()
+session.list_buckets()
+```
+
