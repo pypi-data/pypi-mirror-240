@@ -1,0 +1,8 @@
+compmec/section/__init__.py,sha256=TkebgSR3_VFJxAF8iQw4p3g6I9uhZNe0F1Ue2aZL8cY,202
+compmec/section/bem2d.py,sha256=-Z3Kpodo9L-W3J3ADzjLDE5XvFc1ZmydUNHLr3PeWLA,16469
+compmec/section/material.py,sha256=PDTnKG8nHFZSz569_htsi60q7Ptfz9TVnpgiTzDOW7E,3392
+compmec/section/section.py,sha256=rE6ZCGZpTv0Lxd2RdRGkZlNdQM57k0M6yOcGqJG4eOw,4950
+compmec_section-0.2.0.dist-info/LICENSE.md,sha256=eMgFzm8Pvz5bst1zicPqAuM2J4L-bUnzUFsn1mQpapU,1079
+compmec_section-0.2.0.dist-info/METADATA,sha256=ZOeri5-0EPntL4O9RZ6McOcRxDR8o3d-uSGJf1tMEx4,2743
+compmec_section-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+compmec_section-0.2.0.dist-info/RECORD,,
