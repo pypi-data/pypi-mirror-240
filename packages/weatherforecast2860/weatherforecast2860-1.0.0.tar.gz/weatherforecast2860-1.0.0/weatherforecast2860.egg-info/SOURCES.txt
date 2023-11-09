@@ -1,0 +1,8 @@
+setup.py
+weatherforecast2860/__init__.py
+weatherforecast2860/weatherforecast2860.py
+weatherforecast2860.egg-info/PKG-INFO
+weatherforecast2860.egg-info/SOURCES.txt
+weatherforecast2860.egg-info/dependency_links.txt
+weatherforecast2860.egg-info/requires.txt
+weatherforecast2860.egg-info/top_level.txt
