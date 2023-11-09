@@ -1,0 +1,10 @@
+numpy
+gdal
+matplotlib
+cartopy
+
+[statistics]
+netCDF4
+pandas
+scipy
+statsmodels
