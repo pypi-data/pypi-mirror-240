@@ -1,0 +1,10 @@
+itk/GenericLabelInterpolatorPython.py,sha256=0iHovX1esIj5e76pT2ZDcZqQ5nVKJwTFvcWmD0JX96k,2430
+itk/_GenericLabelInterpolatorPython.so,sha256=53araE9D3zoZspyo8XUBi1w9-WAzHEPvdPzBGvRfqC0,1991824
+itk/itkLabelImageGenericInterpolateImageFunctionPython.py,sha256=4UeH0Yeg3ij5GOmw0QQa0QuoqonFAfIMU1iwPIYt_2Q,132313
+itk/Configuration/GenericLabelInterpolatorConfig.py,sha256=PXqWRw1j9zcEPEmj3BvZrcwi4M4wKYFoSCAQIOWbGk8,10344
+itk/Configuration/GenericLabelInterpolator_snake_case.py,sha256=WRnLlen2jxLU1s5GGArPufZ1-DR4D7SdRd25VYoBFXE,26
+itk_genericlabelinterpolator-1.2.1.dist-info/LICENSE,sha256=qsc7MUj20dcRHbyjIJn2jSbGRMaBOuHk8F9leaomY_4,11360
+itk_genericlabelinterpolator-1.2.1.dist-info/METADATA,sha256=5MN8GZ2vzkAA8gShBxc9qFwUf5jY4F1dPMJ7P1ZmurY,1676
+itk_genericlabelinterpolator-1.2.1.dist-info/WHEEL,sha256=_0Wg2cWkNFH8-JyedQUo5zi8Mm64rhMhBZSgZNefByE,103
+itk_genericlabelinterpolator-1.2.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_genericlabelinterpolator-1.2.1.dist-info/RECORD,,
