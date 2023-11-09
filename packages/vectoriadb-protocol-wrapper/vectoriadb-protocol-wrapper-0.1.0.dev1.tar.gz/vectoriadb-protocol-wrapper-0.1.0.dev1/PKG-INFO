@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: vectoriadb-protocol-wrapper
+Version: 0.1.0.dev1
+Home-page: https://github.com/JetBrains/xodus
+License: Apache License 2.0
+License-File: LICENSE.txt
+Requires-Dist: protobuf>=4.25.0
+Requires-Dist: grpcio>=1.59.2
