@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+emmonite_send_email.egg-info/PKG-INFO
+emmonite_send_email.egg-info/SOURCES.txt
+emmonite_send_email.egg-info/dependency_links.txt
+emmonite_send_email.egg-info/top_level.txt
+send-email/__init__.py
+send-email/send_email.py
