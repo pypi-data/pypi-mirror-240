@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: quart-depends
+Version: 1.0.1
+Author-email: Joe Black <me@joeblack.nyc>
+Project-URL: Documentation, https://github.com/joeblackwaslike/quart-depends#readme
+Project-URL: Issues, https://github.com/joeblackwaslike/quart-depends/issues
+Project-URL: Source, https://github.com/joeblackwaslike/quart-depends
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: fast-depends
+Requires-Dist: pydantic<=1.10.13
+Requires-Dist: quart
+Provides-Extra: development
+Requires-Dist: aiosqlite; extra == "development"
+Requires-Dist: black; extra == "development"
+Requires-Dist: build; extra == "development"
+Requires-Dist: coverage[toml]>=6.5; extra == "development"
+Requires-Dist: python-dotenv; extra == "development"
+Requires-Dist: Flask-SQLAlchemy~=3.0.3; extra == "development"
+Requires-Dist: isort; extra == "development"
+Requires-Dist: ipython; extra == "development"
+Requires-Dist: mypy; extra == "development"
+Requires-Dist: pre-commit; extra == "development"
+Requires-Dist: pytest; extra == "development"
+Requires-Dist: pytest-env; extra == "development"
+Requires-Dist: pytest-asyncio; extra == "development"
+Requires-Dist: pytest-mock; extra == "development"
+Requires-Dist: pep8; extra == "development"
+Requires-Dist: redis; extra == "development"
+Requires-Dist: ruff; extra == "development"
+Requires-Dist: SQLAlchemy[asyncio]~=2.0.7; extra == "development"
+Requires-Dist: twine; extra == "development"
+
+# quart-depends
+
+[![PyPI - Version](https://img.shields.io/pypi/v/quart-depends.svg)](https://pypi.org/project/quart-depends)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/quart-depends.svg)](https://pypi.org/project/quart-depends)
+
+-----
+
+**Table of Contents**
+
+- [quart-depends](#quart-depends)
+  - [Installation](#installation)
+  - [License](#license)
+
+## Installation
+
+```console
+pip install quart-depends
+```
+
+## License
+
+`quart-depends` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
