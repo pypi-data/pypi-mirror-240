@@ -1,0 +1,10 @@
+setup.py
+embeddings/__init__.py
+embeddings/cli.py
+embeddings/main.py
+embeddings/storage.py
+silverarrow.egg-info/PKG-INFO
+silverarrow.egg-info/SOURCES.txt
+silverarrow.egg-info/dependency_links.txt
+silverarrow.egg-info/entry_points.txt
+silverarrow.egg-info/top_level.txt
