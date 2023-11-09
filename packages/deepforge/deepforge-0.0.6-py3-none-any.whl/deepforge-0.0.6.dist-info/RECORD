@@ -1,0 +1,15 @@
+deepforge/__init__.py,sha256=NF2TvN2r5z_N4licFMufwJNKS0mb1dHwCvvj8j6L7k8,234
+deepforge/__main__.py,sha256=rUVdNF0gDLeLx7LHhqPz4kwVbalkww5s4rkqWaUPdoo,281
+deepforge/cnn.py,sha256=yIGoIBQyCjozmgQbJA37FlTS0oWO6tndkdpKKC74EHU,3628
+deepforge/crnn.py,sha256=LgdYJnwKf8Rfw50jFH2ZOUYEVnBVnt6b23TVXX0-pig,4427
+deepforge/dae.py,sha256=uAjFLdmRo2QMLmedgNVU8I4tR8_H9GVabRpVfPC0v6A,2268
+deepforge/dnn.py,sha256=Fcz9ee5ZUlAHT2ZC_xQEdTymwV2DVQxUIqidpNhXIME,3428
+deepforge/initialize.py,sha256=wABhAKVPTNTrVF302brPGmV19t0XlmuTVjEefh8_Vow,898
+deepforge/multivariateDnn.py,sha256=gKxVKsb9hPwGFAvG7E5X1xsgdby3eBuuKNFOjJ60Emo,3025
+deepforge/rnn.py,sha256=qxmHHuDftMA9HApF5CM_ce7AJvU-01Md2FtlUdKuvCI,2970
+deepforge-0.0.6.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+deepforge-0.0.6.dist-info/METADATA,sha256=NgdXaPM6I5cOz21XUZ0IPp8LzNXZVIci3C1E0377CAY,66170
+deepforge-0.0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+deepforge-0.0.6.dist-info/entry_points.txt,sha256=NS1Hxphdsatpos3v4Yo7WAHjDjVgU3kGyhrk1IEOawE,54
+deepforge-0.0.6.dist-info/top_level.txt,sha256=C7lSVksFRbex9dKClrElzX2S5okzLSAlRtB5f4hM79I,10
+deepforge-0.0.6.dist-info/RECORD,,
