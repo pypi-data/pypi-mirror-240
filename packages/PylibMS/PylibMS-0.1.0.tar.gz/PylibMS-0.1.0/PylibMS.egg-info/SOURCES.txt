@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+LMS/__init__.py
+PylibMS.egg-info/PKG-INFO
+PylibMS.egg-info/SOURCES.txt
+PylibMS.egg-info/dependency_links.txt
+PylibMS.egg-info/top_level.txt
