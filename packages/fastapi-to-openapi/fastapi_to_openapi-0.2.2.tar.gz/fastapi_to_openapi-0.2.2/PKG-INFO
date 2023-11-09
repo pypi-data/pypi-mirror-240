@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: fastapi-to-openapi
+Version: 0.2.2
+Summary: generate openapi file from fastAPI
+Home-page: https://github.com/sion908/fastapi_to_openapi
+License: MIT
+Keywords: fastapi
+Author: Sion908
+Author-email: sionn908@gmail.com
+Maintainer: Sion908
+Maintainer-email: sionn908@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Project-URL: Repository, https://github.com/sion908/fastapi_to_openapi
+Description-Content-Type: text/markdown
+
+# fastapi_to_openapi
+
+fastapiのopenAPIをyamlまたはjsonで保存する
+
+## 使い方
+
+```shell
+poetry run fastapi_to_openapi
+```
+
+```shell
+Options:
+  -i, --input_file TEXT        input file include fastapi APP
+  -f, --func TEXT              fastAPI app
+  -o, --output_file TEXT       output file name
+  -t, --file_type [yaml|json]  output file type.  yaml or json
+  --help                       Show this message and exit.
+```
+
