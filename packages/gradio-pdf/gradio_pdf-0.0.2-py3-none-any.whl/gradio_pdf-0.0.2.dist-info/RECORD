@@ -1,0 +1,12 @@
+gradio_pdf/__init__.py,sha256=eT2wq0gHyvMQJRq6LoxeJO6mVtQSWnQ3XGBsCcfbI-A,41
+gradio_pdf/pdf.py,sha256=ijVv3akKJqvUpRvghGHDaDm-wc8bumC-W-zVpPWzZIo,1559
+gradio_pdf/pdf.pyi,sha256=zCkxDd8LzXhsp5ztxAp_XxC6FCfvtoFKumnBGPSgSfg,1451
+gradio_pdf/templates/component/Index-f36f7747.js,sha256=TMGE66sqk-0vGskNoPuoPINGModtL9NmTrikLbEHdOc,767381
+gradio_pdf/templates/component/index.js,sha256=jVYKEBJZ2TUrUzjNDhZ6afabb0ZC5-qm2PDb0_r-3nE,73
+gradio_pdf/templates/component/style.css,sha256=lHHEvIVdCbY0wk96GGaukwpVBf2JKGVQRyUCsWj66es,14825
+gradio_pdf/templates/component/wrapper-98f94c21-9201c0de.js,sha256=SzXTHMrpPl4GLAeXF7j0FU6vZK9mQzj7D3fSUMBFctw,78006
+gradio_pdf/templates/example/index.js,sha256=p0Byz180PNTdfPMRM8dO8MrEuqLa9boFTF653XtQvPI,560380
+gradio_pdf/templates/example/style.css,sha256=Aj4k-S41TV83pot-J9j9Fi2UonrXHFC1Jl4Zb1xaYo4,61
+gradio_pdf-0.0.2.dist-info/METADATA,sha256=J3JEoq2wja2fa8dfj0Wi2ckSTOCRaIBIgC3Y5bby4UU,2041
+gradio_pdf-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gradio_pdf-0.0.2.dist-info/RECORD,,
