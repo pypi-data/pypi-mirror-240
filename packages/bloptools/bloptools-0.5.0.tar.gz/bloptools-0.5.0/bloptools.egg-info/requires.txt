@@ -1,0 +1,13 @@
+bluesky
+botorch
+databroker
+gpytorch
+h5py
+matplotlib
+numpy
+ophyd
+ortools
+scipy
+tables
+torch
+zict<3.0.0
