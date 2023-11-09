@@ -1,0 +1,8 @@
+clarifaipyspark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clarifaipyspark/client.py,sha256=caH3sRtsHRe1CaH1Dj7yN1NgWgXaHUKNBTDBG9zGYiU,1197
+clarifaipyspark/dataset.py,sha256=V2MyoQpXl1eGG3PeZV40haKTLa65lwCX-kFFN-apbF8,18088
+clarifai_pyspark-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+clarifai_pyspark-0.0.1.dist-info/METADATA,sha256=qlWwhRjm6Ze98LTrNzjDXHR9r2KsRvoUxzwnpu0JZsQ,1715
+clarifai_pyspark-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+clarifai_pyspark-0.0.1.dist-info/top_level.txt,sha256=uZkKt-Y8STPbBl56d-ne6H1FTzMtu3I-0z9KTY8HmsI,16
+clarifai_pyspark-0.0.1.dist-info/RECORD,,
