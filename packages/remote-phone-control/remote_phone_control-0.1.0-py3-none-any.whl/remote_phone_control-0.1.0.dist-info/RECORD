@@ -1,0 +1,8 @@
+remote_phone_control/__init__.py,sha256=zEoU21WUEjmkhj2bpFvs5NOVP37SmtDBjgEwKL2F9XA,2847
+remote_phone_control/snom.py,sha256=2kO4GMtoyuu1iGjehli9qoW0yrHuTj-qzhDa1MPNG-c,7230
+remote_phone_control/yealink.py,sha256=4UlI1k41sK0zjKMim702_y5iv4-bFoF1xrlY-SawQd4,33
+remote_phone_control-0.1.0.dist-info/LICENSE,sha256=ZYeTDmwSWceyNppt-tldDTDcCFPTabexcBg_A8RVyAU,1063
+remote_phone_control-0.1.0.dist-info/METADATA,sha256=_81F6wuTzJUAA5TeDCDVn2G8IIDZLvqdpr7MHiWSTWM,14085
+remote_phone_control-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+remote_phone_control-0.1.0.dist-info/top_level.txt,sha256=r6vS_3YN7H5juAHzEenIibxFgorYmI4p_Nzyx4SgtAY,21
+remote_phone_control-0.1.0.dist-info/RECORD,,
