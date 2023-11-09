@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: py-rt-test
+Version: 0.0.1
+Summary: A simple test
+Author: Test Author
+Author-email: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+
+This is a simple test for python package
