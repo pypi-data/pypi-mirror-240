@@ -1,0 +1,6 @@
+hfirstdemo.py
+setup.py
+hfirstdemo.egg-info/PKG-INFO
+hfirstdemo.egg-info/SOURCES.txt
+hfirstdemo.egg-info/dependency_links.txt
+hfirstdemo.egg-info/top_level.txt
