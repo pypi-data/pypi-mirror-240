@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/remote_phone_control/__init__.py
+src/remote_phone_control/snom.py
+src/remote_phone_control/yealink.py
+src/remote_phone_control.egg-info/PKG-INFO
+src/remote_phone_control.egg-info/SOURCES.txt
+src/remote_phone_control.egg-info/dependency_links.txt
+src/remote_phone_control.egg-info/requires.txt
+src/remote_phone_control.egg-info/top_level.txt
+tests/test_snom.py
