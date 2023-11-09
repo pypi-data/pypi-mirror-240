@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: oiml-core
+Version: 0.1.0
+Summary: Parser for OpenIndented Markup Language
+Author-email: Zetian Lin <bctnry@outlook.com>
+Project-URL: Homepage, https://github.com/bctnry/oiml-core-py
+Project-URL: Bug Tracker, https://github.com/bctnry/oiml-core-py/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oiml-core
+
+Parser for OpenIndented Markup Langugage (for Python)
+
+## Testing
+
+``` bash
+python -m unittest ./tests/test.py
+```
+
+
