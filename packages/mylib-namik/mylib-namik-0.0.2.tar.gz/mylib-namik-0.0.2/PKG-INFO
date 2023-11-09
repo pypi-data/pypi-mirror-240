@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mylib-namik
+Version: 0.0.2
+Summary: this is my first lib
+Home-page: https://github.com/namigm/library_test
+Author: Namig Masimov
+Author-email: masimovnamik@gmail.com
+License: MIT
+Keywords: selenium,python,pytest,testing,automation
+Classifier: Framework :: Pytest
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pytest
+
+# library_test
+
+# Guide
+
+* first step
+* second step

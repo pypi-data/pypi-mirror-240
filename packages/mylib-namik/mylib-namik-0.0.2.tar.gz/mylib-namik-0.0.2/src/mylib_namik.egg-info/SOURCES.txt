@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/my_lib/__init__.py
+src/my_lib/app.py
+src/mylib_namik.egg-info/PKG-INFO
+src/mylib_namik.egg-info/SOURCES.txt
+src/mylib_namik.egg-info/dependency_links.txt
+src/mylib_namik.egg-info/entry_points.txt
+src/mylib_namik.egg-info/requires.txt
+src/mylib_namik.egg-info/top_level.txt
