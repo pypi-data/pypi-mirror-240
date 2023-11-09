@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        phalcon=app.main:cli
+    
