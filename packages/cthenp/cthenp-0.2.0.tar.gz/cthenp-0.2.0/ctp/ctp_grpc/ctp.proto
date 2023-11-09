@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+package ctp;
+
+// Service definition
+service CtpService {
+    rpc AppendRun(AppendRunRequest) returns (AppendRunResponse);
+    rpc GetRun(GetRunRequest) returns (GetRunResponse);
+    rpc SyncRecords(SyncRecordsRequest) returns (SyncRecordsResponse);
+}
+
+// Message definitions
+
+// AppendRun
+message AppendRunRequest {
+    string exp_name = 1;
+}
+
+message AppendRunResponse {
+    int64 run_id = 1;
+}
+
+// GetRun
+message GetRunRequest {
+    string exp_name = 1;
+    int64 run_id = 2;
+}
+
+message GetRunResponse {
+    bytes records_bytes = 1;
+    int64 run_id = 2;
+}
+
+
+//SyncRecords
+message SyncRecordsRequest {
+    string exp_name = 1;
+    int64 run_id = 2;
+    bytes records_bytes = 3;
+}
+
+message SyncRecordsResponse {
+    repeated string successful_labels = 1; // successful labels
+}
