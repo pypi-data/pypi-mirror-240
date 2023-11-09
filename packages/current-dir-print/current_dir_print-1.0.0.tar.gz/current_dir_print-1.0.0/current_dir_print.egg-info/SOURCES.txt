@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+current_dir_print/__init__.py
+current_dir_print/main.py
+current_dir_print.egg-info/PKG-INFO
+current_dir_print.egg-info/SOURCES.txt
+current_dir_print.egg-info/dependency_links.txt
+current_dir_print.egg-info/top_level.txt
