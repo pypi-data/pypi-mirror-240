@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: methyl-vi
+Version: 0.1.0
+Requires-Python: >=3.10
+Requires-Dist: scvi-tools>=1.0.0
+Provides-Extra: dev
+Requires-Dist: pre-commit==2.15.0; extra == "dev"
+Requires-Dist: toml==0.10.2; extra == "dev"
+Requires-Dist: pytest==6.2.5; extra == "dev"

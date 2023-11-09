@@ -1,0 +1,6 @@
+scvi-tools>=1.0.0
+
+[dev]
+pre-commit==2.15.0
+toml==0.10.2
+pytest==6.2.5
