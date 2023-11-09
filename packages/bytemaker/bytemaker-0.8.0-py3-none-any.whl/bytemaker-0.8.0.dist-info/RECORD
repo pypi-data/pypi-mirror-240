@@ -1,0 +1,10 @@
+bytemaker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bytemaker/bits.py,sha256=T7iPRgWnUtUgNEANm3B1F6Jule0OMghLq0crEvL9Uyo,11456
+bytemaker/utils.py,sha256=kGqeUTp2ghwqlXOYM4trtl4isKgdSMd3hh4cVN6azhg,4292
+bytemaker/ytypes.py,sha256=oTfBBvZbfc-eKWtybV4t4T-i1XicW23S9suo9eSw73E,29432
+bytemaker/native_types/ctypes_.py,sha256=MsV5ojWsXKtGNAAnIxiJrfr2cHj4lJtT6uQkSzoKAjY,2101
+bytemaker-0.8.0.dist-info/LICENCE.md,sha256=LbdzFIE427zMCS6nX_EgrflNtr1cCt7muaw8V4ko2FY,1308
+bytemaker-0.8.0.dist-info/METADATA,sha256=EgRFJdaHh4UzW1fvltiXBHOJNTFWhWslQYSLL5Wtr1M,1111
+bytemaker-0.8.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+bytemaker-0.8.0.dist-info/top_level.txt,sha256=TRznQyfoz9lkfSEQi6hP-kOpqehKIhHuFD_euEiDW0Y,10
+bytemaker-0.8.0.dist-info/RECORD,,
