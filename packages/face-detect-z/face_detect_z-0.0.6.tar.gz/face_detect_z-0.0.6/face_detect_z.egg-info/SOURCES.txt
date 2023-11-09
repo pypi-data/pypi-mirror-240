@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+face_detect_z/__init__.py
+face_detect_z/utils.py
+face_detect_z.egg-info/PKG-INFO
+face_detect_z.egg-info/SOURCES.txt
+face_detect_z.egg-info/dependency_links.txt
+face_detect_z.egg-info/top_level.txt
+face_detect_z/module1/__init__.py
+face_detect_z/module1/hello.py
+face_detect_z/module2/__init__.py
+face_detect_z/module2/bye.py
+face_detect_z/module2/tmp.bin
