@@ -1,0 +1,28 @@
+{
+    "base_path": "/media/ssd/Programming/pycomex/pycomex/examples",
+    "description": null,
+    "duration": 0.2434678077697754,
+    "end_time": 1699471508.6058319,
+    "has_error": false,
+    "hooks": {},
+    "name": "07_meta_experiment",
+    "namespace": "results/07_meta_experiment",
+    "parameters": {
+        "NUM_WORDS_SWEEP": {
+            "description": "",
+            "name": "NUM_WORDS_SWEEP",
+            "type": "List[int]"
+        },
+        "PATH": {
+            "name": "PATH"
+        },
+        "REPETITIONS": {
+            "description": "pass ",
+            "name": "REPETITIONS",
+            "type": "int"
+        }
+    },
+    "short_description": "",
+    "start_time": 1699471508.362364,
+    "status": "done"
+}

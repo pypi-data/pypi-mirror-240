@@ -1,0 +1,18 @@
+{
+    "base_path": "/media/ssd/Programming/pycomex/pycomex/examples",
+    "description": "\nhello\n",
+    "duration": 0.32552242279052734,
+    "end_time": 1699470096.1639059,
+    "has_error": false,
+    "hooks": {},
+    "name": "07_meta_experiment",
+    "namespace": "results/07_meta_experiment",
+    "parameters": {
+        "PATH": {
+            "name": "PATH"
+        }
+    },
+    "short_description": "hello",
+    "start_time": 1699470095.8383834,
+    "status": "done"
+}
