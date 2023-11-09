@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+<h4>Calendar Event Form</h4>
+    <div class="container mt-4">
+    <form action="{{ url }}" method="post">
+        {% csrf_token %}
+            <div id="form">
+                {{ form.media }}
+                {{ form | crispy }}
+            </div>
+        <button class="form-control btn btn-primary" type="submit">Save</button>
+    </form>
+    </div>
+
+{% endblock content %}
+
+{% block tom_select %}
+    <script src="{% static 'calendars/js/colors.js' %}"></script>
+    <script src="{% static 'calendars/js/tom_select_options_color.js' %}"></script>
+{% endblock tom_select %}
+    
