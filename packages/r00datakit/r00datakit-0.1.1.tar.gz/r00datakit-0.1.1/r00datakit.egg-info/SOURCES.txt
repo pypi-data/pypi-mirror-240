@@ -1,0 +1,9 @@
+pyproject.toml
+r00datakit/__init__.py
+r00datakit/dirs.py
+r00datakit/file.py
+r00datakit/text.py
+r00datakit.egg-info/PKG-INFO
+r00datakit.egg-info/SOURCES.txt
+r00datakit.egg-info/dependency_links.txt
+r00datakit.egg-info/top_level.txt
