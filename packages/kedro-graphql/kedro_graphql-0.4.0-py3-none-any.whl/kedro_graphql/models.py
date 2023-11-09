@@ -1,0 +1,370 @@
+import strawberry
+from enum import Enum
+from typing import List, Optional, Union
+import uuid
+#from .config import conf_catalog, conf_parameters, PIPELINES
+
+@strawberry.type
+class Tag:
+    key: str
+    value: str
+
+@strawberry.input
+class TagInput:
+    key: str
+    value: str
+
+@strawberry.enum
+class ParameterType(Enum):
+    STRING = "string"
+    BOOLEAN = "boolean"
+    INTEGER = "integer"
+    FLOAT = "float"
+
+
+@strawberry.type
+class Parameter:
+    name: str
+    value: str
+    type: Optional[ParameterType] = ParameterType.STRING
+
+    def serialize(self) -> dict:
+        """
+        Returns serializable dict in format compatible with kedro.
+        """
+        value = self.value
+        if self.type == "boolean":
+            value = self.value.lower()
+            if value == "true":
+                value = True
+            elif value == "false":
+                value = False
+            else:
+                raise ValueError("Parameter of type BOOL must be one of 'True', 'true', 'False', or 'false'")
+
+        elif self.type == "integer":
+            value = int(self.value)
+
+        elif self.type == "float":
+            value = float(self.value)
+
+        return {self.name: value}
+
+@strawberry.input
+class ParameterInput:
+    name: str
+    value: str
+    type: Optional[ParameterType] = ParameterType.STRING
+
+
+
+@strawberry.input
+class CredentialSetInput:
+    name: str
+    value: str
+
+    def serialize(self) -> dict:
+        """
+        Returns serializable dict in format compatible with kedro.
+        """
+        return {self.name: self.value}
+
+@strawberry.input
+class CredentialInput:
+    name: str
+    value: List[CredentialSetInput]
+
+    def serialize(self) -> dict:
+        """
+        Returns serializable dict in format compatible with kedro.
+        """
+        values = {}
+        for v in self.value:
+            values.update(v.serialize())
+        return {self.name: values}
+
+
+
+@strawberry.input
+class CredentialNestedInput:
+    name: str
+    value: List[CredentialInput]
+    
+    def serialize(self) -> dict:
+        """
+        Returns serializable dict in format compatible with kedro.
+        """
+        values = {}
+        for v in self.value:
+            values.update(v.serialize())
+        return {self.name: values}
+
+##    def serialize(self) -> dict:
+##        """
+##        Returns serializable dict in format compatible with kedro.
+##        """
+##        values = {}
+##        for v in self.value:
+##            values.update(v.serialize())
+##        return {self.name: values}
+##
+##    def merge(self, a, b, path=None):
+##        "merges nested dictionaries recursively.  Merges b into a."
+##        if path is None: path = []
+##        for key in b:
+##            if key in a:
+##                if isinstance(a[key], dict) and isinstance(b[key], dict):
+##                    self.merge(a[key], b[key], path + [str(key)])
+##                elif a[key] == b[key]:
+##                    pass # same leaf value
+##                else:
+##                    raise Exception('Conflict at %s' % '.'.join(path + [str(key)]))
+##            else:
+##                a[key] = b[key]
+##        return a
+    
+
+@strawberry.type
+class DataSet:
+    name: str
+    type: str
+    filepath: str
+    save_args: Optional[List[Parameter]] = None
+    load_args: Optional[List[Parameter]] = None
+    credentials: Optional[str] = None
+
+    def serialize(self) -> dict:
+        """
+        Returns serializable dict in format compatible with kedro.
+        """
+        temp = self.__dict__.copy()
+        temp.pop("name")
+        if not temp["save_args"]:
+            temp.pop("save_args")
+        else:
+            temp["save_args"] = {k:v for p in self.__dict__["save_args"] for k,v in p.serialize().items() }
+        if not temp["load_args"]:
+            temp.pop("load_args")
+        else:
+            temp["load_args"] = {k:v for p in self.__dict__["save_args"] for k,v in p.serialize().items() }
+        return {self.name: temp}
+
+    @staticmethod
+    def from_dict(payload):
+        """
+        Return a new DataSet from a dictionary.
+
+        Args:
+            payload (dict): dict representing DataSet e.g.
+
+                {
+                  "name": "text_in",
+                  "filepath": "./data/01_raw/text_in.txt",
+                  "type": "text.TextDataSet",
+                  "save_args":[{"name": "say", "value": "hello"}],
+                  "load_args":[{"name": "say", "value": "hello"}]
+                }
+
+        """
+
+        if payload.get("save_args", False):
+            save_args = [Parameter(**p) for p in payload["save_args"]]
+        else:
+            save_args = None
+            
+        if payload.get("load_args", False):
+            load_args = [Parameter(**p) for p in payload["load_args"]]
+        else:
+            load_args = None
+
+        return DataSet(
+            name = payload["name"],
+            type = payload["type"],
+            filepath = payload["filepath"],
+            save_args = save_args,
+            load_args = load_args
+        )
+
+
+@strawberry.input
+class DataSetInput:
+    name: str
+    type: str
+    filepath: str
+    save_args: Optional[List[ParameterInput]] = None
+    load_args: Optional[List[ParameterInput]] = None
+    credentials: Optional[str] = None
+        
+
+@strawberry.type
+class Node:
+    name: str
+    inputs: List[str]
+    outputs: List[str]
+    tags: List[str]
+
+@strawberry.type(description = "PipelineTemplates are definitions of Pipelines.  They represent the supported interface for executing a Pipeline.")
+class PipelineTemplate:
+    name: str
+    kedro_pipelines: strawberry.Private[dict]
+    kedro_catalog: strawberry.Private[dict]
+    kedro_parameters: strawberry.Private[dict]
+
+    @strawberry.field
+    def describe(self) -> str:
+        return self.kedro_pipelines[self.name].describe()
+
+    @strawberry.field
+    def nodes(self) -> List[Node]:
+        nodes = self.kedro_pipelines[self.name].nodes
+
+        return [Node(name = n.name, inputs = n.inputs, outputs = n.outputs, tags = n.tags) for n in nodes]
+
+    @strawberry.field
+    def parameters(self) -> List[Parameter]:
+        ## keep track of parameters to avoid returning duplicates    
+        params = {}
+        for n in self.kedro_pipelines[self.name].inputs():
+            if n.startswith("params:"):
+                name = n.split("params:")[1]
+                value = self.kedro_parameters[name]
+                if not params.get(name, False):
+                    params[name] = value
+            elif n == "parameters":
+                for k,v in self.kedro_parameters.items():
+                    if not params.get(k, False):
+                        params[k] = v
+        return [Parameter(name = k, value = v) for k,v in params.items()]
+
+    @strawberry.field
+    def inputs(self) -> List[DataSet]:
+        inputs_resolved = []
+        for n in self.kedro_pipelines[self.name].inputs():
+            if not n.startswith("params:") and n != "parameters":
+                config = self.kedro_catalog[n]
+                inputs_resolved.append(DataSet(name = n, filepath = config["filepath"], type = config["type"], save_args = config.get("save_args", None), load_args = config.get("load_args", None)))
+            
+        return inputs_resolved
+ 
+    @strawberry.field
+    def outputs(self) -> List[DataSet]:
+        outputs_resolved = []
+        for n in self.kedro_pipelines[self.name].outputs():    
+            config = self.kedro_catalog[n]
+            outputs_resolved.append(DataSet(name = n, filepath = config["filepath"], type = config["type"], save_args = config.get("save_args", None), load_args = config.get("load_args", None)))
+ 
+        return outputs_resolved
+
+@strawberry.input(description = "PipelineInput")
+class PipelineInput:
+    name: str
+    parameters: List[ParameterInput]
+    inputs: List[DataSetInput]
+    outputs: List[DataSetInput]
+    tags: Optional[List[TagInput]] = None
+    credentials: Optional[List[CredentialInput]] = None
+    credentials_nested: Optional[List[CredentialNestedInput]] = None
+
+@strawberry.type
+class Pipeline:
+    kedro_pipelines: strawberry.Private[Optional[dict]] = None
+    kedro_catalog: strawberry.Private[Optional[dict]] = None
+    kedro_parameters: strawberry.Private[Optional[dict]] = None
+
+    id: Optional[uuid.UUID] = None
+    inputs: List[DataSet]
+    name: str
+    outputs: List[DataSet]
+    parameters: List[Parameter]
+    status: Optional[str] = None
+    tags: Optional[List[Tag]] = None
+    task_id: Optional[str] = None
+    task_name: Optional[str] = None
+    task_args: Optional[str] = None
+    task_kwargs: Optional[str] = None
+    task_request: Optional[str] = None
+    task_exception: Optional[str] = None
+    task_traceback: Optional[str] = None
+    task_einfo: Optional[str] = None
+    task_result: Optional[str] = None
+
+    @strawberry.field
+    def template(self) -> PipelineTemplate:
+        return PipelineTemplate(name = self.name, 
+                                kedro_catalog = self.kedro_catalog,
+                                kedro_parameters = self.kedro_parameters,
+                                kedro_pipelines = self.kedro_pipelines)
+
+    @strawberry.field
+    def describe(self) -> str:
+        return self.template().describe()
+
+    @strawberry.field
+    def nodes(self) -> List[Node]:
+        return self.template().nodes()
+
+    def serialize(self):
+        inputs = {}
+        outputs = {}
+        parameters = {}
+        for i in self.inputs:
+            s = i.serialize()
+            inputs.update(s)
+
+        for o in self.outputs:
+            s = o.serialize()
+            outputs.update(s)
+
+        for p in self.parameters:
+            s = p.serialize()
+            parameters.update(s)
+
+        return {
+            "id": self.id,
+            "name": self.name,
+            "inputs": inputs,
+            "outputs": outputs,
+            "parameters": parameters,
+        }
+
+    @staticmethod
+    def from_dict(payload):
+        if payload["tags"]:
+            tags = [Tag(**t) for t in payload["tags"]]
+        else:
+            tags = None
+
+        return Pipeline(
+            id = payload.get("id", None),
+            name = payload["name"],
+            inputs = [DataSet.from_dict(i) for i in payload["inputs"]],
+            outputs = [DataSet.from_dict(o) for o in payload["outputs"]],
+            parameters = [Parameter(**p) for p in payload["parameters"]],
+            status = payload.get("status", None),
+            tags = tags,
+            task_id = payload.get("task_id", None),
+            task_name = payload.get("task_name", None),
+            task_args = payload.get("task_args", None),
+            task_kwargs = payload.get("task_kwargs", None),
+            task_request = payload.get("task_request", None),
+            task_exception = payload.get("task_exception", None),
+            task_traceback = payload.get("task_traceback", None),
+            task_einfo = payload.get("task_einfo", None),
+        )
+
+@strawberry.type
+class PipelineEvent:
+    id: str
+    task_id: str
+    status: str
+    result: Optional[str] = None
+    timestamp: str
+    traceback: Optional[str] = None
+
+@strawberry.type
+class PipelineLogMessage:
+    id: str
+    message: str
+    message_id: str
+    task_id: str
+    time: str
