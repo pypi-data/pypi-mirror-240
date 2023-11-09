@@ -1,0 +1,17 @@
+README.md
+setup.py
+aleatory_words_api.egg-info/PKG-INFO
+aleatory_words_api.egg-info/SOURCES.txt
+aleatory_words_api.egg-info/dependency_links.txt
+aleatory_words_api.egg-info/top_level.txt
+app/__init__.py
+app/main.py
+app/classes/Collection.py
+app/classes/Word.py
+app/classes/__init__.py
+app/controllers/CollectionController.py
+app/controllers/WordController.py
+app/controllers/__init__.py
+app/database/Connector.py
+app/database/__init__.py
+app/database/createDb.py
