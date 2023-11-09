@@ -1,0 +1,2 @@
+[console_scripts]
+mycmd = current_dir_print:get_current_dir

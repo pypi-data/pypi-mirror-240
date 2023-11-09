@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: current-dir-print
+Version: 1.0.3
+Summary: Your package description
+Author: safafdaf Name
+Author-email: asfdsafasfa@email.com
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Current Dir Print
+
+Prints the current dir
