@@ -1,0 +1,14 @@
+dcm/__init__.py,sha256=qHUqGJ1ETm11miieM-ePA1QGMQj4nWOr9giOoUt1H_A,19
+dcm/dcm_cmd.py,sha256=7fEKxlNXrceZu6V0b2dtgZazGD2FBg7zr4SizdYKf8o,1180
+dcm/dcm_core.py,sha256=0nixG-23vLDlFGuLvbGWFEyx6kjNpfa8Xpe-iYhGB3M,9106
+dcm/dcm_webserver.py,sha256=uDGckyVG3rZiWVo58RLuvVRvPk4wasJ5uRH5vUYJTc0,4377
+dcm/svg.py,sha256=c4jDrwtM2Ax5gs5AvQMsZlFKmP0D9jDCb_hJPymyCt8,6888
+dcm/version.py,sha256=PoPWLuvtC5JXmbHE-lPncLq3Lrs8zUJOQz2m3RJSsvs,939
+dcm_examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dcm_examples/architecture.json,sha256=beKWA7M85hCW0pd27hdaFwjuH1rVE9XzXuaGXf8gb0U,6333
+dcm_examples/portfolio_plus.json,sha256=r2CqCZmTIilMId4VOeEVLSi-yBslag6sVbHWqtmY-Zs,3308
+dynamic_competence_map-0.0.3.dist-info/METADATA,sha256=CByRFiWaYWZesz_NZFL39ShnSlm2aBSLBuqB2-c0hf0,2580
+dynamic_competence_map-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dynamic_competence_map-0.0.3.dist-info/entry_points.txt,sha256=1ixi0uSDTWJIJ8sTZw5BH5CwTzHn7wtWU4QRAJe8GCk,41
+dynamic_competence_map-0.0.3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dynamic_competence_map-0.0.3.dist-info/RECORD,,
