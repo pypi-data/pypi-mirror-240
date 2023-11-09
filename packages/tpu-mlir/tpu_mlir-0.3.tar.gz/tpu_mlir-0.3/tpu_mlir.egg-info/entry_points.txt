@@ -1,0 +1,2 @@
+[console_scripts]
+tpu_mlir_get_resource = tpu_mlir:cp_from_package_root
