@@ -1,0 +1,23 @@
+AUTHORS.rst
+LICENSE.rst
+MANIFEST.in
+README.rst
+setup.py
+docs/IO License Terms.pdf
+docs/Seeker_Reference_Manual.pdf
+docs/Seeker_User_s_Manual.pdf
+docs/authors.rst
+docs/index.rst
+docs/installation.rst
+docs/readme.rst
+docs/usage.rst
+src/seeker.0.0.1.cpython-310-darwin.so
+src/seeker.0.0.1.cpython-311-darwin.so
+src/seeker.0.0.1.cpython-38-darwin.so
+src/seeker.0.0.1.cpython-39-darwin.so
+src/seeker.py
+src/insideopt_seeker.egg-info/PKG-INFO
+src/insideopt_seeker.egg-info/SOURCES.txt
+src/insideopt_seeker.egg-info/dependency_links.txt
+src/insideopt_seeker.egg-info/not-zip-safe
+src/insideopt_seeker.egg-info/top_level.txt
