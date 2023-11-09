@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyconversor"
+version = "0.0.1"
+authors = [
+    {name = "Matheus Henrique Ptasinski Rosa",email = "matheushpr9@gmail.com"},
+]
+description = "pyconversor is a lib developed with the aim of unifying all the conversion tools a dev might need during development in one place."
+readme = "README.md"
+python_requires = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.url]
+"Homepage" = "https://github.com/matheushpr9/pyconversor"
+"Bug Tracker"= "https://github.com/matheushpr9/pyconversor/issues"
+[options.packages.find]
+where = "modules"

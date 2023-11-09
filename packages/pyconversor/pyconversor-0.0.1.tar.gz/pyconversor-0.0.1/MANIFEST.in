@@ -1,0 +1,3 @@
+include pyconversor/modules
+include pyconversor/modules/Node.py
+include pyconversor/modules/Tree.py
