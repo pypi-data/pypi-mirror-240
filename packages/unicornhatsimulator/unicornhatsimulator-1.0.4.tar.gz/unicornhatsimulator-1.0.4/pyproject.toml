@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "unicornhatsimulator"
+version = "1.0.4"
+authors = [
+  { name="Matthew Brash", email="matthew.brash@ocsb.ca" },
+]
+description = "Pimoroni UnicornHAT simulator (pHAT, HAT and HAT HD)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://pypi.org/project/unicornhatsimulator/"
+"Source" = "https://github.com/MisterBrash/unicornhatsimulator"
+"Bug Tracker" = "https://github.com/MisterBrash/unicornhatsimulator/issues"
