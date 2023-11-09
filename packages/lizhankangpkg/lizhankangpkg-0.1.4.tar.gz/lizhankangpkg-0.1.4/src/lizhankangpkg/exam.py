@@ -1,0 +1,7 @@
+# coding:utf-8 
+# @Author : lizhankang
+# @Subject : 
+# @Time : 2023 - 11 - 08
+
+def welcome():
+    print("Welcome to Liplus World 0.1.4 ... ")
