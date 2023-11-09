@@ -1,0 +1,16 @@
+methyl_vi/__init__.py,sha256=-9ea-p9vcakinOGTxdMtBE8SKyPkcIPsVAx7qCq8PsA,630
+methyl_vi/_constants.py,sha256=HcRMbMfu0Gij1c7i6epRwvmkUBaGm8vKovZ1hYLKdoA,182
+methyl_vi/distributions/__init__.py,sha256=z4kmzQX-jLOgchVmAf5J2kdyG248llQq8AFxLqOZwkI,76
+methyl_vi/distributions/_beta_binomial.py,sha256=x2us258PVjeKNpj6HJ9h0kL92y539CYwSK9ce3IT_OQ,2593
+methyl_vi/model/__init__.py,sha256=IPgWEdeuwcGloPKuJj3sVaYBtIE64ahzOikpVONAF9o,119
+methyl_vi/model/differential.py,sha256=9dFICNkZd2Sr-XeVAqffLn92FeTH4WWyqZ_UDQbzymI,27894
+methyl_vi/model/methyl_vi.py,sha256=MyPh_z05Xkxphk0xw4B7cKTQ3wNVY_q0ls9SYzOHFJQ,26561
+methyl_vi/model/utils.py,sha256=_FCVEk0Gk7C3XASkltxbkKvo9ULYEAaPs-g6yPP6Jhc,11512
+methyl_vi/module/__init__.py,sha256=O0bMjZoJVi4F0L1fNmqALL1kFXnv38OPL4iCMzANn-g,34
+methyl_vi/module/methyl_vi.py,sha256=FtX_TgXI2JW6xMbrjTRtgOc1-UzBh_bU_iN044zQjM4,9412
+methyl_vi/nn/__init__.py,sha256=HmEmUTNcTi5cTNcMFoMIOaEU78i9QQ92_D8yUW38HNs,77
+methyl_vi/nn/_base_components.py,sha256=fRlrRY4xS6HHBOKTH5QXcjo4wE8ammORRSNnmZpQTxo,3493
+methyl_vi-0.1.0.dist-info/METADATA,sha256=F5M3kvrE0mZw3WslMAjoCerJI7uTVATzGn3hu3g8EKg,277
+methyl_vi-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+methyl_vi-0.1.0.dist-info/top_level.txt,sha256=eSjV_ey2-EpN_oP3j3sF6UDe_lCINg01Cmfrpp8Hq0s,10
+methyl_vi-0.1.0.dist-info/RECORD,,
