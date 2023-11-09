@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: kafka-broker
+Version: 0.0.8
+Summary: A python package implementation for the confluent kafka package. Managing producing and consuming.
+Home-page: https://github.com/TijmenSimons/kafka-broker
+Author: Tijmen Simons, Ivar Stek
+Author-email: Tijmen Simons <tijmen.simons@student.hu.nl>, Ivar Stek <ivar.stek@student.hu.nl>
+License: MIT
+Project-URL: Homepage, https://github.com/TijmenSimons/kafka-broker
+Project-URL: Bug Tracker, https://github.com/TijmenSimons/kafka-broker/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: confluent-kafka >=2.3.0
+Provides-Extra: dev
+Requires-Dist: pytest >=7.0 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
+# Kafka Broker
+
+A python package implementation for the confluent kafka package. Managing producing and consuming.
+
+Has built-in implementation for FastAPI.
