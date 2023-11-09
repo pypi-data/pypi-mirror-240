@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: nginx_log_stats
+Version: 1.0.0
+Summary: Search through NGINX logs with advanced filters and support for displaying analytics about your selected log entries
+Author: Quinn Patwardhan
+Author-email: quinn@qpxdesign.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
