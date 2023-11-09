@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "isd-s3"
+version = "1.1.0"
+description = ""
+authors = ["Riley Conroy <rpconroy@ucar.edu>"]
+license = "LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.28.80"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
