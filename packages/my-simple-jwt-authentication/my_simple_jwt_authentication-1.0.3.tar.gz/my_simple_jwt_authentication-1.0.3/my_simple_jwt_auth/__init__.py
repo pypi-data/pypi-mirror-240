@@ -1,0 +1,1 @@
+from .my_simple_jwt_auth import jwt_authentication
