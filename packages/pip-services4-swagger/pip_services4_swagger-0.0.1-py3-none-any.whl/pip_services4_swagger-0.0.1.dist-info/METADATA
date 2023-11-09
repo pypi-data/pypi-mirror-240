@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pip-services4-swagger
+Version: 0.0.1
+Summary: Swagger UI for Pip.Services in Python
+Home-page: http://github.com/pip-services4-python/pip-services4-swagger-python
+Author: Conceptual Vision Consulting LLC
+Author-email: seroukhov@gmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: pip-services4-commons <1.0,>=0.0.1
+Requires-Dist: pip-services4-components <1.0,>=0.0.1
+Requires-Dist: pip-services4-rpc <1.0,>=0.0.1
+Requires-Dist: pip-services4-http <1.0,>=0.0.1
+Requires-Dist: pip-services4-data <1.0,>=0.0.1
+
+Built-in functions, exceptions, and other objects.
+
+Noteworthy: None is the `nil' object; Ellipsis represents `...' in slices.
