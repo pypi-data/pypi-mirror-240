@@ -1,0 +1,174 @@
+Metadata-Version: 2.1
+Name: ai-db
+Version: 0.0.2
+Summary: Analyze your unstructured data
+Home-page: UNKNOWN
+Author: Daniel Kang
+Author-email: daniel.d.kang@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: SQL
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiomysql ==0.2.0
+Requires-Dist: aiosqlite ==0.19.0
+Requires-Dist: annotated-types ==0.5.0
+Requires-Dist: anyio ==3.7.1
+Requires-Dist: asyncpg ==0.28.0
+Requires-Dist: boto3 ==1.28.63
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: charset-normalizer ==3.2.0
+Requires-Dist: chromadb ==0.4.11
+Requires-Dist: click ==8.1.7
+Requires-Dist: exceptiongroup ==1.1.3
+Requires-Dist: faiss-cpu ==1.7.4
+Requires-Dist: fastapi ==0.99.1
+Requires-Dist: flatten-json ==0.1.13
+Requires-Dist: gdown ==4.7.1
+Requires-Dist: greenlet ==2.0.2
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: idna ==3.4
+Requires-Dist: iniconfig ==2.0.0
+Requires-Dist: nest-asyncio ==1.5.7
+Requires-Dist: networkx ==3.1
+Requires-Dist: numba ==0.58.0
+Requires-Dist: numpy ==1.24.4
+Requires-Dist: packaging ==23.1
+Requires-Dist: pandas ==2.0.3
+Requires-Dist: Pillow ==10.1.0
+Requires-Dist: pluggy ==1.3.0
+Requires-Dist: pydantic ==1.10.12
+Requires-Dist: PyMySQL ==1.1.0
+Requires-Dist: pytest ==7.4.2
+Requires-Dist: python-dateutil ==2.8.2
+Requires-Dist: pytz ==2023.3.post1
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: requests ==2.31.0
+Requires-Dist: scipy ==1.10.1
+Requires-Dist: six ==1.16.0
+Requires-Dist: sniffio ==1.3.0
+Requires-Dist: SQLAlchemy ==1.4.39
+Requires-Dist: SQLAlchemy-Utils ==0.41.1
+Requires-Dist: sqlglot-aidb ==0.0.5
+Requires-Dist: starlette ==0.27.0
+Requires-Dist: statsmodels ==0.14.0
+Requires-Dist: sympy ==1.11.1
+Requires-Dist: tomli ==2.0.1
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: typing-extensions ==4.7.1
+Requires-Dist: tzdata ==2023.3
+Requires-Dist: urllib3 ==1.26.17
+Requires-Dist: uvicorn ==0.23.2
+Requires-Dist: weaviate-client ==3.24.1
+
+<h1 style="text-align: center;">AIDB</h1>
+
+<p align="center"> Analyze unstructured data blazingly fast with machine learning. Connect your own ML models to your own data sources and query away! </p>
+
+<p align="center">
+  <img src="assets/aidbuse.gif" style="width:550px;"/>
+</p>
+
+## Quick Start
+
+In order to start using AIDB, all you need to do is install the requirements, specify a configuration, and query!
+Setting up on the environment is as simple as
+```bash
+git clone https://github.com/ddkang/aidb.git
+cd aidb
+pip install -r requirements.txt
+
+# Optional if you'd like to run the examples below
+gdown https://drive.google.com/uc?id=1SyHRaJNvVa7V08mw-4_Vqj7tCynRRA3x
+unzip data.zip -d tests/
+
+```
+
+### Text Example (in CSV)
+
+We've set up an example of analyzing product reviews with HuggingFace. Set your HuggingFace API key. After this, all you need to do is run
+```bash
+python launch.py --config=config.sentiment --setup-blob-table --setup-output-table
+```
+
+As an example query, you can run
+```sql
+SELECT AVG(score)
+FROM sentiment
+WHERE label = '5 stars'
+ERROR_TARGET 10%
+CONFIDENCE 95%;
+```
+
+You can see the mappings [here](https://github.com/ddkang/aidb/blob/main/config/sentiment.py#L15). We use the HuggingFace API to generate sentiments from the reviews.
+
+
+### Image Example (local directory)
+
+We've also set up another example of analyzing whether or not user-generated content is adult content for filtering.
+In order to run this example, all you need to do is run
+```bash
+python launch.py --config=config.nsfw_detect --setup-blob-table --setup-output-table
+```
+
+As an example query, you can run
+```sql
+SELECT *
+FROM nsfw
+WHERE racy LIKE 'POSSIBLE';
+```
+
+You can see the mappings [here](https://github.com/ddkang/aidb/blob/main/config/nsfw_detect.py#L10). We use the Google Vision API to generate the safety labels.
+
+
+
+## Key Features
+
+AIDB focuses on keeping cost down and interoperability high.
+
+We reduce costs with our optimizations:
+- First-class support for approximate queries, reducing the cost of aggregations by up to **350x**.
+- Caching, which speeds up multiple queries over the same data.
+
+We keep interoperability high by allowing you to bring your own data source, ML models, and vector databases!
+
+
+## Approximate Querying
+
+One key feature of AIDB is first-class support for approximate queries.
+Currently, we support approximate `AVG`, `COUNT`, and `SUM`.
+We don't currently support `GROUP BY` or `JOIN` for approximate aggregations, but it's on our roadmap.
+Please reach out if you'd like us to support your queries!
+
+In order to execute an approximate aggregation query, simply append `ERROR_TARGET <error percent>% CONFIDENCE <confidence>%` to your normal aggregation.
+As a full example, you can compute an approximate count by doing:
+```sql
+SELECT COUNT(xmin)
+FROM objects
+ERROR_TARGET 5%
+CONFIDENCE 95%;
+```
+
+The `ERROR_TARGET` specifies the percent error _compared to running the query exactly._
+For example, if the true answer is 100, you will get answers between 95 and 105 (95% of the time).
+
+## Useful Links
+- [How to connect ML APIs](https://github.com/ddkang/aidb/blob/main/aidb/inference/examples/README.md)
+- [How to define configuration file](https://github.com/ddkang/aidb/tree/main/config)
+- [Connecting to Data Store](https://github.com/ddkang/aidb/tree/main/aidb_utilities/blob_store)
+
+## Contribute
+
+We have many improvements we'd like to implement. Please help us! For the time being, please [email](mailto:ddkang@g.illinois.edu) us, if you'd like to help contribute.
+
+
+## Contact Us
+
+Need help in setting up AIDB for your specific dataset or want a new feature? Please fill [this form](https://forms.gle/YyAXWxqzZPVBrvBR7).
+
+
