@@ -1,0 +1,9 @@
+setup.py
+r00syskit/__init__.py
+r00syskit/cmdline.py
+r00syskit/platforms.py
+r00syskit/process.py
+r00syskit.egg-info/PKG-INFO
+r00syskit.egg-info/SOURCES.txt
+r00syskit.egg-info/dependency_links.txt
+r00syskit.egg-info/top_level.txt
