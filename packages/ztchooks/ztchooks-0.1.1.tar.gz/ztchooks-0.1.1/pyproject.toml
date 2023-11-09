@@ -1,0 +1,21 @@
+[project]
+name = "ztchooks"
+version = "0.1.1"
+authors = [{ name = "ZeroTier, Inc", email = "admin@zerotier.com" }]
+description = "ZeroTier Hook Verification for Python 3"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/zerotier/ztchooks-py"
+"Bug Tracker" = "https://github.com/zerotier/ztchooks-py/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
