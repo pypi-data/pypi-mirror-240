@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>自定义文件上传</title>
+    <style>
+        /* 自定义文件上传样式 */
+        .custom-file-input {
+            width: 200px; /* 设置宽度 */
+            height: 100px; /* 设置高度 */
+            background-color: lightblue; /* 设置背景颜色 */
+            border: none; /* 去掉边框 */
+            padding: 0; /* 去掉内边距 */
+            text-align: center; /* 文本居中 */
+            font-size: 16px; /* 字体大小 */
+        }
+
+        /* 隐藏文件上传提示词 */
+        .custom-file-input::-webkit-file-upload-button {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>自定义文件上传</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file" class="custom-file-input">选择文件</label>
+        <input type="file" id="file" name="file">
+        <input type="submit" value="上传">
+    </form>
+</body>
+</html>
