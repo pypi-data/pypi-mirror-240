@@ -1,0 +1,7 @@
+mongoflex/__init__.py,sha256=MKi749Cfn_BaiAaU2HYgkKLlQtsie0i8nCXLOe7BHAA,237
+mongoflex/connection.py,sha256=6LBcTFmu2_dMPfIBsS3kmZY8iDQcMaBPVaQacp2NdRY,1473
+mongoflex/models.py,sha256=j6Fh3LBHz716lUCy0e2mABX3OFlgajl0oSQMAse5YUw,3989
+mongoflex-0.3.0.dist-info/LICENSE,sha256=JtGJrYSm3pfP9KKMRX5lgFT2EeXDrE88gxJs8W_sOGQ,1072
+mongoflex-0.3.0.dist-info/METADATA,sha256=yTqqYf0JlzkY4431s_Sm0tBqNYOEtmNbf0vVAq2z--E,2041
+mongoflex-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+mongoflex-0.3.0.dist-info/RECORD,,
