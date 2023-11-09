@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+setup.py
+quant1x_qmt.egg-info/PKG-INFO
+quant1x_qmt.egg-info/SOURCES.txt
+quant1x_qmt.egg-info/dependency_links.txt
+quant1x_qmt.egg-info/entry_points.txt
+quant1x_qmt.egg-info/not-zip-safe
+quant1x_qmt.egg-info/requires.txt
+quant1x_qmt.egg-info/top_level.txt
