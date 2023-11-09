@@ -1,0 +1,12 @@
+face_detect_z/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+face_detect_z/utils.py,sha256=K7PnDJkYjKlFSmJJNQYcx1PfA55tP7KTaPwAofQmrO4,53
+face_detect_z/module1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+face_detect_z/module1/hello.py,sha256=eqOveVsM6asIDYXsVVN_fDeLApLF7XhGLii-WUmYN4g,45
+face_detect_z/module2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+face_detect_z/module2/bye.py,sha256=v8AHmsGQJJWUTNNc5qI0awCNZ14n4WKQ7n_t8RfD5Zo,33
+face_detect_z/module2/tmp.bin,sha256=iB2WeIGvUbg2agtc0fpAZpRgsWyKmzKdZfrVKPOOeHA,9062
+face_detect_z-0.0.6.dist-info/LICENSE,sha256=sIVLKbq7l8hTgzH_1x812_UtS9k3KEyUMPgHaMUC1_4,1071
+face_detect_z-0.0.6.dist-info/METADATA,sha256=Cw8N-t31On1_iax5mwzYQZ9pFmCmpWzJDHQjRkO2XUI,954
+face_detect_z-0.0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+face_detect_z-0.0.6.dist-info/top_level.txt,sha256=9l-4EZoVoJ4H_SgIP9nS5n6-lT67N66H232kzauHMAs,14
+face_detect_z-0.0.6.dist-info/RECORD,,
