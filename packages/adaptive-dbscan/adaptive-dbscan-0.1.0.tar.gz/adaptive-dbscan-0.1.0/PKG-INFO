@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: adaptive-dbscan
+Version: 0.1.0
+Summary: A python package for density adaptive DBSCAN clustering
+Home-page: https://github.com/Sinamahani/AdaptiveDBSCAN
+Author: Sina Sabermahani
+Author-email: sina.sabermahani@gmail.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: geopandas>=0.14.0
+Requires-Dist: pandas>=2.1.1
+Requires-Dist: matplotlib>=2.2.0
+Requires-Dist: pyproj>=3.6.1
+Requires-Dist: scipy>=1.11.3
+
+a Python package for Density Adaptive DBSCAN (Density-Based Spatial Clustering of Applications with Noise) that incorporates a dynamic number of neighbor points based on a density map function
