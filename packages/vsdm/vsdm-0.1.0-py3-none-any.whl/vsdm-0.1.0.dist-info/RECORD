@@ -1,0 +1,16 @@
+vsdm/__init__.py,sha256=C1hfBot-SBkyO9L6hLlXiRdj7sPdchnC7eC3MCwf_to,1343
+vsdm/analytic.py,sha256=TyWUVuhovQZY5hoxaQsmtkyxetI3HjCS8dSvflqVWYI,6788
+vsdm/basis.py,sha256=zFPJOYcZzXQguKCMmlEwmSck2n5f1Hpxj7PHWxznXmQ,23732
+vsdm/gaussians.py,sha256=1F0qMV_LvWVZ40tpZnblJ0fcCmXAOGu6eYL020L7r2s,8045
+vsdm/matrixcalc.py,sha256=FhTNwOzw3N6xVG89QL9BhpDzHhzuyR3vbruZ1s6slEk,20249
+vsdm/portfolio.py,sha256=YlgXZUzz2RfxkTfi6MxCXWsgsQdQgb8iBL9QmhxS4fg,18115
+vsdm/projection.py,sha256=hB1TXh3WDIMdSPvDGa9qjMdfjXMZUttlooyTUVbxZNQ,26876
+vsdm/ratecalc.py,sha256=A6VXzg_E6FDK1ead_W8pIarEAAQPyJGwQ99OoYsjzng,11441
+vsdm/units.py,sha256=swJAXwPQNest0ToMPPi7L-omAqwppGb9v6-qIF0x_Yk,1544
+vsdm/utilities.py,sha256=_nFdC-7N__hKhhbPy7T35u_T_vXK_y5-1RNAcKUnWyw,12795
+vsdm/wigner.py,sha256=4TERhniR125ErmjvZ-n3lgIfAZyPft4Eds5SrvIBPDk,4056
+vsdm-0.1.0.dist-info/LICENSE,sha256=DD8NxYjPG03Ny7CYm9KCMufNsEBCGQsOurUHYsDElPo,1065
+vsdm-0.1.0.dist-info/METADATA,sha256=lSf_M08LpQQekR6DBcUhXFzFSbr22iCoY6FexIyVwfw,1492
+vsdm-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+vsdm-0.1.0.dist-info/top_level.txt,sha256=tNhgkVfnBOM0S_kzd4IDKDH67GZGQFChlyRtkI2gEHc,5
+vsdm-0.1.0.dist-info/RECORD,,
