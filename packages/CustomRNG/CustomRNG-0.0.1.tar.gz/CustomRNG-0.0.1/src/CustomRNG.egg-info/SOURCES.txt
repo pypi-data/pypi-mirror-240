@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/CustomRNG.egg-info/PKG-INFO
+src/CustomRNG.egg-info/SOURCES.txt
+src/CustomRNG.egg-info/dependency_links.txt
+src/CustomRNG.egg-info/top_level.txt
