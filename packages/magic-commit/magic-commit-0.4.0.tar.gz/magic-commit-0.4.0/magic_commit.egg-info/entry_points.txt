@@ -1,0 +1,3 @@
+[console_scripts]
+magic-commit = magic_commit.__main__:main
+
