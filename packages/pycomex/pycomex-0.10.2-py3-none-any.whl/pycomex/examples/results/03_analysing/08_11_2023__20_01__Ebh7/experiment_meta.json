@@ -1,0 +1,30 @@
+{
+    "base_path": "/media/ssd/Programming/pycomex/pycomex/examples",
+    "description": "\nThis experiment will repeatedly create a text made of randomly sampled words.\nThe words are assembled into a text file, which is supposed to be saved as an\nartifact of the computational experiment. Additionally, information such as the\ntotal text length / run time of the calculations are to be saved as experiment\nmetadata.\n\nThis is the same experiment content, which is also featured in the \"basic.py\"\nexample.\n",
+    "duration": 0.2986471652984619,
+    "end_time": 1699470096.1523929,
+    "has_error": false,
+    "hooks": {
+        "filter_words": {
+            "description": "This is a filter hook, to be applied on a list of words and may modify that list of  words in any way. It has to return the modified list of words and nothing else. ",
+            "name": "filter_words"
+        }
+    },
+    "name": "03_analysing",
+    "namespace": "results/03_analysing",
+    "parameters": {
+        "NUM_WORDS": {
+            "description": "This is the number of words to be generated each time ",
+            "name": "NUM_WORDS",
+            "type": "Optional[int, NoneType]"
+        },
+        "REPETITIONS": {
+            "description": "The number of independent repetitions of the experiment ",
+            "name": "REPETITIONS",
+            "type": "int"
+        }
+    },
+    "short_description": "This experiment will repeatedly create a text made of randomly sampled words. The words are assembled into a text file, which is supposed to be saved as an artifact of the computational experiment. Additionally, information such as the total text length / run time of the calculations are to be saved as experiment metadata.",
+    "start_time": 1699470095.8537457,
+    "status": "done"
+}
