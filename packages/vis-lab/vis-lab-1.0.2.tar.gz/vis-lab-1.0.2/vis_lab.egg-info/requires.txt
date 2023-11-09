@@ -1,0 +1,7 @@
+numpy==1.21.6
+numba==0.56.3
+llvmlite==0.39.1
+setuptools==57.4.0
+importlib-metadata==4.13.0
+typing-extensions==4.1.1
+zipp==3.10.0
