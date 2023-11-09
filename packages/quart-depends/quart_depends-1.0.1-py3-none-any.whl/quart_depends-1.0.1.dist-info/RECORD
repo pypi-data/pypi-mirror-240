@@ -1,0 +1,10 @@
+quart_depends/__about__.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+quart_depends/__init__.py,sha256=Fvb-me-dC8L4zSDyfBSD9j15Owju1ImPvMSz3OVNU60,891
+quart_depends/binders.py,sha256=wLi_wep1xCNZIQSGhzU9PiRdYrbGXaED7f9UNNxQTac,3699
+quart_depends/extension.py,sha256=RpziVXGhsiBFfcNHyMQPf_Q5ciFDmWGZZ_908lNNNIY,1074
+quart_depends/wiring.py,sha256=IpajU9Ix-oOCPDPDRwiqmngsjxLknXBtNRZeQdiql6c,3450
+quart_depends-1.0.1.dist-info/LICENSE.txt,sha256=_xTomxHv8ZdsWfCZVnLsvOpMpTsgnAcKQPxbtuAnJY4,1092
+quart_depends-1.0.1.dist-info/METADATA,sha256=JKR7qpvRGOe9XhvrH8s2e5pi-xe-UV1YlxIsjySUxfE,2359
+quart_depends-1.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+quart_depends-1.0.1.dist-info/top_level.txt,sha256=7DxQwla2FzXbD95qlSCbq1w_6xwQz-gg4Umz1an1FqI,14
+quart_depends-1.0.1.dist-info/RECORD,,
