@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/oiml_core/__init__.py
+src/oiml_core/ast.py
+src/oiml_core/parser.py
+src/oiml_core.egg-info/PKG-INFO
+src/oiml_core.egg-info/SOURCES.txt
+src/oiml_core.egg-info/dependency_links.txt
+src/oiml_core.egg-info/top_level.txt
+tests/test.py
