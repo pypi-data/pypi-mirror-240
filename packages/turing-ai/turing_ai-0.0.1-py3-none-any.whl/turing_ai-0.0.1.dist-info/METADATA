@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: turing-ai
+Version: 0.0.1
+Summary: The Turing client library implemented in Python.
+License: MIT
+Author: Turing
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Turing Python Client Library
+
+This library provides a straightforward interface for interacting with the
+Turing RPC Server. It simplifies the process of sending questions and receiving
+answers.
+
+## Project Structure
+
+The client library is structured into modules within the `core` directory for
+clarity and ease of use:
+
+- `models/`: Contains the data structures and domain models, such as `Question`.
+- `client/`: Houses the logic to handle communication with the RPC server.
+- `errors.py`: Defines custom exception classes that the client may raise during
+  operation.
+
+Here is the layout of the project:
+
+```
+my_rpc_client/
+│
+├── core/
+│ ├── models/
+│ │ └──── # Domain models such as the Question class
+│ │
+│ ├── client/
+│ │ └──── # Handles the communication with the RPC server
+│ │
+│ └── errors.py
+│    └─── # Custom exception classes for the client library
+│
+├── tests/
+│ ├── test_models/
+│ │ └──── # Unit tests for the domain models
+│ │
+│ └── test_client/
+│   └──── # Unit tests for the RPC client functionality
+│
+├── examples/
+│ └── # Example scripts on how to use the library
+│
+```
+
