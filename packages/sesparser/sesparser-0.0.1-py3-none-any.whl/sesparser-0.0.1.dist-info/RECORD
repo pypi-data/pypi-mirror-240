@@ -1,0 +1,13 @@
+sesparser/__init__.py,sha256=7nmpUAMldZqLVL8H03E11NKFpB8W5uGIXQcQLX3ecxg,733
+sesparser/__version__.py,sha256=ACWCjIaMjWfXiGUfX5tgf1t21JmDPbX7d6jrXeavudg,445
+sesparser/attachments.py,sha256=2nwda1vJRkWhiX5bZTL6fZ5SZ38z7nQ5Y2y8Aaebmbk,3589
+sesparser/body.py,sha256=RjddOMRyt8NZARbUXHEI1tg0Tif8svgwT2r2MyJs8Ag,2331
+sesparser/headers.py,sha256=60LF0BkdXgG2LGJLYW8H_3svkWnTgtu8Izl5T-3zAKk,5488
+sesparser/main.py,sha256=VtLzYb0yBMPRn0fW3ia3OYR1Nqaib0765mzjzsdc9ow,2898
+sesparser/parse_it.py,sha256=cR0_V0dK9OCM7P9dLRAMzEdQr_gszG584qQiEdNBP_w,1080
+sesparser/store_aws.py,sha256=-9sO7lGBxWx4K1LXoKDqW940TaN56C9q__TCD-GsqBU,3178
+sesparser-0.0.1.dist-info/METADATA,sha256=6lmEY82qTfQCJ-Fn9XjGgfQVLAUEBKNtQw7gdHxVAMg,3964
+sesparser-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+sesparser-0.0.1.dist-info/licenses/LICENSE,sha256=JRR3LlR18ghhYXT4G2cWgXmnxRvcuVcKlqncWWK4MRY,10347
+sesparser-0.0.1.dist-info/licenses/NOTICE,sha256=BfA0a96CPaWVa2VL0HS-CKJtNQL_K1f2Bf9fg7JC6qM,572
+sesparser-0.0.1.dist-info/RECORD,,
