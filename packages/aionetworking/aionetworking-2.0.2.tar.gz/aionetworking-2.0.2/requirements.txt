@@ -1,0 +1,3 @@
+aiofiles>=23.1.0
+inflect>=7.0.0
+pydantic==1.10.13   # https://github.com/jaraco/inflect/issues/187 (Sub dependency of inflect only)

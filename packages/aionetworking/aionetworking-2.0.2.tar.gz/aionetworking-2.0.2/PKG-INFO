@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: aionetworking
+Version: 2.0.2
+Summary: Various utilities for asyncio networking
+Home-page: https://github.com/primal100/aionetworking
+Author: Unknown
+License: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: AsyncIO
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: aiofiles>=23.1.0
+Requires-Dist: inflect>=7.0.0
+Requires-Dist: pydantic==1.10.13
+Provides-Extra: sftp
+Requires-Dist: asyncssh>=2.13.0; extra == "sftp"
+Requires-Dist: pamela>=1.1.0; os_name == "posix" and extra == "sftp"
+Requires-Dist: pywin32>=306; os_name == "nt" and extra == "sftp"
+Provides-Extra: optional
+Requires-Dist: psutil>=5.9.1; extra == "optional"
+Requires-Dist: pyyaml>=6.0; extra == "optional"
+Requires-Dist: uvloop>=0.18.0; os_name == "posix" and extra == "optional"
+Provides-Extra: all
+Requires-Dist: asyncssh>=2.13.0; extra == "all"
+Requires-Dist: pamela>=1.1.0; os_name == "posix" and extra == "all"
+Requires-Dist: pywin32>=306; os_name == "nt" and extra == "all"
+Requires-Dist: psutil>=5.9.1; extra == "all"
+Requires-Dist: pyyaml>=6.0; extra == "all"
+Requires-Dist: uvloop>=0.18.0; os_name == "posix" and extra == "all"
+
+Various utilities for networking with asyncio
