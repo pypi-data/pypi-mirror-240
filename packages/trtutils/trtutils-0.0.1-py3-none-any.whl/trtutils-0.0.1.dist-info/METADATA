@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: trtutils
+Version: 0.0.1
+Author-email: Justin Davis <davisjustin302@gmail.com>
+Maintainer-email: Justin Davis <davisjustin302@gmail.com>
+Project-URL: Homepage, https://github.com/justincdavis/trtutils
+Project-URL: Bug Tracker, https://github.com/justincdavis/trtutils/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Natural Language :: English
+Classifier: Topic :: System :: Hardware
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: System :: Hardware
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Typing :: Typed
+Requires-Python: <=3.11,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+
+# trtutils
+Utilities for enabling easier high-level usage of TensorRT in Python
