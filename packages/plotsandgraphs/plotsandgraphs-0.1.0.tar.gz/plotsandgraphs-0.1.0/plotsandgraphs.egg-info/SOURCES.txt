@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+plotsandgraphs.egg-info/PKG-INFO
+plotsandgraphs.egg-info/SOURCES.txt
+plotsandgraphs.egg-info/dependency_links.txt
+plotsandgraphs.egg-info/entry_points.txt
+plotsandgraphs.egg-info/requires.txt
+plotsandgraphs.egg-info/top_level.txt
+tests/test_test.py
