@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/pydep_extractor/__main__.py
+src/pydep_extractor/extractor.py
+src/pydep_extractor.egg-info/PKG-INFO
+src/pydep_extractor.egg-info/SOURCES.txt
+src/pydep_extractor.egg-info/dependency_links.txt
+src/pydep_extractor.egg-info/requires.txt
+src/pydep_extractor.egg-info/top_level.txt
