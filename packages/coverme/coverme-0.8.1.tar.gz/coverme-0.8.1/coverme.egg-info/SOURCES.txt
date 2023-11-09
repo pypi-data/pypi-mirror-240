@@ -1,0 +1,10 @@
+LICENSE
+README.md
+coverme.py
+pyproject.toml
+coverme.egg-info/PKG-INFO
+coverme.egg-info/SOURCES.txt
+coverme.egg-info/dependency_links.txt
+coverme.egg-info/entry_points.txt
+coverme.egg-info/requires.txt
+coverme.egg-info/top_level.txt
