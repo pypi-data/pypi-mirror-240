@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/plxcontroller/__init__.py
+src/plxcontroller/plaxis_3d_input_controller.py
+src/plxcontroller.egg-info/PKG-INFO
+src/plxcontroller.egg-info/SOURCES.txt
+src/plxcontroller.egg-info/dependency_links.txt
+src/plxcontroller.egg-info/requires.txt
+src/plxcontroller.egg-info/top_level.txt
+tests/test_plaxis_3d_input_controller.py
