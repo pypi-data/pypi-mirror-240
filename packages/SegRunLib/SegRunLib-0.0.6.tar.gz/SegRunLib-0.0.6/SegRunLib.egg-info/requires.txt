@@ -1,0 +1,4 @@
+torch==2.0.0
+torchio==0.19.2
+nibabel==5.1.0
+tqdm==4.66.1
