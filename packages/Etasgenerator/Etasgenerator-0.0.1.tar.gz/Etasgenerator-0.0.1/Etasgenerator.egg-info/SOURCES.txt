@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Etasgenerator.egg-info/PKG-INFO
+Etasgenerator.egg-info/SOURCES.txt
+Etasgenerator.egg-info/dependency_links.txt
+Etasgenerator.egg-info/requires.txt
+Etasgenerator.egg-info/top_level.txt
