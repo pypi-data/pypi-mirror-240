@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: damo-key-info-get
+Version: 1
+Summary: UNKNOWN
+Home-page: http://182.254.246.41/xufangyi/ops/tree/master/demo_key_info_get
+License: UNKNOWN
+Platform: UNKNOWN
+
+#damo_influxdb_insert
+##用于钉钉告警数据写入influxdb接口
+
+
