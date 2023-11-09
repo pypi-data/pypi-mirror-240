@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: lizhankangpkg
+Version: 0.1.0
+Summary: 使用setuptools构建python分发包最佳实践
