@@ -1,0 +1,18 @@
+[project]
+name = "clockwise"
+version = "1.0.0"
+authors = [
+  { name="Simon Schaefer", email="simon.k.schaefer@gmail.com" },
+]
+description = "Simple but expressive timing package in Python"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/simon-schaefer/clockwise"
+"Bug Tracker" = "https://github.com/simon-schaefer/clockwise/issues"
