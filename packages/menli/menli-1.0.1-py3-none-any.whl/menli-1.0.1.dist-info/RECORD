@@ -1,0 +1,10 @@
+menli/MENLI.py,sha256=GdtXu4z6CiLcv9-4_JbM_tTE4RncbtiVR-DDo5IKkA4,10290
+menli/__init__.py,sha256=6UKyxflGPTVFsILyl3FKV_ZCNEN-ukHUBNAoxk0z4N0,19
+menli/bart_score.py,sha256=O3TYPhthrRUm-KTYTi_n-g5n4xWUnDOsfaxSKP35lMY,6510
+menli/metric_utils.py,sha256=r8hRm8t54Xes09fpsqTxiZlbFPTnrBOPpJOOw_JpWJo,3004
+menli/moverscore_re.py,sha256=HKigSuGb37p3hrOZDJA3tQd2pQ-m3icoHt8r6xwcRU8,12416
+menli-1.0.1.dist-info/LICENSE,sha256=PkjrTDA9uBRxxXH1R_brVTEsaZGuHEwQquheXYrL__8,1068
+menli-1.0.1.dist-info/METADATA,sha256=ovyiEeZ-34V-idmgQQZuk8sKRAc-YraV6yv1bNsf6Eo,4937
+menli-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+menli-1.0.1.dist-info/top_level.txt,sha256=LRA-XFd05nOwYKaRqtUezWUgsYRjq-aPGZmTwJZOVMw,6
+menli-1.0.1.dist-info/RECORD,,
