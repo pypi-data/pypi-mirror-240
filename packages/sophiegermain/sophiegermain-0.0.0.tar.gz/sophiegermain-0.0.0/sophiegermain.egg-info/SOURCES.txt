@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+sophiegermain/__init__.py
+sophiegermain/sophiegermain.py
+sophiegermain.egg-info/PKG-INFO
+sophiegermain.egg-info/SOURCES.txt
+sophiegermain.egg-info/dependency_links.txt
+sophiegermain.egg-info/requires.txt
+sophiegermain.egg-info/top_level.txt
