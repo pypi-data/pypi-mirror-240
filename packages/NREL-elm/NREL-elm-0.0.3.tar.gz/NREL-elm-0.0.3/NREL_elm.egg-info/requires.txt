@@ -1,0 +1,10 @@
+openai>=1.1.0
+aiohttp
+tiktoken
+scipy
+pandas
+numpy
+PyPDF2
+networkx
+matplotlib
+nrel-rex
