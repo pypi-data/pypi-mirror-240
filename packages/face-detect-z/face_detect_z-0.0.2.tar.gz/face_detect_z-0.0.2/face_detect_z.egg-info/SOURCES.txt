@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+face_detect_z.egg-info/PKG-INFO
+face_detect_z.egg-info/SOURCES.txt
+face_detect_z.egg-info/dependency_links.txt
+face_detect_z.egg-info/top_level.txt
+my_project/__init__.py
+my_project/utils.py
+my_project/module1/__init__.py
+my_project/module1/hello.py
+my_project/module2/__init__.py
+my_project/module2/bye.py
