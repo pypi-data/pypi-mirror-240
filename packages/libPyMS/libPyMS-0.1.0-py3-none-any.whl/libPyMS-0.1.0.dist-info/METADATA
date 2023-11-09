@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: libPyMS
+Version: 0.1.0
+Summary: Library for Nintendo's LMS file formats (MSBT, MSBP) for Nintendo 3DS and Wii U
+Author: AbdyyEee
+License: mit
+Keywords: nintendo,msbf,msbt,msbp,modding,lms,libmessagestudio
+Requires-Python: >=3.10
+
