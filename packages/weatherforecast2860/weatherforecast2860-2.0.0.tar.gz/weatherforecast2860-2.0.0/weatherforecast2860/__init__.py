@@ -1,0 +1,1 @@
+from weatherforecast2860.weatherforecast2860 import Weather
