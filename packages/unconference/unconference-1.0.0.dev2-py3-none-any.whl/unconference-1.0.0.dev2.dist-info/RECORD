@@ -1,0 +1,14 @@
+unconference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unconference/_version.py,sha256=m1S0Fa3d8WEdJIFSdv29qVAJmK_3Vcervl5Q9eVa-uA,424
+unconference/admin.py,sha256=wou_z0iccAoy2EV1HDRlNy7KsKKwv5_wgDf94bbeLxc,1452
+unconference/apps.py,sha256=k27TsXK_q7FuAEsvWoDmDttH0HrOD9K_da9s3Ci9MuQ,156
+unconference/models.py,sha256=ZYJvJWzw7G7pA7eVWSH5jrAILXwLoul6kZ7z1T_yae8,2409
+unconference/settings.py,sha256=2NordXB3YEzbq3LsFs4RTxkaT18m0F_fqoS-gtlztcI,307
+unconference/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+unconference/migrations/0001_initial.py,sha256=CtGijQkt7b-rwZclr-0Hr6KNLGXtdxtn4bb05Rs4mls,4281
+unconference/migrations/0002_scheduletime_max_sessions_alter_room_description_and_more.py,sha256=HZfBlMKQaCzB4iLm9t3QBs4nKhFscJc7Cp4kBBBdogk,1172
+unconference/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unconference-1.0.0.dev2.dist-info/METADATA,sha256=m0ecZ-m4rv_fUx5bP1gI6ZN7UHzOIcUHGngcJSN6V3k,1385
+unconference-1.0.0.dev2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+unconference-1.0.0.dev2.dist-info/top_level.txt,sha256=zokQ-uuaTDdaARzh_aiNykcBrkwK2NLnCxRkMa6iE9c,13
+unconference-1.0.0.dev2.dist-info/RECORD,,
