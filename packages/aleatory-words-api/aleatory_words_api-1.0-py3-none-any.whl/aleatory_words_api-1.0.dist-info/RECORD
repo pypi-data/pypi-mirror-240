@@ -1,0 +1,15 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/main.py,sha256=FXAqmq45NOqDua9YwWBBBREyvD5rSyDeV6mIJh61pIg,834
+app/classes/Collection.py,sha256=Qt8dJ1fXkhdrWT1TparG-zp8Z1Jf137l-NJ1fFsKszI,85
+app/classes/Word.py,sha256=FZLSe5Agq__Y3WMXZJoZ6COs_u7k858xAsvcIw2fvYQ,716
+app/classes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/controllers/CollectionController.py,sha256=xeQRpLRfLTxBPiF3SvfqCErSkvzrok1qnuDQNAm80y4,937
+app/controllers/WordController.py,sha256=_OCnVGpcWABGicR7Ux3FYxeY0I6ifgHbh6NG4IeEhsY,2103
+app/controllers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/database/Connector.py,sha256=AW9UYZ1W7sImJcYrPtqui8KOh4UBn9nbnZ4ex0PWD-s,663
+app/database/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/database/createDb.py,sha256=arwlMMt9AN071v4rYVLqWyth-7OdTV5l-WhQ_CGGlkQ,314
+aleatory_words_api-1.0.dist-info/METADATA,sha256=FkLAMo4SK99uBEi6IiXZQe2gF_CUw9PJZq7NOOfT0u4,61
+aleatory_words_api-1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+aleatory_words_api-1.0.dist-info/top_level.txt,sha256=io9g7LCbfmTG1SFKgEOGXmCFB9uMP2H5lerm0HiHWQE,4
+aleatory_words_api-1.0.dist-info/RECORD,,
