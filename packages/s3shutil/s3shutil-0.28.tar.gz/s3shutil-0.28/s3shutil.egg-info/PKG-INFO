@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: s3shutil
+Version: 0.28
+Summary: A shutil like interface to AWS S3
+Home-page: https://github.com/andyil/s3shutil
+Download-URL: https://github.com/andyil/s3shutil/archive/0.28.tar.gz
+License: MIT
+Keywords: aws,s3,cloud,storage,shutil,network
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
