@@ -1,0 +1,9 @@
+edfio/__init__.py,sha256=kxDjtLZ-LuFXOR5JMdDg5doaKL-0Rrcc1mczIeHwlaQ,299
+edfio/_header_field.py,sha256=wtPBRTlpH9p8E8enCYg91XhXjtx3nGOKlN9UzPByWWI,5813
+edfio/_utils.py,sha256=eanZTcga3PJWOYeYHmxQ8u7F_gAr6O7hTeFdfqit11w,1801
+edfio/edf.py,sha256=GoA-3SHlADM_4MsNTI8pJh_ZFWdkPeXT-NqOit4woBg,52356
+edfio/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edfio-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+edfio-0.1.0.dist-info/METADATA,sha256=QFCPPazzYh0NA7EEg_7lfyeXEfDexS9rg4dDy8MBYBE,3964
+edfio-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+edfio-0.1.0.dist-info/RECORD,,
