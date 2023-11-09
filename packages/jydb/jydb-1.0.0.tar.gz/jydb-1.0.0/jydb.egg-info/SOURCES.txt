@@ -1,0 +1,8 @@
+README.md
+setup.py
+db/db.py
+jydb.egg-info/PKG-INFO
+jydb.egg-info/SOURCES.txt
+jydb.egg-info/dependency_links.txt
+jydb.egg-info/requires.txt
+jydb.egg-info/top_level.txt
