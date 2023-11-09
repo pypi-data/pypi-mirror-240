@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ukb-interface
+Version: 0.1.0
+Summary: UK Biobank Interface
+Author-email: Sifeng Wang <wangsifeng@bupt.edu.cn>
+Project-URL: Homepage, https://github.com/SifengWang/UKB-Interface
+Project-URL: Bug Tracker, https://github.com/SifengWang/UKB-Interface/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# UK Biobank Interface Package
+
+UK Biobank is one of the largest medical dataset around the world. This project provides an interface to access local UK Biobank dataset structure.
