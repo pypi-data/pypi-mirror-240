@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/todopkg/__init__.py
+src/todopkg/__main__.py
+src/todopkg/todopkg.py
+src/todopkg.egg-info/PKG-INFO
+src/todopkg.egg-info/SOURCES.txt
+src/todopkg.egg-info/dependency_links.txt
+src/todopkg.egg-info/requires.txt
+src/todopkg.egg-info/top_level.txt
+tests/test_todo.py
