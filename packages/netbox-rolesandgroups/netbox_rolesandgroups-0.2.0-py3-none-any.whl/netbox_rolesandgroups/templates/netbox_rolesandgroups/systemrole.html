@@ -1,0 +1,50 @@
+{% extends 'generic/object.html' %}
+{% load render_table from django_tables2 %}
+{% load helpers %}
+{% block content %}
+  <div class="row mb-3">
+    <div class="col col-md-6">
+      <div class="card">
+        <h5 class="card-header">Роли АС</h5>
+        <div class="card-body">
+          <table class="table table-hover attr-table">
+            <tr>
+              <th scope="row">Название</th>
+              <td>{{ object.name|placeholder }}</td>
+            </tr>
+            <tr>
+              <th scope="row">АС</th>
+              <td><a href="{% url 'tenancy:system' pk=object.system.pk %}">{{ object.system }}</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Родительская роль</th>
+              {%  if object.parent %}
+                <td><a href="{% url 'plugins:netbox_rolesandgroups:systemrole' pk=object.parent.pk %}">{{ object.parent }}</a></td>
+              {% else %}
+                <td>"Нет родительской роли"</td>
+              {% endif %}
+            </tr>
+            <tr>
+              <th scope="row">Короткий URL</th>
+              <td>{{ object.slug|placeholder }}</tr>
+          </table>
+        </div>
+      </div>
+      {% include 'inc/panels/custom_fields.html' %}
+       <div class="row">
+        <div class="col col-md-12">
+          <div class="card">
+            <h5 class="card-header">Группы</h5>
+            <div class="card-body table-responsive">
+              {% render_table rolegroupa_table %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col col-md-6">
+      {% include 'inc/panels/tags.html' %}
+      {% include 'inc/panels/comments.html' %}
+    </div>
+  </div>
+{% endblock content %}
