@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/pyrizz/__init__.py
+src/pyrizz/__main__.py
+src/pyrizz/pickuplines.py
+src/pyrizz/pyrizz.py
+src/pyrizz/templates.py
+src/pyrizz.egg-info/PKG-INFO
+src/pyrizz.egg-info/SOURCES.txt
+src/pyrizz.egg-info/dependency_links.txt
+src/pyrizz.egg-info/entry_points.txt
+src/pyrizz.egg-info/requires.txt
+src/pyrizz.egg-info/top_level.txt
+src/pyrizz/data/ascii_art.txt
+tests/test_pyrizz.py
