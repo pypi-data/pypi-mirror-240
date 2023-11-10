@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: vise-delegator-core
+Version: 0.2.0
+License-File: LICENSE
+Requires-Dist: Flask
+Requires-Dist: Flask-Cors
+
