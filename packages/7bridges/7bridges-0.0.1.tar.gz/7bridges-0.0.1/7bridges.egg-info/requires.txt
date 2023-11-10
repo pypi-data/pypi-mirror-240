@@ -1,0 +1,10 @@
+pandas
+matplotlib
+networkx
+numpy
+sklearn
+scipy
+dtaidistance
+minepy
+mlp_toolkits
+libpysal
