@@ -1,0 +1,12 @@
+elifetools/__init__.py,sha256=05a0sNQ4-NqJ7OA2CyOpYZPDIdruLdsog-uy0kipmTI,23
+elifetools/json_rewrite.py,sha256=FprwS69SkZpHW53HvdJpAyQ9zO17q5AchEYh5M4kUO8,92178
+elifetools/parseJATS.py,sha256=79idgOfzYIFm1IduB6craBzhRBnswrK5CjonA6CP2Ws,191117
+elifetools/rawJATS.py,sha256=2sqJa7RBwa76vVEcdDRjm1BE9Y6pmg574ruxFw7NQ_k,16869
+elifetools/utils.py,sha256=KOdd5NAwrcJPCicaDiV2U1CwIHeiyaJTo2HFMie46QA,21757
+elifetools/utils_html.py,sha256=1j-XDApAsQj3-TuRqTvh3SVggfNnBTh2pHOmEquXyaI,12972
+elifetools/xmlio.py,sha256=pTl9FajaLeLuPjBAgtve_RYpoPFKUmA0201aIF_A0hw,12277
+elifetools-0.37.1.dist-info/LICENSE,sha256=WxdubV7VKiflzwKpU5kSf7lOo4cS1rfyea_caBd98WY,1100
+elifetools-0.37.1.dist-info/METADATA,sha256=h_d0zLuqJCCRnL45P6b0J4TeIszSqzBg7alnLpk9kfM,2198
+elifetools-0.37.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+elifetools-0.37.1.dist-info/top_level.txt,sha256=EPTXT_ilhmV2REhnUuWeUCLXcIbG0hGQHpbD5mhUBfs,11
+elifetools-0.37.1.dist-info/RECORD,,
