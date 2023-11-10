@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: mysql-partition
+Version: 1.0.1
+Summary: This library provides functions for querying the latest partitions of MySQL database partition tables and creating table partitions.
+Author-email: lytcreate <lytcreate@163.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+说明[tips]  
+提供mysql数据库的分区表最新分区查询，支持分区字段为DATE或TO_DAYS(date_str)类型的数据表新建分区,依赖库包括："pandas", "pymysql", "sqlalchemy".  
+[Provide the latest partition query for the partition table of MySQL database, supporting partition fields of DATE or TO_ Create new partitions for DAYS (date str) type data tables, with dependency libraries including "pandas", "pymysql", and "sqlalchemy".]
+
+安装[install]  
+pip install mysql-partition  
+
+使用[use]  
+在使用之前请准备好数据库连接字典db_info [Please prepare the database connection dictionary db_info before use.]  
+db_info = {  
+    "host": "127.0.0.1",  
+    "port": 3306,  
+    "username": "root",  
+    "password": "lytcreate",  
+    "database": "yt_zz"  
+}
+
+1.获取指定数据库所有分区表的表名及最新分区[Obtain the table names and latest partitions of all partition tables in the specified database.]  
+import mysql_partition  
+
+res = mysql_partition.show(db_info)  // return mysql partition dict.  
+
+2.创建指定数据库的所有分区表至指定分区日期，不指定日期则默认为执行当天[Create all partition tables for the specified database until the specified partition date. If no date is specified, it defaults to the execution day.]  
+import mysql_partition  
+
+mysql_partition.create(db_info, "2023-01-01")  // Create all partition tables until January 1, 2023
