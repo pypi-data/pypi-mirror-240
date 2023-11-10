@@ -1,0 +1,14 @@
+microframe/__init__.py,sha256=M0wDBs9WXN523nHBxuUfcguKzg9hF3MZSa2V75qjY3k,183
+microframe/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microframe/core/indexers.py,sha256=So_3urUjN4Thvcn2EgMCswmE3XYwsGjlzP_dSLVB0WY,4685
+microframe/core/manipulators.py,sha256=zJ52APhpjfluryFptj9Ctk2nGGfiWLcX60OQpRpet_o,4206
+microframe/core/microframe.py,sha256=fX03MMMI9hGeEHnBHZdD9vY0XbrI1kZ2FoMSvkao2E4,17452
+microframe/core/printers.py,sha256=O_o7fgPER57LkFotCXWdl027k6ZhaKeW9di9vXc4z5A,8470
+microframe/readers/__init__.py,sha256=d7zRv6Nshk_QAhejedUS1FmyFvs7wNgyhQMJQ_9Gls0,30
+microframe/readers/readers.py,sha256=h70rYyu3pKh8-Vediwk3jz3ylKv9InTaUB_nElhHFlI,1450
+microframe/readers/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microframe/readers/utils/csv_utils.py,sha256=97cnsstQ2tsacSFUoDVLt0vgV8g3Dx7hEm8TL5T9zko,2407
+microframe-0.1.0.dist-info/METADATA,sha256=UuMf4JVeGTwaf4XeR9ySwgpxXVMXRqixa0wJoAmV03g,5838
+microframe-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+microframe-0.1.0.dist-info/licenses/LICENSE.txt,sha256=zyVnD9qX1UeZQmk7nc5ZiCeWpBALRRFKc8rtFnRZ4MA,1077
+microframe-0.1.0.dist-info/RECORD,,
