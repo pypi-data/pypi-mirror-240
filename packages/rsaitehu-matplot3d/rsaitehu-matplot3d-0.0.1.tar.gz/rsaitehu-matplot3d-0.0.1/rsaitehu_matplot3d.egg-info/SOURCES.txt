@@ -1,0 +1,7 @@
+pyproject.toml
+rsaitehu/matplot3d.py
+rsaitehu_matplot3d.egg-info/PKG-INFO
+rsaitehu_matplot3d.egg-info/SOURCES.txt
+rsaitehu_matplot3d.egg-info/dependency_links.txt
+rsaitehu_matplot3d.egg-info/requires.txt
+rsaitehu_matplot3d.egg-info/top_level.txt
