@@ -1,0 +1,2 @@
+[console_scripts]
+openai-blog-updates = blog_updates:main
