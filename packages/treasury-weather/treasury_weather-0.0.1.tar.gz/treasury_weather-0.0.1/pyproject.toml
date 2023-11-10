@@ -1,0 +1,30 @@
+
+
+#
+#	How to publish:
+#
+#		(rm -rf dist && python3 -m build --sdist && twine upload dist/*)
+#
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "treasury_weather"
+version = "0.0.1"
+description = "treasury weather"
+readme = "structure.txt"
+dependencies = [
+    'pydash'
+]
+
+
+[tool.setuptools.packages.find]
+where = [ "calculator/structures" ]
+
+#
+#	https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+#
+[tool.setuptools.package-data]
+"*" = [ "*.HTML" ]

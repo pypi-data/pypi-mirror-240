@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: treasury-weather
+Version: 0.0.1
+Summary: treasury weather
+Description-Content-Type: text/plain
+Requires-Dist: pydash
+
+
+
+
+
+<section>
+	<h1>aggregate put call ratios</h1>
+
+	import OPTIONS_CALC.STATS.AGGREGATE_PC_RATIO as AGGREGATE_PC_RATIO
+	EVALUATION = AGGREGATE_PC_RATIO.CALC (EXAMPLE_1)
+
+	import json
+	print ("EVALUATION:", json.dumps (EVALUATION, indent = 4))
+	
+	</code>
+</section>

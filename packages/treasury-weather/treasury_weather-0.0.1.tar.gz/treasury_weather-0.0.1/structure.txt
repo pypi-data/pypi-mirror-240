@@ -1,0 +1,15 @@
+
+
+
+
+<section>
+	<h1>aggregate put call ratios</h1>
+
+	import OPTIONS_CALC.STATS.AGGREGATE_PC_RATIO as AGGREGATE_PC_RATIO
+	EVALUATION = AGGREGATE_PC_RATIO.CALC (EXAMPLE_1)
+
+	import json
+	print ("EVALUATION:", json.dumps (EVALUATION, indent = 4))
+	
+	</code>
+</section>

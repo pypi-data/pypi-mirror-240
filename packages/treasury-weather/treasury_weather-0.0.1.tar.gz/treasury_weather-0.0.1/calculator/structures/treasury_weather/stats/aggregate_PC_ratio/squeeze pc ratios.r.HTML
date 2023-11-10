@@ -1,0 +1,34 @@
+
+
+{
+	pc ratio squeezes,
+	aggregate PC ratio,
+	CONTRACT PRICE SUMS AND ratios
+}
+
+	FOR EACH CONTRACT:
+	SUMMATION (CONTRACT PRICE * open interest * SHARES PER CONTRACT) 
+
+
+	∑ (CONTRACT PRICE * open interest * SHARES PER CONTRACT) 
+	
+	code:
+		import treasury_weather.STATS.AGGREGATE_PC_RATIO as AGGREGATE_PC_RATIO
+		EVALUATION = AGGREGATE_PC_RATIO.CALC (EXAMPLE_1)
+
+		import json
+		print ("EVALUATION:", json.dumps (EVALUATION, indent = 4))
+		
+	
+	plan:
+		calculates the sum and ratios of:
+
+		for one expiration:
+			summation (ask value of every call) : summation (ask value of every put)
+			summation (bid value of every call) : summation (bid value of every put)
+			summation (last value of every call) : summation (last value of every put)
+		
+		for every expiration:
+			summation (ask value of every call) : summation (ask value of every put)
+			summation (bid value of every call) : summation (bid value of every put)
+			summation (last value of every call) : summation (last value of every put)
