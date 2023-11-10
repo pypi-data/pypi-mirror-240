@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fasthog
+Version: 0.1.6
+Summary: Reasonably fast implementation of HOG descriptor calculation
+Home-page: https://github.com/flatironinstitute/fasthog
+Author: Robert Blackwell
+Author-email: rblackwell@flatironinstitute.org
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# FastHOG
+Reasonably fast implementation of Histogram of Oriented Gradients.
+
+
