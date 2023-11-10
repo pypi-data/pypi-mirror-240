@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: cubicweb-pwd-policy
+Version: 2.0.0
+Summary: Password policy for cubicweb applications
+Home-page: https://forge.extranet.logilab.fr/cubicweb/cubes/cubicweb-pwd-policy
+Author: LOGILAB S.A. (Paris, FRANCE)
+Author-email: contact@logilab.fr
+License: LGPL
+Classifier: Environment :: Web Environment
+Classifier: Framework :: CubicWeb
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: JavaScript
+Requires-Dist: cubicweb<5.0.0,>=4.0.0
+
+Summary
+-------
+Password policy for cubicweb applications
