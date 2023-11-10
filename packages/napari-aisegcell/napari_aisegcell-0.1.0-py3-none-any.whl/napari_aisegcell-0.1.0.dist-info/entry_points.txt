@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-aisegcell = napari_aisegcell:napari.yaml
