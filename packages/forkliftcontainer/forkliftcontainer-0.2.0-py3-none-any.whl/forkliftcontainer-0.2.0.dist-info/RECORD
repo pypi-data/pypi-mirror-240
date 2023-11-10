@@ -1,0 +1,13 @@
+src/forklift/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/forklift/forkliftlib/__init__.py,sha256=3XwYRXq7yg6jZbLbK4Q-kXqtHdleyzSIin7yXlghpAg,87
+src/forklift/forkliftlib/confirm.py,sha256=acftU_qX5JOGm5lRk4ly0rlAK1k4Z8YrN3O4djlEPCs,3757
+src/forklift/forkliftlib/container.py,sha256=Vh9Nw7LK5JriLMrR5-LU_CgH79Yjoi_SztZX3SNHwjU,6619
+src/forklift/forkliftlib/inputBox.py,sha256=PP74Z7VX8BUgD2aquVdtVhhU8Z_MdtUdGaSwkGb053c,3999
+src/forklift/forkliftlib/menu.py,sha256=hEecf9TWWAXpgaup9mD-i77cSfQZ3CvZhBpWal3Vjzc,5278
+src/forklift/forkliftlib/messageBox.py,sha256=7OfxMhShjSjqM4-gLe_SgapI37PMVfnwIYX3Z25Kcaw,2276
+src/forklift/forkliftlib/screen.py,sha256=b_opnjNZdjUo-erqtpHu4KzgsZjvgI0HAL_L6KqDQJ8,1564
+src/forklift/forkliftlib/textpad.py,sha256=sk9bAyXRGN0uvQR8_0u5awUuplBOg9v5jDNXRFPO0zc,7658
+forkliftcontainer-0.2.0.dist-info/METADATA,sha256=mTCFDfdinvsWuXlTDcZpo-RAEjSbq_HYrPdZ5a-0afw,5392
+forkliftcontainer-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+forkliftcontainer-0.2.0.dist-info/licenses/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+forkliftcontainer-0.2.0.dist-info/RECORD,,
