@@ -1,0 +1,9 @@
+README.md
+setup.py
+apim_subscription_manager.egg-info/PKG-INFO
+apim_subscription_manager.egg-info/SOURCES.txt
+apim_subscription_manager.egg-info/dependency_links.txt
+apim_subscription_manager.egg-info/requires.txt
+apim_subscription_manager.egg-info/top_level.txt
+apim_subscriptions_manager/__init__.py
+apim_subscriptions_manager/apim_subscriptions_manager.py
