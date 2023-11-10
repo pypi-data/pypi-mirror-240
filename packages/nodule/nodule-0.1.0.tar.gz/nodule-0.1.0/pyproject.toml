@@ -1,0 +1,47 @@
+[project]
+name = "nodule"
+description = "Convert, visualize and iterate over heterogeneous trees."
+authors = [
+    { name = "David Seaward", email = "david@librem.one" },
+]
+dependencies = [
+    "click>=8.1.7",
+    "ruamel-yaml>=0.18.5",
+    "tomlkit>=0.12.2",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = []
+version = "0.1.0"
+
+[project.license]
+text = "Apache-2.0"
+
+[project.optional-dependencies]
+
+[project.scripts]
+nodule = "nodule.cli:nodule"
+
+[project.urls]
+Source = "https://gitlab.com/lfdo/nodule"
+Project = "https://lofidevops.neocities.org"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "carmine>=0.0.3",
+]
+
+[tool.pdm.version]
+source = "scm"
+
+[tool.syllabub.project]
+conduct = "contributor-covenant-2.1"
+copyright = "Copyright 2023 David Seaward and contributors"
+origin = "DCO-1.1-git-signoff"
+title = "nodule"
