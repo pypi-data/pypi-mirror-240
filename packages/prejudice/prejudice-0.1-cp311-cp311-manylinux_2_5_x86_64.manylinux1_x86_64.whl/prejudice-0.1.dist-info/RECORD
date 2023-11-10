@@ -1,0 +1,14 @@
+prejudice-0.1.dist-info/METADATA,sha256=2uZXYZ88n0UEhIV5gmSpXxim3tM_Y3qoWE01rhKB9Qg,1893
+prejudice-0.1.dist-info/RECORD,,
+prejudice-0.1.dist-info/top_level.txt,sha256=o1IzH_qOtzGWzyFYuijxKyB9LEiERm_snGHFkM2rX-Y,10
+prejudice-0.1.dist-info/WHEEL,sha256=-e8xNcPob9__VEB2qoFPeDP0Un7CM5fNrszZuC5h4OM,148
+prejudice/errors.c,sha256=nI-FaIfJBFZ9j3ObVG4VzTljCzl63hQ_T6Aw8UnEC-Y,559072
+prejudice/types.py,sha256=slJkhKqzf0SbJvOgK0KGFVhayQrZhHqadTtSyY2f1JA,247
+prejudice/utils.c,sha256=EgObddjNpJtrQ_xp3atJlg_ojkAWF7k-YTZfCHPhp4A,284274
+prejudice/__init__.py,sha256=nQuUGje05ziNBbWbM9V8T1PqDeU4EJsc9oNpK9uVgLc,331
+prejudice/errors.pyx,sha256=CKRURmoov8zD92lYTkSxH7LPOTYi-AgLUG7m6R5aKig,1631
+prejudice/utils.pyx,sha256=5y4WdmAp5X1IkU0oOe0bU0fIzg02Y5ZkX5l-S11MBik,608
+prejudice/decorator.py,sha256=Uhi31BQjojgODtRcspW5mNopHLF-OSK1gsVd-WRsbxY,795
+prejudice/validators.py,sha256=Gb0lycOhijlvjxyNvhm8Q-S7x5M6xrQL74gonAjK3mI,640
+prejudice/utils.cpython-311-x86_64-linux-gnu.so,sha256=UgC81oJbnKkGKVRXKR0j1FM5Z-wj31z7lHVpcDQX31Y,260400
+prejudice/errors.cpython-311-x86_64-linux-gnu.so,sha256=KVq44M4Chsh7JtRmjwzLRXV4lIzULZt6O6O3pSFZldM,677656
