@@ -1,0 +1,2 @@
+[console_scripts]
+videoclipper = videoclipper.videoclipper:main
