@@ -1,0 +1,3 @@
+eqsolve
+eqsolve/equation
+eqsolve/other
