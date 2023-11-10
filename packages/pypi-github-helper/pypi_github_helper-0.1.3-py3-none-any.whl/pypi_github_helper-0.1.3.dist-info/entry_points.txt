@@ -1,0 +1,5 @@
+[console_scripts]
+dev=pypi_github_helper.manage:dev
+fix=pypi_github_helper.manage:fix
+lint=pypi_github_helper.manage:pylint
+
