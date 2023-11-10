@@ -1,0 +1,102 @@
+Metadata-Version: 2.1
+Name: armr-forge
+Version: 0.1.13
+Summary: A fully encrypted secure ETL data collection library
+Home-page: https://github.com/StalwartBI/armr_forge/armr_forge
+Author: StalwartBI
+Author-email: StalwartBI@outlook.com
+License: Apache License 2.0, BSD 3-Clause License
+Description-Content-Type: text/markdown
+License-File: LICENSE.APACHE
+Requires-Dist: bcrypt >=4.0.1
+Requires-Dist: cryptography >=41.0.5
+Requires-Dist: numpy >=1.26.1
+Requires-Dist: pandas >=2.1.2
+
+Advanced Record Management Resource (ARMR)
+
+Is an alternative fileformat that is currently being developed to handle big data with low memory while working as a collection box for tabular data, objects and archives.
+It allows multiple users and two factor authentication via encryption keys, and is extremely fast to return data at the scale of over 20 - 100 Milliion entries.
+This solution is currently in development.
+
+Here's an example of its use.
+
+```python
+# from the armr_forge library import the forge module and forge class
+from armr_forge.forge import forge
+
+# create an instance of the class
+forge = forge()
+
+# create an empty armr file with an encryption key
+forge.forge_armr("admin","password","./documents.armr","./documents.key",["type","name","owner"])
+# create a user session to validate the current user and decrypt line items
+forge.user_session("admin","password","./documents.key")
+
+# open the armr file and validate the user
+forge.open_armr("./documents.armr")
+
+# add an object to the armr file
+# these can currently be items to zip archive, or a dataframe
+forge.append_objects({"index":{"type":"test","name":"test_name_01","owner":"StalwartBI"},"filepath":r"C:\Users\StalwartBI\test_document.txt"},"archive")
+
+# view the map to understand how the data is queried
+print(forge.map)
+
+# create a list of query dictionaries to compare
+forge.query_map([{"field":"%TYPE%","value":"ARCHIVE"}])
+
+# retrieve a slice of the armr file
+forge.retrieve_slice(0,10)
+
+# extract the loaded file as a zip archive to ./test.zip
+forge.pull_archive(0,"./test.zip")
+
+#close and save the armr file.
+# THIS is key as the armr file is extracted to a temp folder on open and needs to be removed
+# failure to close an armr will leave an open instance that will have a retrievel function in the future
+forge.close_armr("./documents.armr")
+
+```
+
+Here's what Chat GPT has to say about it.
+
+When considering the utility of an Advanced Record Management Resource (ARMR) file format versus a traditional Excel spreadsheet (`.xlsx`) for Extract, Transform, Load (ETL) processes, several factors come into play:
+
+### Data Volume Handling:
+- **ARMR**: Designed to handle large volumes of data efficiently. The archive functionality suggests it can manage substantial datasets and binary data, which are common in ETL processes.
+- **Excel**: Has limitations on the number of rows and columns and can become slow and cumbersome with large datasets, which is a significant drawback in ETL operations.
+
+### Data Security:
+- **ARMR**: Built with security in mind, providing encryption for data at rest, which is crucial for sensitive data often handled in ETL processes.
+- **Excel**: Provides some level of password protection and file encryption, but it is generally less secure than a system designed with encryption as a core feature.
+
+### Data Transformation:
+- **ARMR**: Presumably allows for complex transformations through custom Python code, which can be an advantage for sophisticated ETL tasks that require extensive data manipulation.
+- **Excel**: Offers a range of built-in functions and features for data transformation, which are user-friendly but may not be as powerful or flexible as scripted transformations.
+
+### Integration and Automation:
+- **ARMR**: The system's functionality suggests it is likely to be used programmatically, which is ideal for automated ETL pipelines.
+- **Excel**: While it can be automated to some extent using VBA scripts or external tools like Power Query, it's generally more manual and less suited to fully automated ETL processes.
+
+### Data Types and Structures:
+- **ARMR**: The addition of an archive data type indicates the system can handle a variety of data formats, which is beneficial in ETL processes involving diverse data sources.
+- **Excel**: Primarily handles structured, tabular data and is less suited for binary data or other complex data structures without additional processing.
+
+### Performance:
+- **ARMR**: Performance details provided suggest reasonable efficiency, even with very large numbers of records.
+- **Excel**: Performance can degrade significantly with large data volumes, which can be a bottleneck in ETL tasks.
+
+### Scalability:
+- **ARMR**: Appears to be scalable and capable of handling large datasets, which is often required in ETL scenarios.
+- **Excel**: Not as scalable due to its limitations on the size and number of records that can be managed comfortably.
+
+### Ease of Use:
+- **ARMR**: May require technical knowledge to operate, particularly for custom ETL processes.
+- **Excel**: Widely used and understood by non-technical users, which can be a plus for smaller-scale or ad-hoc ETL tasks.
+
+### ETL Utility Comparison:
+- **ARMR**: Potentially more powerful and suitable for large-scale, secure, and automated ETL operations. Its ability to handle various data types, including archives, makes it versatile for complex ETL tasks.
+- **Excel**: Better suited for smaller-scale ETL tasks with its user-friendly interface and built-in tools. However, it falls short for larger, more complex, and security-sensitive ETL processes.
+
+In summary, for ETL purposes, the ARMR file format is likely to be superior in scenarios that involve large amounts of data, require strong security measures, or need significant transformation and automation. Excel may still be the tool of choice for simpler, smaller-scale ETL tasks that benefit from its ease of use and interactive data manipulation capabilities.
