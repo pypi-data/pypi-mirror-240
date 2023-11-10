@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: PrepDatosBD
+Version: 0.5
+Summary: This library aims to simplify and agilize the process of data preprocessing and cleaning, which is critical in any data analysis or machine learning project. By providing a variety of tools and functions, users can work more efficiently and ensure the quality of the data they are working with.
+Home-page: https://github.com/gabrielaybarra/DataPreprocessing.git
+Author: Nerea Zuaznabar & Gabriela Ybarra
+Author-email: nerea.zuaznabar@alumni.mondragon.edu, gabriela.ybarra@alumni.mondragon.edu
+License: MIT
+Download-URL: https://github.com/gabrielaybarra/DataPreprocessing/archive/refs/tags/0.5.tar.gz
+Description: UNKNOWN
+Keywords: Visualize,Preprocess,Read
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
