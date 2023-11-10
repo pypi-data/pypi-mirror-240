@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mathz/__init__.py
+mathz/main.py
+mathz.egg-info/PKG-INFO
+mathz.egg-info/SOURCES.txt
+mathz.egg-info/dependency_links.txt
+mathz.egg-info/entry_points.txt
+mathz.egg-info/requires.txt
+mathz.egg-info/top_level.txt
