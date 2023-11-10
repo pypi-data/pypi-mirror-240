@@ -1,0 +1,12 @@
+entry.py,sha256=BC7hNs-uH6gLGpW6P4Lhr-XOSU7JSCXs-V34SDBmnfQ,3528
+avala/CONTRIB.md,sha256=FpzPbZlZbcQ-Em2O3zLfUPNNxc7zbIPa5CGaubmDqqA,230
+avala/README.md,sha256=N30WwiqQF3eXIAC5tGK3a9d6_vgpcUCPMvOnlHv0nB8,11523
+avala/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+avala/client.py,sha256=44qJqw3z9MQ-7JtCw8kEVnGw-CqYJAchaPMlDRKcd_E,5578
+avala/config.json,sha256=CJjd_frG1cQwV9rugnl6ruckt8m1Wdz1zTEcsm37AgM,859
+avala/utils.py,sha256=-AgzBoELhEo7Uo8wuFp5I0jghKQKh_eLKV-quDET2mQ,2581
+avala-0.0.4.dist-info/METADATA,sha256=TGdIyKBpwW5gK2EO6EMGYB2XzOI7gKKDpXh2nc6CUZQ,12246
+avala-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+avala-0.0.4.dist-info/entry_points.txt,sha256=HpytJq1U0OZIw9Cdq2gOqMHT7zb_kvdqsb0wQrMO6qk,37
+avala-0.0.4.dist-info/top_level.txt,sha256=AUHTs8So5LGn4SMqbkgRq8DTy8ovWc1mmxNzDNwEGX8,12
+avala-0.0.4.dist-info/RECORD,,
