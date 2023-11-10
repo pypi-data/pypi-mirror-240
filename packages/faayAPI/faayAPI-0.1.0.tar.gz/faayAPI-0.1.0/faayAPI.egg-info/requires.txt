@@ -1,0 +1,7 @@
+requests
+maya
+records
+flask
+flask-sqlalchemy
+sqlalchemy
+flasgger

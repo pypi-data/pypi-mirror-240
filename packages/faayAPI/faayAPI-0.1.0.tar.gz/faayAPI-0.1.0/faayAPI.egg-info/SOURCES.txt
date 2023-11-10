@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+faayAPI/__init__.py
+faayAPI/__version__.py
+faayAPI/core.py
+faayAPI/extendsions.py
+faayAPI.egg-info/PKG-INFO
+faayAPI.egg-info/SOURCES.txt
+faayAPI.egg-info/dependency_links.txt
+faayAPI.egg-info/requires.txt
+faayAPI.egg-info/top_level.txt
