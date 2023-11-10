@@ -1,0 +1,10 @@
+LICENCE.txt
+README.md
+setup.py
+subprocess_executor/__init__.py
+subprocess_executor/executor.py
+subprocess_executor.egg-info/PKG-INFO
+subprocess_executor.egg-info/SOURCES.txt
+subprocess_executor.egg-info/dependency_links.txt
+subprocess_executor.egg-info/requires.txt
+subprocess_executor.egg-info/top_level.txt
