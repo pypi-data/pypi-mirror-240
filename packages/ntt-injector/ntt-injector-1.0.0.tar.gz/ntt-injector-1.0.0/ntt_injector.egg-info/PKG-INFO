@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ntt-injector
+Version: 1.0.0
+Summary: The small library for configuring the depedency injector design pattern
+Home-page: https://github.com/threezinedine/ntt-injector
+Author: threezinedine
+Author-email: threezinedine@email.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/threezinedine/ntt-injector
+Project-URL: Tracker, https://github.com/threezinedine/ntt-injector/issues
+Keywords: dependency injector
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+A longer description if needed
+
