@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: polars-s2
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Summary: Polars plugin for S2 Cell.
+Author-email: Tyler Anderson <31015976+tylanderson@users.noreply.github.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# polars-s2
+
+> [!WARNING]
+> Work in Progress
+
+[S2 Cell](https://s2geometry.io/devguide/s2cell_hierarchy.html) expression plugins for [Polars](https://www.pola.rs/).
