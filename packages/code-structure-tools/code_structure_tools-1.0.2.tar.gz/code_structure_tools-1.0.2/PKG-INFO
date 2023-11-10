@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: code_structure_tools
+Version: 1.0.2
+Summary: Tools for managing functions, classes and other native code structures in python
+Home-page: UNKNOWN
+Author: Brendan Celii
+Author-email: brendanacelii@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/reimerlab/code_structure_tools
+Platform: UNKNOWN
+
+code\_structure\_tools
+======================
+
+tools for efficiently structuring code in function programming and
+object oriented programing
+
+
