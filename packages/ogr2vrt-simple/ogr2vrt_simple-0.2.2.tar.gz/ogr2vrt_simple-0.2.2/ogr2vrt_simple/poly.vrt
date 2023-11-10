@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+  <OGRVRTLayer name="poly">
+    <SrcDataSource relativeToVRT="1">/vsizip//vsicurl/https://raw.githubusercontent.com/OSGeo/gdal/master/autotest/ogr/data/shp/poly.zip/poly.shp</SrcDataSource>
+    <!--<SrcSql dialect="sqlite">SELECT * FROM 'poly'</SrcSql>-->
+    <SrcLayer>poly</SrcLayer>
+    <Field name="AREA" src="AREA" type="Real" width="12"/>
+    <Field name="EAS_ID" src="EAS_ID" type="Integer64" width="11"/>
+    <Field name="PRFEDEA" src="PRFEDEA" type="String" width="16"/>
+  </OGRVRTLayer>
+</OGRVRTDataSource>
