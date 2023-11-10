@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+long_description.md
+pyproject.toml
+setup.cfg
+setup.py
+coinespy/__init__.py
+coinespy/coines.py
+coinespy/libcoines_32.dll
+coinespy/libcoines_32.so
+coinespy/libcoines_64.dll
+coinespy/libcoines_64.so
+coinespy_test.egg-info/PKG-INFO
+coinespy_test.egg-info/SOURCES.txt
+coinespy_test.egg-info/dependency_links.txt
+coinespy_test.egg-info/requires.txt
+coinespy_test.egg-info/top_level.txt
