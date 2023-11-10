@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+lib/python/Portenta/__init__.py
+lib/python/Portenta.GPIO.egg-info/PKG-INFO
+lib/python/Portenta.GPIO.egg-info/SOURCES.txt
+lib/python/Portenta.GPIO.egg-info/dependency_links.txt
+lib/python/Portenta.GPIO.egg-info/top_level.txt
+lib/python/Portenta/GPIO/__init__.py
+lib/python/Portenta/GPIO/event_producer.py
+lib/python/Portenta/GPIO/gpio.py
+lib/python/Portenta/GPIO/portenta_gpio_map.py
+lib/python/RPi/__init__.py
+lib/python/RPi/GPIO/__init__.py
