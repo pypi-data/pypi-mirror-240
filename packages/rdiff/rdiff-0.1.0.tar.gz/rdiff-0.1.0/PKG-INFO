@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: rdiff
+Version: 0.1.0
+Summary: An implementation of the rdiff tool by librsync
+Home-page: https://github.com/MohitPanchariya/rdiff
+Author: Mohit Panchariya
+Author-email: iammohitpanchariya@gmail.com
+License: MIT
+Download-URL: https://github.com/MohitPanchariya/rdiff/archive/refs/tags/v0.1.0.tar.gz
+Description: UNKNOWN
+Keywords: rdiff,librsync,native,python,native python implementation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
