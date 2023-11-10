@@ -1,0 +1,33 @@
+[project]
+name = "forkliftcontainer"
+version = "0.2.0"
+authors = [
+  { name="Andrea Benini", email="andreabenini@gmail.com" },
+]
+description = "Container friendly text-only curses utility (local and ssh usage)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "PyYAML",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/andreabenini/podmaster/tree/main/forklift"
+"Bug Tracker" = "https://github.com/andreabenini/podmaster/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+exclude = [
+    "containers.yaml",
+    "images.yaml",
+    "contrib",
+]
+
