@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mgba
+Version: 0.10.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: cached-property
+Requires-Dist: cffi (>=1.6)
+Provides-Extra: pil
+Requires-Dist: Pillow (>=2.3) ; extra == 'pil'
+
+UNKNOWN
+
