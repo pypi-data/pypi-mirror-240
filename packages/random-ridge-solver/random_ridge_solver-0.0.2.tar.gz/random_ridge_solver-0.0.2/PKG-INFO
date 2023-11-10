@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: random_ridge_solver
+Version: 0.0.2
+Summary: Ridge regression solver
+Home-page: https://github.com/jonathanlctt/randomized_ridge_regression_solver
+Author: Jonathan Lacotte
+Author-email: <jonathanlacotte@email.com>
+License: MIT
+Description: Randomized preconditioned conjugate gradient method for ridge regression, with adaptive sketch sizes.
+Keywords: ridge regression,sketching,preconditioning,conjugate gradient method,effective dimension
+Platform: UNKNOWN
