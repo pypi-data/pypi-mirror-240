@@ -1,0 +1,2 @@
+[console_scripts]
+slang = yace.slang.cli:main
