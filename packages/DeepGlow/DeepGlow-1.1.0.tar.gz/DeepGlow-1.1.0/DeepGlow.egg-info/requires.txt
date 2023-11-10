@@ -1,0 +1,12 @@
+tensorflow>=2.0.0
+numpy
+importlib.resources
+
+[quality]
+flake8
+mypy
+types-tensorflow
+black
+
+[test]
+pytest
