@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: chap-command-explain
+Version: 0.0.3
+Summary: Example command plugin for chap
+Author-email: Jeff Epler <jepler@gmail.com>
+Project-URL: homepage, https://github.com/jepler/chap-command-explain
+Project-URL: repository, https://github.com/jepler/chap-command-explain
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: chap
+
+<!--
+SPDX-FileCopyrightText: 2021 Jeff Epler
+
+SPDX-License-Identifier: MIT
+-->
+
+
+# chap-command-explain
+
+A proof-of-concept command plug-in for chap.
+
+## Installation
+
+If you installed chap with pip, then run `pip install chap-command-explain`.
+
+If you installed chap with pipx, then run `pipx inject chap chap-command-explain`.
+
+## Use
+
+`chap explain "echo 42 | tee /etc/answer"`
