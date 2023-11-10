@@ -1,0 +1,8 @@
+README.md
+setup.py
+openai_blog_updates.egg-info/PKG-INFO
+openai_blog_updates.egg-info/SOURCES.txt
+openai_blog_updates.egg-info/dependency_links.txt
+openai_blog_updates.egg-info/entry_points.txt
+openai_blog_updates.egg-info/requires.txt
+openai_blog_updates.egg-info/top_level.txt
