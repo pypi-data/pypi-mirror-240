@@ -1,0 +1,8 @@
+textnoisr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+textnoisr/noise.py,sha256=NQT7yzD5-D84dhJrqri4aDxOri2OCVNGX8kLh7CzaMY,8831
+textnoisr/noise_dataset.py,sha256=QeLOkc8CDteu2GG1APt3sL9hOSk7qOK9vjFTYxRWKQc,1564
+textnoisr/noise_unbiasing.py,sha256=EcvEixyGCMOTCCdxE00gH7bLCqrhpoIby2D-R0F9SIg,5031
+textnoisr-1.0.1.post0.dist-info/LICENSE,sha256=5mFPJ7a5LK50z1s03df-Ds4k5hU3lDrbBLBS1c4Ttps,1302
+textnoisr-1.0.1.post0.dist-info/METADATA,sha256=qJw9mpMpKHFXpYL5TZ5RImW4Te1GpO5cAXCP4cEc040,6366
+textnoisr-1.0.1.post0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+textnoisr-1.0.1.post0.dist-info/RECORD,,
