@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: practools
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: 
+Author: sl.truman
+Author-email: sl.truman@live.com
+License: UNKNOWN
+Platform: win-amd64
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pybullet
+Requires-Dist: pygfx
+
+UNKNOWN
