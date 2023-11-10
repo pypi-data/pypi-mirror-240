@@ -1,0 +1,13 @@
+README.md
+setup.py
+citrinedjangomodule.egg-info/PKG-INFO
+citrinedjangomodule.egg-info/SOURCES.txt
+citrinedjangomodule.egg-info/dependency_links.txt
+citrinedjangomodule.egg-info/requires.txt
+citrinedjangomodule.egg-info/top_level.txt
+university/__init__.py
+university/admin.py
+university/apps.py
+university/models.py
+university/tests.py
+university/views.py
