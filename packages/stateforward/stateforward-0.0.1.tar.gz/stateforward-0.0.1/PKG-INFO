@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: stateforward
+Version: 0.0.1
+Summary: Stateforward is a library for creating state machines
+Author: Gabriel Willen
+Author-email: gabewillen@gmail.com
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: stateforward-behavior
+Requires-Dist: stateforward-elements
+Requires-Dist: stateforward-model
