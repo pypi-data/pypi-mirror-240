@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: botanical
+Version: 0.0.9
+Summary: various botanical tools
+Description-Content-Type: text/plain
+Requires-Dist: psutil
