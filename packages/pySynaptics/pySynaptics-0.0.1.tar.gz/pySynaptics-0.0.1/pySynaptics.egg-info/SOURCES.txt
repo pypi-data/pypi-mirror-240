@@ -1,0 +1,10 @@
+README.md
+setup.py
+pySynaptics/__init__.py
+pySynaptics/pySynaptics.py
+pySynaptics.egg-info/PKG-INFO
+pySynaptics.egg-info/SOURCES.txt
+pySynaptics.egg-info/dependency_links.txt
+pySynaptics.egg-info/top_level.txt
+pySynaptics/lib/csynaptics.so
+tests/test.py
