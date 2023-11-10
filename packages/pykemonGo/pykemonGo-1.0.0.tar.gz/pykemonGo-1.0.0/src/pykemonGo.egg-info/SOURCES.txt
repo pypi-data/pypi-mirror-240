@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/pykemonGo/__init__.py
+src/pykemonGo/__main__.py
+src/pykemonGo/pykemonASCII.py
+src/pykemonGo.egg-info/PKG-INFO
+src/pykemonGo.egg-info/SOURCES.txt
+src/pykemonGo.egg-info/dependency_links.txt
+src/pykemonGo.egg-info/entry_points.txt
+src/pykemonGo.egg-info/requires.txt
+src/pykemonGo.egg-info/top_level.txt
+tests/test_pykemon.py

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pykemonGo"
+description = "Package built with pypi to print images of pokemon"
+version = "1.0.0"
+authors = [
+  { name="Group GGWP", email="swp6940@gmail.com" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["python", "package", "build", "tutorial"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/software-students-fall2023/3-python-package-exercise-ggwp"
+"Repository" = "https://github.com/software-students-fall2023/3-python-package-exercise-ggwp.git"
+"Bug Tracker" = "https://github.com/software-students-fall2023/3-python-package-exercise-ggwp/issues"
+
+[project.scripts]
+pykemonGo = "pykemonGo.__main__:main"
