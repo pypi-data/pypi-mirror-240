@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: promisify_dmsbilas
+Version: 0.0.3
+Summary: This package helps Javascript developers to use Python threads with name of Promise
+Project-URL: Homepage, https://github.com/dmsbilas/
+Project-URL: Bug Tracker, https://github.com/dmsbilas/
+Author-email: Abu Haider Siddiq <mailtobilas@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
