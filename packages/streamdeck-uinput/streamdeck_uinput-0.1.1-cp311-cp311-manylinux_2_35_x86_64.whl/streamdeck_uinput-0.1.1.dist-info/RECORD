@@ -1,0 +1,7 @@
+streamdeck_uinput/__init__.py,sha256=VAwl8NP_I8ZAEdfsXB2stCg4ELBlHk3Mx_i5SCrFd9U,43
+streamdeck_uinput/uinput.c,sha256=FPK-o65jYiJbdfBchU0XA7h0JXTqoR1ozC8JQwgdojk,4459
+streamdeck_uinput/uinput.py,sha256=KYnxW8SjaN9g-xW9jdIdGEVxwMNz8qVuU5jRPBPn3xk,1376
+streamdeck_uinput/_uinput.cpython-311-x86_64-linux-gnu.so,sha256=QI68R5YY0A_EpScWocohdA4wh-8oMZWtalcmHdvYpB0,31584
+streamdeck_uinput-0.1.1.dist-info/METADATA,sha256=fZDlgsY9RFlZi0ScJHYT4znbmypiYBzlYaOTt9odN8w,870
+streamdeck_uinput-0.1.1.dist-info/WHEEL,sha256=7_YneekJ1YZvXGbH3KR2pr_VHmBxRMyx_WCjIwFH9PE,110
+streamdeck_uinput-0.1.1.dist-info/RECORD,,
