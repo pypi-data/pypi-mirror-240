@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+LatDi/__init__.py
+LatDi/complexdimensionalityreduction.py
+LatDi.egg-info/PKG-INFO
+LatDi.egg-info/SOURCES.txt
+LatDi.egg-info/dependency_links.txt
+LatDi.egg-info/requires.txt
+LatDi.egg-info/top_level.txt
