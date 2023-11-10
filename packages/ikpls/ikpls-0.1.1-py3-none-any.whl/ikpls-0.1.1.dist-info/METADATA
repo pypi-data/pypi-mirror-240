@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: ikpls
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/Sm00thix/IKPLS
+License: Apache-2.0
+Author: Sm00thix
+Author-email: oleemail@icloud.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: jax (>=0.4.19,<0.5.0)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: scikit-learn (>=1.3.2,<2.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Project-URL: Repository, https://github.com/Sm00thix/IKPLS
+Description-Content-Type: text/markdown
+
+# IKPLS
+Fast CPU and GPU Python implementations of Improved Kernel PLS by Dayal and MacGregor (1997).
+
+## Pre-requisites
+The JAX implementations support running on both CPU and GPU. To use the GPU, follow the instructions from the [JAX Installation Guide](https://jax.readthedocs.io/en/latest/installation.html).
+To ensure that JAX implementations use Float64, set the environment variable JAX_ENABLE_X64=True as per the [Current Gotchas](https://github.com/google/jax#current-gotchas).
