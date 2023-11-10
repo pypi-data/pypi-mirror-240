@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: oscar-corpus-downloader
+Version: 0.1.0
+Summary: OSCAR Corpus Download Tool
+Home-page: https://github.com/jtourille/oscar-corpus-downloader
+License: MIT
+Keywords: oscar,corpus
+Author: Julien Tourille
+Author-email: julien.tourille@gmail.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: joblib (>=1.3.2,<2.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Project-URL: Documentation, https://github.com/jtourille/oscar-corpus-downloader
+Project-URL: Repository, https://github.com/jtourille/oscar-corpus-downloader
+Description-Content-Type: text/markdown
+
+# OSCAR Corpus Downloader
+
+Simple tool to download the OSCAR corpus.
+
+## 1. Installation
+
+Installation can be done using [pypi](https://pypi.org/project/oscar-corpus-downloader/):
+
+```shell
+$ pip install oscar-corpus-downloader
+```
+
+## 2. Usage
+
+Submit an OSCAR access request following the procedure described on the [project page](https://oscar-project.org/).
+
+Once you have received your credentials, you can use the command line interface to download an OSCAR corpus part.
+
+```shell
+$ export OSCAR_USERNAME=username
+$ export OSCAR_PASSWORD=password
+$ oscar download --help
+Usage: oscar download [OPTIONS]
+
+Options:
+  -u, --url TEXT         OSCAR corpus url  [required]
+  -o, --output-dir TEXT  Output directory  [required]
+  --resume               Resume download
+  --help                 Show this message and exit.
+
+$ oscar download \
+  --url https://oscar-prive.huma-num.fr/2301/fr_meta \
+  -o ./oscar-fr
+```
+
+

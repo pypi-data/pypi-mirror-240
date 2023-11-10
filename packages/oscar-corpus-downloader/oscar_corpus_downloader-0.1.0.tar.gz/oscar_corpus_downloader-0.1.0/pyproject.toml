@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "oscar-corpus-downloader"
+version = "0.1.0"
+description = "OSCAR Corpus Download Tool"
+authors = ["Julien Tourille <julien.tourille@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/jtourille/oscar-corpus-downloader"
+homepage = "https://github.com/jtourille/oscar-corpus-downloader"
+documentation = "https://github.com/jtourille/oscar-corpus-downloader"
+keywords = ["oscar", "corpus"]
+packages = [
+    { include = "oscardl", from = "src"},
+]
+
+[tool.poetry.scripts]
+oscar = 'oscardl.cli:cli'
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+click = "^8.1.7"
+loguru = "^0.7.2"
+joblib = "^1.3.2"
+tqdm = "^4.66.1"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.4"
+pre-commit = "^3.5.0"
+
+[tool.ruff]
+target-version = "py39"
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "C",  # flake8-comprehensions
+    "B",  # flake8-bugbear
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E501",  # line too long, handled by black
+    "C901",  # too complex
+    "W191", # indentation contains tabs
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
