@@ -1,0 +1,7 @@
+bigquery_exporter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bigquery_exporter/base.py,sha256=TjpynxdjUyfV6p5WstPQNVzR69ISzuuDy4SdZ0OTyXM,3175
+django_bigquery_exporter-0.1.1.dist-info/LICENSE,sha256=d4qx2kewDLV-kjjP4mNqckqb9AFdtR502tsp51xMqqA,1070
+django_bigquery_exporter-0.1.1.dist-info/METADATA,sha256=XKcCWWz1nWKDkO_ktsfF9A1SuwKUj-fvRHHUqk3AT7k,1865
+django_bigquery_exporter-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+django_bigquery_exporter-0.1.1.dist-info/top_level.txt,sha256=CRaFdjIs4f0J-bdHQMLxYJKoPC_QKTBLxA5hUxeFcUM,18
+django_bigquery_exporter-0.1.1.dist-info/RECORD,,
