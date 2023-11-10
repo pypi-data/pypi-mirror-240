@@ -1,0 +1,2 @@
+[console_scripts]
+acmd = aws_cli_bedrock.cli_creactor:invoke

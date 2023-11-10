@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: acmd
+Version: 0.1.0
+Summary: This package automatically generates and run aws-cli commands using AWS Bedrock models. Example usage: "# acmd list all by s3 buckets"
+Home-page: https://github.com/DEV3L/python-package-archetype
+Download-URL: https://github.com/DEV3L/python-package-archetype/tarball/0.4
+Author: Junxiang Ji
+Author-email: junxiang.ji@qq.com
+Keywords: aws-cli,Bedrock
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
