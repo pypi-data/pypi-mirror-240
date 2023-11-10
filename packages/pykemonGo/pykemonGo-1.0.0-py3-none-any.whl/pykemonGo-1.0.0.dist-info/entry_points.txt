@@ -1,0 +1,2 @@
+[console_scripts]
+pykemonGo = pykemonGo.__main__:main
