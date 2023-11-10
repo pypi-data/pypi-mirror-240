@@ -1,0 +1,8 @@
+gradio_multimodalchatbot/__init__.py,sha256=lfYWFPQjr4Tl7gPmjrq3QsFHyLRxJelwYBhob3Vlr8c,83
+gradio_multimodalchatbot/multimodalchatbot.py,sha256=tY1foj2bZCcbjkWL97LLe9hUT4XT9OxlZus-gkFFXJc,10180
+gradio_multimodalchatbot/multimodalchatbot.pyi,sha256=T9VdbTwjRzsox5hZfTh24HOrTrj2m6DVfzMJXEHdc6Y,22625
+gradio_multimodalchatbot/templates/component/index.js,sha256=MGs2ixj4r8Z3fseQ37JbNs51Lt_X1aMhreH8738QK1s,725308
+gradio_multimodalchatbot/templates/component/style.css,sha256=DQp7cVAzEZv3154g1lAgMCp34aCa_uMbjHyxkPziuSI,1481352
+gradio_multimodalchatbot-0.0.1.dist-info/METADATA,sha256=8ZCVzgINC5vozwu1r54_CHrE8Lqz86yuQ0RjDEjvXxk,1337
+gradio_multimodalchatbot-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gradio_multimodalchatbot-0.0.1.dist-info/RECORD,,
