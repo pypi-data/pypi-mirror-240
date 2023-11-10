@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fastapi-mock
+Version: 0.1.0
+Summary: A plugin for FastAPI that allows you to create mock endpoints quickly and easily.
+Author: Ruslan Belckov
+Author-email: ruslan.belckov@yandex.ru
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fastapi (>=0.104.1,<0.105.0)
+Requires-Dist: pydantic (>=2,<3)
+Project-URL: Bug Tracker, https://github.com/dantetemplar/fastapi-mock/issues
+Project-URL: Homepage, https://github.com/dantetemplar/fastapi-mock
+Description-Content-Type: text/markdown
+
+# fastapi-mock
+A plugin for FastAPI that allows you to create mock endpoints quickly and easily.
+
