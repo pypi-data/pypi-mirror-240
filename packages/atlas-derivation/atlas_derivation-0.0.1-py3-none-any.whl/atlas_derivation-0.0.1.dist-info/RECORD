@@ -1,0 +1,11 @@
+atlas_derivation/__init__.py,sha256=idnGA06kSc7Cix78gGjmfJB_0mHuDQmtu2Ttz9DU_NY,124
+atlas_derivation/_version.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+atlas_derivation/aod_deletion_manager.py,sha256=9U-41Uf2j87HK--9tpaVIBlOVtfjcbGZglqqvK0j2nY,14403
+atlas_derivation/did_collection.py,sha256=VVGRsTcC2oLHurqgK33nOiPaE3gt-OWQ1xx0tfED7eM,10347
+atlas_derivation/did_tool.py,sha256=tV9oABiJD66Ndk8f84eBF_0TNJ0Cyqa_fRtOI7Lfj-k,12779
+atlas_derivation-0.0.1.data/scripts/derivtool,sha256=DkHSBsYqRbSjrhJEi4795FJoGCKcOT0k2Al-CO5nFIc,4149
+atlas_derivation-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+atlas_derivation-0.0.1.dist-info/METADATA,sha256=shsvOXWsLkAkqIZ8aWrG5ewSWfTSSNHRLP3I-BKTbSE,821
+atlas_derivation-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+atlas_derivation-0.0.1.dist-info/top_level.txt,sha256=x8dAfnV8549BWhu3MjW4Ishvz6W1Qll15CCPLFnQz5s,17
+atlas_derivation-0.0.1.dist-info/RECORD,,
