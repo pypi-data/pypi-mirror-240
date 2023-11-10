@@ -1,0 +1,3 @@
+[console_scripts]
+nodule = nodule.cli:nodule
+
