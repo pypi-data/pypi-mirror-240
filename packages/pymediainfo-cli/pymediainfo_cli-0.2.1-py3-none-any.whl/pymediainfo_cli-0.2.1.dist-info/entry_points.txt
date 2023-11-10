@@ -1,0 +1,3 @@
+[console_scripts]
+pymediainfo-cli=pymediainfo_cli.main:app
+
