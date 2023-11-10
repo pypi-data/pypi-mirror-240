@@ -1,0 +1,14 @@
+SQLBinance/__init__.py,sha256=ZCne0kmt8j6jnToi5ecVRGmjhkxX6SP4Xt8oBUMnHBM,1011
+SQLBinance/classData/_SQLBinance.py,sha256=xYD7eD9Dg2JEQGH9HOViIMswVf92jF8gf3dijK3B2rY,3767
+SQLBinance/classData/comprobante_data.py,sha256=S__62ChkYMA2eML023clqgMx1cP58f57iER4v1sOt-o,1823
+SQLBinance/classData/conexion.py,sha256=6ikYn6g4HTSTZwQrSsGKRXvOmzd05Fyt99jUJ1kQm-E,3359
+SQLBinance/classData/consulta.sql,sha256=C7kdeQy8HMiaMXmSasZ9VBdLFzHL8WL2aba00ECLD6M,2012
+SQLBinance/classData/informe_data.py,sha256=eppSYYJ_iXNTyEN7TyD7BuAbMhiQMX820bXSBQ0A3hM,6169
+SQLBinance/classData/transaccion_data.py,sha256=lHzG8QqQOB4edy3ScWeG01SSgjDoluoA59Czp76Eksg,9455
+SQLBinance/entidades/Comprobante.py,sha256=dfrxB9Y1obHsVceqqPph5AyTk1MMJwI_K1nt-nt1T6E,1729
+SQLBinance/entidades/Informe.py,sha256=o2E1xUiB7xw_aqWfZNPSjn-N822aV3qjD67_D4S_dT8,2762
+SQLBinance/entidades/Transaccion.py,sha256=x9Kzy0fTMtg1AIQlK7k2oaN71Ada2ZVs52yUIkGVhhw,2841
+sqlbinance-0.0.2.dist-info/METADATA,sha256=vbesQZDUoir7NEC41IE4v3VTfu07RJVLpYz6q2o0bUE,3476
+sqlbinance-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+sqlbinance-0.0.2.dist-info/licenses/LICENCE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+sqlbinance-0.0.2.dist-info/RECORD,,
