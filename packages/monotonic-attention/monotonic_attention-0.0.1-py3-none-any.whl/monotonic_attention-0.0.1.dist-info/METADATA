@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: monotonic-attention
+Version: 0.0.1
+Summary: Monotonic attention implementation
+Home-page: https://github.com/codekansas/monotonic-attention
+Author: Benjamin Bolte
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: darglint ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-timeout ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+
+# monotonic-attention
+
+Monotonic attention as a probabilistic graphical model
+
+[Write-up explaining how this works](https://ben.bolte.cc/monotonic-attention)
+
+## Usage
+
+```python
+from monotonic_attention import OneToManyMultiheadMonotonicAttention
+
+# Many keys mapped to a single query.
+attn = OneToManyMultiheadMonotonicAttention(
+  mode="many_keys_one_query",
+  embed_dim=1024,
+  num_heads=16,
+)
+
+output = attn(query, key, value)
+
+# Many queries mapped to a single key.
+attn = OneToManyMultiheadMonotonicAttention(
+  mode="many_queries_one_key",
+  embed_dim=1024,
+  num_heads=16,
+)
+
+output = attn(query, key, value)
+```
