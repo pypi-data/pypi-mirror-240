@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dune-quote"
+version = "0.1.0"
+description = ""
+authors = ["teodororo <giovanna.teod@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dune_quote"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
