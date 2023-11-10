@@ -1,0 +1,11 @@
+gptfy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gptfy/client.py,sha256=Uw61jJNsQWQkiY_zTlY4UIbBbvSVRUMNsTnNVZHmP7g,73
+gptfy/colors.py,sha256=I6FsguiEx4LSz8QbCZ0moWEdEGYTTlNzYWEBGTOsDww,264
+gptfy/conversation.py,sha256=VYCX71hEV-ouAR2hhl3v-v58CRAG6utmGp6A1fT4cP8,422
+gptfy/dalle.py,sha256=TiMcb1OjHZm4MhSwhmkBQWloVFYrRnlaO9-gmKRjOJc,498
+gptfy/model.py,sha256=Rb_-aiQquc8A5U8UzEd7Een02RVZwuuufkhiUzSg_0U,2658
+gptfy-0.2.dist-info/LICENSE,sha256=-Z4AQ23ZMcYIOL7toXS1PNF8zC56UaLYrdSZK50lb7k,1075
+gptfy-0.2.dist-info/METADATA,sha256=KW92JpyzSvqG2WrKjs8SK7Nb_663GQcDlJpuMivatc8,181
+gptfy-0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+gptfy-0.2.dist-info/top_level.txt,sha256=vnt46HOIEN8lkzkpJ4dZHpK8sX7Xsvp0Q8Vsy_Qj3mI,6
+gptfy-0.2.dist-info/RECORD,,
