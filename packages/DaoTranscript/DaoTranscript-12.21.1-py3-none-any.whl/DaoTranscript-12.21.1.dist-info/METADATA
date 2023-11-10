@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: DaoTranscript
+Version: 12.21.1
+Summary: DaoTranslate.com TTS Application
+Home-page: https://BlackBots.net
+Author: BlackBots.net
+Author-email: Supreme Ciento <Admin@BlackBots.net>
+Project-URL: Homepage, https://BlackBots.net
+Keywords: BlackBots,DaoTranslate,DaoTranscript,TTS
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: beautifulsoup4 ==4.8.2
+Requires-Dist: Pillow ==10.1.0
+Requires-Dist: PySimpleGUI ==4.60.5
+Requires-Dist: pywin32 ==304
+Requires-Dist: Requests ==2.31.0
+Provides-Extra: dev
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+DaoTransript Application
+
+v12.21.12
+
+Install: pip install DaoTranscript
+
+Run: python -m DaoTranscript
+
+*INSTRUCTIONS*
+- Input link from 'DaoTranslate.com' webnovel such as:
+"daotranslate.com/novel-martial-peak-chapter-4936-english-readable/"
+
+- Click 'Start'
+
+
+*Additional Functionality*
+Changable Voice Gender
+Changable Font Size
+Changable Text Color
+Changable Background color
+Changable Volume
+Changable Speech Rate
+Changable GUI Opacity
+Pause/Play Button
+Next Chapter Button
+
+
+Maintainer
+[BlackBots.net](https://BlackBots.net/)
