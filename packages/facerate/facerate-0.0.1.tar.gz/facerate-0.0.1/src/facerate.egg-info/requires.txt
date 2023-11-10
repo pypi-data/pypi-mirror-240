@@ -1,0 +1,8 @@
+httpx
+beautifulsoup4
+lxml
+Pillow
+
+[tests]
+pytest
+pytest-asyncio

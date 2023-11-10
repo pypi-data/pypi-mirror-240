@@ -1,0 +1,2 @@
+[console_scripts]
+facerate = facerate.cli:main
