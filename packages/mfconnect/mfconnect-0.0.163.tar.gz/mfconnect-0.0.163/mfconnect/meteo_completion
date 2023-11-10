@@ -1,0 +1,67 @@
+#!/bin/bash
+
+# Fonction de notre auto completion
+_meteo()
+{
+    local argc cur prev opts
+    COMPREPLY=()
+
+    argc=${COMP_CWORD}; # nombre d'arguments actuel
+    cur="${COMP_WORDS[argc]}" # argument actuel (en cours de frappe)
+    prev="${COMP_WORDS[argc-1]}" # argument précédent
+    opts_machines="belenos taranis fidjim05-sihpc-pub fidjim06-sihpc-pub fidjim07-sihpc-pub fidjim08-sihpc-pub" # liste des options
+    opts_users="mercator spsy001 spsy002 spsy003 spsy004 spsy005 clavierm"
+    opts_options="--help -h -? -x -v"
+    
+    ## si le mot commence par "-"
+    #if [[ "$cur" == -* ]] ; then
+    #    
+    #    # On auto-complète l'argument actuel à l'aide de la liste d'options opts
+    #    COMPREPLY=( $(compgen -W "$opts" -- $cur ) )
+    #    
+    #else # sinon
+    #    
+    #    # si le dernier argument n'était pas un argument option
+    #    if [[ "$prev" != -* ]] ; then
+    #        
+    #        # On auto-complète l'argument actuel avec les fichiers .src
+    #        COMPREPLY=( $(compgen -f -X "!*.src" $cur ) )
+    #        
+    #    fi
+    #    
+    #fi
+
+    case "$cur" in
+        # if we are completing an option
+        -*)
+        COMPREPLY=( $(compgen -W "$opts_options" -- $cur ) )
+        ;;
+        # completion on machines names
+        a*)
+        COMPREPLY=( $(compgen -W "$opts_machines" -- $cur ) )
+        ;;
+        # completion on users names
+        s*)
+        COMPREPLY=( $(compgen -W "$opts_users" -- $cur ) )
+        ;;
+        # completion on nothing ?
+        *)
+        if [[ $argc == 1 ]]; then
+            COMPREPLY=( $(compgen -W "$opts_machines" -- $cur ) )
+        fi
+        if [[ $argc == 2 && "$prev" != -* ]]; then
+            COMPREPLY=( $(compgen -W "$opts_users" -- $cur ) )
+        elif [[ $argc == 2 && "$prev" == -* ]]; then
+            COMPREPLY=( $(compgen -W "$opts_machines" -- $cur ) )
+        fi
+        if [[ $argc == 3 && "${COMP_WORDS[1]}" == -* ]]; then
+            COMPREPLY=( $(compgen -W "$opts_users" -- $cur ) )
+        fi
+        ;;
+    esac
+}
+
+# On active l'auto-completion de la commande meteo et meteo_connect en relation avec la fonction _meteo
+complete -F _meteo meteo
+complete -F _meteo meteo_connect
+complete -F _meteo meteo_connect.py
