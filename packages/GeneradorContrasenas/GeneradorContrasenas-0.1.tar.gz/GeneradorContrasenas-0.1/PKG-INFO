@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: GeneradorContrasenas
+Version: 0.1
+Summary: Esta librería permite generar una o varias contraseñas personalizadas en base a los requisitos especificados por el usuario
+Home-page: https://github.com/nereabarrueta/GeneradorContrasenas
+Author: Nerea Barrueta & Alba Vilches
+Author-email: nerea.barrueta@alumni.mondragon.edu
+License: MIT
+Download-URL: https://github.com/nereabarrueta/GeneradorContrasenas/archive/refs/tags/v_03.tar.gz
+Description: UNKNOWN
+Keywords: Generar,Contrasena,Seguridad
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
