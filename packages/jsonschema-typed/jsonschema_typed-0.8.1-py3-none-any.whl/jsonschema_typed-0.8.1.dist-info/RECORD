@@ -1,0 +1,10 @@
+jsonschema_typed/__init__.py,sha256=nGGhHcE5ggFt9L3yPhzZu36PunRqKBll7P7qsWB-VfU,461
+jsonschema_typed/optional_typed_dict.py,sha256=gUJWEy4XfJVncIvkkfSIF9ixk4iEPDdOeIged4FHxWM,1989
+jsonschema_typed/plugin.py,sha256=sltb1zsrYtl3fp3WF8yffZikeCNpzcoiLLoW0Muazew,21364
+jsonschema_typed/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonschema_typed/types.py,sha256=OdYnDJxEWb73oFzuQ4lktgFQlS3oH2ti5qYKjmrfsoQ,399
+jsonschema_typed-0.8.1.dist-info/LICENSE,sha256=uywi_r_AJpMh2FTOLks2fVrN4Byu9xkBt_5Tz41C8fo,1105
+jsonschema_typed-0.8.1.dist-info/METADATA,sha256=HDg02AnJzDto_7URMw3FG1lftSlQu49OPQYwWrQ-ZEk,4594
+jsonschema_typed-0.8.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+jsonschema_typed-0.8.1.dist-info/top_level.txt,sha256=nMwLbeUhdEXSYhhWHTPmnJgSJgd_o1DQuxyk8AhiFe4,17
+jsonschema_typed-0.8.1.dist-info/RECORD,,
