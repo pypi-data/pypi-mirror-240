@@ -1,0 +1,7 @@
+setup.py
+shitgram/__init__.py
+shitgram.egg-info/PKG-INFO
+shitgram.egg-info/SOURCES.txt
+shitgram.egg-info/dependency_links.txt
+shitgram.egg-info/requires.txt
+shitgram.egg-info/top_level.txt
