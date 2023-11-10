@@ -1,0 +1,2 @@
+httpxjsonpath-ng
+requests
