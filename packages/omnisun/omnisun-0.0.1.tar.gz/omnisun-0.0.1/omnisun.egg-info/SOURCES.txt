@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+OmnicommSun/__init__.py
+OmnicommSun/omincomm_sun.py
+omnisun.egg-info/PKG-INFO
+omnisun.egg-info/SOURCES.txt
+omnisun.egg-info/dependency_links.txt
+omnisun.egg-info/requires.txt
+omnisun.egg-info/top_level.txt
