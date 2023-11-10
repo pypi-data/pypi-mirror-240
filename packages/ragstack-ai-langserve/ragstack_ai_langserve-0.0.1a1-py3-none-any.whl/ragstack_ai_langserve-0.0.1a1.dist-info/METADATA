@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ragstack-ai-langserve
+Version: 0.0.1a1
+Summary: 
+License: MIT
+Author: DataStax
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: all
+Provides-Extra: client
+Provides-Extra: server
+Requires-Dist: fastapi (>=0.90.1) ; extra == "server" or extra == "all"
+Requires-Dist: httpx (>=0.23.0)
+Requires-Dist: httpx-sse (>=0.3.1) ; extra == "client" or extra == "all"
+Requires-Dist: langchain (>=0.0.322)
+Requires-Dist: pydantic (>=1)
+Requires-Dist: sse-starlette (>=1.3.0,<2.0.0) ; extra == "server" or extra == "all"
+Description-Content-Type: text/markdown
+
+# RagStack LangServe
+
+Visit the [LangServe docs](https://www.langchain.com/langserve) for getting started.
+
