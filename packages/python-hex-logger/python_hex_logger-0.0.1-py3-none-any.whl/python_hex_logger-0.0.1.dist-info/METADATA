@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: python-hex-logger
+Version: 0.0.1
+Summary: 
+Author: ericcbonet
+Author-email: ericcbonet@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: structlog (==23.2.0)
+Description-Content-Type: text/markdown
+
+
