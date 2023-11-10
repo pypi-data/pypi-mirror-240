@@ -1,0 +1,16 @@
+numpy
+magicgui
+qtpy
+pooch
+imageio<2.28.0
+scikit-image
+light-the-torch
+aisegcell
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
