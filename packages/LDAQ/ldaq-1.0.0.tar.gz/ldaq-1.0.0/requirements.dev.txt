@@ -1,0 +1,11 @@
+# Package requirements for developers
+-r requirements.txt
+sphinx
+twine
+wheel
+pytest
+sphinx-rtd-theme
+nbsphinx
+nbsphinx_link
+jupyter
+sphinx-book-theme
