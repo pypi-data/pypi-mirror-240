@@ -1,0 +1,11 @@
+brainpylib/cpu_ops.cpython-38-x86_64-linux-gnu.so,sha256=KU2OUB2noSB-SWimWt55mP2Ncwk5ODf-ANiU4H4lW3c,294209
+brainpylib/libtaichi_c_api.so,sha256=_ie8BPKCS-sFYavxEUpghC1tNS1RX_M3Fx3QFk2Emok,53113528
+brainpylib/gpu_ops.cpython-38-x86_64-linux-gnu.so,sha256=TCHnSn71COJH-U1q2HOXUjkWl6goeQRhEMF0lGmChhs,69243825
+brainpylib/__init__.py,sha256=VTCBaSrzIg1_Ku-YNuUy9o-LvJoE_T8HmIP-vr78fqo,1594
+brainpylib_cu12x-0.2.0.post1.dist-info/RECORD,,
+brainpylib_cu12x-0.2.0.post1.dist-info/WHEEL,sha256=DgQvvKA86YjCyJV3iTqGdSoWyA7CZxlosDclWBwlEKg,148
+brainpylib_cu12x-0.2.0.post1.dist-info/METADATA,sha256=Ubm_vltbnBI3kldW6y_HWVg5S2fz5IY-2DYAStvv-H0,1144
+brainpylib_cu12x-0.2.0.post1.dist-info/top_level.txt,sha256=WbgIvOpyitBRgS77VMtpy68oeDlIsN5bqNux8IyEkzE,64
+brainpylib_cu12x-0.2.0.post1.dist-info/LICENSE,sha256=awdTB1OZyMqrS8QDj8fyUDxz40eWjrqByUqj7MApebM,35100
+brainpylib_cu12x.libs/libtaichi_c_api-fe27bc04.so,sha256=eVKXUg_pN2qfEfSIDbn_XYcHSp_AoLZWLPdXKEwGFhg,53120745
+brainpylib_cu12x.libs/libcudart-960a404b.so.12.0.146,sha256=3HjFoZUfCfO7byI17BHMIFV-eydC2SxtJ33F7vEfTmU,690913
