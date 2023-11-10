@@ -1,0 +1,17 @@
+beamshapy/BeamShaper.py,sha256=MWuhpFDxx67oXhf6iixn6M1BXFL-FG9HMkNKoZifrYY,14533
+beamshapy/__init__.py,sha256=KOlZSSbPgSdrdnIeXv2RJvWQYbelQh1WJLKTNR-W-9M,48
+beamshapy/amplitude_generation/AmplitudeGenerator.py,sha256=qTkghurthLVnDG5PjbPXFmsCri9WVHleHQXUPPuNX-w,5668
+beamshapy/amplitude_generation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beamshapy/helpers.py,sha256=JfeVUUHbEKkhj-Z7CWJWoGVLbUMCmVG7oJVhKt-yc1A,18384
+beamshapy/intensity_generation/IntensityGenerator.py,sha256=u0vZ4VoKrkYofg_Rde0S_tn_To1HtG2068s_eHcVBWQ,3845
+beamshapy/intensity_generation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beamshapy/intensity_generation/functions_Gerchberg_Saxton.py,sha256=Qf8QKRY23iJY3ipxkvHRXqSEXXQyvGYy6lU5fp4087g,3860
+beamshapy/intensity_generation/functions_intensity_profile.py,sha256=zlR22tArUpjd4c8UadOZHe2mI8ezdE9PLEqfxZNAe_0,981
+beamshapy/mask_generation/MaskGenerator.py,sha256=yV_-4O3zgNun0KxDnt_e1_kl_IkvqRVk_kTtKIxknD8,10402
+beamshapy/mask_generation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beamshapy/mask_generation/functions_masks_generation.py,sha256=hxXENO5aPjsnJwRd5CLELFnBoBV7uOuH5XZemy6TTdY,3064
+beamshapy/spatial_profiles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beamshapy/spatial_profiles/functions_basic_shapes.py,sha256=JMn2krUnPqzp49LgcL24TmJEDtT_xXX5iS-zkIPf2No,12040
+beamshapy-0.1.8.dist-info/METADATA,sha256=PPkYyHr28bnsJC0IkYGXTGyWZQ5z1Se3IW1cacnDAEQ,739
+beamshapy-0.1.8.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+beamshapy-0.1.8.dist-info/RECORD,,
