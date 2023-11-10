@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: propinquity
+Version: 0.0.1
+Summary: propinquity
+Description-Content-Type: text/plain
+Requires-Dist: pydash
+
+
+
+
+<body>
+	<main>
+		<header>
+			<h1>Treasury Weather</h1>
+		</header>
+
+		<article>
+			<h2>aggregate put call ratios</h2>
+		</article>
+	</main>
+</body>
