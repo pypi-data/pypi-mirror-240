@@ -1,0 +1,9 @@
+MANIFEST.in
+VERSION
+setup.py
+aiopki/__init__.py
+aiopki/package.json
+aiopki.egg-info/PKG-INFO
+aiopki.egg-info/SOURCES.txt
+aiopki.egg-info/dependency_links.txt
+aiopki.egg-info/top_level.txt
