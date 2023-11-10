@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel", "pandas", "pymysql", "sqlalchemy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mysql_partition"
+version = "1.0.2"
+authors = [
+  { name="lytcreate", email="lytcreate@163.com" },
+]
+description = "This library provides functions for querying the latest partitions of MySQL database partition tables and creating table partitions."
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]

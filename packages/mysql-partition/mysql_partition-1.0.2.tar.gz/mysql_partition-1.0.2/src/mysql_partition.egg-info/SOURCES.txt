@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/mysql_partition/__init__.py
+src/mysql_partition/mysql_partition.py
+src/mysql_partition.egg-info/PKG-INFO
+src/mysql_partition.egg-info/SOURCES.txt
+src/mysql_partition.egg-info/dependency_links.txt
+src/mysql_partition.egg-info/top_level.txt
