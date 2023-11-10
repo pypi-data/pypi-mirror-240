@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ste-example-code-template"
+description = "Template and testing purposes"
+license = {file = ""}
+dynamic = ["version", "readme", "dependencies"]
+
+[tool.setuptools.dynamic]
+version = {attr = "simple_service.__version__"}
+readme = {file = ""}
+dependencies = {file = ["r"]}
