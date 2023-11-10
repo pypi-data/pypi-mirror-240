@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mgba
+Version: 0.10.2
+Summary: Wheels for the Python bindings of mGBA
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cffi >=1.6
+Requires-Dist: cached-property
+Provides-Extra: pil
+Requires-Dist: Pillow >=2.3 ; extra == 'pil'
+
+This is an inofficial package providing wheels for the Python bindings of [mGBA](https://github.com/mgba-emu/mgba).
+
+**IMPORTANT NOTE**: The mGBA Python bindings have officially been deprecated and are planned to be replaced with Python scripting support in the future. This package is not affiliated with the mGBA project and does not receive any dev-support. It simply serves as a convenience for users who want to use the Python bindings without having to compile them themselves.
