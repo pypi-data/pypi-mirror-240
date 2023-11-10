@@ -1,0 +1,36 @@
+<!-- calendar_events.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "partials/head.html" %}
+    {% block extra_css %}{% endblock extra_css %}
+</head>
+<body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+    <div class="container">
+        {% block content %}{% endblock content %}
+    </div>
+    
+    {% block tom_select %}
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.select, .selectmultiple').forEach((el) => {
+                let settings = {
+                    placeholder: 'Rechercher ou sélectionner'
+                };
+                var select = new TomSelect(el, settings);
+    
+            });
+    
+            document.querySelectorAll('.ts-wrapper').forEach((el) => {
+                el.classList.remove('form-select');
+    
+            });
+        });
+    </script>
+    {% endblock tom_select %}
+        
+    
+    {% block extra_js %}{% endblock extra_js %}
+
+</body>
+</html>
