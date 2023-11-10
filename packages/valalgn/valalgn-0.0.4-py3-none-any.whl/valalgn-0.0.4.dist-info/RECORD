@@ -1,0 +1,13 @@
+valalgn/__init__.py,sha256=OhKeRlzegavuxnUIo6YO-bSusehOWML0Snb-jMbGWIY,235
+valalgn/asl/__init__.py,sha256=NqCYWzXBILArFXOijPCEWu3h18k5Bfk8GxJ9w5E0TfI,238
+valalgn/asl/build.py,sha256=0VNDJ4iYIMr4uK476d9Jt7z5Zhbndc7lxXp39IiEHh0,11232
+valalgn/asl/games.py,sha256=2ttAVnVDm1JHp1s7ynifi0x8sPECMmQFCmPLTGp5ujY,67986
+valalgn/asl/template.py,sha256=O1PY7OOKsBI9pnikLcWMWPCUP6bLG5rSjNytYyZUOCU,1061
+valalgn/sampling/__init__.py,sha256=8HhsD4wNkeRW84aFnkNU04MQaXzWi9Di2qfc0vnCmKw,79
+valalgn/sampling/base.py,sha256=MieMIfV3TDgFEoYNPgeJGMj2fX-rox-xms5DBt71Ljo,14698
+valalgn/sampling/template.py,sha256=4GQCwQgXJsWOnXeZ8ufqpNKAHOjZQ-Lz_eC8yY45m0o,1620
+valalgn-0.0.4.dist-info/LICENSE,sha256=E0mkthSEkrRPYp5k7tZ2YS4jT-moOeTzsnfBSCyISfE,20849
+valalgn-0.0.4.dist-info/METADATA,sha256=mpwpOFWd1RbmuscjKQPijxdYrdM8kzF0OHslOBit8iE,6744
+valalgn-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+valalgn-0.0.4.dist-info/top_level.txt,sha256=q_AMe7iQKUU6rRm8SM8rDCbPDH9sYV9R63O9CCCKYpI,8
+valalgn-0.0.4.dist-info/RECORD,,

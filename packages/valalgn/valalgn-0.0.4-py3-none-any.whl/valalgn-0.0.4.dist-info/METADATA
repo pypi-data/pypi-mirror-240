@@ -1,0 +1,189 @@
+Metadata-Version: 2.1
+Name: valalgn
+Version: 0.0.4
+Summary: ValAlgn: Value Alignment
+Author-email: Nieves Montes <nmontes@iiia.csic.es>
+Maintainer-email: Nieves Montes <nmontes@iiia.csic.es>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: Free for non-commercial use
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: accessible-pygments ==0.0.4
+Requires-Dist: alabaster ==0.7.13
+Requires-Dist: antlr4-python3-runtime ==4.13.0
+Requires-Dist: appdirs ==1.4.4
+Requires-Dist: arrow ==1.2.3
+Requires-Dist: asttokens ==2.2.1
+Requires-Dist: attrs ==23.1.0
+Requires-Dist: Babel ==2.12.1
+Requires-Dist: backcall ==0.2.0
+Requires-Dist: beautifulsoup4 ==4.12.2
+Requires-Dist: binaryornot ==0.4.4
+Requires-Dist: blinker ==1.6.2
+Requires-Dist: build ==1.0.3
+Requires-Dist: cattrs ==23.1.2
+Requires-Dist: certifi ==2023.5.7
+Requires-Dist: cffi ==1.16.0
+Requires-Dist: chardet ==5.1.0
+Requires-Dist: charset-normalizer ==3.2.0
+Requires-Dist: click ==8.1.5
+Requires-Dist: comm ==0.1.3
+Requires-Dist: contourpy ==1.0.7
+Requires-Dist: cookiecutter ==2.2.3
+Requires-Dist: cryptography ==41.0.4
+Requires-Dist: cycler ==0.11.0
+Requires-Dist: debugpy ==1.6.7
+Requires-Dist: decorator ==5.1.1
+Requires-Dist: dill ==0.3.6
+Requires-Dist: docutils ==0.19
+Requires-Dist: esbonio ==0.16.1
+Requires-Dist: exceptiongroup ==1.1.1
+Requires-Dist: executing ==1.2.0
+Requires-Dist: Flask ==2.3.2
+Requires-Dist: fonttools ==4.39.3
+Requires-Dist: idna ==3.4
+Requires-Dist: imagesize ==1.4.1
+Requires-Dist: importlib-metadata ==6.8.0
+Requires-Dist: iniconfig ==2.0.0
+Requires-Dist: interval ==1.0.0
+Requires-Dist: ipykernel ==6.23.1
+Requires-Dist: ipython ==8.14.0
+Requires-Dist: itsdangerous ==2.1.2
+Requires-Dist: jaraco.classes ==3.3.0
+Requires-Dist: jedi ==0.18.2
+Requires-Dist: jeepney ==0.8.0
+Requires-Dist: Jinja2 ==3.1.2
+Requires-Dist: joblib ==1.2.0
+Requires-Dist: jupyter-client ==8.2.0
+Requires-Dist: jupyter-core ==5.3.0
+Requires-Dist: keyring ==24.2.0
+Requires-Dist: kiwisolver ==1.4.4
+Requires-Dist: lsprotocol ==2023.0.0a1
+Requires-Dist: Maisie-Sphinx-Theme ==0.1.2
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: MarkupSafe ==2.1.3
+Requires-Dist: matplotlib ==3.7.1
+Requires-Dist: matplotlib-inline ==0.1.6
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: mealpy ==2.5.4
+Requires-Dist: Mesa ==1.2.1
+Requires-Dist: more-itertools ==10.1.0
+Requires-Dist: mpmath ==1.3.0
+Requires-Dist: multiprocess ==0.70.14
+Requires-Dist: nest-asyncio ==1.5.6
+Requires-Dist: networkx ==3.1
+Requires-Dist: nh3 ==0.2.14
+Requires-Dist: numpy ==1.24.3
+Requires-Dist: opfunu ==1.0.0
+Requires-Dist: packaging ==23.1
+Requires-Dist: pandas ==2.0.3
+Requires-Dist: parso ==0.8.3
+Requires-Dist: pathos ==0.3.0
+Requires-Dist: pexpect ==4.8.0
+Requires-Dist: pickleshare ==0.7.5
+Requires-Dist: Pillow ==9.5.0
+Requires-Dist: pkginfo ==1.9.6
+Requires-Dist: platformdirs ==3.5.1
+Requires-Dist: pluggy ==1.0.0
+Requires-Dist: pox ==0.3.2
+Requires-Dist: ppft ==1.7.6.6
+Requires-Dist: prompt-toolkit ==3.0.38
+Requires-Dist: psutil ==5.9.5
+Requires-Dist: ptyprocess ==0.7.0
+Requires-Dist: pure-eval ==0.2.2
+Requires-Dist: pycparser ==2.21
+Requires-Dist: pydata-sphinx-theme ==0.13.3
+Requires-Dist: pygls ==1.0.2
+Requires-Dist: Pygments ==2.15.1
+Requires-Dist: pyparsing ==3.0.9
+Requires-Dist: pyproject-hooks ==1.0.0
+Requires-Dist: pyspellchecker ==0.7.2
+Requires-Dist: pyswip ==0.2.10
+Requires-Dist: pytest ==7.3.1
+Requires-Dist: python-dateutil ==2.8.2
+Requires-Dist: python-slugify ==8.0.1
+Requires-Dist: pytz ==2023.3
+Requires-Dist: PyYAML ==6.0
+Requires-Dist: pyzmq ==25.1.0
+Requires-Dist: readme-renderer ==42.0
+Requires-Dist: requests ==2.31.0
+Requires-Dist: requests-toolbelt ==1.0.0
+Requires-Dist: rfc3986 ==2.0.0
+Requires-Dist: rich ==13.5.3
+Requires-Dist: scikit-learn ==1.2.2
+Requires-Dist: scipy ==1.10.1
+Requires-Dist: SecretStorage ==3.3.3
+Requires-Dist: six ==1.16.0
+Requires-Dist: snowballstemmer ==2.2.0
+Requires-Dist: soupsieve ==2.4.1
+Requires-Dist: Sphinx ==6.2.1
+Requires-Dist: sphinx-book-theme ==1.0.1
+Requires-Dist: sphinxcontrib-applehelp ==1.0.4
+Requires-Dist: sphinxcontrib-devhelp ==1.0.2
+Requires-Dist: sphinxcontrib-htmlhelp ==2.0.1
+Requires-Dist: sphinxcontrib-jsmath ==1.0.1
+Requires-Dist: sphinxcontrib-qthelp ==1.0.3
+Requires-Dist: sphinxcontrib-serializinghtml ==1.1.5
+Requires-Dist: stack-data ==0.6.2
+Requires-Dist: sympy ==1.11.1
+Requires-Dist: text-unidecode ==1.3
+Requires-Dist: threadpoolctl ==3.1.0
+Requires-Dist: tomli ==2.0.1
+Requires-Dist: tornado ==6.3.2
+Requires-Dist: tqdm ==4.65.0
+Requires-Dist: traitlets ==5.9.0
+Requires-Dist: twine ==4.0.2
+Requires-Dist: typeguard ==3.0.2
+Requires-Dist: typing-extensions ==4.6.1
+Requires-Dist: tzdata ==2023.3
+Requires-Dist: urllib3 ==2.0.3
+Requires-Dist: wcwidth ==0.2.6
+Requires-Dist: Werkzeug ==2.3.6
+Requires-Dist: zipp ==3.17.0
+
+ValAlgn: Value Alignment
+========================
+
+Description
+-----------
+
+Welcome to the documentation of the Value-Alignment (``valalgn``) package. This
+package provides tools and functionalities for computing the *alignment* of a
+normative system with respect to a *value* (or a set of values). The package
+provides two modules:
+
+1. ``valalgn.sampling`` computes the value alignment of a set of norms with
+   respect to a value using simulation and approximate methods. It also includes
+   functionalities for value-driven optimization of norms and evaluation
+   metrics [1]_.
+2. ``valalgn.asl`` implements the *Action Situation Language* (ASL) and
+   interprets a set of norms written in this language and builds their
+   operational semantics as an extensive-form game. This game can then be
+   analyzed using standard game theoretical tools and solution concepts to
+   derive the alignment of the norms that generated it [2]_.
+
+References
+----------
+
+.. [1] Montes, N., & Sierra, C. (2022). Synthesis and properties of optimally
+    value-aligned normative systems. Journal of Artificial Intelligence
+    Research, 74, 1739–1774. https://doi.org/10.1613/jair.1
+
+.. [2] Montes, N., Osman, N., & Sierra, C. (2022a). A computational model of
+    Ostrom’s Institutional Analysis and Development framework. Artificial
+    Intelligence, 311, 103756. https://doi.org/10.1016/j.artint.2022.103756
+
+Credits
+-------
+
+Nieves Montes (IIIA-CSIC)
