@@ -1,0 +1,11 @@
+aioaquarea/__init__.py,sha256=uhHsK4rfaQL6Jv42e2pRElTSjoescqb_TL66PMHMQcw,895
+aioaquarea/const.py,sha256=FwjXViHZDlhnw4DtGP18uXxgXkbOUzhP3N0dSRMYg6I,427
+aioaquarea/core.py,sha256=fvFuDqG1hXP2gBrl1DUanVfpfniyAjK2lvkPKkgKhPA,20983
+aioaquarea/data.py,sha256=SMMt-fKxEGvE2TS9ywSpWjCJwABGBup7H9S-vfkVmmk,13980
+aioaquarea/errors.py,sha256=rtzo5YTKnobSV1VUpkOZ6s-r1u2X4TEuH2ltQx28EQg,1448
+aioaquarea/statistics.py,sha256=9bFy8jcaGpkC8mzqDJoeRdSwkI-HlF223kBHdEVkn2A,2294
+aioaquarea-0.3.8.dist-info/LICENSE,sha256=oFkr2i1ovZ1_awO5kSv1dJIZfT0L6kEht9kYhiaZl9c,1073
+aioaquarea-0.3.8.dist-info/METADATA,sha256=RGiAJqTkVFpw9uJar3FrODSsPbQOk9sI-C14xpquTxA,2271
+aioaquarea-0.3.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+aioaquarea-0.3.8.dist-info/top_level.txt,sha256=uFcUarBx5hOWoWzn17ByEv2_rhFu3lcvrxDmgwi5GyE,11
+aioaquarea-0.3.8.dist-info/RECORD,,
