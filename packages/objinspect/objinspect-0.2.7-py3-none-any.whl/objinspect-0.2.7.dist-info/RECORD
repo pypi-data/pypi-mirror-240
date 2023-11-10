@@ -1,0 +1,12 @@
+objinspect/__init__.py,sha256=Xw6uwjWYxFZqHxJspD6zAVRgpurVMirQ-fKdPo8-4ZY,5093
+objinspect/_class.py,sha256=fd1xlKl3IikMxjPAcXBJKw3gpfJSpfnwfC9Jo1rpASY,7844
+objinspect/constants.py,sha256=lVrtFQ0oszH7zWwdvn70nNAZxTbMfc6i9ss2DDZ47us,143
+objinspect/function.py,sha256=G9OvybWY8MoGeLqbi5TJBR-ork1XPaILeoc99VQ4VgM,5663
+objinspect/method.py,sha256=EBI-lLsQMNmbTs_KrGIgkFfgeZ3fkEq01tZZwO9cYE4,4047
+objinspect/parameter.py,sha256=HevMoyEUzu2norvtUqozjmxPdom0hmMEdX-5v_GMPpE,3460
+objinspect/util.py,sha256=RSO33gXQp6rURJHpSJWs5ncGoI_7j9PKMz0v0mACBBc,5224
+objinspect-0.2.7.dist-info/LICENSE,sha256=MwAJrJWzBVMNkmJSjdRctks7VcSbh8yAXezV_uf4yu8,1071
+objinspect-0.2.7.dist-info/METADATA,sha256=fkNEvchcC7Acf_TUb_ojmpdqkUsSv3iJHVezbzKI9xY,4098
+objinspect-0.2.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+objinspect-0.2.7.dist-info/top_level.txt,sha256=_QOKaE_AeKCkqaY_Na087ewXa1drHg-i02DhItsriyo,11
+objinspect-0.2.7.dist-info/RECORD,,
