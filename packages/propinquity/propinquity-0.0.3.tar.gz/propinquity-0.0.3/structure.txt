@@ -1,0 +1,15 @@
+
+
+
+<body>
+	<main>
+		<header>
+			<h1>propinquity</h1>
+			<p>treasury stuff</p>
+		</header>
+
+		<article>
+			<h2>aggregate put call ratios</h2>
+		</article>
+	</main>
+</body>

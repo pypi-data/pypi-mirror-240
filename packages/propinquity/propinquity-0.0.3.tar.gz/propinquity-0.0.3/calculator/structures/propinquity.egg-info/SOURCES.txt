@@ -1,0 +1,16 @@
+pyproject.toml
+structure.txt
+calculator/structures/propinquity/__init__.py
+calculator/structures/propinquity/revenue.py
+calculator/structures/propinquity.egg-info/PKG-INFO
+calculator/structures/propinquity.egg-info/SOURCES.txt
+calculator/structures/propinquity.egg-info/dependency_links.txt
+calculator/structures/propinquity.egg-info/requires.txt
+calculator/structures/propinquity.egg-info/top_level.txt
+calculator/structures/propinquity/stats/aggregate_PC_ratio/__init__.py
+calculator/structures/propinquity/stats/aggregate_PC_ratio/squeeze pc ratios.r.HTML
+calculator/structures/propinquity/stats/aggregate_PC_ratio/status/status_1.py
+calculator/structures/propinquity/stats/aggregate_PC_ratio/status/status_2.py
+calculator/structures/propinquity/stats/aggregate_break_even/__init__.py
+calculator/structures/propinquity/tools/format_percentage.py
+calculator/structures/propinquity/tools/ratio.py
