@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: nnetsauce
+Version: 0.15.0
+Summary: Quasi-randomized (neural) networks
+Home-page: https://techtonique.github.io/nnetsauce/
+Author: T. Moudiki
+Author-email: thierry.moudiki@gmail.com
+License: BSD Clause Clear
+Download-URL: https://github.com/Techtonique/nnetsauce
+Description: Quasi-randomized (neural) networks for regression, classification and time series forecasting
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
