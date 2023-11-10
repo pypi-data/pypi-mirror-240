@@ -1,0 +1,58 @@
+Package: frigg
+Version: 1.0
+Architecture: ppc64
+Maintainer: Equivs Dummy Package Generator <root@>
+Installed-Size: 9
+Multi-Arch: foreign
+Task: Æsir
+Priority: optional
+Section: misc
+Filename: pool/asgard/f/frigg/frigg_1.0_ppc64.deb
+Size: 2120
+SHA256: e4307b5aa05bd4ed55a0f6ccfbabbd3539410110a95e081951578086430e9e27
+SHA1: 3708d9121b752e164ec815391506881df40d4528
+MD5sum: 4659857b39fc6986c0815a2c2bdf5384
+Description: Frigg
+ Frigg is described as the wife of the god Odin.
+
+Package: odin
+Version: 1.0
+Architecture: ppc64
+Essential: yes
+Maintainer: Equivs Dummy Package Generator <root@>
+Installed-Size: 9
+Multi-Arch: foreign
+Description-md5: 654ca349ba8dade6580ba77c71d67eff
+Task: Æsir
+Priority: optional
+Section: misc
+Filename: pool/asgard/o/odin/odin_1.0_ppc64.deb
+Size: 2220
+SHA256: 304b610e7f3a2d2d1a098645dc8e69666dce0b229b3fff85d9562b0b0880c339
+SHA1: 730cb2c9b5b6aabea6f543704246a0fffc77f914
+MD5sum: aae670322ad5d5f93ebaf8562e171c69
+Description: Odin
+ Odin is associated with wisdom, healing, death, royalty, the gallows,
+ knowledge, battle, sorcery, poetry, frenzy, and the runic alphabet, and is
+ the husband of the goddess Frigg.
+
+Package: thor
+Version: 1.0
+Architecture: ppc64
+Maintainer: Equivs Dummy Package Generator <root@>
+Installed-Size: 9
+Multi-Arch: foreign
+Description-md5: f5d3997e79acfeeb7a6ff4aa71ab65ac
+Bugs: https://bilskirnir.example.com/bugs
+Task: Æsir
+Priority: optional
+Section: misc
+Filename: pool/asgard/t/thor/thor_1.0_ppc64.deb
+Size: 2204
+SHA256: 64eb23af816f509386e468a986fd6f271958bcfb201b82234b5d1a9fdd208869
+SHA1: 608de7c1e7bd7a0f3971c8b47653965460eb292d
+MD5sum: 6a93d73f3e0356f44328729df65457ab
+Description: Thor
+ Thor is a hammer-wielding god associated with thunder, lightning, storms, oak
+ trees, strength, the protection of mankind, and also hallowing and fertility.
+
