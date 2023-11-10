@@ -1,0 +1,36 @@
+{
+  "java": "java",
+  "sys_paths": [
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz"
+  ],
+  "analyze_targets": [
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/__main__.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/__init__.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/main.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/parser.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/exceptions/__init__.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/exceptions/exceptions.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/user_interface/utils.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/user_interface/__init__.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/user_interface/printer.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/user_interface/reader.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/config/__init__.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/config/config_manager.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/config/config.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/file_manager/__init__.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/file_manager/directory_manager.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/file_manager/relative_path.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/file_manager/file_finder.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/requirements_managers/java_requirements_manager.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/requirements_managers/__init__.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/requirements_managers/python_requirements_manger.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/utbot_manager/__init__.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/utbot_manager/utbot_loader.py",
+    "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/utbot_manager/utbot_manager.py"
+  ],
+  "generate_only_error_suite": false,
+  "timeout": 20,
+  "output": "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/utfuzz_tests",
+  "project": "/home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz",
+  "requirements": null
+}

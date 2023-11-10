@@ -1,0 +1,194 @@
+2023-11-09 17:02:58,797 | printer.py | line:7 | utfuzz started...
+2023-11-09 17:02:58,921 | printer.py | line:7 | Current Java: java
+2023-11-09 17:02:58,921 | printer.py | line:7 | Set timeout in seconds: per one class or top-level functions in one file. Leave empty to choose 60 s.
+2023-11-09 17:03:04,367 | printer.py | line:7 | Specify files and directories to analyze: print one file/directory in a row; empty input marks the end (by default, all files from the project directory will be analyzed):
+2023-11-09 17:03:12,225 | printer.py | line:7 | Installing Python dependencies...
+2023-11-09 17:03:15,976 | python_requirements_manger.py | line:19 | b'Collecting utbot_executor==1.4.37\n  Obtaining dependency information for utbot_executor==1.4.37 from https://files.pythonhosted.org/packages/aa/9a/68b5d684fc43b29c7f719b2b69e4506d47230b051f4e7390fa58e73240df/utbot_executor-1.4.37-py3-none-any.whl.metadata\n  Using cached utbot_executor-1.4.37-py3-none-any.whl.metadata (3.9 kB)\nCollecting utbot_mypy_runner==0.2.11\n  Using cached utbot_mypy_runner-0.2.11-py3-none-any.whl (11 kB)\nCollecting mypy==1.0.0 (from utbot_mypy_runner==0.2.11)\n  Using cached mypy-1.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.4 MB)\nCollecting typing-extensions>=3.10 (from mypy==1.0.0->utbot_mypy_runner==0.2.11)\n  Obtaining dependency information for typing-extensions>=3.10 from https://files.pythonhosted.org/packages/24/21/7d397a4b7934ff4028987914ac1044d3b7d52712f30e2ac7a2ae5bc86dd0/typing_extensions-4.8.0-py3-none-any.whl.metadata\n  Using cached typing_extensions-4.8.0-py3-none-any.whl.metadata (3.0 kB)\nCollecting mypy-extensions>=0.4.3 (from mypy==1.0.0->utbot_mypy_runner==0.2.11)\n  Using cached mypy_extensions-1.0.0-py3-none-any.whl (4.7 kB)\nUsing cached utbot_executor-1.4.37-py3-none-any.whl (22 kB)\nUsing cached typing_extensions-4.8.0-py3-none-any.whl (31 kB)\nInstalling collected packages: utbot_executor, typing-extensions, mypy-extensions, mypy, utbot_mypy_runner\nSuccessfully installed mypy-1.0.0 mypy-extensions-1.0.0 typing-extensions-4.8.0 utbot_executor-1.4.37 utbot_mypy_runner-0.2.11\n\n[notice] A new release of pip is available: 23.2.1 -> 23.3.1\n[notice] To update, run: pip install --upgrade pip\n'
+2023-11-09 17:03:15,977 | printer.py | line:7 | Cannot find requirements.txt file. If your project has Python dependencies, please specify them in requirements.txt.
+2023-11-09 17:03:15,977 | printer.py | line:7 | Found 23 Python files to analyze.
+2023-11-09 17:03:15,987 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/__init__.py --------   
+2023-11-09 17:03:16,172 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:16,788 | printer.py | line:7 | 17:03:16.786 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:03:16,954 | printer.py | line:7 | 17:03:16.954 | ERROR | PythonGenerateTestsCommand | Missing some requirements. Please add --install-requirements flag or install them manually.
+2023-11-09 17:03:16,954 | printer.py | line:7 | 17:03:16.954 | INFO  | PythonGenerateTestsCommand | Requirements: utbot-mypy-runner==0.2.15, utbot-executor==1.8.0
+2023-11-09 17:03:17,074 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/main.py --------   
+2023-11-09 17:03:17,208 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:17,775 | printer.py | line:7 | 17:03:17.774 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:03:17,896 | printer.py | line:7 | 17:03:17.896 | ERROR | PythonGenerateTestsCommand | Missing some requirements. Please add --install-requirements flag or install them manually.
+2023-11-09 17:03:17,897 | printer.py | line:7 | 17:03:17.896 | INFO  | PythonGenerateTestsCommand | Requirements: utbot-mypy-runner==0.2.15, utbot-executor==1.8.0
+2023-11-09 17:03:18,011 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/parser.py --------   
+2023-11-09 17:03:18,143 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:18,664 | printer.py | line:7 | 17:03:18.662 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:03:18,788 | printer.py | line:7 | 17:03:18.788 | ERROR | PythonGenerateTestsCommand | Missing some requirements. Please add --install-requirements flag or install them manually.
+2023-11-09 17:03:18,788 | printer.py | line:7 | 17:03:18.788 | INFO  | PythonGenerateTestsCommand | Requirements: utbot-mypy-runner==0.2.15, utbot-executor==1.8.0
+2023-11-09 17:03:18,912 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/exceptions/exceptions.py --------   
+2023-11-09 17:03:19,048 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:19,564 | printer.py | line:7 | 17:03:19.562 | ERROR | PythonGenerateTestsCommand | No methods in definition of class UtException to test.
+2023-11-09 17:03:19,717 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:20,239 | printer.py | line:7 | 17:03:20.238 | ERROR | PythonGenerateTestsCommand | No methods in definition of class EnvironmentException to test.
+2023-11-09 17:03:20,394 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:20,913 | printer.py | line:7 | 17:03:20.911 | ERROR | PythonGenerateTestsCommand | No methods in definition of class NotFoundRequirementsTxt to test.
+2023-11-09 17:03:21,067 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:21,576 | printer.py | line:7 | 17:03:21.574 | ERROR | PythonGenerateTestsCommand | No methods in definition of class MultipleRequirementsTxt to test.
+2023-11-09 17:03:21,767 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:22,286 | printer.py | line:7 | 17:03:22.285 | ERROR | PythonGenerateTestsCommand | No methods in definition of class JavaIncompatible to test.
+2023-11-09 17:03:22,442 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:22,967 | printer.py | line:7 | 17:03:22.966 | ERROR | PythonGenerateTestsCommand | No methods in definition of class InvalidJavaVersion to test.
+2023-11-09 17:03:23,131 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:23,650 | printer.py | line:7 | 17:03:23.649 | ERROR | PythonGenerateTestsCommand | No methods in definition of class InvalidPlatform to test.
+2023-11-09 17:03:23,804 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:24,330 | printer.py | line:7 | 17:03:24.329 | ERROR | PythonGenerateTestsCommand | No methods in definition of class JavaIsNotInstalled to test.
+2023-11-09 17:03:24,352 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/user_interface/utils.py --------   
+2023-11-09 17:03:24,484 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:25,015 | printer.py | line:7 | 17:03:25.012 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:03:25,138 | printer.py | line:7 | 17:03:25.138 | ERROR | PythonGenerateTestsCommand | Missing some requirements. Please add --install-requirements flag or install them manually.
+2023-11-09 17:03:25,139 | printer.py | line:7 | 17:03:25.138 | INFO  | PythonGenerateTestsCommand | Requirements: utbot-mypy-runner==0.2.15, utbot-executor==1.8.0
+2023-11-09 17:03:25,263 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/user_interface/printer.py --------   
+2023-11-09 17:03:25,395 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:25,905 | printer.py | line:7 | 17:03:25.903 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:03:26,031 | printer.py | line:7 | 17:03:26.031 | ERROR | PythonGenerateTestsCommand | Missing some requirements. Please add --install-requirements flag or install them manually.
+2023-11-09 17:03:26,032 | printer.py | line:7 | 17:03:26.032 | INFO  | PythonGenerateTestsCommand | Requirements: utbot-mypy-runner==0.2.15, utbot-executor==1.8.0
+2023-11-09 17:03:26,141 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/user_interface/reader.py --------   
+2023-11-09 17:03:26,287 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:26,939 | printer.py | line:7 | 17:03:26.936 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:03:27,062 | printer.py | line:7 | 17:03:27.062 | ERROR | PythonGenerateTestsCommand | Missing some requirements. Please add --install-requirements flag or install them manually.
+2023-11-09 17:03:27,063 | printer.py | line:7 | 17:03:27.062 | INFO  | PythonGenerateTestsCommand | Requirements: utbot-mypy-runner==0.2.15, utbot-executor==1.8.0
+2023-11-09 17:03:27,316 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:27,861 | printer.py | line:7 | 17:03:27.860 | ERROR | PythonGenerateTestsCommand | No methods in definition of class Status to test.
+2023-11-09 17:03:28,014 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:03:28,554 | printer.py | line:7 | 17:03:28.551 | ERROR | PythonGenerateTestsCommand | No methods in definition of class Ok to test.
+2023-11-09 17:03:28,593 | printer.py | line:7 | 
+utfuzz has been cancelled!
+2023-11-09 17:07:11,979 | printer.py | line:7 | utfuzz started...
+2023-11-09 17:07:12,046 | printer.py | line:7 | Current Java: java
+2023-11-09 17:07:12,046 | printer.py | line:7 | Set timeout in seconds: per one class or top-level functions in one file. Leave empty to choose 60 s.
+2023-11-09 17:07:16,124 | printer.py | line:7 | Specify files and directories to analyze: print one file/directory in a row; empty input marks the end (by default, all files from the project directory will be analyzed):
+2023-11-09 17:07:19,451 | printer.py | line:7 | Installing Python dependencies...
+2023-11-09 17:07:20,048 | python_requirements_manger.py | line:19 | b'Requirement already satisfied: utbot_executor==1.4.37 in /home/vyacheslav/.cache/pypoetry/virtualenvs/utfuzz-1Iv8l1q0-py3.11/lib/python3.11/site-packages (1.4.37)\nRequirement already satisfied: utbot_mypy_runner==0.2.11 in /home/vyacheslav/.cache/pypoetry/virtualenvs/utfuzz-1Iv8l1q0-py3.11/lib/python3.11/site-packages (0.2.11)\nRequirement already satisfied: mypy==1.0.0 in /home/vyacheslav/.cache/pypoetry/virtualenvs/utfuzz-1Iv8l1q0-py3.11/lib/python3.11/site-packages (from utbot_mypy_runner==0.2.11) (1.0.0)\nRequirement already satisfied: typing-extensions>=3.10 in /home/vyacheslav/.cache/pypoetry/virtualenvs/utfuzz-1Iv8l1q0-py3.11/lib/python3.11/site-packages (from mypy==1.0.0->utbot_mypy_runner==0.2.11) (4.8.0)\nRequirement already satisfied: mypy-extensions>=0.4.3 in /home/vyacheslav/.cache/pypoetry/virtualenvs/utfuzz-1Iv8l1q0-py3.11/lib/python3.11/site-packages (from mypy==1.0.0->utbot_mypy_runner==0.2.11) (1.0.0)\n\n[notice] A new release of pip is available: 23.2.1 -> 23.3.1\n[notice] To update, run: pip install --upgrade pip\n'
+2023-11-09 17:07:20,048 | printer.py | line:7 | Cannot find requirements.txt file. If your project has Python dependencies, please specify them in requirements.txt.
+2023-11-09 17:07:20,049 | printer.py | line:7 | Found 23 Python files to analyze.
+2023-11-09 17:07:20,051 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/__init__.py --------   
+2023-11-09 17:07:20,194 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:07:20,731 | printer.py | line:7 | 17:07:20.730 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:07:23,239 | printer.py | line:7 | 17:07:23.239 | INFO  | PythonGenerateTestsCommand | Requirements: utbot-mypy-runner==0.2.15, utbot-executor==1.8.0
+2023-11-09 17:07:23,349 | printer.py | line:7 | 17:07:23.349 | INFO  | PythonGenerateTestsCommand | Loading information about Python types...
+2023-11-09 17:07:25,828 | printer.py | line:7 | 17:07:25.828 | INFO  | PythonGenerateTestsCommand | Generating tests...
+2023-11-09 17:07:25,887 | printer.py | line:7 | 17:07:25.886 | INFO  | PythonTestCaseGenerator | Start test generation for signal_handler
+2023-11-09 17:07:26,204 | printer.py | line:7 | 17:07:26.203 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.str, builtins.str], typing.Any]
+2023-11-09 17:07:29,399 | printer.py | line:7 | 17:07:29.399 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.int, builtins.str], typing.Any]
+2023-11-09 17:07:31,421 | printer.py | line:7 | 17:07:31.421 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.str, builtins.int], typing.Any]
+2023-11-09 17:07:33,443 | printer.py | line:7 | 17:07:33.443 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.bool, builtins.str], typing.Any]
+2023-11-09 17:07:35,559 | printer.py | line:7 | 17:07:35.559 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.int, builtins.int], typing.Any]
+2023-11-09 17:07:37,616 | printer.py | line:7 | 17:07:37.616 | INFO  | BaselineAlgorithm | Random type: typing.Callable[[typing.Union[builtins.int, builtins.list[typing.Any], builtins.str, builtins.bool, builtins.float, builtins.dict[typing.Any, typing.Any]], typing.Union[builtins.int, builtins.list[typing.Any], builtins.str, builtins.bool, builtins.float, builtins.dict[typing.Any, typing.Any]]], typing.Any]
+2023-11-09 17:07:39,629 | printer.py | line:7 | 17:07:39.628 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.str, builtins.bool], typing.Any]
+2023-11-09 17:07:41,695 | printer.py | line:7 | 17:07:41.695 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.float, builtins.str], typing.Any]
+2023-11-09 17:07:43,734 | printer.py | line:7 | 17:07:43.734 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.bool, builtins.int], typing.Any]
+2023-11-09 17:07:45,802 | printer.py | line:7 | 17:07:45.802 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.int, builtins.bool], typing.Any]
+2023-11-09 17:07:45,894 | printer.py | line:7 | 17:07:45.894 | INFO  | PythonTestCaseGenerator | Collect all test executions for signal_handler
+2023-11-09 17:07:45,907 | printer.py | line:7 | 17:07:45.907 | ERROR | PythonGenerateTestsCommand | Couldn't generate tests for the following functions: signal_handler
+2023-11-09 17:07:45,938 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/main.py --------   
+2023-11-09 17:07:46,093 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:07:46,762 | printer.py | line:7 | 17:07:46.760 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:07:46,902 | printer.py | line:7 | 17:07:46.902 | INFO  | PythonGenerateTestsCommand | Loading information about Python types...
+2023-11-09 17:07:49,244 | printer.py | line:7 | 17:07:49.244 | INFO  | PythonGenerateTestsCommand | Generating tests...
+2023-11-09 17:07:49,330 | printer.py | line:7 | 17:07:49.330 | INFO  | PythonTestCaseGenerator | Start test generation for main
+2023-11-09 17:07:52,695 | printer.py | line:7 | 17:07:52.694 | INFO  | PythonTestCaseGenerator | Collect all test executions for main
+2023-11-09 17:07:52,705 | printer.py | line:7 | 17:07:52.705 | ERROR | PythonGenerateTestsCommand | Couldn't generate tests for the following functions: main
+2023-11-09 17:07:52,771 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/parser.py --------   
+2023-11-09 17:07:52,923 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:07:53,531 | printer.py | line:7 | 17:07:53.526 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:07:53,666 | printer.py | line:7 | 17:07:53.665 | INFO  | PythonGenerateTestsCommand | Loading information about Python types...
+2023-11-09 17:07:56,127 | printer.py | line:7 | 17:07:56.126 | INFO  | PythonGenerateTestsCommand | Generating tests...
+2023-11-09 17:07:56,241 | printer.py | line:7 | 17:07:56.241 | INFO  | PythonTestCaseGenerator | Start test generation for parse
+2023-11-09 17:07:58,436 | printer.py | line:7 | 17:07:58.436 | INFO  | PythonTestCaseGenerator | Collect all test executions for parse
+2023-11-09 17:07:58,461 | printer.py | line:7 | 17:07:58.460 | ERROR | PythonGenerateTestsCommand | Couldn't generate tests for the following functions: parse
+2023-11-09 17:07:58,522 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/exceptions/exceptions.py --------   
+2023-11-09 17:07:58,988 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:07:59,942 | printer.py | line:7 | 17:07:59.940 | ERROR | PythonGenerateTestsCommand | No methods in definition of class UtException to test.
+2023-11-09 17:08:00,110 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:08:00,707 | printer.py | line:7 | 17:08:00.705 | ERROR | PythonGenerateTestsCommand | No methods in definition of class EnvironmentException to test.
+2023-11-09 17:08:00,881 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:08:01,523 | printer.py | line:7 | 17:08:01.521 | ERROR | PythonGenerateTestsCommand | No methods in definition of class NotFoundRequirementsTxt to test.
+2023-11-09 17:08:01,691 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:08:02,216 | printer.py | line:7 | 17:08:02.214 | ERROR | PythonGenerateTestsCommand | No methods in definition of class MultipleRequirementsTxt to test.
+2023-11-09 17:08:02,359 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:08:02,899 | printer.py | line:7 | 17:08:02.898 | ERROR | PythonGenerateTestsCommand | No methods in definition of class JavaIncompatible to test.
+2023-11-09 17:08:03,059 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:08:03,609 | printer.py | line:7 | 17:08:03.607 | ERROR | PythonGenerateTestsCommand | No methods in definition of class InvalidJavaVersion to test.
+2023-11-09 17:08:03,763 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:08:04,360 | printer.py | line:7 | 17:08:04.356 | ERROR | PythonGenerateTestsCommand | No methods in definition of class InvalidPlatform to test.
+2023-11-09 17:08:04,523 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:08:04,630 | printer.py | line:7 | 
+utfuzz has been cancelled!
+2023-11-09 17:18:17,341 | printer.py | line:7 | utfuzz started...
+2023-11-09 17:18:17,431 | printer.py | line:7 | Current Java: java
+2023-11-09 17:18:17,431 | printer.py | line:7 | Set timeout in seconds: per one class or top-level functions in one file. Leave empty to choose 60 s.
+2023-11-09 17:18:21,090 | printer.py | line:7 | Specify files and directories to analyze: print one file/directory in a row; empty input marks the end (by default, all files from the project directory will be analyzed):
+2023-11-09 17:18:23,953 | printer.py | line:7 | Installing Python dependencies...
+2023-11-09 17:18:26,381 | python_requirements_manger.py | line:19 | b'Collecting utbot_executor==1.4.37\n  Obtaining dependency information for utbot_executor==1.4.37 from https://files.pythonhosted.org/packages/aa/9a/68b5d684fc43b29c7f719b2b69e4506d47230b051f4e7390fa58e73240df/utbot_executor-1.4.37-py3-none-any.whl.metadata\n  Using cached utbot_executor-1.4.37-py3-none-any.whl.metadata (3.9 kB)\nCollecting utbot_mypy_runner==0.2.11\n  Using cached utbot_mypy_runner-0.2.11-py3-none-any.whl (11 kB)\nCollecting mypy==1.0.0 (from utbot_mypy_runner==0.2.11)\n  Using cached mypy-1.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.4 MB)\nRequirement already satisfied: typing-extensions>=3.10 in /home/vyacheslav/.cache/pypoetry/virtualenvs/utfuzz-1Iv8l1q0-py3.11/lib/python3.11/site-packages (from mypy==1.0.0->utbot_mypy_runner==0.2.11) (4.8.0)\nRequirement already satisfied: mypy-extensions>=0.4.3 in /home/vyacheslav/.cache/pypoetry/virtualenvs/utfuzz-1Iv8l1q0-py3.11/lib/python3.11/site-packages (from mypy==1.0.0->utbot_mypy_runner==0.2.11) (1.0.0)\nUsing cached utbot_executor-1.4.37-py3-none-any.whl (22 kB)\nInstalling collected packages: utbot_executor, mypy, utbot_mypy_runner\n  Attempting uninstall: utbot_executor\n    Found existing installation: utbot-executor 1.8.0\n    Uninstalling utbot-executor-1.8.0:\n      Successfully uninstalled utbot-executor-1.8.0\n  Attempting uninstall: mypy\n    Found existing installation: mypy 1.5.1\n    Uninstalling mypy-1.5.1:\n      Successfully uninstalled mypy-1.5.1\n  Attempting uninstall: utbot_mypy_runner\n    Found existing installation: utbot-mypy-runner 0.2.15\n    Uninstalling utbot-mypy-runner-0.2.15:\n      Successfully uninstalled utbot-mypy-runner-0.2.15\nSuccessfully installed mypy-1.0.0 utbot_executor-1.4.37 utbot_mypy_runner-0.2.11\n\n[notice] A new release of pip is available: 23.2.1 -> 23.3.1\n[notice] To update, run: pip install --upgrade pip\n'
+2023-11-09 17:18:26,381 | printer.py | line:7 | Cannot find requirements.txt file. If your project has Python dependencies, please specify them in requirements.txt.
+2023-11-09 17:18:26,382 | printer.py | line:7 | Found 23 Python files to analyze.
+2023-11-09 17:18:26,384 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/__init__.py --------   
+2023-11-09 17:18:39,597 | printer.py | line:7 | 
+utfuzz has been cancelled!
+2023-11-09 17:21:10,227 | printer.py | line:7 | utfuzz started...
+2023-11-09 17:21:10,290 | printer.py | line:7 | Current Java: java
+2023-11-09 17:21:10,290 | printer.py | line:7 | Set timeout in seconds: per one class or top-level functions in one file. Leave empty to choose 60 s.
+2023-11-09 17:21:12,941 | printer.py | line:7 | 
+utfuzz has been cancelled!
+2023-11-09 17:21:14,645 | printer.py | line:7 | utfuzz started...
+2023-11-09 17:21:14,709 | printer.py | line:7 | Current Java: java
+2023-11-09 17:21:14,709 | printer.py | line:7 | Set timeout in seconds: per one class or top-level functions in one file. Leave empty to choose 60 s.
+2023-11-09 17:21:16,247 | printer.py | line:7 | Specify files and directories to analyze: print one file/directory in a row; empty input marks the end (by default, all files from the project directory will be analyzed):
+2023-11-09 17:21:19,921 | printer.py | line:7 | Installing Python dependencies...
+2023-11-09 17:21:22,049 | python_requirements_manger.py | line:19 | b'Requirement already satisfied: utbot_executor==1.8.0 in /home/vyacheslav/.cache/pypoetry/virtualenvs/utfuzz-1Iv8l1q0-py3.11/lib/python3.11/site-packages (1.8.0)\nCollecting utbot_mypy_runner==0.2.11\n  Using cached utbot_mypy_runner-0.2.11-py3-none-any.whl (11 kB)\nCollecting mypy==1.0.0 (from utbot_mypy_runner==0.2.11)\n  Using cached mypy-1.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.4 MB)\nRequirement already satisfied: typing-extensions>=3.10 in /home/vyacheslav/.cache/pypoetry/virtualenvs/utfuzz-1Iv8l1q0-py3.11/lib/python3.11/site-packages (from mypy==1.0.0->utbot_mypy_runner==0.2.11) (4.8.0)\nRequirement already satisfied: mypy-extensions>=0.4.3 in /home/vyacheslav/.cache/pypoetry/virtualenvs/utfuzz-1Iv8l1q0-py3.11/lib/python3.11/site-packages (from mypy==1.0.0->utbot_mypy_runner==0.2.11) (1.0.0)\nInstalling collected packages: mypy, utbot_mypy_runner\n  Attempting uninstall: mypy\n    Found existing installation: mypy 1.5.1\n    Uninstalling mypy-1.5.1:\n      Successfully uninstalled mypy-1.5.1\n  Attempting uninstall: utbot_mypy_runner\n    Found existing installation: utbot-mypy-runner 0.2.15\n    Uninstalling utbot-mypy-runner-0.2.15:\n      Successfully uninstalled utbot-mypy-runner-0.2.15\nSuccessfully installed mypy-1.0.0 utbot_mypy_runner-0.2.11\n\n[notice] A new release of pip is available: 23.2.1 -> 23.3.1\n[notice] To update, run: pip install --upgrade pip\n'
+2023-11-09 17:21:22,049 | printer.py | line:7 | Cannot find requirements.txt file. If your project has Python dependencies, please specify them in requirements.txt.
+2023-11-09 17:21:22,050 | printer.py | line:7 | Found 23 Python files to analyze.
+2023-11-09 17:21:22,052 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/__init__.py --------   
+2023-11-09 17:21:22,190 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:21:22,699 | printer.py | line:7 | 17:21:22.697 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:21:24,918 | printer.py | line:7 | 17:21:24.918 | INFO  | PythonGenerateTestsCommand | Requirements: utbot-mypy-runner==0.2.15, utbot-executor==1.8.0
+2023-11-09 17:21:25,017 | printer.py | line:7 | 17:21:25.017 | INFO  | PythonGenerateTestsCommand | Loading information about Python types...
+2023-11-09 17:21:27,388 | printer.py | line:7 | 17:21:27.387 | INFO  | PythonGenerateTestsCommand | Generating tests...
+2023-11-09 17:21:27,460 | printer.py | line:7 | 17:21:27.460 | INFO  | PythonTestCaseGenerator | Start test generation for signal_handler
+2023-11-09 17:21:27,791 | printer.py | line:7 | 17:21:27.791 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.str, builtins.str], typing.Any]
+2023-11-09 17:21:31,191 | printer.py | line:7 | 17:21:31.191 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.int, builtins.str], typing.Any]
+2023-11-09 17:21:34,489 | printer.py | line:7 | 17:21:34.487 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.str, builtins.int], typing.Any]
+2023-11-09 17:21:36,848 | printer.py | line:7 | 17:21:36.848 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.bool, builtins.str], typing.Any]
+2023-11-09 17:21:38,887 | printer.py | line:7 | 17:21:38.886 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.int, builtins.int], typing.Any]
+2023-11-09 17:21:40,897 | printer.py | line:7 | 17:21:40.897 | INFO  | BaselineAlgorithm | Random type: typing.Callable[[typing.Union[builtins.int, builtins.list[typing.Any], builtins.str, builtins.bool, builtins.float, builtins.dict[typing.Any, typing.Any]], typing.Union[builtins.int, builtins.list[typing.Any], builtins.str, builtins.bool, builtins.float, builtins.dict[typing.Any, typing.Any]]], typing.Any]
+2023-11-09 17:21:42,863 | printer.py | line:7 | 17:21:42.863 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.str, builtins.bool], typing.Any]
+2023-11-09 17:21:44,871 | printer.py | line:7 | 17:21:44.870 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.float, builtins.str], typing.Any]
+2023-11-09 17:21:46,876 | printer.py | line:7 | 17:21:46.876 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.bool, builtins.int], typing.Any]
+2023-11-09 17:21:47,541 | printer.py | line:7 | 17:21:47.541 | INFO  | BaselineAlgorithm | Checking new state typing.Callable[[builtins.int, builtins.bool], typing.Any]
+2023-11-09 17:21:47,630 | printer.py | line:7 | 17:21:47.629 | INFO  | PythonTestCaseGenerator | Collect all test executions for signal_handler
+2023-11-09 17:21:47,643 | printer.py | line:7 | 17:21:47.643 | ERROR | PythonGenerateTestsCommand | Couldn't generate tests for the following functions: signal_handler
+2023-11-09 17:21:47,662 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/main.py --------   
+2023-11-09 17:21:47,794 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:21:48,379 | printer.py | line:7 | 17:21:48.378 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:21:48,512 | printer.py | line:7 | 17:21:48.512 | INFO  | PythonGenerateTestsCommand | Loading information about Python types...
+2023-11-09 17:21:50,738 | printer.py | line:7 | 17:21:50.738 | INFO  | PythonGenerateTestsCommand | Generating tests...
+2023-11-09 17:21:50,809 | printer.py | line:7 | 17:21:50.809 | INFO  | PythonTestCaseGenerator | Start test generation for main
+2023-11-09 17:21:53,732 | printer.py | line:7 | 17:21:53.731 | INFO  | PythonTestCaseGenerator | Collect all test executions for main
+2023-11-09 17:21:53,743 | printer.py | line:7 | 17:21:53.743 | ERROR | PythonGenerateTestsCommand | Couldn't generate tests for the following functions: main
+2023-11-09 17:21:53,800 | printer.py | line:7 | 
+   -------- Start fuzzing /home/vyacheslav/Projects/utfuzz_gitlab/utfuzz/utfuzz/parser.py --------   
+2023-11-09 17:21:53,942 | printer.py | line:7 | WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+2023-11-09 17:21:54,494 | printer.py | line:7 | 17:21:54.493 | INFO  | PythonGenerateTestsCommand | Checking requirements...
+2023-11-09 17:21:54,632 | printer.py | line:7 | 17:21:54.632 | INFO  | PythonGenerateTestsCommand | Loading information about Python types...
+2023-11-09 17:21:54,726 | printer.py | line:7 | 
+utfuzz has been cancelled!
