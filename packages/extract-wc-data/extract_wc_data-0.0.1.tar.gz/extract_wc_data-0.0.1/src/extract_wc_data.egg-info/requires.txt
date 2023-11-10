@@ -1,0 +1,5 @@
+chromedriver-binary
+requests==2.31.0
+selenium==4.15.2
+six==1.14.0
+pandas==2.0.0

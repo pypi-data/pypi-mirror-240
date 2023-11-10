@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: extract-wc-data
+Version: 0.0.1
+Summary: A single Package to extract wc 2023 data.
+Home-page: https://github.com/hrisikesh-neogi/extract_wc_data
+Author: hrisikesh-neogi
+Author-email: hrisikesh.neogi@gmail.com
+Project-URL: Bug Tracker, https://github.com/hrisikesh-neogi/extract_wc_data/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: chromedriver-binary
+Requires-Dist: requests==2.31.0
+Requires-Dist: selenium==4.15.2
+Requires-Dist: six==1.14.0
+Requires-Dist: pandas==2.0.0
+
+# ExtractWCData
+
+A small package to extract World cup 2023 data realtime.

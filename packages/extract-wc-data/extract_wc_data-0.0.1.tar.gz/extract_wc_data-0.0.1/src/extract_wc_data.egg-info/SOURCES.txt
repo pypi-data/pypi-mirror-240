@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/ExtractWCData/__init__.py
+src/ExtractWCData/_scrape_data.py
+src/ExtractWCData/get_latest_data.py
+src/extract_wc_data.egg-info/PKG-INFO
+src/extract_wc_data.egg-info/SOURCES.txt
+src/extract_wc_data.egg-info/dependency_links.txt
+src/extract_wc_data.egg-info/requires.txt
+src/extract_wc_data.egg-info/top_level.txt
