@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: immogpt
+Version: 0.1.0
+Summary: An apartment Search engine
+Home-page: https://github.com/wuqunfei/immogpt
+Author: Qunfei Wu
+Author-email: wu.qunfei@gmail.com
+Keywords: immogpt
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+License-File: AUTHORS.rst
+
+=======
+immogpt
+=======
+
+
+
+
+.. image:: https://pyup.io/repos/github/wuqunfei/immogpt/shield.svg
+     :target: https://pyup.io/repos/github/wuqunfei/immogpt/
+     :alt: Updates
+
+
+
+An apartment Search engine
+
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2023-11-10)
+------------------
+
+* First release on PyPI.
