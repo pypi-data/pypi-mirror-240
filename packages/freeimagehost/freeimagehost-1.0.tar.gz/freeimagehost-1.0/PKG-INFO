@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: freeimagehost
+Version: 1.0
+Summary: An unofficial wrapper for the freeimagehost website api.
+Author: samuelmarc
+License: MIT
+Keywords: image,upload,uploader,imageuploader
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx
+
+# FreeImageHost
+
+Unofficial wrapper for the freeimagehost website api
+
+# Install
+```
+$ python3 -m pip install freeimagehost
+```
+
+## Example
+```python
+from imagehost import Client
+
+cl = Client('api_key...')
+
+#local image
+image = cl.upload(
+    'image.png'
+)
+
+#url image
+image2 = cl.upload(
+    'https://example.com/image.png',
+    'url'
+)
+
+#base64 image
+image3 = cl.upload(
+    'b64 string...',
+    'b64'
+)
+
+print(image['image']['url'])
+print(image2['image']['url'])
+print(image3['image']['url'])
+```
+
+## Asyncio Example
+```python
+import asyncio
+from imagehost.aio import Client
+
+async def main():
+    cl = Client('api_key....')
+    
+    #local image
+    image = await cl.upload(
+        'image.png'
+    )
+    
+    #url image
+    image2 = await cl.upload(
+        'https://example.com/image.png',
+        'url'
+    )
+    
+    #base64 image
+    image3 = await cl.upload(
+        'b64 string...',
+        'b64'
+    )
+    
+    print(image['image']['url'])
+    print(image2['image']['url'])
+    print(image3['image']['url'])
+
+
+asyncio.run(main())
+```
