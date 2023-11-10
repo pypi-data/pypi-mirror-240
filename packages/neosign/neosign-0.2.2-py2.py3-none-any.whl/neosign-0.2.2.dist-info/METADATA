@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: neosign
+Version: 0.2.2
+Summary: Utility for signing arbitrary messages with NEP2 Keypairs or WIF
+Home-page: https://github.com/CityOfZion/neosign
+Author: City of Zion
+Author-email: python@cityofzion.io
+License: MIT license
+Keywords: neocore,neo,python,node
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
+License-File: LICENSE.md
+Requires-Dist: neocore ==0.5.6
+Requires-Dist: prompt-toolkit ==2.0.3
+
+Fun
