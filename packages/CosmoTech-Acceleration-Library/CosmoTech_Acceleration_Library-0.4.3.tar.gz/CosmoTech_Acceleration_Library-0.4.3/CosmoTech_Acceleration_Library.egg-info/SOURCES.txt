@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.doc.txt
+requirements.txt
+CosmoTech_Acceleration_Library/__init__.py
+CosmoTech_Acceleration_Library.egg-info/PKG-INFO
+CosmoTech_Acceleration_Library.egg-info/SOURCES.txt
+CosmoTech_Acceleration_Library.egg-info/dependency_links.txt
+CosmoTech_Acceleration_Library.egg-info/not-zip-safe
+CosmoTech_Acceleration_Library.egg-info/requires.txt
+CosmoTech_Acceleration_Library.egg-info/top_level.txt
