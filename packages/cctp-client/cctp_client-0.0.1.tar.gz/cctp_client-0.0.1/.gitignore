@@ -1,0 +1,4 @@
+.DS_STORE
+.idea/
+.ignore/
+regen_tables.sh
