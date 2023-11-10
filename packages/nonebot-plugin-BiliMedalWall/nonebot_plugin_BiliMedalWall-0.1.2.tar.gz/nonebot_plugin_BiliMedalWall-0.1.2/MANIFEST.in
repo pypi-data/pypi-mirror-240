@@ -1,0 +1,2 @@
+recursive-include nonebot_plugin_BiliMedalWall/resources/fonts *.ttf
+recursive-include nonebot_plugin_BiliMedalWall/resources/img *.png
