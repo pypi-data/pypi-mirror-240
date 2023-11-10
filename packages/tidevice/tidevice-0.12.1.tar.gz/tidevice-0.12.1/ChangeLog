@@ -1,0 +1,11 @@
+CHANGES
+=======
+
+0.12.1
+------
+
+* update coverage yml
+* fix: Python below 3.8, shutil.copytree does not have argument 'dirs\_exist\_ok'
+* fix #338
+* fix runwda build with xcode 15, remove lib loguru
+* prompt: not support ios 17
