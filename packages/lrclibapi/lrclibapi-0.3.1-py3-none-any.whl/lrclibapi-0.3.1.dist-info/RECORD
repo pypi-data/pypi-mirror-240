@@ -1,0 +1,8 @@
+lrclib/__init__.py,sha256=pouSmUC9xHIIisPcEEPnH8N3U3QlraIIMkAGrhi9niY,126
+lrclib/api.py,sha256=8SDOwgi4cBi3WhEPua5zh1SAZ4COHITt_lL_G0k_dYI,9710
+lrclib/cryptographic_challenge_solver.py,sha256=RzM_5uBvfhGuXDJi3JJKKW6yctt5QiLQbly_KKhwpJ0,2784
+lrclib/exceptions.py,sha256=s08E2ZRZRmzQfKu3Rfng_2IuHFcQOMMqwqygApKyq2Q,855
+lrclib/models.py,sha256=pCnmlQe-Arjr76A827KdVMns039JJfmg-sW5y2ERMn0,4050
+lrclibapi-0.3.1.dist-info/METADATA,sha256=PZbcFt2gQjrWFo3VDa4O3FrhWvnQHSI5hbjVRMsIdHs,2386
+lrclibapi-0.3.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+lrclibapi-0.3.1.dist-info/RECORD,,
