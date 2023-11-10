@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: rsaitehu-geometry
+Version: 0.0.1
+Summary: geometry utilities
+Requires-Dist: numpy >=1.22.0
+Requires-Dist: scipy >=1.9.3
+
