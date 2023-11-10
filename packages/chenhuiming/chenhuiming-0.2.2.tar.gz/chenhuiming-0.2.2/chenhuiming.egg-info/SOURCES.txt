@@ -1,0 +1,10 @@
+README.md
+setup.py
+chenhuiming/__init__.py
+chenhuiming/test.py
+chenhuiming.egg-info/PKG-INFO
+chenhuiming.egg-info/SOURCES.txt
+chenhuiming.egg-info/dependency_links.txt
+chenhuiming.egg-info/requires.txt
+chenhuiming.egg-info/top_level.txt
+chenhuiming/pyarmor_runtime_000000/__init__.py
