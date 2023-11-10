@@ -1,0 +1,8 @@
+# Package build
+/.eggs
+/dist
+/*.egg-info/
+
+# App specific
+/lotus
+/out
