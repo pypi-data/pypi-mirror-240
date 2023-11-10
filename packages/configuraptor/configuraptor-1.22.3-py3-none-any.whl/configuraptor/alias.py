@@ -1,0 +1,6 @@
+class Alias:
+    ...
+
+
+def alias():
+    ...
