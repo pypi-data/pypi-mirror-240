@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: packaging_tutorial_rambasnet
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/rambasnet/example_package_rambasnet
+Author: Ram Basnet
+Author-email: author@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: colorful (>=0.5.5,<0.6.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/rambasnet/example_package_rambasnet
+Description-Content-Type: text/markdown
+
+# Testing Python Packaging for PyPi
+
+

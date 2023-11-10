@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "packaging_tutorial_rambasnet"
+version = "0.0.1"
+authors = ["Ram Basnet <author@example.com>"]
+description = "A small example package"
+readme = "README.md"
+repository = "https://github.com/rambasnet/example_package_rambasnet"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/rambasnet/example_package_rambasnet"
+"Bug Tracker" = "https://github.com/rambasnet/example_package/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+colorful = "^0.5.5"
+click = "^8.1.7"
