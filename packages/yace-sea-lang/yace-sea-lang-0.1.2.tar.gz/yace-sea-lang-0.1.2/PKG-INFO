@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: yace-sea-lang
+Version: 0.1.2
+Summary: The Sea Language -- An IDL for the C ABI and FFI interoperability
+Home-page: https://github.com/safl/sea-lang
+Author: Simon A. F. Lund
+Author-email: os@safl.dk
+Maintainer: Simon A. F. Lund
+Maintainer-email: os@safl.dk
+License: GPL-2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Description-Content-Type: text/x-rst
+Requires-Dist: setuptools>=60
+
+.. image:: docs/source/_static/sea-lang-mascot.png
+   :alt: sea-lang
+
+Welcome to sea-lang
+===================
+
+.. image:: https://img.shields.io/pypi/v/sea-lang.svg
+   :target: https://pypi.org/project/sea-lang
+   :alt: PyPI
+
+.. image:: https://github.com/safl/sea-lang/actions/workflows/build_deploy.yml/badge.svg
+   :target: https://github.com/safl/sea-lang/actions
+   :alt: Build Status
+
+.. image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit
+   :target: https://github.com/safl/sea-lang/blob/main/.pre-commit-config.yaml
+   :alt: pre-commit
+
+**sea-lang** is a interface-description language for foreign-function-interface
+(FFI) compilers. Created for consumption by *yace*.
+
+* The project is hosted on `GitHUB`_
+
+* Documentation is available at `safl.dk/sea-lang`_
+
+**sea-lang** is an interface-definition language, 
+
+.. _GitHUB: https://github.com/safl/sea-lang
+.. _safl.dk/sea-lang: https://safl.dk/sea-lang
+
