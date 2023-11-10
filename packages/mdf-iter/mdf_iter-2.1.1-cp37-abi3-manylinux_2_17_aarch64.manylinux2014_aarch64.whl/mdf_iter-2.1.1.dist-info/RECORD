@@ -1,0 +1,8 @@
+mdf_iter/mdf_iter.so,sha256=brZ71YF8-c2hboU7tPWN53KWgyiSdQW0RHzw4_qp1cA,1084488
+mdf_iter/mdf_iter.pyi,sha256=VFng5VVNWVwK-f2BndB0VprCqv06GOCqWOYFDJsX43c,1263
+mdf_iter/__init__.py,sha256=LSm7aB6HroY6ur9Z80kpEVAJnb5--zvB25W2bBXKmME,63
+mdf_iter/MessageTypes.py,sha256=8oQasm8uOHogJk2D5uy2dxPePkBSXUv6G5niOyq3XwY,190
+mdf_iter-2.1.1.dist-info/METADATA,sha256=j62tDSpqGpjizAes0bLxdIi3l5RLo42lio1oRNQPeh4,4144
+mdf_iter-2.1.1.dist-info/RECORD,,
+mdf_iter-2.1.1.dist-info/WHEEL,sha256=32aLV_eVr6aWmoyYUWWgT0E2pYn1Y4JDsGMmmBbE-hY,146
+mdf_iter-2.1.1.dist-info/licenses/LICENSE,sha256=4iHFp_LQPbL--0WKDju3Bl2_thrgpw9_46vuuV9g0eA,1072
