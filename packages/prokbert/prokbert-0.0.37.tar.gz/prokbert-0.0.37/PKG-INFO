@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: prokbert
+Version: 0.0.37
+Summary: ProkBERT
+Author-email: nbrg-ppcu <obalasz@gmail.com>
+Project-URL: Homepage, https://github.com/nbrg-ppcu/prokbert
+Project-URL: Bug Tracker, https://github.com/nbrg-ppcu/prokbert/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: transformers<4.33.2,>=4.23
+Requires-Dist: biopython>=1.79
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: h5py>=3.9.0
+Requires-Dist: torch>=2.0.0
+Requires-Dist: torchvision>=0.15.0
+Requires-Dist: datasets>2.0.1
+Requires-Dist: scikit-learn>=1.2.2
+Requires-Dist: scipy>=1.10.1
+Requires-Dist: tables>=3.8.0
+Requires-Dist: accelerate>=0.20.1
+
+# The ProkBERT model family
+
+The ProkBERT model family is a transformer-based, encoder-only architecture based on [BERT](https://github.com/google-research/bert). Built on transfer learning and self-supervised methodologies, ProkBERT models capitalize on the abundant available data, demonstrating adaptability across diverse scenarios. The models’ learned representations align with established biological understanding, shedding light on phylogenetic relationships. With the novel Local Context-Aware (LCA) tokenization, the ProkBERT family overcomes the context size limitations of traditional transformer models without sacrificing performance or the information rich local context. In bioinformatics tasks like promoter prediction and phage identification, ProkBERT models excel. For promoter predictions, the best performing model achieved an MCC of 0.74 for E. coli and 0.62 in mixed-species contexts. In phage identification, they all consistently outperformed tools like VirSorter2 and DeepVirFinder, registering an MCC of 0.85. Compact yet powerful, the ProkBERT models are efficient, generalizable, and swift.
+
+
+
+
+
+[Read the Docs](https://prokbert.readthedocs.io/en/latest/)
