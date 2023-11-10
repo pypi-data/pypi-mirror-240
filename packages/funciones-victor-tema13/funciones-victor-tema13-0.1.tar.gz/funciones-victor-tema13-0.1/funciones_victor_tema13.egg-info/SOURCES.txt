@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+Setup.py
+setup.cfg
+setup.py
+funciones/__init__.py
+funciones/operaciones.py
+funciones_victor_tema13.egg-info/PKG-INFO
+funciones_victor_tema13.egg-info/SOURCES.txt
+funciones_victor_tema13.egg-info/dependency_links.txt
+funciones_victor_tema13.egg-info/top_level.txt
