@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+ pysfer_metaphaz/__init__.py
+ pysfer_metaphaz/pyfer.py
+pysfer.egg-info/PKG-INFO
+pysfer.egg-info/SOURCES.txt
+pysfer.egg-info/dependency_links.txt
+pysfer.egg-info/top_level.txt
