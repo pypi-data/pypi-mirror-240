@@ -1,0 +1,7 @@
+packaging_tutorial_rambasnet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+packaging_tutorial_rambasnet/example.py,sha256=BSXRTk1Hjt5w1e4FsSH-HKv83HASjWUjvrYlx4oq3_k,69
+packaging_tutorial_rambasnet/tests/test_example.py,sha256=GrTGHbLMMi26bfa1XPgufPZPglc7OEbxhqYAoH3z9HM,274
+packaging_tutorial_rambasnet-0.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+packaging_tutorial_rambasnet-0.0.1.dist-info/METADATA,sha256=zfMzJizA6ICQcL8xLwRx7-yUdCuI1IH07Yycg9vj4y0,831
+packaging_tutorial_rambasnet-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+packaging_tutorial_rambasnet-0.0.1.dist-info/RECORD,,
