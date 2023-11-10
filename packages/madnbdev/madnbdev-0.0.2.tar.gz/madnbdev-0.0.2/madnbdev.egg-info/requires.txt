@@ -1,0 +1,5 @@
+fastcore
+openai
+
+[dev]
+twine

@@ -1,0 +1,6 @@
+[console_scripts]
+madnbdev_generate_message = madnbdev.agent:generate_message
+
+[nbdev]
+madnbdev = madnbdev._modidx:d
+
