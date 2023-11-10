@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gptfy
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: allpurpose
+Requires-Dist: requests ~=2.31.0
+Requires-Dist: openai ~=0.28.1
+
+UNKNOWN
+

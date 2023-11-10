@@ -1,0 +1,12 @@
+gptfy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gptfy/base_client.py,sha256=sTGgkkX5GXXDr0FKkNDfmRKmukfwLIRxsLUEV9caei8,851
+gptfy/base_model.py,sha256=Y43I60pfnm4vjWmt6y_oRzvqBXVdSmINmVQSMRfnLPw,2662
+gptfy/colors.py,sha256=I6FsguiEx4LSz8QbCZ0moWEdEGYTTlNzYWEBGTOsDww,264
+gptfy/conversation.py,sha256=X60KCVGd0VndSPf9AUkqO5OtX4m9581h6l6CAxlOEyM,629
+gptfy/dalle.py,sha256=xAT1vn8s3-baAEOulpJWG9D0se3-6uHcw-tZhP0p1i8,559
+gptfy/peer_error.py,sha256=LtAwim7HPwKYdL7IzOmdK91AwuoGG-L5tLH7YjdRMIs,283
+gptfy-0.1.dist-info/LICENSE,sha256=-Z4AQ23ZMcYIOL7toXS1PNF8zC56UaLYrdSZK50lb7k,1075
+gptfy-0.1.dist-info/METADATA,sha256=O2fpiWkd0_FFjSbP-BEnnH8rW9I3SY8JVWZDSCEj_TM,240
+gptfy-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+gptfy-0.1.dist-info/top_level.txt,sha256=vnt46HOIEN8lkzkpJ4dZHpK8sX7Xsvp0Q8Vsy_Qj3mI,6
+gptfy-0.1.dist-info/RECORD,,
