@@ -1,0 +1,3 @@
+[console_scripts]
+idc_index_vamsi = src.main:main
+
