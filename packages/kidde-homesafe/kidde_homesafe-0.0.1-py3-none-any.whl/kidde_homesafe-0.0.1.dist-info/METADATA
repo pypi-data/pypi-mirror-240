@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kidde-homesafe
+Version: 0.0.1
+Summary: A slim python wrapper of the Kidde HomeSafe private API.
+Author-email: Charles Weber <865charlesw@gmail.com>
+License: GPL-3.0-or-later
+Project-URL: Source Code, https://github.com/865charlesw/kidde-homesafe
+Platform: any
+Requires-Python: >=3.11.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+# kidde-homesafe
+A slim python wrapper of the Kidde HomeSafe private API
