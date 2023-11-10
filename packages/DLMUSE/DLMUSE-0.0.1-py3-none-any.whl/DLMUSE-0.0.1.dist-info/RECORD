@@ -1,0 +1,13 @@
+DLMUSE/VERSION,sha256=axN4nkPlSFY0Uz3hamXYup00xMl1hYi2ZYBUNfgOsRU,5
+DLMUSE/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DLMUSE/__main__.py,sha256=wBmEw7NJAUTink3cPdyUkvAjDAQ1PMZYTLDlmj1zR_A,3518
+DLMUSE/compute_muse.py,sha256=JXltiWmJMLYX2lXpjUDz1XUGF48l80Vo0tOqhbtHF3I,5068
+DLMUSE/compute_volumes.py,sha256=EXKpDxbkWWCrHgqfSOgOixMK2nxvg33hWTZQ9jzDjbI,5872
+DLMUSE/dicts/MUSE_mapping_consecutive_indices.csv,sha256=z25B3DISBZa-NJFDwOIQ8U7f8mRIf0rquZfe6pAYsrE,5361
+DLMUSE/dicts/MUSE_mapping_derived_rois.csv,sha256=lOEqJ4aTJIvgDTmlxpvrJYD-xDWKy9drDz4Fw2hDO6I,12459
+DLMUSE-0.0.1.dist-info/LICENSE,sha256=LXFvuEOXcCRitSbTPt7AgghfF4AyPicAVo5AZ0mcO88,145
+DLMUSE-0.0.1.dist-info/METADATA,sha256=iq-_T-ORXmNMTWgUNaru3mRxZsunBVjs0TgC0FNZXDw,5254
+DLMUSE-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+DLMUSE-0.0.1.dist-info/entry_points.txt,sha256=rI1BTqwaMQZ6ERDRme1x7jZvFVULWfWtF0HFBcfkwYU,48
+DLMUSE-0.0.1.dist-info/top_level.txt,sha256=sLBTyrrguZmZ378NaeZ9jI-1Ti-sedrwTYYaftdpNaM,7
+DLMUSE-0.0.1.dist-info/RECORD,,
