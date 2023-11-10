@@ -1,0 +1,17 @@
+prunerr/__init__.py,sha256=i_qSARbsRwplXKdZYCBxTjanTlO7F-DikWb8vp6ROQI,8983
+prunerr/__main__.py,sha256=CCyPsF-rzfn_zFxnRrHtv3XIzXGKUoA6d47DTGofXbk,320
+prunerr/downloadclient.py,sha256=0xKzkV8k2NdmSfEcVz8h83nSILqrzI9orFxrnkd10ok,17291
+prunerr/downloaditem.py,sha256=smvb5VFN1jLBA51hhD0bzgH6QCBO857zcwqIFQnr9Rg,11614
+prunerr/operations.py,sha256=sFrCAKOg4MBAzKSf01oreSLN3eQ3LvD834mrwLI9sIU,8092
+prunerr/py.typed,sha256=DHJhAhtGDYBLqYjm_ZOCiBww_tqhX5FloOVxP883dWw,141
+prunerr/runner.py,sha256=g-N6evqC9smUckVJ5QwOzomwGIs_pO0pzehbK4vcrBo,21748
+prunerr/servarr.py,sha256=EsnvS_vIxeLE-nKWU72K8dcb6sEx4b9oQ29NHMYt8PM,11636
+prunerr/utils.py,sha256=IAp5vE22ZiiX58PQEBpy_qqFlY7ClCzcOqGLxPJN-jA,2738
+prunerr/version.py,sha256=3rc5rSUu2MaRh6SAQjHfQA-MTz0k-7z_qcmQjwT-S-E,413
+prunerr/home/.config/prunerr.yml,sha256=jbbYQ08QIueavni7vNsZPrKP7v01XQIdlOO4UGj_GMM,10428
+prunerr-3.0.0b0.dist-info/.gitignore,sha256=vjwPXi7-T8Wc4AzAzr-wrDNtu9FcIf1nT7CC2FlI9gc,192
+prunerr-3.0.0b0.dist-info/METADATA,sha256=JXXGtGf1fsjNiriD8yhada7YHIRwyNrS7dvDKC48odA,19290
+prunerr-3.0.0b0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+prunerr-3.0.0b0.dist-info/entry_points.txt,sha256=jaMofdlRo07OXF-ULGKYWTo_ixLAlXNsQwKzj-Ums5U,41
+prunerr-3.0.0b0.dist-info/top_level.txt,sha256=_5Jqbm7qDKfqo1RROy5CODMcVO7kBI5jFFoK-Nz1TA4,8
+prunerr-3.0.0b0.dist-info/RECORD,,
