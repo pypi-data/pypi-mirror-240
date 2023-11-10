@@ -1,0 +1,7 @@
+openbb_finra/__init__.py,sha256=P1BULiILFqv7yQw6nhoxKX8cft6OEAun-bfcwcaviF4,388
+openbb_finra/models/otc_aggregate.py,sha256=jn9T3EQQ80RWL9bLsOKQBwpSSnsp5vwMtq5f-XInORs,1985
+openbb_finra/utils/helpers.py,sha256=vcR0CiBDZVqP7tm9ZBbWYDQdgHZ_-axvhLdLC0Robtg,2960
+openbb_finra-0.1.0a5.dist-info/METADATA,sha256=1JrScVRSAYGmM-cpxi8IbdWNvSL5yYjgHzKlz10sj-E,561
+openbb_finra-0.1.0a5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+openbb_finra-0.1.0a5.dist-info/entry_points.txt,sha256=uazQgfzspjjX5R7VPDOTHiwnO3cr1iKjPzVqqLekr3g,63
+openbb_finra-0.1.0a5.dist-info/RECORD,,
