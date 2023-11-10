@@ -1,0 +1,18 @@
+[project]
+name = "tplinkrouterc6u"
+version = "0.0.1"
+authors = [
+  { name="Alex Erohin", email="alexanderErohin@yandex.ru" },
+]
+description = "Python package for API access and router management of the TP-Link Archer C6U"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/AlexandrErohin/TP-Link-Archer-C6U"
+"Bug Tracker" = "https://github.com/AlexandrErohin/TP-Link-Archer-C6U/issues"
