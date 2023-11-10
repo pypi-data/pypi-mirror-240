@@ -1,0 +1,13 @@
+og_discord/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+og_discord/discord_chat.py,sha256=6dG31zHzsrdnpgYrVe2EE8Ya4oQ1n4N_9uDRk31FHUg,7965
+og_terminal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+og_terminal/markdown.py,sha256=ylu8l1sEt8X7KT_Sa163f0m66ai2U7qVAqsUvHYsHMA,1270
+og_terminal/ping.py,sha256=Z0aVFR8p9ogB0TK4xebTMBym5H9n-BwLtQzwGmx4-_Q,1579
+og_terminal/terminal_chat.py,sha256=r27fYQbFP-QvcSL0CXKT5eN6AJnGXQc88bm_yiKYAxY,14900
+og_terminal/ui_block.py,sha256=YZECMqNeKTB7QgUgxPn5o8QnMvkwLvAdNxcEWVQ5pgk,7036
+og_terminal/utils.py,sha256=iTBmM91mIS4oAmzm71jL7TztxBapw8MStivXG-NievQ,1178
+og_chat-0.5.3.dist-info/METADATA,sha256=Ryh8wfAbuWMlsJRxioLwGDUmGPlGyJPr9Ca-Wt02SY8,684
+og_chat-0.5.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+og_chat-0.5.3.dist-info/entry_points.txt,sha256=9n6Zt5TkizsosXl1fSBTVyGKHepTgU9hmjgdS0OCjE4,133
+og_chat-0.5.3.dist-info/top_level.txt,sha256=oMyC7ip5kr94E3kiqUA2IXwAXeiGeO_jpoXqLKRdwSE,23
+og_chat-0.5.3.dist-info/RECORD,,
