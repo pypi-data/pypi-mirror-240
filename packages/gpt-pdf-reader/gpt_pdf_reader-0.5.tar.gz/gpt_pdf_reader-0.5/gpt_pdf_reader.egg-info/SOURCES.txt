@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+gpt_pdf_reader.egg-info/PKG-INFO
+gpt_pdf_reader.egg-info/SOURCES.txt
+gpt_pdf_reader.egg-info/dependency_links.txt
+gpt_pdf_reader.egg-info/requires.txt
+gpt_pdf_reader.egg-info/top_level.txt
+gptpdfreader/__init__.py
+gptpdfreader/reader.py
