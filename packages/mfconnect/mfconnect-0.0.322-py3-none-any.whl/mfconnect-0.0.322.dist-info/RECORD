@@ -1,0 +1,11 @@
+mfconnect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mfconnect/meteo.py,sha256=d9t-URxP1lSWjR6HrhqLv-IehyYZ0CRvN6wexmjlzOA,14918
+mfconnect/meteo_completion,sha256=_KgwCqzTvmxw7FuMs57Af-cm8YwScU8OCdq-TDp1yec,2228
+mfconnect/meteorc,sha256=wNdTm-ZS5EMt1luHhXRTVUVH3UxTVdYwAzBWXCRRxyA,380
+mfconnect/version.py,sha256=YKe26vUaCNnNSK3IpebQnEiNL7lIs0f0sBeQhasbxg4,24
+mfconnect-0.0.322.dist-info/LICENCE,sha256=g5pro-Ll9sTjan1S-zB1r627hUPCvOUvLETPwOa_Kzg,1478
+mfconnect-0.0.322.dist-info/METADATA,sha256=lAy8FLR2TV5DqWIpmwp37KmUJ59DNyxDXVm1KPqP-d0,4611
+mfconnect-0.0.322.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mfconnect-0.0.322.dist-info/entry_points.txt,sha256=CzyX2KjD57gWhHM55QkR5NieWZJZA_YjENcI-fp30ZI,48
+mfconnect-0.0.322.dist-info/top_level.txt,sha256=fJqsNuFnAfbFKlWmaQeB84vbB2FplI5EYCZI5xvHmJg,10
+mfconnect-0.0.322.dist-info/RECORD,,
