@@ -1,0 +1,3 @@
+[console_scripts]
+my-script=archetyper.install_punkt:install_punkt
+
