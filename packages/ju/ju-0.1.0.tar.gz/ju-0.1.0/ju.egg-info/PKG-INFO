@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ju
+Version: 0.1.0
+Summary: JSON schema Utils
+Home-page: UNKNOWN
+Author: OtoSense
+License: apache-2.0
+Description: 
+        # ju
+        JSON schema Utils
+        
+        
+        To install:	```pip install ju```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
