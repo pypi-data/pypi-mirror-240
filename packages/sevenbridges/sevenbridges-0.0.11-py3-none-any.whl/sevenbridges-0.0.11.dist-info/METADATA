@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sevenbridges
+Version: 0.0.11
+Summary: UNKNOWN
+Home-page: https://pypi.org/project/sevenbridges
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: networkx
+Requires-Dist: numpy (<1.23.0)
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: dtaidistance
+Requires-Dist: libpysal
+
+UNKNOWN
+
