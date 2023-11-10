@@ -1,0 +1,9 @@
+itkwasm_htj2k_wasi/__init__.py,sha256=e5Qw-slQd3pwsRcST4sxz4i5_jCEmJgV6BoTTLB6woI,193
+itkwasm_htj2k_wasi/_version.py,sha256=Xybt2skBZamGMNlLuOX1IG-h4uIxqUDGAO8MIGWrJac,22
+itkwasm_htj2k_wasi/decode.py,sha256=FbQEV6-__7CXDyAgs95En_3UmnN14AaS1t8tqWW6kxw,1716
+itkwasm_htj2k_wasi/encode.py,sha256=9aROkO6KF8Ry7W3I99UEyampSAFdNaExIEt14ebVg4k,3218
+itkwasm_htj2k_wasi/wasm_modules/decode.wasi.wasm,sha256=mN7XfTsdfIPyR44tCsYzqVjxWn9BFse1c1VY3bRmJJk,1315962
+itkwasm_htj2k_wasi/wasm_modules/encode.wasi.wasm,sha256=Y9lHERUveXpi3o6F5mYtrxWpo34t_ElvRO4shGUtP-o,1374250
+itkwasm_htj2k_wasi-2.1.0.dist-info/METADATA,sha256=PLIGdXaGV2lIanG4R4CFpomMRTBxCwpKMhz_VVwsbPM,1755
+itkwasm_htj2k_wasi-2.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+itkwasm_htj2k_wasi-2.1.0.dist-info/RECORD,,
