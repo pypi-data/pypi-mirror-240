@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pyroml
+Version: 0.0.1
+Summary: Machine Learning tool allowing plug-and-play training for pytorch models
+Author: Nathan Maire
+License: MIT
+License-File: LICENSE
+Requires-Dist: torch
+
+Machine Learning tool allowing plug-and-play training for pytorch models
