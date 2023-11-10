@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: eisenradio
+Version: 2.2.4
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: René Horn
+Author-email: rene_horn@gmx.net
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE.rst
+Provides-Extra: testing
+Requires-Dist: pytest (>=6.0) ; extra == 'testing'
+Requires-Dist: pytest-cov (>=2.0) ; extra == 'testing'
+Requires-Dist: mypy (>=0.9.10) ; extra == 'testing'
+Requires-Dist: flake8 (>=3.9) ; extra == 'testing'
+Requires-Dist: tox (>=3.24) ; extra == 'testing'
+Requires-Dist: ghettorecorder (~=2.4.5) ; extra == 'testing'
+Requires-Dist: sphinx ; extra == 'testing'
+Requires-Dist: sphinx-rtd-theme ; extra == 'testing'
+
+UNKNOWN
+
