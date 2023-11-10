@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: rsaitehu-drawing
+Version: 0.0.1
+Summary: drawing utilities
+Requires-Dist: numpy >=1.22.0
+Requires-Dist: open3d >=0.16.0
+Requires-Dist: rsaitehu-geometry >=0.0.1
+Requires-Dist: matplotlib >=3.5.3
+
