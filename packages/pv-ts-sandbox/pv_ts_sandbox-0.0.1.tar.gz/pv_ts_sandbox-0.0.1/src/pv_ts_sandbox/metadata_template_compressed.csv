@@ -1,0 +1,13 @@
+﻿**** DELETE THIS COLUMN AFTER TEMPLATE IS FILLED OUT ****,Name_of_File,School,Latitude,Longitude,Climate zone,pv-array1-current-out,pv-array1-voltage-out,pv-array2-current-out,pv-array2-voltage-out,pv-array3-current-out,pv-array3-voltage-out
+DELETE THIS ROW AFTER TEMPLATE IS FILLED OUT  ---->,Enter filename here,Enter the name of the school here,Enter the latitude coordinates of the school in this row here,Enter the longitude coordinates of the school in this row here,Enter the climate zone location of your school as a numerical value. This is used to color-code the dashboard's map, Enter the name of the column containing PV array #1 output current [A-dc] data,Enter the name of the column containing PV array #1 output voltage [V-dc] data,Enter the name of the column containing PV array #2 output current [A-dc] data,Enter the name of the column containing PV array #2 output voltage [V-dc] data,Enter the name of the column containing PV array #3 output current [A-dc] data,Enter the name of the column containing PV array #3 output voltage [V-dc] data
+DELETE THIS ROW AFTER TEMPLATE IS FILLED OUT ---->     Example:,ss2001_data.csv,A. Crawford Mosley High School,30.211181,-85.643709,1
+,,,,,
+Fill out this template containing the required metadata about your,,,,,
+datasets. The format is designed for Sun Smart Schools.,,,,,
+Match the column headers of your data to the column headers described,,,,,
+"starting at column G. If your data does not contain certain data, leave the cell blank.",,,,,
+,,,,,
+"Latitude, Longitude, and climate zone values are for only the dashboard's map.",,,,,
+,,,,,
+"After filling out this template, save it to the working directory and call",,,,,
+the function: load_metadata(path),,,,,

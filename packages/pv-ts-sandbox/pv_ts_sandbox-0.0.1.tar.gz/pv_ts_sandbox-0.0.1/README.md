@@ -1,0 +1,313 @@
+# pv-ts-sandbox
+## Package designed for Analysis & Visualization of Photovoltaic Datasets
+
+The purpose of the pv-ts-sandbox package is to provide tools to organize, analyze, and visualize provided photovoltaic data. The package is separated into 4 modules: dataformatter, preprocess, analysis, and visualize. To make use of this package you must have a local directory where photovoltaic datasets are stored. Using the dataformatter module, these datasets are organized and cleaned. The datasets in directory should adhere to the requirements of the metedata_template (provided in package). For SunSumart E-Shelter Schools, the metadata is already provided (pv-proj-metadata.csv). The metadata file should be copied from the package directory to your local desktop. Once the data adheres to the standards of the metadata, functions can be called from dataformatter, preprocess, analyze, and visualize. 
+
+
+### Package Functions
+***
+***
+#### dataformatter.py
+```
+from pv_ts_sandbox import dataformatter
+```
+***
+```
+return_df(data_path,csv_name)
+Parameters: String path to directory with data, String .csv name of file
+Returns: DataFrame of input csv
+Description: Create dataframe based on input .csv file
+```
+***
+
+
+```
+create_metadata_df(metadata_path)
+Parameters: String path to Metadata file
+Returns: DataFrame 
+Description: Create dataframe based on input Metadata file  
+```
+***
+```
+create_master_df_list(metadata_path, data_path):
+Parameters: String path to Metadata file, String path to datasets directory
+Returns: Map, DataFrame 
+Description:  Returns Filename map and DataFrame collection. Calls clean(df, val=32767) on each dataframe in the directory. Creates columns in each dataframe for ‘Latitude’, ‘Longitude’, ‘School Name’,  ‘Climate Zone’, and ‘RowsCount’.  
+```
+***
+***
+#### preprocess.py
+```
+from pv_ts_sandbox import preprocess
+```
+
+```
+format_to_float(val)
+Parameters: Input object val
+Returns: Object val as type float
+Description: Convert type of input object val to float
+```
+***
+```
+format_to_string(val)
+Parameters: Input object val
+Returns: Object val as type string 
+Description: Convert type of input object val to string
+```
+***
+```
+add_month(df)
+Parameters: DataFrame df
+Returns: DataFrame df with [‘Month’]
+Description: Add ‘Month’ column to DataFrame, using ‘TIMESTAMP’ data
+```
+***
+```
+add_year(df)
+Parameters: DataFrame df
+Returns: DataFrame df with [‘Year’]
+Description: Add ‘Year’ column to DataFrame, using ‘TIMESTAMP’ data
+```
+***
+```
+timestamp_to_datetime(df)
+Parameters: DataFrame df
+Returns: None 
+Description: Converts df[‘TIMESTAMP’] to datetime type with  %Y, %m, %d %H:%M:%S format
+```
+***
+```
+drop_row_na(df)
+Parameters: DataFrame df
+Returns: None 
+Description: Drops rows where every element in row is NaN
+```
+***
+```
+drop_val(df, val)
+Parameters: DataFrame df, Object val
+Value can be str, regex, list, dict, Series, int, float, or None
+Returns: None 
+Description: Drops input object val with NaN in DataFrame df
+```
+***
+```
+drop_column_na(df)
+Parameters: DataFrame df
+Returns: None 
+Description: Drops all columns in DataFrame df in which every value in column in NaN
+```
+***
+```
+clean(df, val)
+Parameters: DataFrame df, object val
+Returns: DataFrame 
+Description: Wrapper function that calls timestamp_to_datetime(df), drop_val(df, val), drop_column_na(df), drop_row_na(df). Converts every numerical element in the dataset to float.
+```
+***
+```
+date_range(df)
+Parameters: DataFrame df
+Returns: DateTime timestamp, DateTime timestamp
+Description: Returns start timestamp and end timestamp in df[‘TIMESTAMP’]
+```
+***
+```
+difference_in_range(start, end)
+Parameters: start timestamp, DateTime end timestamp
+Returns: DateTime 
+Description: Returns the exact number of years, months, days, hours, and minutes between start and end input timestamp data. Input start and end values should come from date_range(df) or have type datetime. 
+```
+***
+```
+days_between_range(start, end)
+Parameters: start timestamp, end timestamp
+Returns: Integer  
+Description: Returns the number of days between start and end input timestamp data. Input start and end values should come from date_range(df) or have type datetime. 
+```
+***
+```
+filter_df_time(df, start, end)
+Parameters: DataFrame df, start timestamp, end timestamp
+Returns: DataFrame df_filter
+Description: Extract a subsection of input DataFrame df using the input start and end timestamps. Timestamp should be datetime type with format '%Y, %m, %d %H:%M:%S'.
+```
+***
+```
+return_outliers(df)
+Parameters: DatFrame df
+Returns: DataFrame df_outliers
+Description: Returns a portion of DataFrame df in which elements in df are outliers calculated in the traditional way. Values with a z score greater than 3 or less than –3 are considered outliers.
+```
+***
+```
+remove_outliers(df, cols=[])
+Parameters: DataFrame df, list of string column names
+Returns: DataFrame df
+Description: Returns DataFrame df where outliers for the specified columns are dropped. If no columns are specified, the function works for all columns. Values with a z score greater than 3 or less than –3 are considered outliers.
+```
+
+***
+***
+
+
+#### analysis.py
+```
+from pv_ts_sandbox import analysis
+```
+
+```
+count_missing(df)
+Parameters: DataFrame df
+Returns: Integer 
+Description: Returns a sum of all missing data in the DataFrame df
+```
+***
+```
+count_missing_per_col(df)
+Parameters: DataFrame df
+Returns: Set of missing data for each column. 
+Description: Returns a set with keys as column names and values as the sum of missing data for each corresponding column. 
+```
+***
+```
+count_missing_for_col(df, col)
+Parameters: DataFrame df, String column name
+Returns: Integer 
+Description: Returns sum of missing data in specified column of DataFrame df
+```
+***
+```
+calculate_mean(df, col)
+Parameters: DataFrame df, String column name
+Returns: Float 
+Description:  Returns mean of data in specified column of DataFrame df
+```
+***
+```
+calculate_median(df, col)
+Parameters: DataFrame df, String column name
+Returns: Float 
+Description: Returns median of data in specified column of DataFrame df
+```
+***
+```
+calculate_range(df,col)
+Parameters: DataFrame df, String column name
+Returns: Float, Float
+Description: Returns range (min, max) of data in specified column of DataFrame df
+```
+***
+```
+calculate_mode(df, col)
+Parameters: DataFrame df, String column name
+Returns: Float 
+Description: Returns mode of data in specified column of DataFrame df
+```
+***
+```
+summarize_data(df, cols)
+Parameters: DataFrame df, list of string column name
+Returns: DataFrame df_summary
+Description: Wrapper function that calls calculate_mean, calculate_median, calculate_range, caclulate_mode. Returns DataFrame with calculated metrics for each respective input column 
+```
+***
+```
+calculate_hourly_energy(df, col)
+Parameters: DataFrame df, String column name
+Returns: DataFrame df_hourly_energy
+Description:  Returns DataFrame with calculated hourly energy for input column 
+```
+***
+```
+calculate_daily_energy(df, col)
+Parameters: DataFrame df, String column name
+Returns: DataFrame df_daily_energy
+Description: Returns DataFrame with calculated daily energy for input column
+```
+***
+```
+calculate_monthly_energy(df, col)
+Parameters: DataFrame df, String column name
+Returns: DataFrame df_monthly_energy
+Description: Returns DataFrame with calculated monthly energy for input column
+```
+***
+```
+calculate_annual_energy(df, col)
+Parameters: DataFrame df, String column name
+Returns: DataFrame df_annual_energy
+Description: Returns DataFrame with calculated annual energy for input column
+```
+***
+```
+find_unique_years(df)
+Parameters: DataFrame df
+Returns: List [] of unique years in DataFrame df
+Description: Based on the [‘Year’] column, returns all unique years in DataFrame df. 
+```
+***
+```
+calculate_power(meta_data, df, index)
+Parameters: Metadata file meta_data, DataFrame df, Integer index
+Returns: DataFrame df with additional columns [‘Power_1’], [‘Power_2’], [‘Power_3’]
+Description:  Calculates power based on current and voltage for each of the 3 arrays in DataFrame df. Alters DataFrame df to include 3 additional columns for power.
+```
+***
+```
+calculate_total_power_year_month(meta_data, df, index, year, month)
+Parameters: Metadata file meta_data, DataFrame df, Integer index, Integer year, Integer month
+Returns: List[] 
+Description:  Based on specified year and month, calculates total sum of power for each of the 3 power arrays in DataFrame df. The function calls add_year(df), add_month(df), and calculate_power(meta_data, df, index) if necessary. 
+```
+***
+```
+create_year_month_power_df(meta_data, df, index)
+Parameters: Metadata file meta_data, DataFrame df, Integer index
+Returns: DataFrame df_power
+Description: Creates a new DataFrame df_power with rows = [0-11] representing months and columns = [years] representing all unique years present in DataFrame df. Data consists of total power output for each of the 3 arrays. The function calls calculate_total_power_year_month(meta_data, df, index, year, month) for lists of power sums for the 3 arrays. 
+```
+***
+```
+create_degradation_df(meta_data, df, index)
+Parameters: Metadata file meta_data, DataFrame df, Integer index
+Returns: DataFrame df_degradation
+Description: Creates a new DataFrame of df_degradation with rows = [Power Array 1, Power Array 2, Power Array 3] and columns = [years [ months within years]]. Comparing two years at a time, degradation is found by comparing the total power of all three arrays for each of the two years for the same month. The formula used is: (Year2 - Year1) / Year1. The function calls create_year_month_power_df(meta_data,df,index) for obtaining total power of the arrays.
+```
+***
+***
+
+
+#### visualize.py
+```
+from pv_ts_sandbox import visualize
+```
+***
+```
+plot_var_vs_time(df, col, title=””)
+Parameters: DataFrame df, String column name, optional String title
+Returns: Matplotlib pyplot 
+Description: Creates a matplotlib plot for input column vs timestamp data
+```
+***
+```
+plot_var_month_ridgeline(df, col)
+Parameters: DataFrame df, String column name
+Returns: Joypy joyplot
+Description: Creates a ridgeline plot for input column for each month of DataFrame df. The function calls add_month(df) if necessary. 
+```
+***
+```
+plot_var_heatmap(df, col)
+Parameters: DataFrame df, String column name
+Returns: Seaborn heatmap 
+Description: Creates a heatmap for input column with averages for each month and year in DataFrame df. The function calls add_month(df) and add_year(df) if necessary. 
+```
+***
+```
+plot_missing_bar(df)
+Parameters: DataFrame df
+Returns: Plot
+Description: Creates a bar graph with count of values present per columns, ignoring missing values.
+```
+***
