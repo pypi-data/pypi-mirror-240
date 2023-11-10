@@ -1,0 +1,14 @@
+README.md
+setup.py
+scripts/apply_selection
+scripts/get_prec
+scripts/get_trig_binning
+scripts/job_sel
+scripts/make_evt_dsc
+scripts/submit_sel
+src/rx_tools.egg-info/PKG-INFO
+src/rx_tools.egg-info/SOURCES.txt
+src/rx_tools.egg-info/dependency_links.txt
+src/rx_tools.egg-info/requires.txt
+src/rx_tools.egg-info/top_level.txt
+src/tools_data/trigger/__init__.py

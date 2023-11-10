@@ -1,0 +1,9 @@
+tensorflow-cpu
+matplotlib
+pandas
+generic-analysis-scripts>=0.0.8
+rx-selection>=0.0.2
+zfit>=0.13.1
+numexpr
+logzero
+mplhep==0.3.26
