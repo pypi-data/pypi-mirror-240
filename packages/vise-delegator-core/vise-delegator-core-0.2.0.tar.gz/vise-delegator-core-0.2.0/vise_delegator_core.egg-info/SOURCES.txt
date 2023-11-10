@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+vise_delegator_core/__init__.py
+vise_delegator_core/delegator.py
+vise_delegator_core.egg-info/PKG-INFO
+vise_delegator_core.egg-info/SOURCES.txt
+vise_delegator_core.egg-info/dependency_links.txt
+vise_delegator_core.egg-info/entry_points.txt
+vise_delegator_core.egg-info/requires.txt
+vise_delegator_core.egg-info/top_level.txt
