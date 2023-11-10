@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rx-tools
+Version: 0.0.7
+Summary: Project containing tools for RX measurement
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: tensorflow-cpu
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: generic-analysis-scripts (>=0.0.8)
+Requires-Dist: rx-selection (>=0.0.2)
+Requires-Dist: zfit (>=0.13.1)
+Requires-Dist: numexpr
+Requires-Dist: logzero
+Requires-Dist: mplhep (==0.3.26)
+
+UNKNOWN
+
