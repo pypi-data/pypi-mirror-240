@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: scanpy-recipe
+Version: 0.11
+Summary: shortcut tools for scRNA-seq data analysis based on scanpy
+Home-page: https://github.com/Bio-MingChen/scanpy_recipe
+Author: chenming
+Author-email: cm.bio@qq.com
+Description-Content-Type: text/markdown
+Requires-Dist: scanpy
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: anndata
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: celltypist
+Requires-Dist: scanorama
+
+# Shortcut tools for scRNA-seq Analysis
+
+This repository provides a series of functions making scRNA-seq analysis easier and faster.
