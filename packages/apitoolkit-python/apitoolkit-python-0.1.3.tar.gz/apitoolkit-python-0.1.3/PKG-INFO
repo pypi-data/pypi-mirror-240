@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: apitoolkit-python
+Version: 0.1.3
+Summary: A share python sdk for python web frameworks
+Home-page: UNKNOWN
+Author: APIToolkit
+Author-email: hello@apitoolkit.io
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# apitoolkit-python
+share code for all python web frameworks apitoolkit sdks
+
+
