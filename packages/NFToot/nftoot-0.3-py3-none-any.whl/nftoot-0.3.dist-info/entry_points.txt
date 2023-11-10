@@ -1,0 +1,2 @@
+[console_scripts]
+nftoot = nftoot.__main__:app
