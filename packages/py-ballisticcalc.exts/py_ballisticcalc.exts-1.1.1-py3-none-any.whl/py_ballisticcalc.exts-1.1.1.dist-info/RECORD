@@ -1,0 +1,8 @@
+py_ballisticcalc_exts/__init__.py,sha256=IKIhCgnxQMAUmRuL2Ulf52yXrr8HJEjJIlpSCcarkzk,154
+py_ballisticcalc_exts/drag_model.c,sha256=qZ5xZibBBiV3H7EB30jRUwSBniuV-dUpDrnzrN5_3B4,566175
+py_ballisticcalc_exts/trajectory_calc.c,sha256=Ljm8B5yKLor_8ZcvBi54n9yWaifPHZBrYFN8zN2RbpM,860391
+py_ballisticcalc.exts-1.1.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+py_ballisticcalc.exts-1.1.1.dist-info/METADATA,sha256=5mAwTP0qGhJiCVDm7EQ_jcAYKuRAbOv5QqnqTMMUT6A,17563
+py_ballisticcalc.exts-1.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+py_ballisticcalc.exts-1.1.1.dist-info/top_level.txt,sha256=PUuca7fmBjPxHDzUzWYfb2pi6j54yVqvF0hsu6lJPZY,22
+py_ballisticcalc.exts-1.1.1.dist-info/RECORD,,
