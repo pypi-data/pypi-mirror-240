@@ -1,0 +1,3 @@
+[console_scripts]
+pswitch=simple-gcp-project-switcher.console:main
+
