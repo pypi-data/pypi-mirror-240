@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+python-dateutil
+scipy
+joypy
+missingno
+dash
+dash_bootstrap_components
+plotly
+dash_leaflet
