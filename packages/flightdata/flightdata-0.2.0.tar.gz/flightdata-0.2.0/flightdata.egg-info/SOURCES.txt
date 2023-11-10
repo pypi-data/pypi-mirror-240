@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+flightdata/__init__.py
+flightdata/data.py
+flightdata/fields.py
+flightdata.egg-info/PKG-INFO
+flightdata.egg-info/SOURCES.txt
+flightdata.egg-info/dependency_links.txt
+flightdata.egg-info/requires.txt
+flightdata.egg-info/top_level.txt
+test/test_data.py
