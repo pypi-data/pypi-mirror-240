@@ -1,0 +1,3 @@
+[console_scripts]
+moodle-pdf-to-text=gpt_editor_utils.pdf_to_text_from_moodle_dl_dir:main
+

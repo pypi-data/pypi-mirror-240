@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gpt-editor-utils
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/tddschn/gpt-editor-utils
+License: MIT
+Keywords: chatgpt
+Author: Teddy Xinyuan Chen
+Author-email: 45612704+tddschn@users.noreply.github.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Dist: pymupdf (>=1.23.6,<2.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Project-URL: Bug Tracker, https://github.com/tddschn/gpt-editor-utils/issues
+Project-URL: Repository, https://github.com/tddschn/gpt-editor-utils
+Description-Content-Type: text/markdown
+
+
