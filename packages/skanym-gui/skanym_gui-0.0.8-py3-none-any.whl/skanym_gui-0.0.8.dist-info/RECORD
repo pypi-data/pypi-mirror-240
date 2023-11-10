@@ -1,0 +1,17 @@
+skanym_gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skanym_gui/__main__.py,sha256=1dK6RmoZSUm00JS46k9rPSenb1bVWzYg7D82QlZitvs,3333
+skanym_gui/frame.py,sha256=a_WH_b75Fpite6tm-j_ykbKiKw9CNnf1u_jI5dahrek,16473
+skanym_gui/init.py,sha256=g-JF_9EuhkweZJzkYRjz9FNKk_1lbhwnCMQWi3UPxaA,12696
+skanym_gui/main.xml,sha256=4EgFwcq2ozbGWWLCDJl1aZfgx5FQPdO1ekud1IlKc7w,1450
+skanym_gui/size.py,sha256=5y5NdduGd1vc74xvF8akujF3XFKJBN_O_Pj-zsDniKk,357
+skanym_gui/assets/shaders/lighting_prog_ps_gl21.glsl,sha256=QtjT9aH1fmydxxTj5xnnF8_wigs-DhSUsihPx8EkSkM,1750
+skanym_gui/assets/shaders/lighting_prog_ps_gl32.glsl,sha256=F6Kdf8ImxQB_jgk9w_nly_m-6zjuVbIcdGOwwbGoh8E,1749
+skanym_gui/assets/shaders/lighting_prog_vs_gl21.glsl,sha256=66C69-cX05OWT9RzNbak-x7DJh5SmsowgTGvOrJT6rw,852
+skanym_gui/assets/shaders/lighting_prog_vs_gl32.glsl,sha256=Nbnd4ivcJ54XdsGTL3cWKpE4jJO5KR5N4ELEwxqaSpI,931
+skanym_gui/assets/textures/white_black_border.jpg,sha256=NF_Je0zlkkz9wRMBKUhgqHb8ltIWZcaNFKogz6u7mAg,1944
+skanym_gui-0.0.8.dist-info/LICENSE.txt,sha256=E-nZgaouPD0hTEhgFR7R6VYTytYP5844yrbo79VMBx4,1090
+skanym_gui-0.0.8.dist-info/METADATA,sha256=nG43ZgQS1XY9fWLf51iJp38EshpKnvdRKfO1jmJ646o,2258
+skanym_gui-0.0.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+skanym_gui-0.0.8.dist-info/entry_points.txt,sha256=SUUWCipe436vCF8hLor3S9wVbuowmmsS3YWr25RT_28,98
+skanym_gui-0.0.8.dist-info/top_level.txt,sha256=CcTkrFTkwlaV8c9lDZD1htxBD-R7Nby--n9cdZlwAS0,11
+skanym_gui-0.0.8.dist-info/RECORD,,
