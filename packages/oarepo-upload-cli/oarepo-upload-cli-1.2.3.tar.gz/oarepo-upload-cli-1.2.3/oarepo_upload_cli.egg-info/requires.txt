@@ -1,0 +1,12 @@
+arrow
+click
+python-dotenv
+requests
+tqdm
+importlib_metadata
+
+[tests]
+pytest
+black
+isort
+autoflake
