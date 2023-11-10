@@ -1,0 +1,8 @@
+gateloop_transformer/__init__.py,sha256=1s2drbrp2RBH7GzsTHrthrKBWp4UaoRkYrUJpWLz2Kg,124
+gateloop_transformer/associative_scan.py,sha256=CBfjxyrqjtGBUmP8mZHPQoCmhQghaSQEiNS5I-DoU7I,2703
+gateloop_transformer/gateloop_transformer.py,sha256=k_AQU6zAr8_sRTLUzOn_a44FlB0InM06GuNDxKaJOWk,9822
+gateloop_transformer-0.0.14.dist-info/LICENSE,sha256=JCo3d2HvOFPGYvaXfnYX4-qjRyQvVElop5ZRITXMg-U,1066
+gateloop_transformer-0.0.14.dist-info/METADATA,sha256=L6mFNK0kv6zL3vBcVY-CsyZWNqR1RXP3OHE6kktD9vk,711
+gateloop_transformer-0.0.14.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+gateloop_transformer-0.0.14.dist-info/top_level.txt,sha256=qUzq5vQ1v_GOhBAiHQXzRqZqCeEC0ivVowcZEK4_3DI,21
+gateloop_transformer-0.0.14.dist-info/RECORD,,
