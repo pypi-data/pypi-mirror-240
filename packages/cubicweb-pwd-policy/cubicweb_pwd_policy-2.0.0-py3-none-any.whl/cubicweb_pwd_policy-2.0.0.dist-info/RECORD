@@ -1,0 +1,15 @@
+cubicweb_pwd_policy/__init__.py,sha256=10up6yRJBppGUa6GmPs-qy6jVA57aIEGRddwR4v3CO4,1279
+cubicweb_pwd_policy/__pkginfo__.py,sha256=DXwKv4DxTHrNOtrU4ApA2PNLaAMMglmKzVpRzGPSzDY,682
+cubicweb_pwd_policy/entities.py,sha256=Bm2maEEdF-_ZxKmUiczftT9T3JcdS_LxOq7SCaqAszc,835
+cubicweb_pwd_policy/hooks.py,sha256=Zk0Ylh1NbfOkOK6TEB8HHRN_m4aOefZaQarbmcuTh-M,1701
+cubicweb_pwd_policy/schema.py,sha256=PH7FhQfk9iKbPK79w3dFaiBJN4Yh5rVpssPkiP42z1Y,960
+cubicweb_pwd_policy/views.py,sha256=2LMqnlwdSXVwCdkm_R7sick24KFoubMfHjyExfdYmXw,860
+cubicweb_pwd_policy/i18n/en.po,sha256=ikPaYtbL1ICCJATQWWLD-RDP1LVh6AaJNO192rYrhFM,860
+cubicweb_pwd_policy/i18n/es.po,sha256=84r4XwqWzuh9W9_OePPIPbZxD3Yp_OiAj0DkISuEtsE,587
+cubicweb_pwd_policy/i18n/fr.po,sha256=1_Y5v5brdoO8v7daj1somHW5yLgNwkTIGHH5KfsQ0YQ,879
+cubicweb_pwd_policy/migration/postcreate.py,sha256=nMGZhJ-5xMyQXVpKCF6_YBwLQZnzJTV4lwyRbvZzuFQ,1070
+cubicweb_pwd_policy-2.0.0.dist-info/METADATA,sha256=_y3Joatzkd_SyvDNi8sU10AG0pT6bQB26TwKFGQVoAc,543
+cubicweb_pwd_policy-2.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cubicweb_pwd_policy-2.0.0.dist-info/entry_points.txt,sha256=mWi39sySumLSRuS3NryiRxpSlzcOvRcFfI5hrjCktco,50
+cubicweb_pwd_policy-2.0.0.dist-info/top_level.txt,sha256=nXFC91Rbf_E-BOmxX5dRnzwHCivAHBQuvwIi3IlY8-Q,20
+cubicweb_pwd_policy-2.0.0.dist-info/RECORD,,
