@@ -1,0 +1,3 @@
+[console_scripts]
+mbslave=mbslave.replication:main
+
