@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+package/__init__.py
+package/pdkf.py
+pdkf.egg-info/PKG-INFO
+pdkf.egg-info/SOURCES.txt
+pdkf.egg-info/dependency_links.txt
+pdkf.egg-info/requires.txt
+pdkf.egg-info/top_level.txt
