@@ -1,0 +1,10 @@
+slurmray/RayLauncher.py,sha256=nhCMe1xQVr6bCOc1tvl930HjR24rPbphzlMb72BRzDU,17202
+slurmray/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slurmray/assets/sbatch_template.sh,sha256=c-7J4ItzrctDrbF5Znu8p1d_xIgayC9puhjX3nLMzsk,2273
+slurmray/assets/slurmray_server.sh,sha256=rpqLDLOIcKgXcZPqHAbI2fOXYzKyA7k0cwnoO4SLmW0,503
+slurmray/assets/slurmray_server_template.py,sha256=4VPJWq9sqW8BBarJB0XKvdQzbDomeHCIiqt0SBVnNIo,573
+slurmray/assets/spython_template.py,sha256=JwOQxCvM-wW4CDUri_sgIKGtigvqGlVI0fBJDvBVmjY,513
+slurmray-3.0.0a5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+slurmray-3.0.0a5.dist-info/METADATA,sha256=aoB9zcsb4y6qX3MeFruLEK8g_TC_XxM-wPoEVO_lV7k,2081
+slurmray-3.0.0a5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+slurmray-3.0.0a5.dist-info/RECORD,,
