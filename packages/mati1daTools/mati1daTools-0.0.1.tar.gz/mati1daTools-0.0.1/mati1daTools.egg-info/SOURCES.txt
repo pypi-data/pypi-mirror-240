@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+mati1daTools.egg-info/PKG-INFO
+mati1daTools.egg-info/SOURCES.txt
+mati1daTools.egg-info/dependency_links.txt
+mati1daTools.egg-info/requires.txt
+mati1daTools.egg-info/top_level.txt
+src/__init__.py
+src/csvHelper.py
+src/excelHelper.py
+src/jsonHelper.py
+src/requestHelper.py

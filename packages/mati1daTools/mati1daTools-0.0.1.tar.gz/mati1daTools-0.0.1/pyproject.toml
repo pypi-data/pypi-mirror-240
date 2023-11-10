@@ -1,0 +1,22 @@
+[project]
+name = "mati1daTools"
+version = "0.0.1"
+authors = [
+  { name="mati1da", email="mati1da.ppx@gmail.com" },
+]
+description = "mati1da's tools"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
