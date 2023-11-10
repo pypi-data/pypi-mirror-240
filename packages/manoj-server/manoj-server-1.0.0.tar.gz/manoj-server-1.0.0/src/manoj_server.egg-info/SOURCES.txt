@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/manoj_server/__init__.py
+src/manoj_server/manoj_server.py
+src/manoj_server.egg-info/PKG-INFO
+src/manoj_server.egg-info/SOURCES.txt
+src/manoj_server.egg-info/dependency_links.txt
+src/manoj_server.egg-info/entry_points.txt
+src/manoj_server.egg-info/top_level.txt
