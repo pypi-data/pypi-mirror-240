@@ -1,0 +1,209 @@
+![REvolutionH-tl logo.](https://gitlab.com/jarr.tecn/revolutionh-tl/-/raw/master/docs/images/Logo_horizontal.png)
+
+RevolutionH-tl is a powerful Python tool designed for evolutionary analysis tasks. It provides a comprehensive set of features for orthogroup analysis, gene tree reconstruction, species tree reconstruction, and reconciliation of gene and species trees.
+
+---
+
+José Antonio Ramírez-Rafael •  Annachiara Korchmaros • Katia Aviña-Padilla • Maribel Hernandez-Rosales
+
+[Bioinformatics & Complex Networks Lab (Cinvestav Irapuato)](https://ira.cinvestav.mx/ingenieriagenetica/dra-maribel-hernandez-rosales/bioinformatica-y-redes-complejas/) • [Bioinformatics Group (Leipzig University)](https://www.bioinf.uni-leipzig.de/)
+
+---
+
+This guide will walk you through the installation, usage, and key functionalities of RevolutionH-tl.
+
+<img src="https://gitlab.com/jarr.tecn/revolutionh-tl/-/raw/master/docs/images/revolution_diagram.png" alt="pipeline" style="zoom:25%;" />
+
+
+
+# Installation
+
+To get started with RevolutionH-tl, you can easily install it using [pip](https://pip.pypa.io/en/stable/installation/):
+
+```bash
+pip install revolutionhtl
+```
+
+**Requirements**
+
+Make sure you have the following prerequisites installed:
+
+[Python >=3.7 ](https://www.python.org/)
+
+To perform sequence alignments, you'll also need to install Diamond or BLAST. You can download the Diamond executable from [here](https://github.com/bbuchfink/diamond) or using command line as follows:
+
+```bash
+wget http://github.com/bbuchfink/diamond/releases/download/v2.1.8/diamond-linux64.tar.gz
+tar xzf diamond-linux64.tar.gz
+```
+
+To install BLAST follow these instructions: [Unix](https://www.metagenomics.wiki/tools/blast/install) / [Windows](https://www.ncbi.nlm.nih.gov/books/NBK52637/). Or use the command line:
+
+```bash
+sudo apt-get install ncbi-blast+
+```
+
+# Synopsis
+
+RevolutionH-tl is a command-line tool, and it can be used with the following syntax:
+
+```bash
+python -m revolutionhtl <arguments>
+```
+
+Let's delve into the steps of the program, the required arguments, and output files:
+
+## General overview
+
+REvolutionH-tl methodology is divided in 5 steps. You can run all of them in a row by providing a directory containing fasta files (use argument `-F <directory>`). Furthermore, if you want to run a specific step using precomputed files, you can use the argument `-steps <step list>` together with the arguments required for such a step.
+
+REvolutionH-tl assumes you have a fasta file for each species in your analysis. Such a file contains the list of genes or proteins present in the organism. By default, REvolutionH-tl expects peptide sequences (proteins) and aligns them using Diamond. In the next sections, we present a detailed description of the input/output files of each step, parameters, and examples.
+
+### Steps
+
+1. **Alignment Hits Computation.** First, REvolutionH-tl runs a sequence aligner to obtain alignment hits and statistics like bit-score and e-value.
+
+   Required argument: `-F <directory containing fasta files>`
+
+   Output: directory `_alignment_all_vs_all/`
+
+2. **Best Hit & Orthogroup Selection.** Best hits are the putative closest evolutionary-related genes across species, and orthogroups are a collection of genes sharing a common ancestor.
+
+   Input argument: `-alignment_h <directory containig aligment hit files>`.
+
+   Output files: `.best_hits.tsv`, `.orthogroups.tsv`, and optionally `.singletones.tsv` (using `-singletones` flag).
+
+3. **Gene Tree Reconstruction, Best Matches, and Orthology Assignment.** Gene trees are reconstructed from the hits. Best matches are the closest evolutionary-related genes across species based on gene tree topology. Two genes are orthologous if they were conserved after a speciation process.
+
+   Required argument: `-best_h <.tsv file containing best hits>`.
+
+   Output files: `.gene_trees.tsv`, `.orthologs.tsv`, `.best_matches.tsv`.
+
+4. **Species tree reconstruction.** Species trees are obtained as a consensus of the speciation events in the gene trees.
+
+   Required argument: `-T <.tsv file containig gene trees>`
+
+   Output file: `.species_tree.tsv`
+
+5. **Tree reconciliation.** Tree reconciliation depicts the evolution of genes across existing and ancestral species, it is represented as a gene tree embedded into a species tree.
+
+   Required arguments:
+
+   `-T <.tsv file containig gene trees>`
+
+   `-S <single-line file containing species tree>`
+
+   Output files: `.reconciliation.tsv`, `.corrected_trees.tsv`, `.labeled_species_tree.nhxx`
+
+### Arguments
+
+
+<details>
+  <summary> <b>Input data</b> (Click to expand)  </summary> 
+  <b>- -h    --help </b> show this help message and exit <br/> <br/>
+  <b>-steps</b> List of steps to run (default: 1 2 3 4 5).  <br/> <br/>
+  <b>-F </b> [str | Input for step 1] Directory containing fasta files.  <br/> <br/>
+  <b>-alignment_h</b> [str | Input for step 2] Directory containing alignment hits. <br/> <br/>
+  <b>-best_h</b> [str | Input for step 3] .tsv file containing best hits. <br/> <br/>
+  <b>-T</b> [str | Input for steps 4 and 5] .tsv file containing gene trees in nhx format. <br/> <br/>
+  <b>-S</b> [str | Input for step 5] .nhx file containing a species tree.<br/> <br/>
+</details>
+<details>
+  <summary> <b>File names</b> (Click to expand)  </summary> 
+  <b>-o</b> [str | Default: tl_project] Prefix for output files.<br/><br/>
+  <b>-fext</b> [str | Default: .fa] Extesion for fasta files.<br/><br/>
+  <b>-og      --orthogroup_column [string]</b> <br/>
+  Column in -best_h     -T, and output files specifying orthogroups (default: OG).<br/><br/>
+  <b>-Nm      --N_max [integer] </b> <br/>
+  Indicates the maximum number of genes in a orthogroup, bigger orthogroups are splitted. If 0, no orthogroup is splitted. (default= 2000).<br/><br/>
+  <b>-k      --k_size_partition [integer]</b> <br/>
+  Integer indicatng how many best hit graphs will be processed in bunch:: first graphs with <k genes, then <2k. then <3k, and so on. (default: k=100)<br/><br/>
+</details>
+
+<details>
+  <summary> <b>Algorithm parameters</b> (Click to expand)  </summary> 
+  <b>-bh_heuristic     --besthit_heuristic  [string] </b> <br/>
+  Indicates how to normalize bit-score in step 1 (default: normal). Normal: no normalization, prt: use proteinortho auxiliary files, smallest: use length of the smallest sequence, target: use target sequence, query: use query sequence, directed: x->y hit, bidirectional: use x->y and y->x hits.<br/>
+  Options: normal, prt, smallest_bidirectional, smallest_directed, query_directed, target_directed, alignment_directed, query_bidirectional, target_bidirectional, alignment_bidirectional<br/><br/>
+  <b>-f      --f_value [float]</b> <br/>
+  Real number between 0 and 1, a parameter of step 1. Defines the adaptative threshhold as: f\*max_bit_score (default: 0.95).<br/><br/>
+  <b>-bmg_h     --bmg_heuristic [string] </b> <br/>
+  Comunity detection method, an heuristic of step 2. (default: Louvain).<br/>
+  Options: Mincut, BPMF, Karger, Greedy, Gradient_Walk, Louvain, Louvain_Obj<br/><br/>
+  <b>-bmgh_nb      --bmgh_no_binary [bool]</b> <br/>
+  Flag, specifies if force binary tree in step 2. (no flag: force binary, flag: do not force binary).<br/><br/>
+  <b>-stree_h     --species_tree_heuristic [string]</b> <br/>
+  Comunity detection method, an heuristic of step 3. (default: louvain_weight).<br/>
+  Options: naive, louvain, mincut, louvain_weight<br/><br/>
+  <b>-streeh_repeats     --stree_heuristic_repeats [integer]</b> <br/>
+  integer, specifies how many times run the heuristic of step 3. (default: 3)<br/><br/>
+  <b>-streeh_b     --streeh_binary [bool]</b> <br/>
+  Flag, specifies if force binary tree in step 3. (no flag: do not force binary, flag: force binary).<br/><br/>
+  <b>-streeh_ndb     --streeh_no_doble_build [bool]</b> <br/>
+  Flag, specifies if run build algorithm twice to obtain less resolved tree in step 3. (no flag: double build, flag: single build).<br/><br/>
+</details>
+
+## Output files
+
+### Step 1 | Best hit & orthogroup selection
+
+#### Best hits
+
+For every gene in the analysis, step 1 aims to recover all the most similar genes based on sequence similarity. This procedure uses the normalized bit-score of the alignment hits and an adaptive threshold to create a subselection of alignment hits. We call *best hits* to this subselection. See section 3.1.2 of reference [1] for a deeper explanation of this analysis.
+
+A best hit (x-->y) is a directed relationship from one gene x to gene y, where the former is called *query* and the latter is called *target*.
+
+Best hits are output as a table in a file with extension `.best_hits.tsv` ([Click here](https://gitlab.com/jarr.tecn/revolutionh-tl/-/blob/master/docs/example%20results/tl_project.best_hits.tsv?ref_type=heads) for an example file). Each row of this table describes a best hit throughout 10 columns: "OG" indicates the ID of the orthogroup containing the best hit, and the six columns containing "Query\_" and "Target\_" contain information about the query and target genes. Finally, alignment statistics are shown in the columns "Alignment_length", "Bit_score", and "Evalue".
+
+#### Orthogroups
+
+An orthogroup is a collection of homologous genes, which means that they appear as leaves of the same gene tree. We say that two genes are in the same orthogroup if we can construct a path of best hits connecting them.
+
+Orthogroups are output as a table in a file with the extension `.orthogroups.tsv`. Here, each row indicates one orthogroup, the first column "OG" indicates the ID, the second and third columns "n_genes", and "n_sepecies" contain the number of genes in the orthogroup and the number of species represented by those genes. Then, there is one column per each species of the analysis, those columns contain the genes of the orthogroup that are present in those species.
+
+### Step 2 | Gene tree reconstruction & orthology
+
+#### Gene trees
+
+Gene trees are output in the file with extension `.gene_trees.tsv`, for each row of this file there is an orthogroup ID, and a gene tree in NHXX format, which is a generalized newick ([Click here](https://gitlab.com/jarr.tecn/revolutionh-tl/-/blob/master/docs/nhxx.md?ref_type=heads) for a description and examples of newick format).
+
+The inner nodes of the gene tree are labeled as speciation events with the letter "S", or as duplication events with the letter "D".
+
+The leaves of the gene tree represent the genes of the orthogroup.
+
+The gene trees output here are the least resolved trees that can be reconstructed from the best hits. If you want fully resolved trees, look at the output of step 4.
+
+#### Orthology
+
+Orthology is saved in the file with the extension `.orthologs.tsv`. Each row identifies a single orthology relationship between genes in the columns "a" and "b". Additionally, the column "OG" specifies the orthogroup containing the genes.
+
+Two genes are orthologous if they diverge at a speciation event.
+
+#### Best matches
+
+For each gene in the gene trees, we return the best matches, i.e. the most evolutionarily related genes in other species. Best matches are defined concerning a gene tree. See section 3.1.1 [1] for a deeper explanation.
+
+A best match (x-->y) is a directed relationship from gene "x" to gene "y". The main difference with "best hits" in the previous step is that a best match is consistent with a gene tree, while a best hit is based on the bit-score of sequence alignments.
+
+### Step 3 | Species tree reconstruction
+
+We reconstruct a species tree as a consensus of all the gene trees obtained in step 2, the procedure is detailed in section 3.1.4 of [1]. This species tree is saved in NHXX format in the file with the extension `.species_tree.tsv `. NHXX format is a generalized Newick ([Click here](https://gitlab.com/jarr.tecn/revolutionh-tl/-/blob/master/docs/nhxx.md?ref_type=heads) for a description and examples of Newick format).
+
+### Step 4 | Tree reconciliation
+
+The reconciliation shows how genes evolved across species and time. This can be represented as a map of the nodes in the gene tree to nodes and edges of the species tree. The figure below shows a reconciliation. On the left side, the nodes of a gene tree are mapped to the species tree using arrows. On the right side, the reconciliation is shown explicitly by drawing the gene tree inside of the species tree. Red circles correspond to speciation events, while blue squares correspond to gene duplication. Note that duplication nodes in the gene tree are mapped to edges of the species tree, on the other hand, speciation nodes of the gene tree are mapped to nodes of the species tree.
+
+![Reconciliation](https://gitlab.com/jarr.tecn/revolutionh-tl/-/raw/master/docs/images/recon_example.png?ref_type=heads)
+
+To represent a reconciliation map REvolutionH-tl uses a comma-separated list, where each element takes the form `x:y`, where `x` is a node ID in the gene tree, and `y` is a node ID in the species tree. In the example of the figure above we have the reconciliation map `0:0,1:1,2:1`. As in the example of the figure, the reconciled gene tree can include extra speciation events and gene loss. In section 3.1.5 of [1], the procedure to compute this map is detailed.
+
+REvolutionH-tl performs a reconciliation of the reconstructed gene and species trees. To this end, we add a node ID to all the nodes of the gene tree and the species tree using the attribute "node_id". The species tree with nodes ID is written to the file with the extension `.labeled_species_tree.nhxx`. On the other hand, the reconciliations are saved in the file with the extension `.reconciliation.tsv`, this file contains the following columns:
+
+- OG: Specifies the orthogroup ID
+- tree: reconciled gene tree in NHXX format.
+- reconciliation_map: a comma-separated list of pair of nodes.
+- flipped_nodes: nodes of the gene tree flipped from speciation to duplication. The number of flipped nodes is a metric for discordance between the non-reconciled gene tree and the species tree.
+
+# References
+
+[1] Ramirez-Rafael J. A. (2023). *REvolutionH-tl: a tool for the fast reconstruction of evolutionary histories using graph theory* [Master dissertation, Cinvestav Irapuato]. Avaliable at https://drive.google.com/file/d/1NckRmpvxeOdoJG3ugbZSKsHyYEua4eYG/view?usp=sharing.
