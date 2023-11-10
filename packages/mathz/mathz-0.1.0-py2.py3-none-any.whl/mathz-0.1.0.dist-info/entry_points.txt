@@ -1,0 +1,3 @@
+[console_scripts]
+mathz_run = mathz:run
+
