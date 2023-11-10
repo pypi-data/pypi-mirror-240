@@ -1,0 +1,2 @@
+[console_scripts]
+pyrizz = pyrizz.__main__:main
