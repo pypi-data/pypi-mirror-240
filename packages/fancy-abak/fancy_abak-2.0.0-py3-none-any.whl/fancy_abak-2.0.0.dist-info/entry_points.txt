@@ -1,0 +1,3 @@
+[console_scripts]
+abak=fancy_abak.abak:abak
+

@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: fancy-abak
+Version: 2.0.0
+Summary: Fancy Abak CLI
+Home-page: https://abak.fancywhale.ca
+License: MIT
+Author: Gui Martins
+Author-email: gmartins@fancywhale.ca
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: keyring (>=24.2.0,<25.0.0)
+Requires-Dist: pyfzf (>=0.3.1,<0.4.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Requires-Dist: zipp (>=3.17.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Fancy Abak
+
+![PyPI - Downloads](https://img.shields.io/pypi/dm/fancy-abak)
+![PyPI](https://img.shields.io/pypi/v/fancy-abak?style=flat)
+CLI tool to use ABAK
+
+- [Fancy Abak](#fancy-abak)
+  - [Available Commands](#available-commands)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+    - [MacOS](#macos)
+
+## Available Commands
+
+```bash
+$ abak --help
+Usage: abak [OPTIONS] COMMAND [ARGS]...
+
+  Abak UI, NEVER AGAIN!
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  client     Find clients to assign timesheet entries
+  config     Group of commands to manage the jiractl command line
+  context    Context operations for Abak.
+  do         GPT Powered command to "do" something
+  login
+  open       Opens abak on your default browser - Please don't use this :)
+  project    Find projects to assign timesheet entries
+  timesheet  Commands to manage timesheet entries
+```
+
+## Requirements
+
+- (Tested and built using) Python >3.11
+
+## Installation
+
+Package is available in PyPi:
+
+```shell
+pip install fancy-abak
+```
+
+### MacOS
+
+Package is available in brew:
+
+```shell
+brew tap gcarrarom/fancygui
+brew install gcarrarom/fancygui/fancy-abak
+```
+
