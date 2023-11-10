@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "mlbull"
+version = "0.1.0"
+description = ""
+authors = ["Grzegorz Koperwas <admin@grzegorzkoperwas.site>"]
+license = "GPL"
+readme = "README.md"
+packages = [
+  { include = "mlbull_dummies"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.100.0"
+uvicorn = "^0.23.1"
+ipython = "^8.14.0"
+nbformat = "^5.9.1"
+nbconvert = "^7.7.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
