@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: DiskWrangler
+Version: 3.0.6
+Summary: Cenbe's Commodore 64 Disk Image Explorer
+Author-email: Glenn Holmer <cenbe@protonmail.com>
+Project-URL: Repository, https://gitlab.com/Cenbe/DiskWrangler.git
+Project-URL: Changelog, https://gitlab.com/Cenbe/diskwrangler/-/blob/master/revision.history
+Keywords: Commodore,GEOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: jproperties>=2.1.1
+Requires-Dist: d64py>=3.0.3
+Requires-Dist: d64gfx>=3.0.1
+Requires-Dist: PyQt6<6.5.0,>=6.4.0
+Requires-Dist: PyQt6-Qt6<6.5.0,>=6.4.0
+Requires-Dist: PyQt6-sip>=13.5.0
+Requires-Dist: importlib-metadata; python_version >= "3.11"
