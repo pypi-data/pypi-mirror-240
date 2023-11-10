@@ -1,0 +1,9 @@
+atyp
+statsmodels
+atyp
+
+[dev]
+pandas
+seaborn
+scikit-learn
+numpy
