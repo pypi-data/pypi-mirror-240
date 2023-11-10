@@ -1,0 +1,12 @@
+Portenta/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Portenta/GPIO/__init__.py,sha256=rqpZ5u_M1i35aomTo3GkO9hBkqoCTek56wL8EX9ZfLQ,37
+Portenta/GPIO/event_producer.py,sha256=Hu23G1iRJL5CYFKZ4_IanBnycGrwvC9Vl--uG320RMU,3418
+Portenta/GPIO/gpio.py,sha256=ZQqX8AGcLaolpdR7wmjRmg_bt5-h4eRB6YbjEUQhDUc,10362
+Portenta/GPIO/portenta_gpio_map.py,sha256=4uKUj4vYgVR5STPl_jVAuXKwZ_WOJfY7pO_Qk1V7iSs,8098
+RPi/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+RPi/GPIO/__init__.py,sha256=6lGPR8Kgme7JytTFOvvdnf-ORa_YM1yW6O9CIJ39_1Y,46
+Portenta.GPIO-0.1.2.dist-info/LICENSE.txt,sha256=JmCnyyq3Q3yameVTq8vH9wYFw0RlOgCAgTZgwjMZDM8,1168
+Portenta.GPIO-0.1.2.dist-info/METADATA,sha256=qwUv3-tpaxcBJ-yIK6tbb9MCF-mHU1z0E0LrCrJ_2oY,9170
+Portenta.GPIO-0.1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+Portenta.GPIO-0.1.2.dist-info/top_level.txt,sha256=bDr4sRgJS2wWsgTsKQzcvlHIeHXRIw9Unher-eZWjVc,13
+Portenta.GPIO-0.1.2.dist-info/RECORD,,
