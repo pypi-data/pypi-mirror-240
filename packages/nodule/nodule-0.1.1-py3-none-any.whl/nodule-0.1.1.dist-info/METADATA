@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: nodule
+Version: 0.1.1
+Summary: Convert, visualize and iterate over heterogeneous trees.
+Author-Email: David Seaward <david@librem.one>
+License: Apache-2.0
+Project-URL: Source, https://gitlab.com/lfdo/nodule
+Project-URL: Project, https://lofidevops.neocities.org
+Requires-Python: >=3.10
+Requires-Dist: click>=8.1.7
+Requires-Dist: ruamel-yaml-string>=0.1.1
+Requires-Dist: tomlkit>=0.12.2
+Description-Content-Type: text/markdown
+
+# Nodule
+
+Convert, visualize and iterate over heterogeneous trees.
+
+## Usage
+
+```
+Usage: nodule [OPTIONS] FORMAT PATH
+
+  Convert file at PATH to FORMAT. Supported formats are: JSON, TOML, YAML.
+  MERMAID is also supported as an output format.
+
+  Use `import nodule.nod` to build your own conversion, visualization or
+  iteration tool.
+
+Options:
+  --help  Show this message and exit.
+```
+
+## Out of scope
+
+- Round trips (X -> X, X -> Y -> X) do not preserve whitespace, comments and
+    layout choices.
+
+- The built-in Mermaid visualizer may fail with duplicate node names,
+    non-alphanumeric characters and other non-trivial data. Use the `nodify`
+    iterator method to build a robust solution for your use-case. Similarly for
+    smarter and more compact visualizations.
+
+<!-- start @generated footer -->
+
+# Development environment
+
+## Install prerequisites
+
+- Python 3.10
+- pdm
+- make
+- pipx (optional, required for `make install-source`)
+
+## Instructions
+
+- Fork the upstream repository.
+- `git clone [fork-url]`
+- `cd [project-folder]`
+- Run `make develop` to initialise your development environment.
+
+You can use any text editor or IDE that supports virtualenv / pdm. See the
+Makefile for toolchain details.
+
+Please `make test` and `make lint` before submitting changes.
+
+## Make targets
+
+```
+USAGE: make [target]
+
+help    : Show this message.
+develop : Set up Python development environment.
+run     : Run from source.
+clean   : Remove all build artefacts.
+test    : Run tests and generate coverage report.
+lint    : Fix or warn about linting errors.
+build   : Clean, test, lint, then generate new build artefacts.
+publish : Upload build artefacts to PyPI.
+install-source : Install source as a local Python application.
+```
+
+# Sharing and contributions
+
+```
+Nodule
+https://lofidevops.neocities.org
+Copyright 2023 David Seaward and contributors
+SPDX-License-Identifier: Apache-2.0
+```
+
+Shared under Apache-2.0. We adhere to the Contributor Covenant 2.1, and certify
+origin per DCO 1.1 with a signed-off-by line. Contributions under the same
+terms are welcome.
+
+Submit security and conduct issues as private tickets. Sign commits with
+`git commit --signoff`. For a software bill of materials run `reuse spdx`. For
+more details see CONDUCT, COPYING and CONTRIBUTING.
