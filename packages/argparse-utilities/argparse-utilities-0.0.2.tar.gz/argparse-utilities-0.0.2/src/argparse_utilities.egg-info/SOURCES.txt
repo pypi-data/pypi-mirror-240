@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/argparse_utilities/__init__.py
+src/argparse_utilities/argparse_utilities.py
+src/argparse_utilities.egg-info/PKG-INFO
+src/argparse_utilities.egg-info/SOURCES.txt
+src/argparse_utilities.egg-info/dependency_links.txt
+src/argparse_utilities.egg-info/requires.txt
+src/argparse_utilities.egg-info/top_level.txt
+tests/test_argparse_utilities.py
