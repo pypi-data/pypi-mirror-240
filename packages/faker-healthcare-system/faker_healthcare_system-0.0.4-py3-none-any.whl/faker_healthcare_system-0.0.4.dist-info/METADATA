@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: faker-healthcare-system
+Version: 0.0.4
+Summary: Provider of music-related data for Faker module
+Home-page: https://github.com/MaikelAparicio10/faker_healthcare_system
+Author: Maikel Aparicio
+Author-email: maikel.aparicio@theksquaregroup.com
+License: MIT
+Project-URL: Source Code, https://github.com/MaikelAparicio10/faker_healthcare_system
+Project-URL: Bug Reports, https://github.com/MaikelAparicio10/faker_healthcare_system/issues
+Project-URL: Say Thanks!, https://github.com/MaikelAparicio10/faker_healthcare_system
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Faker >=19.13.0
+
