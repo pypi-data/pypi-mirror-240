@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: tomapi
+Version: 0.0.1
+Summary: tomapi Python Web Framework built for learning purposes.
+Author: Tom Ford
+Author-email: tomfordweb@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: Jinja2==2.10.3
+Requires-Dist: parse==1.12.1
+Requires-Dist: requests==2.22.0
+Requires-Dist: requests-wsgi-adapter==0.4.1
+Requires-Dist: WebOb==1.8.5
+Requires-Dist: whitenoise==4.1.4
+
+
+# Routing
+
+Routes can be defined in your main app file. You can either use a function or a class for routing.
+
+## Function routing
+
+```python
+app = API()
+
+@app.route('/home')
+def home(request, response):
+    response.text = "Hello from the HOME page"
+```
+
+## Class based routing
+
+```python
+@app.route("/book")
+class BooksResource:
+    def get(self, req, resp):
+        resp.text = "Books Page"
+
+    def post(self, req, resp):
+        resp.text = "Endpoint to create a book"
+```
+
+# Tests
+To run the tests with coverage reports...
+
+```
+pytest test_api.py
+pytest --cov=. test_api.py
+```
