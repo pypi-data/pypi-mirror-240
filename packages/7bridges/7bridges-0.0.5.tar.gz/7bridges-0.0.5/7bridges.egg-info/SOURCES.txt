@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+7bridges.egg-info/PKG-INFO
+7bridges.egg-info/SOURCES.txt
+7bridges.egg-info/dependency_links.txt
+7bridges.egg-info/entry_points.txt
+7bridges.egg-info/requires.txt
+7bridges.egg-info/top_level.txt
