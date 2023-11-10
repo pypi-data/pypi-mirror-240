@@ -1,0 +1,9 @@
+pyproject.toml
+src/__init__.py
+src/main.py
+src/nest_folder/my_nest.py
+src/python_course_rpg.egg-info/PKG-INFO
+src/python_course_rpg.egg-info/SOURCES.txt
+src/python_course_rpg.egg-info/dependency_links.txt
+src/python_course_rpg.egg-info/requires.txt
+src/python_course_rpg.egg-info/top_level.txt
