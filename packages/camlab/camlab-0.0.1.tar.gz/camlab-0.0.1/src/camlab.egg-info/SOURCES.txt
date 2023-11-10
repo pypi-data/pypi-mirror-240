@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/camera.py
+src/camlab.egg-info/PKG-INFO
+src/camlab.egg-info/SOURCES.txt
+src/camlab.egg-info/dependency_links.txt
+src/camlab.egg-info/top_level.txt
