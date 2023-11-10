@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: colorpattern
+Version: 1.0
+Summary: ColorPattern is a Python module designed for enhancing text output in the console by applying color to specific patterns. It offers a flexible way to define patterns and apply different text colors, background colors, styles, and underlines to matching text in the output.
+Home-page: https://github.com/croketillo/colorpattern
+Author: croketillo
+Author-email: croketillo@gmail.com
+License: UNKNOWN
+Keywords: color pattern console
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Terminals
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: colorama
+
+UNKNOWN
+
