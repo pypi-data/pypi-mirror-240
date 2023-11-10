@@ -1,0 +1,10 @@
+libmdm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdm/__main__.py,sha256=4Fi8vUe4ybh2jXiS2IN1ljiZ-nTE56aoHmqKnMtdLOY,16353
+mdm/mdm.py,sha256=ZGyeBsJFgVrc8P0XEZrdzAFzE-4kXGd6L5ZV0XKZXYk,48228
+mdm-0.0.126.dist-info/LICENSE,sha256=hqipXd3v6MalQ9jy_QSgMayYwliDRW2eB6JKvw2yZ4U,1072
+mdm-0.0.126.dist-info/METADATA,sha256=3NNJZm38VeDfLIQ2uwU3CAjEEP4ThQHcXVwP2Yj7a94,5823
+mdm-0.0.126.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+mdm-0.0.126.dist-info/entry_points.txt,sha256=gzYv_86Vhtjasa3dYiaA0yhl9mOv9Tsn1_B_dr69DzE,37
+mdm-0.0.126.dist-info/top_level.txt,sha256=4cJRiGqgf4_z-MoqUZ_QHcgRzK2t4AGgOP0Y9zxL7BY,4
+mdm-0.0.126.dist-info/RECORD,,
