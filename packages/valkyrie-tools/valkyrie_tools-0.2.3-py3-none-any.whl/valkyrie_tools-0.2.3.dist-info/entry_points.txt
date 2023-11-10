@@ -1,0 +1,4 @@
+[console_scripts]
+urlcheck=valkyrie_tools.urlcheck:cli
+valkyrie=valkyrie_tools.valkyrie:cli
+
