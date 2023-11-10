@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+sevenbridges.egg-info/PKG-INFO
+sevenbridges.egg-info/SOURCES.txt
+sevenbridges.egg-info/dependency_links.txt
+sevenbridges.egg-info/entry_points.txt
+sevenbridges.egg-info/requires.txt
+sevenbridges.egg-info/top_level.txt
