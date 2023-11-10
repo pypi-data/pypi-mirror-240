@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: trickkiste
+Version: 0.0.1
+Summary: Random useful stuff
+Home-page: https://projects.om-office.de/frans/trickkiste.git
+Author: Frans Fürst
+Author-email: frans.fuerst+gitlab@protonmail.com
+Requires-Python: >=3.10,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://projects.om-office.de/frans/trickkiste.git
+Description-Content-Type: text/markdown
+
+# trickkiste
+
+
+
