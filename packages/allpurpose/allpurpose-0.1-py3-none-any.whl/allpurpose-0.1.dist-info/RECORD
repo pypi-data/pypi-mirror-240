@@ -1,0 +1,15 @@
+allpurpose/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+allpurpose/cli.py,sha256=lAbnE1fETV-_gQOhC_ANM9SxNFFNxC73shWxxqMfm9g,1831
+allpurpose/crypto.py,sha256=gxJcliZujOPigFmvfxspE4EOK7TDmYFpiwycV71veyY,160
+allpurpose/file.py,sha256=lQEdxBHEx-nAG9TdC1puyoxTSdTgZqt5i0_KdEASYbQ,1813
+allpurpose/image.py,sha256=ZaEWKXXQ7UQ_EK0lFcX2qzmpls1o8C-xHnOHdWX73k8,707
+allpurpose/image_store.py,sha256=2Bt4kcBulZr2UiNazXfMjEI3vYheux0bQCO7JrEZ2Gg,1221
+allpurpose/json.py,sha256=zJNZkBeOk8jwcS4crDZt-mUqk6RsppkLdO40gb7JPzg,1013
+allpurpose/module.py,sha256=IGEeerGgOlVz3C1lgccrd7gQtXWPrkDFgCMIC5Vm71c,740
+allpurpose/serializer.py,sha256=GZvXgLQhxMHB3C5HUMGAp9-uciCiAJT-TLGdsa-kHhY,513
+allpurpose/string.py,sha256=6nkWerGCwFGvPVZ4enc0oo6KHStoEuPfnhBUTbccyU8,340
+allpurpose-0.1.dist-info/LICENSE,sha256=-Z4AQ23ZMcYIOL7toXS1PNF8zC56UaLYrdSZK50lb7k,1075
+allpurpose-0.1.dist-info/METADATA,sha256=DsHOU0sONSTeRE43biZKVvKVF060tAqf8sptY6P-cj4,186
+allpurpose-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+allpurpose-0.1.dist-info/top_level.txt,sha256=sfvLrrEmelh4RL-GgqMGZkIazydoQN8iNvwfETqucjs,11
+allpurpose-0.1.dist-info/RECORD,,
