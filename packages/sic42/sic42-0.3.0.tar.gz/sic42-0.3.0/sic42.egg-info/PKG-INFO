@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sic42
+Version: 0.3.0
+Summary: Lab42 Swarm Intelligence Cup
+Home-page: https://github.com/lab42-global/sic42
+Author: Lab42
+Author-email: swarm@lab42.global
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Natural Language :: English
+License-File: LICENSE
+
+UNKNOWN
+
