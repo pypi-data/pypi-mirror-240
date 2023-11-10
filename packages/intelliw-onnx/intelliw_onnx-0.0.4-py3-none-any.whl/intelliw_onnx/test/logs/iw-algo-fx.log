@@ -1,0 +1,23 @@
+[CONVERT] 2023-11-09 18:20:21.270 INFO convert.py:54: model_path:/Users/hexer/Downloads/roformer-chinese-sim-char-ft-base/inference.pdmodel, model_type:paddle, output:./test_pd_model.onnx
+[CONVERT] 2023-11-09 18:20:21.271 INFO convert.py:55: input_shape_list: ['']
+[CONVERT] 2023-11-09 18:20:21.278 ERROR pd2onnx.py:13: [33mError: No module named 'paddle', Please install paddle(pip install paddlepaddle)[0m
+[CONVERT] 2023-11-09 18:21:16.217 INFO convert.py:54: model_path:/Users/hexer/Downloads/roformer-chinese-sim-char-ft-base/inference.pdmodel, model_type:paddle, output:./test_pd_model.onnx
+[CONVERT] 2023-11-09 18:21:16.217 INFO convert.py:55: input_shape_list: ['']
+[CONVERT] 2023-11-09 18:21:16.221 ERROR pd2onnx.py:13: [33mError: No module named 'paddle', Please install paddle(pip install paddlepaddle)[0m
+[CONVERT] 2023-11-09 18:23:30.558 INFO convert.py:54: model_path:/Users/hexer/Downloads/roformer-chinese-sim-char-ft-base/inference.pdmodel, model_type:paddle, output:./test_pd_model.onnx
+[CONVERT] 2023-11-09 18:23:30.558 INFO convert.py:55: input_shape_list: ['']
+[CONVERT] 2023-11-09 18:23:32.716 ERROR pd2onnx.py:54: [33mError: [Errno 2] No such file or directory: 'paddle2onnx', Please install paddle2onnx(pip install paddle2onnx)[0m
+[CONVERT] 2023-11-09 18:23:57.514 INFO convert.py:54: model_path:/Users/hexer/Downloads/roformer-chinese-sim-char-ft-base/inference.pdmodel, model_type:paddle, output:./test_pd_model.onnx
+[CONVERT] 2023-11-09 18:23:57.515 INFO convert.py:55: input_shape_list: ['']
+[CONVERT] 2023-11-09 18:23:59.029 ERROR pd2onnx.py:54: [33mError: Command '['paddle2onnx', '-v']' returned non-zero exit status 1., Please install paddle2onnx(pip install paddle2onnx)[0m
+[CONVERT] 2023-11-09 18:24:41.002 INFO convert.py:54: model_path:/Users/hexer/Downloads/roformer-chinese-sim-char-ft-base/inference.pdmodel, model_type:paddle, output:./test_pd_model.onnx
+[CONVERT] 2023-11-09 18:24:41.002 INFO convert.py:55: input_shape_list: ['']
+[CONVERT] 2023-11-09 18:24:57.617 INFO convert.py:54: model_path:/Users/hexer/Downloads/roformer-chinese-sim-char-ft-base/, model_type:paddle, output:./test_pd_model.onnx
+[CONVERT] 2023-11-09 18:24:57.617 INFO convert.py:55: input_shape_list: ['']
+[CONVERT] 2023-11-09 18:25:13.683 CRITICAL convert.py:166: Convert Success!
+[CONVERT] 2023-11-09 19:07:34.514 INFO convert.py:54: model_path:./model_path/, model_type:paddle, output:./test_pd_model.onnx
+[CONVERT] 2023-11-09 19:07:34.515 INFO convert.py:55: input_shape_list: ['']
+[CONVERT] 2023-11-09 19:07:36.444 ERROR convert.py:69: ERROR: ./model_path/ is not exist
+[CONVERT] 2023-11-09 19:08:01.081 INFO convert.py:54: model_path:/Users/hexer/Downloads/roformer-chinese-sim-char-ft-base/, model_type:paddle, output:./test_pd_model.onnx
+[CONVERT] 2023-11-09 19:08:01.081 INFO convert.py:55: input_shape_list: ['']
+[CONVERT] 2023-11-09 19:08:13.666 CRITICAL convert.py:166: Convert Success!
