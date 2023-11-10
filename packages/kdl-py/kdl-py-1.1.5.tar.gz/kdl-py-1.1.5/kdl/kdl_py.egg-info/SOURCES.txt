@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+semver.txt
+kdl/py.typed
+kdl/kdl_py.egg-info/PKG-INFO
+kdl/kdl_py.egg-info/SOURCES.txt
+kdl/kdl_py.egg-info/dependency_links.txt
+kdl/kdl_py.egg-info/entry_points.txt
+kdl/kdl_py.egg-info/requires.txt
+kdl/kdl_py.egg-info/top_level.txt
