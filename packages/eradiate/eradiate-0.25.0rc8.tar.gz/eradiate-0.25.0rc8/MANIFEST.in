@@ -1,0 +1,2 @@
+include src/eradiate/data/downloads_all.yml
+include src/eradiate/data/downloads_minimal.yml
