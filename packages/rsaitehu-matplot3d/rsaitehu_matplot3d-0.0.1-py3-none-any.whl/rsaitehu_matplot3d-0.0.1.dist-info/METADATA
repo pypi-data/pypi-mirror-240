@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rsaitehu-matplot3d
+Version: 0.0.1
+Summary: matplotlib utilities
+Requires-Dist: numpy >=1.22.0
+Requires-Dist: matplotlib >=3.5.3
+Requires-Dist: rsaitehu-geometry >=0.0.1
+
