@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+checkopt/__init__.py
+checkopt.egg-info/PKG-INFO
+checkopt.egg-info/SOURCES.txt
+checkopt.egg-info/dependency_links.txt
+checkopt.egg-info/top_level.txt
