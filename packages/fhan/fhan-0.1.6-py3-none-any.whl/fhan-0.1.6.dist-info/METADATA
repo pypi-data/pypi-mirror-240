@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: fhan
+Version: 0.1.6
+Summary: Add your description here
+Author-email: Till Rostalski <tillrostalski@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: cachetools>=5.3.1
+Requires-Dist: click>=8.1.7
+Requires-Dist: dacite>=1.8.1
+Requires-Dist: fhirpathpy>=0.2.2
+Requires-Dist: flake8>=5.0.4
+Requires-Dist: jinja2>=3.1.2
+Requires-Dist: pandas>=2.0.3
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: stringcase>=1.2.0
+Description-Content-Type: text/markdown
+
+# Fhan
+
+Fhan is a small [FHIR](https://www.hl7.org/fhir/overview.html) query client with a focus on usability.
+
+```python
+from fhan.client import Client
+
+client = Client("http://hapi.fhir.org/baseR4/")
+patients = client.get("Patient", count=1)
+print(patients)
+```
+
+## Installation
+
+Import the package
+
+```shell
+pip install fhan
+```
+
+## Usage
+
+Import and instantiate the client Class:
+
+```python
+from fhan.client import Client
+
+client = Client("https://hapi.fhir.org/baseR4/")
+```
+
+Get a Resource by id:
+
+```python
+client.get("Condition", "1")
+```
+
+Search for resources:
+
+```python
+client.get("Observation", search_params={"code":"8310-5"}, count=20)
+```
+
+## Other Tools
+
+- Use [Fhir-Views](https://fhir-views.vercel.app/) to inspect FHIR Bundles-
