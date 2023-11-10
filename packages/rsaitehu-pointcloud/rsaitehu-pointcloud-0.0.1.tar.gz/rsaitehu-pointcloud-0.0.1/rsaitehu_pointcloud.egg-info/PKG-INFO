@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: rsaitehu-pointcloud
+Version: 0.0.1
+Summary: Pointcloud utilities
+Requires-Dist: numpy>=1.22.0
+Requires-Dist: open3d>=0.16.0
