@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: mfconnect
+Version: 0.0.224
+Summary: mfconnect simplifies telnet and ftp connections to Meteo France HPC servers thru the MF gateway.
+Home-page: https://gitlab.mercator-ocean.fr/internal/mfconnect
+Author: Matthieu Clavier
+Author-email: mclavier@mercator-ocean.fr
+License: BSD Licence
+Project-URL: Repository, https://gitlab.mercator-ocean.fr/internal/mfconnect
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Terminals :: Telnet
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6,<3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: pexpect>=4.8.0
+Requires-Dist: pyyaml==5.3.1
+Requires-Dist: namedtupled==0.3.3
+
+# MFConnect: a small telnet/expect wrapper to connect easily to MF HPC resources.
+
+
+## Introduction
+
+MFConnect is small Python package providing a generic shell command to connect with telnet and ftp (lftp) to Météo France SIHPC.
+
+It keeps your login/password in a uniq configuration file, simplifying the changes of password you will have to make
+
+With alias name, you will not have to remember the real hostname.
+
+3 hosts are available by default, you can add more of course, see usage below:
+ * belenos belenos.meteo.fr
+ * hendrix hendrix.meteo.fr
+ * f5     fidjim05-sihpc-pub.meteo.fr
+
+Using this logins/password, it create a valid lftp bookmark and can run it if you use the "-f" option.
+
+## Installation:
+* add io-nexus to your pip confgiration: see https://io-wiki.mercator-ocean.fr/en/howtos/usenexus
+
+```sh
+$ pip config set global.index https://nexus.mercator-ocean.fr/repository/pypi-all/pypi
+$ pip config set global.index-url https://nexus.mercator-ocean.fr/repository/pypi-all/simple
+$ pip config set global.no-cache-dir false
+```
+
+* then:
+
+```sh
+$ pip install mfconnect
+```
+
+* then run the meteo program once to create a new configuration:
+
+```
+$ meteo belenos
+```
+
+* after this first configuration, you can edit the ~/.meteo_connect.yml file and  adapt usernames and password used, but there is a better way to update your user/password, see below
+
+* run it:
+
+```sh
+$ meteo [-x|-f] [-d] <host>
+```
+
+## Usage:
+
+```sh
+$ meteo -h
+usage: meteo [-h] [-d] [-v] [-x] [-f] [--proxymo <username> <password>] [--proxymf <username> <password>] [--ldapmf <username> <password>] [--add_host <hostname> <alias>]
+             [--del_host <hostname>]
+             [HOST [HOST ...]]
+
+positional arguments:
+  HOST                  hostname to connect to
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d, --debug           display connection attempts, store full chat to ~/.meteo.log
+  -v, --version         show version number and exit
+  -x, --x11             use X11 protocol over telnet
+  -f, --ftp             use LFTP instead of telnet
+  --proxymo <username> <password>
+                        set the Mercator Ocean proxy username and password
+  --proxymf <username> <password>
+                        set the Meteo France proxy username and password
+  --ldapmf <username> <password>
+                        set the Meteo France ldap username and password
+  --add_host <hostname> <alias>
+                        add the Meteo France hostname and alias to your host list
+  --del_host <hostname>
+                        remove the Meteo France hostname from your host list
+```
+
+### Direct Commands:
+
+
+When using meteo script only with hostname argument, you enter a interactive session, either telnet or ftp.
+
+But you can directly execute shell commands or ftp command on the remote host:
+
+```sh
+$ meteo belenos squeue
+BID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON) 
+          31789367   huge512 bld@G8TP  napolya  R    1:12:00      1 belenos2169 
+          31789180   ibcell0 H2012I01 copernic CG    1:24:36      8 belenos[242,248-249,252-253,258,260,276] 
+          31793912   ibcell0 hped_r15 maynardk CG       0:12      1 belenos199 
+          31793893   ibcell0  hped_11 maynardk CG       0:30      1 belenos3 
+          31793890   ibcell0  hped_10 maynardk CG       0:29      1 belenos198 
+          31793741   ibcell0 pp_MOCAS theaudin CG       2:06      1 belenos254 
+[ ... ]
+```
+
+or with FTP:
+
+```sh
+$ meteo -f f05 get mfwamglocep_2021041000_R20210411.nc
+```
+
+## Update your Météo France password:
+
+* The main Météo France login need a regular password change, to do this run the following command:
+
+```sh
+$ meteo  --ldapmf clavierm ';1234@toto-'
+```
+
