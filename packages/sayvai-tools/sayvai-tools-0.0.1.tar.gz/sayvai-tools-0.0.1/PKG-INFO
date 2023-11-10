@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: sayvai-tools
+Version: 0.0.1
+Summary: Tools for the assistant
+Author: sayvai-io
+Provides-Extra: dev
