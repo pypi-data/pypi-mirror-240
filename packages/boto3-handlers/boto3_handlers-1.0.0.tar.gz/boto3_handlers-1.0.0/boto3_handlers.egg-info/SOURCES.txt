@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+boto3_handlers/__init__.py
+boto3_handlers/ddb_handler.py
+boto3_handlers.egg-info/PKG-INFO
+boto3_handlers.egg-info/SOURCES.txt
+boto3_handlers.egg-info/dependency_links.txt
+boto3_handlers.egg-info/requires.txt
+boto3_handlers.egg-info/top_level.txt
