@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: streetviewsampler
+Version: 0.1
+Summary: A python package that randomly samples google streetview images from specified locations
+Author: pinstripezebra
+Author-email: seelcs12@gmail.com
+License-File: LICENSE
+Requires-Dist: os
+Requires-Dist: pandas
+Requires-Dist: googlemaps
+Requires-Dist: random
+Requires-Dist: requests
+
