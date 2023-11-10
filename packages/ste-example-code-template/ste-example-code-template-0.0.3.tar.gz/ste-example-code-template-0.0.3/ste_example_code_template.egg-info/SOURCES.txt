@@ -1,0 +1,9 @@
+READMEx
+pyproject.toml
+setup.py
+simple_service/__init__.py
+simple_service/simple_service.py
+ste_example_code_template.egg-info/PKG-INFO
+ste_example_code_template.egg-info/SOURCES.txt
+ste_example_code_template.egg-info/dependency_links.txt
+ste_example_code_template.egg-info/top_level.txt
