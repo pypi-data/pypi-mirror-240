@@ -1,0 +1,11 @@
+matplotlib
+numpy
+pandas
+scikit-image
+
+[dev]
+pre-commit>=2.9.0
+check-manifest>=0.42
+tox
+pytest
+pytest-cov

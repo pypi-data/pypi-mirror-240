@@ -1,0 +1,5 @@
+[console_scripts]
+aisegcell_generate_list = aisegcell.preprocessing.generate_list:main
+aisegcell_predict = aisegcell.aisegcell:predict_cli
+aisegcell_test = aisegcell.aisegcell:test_cli
+aisegcell_train = aisegcell.aisegcell:train
