@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maneuverRecognition"
+version = "0.0.1"
+authors = [
+  { name="Jonathan Schuster", email="schuster.jonathan95@gmail.com" },
+]
+description = "ManeuverRecognition is a python package providing functions for the preprocessing of time series data for classification, the creation of predictive LSTM based models and the evaluation of multi class predictions. "
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "pandas",
+    "numpy",
+    "math",
+    "torch",
+    "random",
+    'importlib-metadata; python_version<"3.8"',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Schuster-j/maneuverRecognition"
