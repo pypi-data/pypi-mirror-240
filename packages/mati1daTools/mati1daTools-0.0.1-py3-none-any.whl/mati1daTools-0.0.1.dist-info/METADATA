@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mati1daTools
+Version: 0.0.1
+Summary: 常用工具类
+Home-page: UNKNOWN
+Author: mati1da
+Author-email: mati1da.ppx@gmail.com
+License: BSD License
+Platform: UNKNOWN
+Requires-Dist: openpyxl ==3.1.2
+
+常用工具类
+
+
