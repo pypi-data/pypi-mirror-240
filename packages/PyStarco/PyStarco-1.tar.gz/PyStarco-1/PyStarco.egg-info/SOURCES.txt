@@ -1,0 +1,13 @@
+setup.py
+PyStarco.egg-info/PKG-INFO
+PyStarco.egg-info/SOURCES.txt
+PyStarco.egg-info/dependency_links.txt
+PyStarco.egg-info/requires.txt
+PyStarco.egg-info/top_level.txt
+pystarco/debug/__init__.py
+pystarco/pkl/__init__.py
+pystarco/scraper/__init__.py
+pystarco/utils/__init__.py
+pystarco/utils/directories.py
+pystarco/utils/structures.py
+pystarco/utils/time.py
