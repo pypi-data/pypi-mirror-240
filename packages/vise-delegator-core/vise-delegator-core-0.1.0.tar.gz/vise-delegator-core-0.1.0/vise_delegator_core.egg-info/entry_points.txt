@@ -1,0 +1,2 @@
+[console_scripts]
+vise-delegator-core = vise_delegator_core.delegator:main
