@@ -1,0 +1,12 @@
+setuptools
+lxml
+importlib_resources
+
+[setup]
+pytest-runner
+
+[testing]
+pre-commit
+pytest
+pylint
+pytest-cov
