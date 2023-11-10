@@ -1,0 +1,12 @@
+dataset_sh_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataset_sh_server/app.py,sha256=hcoEormPYf4Teh0xvbHZ_XV-DSjRuf5crTWEOhLmfM8,7239
+dataset_sh_server/auth.py,sha256=Jl9fZEvOWeboRu_vulJkYuoVBH3pdsTApyUNkCVLgA8,761
+dataset_sh_server/cli.py,sha256=ttKrJAOARXEVujPXeNEzUWqhdOavtL3UU6lAKjhONRI,1485
+dataset_sh_server/core.py,sha256=xcPbla1ST1Oqt81zjKqiRHx9Gy5x-KDRLaUe4J2MF1k,1933
+dataset_sh_server/utils.py,sha256=GTwriExLtbEKigx-_2EORxAI0bgriNurR5O3JFV4ZVU,353
+dataset_sh_server/assets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataset_sh_server/assets/app-ui.frontend,sha256=sfDtc8M0IyjreDweENNTaVx7s1WVOifmNh566OA--lI,1883342
+dataset_sh_server-0.0.3.dist-info/METADATA,sha256=PnMIqzj9EA72dUY3Wn5fP5aoqSMJKFCB5a_svVRiHdE,3739
+dataset_sh_server-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dataset_sh_server-0.0.3.dist-info/entry_points.txt,sha256=Y2e4tQomN9QmbFm5j-2Wwtdctr18kvOTOzDoXz_FFZ4,68
+dataset_sh_server-0.0.3.dist-info/RECORD,,
