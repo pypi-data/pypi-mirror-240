@@ -1,0 +1,7 @@
+ExtractWCData/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ExtractWCData/_scrape_data.py,sha256=DYa0yBZ1GPWe1aKFnfVYD628i09Hwql2xEJXpBVc6-U,2882
+ExtractWCData/get_latest_data.py,sha256=rAuGz5urkPZFckJlYA_XAnIhY8eaxaCqIm2AfXoxJgc,182
+extract_wc_data-0.0.1.dist-info/METADATA,sha256=TDBx_PIS2xR7wDQ5vOXmrWkz6YH8HUNUKs-6N-b0MPE,763
+extract_wc_data-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+extract_wc_data-0.0.1.dist-info/top_level.txt,sha256=OcnrKierX9QGZcsQLwLSEPy56VZ0gm5NrOtbrvYfv4A,14
+extract_wc_data-0.0.1.dist-info/RECORD,,
