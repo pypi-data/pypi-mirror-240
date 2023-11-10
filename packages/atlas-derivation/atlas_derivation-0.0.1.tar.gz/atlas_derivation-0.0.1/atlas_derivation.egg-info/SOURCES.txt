@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+atlas_derivation/__init__.py
+atlas_derivation/_version.py
+atlas_derivation/aod_deletion_manager.py
+atlas_derivation/did_collection.py
+atlas_derivation/did_tool.py
+atlas_derivation.egg-info/PKG-INFO
+atlas_derivation.egg-info/SOURCES.txt
+atlas_derivation.egg-info/dependency_links.txt
+atlas_derivation.egg-info/requires.txt
+atlas_derivation.egg-info/top_level.txt
+bin/derivtool
