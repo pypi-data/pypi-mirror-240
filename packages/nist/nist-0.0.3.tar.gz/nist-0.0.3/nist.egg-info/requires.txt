@@ -1,0 +1,10 @@
+atyp
+regsyn
+ispec
+pstr
+sint
+pfmt
+nchr
+nlit
+
+[dev]
