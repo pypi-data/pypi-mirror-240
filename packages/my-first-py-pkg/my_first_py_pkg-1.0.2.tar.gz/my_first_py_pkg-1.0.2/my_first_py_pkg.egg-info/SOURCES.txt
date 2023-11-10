@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+my_first_py_pkg.egg-info/PKG-INFO
+my_first_py_pkg.egg-info/SOURCES.txt
+my_first_py_pkg.egg-info/dependency_links.txt
+my_first_py_pkg.egg-info/requires.txt
+my_first_py_pkg.egg-info/top_level.txt
