@@ -1,0 +1,22 @@
+---
+proxymo:
+   username:
+   password:
+   hostname: proxy.mercator-ocean.fr
+proxymf:
+   username:
+   password:
+ldapmf:
+   username:
+   password:
+parameters:
+   timeout: 5
+   debug: false
+   delaybeforesend: 0.5
+hosts:
+   - hostname: fidjim05-sihpc-pub.meteo.fr
+     alias: f5
+   - hostname: belenos.meteo.fr
+     alias: belenos
+   - hostname: hendrix.meteo.fr
+     alias: hendrix
