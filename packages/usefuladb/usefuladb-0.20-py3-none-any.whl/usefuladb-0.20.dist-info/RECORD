@@ -1,0 +1,12 @@
+usefuladb/README.MD,sha256=24m1YeKUYn9nV4VKgZpLfQKYi9f7AlQbxJMWVJr_DDg,108324
+usefuladb/__init__.py,sha256=2gAkJNkkYFKQk-Qv2OLj2dZPHh7zwwv-_vn6zPqn910,198230
+usefuladb/c.py,sha256=dToZN5PyH9nXKnLQg7RtN-0u5pd4uEElv-K-nGonvBo,88052
+usefuladb/keyevents.py,sha256=7LVpJ73a5caVdax9AYWVwVUNZQ2iGolj3GtocSPguyY,70751
+usefuladb/parsekeyevents.py,sha256=7WovpXb57F06CIMDy8AJrqkh9CaYxSxxLZU1NmD2Au4,20430
+usefuladb/requirements.txt,sha256=ae5-aQIHlONmGs8F6TXdzS3eAcfWd8G6BkwX3N3iW7Q,171
+usefuladb/thirdparty.json,sha256=D2cLo5rbZHycZFG50xHmru0PMSsn9qWS6u3IjTl3hUQ,23249
+usefuladb-0.20.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+usefuladb-0.20.dist-info/METADATA,sha256=7ZtXmXO3WtpEWo8nEuJucjIgIEvWzz_e5z_qmrI6udo,109265
+usefuladb-0.20.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+usefuladb-0.20.dist-info/top_level.txt,sha256=hyLhWgnRaF0bOvbkTcLjYuDgrH2rZvbDapSKOT_YMSk,10
+usefuladb-0.20.dist-info/RECORD,,
