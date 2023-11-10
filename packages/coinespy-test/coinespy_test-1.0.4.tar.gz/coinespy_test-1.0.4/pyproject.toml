@@ -1,0 +1,20 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "twine"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coinespy_test"
+version = "1.0.4"
+readme = "README.md"
+requires-python = ">=2.6, <4"
+dependencies = [
+                "flake8",
+                "lizard",
+                "pytest",
+                "pytest-cov",
+                "pytest-html"
+                ]
