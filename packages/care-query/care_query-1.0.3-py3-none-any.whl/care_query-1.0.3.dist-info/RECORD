@@ -1,0 +1,13 @@
+care_query/__init__.py,sha256=ta5pkLXJREOXUGbZFiKM2tGLR6AMKvU1-YA_2jtUl-8,476
+care_query/care_query.py,sha256=MJ_cCLPmXV0KOba8Ol_5MpGpxx1cgagP2i9GT-MCcBs,230079
+care_query/care_query_data.py,sha256=Cp8M5_GTCP9FWC9a1ZwVPxaF0t_Y_spkjKDhq3O9guc,43295
+care_query/care_query_user.py,sha256=qqW8X72ssdOEgPeonFmLSSsLukR362vCOSrovEzL7QQ,992
+care_query/care_query_utils.py,sha256=wITO23aoGfKGtiSn8Zbmc_c1kOA-KxScRX_1mAe-EFU,61505
+care_query/field-values.json,sha256=xjNL8ZEj8hQMR47ouJUU9DrSHu-59n929ZKTfiNZQT0,25054883
+care_query/field_value_data.py,sha256=yGLQZ5cyAu_eUnwkvhGUwuI4hfbPiyhdYkkgi6_Covk,1445
+care_query/glossary.py,sha256=tv05_epbr_zayRT4DHRP6u998mWmrKVDYLSLGEpVjlE,79782
+care_query-1.0.3.dist-info/LICENSE,sha256=Zctjws0OQfl27mztVjqyQYPKHxQ4IqEBtAOAj7-LV-Y,1064
+care_query-1.0.3.dist-info/METADATA,sha256=eymoZCUEHc_aDCzFglA2tIUIZ1_tfG9nUtH_M1AzBwo,590
+care_query-1.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+care_query-1.0.3.dist-info/top_level.txt,sha256=9LdYUg4oNgvwl7Lf3CHfj-KAosPDARk-ZiqnukpAENY,11
+care_query-1.0.3.dist-info/RECORD,,
