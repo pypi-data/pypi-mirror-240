@@ -1,0 +1,17 @@
+tropicpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tropicpy/tropicpy.py,sha256=QnF5ujBjg6ZHfcCabN7T8tj9bR7JWFVGznpD4GU3vV8,6156
+tropicpy/attacks/attacks_utils.py,sha256=SRzXsdgrASZu8rhNND34r0ScFlFL4yDX8yKSFjVo7Nw,8383
+tropicpy/attacks/isaac_kahrobaei.py,sha256=JFdplEgmzzEB4Ujvoz4nQnsgV7BvEWY4MV_UXPlXRc8,1707
+tropicpy/attacks/kotov_ushakov.py,sha256=QAg7DrIjkmZdTLemvBw1LDRNXLZHew1r0TJvhMR5BnA,1466
+tropicpy/attacks/kotov_ushakov_simple.py,sha256=a5kxdDcBUjfCv6hHtZCIPhbLPHQahSr_h4Mr9A3IgKI,609
+tropicpy/attacks/rudy_monico.py,sha256=HnVf1A8iPLqwlejx7XxT4OKQs2LU37us1kCwkyARBzU,709
+tropicpy/protocols/grigorie_shpilrain_2014.py,sha256=50J8hLKAxCFzt7EUIEDKNY0vzd8tZ3Hm1lY3cXVgz3Q,2285
+tropicpy/protocols/grigorie_shpilrain_2019.py,sha256=nty9WYKccrjdEzYSiXnqwk1kdC6dTbRc5NbyEkI-n1A,1354
+tropicpy/tropical/tropical_matrix.py,sha256=PJVie7JoLqE8CQZ788czMr2VOOLy07b757zUOhsKLro,6369
+tropicpy/tropical/tropical_utils.py,sha256=27fceEg4wjCwVotRhCIpCz5Ui8YyNWIRvQDG2c8jmDA,102
+tropicpy/tropical/tropical_value.py,sha256=XDkjrmY8tVGPIGreEAzE2EvcVNAK9mKZ5ngQ_v7ySys,1283
+tropicpy-0.0.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+tropicpy-0.0.1.dist-info/METADATA,sha256=dFFSg9kkCUG-l-Y-tYtJiqMZ0vcT9nYwCmk1IKPB7WQ,679
+tropicpy-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tropicpy-0.0.1.dist-info/top_level.txt,sha256=Vt7NMhCPeWXnwa6goOHQa7GKoD7kHKer_AJ2Vn6BEuw,9
+tropicpy-0.0.1.dist-info/RECORD,,
