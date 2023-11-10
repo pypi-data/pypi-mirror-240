@@ -1,0 +1,15 @@
+LICENSE.txt
+ReadMe.md
+pyproject.toml
+ASPIRETUI.egg-info/PKG-INFO
+ASPIRETUI.egg-info/SOURCES.txt
+ASPIRETUI.egg-info/dependency_links.txt
+ASPIRETUI.egg-info/top_level.txt
+aspire/__init__.py
+aspire/aspire.py
+aspire/aspire_core.py
+aspire/aspire_data_color_and_text.py
+aspire/aspire_data_errors.py
+aspire/aspire_data_status.py
+aspire/aspire_data_themes.py
+aspire/aspire_string_utils.py
