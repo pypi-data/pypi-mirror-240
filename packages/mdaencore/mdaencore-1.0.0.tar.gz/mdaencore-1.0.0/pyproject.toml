@@ -1,0 +1,95 @@
+# -*- coding: utf-8 -*-
+
+[build-system]
+requires = [
+  "setuptools >= 61.2",
+  "wheel",
+  "cython",
+  "numpy",
+  "versioningit",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdaencore"
+description = "Ensemble overlap comparison software for molecular data."
+license = {file = "LICENSE" }
+authors = [
+    {name = "Matteo Tiberti", email = "tiberti@cancer.dk"},
+    {name = "Wouter Boomsma", email = "wb@di.ku.dk"},    
+    {name = "Tone Bengtsen", email = "tonebengsten@gmail.com"},
+    {name = "Ian M. Kenney", email = "ikenney@asu.edu"},
+    {name = "mdaencore AUTHORS"},
+]
+maintainers = [
+    {name = "Kristoffer Enøe Johansson", email = "kristoffer.johansson@bio.ku.dk"},
+    {name = "Kresten Lindorff-Larsen", email = "lindorff@bio.ku.dk"},
+]
+classifiers = [
+    "Development Status :: 6 - Mature",
+    "Environment :: Console",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX",
+    "Programming Language :: C",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "MDAnalysis>=2.0.0",
+]
+keywords = [
+    "molecular simulations",
+]
+dynamic = [
+    "version",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=6.0",
+    "pytest-xdist>=2.5",
+    "pytest-cov>=3.0",
+]
+doc = [
+    "sphinx",
+    "mdanalysis_sphinx_theme",
+]
+
+[project.urls]
+"documentation" = "https://www.mdanalysis.org/mdaencore/"
+"Issue tracker" = "https://github.com/MDAnalysis/mdaencore/issues"
+"MDAKit registry" = "https://mdakits.mdanalysis.org/mdaencore.html"
+"source" = "https://github.com/MDAnalysis/mdaencore"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "mdaencore/tests",
+]
+
+[tool.black]
+line-length = 80
+extend-exclude = "versioneer.py"
+
+[tool.versioningit]
+default-version = "1+unknown"
+
+[tool.versioningit.vcs]
+method = "git"
+# the below line expects tags to look like '1.0.2'.
+# if prefixing with a v, e.g. 'v1.0.2', change it to ["v*"]
+match = ["*"]
+
+[tool.versioningit.format]
+distance = "{base_version}+{distance}.{vcs}{rev}"
+dirty = "{base_version}+{distance}.{vcs}{rev}.dirty"
+distance-dirty = "{base_version}+{distance}.{vcs}{rev}.dirty"
