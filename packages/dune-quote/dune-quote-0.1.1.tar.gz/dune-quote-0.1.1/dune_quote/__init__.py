@@ -1,0 +1,8 @@
+print('I must not fear.')
+print('Fear is the mind-killer.')
+print('Fear is the little-death that brings total obliteration.')
+print('I will face my fear.')
+print('I will permit it to pass over me and through me.')
+print('And when it has gone past I will turn the inner eye to see its path.')
+print('Where the fear has gone there will be nothing.')
+print('Only I will remain.')
