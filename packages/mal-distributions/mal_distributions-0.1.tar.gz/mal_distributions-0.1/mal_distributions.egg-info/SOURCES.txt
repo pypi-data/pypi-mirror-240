@@ -1,0 +1,10 @@
+setup.py
+mal_distributions/Binomialdistribution.py
+mal_distributions/Gaussiandistribution.py
+mal_distributions/Generaldistribution.py
+mal_distributions/__init__.py
+mal_distributions.egg-info/PKG-INFO
+mal_distributions.egg-info/SOURCES.txt
+mal_distributions.egg-info/dependency_links.txt
+mal_distributions.egg-info/not-zip-safe
+mal_distributions.egg-info/top_level.txt
