@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: omnisun
+Version: 0.0.1
+Summary: test
+Home-page: https://github.com/SeAllexUnder/OmnicommSun
+Author: SeAllexUnder
+Author-email: sun5038@yandex.ru
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/SeAllexUnder/OmnicommSun
+Keywords: omnicomm
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.25.1)
+
+# Omnicomm Config Server Library #
+
+## Что это? ##
+Библиотека для работы с сервером удаленной настройки (СУН) Омникомм
+
+
+----------
+
+
+### Использование ###
+
+
+Как-нибудь напишу потом
+
+
+----------
+
