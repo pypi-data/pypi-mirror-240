@@ -1,0 +1,13 @@
+aspire/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aspire/aspire.py,sha256=Xir4NtWRzUmFwnq3mqYMsJeLATwXUPIqOwbyh3tr65c,4590
+aspire/aspire_core.py,sha256=xlxy-KjZ-BlYnTMaPNzPU9cin9X1zbRAQTH3b9HcMJU,23751
+aspire/aspire_data_color_and_text.py,sha256=j6rcQVjZ4Oeq9PFSOXijpLxjjQa_FYb471KO_3ODGRw,3020
+aspire/aspire_data_errors.py,sha256=yUxhgh7hOHHPWuXvk9ZWXsLM_q542-SG2nP6PIfhh2g,879
+aspire/aspire_data_status.py,sha256=97wI4d4t2MRD9-RXOpQzVuEEaxHy4SlpDVNYeSTjakU,1463
+aspire/aspire_data_themes.py,sha256=5KMw19Y2V54dJ40yfVDEYP8Kmv8sknP4FPqSzdQNEGs,3741
+aspire/aspire_string_utils.py,sha256=_Ur59au2lgYtcJnUEZY7LzbyfOBctpTHlyn0TZss4Q8,2692
+ASPIRETUI-0.0.3.dist-info/LICENSE.txt,sha256=TeL4qbQ7kOsNUmhKyT78FA2-5WOomQ0QsMBZrrQuep0,1090
+ASPIRETUI-0.0.3.dist-info/METADATA,sha256=USfkVvF-E70x-Fpjzi9GLn7UVPVaHpT-cQtbjx3Rmyw,6365
+ASPIRETUI-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ASPIRETUI-0.0.3.dist-info/top_level.txt,sha256=9FRIYEl2xwVFG7jSOBHsElHQ0y3_4fq01Cf4_OyMQn8,7
+ASPIRETUI-0.0.3.dist-info/RECORD,,
