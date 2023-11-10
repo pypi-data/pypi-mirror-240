@@ -1,0 +1,7 @@
+pyproject.toml
+rsaitehu/procrustes.py
+rsaitehu_procrustes.egg-info/PKG-INFO
+rsaitehu_procrustes.egg-info/SOURCES.txt
+rsaitehu_procrustes.egg-info/dependency_links.txt
+rsaitehu_procrustes.egg-info/requires.txt
+rsaitehu_procrustes.egg-info/top_level.txt
