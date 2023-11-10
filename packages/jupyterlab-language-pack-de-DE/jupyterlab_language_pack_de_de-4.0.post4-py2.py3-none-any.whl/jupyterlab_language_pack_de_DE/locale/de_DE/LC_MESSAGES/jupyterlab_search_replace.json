@@ -1,0 +1,40 @@
+{
+    "": {
+        "domain": "jupyterlab_search_replace",
+        "language": "de-DE",
+        "plural_forms": "nplurals=2; plural=(n != 1);",
+        "version": "jupyterlab"
+    },
+    "%2 result(s) in %1 file": [
+        "",
+        ""
+    ],
+    "Cancel": [
+        "Abbrechen"
+    ],
+    "Collapse All": [
+        "Alle einklappen"
+    ],
+    "Expand All": [
+        "Alle ausklappen"
+    ],
+    "Replace": [
+        "Ersetzen"
+    ],
+    "Replace %2 matche(s) accross %1 file with %3? This cannot be undone.": [
+        "",
+        ""
+    ],
+    "Replace All": [
+        "Alle ersetzen"
+    ],
+    "Search": [
+        "Suchen"
+    ],
+    "Toggle Replace": [
+        "Ersetzen umschalten"
+    ],
+    "settings\u0004Exclude": [
+        "Ausschlie\u00dfen"
+    ]
+}
