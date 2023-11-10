@@ -1,0 +1,2 @@
+[console_scripts]
+immogpt = immogpt.cli:main
