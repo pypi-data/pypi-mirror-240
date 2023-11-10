@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: plasmidsaurus_helper
+Version: 0.2
+Summary: A convenience tool for identifying low-confidence bases and reindexing fasta files from nanopore plasmid sequencing tools such as plasmidsaurus, full circle etc
+Author: Oscar Wilkins
+Author-email: oscar.wilkins@crick.ac.uk

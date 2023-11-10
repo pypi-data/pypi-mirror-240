@@ -1,0 +1,2 @@
+[console_scripts]
+plasmidsaurus_helper = plasmidsaurus_helper.main:main

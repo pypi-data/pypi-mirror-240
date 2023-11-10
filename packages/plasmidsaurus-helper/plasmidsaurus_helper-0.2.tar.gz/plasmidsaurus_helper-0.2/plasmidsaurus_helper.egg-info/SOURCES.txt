@@ -1,0 +1,10 @@
+README.md
+setup.py
+plasmidsaurus_helper/__init__.py
+plasmidsaurus_helper/main.py
+plasmidsaurus_helper.egg-info/PKG-INFO
+plasmidsaurus_helper.egg-info/SOURCES.txt
+plasmidsaurus_helper.egg-info/dependency_links.txt
+plasmidsaurus_helper.egg-info/entry_points.txt
+plasmidsaurus_helper.egg-info/requires.txt
+plasmidsaurus_helper.egg-info/top_level.txt
