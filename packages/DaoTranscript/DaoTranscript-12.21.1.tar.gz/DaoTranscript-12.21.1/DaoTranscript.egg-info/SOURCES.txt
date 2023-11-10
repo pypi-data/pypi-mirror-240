@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+DaoTranscript.egg-info/PKG-INFO
+DaoTranscript.egg-info/SOURCES.txt
+DaoTranscript.egg-info/dependency_links.txt
+DaoTranscript.egg-info/entry_points.txt
+DaoTranscript.egg-info/requires.txt
+DaoTranscript.egg-info/top_level.txt
+DaoTranscript.egg-info/zip-safe
+src/blackbots.png
+src/logo.ico
+src/pausplay.png
+src/playpaus.png
