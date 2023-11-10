@@ -1,0 +1,10 @@
+slmcontrol/__init__.py,sha256=P_dRg6VasmSoE6J8QOMKdzICK38QQo6MjKRQuSkpua0,370
+slmcontrol/hologram.py,sha256=C9veh6QReYBG-Witd7UKH-FS85rC1zA4ZLwzHaP9oNM,2868
+slmcontrol/inverse_functions.py,sha256=SWYxRUxnwpXXsMUOS3n1A2tbUvUyjnyVYFXjMTmhBZU,1242
+slmcontrol/slm.py,sha256=rjEzxhbwa8XkodXV-N6OHyUF4ICWkaFyklg2ekQFpSk,5379
+slmcontrol/structures.py,sha256=UKupbFO8RHpzoUdv5ypAH18wfvp7m6j1Z7hGkFZmXFI,3235
+slmcontrol/zernike.py,sha256=uOVlDEMRNf47WuKryqv4r0LPFjAD5-iYN4pFpPBrgC4,1270
+slmcontrol-0.0.1.dist-info/METADATA,sha256=50J4vcRrWPcrR6CBkOp6XHgp1Z8EEyqEWklo56oYGgU,1960
+slmcontrol-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+slmcontrol-0.0.1.dist-info/licenses/LICENSE,sha256=xKUI5CuI3SYLrfVRap8hyho9S_QKuzdYtzYlhqmE-0E,1079
+slmcontrol-0.0.1.dist-info/RECORD,,
