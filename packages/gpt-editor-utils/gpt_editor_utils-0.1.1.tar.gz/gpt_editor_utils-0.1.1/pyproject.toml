@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "gpt-editor-utils"
+version = "0.1.1"
+description = ""
+authors = ["Teddy Xinyuan Chen <45612704+tddschn@users.noreply.github.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/tddschn/gpt-editor-utils"
+repository = "https://github.com/tddschn/gpt-editor-utils"
+classifiers = ["Topic :: Utilities"]
+keywords = ["chatgpt"]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/tddschn/gpt-editor-utils/issues"
+[tool.poetry.scripts]
+moodle-pdf-to-text = "gpt_editor_utils.pdf_to_text_from_moodle_dl_dir:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pymupdf = "^1.23.6"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
