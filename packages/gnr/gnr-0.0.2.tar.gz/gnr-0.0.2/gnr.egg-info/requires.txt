@@ -1,0 +1,13 @@
+pandas
+seaborn
+scikit-learn
+numpy
+nbformat
+rich
+typer
+requests
+tqdm
+statsmodels
+atyp
+
+[dev]
