@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "python-periphery>=2.3.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Portenta.GPIO"
+version = "0.0.3"
+authors = [
+  { name="Riccardo Mereu", email="r.mereu@arduino.cc" },
+]
+description = "A module to control Portenta GPIO channels"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    'Operating System :: POSIX :: Linux',
+    'License :: OSI Approved :: MIT License',
+    'Intended Audience :: Developers',
+    'Programming Language :: Python :: 3',
+    'Topic :: Software Development',
+    'Topic :: System :: Hardware'
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SuMere/portenta-gpio"
+"Bug Tracker" = "https://github.com/SuMere/portenta-gpio/issues"
