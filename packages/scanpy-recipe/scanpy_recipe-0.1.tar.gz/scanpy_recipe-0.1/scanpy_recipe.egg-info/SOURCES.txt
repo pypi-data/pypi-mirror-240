@@ -1,0 +1,7 @@
+README.md
+setup.py
+scanpy_recipe.egg-info/PKG-INFO
+scanpy_recipe.egg-info/SOURCES.txt
+scanpy_recipe.egg-info/dependency_links.txt
+scanpy_recipe.egg-info/requires.txt
+scanpy_recipe.egg-info/top_level.txt

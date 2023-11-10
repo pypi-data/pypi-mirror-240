@@ -1,0 +1,8 @@
+scanpy
+pandas
+numpy
+anndata
+scipy
+matplotlib
+celltypist
+scanorama
