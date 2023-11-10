@@ -1,0 +1,2 @@
+[console_scripts]
+start-server = manoj_server.manoj_server:print_banner
