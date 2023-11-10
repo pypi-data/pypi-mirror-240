@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: impyrium
+Version: 0.0.1
+Summary: A tool to setup device controls
+Home-page: https://github.com/c3n3/impyrium
+Author: Caden Churchman
+Author-email: ccaden21@gmail.com
+Project-URL: Bug Tracker, https://github.com/c3n3/impyrium/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# impyrium
+A python computer control repo
