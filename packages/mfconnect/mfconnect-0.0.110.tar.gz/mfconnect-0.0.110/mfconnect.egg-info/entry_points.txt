@@ -1,0 +1,2 @@
+[console_scripts]
+meteo = mfconnect.meteo:meteo
