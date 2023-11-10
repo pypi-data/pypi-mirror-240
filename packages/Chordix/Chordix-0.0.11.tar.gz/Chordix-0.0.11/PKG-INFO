@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Chordix
+Version: 0.0.11
+Summary: Chordix uses harmony theories to analyse chords, chord progressions and midi music segments.
+Home-page: https://github.com/JasonLee-p/Chordix
+Author: Jason Lee
+Author-email: 2593292614@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy==1.21.2
+
+# Chordix
+
+Chordix 内置了和弦理论，可以分析和弦、和弦进行和 midi 乐段。
+
+Chordix uses harmony theories to analyse chords, chord progressions and midi music segments.

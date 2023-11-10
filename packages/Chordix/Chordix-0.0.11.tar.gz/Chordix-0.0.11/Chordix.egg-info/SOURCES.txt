@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Chordix/__init__.py
+Chordix.egg-info/PKG-INFO
+Chordix.egg-info/SOURCES.txt
+Chordix.egg-info/dependency_links.txt
+Chordix.egg-info/requires.txt
+Chordix.egg-info/top_level.txt
+Chordix/FunctionalHarmony/__init__.py
+Chordix/NonFunctionalHarmony/__init__.py
+Chordix/elements/__init__.py
+Chordix/player/__init__.py
+Chordix/source/ChordAttr.json
+Chordix/source/__init__.py
+Chordix/source/circle_of_fifths.png
