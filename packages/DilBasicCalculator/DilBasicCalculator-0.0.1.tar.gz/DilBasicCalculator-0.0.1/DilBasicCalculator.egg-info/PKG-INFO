@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: DilBasicCalculator
+Version: 0.0.1
+Summary: a simple calculator 
+Home-page:  
+Author: DILSHER
+Author-email: Dilsherengineer90@email.com
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE.txt
+Requires-Dist: dependency1
+Requires-Dist: dependency2
+
+This library  that takes two intiger numbers and do some arithmatic operation like 

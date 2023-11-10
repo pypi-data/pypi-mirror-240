@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+DilBasicCalculator.egg-info/PKG-INFO
+DilBasicCalculator.egg-info/SOURCES.txt
+DilBasicCalculator.egg-info/dependency_links.txt
+DilBasicCalculator.egg-info/requires.txt
+DilBasicCalculator.egg-info/top_level.txt
