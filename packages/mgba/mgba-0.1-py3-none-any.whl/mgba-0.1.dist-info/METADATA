@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mgba
+Version: 0.1
+License-File: LICENSE
+Requires-Dist: cffi >=1.6
+Requires-Dist: cached-property
+Provides-Extra: pil
+Requires-Dist: Pillow >=2.3 ; extra == 'pil'
+
