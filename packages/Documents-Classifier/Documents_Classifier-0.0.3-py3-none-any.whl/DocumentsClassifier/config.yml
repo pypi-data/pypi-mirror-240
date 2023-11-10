@@ -1,0 +1,13 @@
+models:
+  classify_model: 'fptinters/DocClass-classify-model-V2'
+  text_model: 'all-mpnet-base-v2'
+  image_model: 'fptinters/DocClass-classify-model-V2'
+  feature_extractor: 'microsoft/beit-base-patch16-224'
+
+dataset: ''
+
+parameters:
+  img_weight: 0.25
+  txt_weight: 0.75
+  epsilon_dbscan: 0.015
+  min_samples: 2
