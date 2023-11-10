@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: apim_subscription_manager
+Version: 0.0.1
+Summary: Utility that interacts with Azure API Management subscription
+Author: Ivica Matic
+Author-email: <ivica.matic@spatialdays.com>
+Keywords: apim,azure
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+Requires-Dist: requests==2.31.0
+
+
+# APIM Subscriptions Manager
+Python utility which manages users and their API subscriptions on the Azure API Management.
+
+## Prerequisites
+Service principal with correct permissions on the subscription where APIM is deployed
+- Tenant ID
+- Client ID
+- Client Secret
+Subscription ID where APIM is deployed
+- Subscription ID
+Resource group where APIM is deployed
+- Resource group name
+APIM Name
+- Name of the APIM instance
+
