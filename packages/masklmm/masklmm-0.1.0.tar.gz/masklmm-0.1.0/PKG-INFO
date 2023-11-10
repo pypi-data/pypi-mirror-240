@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: masklmm
+Version: 0.1.0
+Summary: Python Library for MaSk-LMM
+Home-page: https://github.com/IBM/mask-lmm.git
+Author: Myson Burch, Aritra Bose
+Author-email: myson.burch@ibm.com, a.bose@ibm.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
