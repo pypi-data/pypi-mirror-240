@@ -1,0 +1,120 @@
+{
+    "": {
+        "domain": "jupyterlab",
+        "language": "hy-AM",
+        "plural_forms": "nplurals=2; plural=(n != 1);",
+        "version": "jupyterlab"
+    },
+    "%1 Item": [
+        "",
+        ""
+    ],
+    "%1 cell hidden": [
+        "",
+        ""
+    ],
+    "%1 notification": [
+        "",
+        ""
+    ],
+    "Are you sure you want to permanently delete the %1 selected item?": [
+        "",
+        ""
+    ],
+    "Copy Cell": [
+        "",
+        ""
+    ],
+    "Copy this cell": [
+        "",
+        ""
+    ],
+    "Create a duplicate of this cell below": [
+        "",
+        ""
+    ],
+    "Cut Cell": [
+        "",
+        ""
+    ],
+    "Cut this cell": [
+        "",
+        ""
+    ],
+    "Delete Cell": [
+        "",
+        ""
+    ],
+    "Delete this cell": [
+        "",
+        ""
+    ],
+    "Duplicate Cell Below": [
+        "",
+        ""
+    ],
+    "Elapsed time: %1 second": [
+        "",
+        ""
+    ],
+    "Executed %1 cell": [
+        "",
+        ""
+    ],
+    "Move Cell Down": [
+        "",
+        ""
+    ],
+    "Move Cell Up": [
+        "",
+        ""
+    ],
+    "Move this cell down": [
+        "",
+        ""
+    ],
+    "Move this cell up": [
+        "",
+        ""
+    ],
+    "Paste Cell Above": [
+        "",
+        ""
+    ],
+    "Paste Cell Below": [
+        "",
+        ""
+    ],
+    "Paste Cell and Replace": [
+        "",
+        ""
+    ],
+    "Paste this cell from the clipboard": [
+        "",
+        ""
+    ],
+    "Run Selected Cell": [
+        "",
+        ""
+    ],
+    "Run Selected Cell and Do not Advance": [
+        "",
+        ""
+    ],
+    "Run Selected Cell and Insert Below": [
+        "",
+        ""
+    ],
+    "Run this cell and advance": [
+        "",
+        ""
+    ],
+    "Search in %1 Selected Cell": [
+        "",
+        ""
+    ],
+    "Search in %1 Selected Line": [
+        "",
+        ""
+    ]
+}
