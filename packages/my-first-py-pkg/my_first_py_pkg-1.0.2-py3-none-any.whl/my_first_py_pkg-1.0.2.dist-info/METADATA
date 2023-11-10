@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: my-first-py-pkg
+Version: 1.0.2
+Summary: My first python package
+Home-page: https://github.com/BhuiyanMasum/...
+Author: Md. Masum Bhuiyan
+Author-email: masumbhuiyan577@gmail.com
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: gradio
+
+# My ML Project
+
+A short desc of my project
+
+## Description
+
+A comprehensive desc of my project
+
+## Installation
+
+## Contributors
+
+## License
