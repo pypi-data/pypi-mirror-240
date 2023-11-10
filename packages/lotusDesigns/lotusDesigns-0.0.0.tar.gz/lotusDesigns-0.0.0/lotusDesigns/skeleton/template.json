@@ -1,0 +1,26 @@
+[
+  {
+    "name": "salon",
+    "template": "~/.config/lotusDesigns/template.jpg",
+    "placeholders": [
+      {
+        "x": 1763,
+        "y": 911,
+        "Dx": 2709,
+        "Dy": 2076
+      },
+      {
+        "x": 3196,
+        "y": 897,
+        "Dx": 4196,
+        "Dy": 2076
+      },
+      {
+        "x": 4638,
+        "y": 889,
+        "Dx": 5638,
+        "Dy": 2076
+      }
+    ]
+  }
+]
