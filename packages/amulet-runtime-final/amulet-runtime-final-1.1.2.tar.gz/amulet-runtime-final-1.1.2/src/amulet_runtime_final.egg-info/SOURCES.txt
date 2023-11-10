@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/amulet_runtime_final.egg-info/PKG-INFO
+src/amulet_runtime_final.egg-info/SOURCES.txt
+src/amulet_runtime_final.egg-info/dependency_links.txt
+src/amulet_runtime_final.egg-info/top_level.txt
+src/runtime_final/__init__.py
+src/runtime_final/__init__.pyi
+src/runtime_final/py.typed
+tests/test_finals.py
