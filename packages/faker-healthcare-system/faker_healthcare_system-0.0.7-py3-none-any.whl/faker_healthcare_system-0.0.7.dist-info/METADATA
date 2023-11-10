@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: faker-healthcare-system
+Version: 0.0.7
+Summary: Health system related data provider for Faker module
+Home-page: https://github.com/MaikelAparicio10/faker_healthcare_system
+Author: Maikel Aparicio
+Author-email: maikel.aparicio@theksquaregroup.com
+License: MIT
+Project-URL: Source Code, https://github.com/MaikelAparicio10/faker_healthcare_system
+Project-URL: Bug Reports, https://github.com/MaikelAparicio10/faker_healthcare_system/issues
+Project-URL: Say Thanks!, https://github.com/MaikelAparicio10/faker_healthcare_system
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Faker >=19.13.0
+
+# Health System provider for Faker
+[![Tests](https://github.com/matthttam8411/faker_education/actions/workflows/python-app.yml/badge.svg)](https://github.com/matthttam8411/faker_education/actions/workflows/python-app.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/180ddde29f8aa4e8c869/maintainability)](https://codeclimate.com/github/matthttam8411/faker_education/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/180ddde29f8aa4e8c869/test_coverage)](https://codeclimate.com/github/matthttam8411/faker_education/test_coverage)
+## Acknowlegements
+`faker_healthcare_system` is a provider for the `Faker` Python package, and a fork of https://github.com/kennethwsmith/faker_airtravel.
+
+## Description
+
+`faker_healthcare_system` provides fake data related to healthcare system for testing purposes.
+## Installation
+
+Install with pip:
+``` bash
+pip install faker-healthcare-system
+```
+Providers
+---------
+Each of the generator properties (such as ``individual_object``, ``person_object``, and
+``person_object_by_gender``) are called "false". A fake generator has many of them,
+packaged in "providers".
+
+.. code:: python
+
+    from faker import Faker
+    from faker.providers import dddd
+
+    fake = Faker()
+ 
