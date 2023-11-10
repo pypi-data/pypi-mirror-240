@@ -1,0 +1,1 @@
+from .pySynaptics import list_synaptics_devices
