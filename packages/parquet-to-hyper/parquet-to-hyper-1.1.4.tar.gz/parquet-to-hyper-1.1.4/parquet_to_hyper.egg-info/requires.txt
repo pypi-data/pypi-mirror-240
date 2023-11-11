@@ -1,0 +1,8 @@
+tableauhyperapi<=0.0.17002
+tableauserverclient<=0.24
+pyarrow>=14.0.1
+
+[dev]
+pip-tools
+pytest
+bumpver
