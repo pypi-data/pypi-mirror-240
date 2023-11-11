@@ -1,0 +1,13 @@
+.python-version
+README.md
+setup.py
+dist/odoo_resource_assesor-0.1.0-py3-none-any.whl
+dist/odoo_resource_assesor-0.1.0.tar.gz
+odoo_resource_assesor/__init__.py
+odoo_resource_assesor/resource_assesor.py
+odoo_resource_assesor.egg-info/PKG-INFO
+odoo_resource_assesor.egg-info/SOURCES.txt
+odoo_resource_assesor.egg-info/dependency_links.txt
+odoo_resource_assesor.egg-info/entry_points.txt
+odoo_resource_assesor.egg-info/requires.txt
+odoo_resource_assesor.egg-info/top_level.txt
