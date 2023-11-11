@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+sinha/__init__.py
+sinha.egg-info/PKG-INFO
+sinha.egg-info/SOURCES.txt
+sinha.egg-info/dependency_links.txt
+sinha.egg-info/top_level.txt
