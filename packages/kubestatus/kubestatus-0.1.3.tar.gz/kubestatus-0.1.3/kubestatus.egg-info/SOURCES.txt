@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+kubestatus/__init__.py
+kubestatus/viewer.py
+kubestatus.egg-info/PKG-INFO
+kubestatus.egg-info/SOURCES.txt
+kubestatus.egg-info/dependency_links.txt
+kubestatus.egg-info/entry_points.txt
+kubestatus.egg-info/requires.txt
+kubestatus.egg-info/top_level.txt
+tests/__init__.py
+tests/test_viewer.py
