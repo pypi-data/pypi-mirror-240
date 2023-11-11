@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: MPoL
+Version: 0.2.0
+Summary: Regularized Maximum Likelihood Imaging for Radio Astronomy
+Home-page: https://github.com/iancze/MPoL
+Author: Ian Czekala
+Author-email: iancze@gmail.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: fast-histogram
+Requires-Dist: scipy
+Requires-Dist: torch>=1.8.0
+Requires-Dist: torchvision
+Requires-Dist: torchaudio
+Requires-Dist: torchkbnufft
+Requires-Dist: astropy
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Requires-Dist: matplotlib; extra == "test"
+Requires-Dist: requests; extra == "test"
+Requires-Dist: astropy; extra == "test"
+Requires-Dist: tensorboard; extra == "test"
+Requires-Dist: mypy; extra == "test"
+Requires-Dist: frank>=1.2.1; extra == "test"
+Provides-Extra: docs
+Requires-Dist: sphinx>=5.3.0; extra == "docs"
+Requires-Dist: numpy; extra == "docs"
+Requires-Dist: jupytext; extra == "docs"
+Requires-Dist: ipython!=8.7.0; extra == "docs"
+Requires-Dist: nbsphinx; extra == "docs"
+Requires-Dist: sphinx_book_theme>=0.9.3; extra == "docs"
+Requires-Dist: sphinx_copybutton; extra == "docs"
+Requires-Dist: jupyter; extra == "docs"
+Requires-Dist: nbconvert; extra == "docs"
+Requires-Dist: matplotlib; extra == "docs"
+Requires-Dist: sphinxcontrib-mermaid>=0.8.1; extra == "docs"
+Requires-Dist: astropy; extra == "docs"
+Requires-Dist: tensorboard; extra == "docs"
+Requires-Dist: myst-nb; extra == "docs"
+Requires-Dist: jupyter-cache; extra == "docs"
+Requires-Dist: Pillow; extra == "docs"
+Requires-Dist: asdf; extra == "docs"
+Requires-Dist: pyro-ppl; extra == "docs"
+Requires-Dist: arviz[all]; extra == "docs"
+Provides-Extra: analysis
+Requires-Dist: frank>=1.2.1; extra == "analysis"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: matplotlib; extra == "dev"
+Requires-Dist: requests; extra == "dev"
+Requires-Dist: astropy; extra == "dev"
+Requires-Dist: tensorboard; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: frank>=1.2.1; extra == "dev"
+Requires-Dist: sphinx>=5.3.0; extra == "dev"
+Requires-Dist: numpy; extra == "dev"
+Requires-Dist: jupytext; extra == "dev"
+Requires-Dist: ipython!=8.7.0; extra == "dev"
+Requires-Dist: nbsphinx; extra == "dev"
+Requires-Dist: sphinx_book_theme>=0.9.3; extra == "dev"
+Requires-Dist: sphinx_copybutton; extra == "dev"
+Requires-Dist: jupyter; extra == "dev"
+Requires-Dist: nbconvert; extra == "dev"
+Requires-Dist: matplotlib; extra == "dev"
+Requires-Dist: sphinxcontrib-mermaid>=0.8.1; extra == "dev"
+Requires-Dist: astropy; extra == "dev"
+Requires-Dist: tensorboard; extra == "dev"
+Requires-Dist: myst-nb; extra == "dev"
+Requires-Dist: jupyter-cache; extra == "dev"
+Requires-Dist: Pillow; extra == "dev"
+Requires-Dist: asdf; extra == "dev"
+Requires-Dist: pyro-ppl; extra == "dev"
+Requires-Dist: arviz[all]; extra == "dev"
+Requires-Dist: frank>=1.2.1; extra == "dev"
+Requires-Dist: pylint; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+
+# MPoL
+
+[![Tests](https://github.com/MPoL-dev/MPoL/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/MPoL-dev/MPoL/actions/workflows/tests.yml)
+[![gh-pages docs](https://github.com/MPoL-dev/MPoL/actions/workflows/gh_docs.yml/badge.svg)](https://mpol-dev.github.io/MPoL/)
+[![DOI](https://zenodo.org/badge/224543208.svg)](https://zenodo.org/badge/latestdoi/224543208)
+
+A Million Points of Light are needed to synthesize image cubes from interferometers.
+
+MPoL is a flexible Python package designed for Regularized Maximum Likelihood imaging. We focus on supporting spectral line and continuum observations from interferometers like the Atacama Large Millimeter/Submillimeter Array (ALMA) and the Karl G. Jansky Very Large Array (VLA). There is potential to extend the package to work on other Fourier reconstruction problems like sparse aperture masking and kernel phase interferometry.
+
+Documentation and installation instructions: [https://mpol-dev.github.io/MPoL/](https://mpol-dev.github.io/MPoL/)
+
+## Citation
+
+If you use this package or derivatives of it, please cite
+
+    @software{mpol,
+    author       = {Ian Czekala and
+                    Jeff Jennings and   
+                    Brianna Zawadzki and
+                    Ryan Loomis and
+                    Kadri Nizam and 
+                    Megan Delamer and 
+                    Kaylee de Soto and
+                    Robert Frazier and
+                    Hannah Grzybowski and
+                    Mary Ogborn and                    
+                    Tyler Quinn},
+    title        = {MPoL-dev/MPoL: v0.2.0 Release},
+    month        = nov,
+    year         = 2023,
+    publisher    = {Zenodo},
+    version      = {v0.2.0},
+    doi          = {10.5281/zenodo.3594081},
+    url          = {https://doi.org/10.5281/zenodo.3594081}
+    }
+
+---
+Copyright Ian Czekala and contributors 2019-23
