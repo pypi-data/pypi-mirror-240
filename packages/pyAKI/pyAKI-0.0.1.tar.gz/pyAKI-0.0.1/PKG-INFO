@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyAKI
+Version: 0.0.1
+Summary: pyAKI allows calculation of Acute Kidney Injury from urine output and creatinine based on KDIGO criteria.
+Home-page: https://github.com/AI2MS/pyAKI
+Download-URL: https://github.com/AI2MS/pyAKI
+Author: 'Jan Ernsting, Christian Porschen, Paul Brauckmann'
+Project-URL: Source Code, https://github.com/AI2MS/pyAKI
+Project-URL: Documentation, https://github.com/AI2MS/pyAKI
+Project-URL: Bug Tracker, https://github.com/AI2MS/pyAKI/issues
+Keywords: AKI
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+License-File: LICENSE
