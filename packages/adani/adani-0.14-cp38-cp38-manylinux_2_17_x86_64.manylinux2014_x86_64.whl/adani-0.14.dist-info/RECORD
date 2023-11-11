@@ -1,0 +1,11 @@
+adani/__init__.py,sha256=0zpBfzO64sy3FMVSKxe4TzTdDEXGpDaPHgG23YWlvts,21
+adani/_core.cpython-38-x86_64-linux-gnu.so,sha256=Q8fKkSgT4huzOJv3NHrtM0Dpe8pEiL8qbN0-4TjETIA,1668416
+adani-0.14.dist-info/WHEEL,sha256=CKI7hX_udpEyOOMQtVo4MuPvMy5fJbrBR3HJXFdbayw,142
+adani-0.14.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+adani-0.14.dist-info/RECORD,,
+adani-0.14.dist-info/top_level.txt,sha256=NM6Vzv-PFL_TEI15PKIzEI02O5px-9d30X2Pr6h_fGk,6
+adani-0.14.dist-info/METADATA,sha256=9FFCFWz57xYEl8eDrSqwC94i45MVRBN0QOfiGp3Nsj8,3207
+adani.libs/libgslcblas-bc7ec4fa.so.0.0.0,sha256=6nZYaRwOxFqrCoA4wJt9xlUMQKhqoBcvoc9MtALowTU,1424552
+adani.libs/libgfortran-040039e1.so.5.0.0,sha256=R6s7aClbCjzomQpEjef6sRq928Fg-IlZcsqapxLPhtA,2686064
+adani.libs/libquadmath-96973f99.so.0.0.0,sha256=l82oXdtRY-Labh7bTh1rVXgzqZpA7aB5rjflA5Rltl0,247608
+adani.libs/libgsl-8a91e683.so.27.0.0,sha256=kLshrGBWx96WKfv7fBSgiHYc_BZRwW6ASQaPslhPXvE,15884168
