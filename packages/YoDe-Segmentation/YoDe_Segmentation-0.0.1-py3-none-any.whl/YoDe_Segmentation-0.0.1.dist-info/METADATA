@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: YoDe-Segmentation
+Version: 0.0.1
+Summary: An open sourced software for automatic chemical molecular structure maps extraction.
+Home-page: https://github.com/OneChorm/YoDe-Segmentation
+Author: zconechorm
+Author-email: zconechorm@163.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: numpy (==1.25.2)
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: Pillow (==10.0.0)
+Requires-Dist: PyYAML (==6.0.1)
+Requires-Dist: scipy
+Requires-Dist: seaborn (==0.11.2)
+Requires-Dist: tqdm (==4.64.1)
+Requires-Dist: python-office
+
+UNKNOWN
+
