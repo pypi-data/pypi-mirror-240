@@ -1,0 +1,11 @@
+CRISPR_TAPE/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CRISPR_TAPE/__main__.py,sha256=g6RuDN5jfxVOCTUiJovbCqCGCBaPCYG6bRca6KTmb4s,11552
+CRISPR_TAPE/general_function.py,sha256=sPlXRzVfjfsfYvPHaveAxeS4o3Tnl3g_ngo-Vh6IAD8,16297
+CRISPR_TAPE/shared_functions.py,sha256=1_cNtkkOHjmGMXS1E3014Qk5z5kOVurBVULliWoB2f4,10779
+CRISPR_TAPE/specific_function.py,sha256=MLFdW-VZZaU5AsPcbJQWemdgqPRF_dvUxPm48plSm1g,9519
+CRISPR_TAPE/specific_function_old.py,sha256=lTZC2CiqJhhjcIfWa-TjwTgZOg9ijctJQ-U-ZZFxZsI,10722
+CRISPR_TAPE-1.0.6.dist-info/LICENSE,sha256=NX6_47ktETbC0sb4oDDPYOH4FfWwvp_bNJ5ZGVSrmN0,13155
+CRISPR_TAPE-1.0.6.dist-info/METADATA,sha256=9NcoM2wGRJUu9Qu5RYNZIt14VYHK3puXTTrJPqJNtp0,1091
+CRISPR_TAPE-1.0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+CRISPR_TAPE-1.0.6.dist-info/top_level.txt,sha256=uQgG2_OtiYE4FuV7Fw7pe3ChEPVKp5zgQFsAumZIbQs,12
+CRISPR_TAPE-1.0.6.dist-info/RECORD,,
