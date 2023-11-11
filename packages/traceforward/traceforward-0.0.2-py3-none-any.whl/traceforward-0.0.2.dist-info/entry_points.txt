@@ -1,0 +1,2 @@
+[console_scripts]
+traceforward = traceforward.cli:main
