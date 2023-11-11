@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+sinhalax/__init__.py
+sinhalax.egg-info/PKG-INFO
+sinhalax.egg-info/SOURCES.txt
+sinhalax.egg-info/dependency_links.txt
+sinhalax.egg-info/top_level.txt
