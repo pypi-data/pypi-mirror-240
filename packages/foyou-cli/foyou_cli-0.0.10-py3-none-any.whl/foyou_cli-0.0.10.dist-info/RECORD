@@ -1,0 +1,11 @@
+foyou_cli/__init__.py,sha256=R38NIr2_Z-Ox0hpBF_l3TLpop9vg7QVQ2NeVGXedB_8,647
+foyou_cli/__main__.py,sha256=J2X_ip-E05dybPBMnbIf0Qq_A6kH7kcn16qssSEjR4w,66
+foyou_cli/aliyundrive.py,sha256=-w3nzqIc7Lj21UQ-Hp2fqq-Wl6oh5Ax-MDtaUz8ODcA,3287
+foyou_cli/ebook.py,sha256=9kTyB_GqJlWRCI-mLpiGr5_C8S99yugF839ULXUBMls,1283
+foyou_cli/wireguard.py,sha256=nFj30glxVtiTRqqGYTxtsilDaB3RA8Dzk-H_5tAebKA,1024
+foyou_cli-0.0.10.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+foyou_cli-0.0.10.dist-info/METADATA,sha256=kBtjdHiJCGdqRVg3EXMu1_PZJYhRfPQpRt6jfLCNGSM,941
+foyou_cli-0.0.10.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+foyou_cli-0.0.10.dist-info/entry_points.txt,sha256=Lv7Zhr-SpvHQPSs1js7O1_U0tXFdX5PKHt9jXn1n6nE,41
+foyou_cli-0.0.10.dist-info/top_level.txt,sha256=j68W_y1wve2Wnhkl3knLtBlSFcChryRsakn30YxRwoc,10
+foyou_cli-0.0.10.dist-info/RECORD,,
