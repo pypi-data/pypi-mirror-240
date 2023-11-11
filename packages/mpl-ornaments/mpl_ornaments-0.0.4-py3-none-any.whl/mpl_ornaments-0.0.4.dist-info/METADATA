@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mpl-ornaments
+Version: 0.0.4
+Summary: Small extensions to Matplotlib
+Author-email: Francesco Bianconi <bianco@ieee.org>
+License: MIT License
+Project-URL: homepage, https://github.com/bianconif/mpl_ornaments
+Project-URL: documentation, https://bianconif.github.io/mpl_ornaments
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.10.4
+License-File: LICENSE
+Requires-Dist: matplotlib >=3.8.0
+
