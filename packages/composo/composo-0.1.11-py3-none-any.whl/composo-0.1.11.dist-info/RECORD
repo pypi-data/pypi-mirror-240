@@ -1,0 +1,11 @@
+composo/__init__.py,sha256=rWMcqc4JK0YD9V0HteJ3rO0MFEj2TCkAjHxkpt9a1eo,74960
+composo/logging.py,sha256=kxeQw_e1q5kHdc5MNRahH5iLKFk23xjzaa0fRk579pU,7829
+composo/package_schemas.py,sha256=pri6nhiNmMIuEtFoBIwsEAda7-WHF4zr2HErEncItPU,10367
+composo/pyarmor_runtime_000000/__init__.py,sha256=o582gtWotpCwMwOyko7c7o9rge8nT_Zc4L4YD4dOKTA,1779
+composo/pyarmor_runtime_000000/darwin_x86_64/pyarmor_runtime.so,sha256=XMNiKKDH9swa3Oad-HEWo2_z7DjRpaM05CnIpMaqUtQ,860876
+composo/pyarmor_runtime_000000/linux_x86_64/pyarmor_runtime.so,sha256=olEk7Yt2nuMXlvajIwOwF7m0l5V6CLsKMzGlYuXSLjE,771816
+composo/pyarmor_runtime_000000/windows_x86_64/pyarmor_runtime.pyd,sha256=zNb4Ks-q5E2gF_EjMyc2hgmmvDqjYXrhaU_4vwautcQ,617472
+composo-0.1.11.dist-info/METADATA,sha256=ix9HFStTuWQT57estv5U2BcCpJgNq65WgWOmIVoquy0,287
+composo-0.1.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+composo-0.1.11.dist-info/top_level.txt,sha256=D5m1rJLqsAZElHntUnTiD4w9QQkHz1jo0523qS5xgcs,8
+composo-0.1.11.dist-info/RECORD,,
