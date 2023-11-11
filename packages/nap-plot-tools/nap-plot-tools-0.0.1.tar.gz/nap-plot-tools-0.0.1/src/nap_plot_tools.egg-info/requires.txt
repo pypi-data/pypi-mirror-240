@@ -1,0 +1,10 @@
+numpy
+qtpy
+cmap
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+pyqt5
