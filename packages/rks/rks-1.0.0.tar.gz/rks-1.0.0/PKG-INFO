@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: rks
+Version: 1.0.0
+Summary: rks(redis-keys-statistics) is a Python tool for analyzing and reporting key usage statistics in Redis databases, including memory usage and type distribution, created by garimoo and is under the copyright of Woowabros
+Author: garimoo
+Author-email: garimoo.kim@gmail.com
+Keywords: redis,pypi,redis keys statistics,rks,redis statistics,garim,garimoo
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
