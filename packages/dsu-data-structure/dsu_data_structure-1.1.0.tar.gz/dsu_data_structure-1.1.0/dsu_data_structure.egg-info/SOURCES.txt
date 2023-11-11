@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+dsu_data_structure/__init__.py
+dsu_data_structure/dsu.py
+dsu_data_structure.egg-info/PKG-INFO
+dsu_data_structure.egg-info/SOURCES.txt
+dsu_data_structure.egg-info/dependency_links.txt
+dsu_data_structure.egg-info/top_level.txt
