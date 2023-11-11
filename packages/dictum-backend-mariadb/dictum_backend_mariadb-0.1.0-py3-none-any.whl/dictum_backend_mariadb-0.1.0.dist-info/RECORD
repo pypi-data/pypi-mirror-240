@@ -1,0 +1,7 @@
+dictum_backend_mariadb/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+dictum_backend_mariadb/mariadb.py,sha256=WR6NBMcCsmb2lFeokowfHAqT2pvrmItpQboBhZymusY,4755
+dictum_backend_mariadb-0.1.0.dist-info/LICENSE,sha256=NOlMUIe6bp-zTzWucd9eZTPF_Hy79sRBhqcegoBraeE,30582
+dictum_backend_mariadb-0.1.0.dist-info/METADATA,sha256=QHTG0H-Vd7ATOKVcSvNAPJT1WjFHSX8pVHfsPIS4CdE,485
+dictum_backend_mariadb-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+dictum_backend_mariadb-0.1.0.dist-info/entry_points.txt,sha256=9DNwGI5X6uYnjnvWqu1qf6mTVorPOp4sI6KHu3m0NjU,73
+dictum_backend_mariadb-0.1.0.dist-info/RECORD,,
