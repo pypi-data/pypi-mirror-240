@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mach2-viz
+Version: 0.0.2
+Summary: Visualizer for the MACH2 Metastasis Inference Algorithm
+Home-page: https://github.com/vikramr2/mach2-viz-flask/tree/main/mach2viz
+Author: vikramr2
+Project-URL: Bug Tracker, https://github.com/vikramr2/mach2-viz-flask/tree/main/mach2viz/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: flask >=3.0.0
+
+# mach2-viz-flask
+Flask extension for mach2-viz
