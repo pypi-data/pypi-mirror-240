@@ -1,0 +1,1 @@
+"""A library featuring some extensions to Matplotlib."""
