@@ -1,0 +1,7 @@
+default_count = 3
+
+[logging]
+level = 30 # logging.WARNING
+
+[simulators]
+enable = false
