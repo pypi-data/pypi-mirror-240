@@ -1,0 +1,16 @@
+ansys/units/__init__.py,sha256=QiukdWKtN7HPXT6TIEHFDM2SpeG3R_ezecToY1Apgvk,1179
+ansys/units/_constants.py,sha256=na132xC6jdHByWLSHn1VhIf1qRqopP1warfSh-iC7Eo,714
+ansys/units/_version.py,sha256=FEdDDsEwobASM8zWVsd2ziyMQoIUEKTichYNGsIvylo,395
+ansys/units/base_dimensions.py,sha256=F81Tm5fgA4WLAev6LH-XJULAZS9uRhWQk7Tob8FjhLs,599
+ansys/units/cfg.yaml,sha256=n673AWPkswBBQRE_JXzCi2FCw0NJ5t9_Ih8WlWI4kuA,10580
+ansys/units/dimensions.py,sha256=7i2wfKI2-k_G5pKjg0WZKzD9uDk8iQAbkFORmYCVmcQ,5564
+ansys/units/map.py,sha256=yO_EsIE2CmRFuxsmheNxdISegapTvdssfRiCywppHng,1586
+ansys/units/quantity.py,sha256=VPrjkxnFQK3WkjwhL_sLpc4VJqcXYPcoxYwCH2mootE,9938
+ansys/units/systems.py,sha256=UCjY8F4kwRVxzP8IKqaoAU5YGieK348lmylUrSb476M,7148
+ansys/units/unit.py,sha256=Rdm-b5AcVFWf0ASItepC_PsaEfs8e9KeLeRPX7iuemk,14934
+ansys/units/unit_registry.py,sha256=oL939booHvSzA6p1Ljb-LdtNEp_NtVOPrxmyEX4Sf7U,1958
+ansys/units/docs/.gitignore,sha256=ez7QK8c9wGt9uQbPl6qR3sKy6yHy2SvFyqdh31u8Fo8,10
+ansys_units-0.2.dev0.dist-info/LICENSE,sha256=d82f7MQyN3Ucla5vB1o3HR8K_AO9cZD2OvWF0EpSJcg,1088
+ansys_units-0.2.dev0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ansys_units-0.2.dev0.dist-info/METADATA,sha256=C85MsJeYs5-Wlye2MwDoU-DXLVeL3C6ddlP4iKb6gM8,7355
+ansys_units-0.2.dev0.dist-info/RECORD,,
