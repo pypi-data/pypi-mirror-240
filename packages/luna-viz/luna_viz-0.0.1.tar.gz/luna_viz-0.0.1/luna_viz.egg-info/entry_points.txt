@@ -1,0 +1,2 @@
+[console_scripts]
+tpx3plot = luna_viz.tpx3plot:main
