@@ -1,0 +1,11 @@
+st_wordcloud/__init__.py,sha256=XnlvIQaCA19_8ShqxWrHG_n5rkhoXBpcGVm3F4V7bWM,812
+st_wordcloud/frontend/build/asset-manifest.json,sha256=PTM75r8dCBow8HUSKHyrMSPOVfO_OGTe0pHPnGtqY7s,221
+st_wordcloud/frontend/build/index.html,sha256=2mz02Gsc77AUPj6akE1lbw5ymNdIYvMvX6OV4UDUBpI,285
+st_wordcloud/frontend/build/static/js/main.c5e34a2c.js,sha256=D6BmgeB3hd4PoXmM1WqloTAL-_2RPl7ZWRpx3_64CAw,397548
+st_wordcloud/frontend/build/static/js/main.c5e34a2c.js.LICENSE.txt,sha256=BPbCZITzGALY9iYhI40O6qpneJKw2CdM7mGhDk6ejfI,1514
+st_wordcloud/frontend/build/static/js/main.c5e34a2c.js.map,sha256=_3WQC-EQSPJY_62-S8WTJUJ95VSiRl9hMseKHYxjUSw,1577928
+st_wordcloud-0.0.6.dist-info/LICENSE,sha256=ZwOT98bMlE2Nn8KO52-dBK9l6JHqJvuI7RoC9s7_hGI,1063
+st_wordcloud-0.0.6.dist-info/METADATA,sha256=hgBZA3fTY3X2VgBEaaGgSqBAV6SmhEJrkzk2-AokNrI,440
+st_wordcloud-0.0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+st_wordcloud-0.0.6.dist-info/top_level.txt,sha256=OVuT8iM_c0s0umU8FMeIB8ARgkyZTJ9V40k2_woxoQ0,13
+st_wordcloud-0.0.6.dist-info/RECORD,,
