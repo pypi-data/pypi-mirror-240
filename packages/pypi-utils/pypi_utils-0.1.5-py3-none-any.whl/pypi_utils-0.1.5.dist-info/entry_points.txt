@@ -1,0 +1,5 @@
+[console_scripts]
+dev=pypi_utils.scripts:dev
+fix=pypi_utils.scripts:fix
+lint=pypi_utils.scripts:pylint
+
