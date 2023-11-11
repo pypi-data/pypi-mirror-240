@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mattk09-sample-cli
+Version: 0.1.1
+Summary: testing out pypi publishing
+Author: Matt Klupchak
+Author-email: mattk09@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: tomli-w (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# cli
+
