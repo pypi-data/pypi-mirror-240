@@ -1,0 +1,3 @@
+[console_scripts]
+dcsm=dcsm.commands.main:main_PYTHON_ARGCOMPLETE_OK
+
