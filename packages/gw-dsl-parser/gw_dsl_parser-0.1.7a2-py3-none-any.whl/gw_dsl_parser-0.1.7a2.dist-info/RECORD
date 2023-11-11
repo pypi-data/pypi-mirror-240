@@ -1,0 +1,7 @@
+gw_dsl_parser/__init__.py,sha256=b9p_j1nx8QQgZtDKLSpEQAlf7DOpHWQIE2j3jPvJg5Q,64
+gw_dsl_parser/core.py,sha256=anyFM6dBmG2r-a1z1U-buVrxjgpu2-xAh-DhWCb8dOs,3421
+gw_dsl_parser/dsl_parser.wasm,sha256=WWnVk004EsiD5qkHPkqNXQQa9mAwMkbh1vDL4cIYxlg,4114600
+gw_dsl_parser-0.1.7a2.dist-info/METADATA,sha256=CaELX0PFbwoANNSh_XmPTGxwZYT2G28ydvdTfnSWja8,1153
+gw_dsl_parser-0.1.7a2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gw_dsl_parser-0.1.7a2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+gw_dsl_parser-0.1.7a2.dist-info/RECORD,,
