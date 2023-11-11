@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mimesis_and_ge
+Version: 0.1.0
+Summary: A Python module for mimesis and Great Expectations
+Home-page: https://github.com/IslasGECI/mimesis_and_ge
+Author: Ciencia de Datos • GECI
+Author-email: ciencia.datos@islas.org.mx
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: great_expectations
+Requires-Dist: mimesis
+Requires-Dist: pytest-mimesis
+
+<a href="https://www.islas.org.mx/"><img src="https://www.islas.org.mx/img/logo.svg" align="right" width="256" /></a>
+# Mimesis and Great Expectations example
+[![codecov](https://codecov.io/gh/IslasGECI/mimesis_and_ge/graph/badge.svg?token=ku9GTcnbQY)](https://codecov.io/gh/IslasGECI/mimesis_and_ge)
+
+Python module to experiment fake data generation and testing with mimesis and great_expectations.
+
