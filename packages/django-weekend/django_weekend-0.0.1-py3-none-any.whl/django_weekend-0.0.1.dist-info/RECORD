@@ -1,0 +1,11 @@
+django_weekends/__init__.py,sha256=ez4I4QRjwvPuRBSoXzTBYqZzMzI6llG6GQrwx3yjyLQ,44
+django_weekends/admin.py,sha256=aEmyq5dVY0PfSdBMCBQZs1jse-oz42YM8MQqSvIVln8,1649
+django_weekends/apps.py,sha256=MwEjKd2jjfTJhpC-j0zrdfbDgm5R5i7HW8od9J9PztY,154
+django_weekends/models.py,sha256=JCQaOxV_6yDr8EeybTn5I-rWtDyjhgsFNAi9PJhSNck,1547
+django_weekends/services.py,sha256=piMG_d3O82DEZlVxcwuP_tX9n6revvVDJL5FaAbwyQ4,3103
+django_weekends/migrations/0001_initial.py,sha256=NEBUFIISiMGj38urC4kdTPu2FaJnRC34PygHBlZsDIc,2917
+django_weekends/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_weekend-0.0.1.dist-info/METADATA,sha256=QfMgZCk6txeEAr7xo3fS6PUJGwC17rZTNKow73Xsuv0,612
+django_weekend-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_weekend-0.0.1.dist-info/top_level.txt,sha256=--8tbylFaK_ZCK2KtDcwtFR5lp5Bp4ZoysJJSc9ENLk,16
+django_weekend-0.0.1.dist-info/RECORD,,
