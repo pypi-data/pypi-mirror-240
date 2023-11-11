@@ -1,0 +1,6 @@
+scipy
+plum-dispatch
+tqdm
+
+[:python_version < "3.9"]
+importlib-resources
