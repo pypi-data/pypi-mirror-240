@@ -1,0 +1,12 @@
+.python-version
+LICENSE
+README.md
+setup.py
+odoo_resource_assessor/__init__.py
+odoo_resource_assessor/resource_assessor.py
+odoo_resource_assessor.egg-info/PKG-INFO
+odoo_resource_assessor.egg-info/SOURCES.txt
+odoo_resource_assessor.egg-info/dependency_links.txt
+odoo_resource_assessor.egg-info/entry_points.txt
+odoo_resource_assessor.egg-info/requires.txt
+odoo_resource_assessor.egg-info/top_level.txt
