@@ -1,0 +1,9 @@
+LICENSE
+README.md
+kidde_homesafe.py
+pyproject.toml
+kidde_homesafe.egg-info/PKG-INFO
+kidde_homesafe.egg-info/SOURCES.txt
+kidde_homesafe.egg-info/dependency_links.txt
+kidde_homesafe.egg-info/requires.txt
+kidde_homesafe.egg-info/top_level.txt
