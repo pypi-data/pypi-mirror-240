@@ -1,0 +1,10 @@
+napari_floodfill/__init__.py,sha256=lJevEbQ61hXm3yGXtJGm_BF7t7aw5tA2AnyMSUGTecQ,37
+napari_floodfill/_widget.py,sha256=oZMlvdwO-VKlWDJOC7wFC58CyLrZJ1CHV9jJLP6fxik,11390
+napari_floodfill/napari.yaml,sha256=crkzcTZIAYAFFLPYv1c4GuI-CIb-og599GIy6DnWLAM,261
+napari_floodfill/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_floodfill-0.0.1.dist-info/LICENSE,sha256=f6IlE2SCFqsXPIh9kXoluvAol4Fr8BEzIBawcV6FXbA,1489
+napari_floodfill-0.0.1.dist-info/METADATA,sha256=rBBlOTWRwFE7zWPdXyYMEwU2uxF81LtZ7stIg0hGJ_I,4134
+napari_floodfill-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+napari_floodfill-0.0.1.dist-info/entry_points.txt,sha256=9YdylWwd9KWEX3rt1cq4Ugj9k_qQGblsHDByV1vNPYY,66
+napari_floodfill-0.0.1.dist-info/top_level.txt,sha256=8o50LYAear-eeaPjT6KirhG-AZZyAJ-_b521mYa7Cus,17
+napari_floodfill-0.0.1.dist-info/RECORD,,
