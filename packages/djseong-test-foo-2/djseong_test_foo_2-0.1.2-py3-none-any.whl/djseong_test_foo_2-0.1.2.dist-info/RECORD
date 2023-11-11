@@ -1,0 +1,9 @@
+djseong/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djseong/namespace_a/__init__.py,sha256=etFXsLiPbeIjqc9cdWUVsg5mmWmY6dkW4f7hOgBj1FY,71
+djseong/namespace_a/module_a.py,sha256=umbfAHhD2Iw1XoHT7wA9-Qmc3J7SiebRwAXOmjF8hzs,87
+djseong/namespace_foo_b/__init__.py,sha256=Po6TR9dswGw1fgOk-BzoBdyNrrj_RmOweqdklE2-HO8,75
+djseong/namespace_foo_b/module_b.py,sha256=oqlzOGD5ZR0buhium2DFc-DLst2wvw-3ppkOEqTGDtM,87
+djseong_test_foo_2-0.1.2.dist-info/METADATA,sha256=7VOeBpjmMQYC9tGSy4ZHpsEe51DNBobQanA80udX9fc,161
+djseong_test_foo_2-0.1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+djseong_test_foo_2-0.1.2.dist-info/top_level.txt,sha256=aUbjK2vpQPfMZRhS5HmSuz6d1NdZKVkk3_aUPPhk_zc,8
+djseong_test_foo_2-0.1.2.dist-info/RECORD,,
