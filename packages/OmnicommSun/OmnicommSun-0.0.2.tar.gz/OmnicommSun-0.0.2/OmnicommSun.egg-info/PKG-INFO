@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: OmnicommSun
+Version: 0.0.2
+Summary: test
+Home-page: https://github.com/SeAllexUnder/OmnicommSun
+Author: SeAllexUnder
+Author-email: sun5038@yandex.ru
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/SeAllexUnder/OmnicommSun
+Keywords: omnicomm
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Omnicomm Config Server Library #
+
+## Что это? ##
+Библиотека для работы с сервером удаленной настройки (СУН) Омникомм
+
+
+----------
+
+
+### Установка ###
+
+Установите пакет:
+
+    pip install omnisun
+
+Импортируйте класс в проект
+
+    from OmnicommSun import SUN
+
+
+----------
+
+
+### Описание методов ###
+
+"get_registrator" - получение настроек регистратора. Первым аргументом передается номер регистратора int, вторым - пароль str
+
