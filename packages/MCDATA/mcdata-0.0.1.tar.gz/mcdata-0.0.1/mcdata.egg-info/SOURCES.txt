@@ -1,0 +1,6 @@
+LICENSE
+setup.py
+mcdata.egg-info/PKG-INFO
+mcdata.egg-info/SOURCES.txt
+mcdata.egg-info/dependency_links.txt
+mcdata.egg-info/top_level.txt
