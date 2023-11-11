@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+insta_feed_checker/__init__.py
+insta_feed_checker/checker.py
+insta_feed_checker.egg-info/PKG-INFO
+insta_feed_checker.egg-info/SOURCES.txt
+insta_feed_checker.egg-info/dependency_links.txt
+insta_feed_checker.egg-info/not-zip-safe
+insta_feed_checker.egg-info/requires.txt
+insta_feed_checker.egg-info/top_level.txt
