@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+base-conversion-kit/__init__.py
+base-conversion-kit/numberConverter.py
+base_conversion_kit.egg-info/PKG-INFO
+base_conversion_kit.egg-info/SOURCES.txt
+base_conversion_kit.egg-info/dependency_links.txt
+base_conversion_kit.egg-info/top_level.txt
