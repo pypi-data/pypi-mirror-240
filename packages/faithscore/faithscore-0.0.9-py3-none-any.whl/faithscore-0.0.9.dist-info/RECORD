@@ -1,0 +1,14 @@
+faithscore/COCO_val2014_000000164255.jpg,sha256=smsCxKmPrfopsIabf_cqONMm_lqf7VoBoThHtl5r5n4,80856
+faithscore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+faithscore/framework.py,sha256=FnY9pqqobguOhYK3NVUeDGSyldZiCepXcL5wMpP_MdE,13698
+faithscore/llama_pre.py,sha256=yFrMvTES8XrUM8HI14EFIeX0fvgN_bnfbyuZLIWz9pI,1593
+faithscore/llava15.py,sha256=K7FYu1XbDW6ng6rEKu5IWNZJBnuKdpitkSHpZ4wTv14,3048
+faithscore/test_fact.py,sha256=EcVlob3iAjkZmmdijGe8XEittzhzj_T0ArbaBqaz0Rc,1097
+faithscore/utils.py,sha256=Yp1I8wbsBMmDpUz7yjD8Hbap85Xy5sQyiqii28oFBTo,902
+faithscore/prompts/prompt_de_atomic.txt,sha256=DbGzQMY4t-w8poQomn1aw4bhucJykF-L7ojp2rYaU-c,1675
+faithscore/prompts/prompt_label_des_ana.txt,sha256=ldOi816lFLFgCIvPfYXF_VfTVNJM1Ie6Ak29iarBuYs,7608
+faithscore/prompts/prompt_llama.txt,sha256=nKvSXEu2vfYPpGEvB4vdbxwzMRcB7wDoW8ImSYMDIB0,1074
+faithscore-0.0.9.dist-info/METADATA,sha256=yqJAgly_RpqM6AOSZxDxhzmzbEzbtI933i41TEvXd9I,1787
+faithscore-0.0.9.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+faithscore-0.0.9.dist-info/licenses/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+faithscore-0.0.9.dist-info/RECORD,,
