@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+multiprocnomain/README.MD
+multiprocnomain/__init__.py
+multiprocnomain/requirements.txt
+multiprocnomain/thirdparty.json
+multiprocnomain.egg-info/PKG-INFO
+multiprocnomain.egg-info/SOURCES.txt
+multiprocnomain.egg-info/dependency_links.txt
+multiprocnomain.egg-info/requires.txt
+multiprocnomain.egg-info/top_level.txt
