@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: example_package_jzanetti1985
+Version: 0.0.1
+Summary: A small example package
+Author-email: jzanetti1985r <author@example.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+step 1: python setup.py sdist bdist_wheel
+step 2: pip install .
+step 3: pip install twine
+step 4: twine upload dist/*
+
+
+1: python3 -m pip install --upgrade build
+2. python3 -m build

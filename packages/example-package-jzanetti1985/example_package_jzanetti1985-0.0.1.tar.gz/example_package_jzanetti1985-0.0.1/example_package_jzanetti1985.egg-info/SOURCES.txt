@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+esr_dt_model/__init__.py
+esr_dt_model/mymodule.py
+example_package_jzanetti1985.egg-info/PKG-INFO
+example_package_jzanetti1985.egg-info/SOURCES.txt
+example_package_jzanetti1985.egg-info/dependency_links.txt
+example_package_jzanetti1985.egg-info/entry_points.txt
+example_package_jzanetti1985.egg-info/top_level.txt
