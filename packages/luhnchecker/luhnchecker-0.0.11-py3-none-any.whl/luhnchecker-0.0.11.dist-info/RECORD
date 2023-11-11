@@ -1,0 +1,9 @@
+luhnchecker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+luhnchecker/__main__.py,sha256=DqYs1vemd9-h-aDhXCaYWdjJfL-gksbXSjFJ5_L-3eU,2554
+luhnchecker/luhn.py,sha256=dicFTdsP98YE2Oxb3G0h4AffDoTZ5fz-q2FaSmQQUjA,4040
+luhnchecker-0.0.11.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+luhnchecker-0.0.11.dist-info/METADATA,sha256=_kBleeqszPbhkQQqjIUWSOdZCnzzuzUeytb8AVD0J3o,44246
+luhnchecker-0.0.11.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+luhnchecker-0.0.11.dist-info/entry_points.txt,sha256=pEXZmxoCTuRUCUDNzdf2JjnyXXokaHUTsmeU9osjToM,58
+luhnchecker-0.0.11.dist-info/top_level.txt,sha256=OG0KKZSpt7zHnTGOvRawWp6Zc36F9ycr3vMyQKwdrzI,12
+luhnchecker-0.0.11.dist-info/RECORD,,
