@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+netbox_friendlyurl/__init__.py
+netbox_friendlyurl/middleware.py
+netbox_friendlyurl/urls.py
+netbox_friendlyurl/views.py
+netbox_friendlyurl.egg-info/PKG-INFO
+netbox_friendlyurl.egg-info/SOURCES.txt
+netbox_friendlyurl.egg-info/dependency_links.txt
+netbox_friendlyurl.egg-info/not-zip-safe
+netbox_friendlyurl.egg-info/top_level.txt

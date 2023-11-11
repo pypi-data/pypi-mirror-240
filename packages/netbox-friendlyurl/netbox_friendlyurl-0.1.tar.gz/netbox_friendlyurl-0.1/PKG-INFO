@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: netbox_friendlyurl
+Version: 0.1
+Summary: Netbox Friendly URLs
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+Create urls in NetBox that are more user friendly and that redirect to real netbox urls
