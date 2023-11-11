@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: lextok
+Version: 0.0.2
+Summary: Legalese tokenization
+Home-page: https://mv3.dev
+Author: Marcelino G. Veloso III
+Author-email: contact@mv3.dev
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Dist: inflect (>=7.0.0,<8.0.0)
+Requires-Dist: jsonlines (>=4.0.0,<5.0.0)
+Requires-Dist: roman (>=4.1,<5.0)
+Requires-Dist: spacy[apple] (>=3.7.2,<4.0.0)
+Project-URL: Documentation, https://justmars.github.io/lextok
+Project-URL: Repository, https://github.com/justmars/lextok
+Description-Content-Type: text/markdown
+
+# lextok
+
+![Github CI](https://github.com/justmars/lextok/actions/workflows/main.yml/badge.svg)
+
+## Quickstart
+
+```sh
+poetry env use 3.11.6 # 3.12 not yet supported
+poetry install
+poetry shell
+python -m spacy download en_core_web_sm # base model
+```
+
+## Tokenization
+
+### Before
+
+```py
+import spacy
+
+nlp = spacy.load("en_core_web_sm")
+doc1 = nlp("Sec. 36(b)(21)")
+for token in doc1:
+    print(f"{token.text=} {token.pos_=} {token.prefix_=} {token.suffix_=}, {token.i=}")
+"""
+token.text='Sec' token.pos_='PROPN' token.prefix_='S' token.suffix_='Sec', token.i=0
+token.text='.' token.pos_='PUNCT' token.prefix_='.' token.suffix_='.', token.i=1
+token.text='36(b)(21' token.pos_='NUM' token.prefix_='3' token.suffix_='(21', token.i=2
+token.text=')' token.pos_='PUNCT' token.prefix_=')' token.suffix_=')', token.i=3
+"""
+```
+
+### After
+
+```py
+from lextok import lextok
+
+lex = lextok()
+doc2 = lex("Sec. 36(b)(21)")
+for token in doc2:
+    print(f"{token.text=} {token.pos_=} {token.prefix_=} {token.suffix_=}, {token.i=}")
+"""
+token.text='Sec.' token.pos_='NUM' token.prefix_='S' token.suffix_='ec.', token.i=0
+token.text='36(b)(21)' token.pos_='NUM' token.prefix_='3' token.suffix_='21)', token.i=1
+"""
+```
+
+## Pattern creation
+
+A pattern consists of a list of tokens, e.g. space space between the word, a dot, and the number?
+
+```py
+[
+    {"ORTH": {"IN": ["Tit", "Bk", "Ch", "Sub-Chap", "Art", "Sec", "Par", "Sub-Par"]}},
+    {"ORTH": "."},  # with dot
+    {"POS": "NUM"},
+]
+```
+
+This is another pattern where the dot is connected to the word:
+
+```py
+[
+    {
+        "ORTH": {
+            "IN": [
+                "Tit.",
+                "Bk.",
+                "Ch.",
+                "Sub-Chap.",
+                "Art.",
+                "Sec.",
+                "Par.",
+                "Sub-Par.",
+            ]
+        }
+    },
+    {"POS": "NUM"},
+]  # no separate dot
+```
+
+There are many variations. It becomes possible to generate a list of patterns algorithmically and save them to a `*.jsonl` file, e.g.:
+
+```py
+from lextok import Provision
+
+# make patterns
+x = list(Provision.generate())
+
+# configure metadata of patterns made
+ptn = create_pattern_obj(nodes=x[0], label="PRODUCT", id="generic-provision")
+
+# dump list of patterns
+create_pattern_file(file=Path().joinpath("test.jsonl"), patterns=[ptn])
+```
+
