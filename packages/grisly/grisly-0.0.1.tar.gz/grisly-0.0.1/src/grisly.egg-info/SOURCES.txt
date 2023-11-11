@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/grisly/__init__.py
+src/grisly/__version__.py
+src/grisly.egg-info/PKG-INFO
+src/grisly.egg-info/SOURCES.txt
+src/grisly.egg-info/dependency_links.txt
+src/grisly.egg-info/top_level.txt
+tests/test_grisly.py
