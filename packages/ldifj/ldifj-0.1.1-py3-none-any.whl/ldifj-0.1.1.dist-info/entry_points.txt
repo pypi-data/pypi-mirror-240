@@ -1,0 +1,2 @@
+[console_scripts]
+ldifj = ldifj:main
