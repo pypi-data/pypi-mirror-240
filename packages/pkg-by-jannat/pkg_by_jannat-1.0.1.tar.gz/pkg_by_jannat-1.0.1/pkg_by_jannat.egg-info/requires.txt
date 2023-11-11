@@ -1,0 +1,5 @@
+numpy
+scipy
+gradio
+sphinx
+sphinx-rtd-theme

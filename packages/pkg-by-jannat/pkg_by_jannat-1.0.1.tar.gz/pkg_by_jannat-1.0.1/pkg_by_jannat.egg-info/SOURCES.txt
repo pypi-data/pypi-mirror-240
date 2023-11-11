@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pkg_by_jannat.egg-info/PKG-INFO
+pkg_by_jannat.egg-info/SOURCES.txt
+pkg_by_jannat.egg-info/dependency_links.txt
+pkg_by_jannat.egg-info/requires.txt
+pkg_by_jannat.egg-info/top_level.txt
