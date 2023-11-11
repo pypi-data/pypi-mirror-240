@@ -1,0 +1,11 @@
+.gitignore,sha256=zbyuFRBda3geYggTx5x-hodA1OnMU85vX8u8Ejh630s,2
+protobom_py-0.1b1.dist-info/METADATA,sha256=RifDXGIfsL7a53bnqfpy0RAnVQ2RGUmtzsFRsiN0zLo,15202
+protobom_py-0.1b1.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+protobom_py-0.1b1.dist-info/licenses/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+protobom_py/__init__.py,sha256=2zwhCBcu53TiRInt-x87iiE-CGnZHtyf9FKlSS86dHk,2120
+protobom_py/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+protobom_py/sbom.proto,sha256=s5Tc0j04zrOXXKFyeTGHYXeD7tEkS9zhTWz31ssPIeU,7075
+protobom_py/sbom_pb2.py,sha256=IiPsYlbY4So0AiUh1t626waHLfHm1r1MeNjCWZMV8b8,10486
+protobom_py/sbom_pb2.pyi,sha256=LNci6puG5jYXSGmxa3bxLV13edKoraSTUauB0SeScLU,17364
+protobom_py/writer.wasm,sha256=VH5tU3-Ae17zF2sbQ-8isd2AH-ZHRAwKlcBH5_JpL1Q,10693633
+protobom_py-0.1b1.dist-info/RECORD,,
