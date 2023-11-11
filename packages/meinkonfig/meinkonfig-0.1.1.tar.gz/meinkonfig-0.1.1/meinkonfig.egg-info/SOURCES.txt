@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+meinkonfig/__init__.py
+meinkonfig/konfig.py
+meinkonfig.egg-info/PKG-INFO
+meinkonfig.egg-info/SOURCES.txt
+meinkonfig.egg-info/dependency_links.txt
+meinkonfig.egg-info/requires.txt
+meinkonfig.egg-info/top_level.txt

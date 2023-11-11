@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: meinkonfig
+Version: 0.1.1
+Summary: YAML config reader
+Home-page: https://github.com/vodyanoy420/meinkonfig
+Author: vodyanoy
+Author-email: vodyanoy420@gmail.com
+Maintainer: vodyanoy
+Maintainer-email: vodyanoy420@gmail.com
+License: MIT
+Keywords: config,yaml,yamlconfig,meinkonfig
+Platform: Linux
+Platform: Unix
+Platform: Mac OS
+Platform: Windows
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools~=68.2.0
+Requires-Dist: PyYAML~=6.0.1
+Requires-Dist: python-dotenv~=1.0.0
+Requires-Dist: pathlib~=1.0.1
+Requires-Dist: easydict~=1.11
+
+### Usage example
+
+You can use .env $ENVVARIABLE variables in a YAML file.
+They will be automatically replaced with environment variables.
+
+```python
+from meinkonfig import Konfig
+
+cfg = Konfig("configfiles/", "config.yaml")
+cfg.load_konfig()
+print(cfg.config.env)
+```
+Output:
+```python
+ENVTEST
+```
+
+YAML configuration file:
+```yaml
+env: $TEST
+```
+.env file:
+```shell
+TEST="ENVTEST"
+```
