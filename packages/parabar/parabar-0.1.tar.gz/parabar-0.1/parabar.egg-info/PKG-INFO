@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: parabar
+Version: 0.1
+Summary: parabar
+Home-page: https://github.com/mdmould/parabar
+Author: Matthew Mould
+Author-email: mattdmould@gmail.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: pathos
+
+# parabar
