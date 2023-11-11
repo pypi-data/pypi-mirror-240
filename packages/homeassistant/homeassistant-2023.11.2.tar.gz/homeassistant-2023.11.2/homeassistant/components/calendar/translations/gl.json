@@ -1,0 +1,11 @@
+{
+    "services": {
+        "create_event": {
+            "fields": {
+                "summary": {
+                    "description": "Define o resumo curto ou o asunto para o evento."
+                }
+            }
+        }
+    }
+}

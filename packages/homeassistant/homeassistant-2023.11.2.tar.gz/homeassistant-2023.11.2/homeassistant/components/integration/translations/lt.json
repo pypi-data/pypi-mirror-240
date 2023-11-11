@@ -1,0 +1,19 @@
+{
+    "selector": {
+        "method": {
+            "options": {
+                "left": "Kairioji Riemanno suma",
+                "right": "De\u0161inioji Riemanno suma",
+                "trapezoidal": "Trapecijos taisykl\u0117"
+            }
+        },
+        "unit_time": {
+            "options": {
+                "d": "Dienos",
+                "h": "Valandos",
+                "min": "Minut\u0117s",
+                "s": "Sekund\u0117s"
+            }
+        }
+    }
+}

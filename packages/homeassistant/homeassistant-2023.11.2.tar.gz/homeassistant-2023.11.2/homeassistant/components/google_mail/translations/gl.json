@@ -1,0 +1,11 @@
+{
+    "services": {
+        "set_vacation": {
+            "fields": {
+                "title": {
+                    "description": "O asunto para o correo electr\u00f3nico."
+                }
+            }
+        }
+    }
+}

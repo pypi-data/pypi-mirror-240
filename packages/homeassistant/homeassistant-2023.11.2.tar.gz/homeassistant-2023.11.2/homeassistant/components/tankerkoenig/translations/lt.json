@@ -1,0 +1,71 @@
+{
+    "entity": {
+        "binary_sensor": {
+            "status": {
+                "name": "B\u016bsena"
+            }
+        },
+        "sensor": {
+            "diesel": {
+                "name": "Dyzelinas",
+                "state_attributes": {
+                    "street": {
+                        "name": "Gatv\u0117"
+                    }
+                }
+            },
+            "e10": {
+                "name": "Super E10",
+                "state_attributes": {
+                    "brand": {
+                        "name": "Prek\u0117s \u017eenklas"
+                    },
+                    "city": {
+                        "name": "Miestas"
+                    },
+                    "fuel_type": {
+                        "name": "Kuro tipas"
+                    },
+                    "house_number": {
+                        "name": "Namo numeris"
+                    },
+                    "postcode": {
+                        "name": "Pa\u0161to kodas"
+                    },
+                    "station_name": {
+                        "name": "Stoties pavadinimas"
+                    },
+                    "street": {
+                        "name": "Gatv\u0117"
+                    }
+                }
+            },
+            "e5": {
+                "name": "Super",
+                "state_attributes": {
+                    "brand": {
+                        "name": "Prek\u0117s \u017eenklas"
+                    },
+                    "city": {
+                        "name": "Miestas"
+                    },
+                    "fuel_type": {
+                        "name": "Kuro tipas"
+                    },
+                    "house_number": {
+                        "name": "Namo numeris"
+                    },
+                    "postcode": {
+                        "name": "Pa\u0161to kodas"
+                    },
+                    "station_name": {
+                        "name": "Stoties pavadinimas"
+                    },
+                    "street": {
+                        "name": "Gatv\u0117"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "issues": {
+        "removed_yaml": {
+            "description": "\u201eSpotify\u201c konfig\u016bravimas naudojant YAML buvo pa\u0161alintas. \n\n J\u016bs\u0173 esamos YAML konfig\u016bracijos nenaudoja \u201eHome Assistant\u201c. \n\n Pa\u0161alinkite YAML konfig\u016bracij\u0105 i\u0161 failo configuration.yaml ir i\u0161 naujo paleiskite \u201eHome Assistant\u201c, kad i\u0161spr\u0119stum\u0117te \u0161i\u0105 problem\u0105.",
+            "title": "\u201eSpotify\u201c YAML konfig\u016bracija buvo pa\u0161alinta"
+        }
+    },
+    "system_health": {
+        "info": {
+            "api_endpoint_reachable": "Pasiekiamas \u201eSpotify\u201c API galutinis ta\u0161kas"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "config": {
+        "error": {
+            "complete_pairing_failed": "Nepavyko u\u017ebaigti susiejimo. Prie\u0161 pateikdami i\u0161 naujo \u012fsitikinkite, kad pateiktas PIN kodas yra teisingas, o televizorius vis dar maitinamas ir prijungtas prie tinklo."
+        }
+    }
+}

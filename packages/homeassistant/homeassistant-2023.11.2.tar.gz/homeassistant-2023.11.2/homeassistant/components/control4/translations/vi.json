@@ -1,0 +1,22 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "password": "M\u1eadt kh\u1ea9u",
+                    "username": "T\u00ean \u0111\u0103ng nh\u1eadp"
+                },
+                "description": "Vui l\u00f2ng nh\u1eadp chi ti\u1ebft t\u00e0i kho\u1ea3n Control4 v\u00e0 \u0111\u1ecba ch\u1ec9 IP c\u1ee7a b\u1ed9 \u0111i\u1ec1u khi\u1ec3n c\u1ee5c b\u1ed9 c\u1ee7a b\u1ea1n."
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "scan_interval": "S\u1ed1 gi\u00e2y gi\u1eefa c\u00e1c l\u1ea7n c\u1eadp nh\u1eadt"
+                }
+            }
+        }
+    }
+}

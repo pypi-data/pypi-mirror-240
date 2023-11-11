@@ -1,0 +1,26 @@
+{
+    "config": {
+        "error": {
+            "location_not_found": "Vieta nerasta"
+        },
+        "step": {
+            "geography_by_coords": {
+                "description": "Nor\u0117dami steb\u0117ti platum\u0105 / ilgum\u0105, naudokite \u201eAirVisual\u201c debesies API.",
+                "title": "Sukonfig\u016bruokite geografij\u0105"
+            },
+            "geography_by_name": {
+                "data": {
+                    "city": "Miestas",
+                    "country": "\u0160alis",
+                    "state": "B\u016bsena"
+                },
+                "description": "Nor\u0117dami steb\u0117ti miest\u0105 / valstij\u0105 / \u0161al\u012f, naudokite \u201eAirVisual\u201c debesies API."
+            }
+        }
+    },
+    "issues": {
+        "airvisual_pro_migration": {
+            "title": "{ip_address} dabar yra \u201eAirVisual Pro\u201c integracijos dalis"
+        }
+    }
+}

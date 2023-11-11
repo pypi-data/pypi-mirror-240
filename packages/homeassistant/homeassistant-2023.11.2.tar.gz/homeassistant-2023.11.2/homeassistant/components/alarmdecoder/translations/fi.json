@@ -1,0 +1,25 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Laite on jo m\u00e4\u00e4ritetty"
+        },
+        "error": {
+            "cannot_connect": "Yhteyden muodostaminen ep\u00e4onnistui"
+        },
+        "step": {
+            "protocol": {
+                "data": {
+                    "host": "Palvelin",
+                    "port": "Portti"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "zone_details": {
+                "description": "Anna alueen {zone_number} tiedot. Jos haluat poistaa alueen {zone_number} , j\u00e4t\u00e4 vy\u00f6hykkeen nimi tyhj\u00e4ksi."
+            }
+        }
+    }
+}

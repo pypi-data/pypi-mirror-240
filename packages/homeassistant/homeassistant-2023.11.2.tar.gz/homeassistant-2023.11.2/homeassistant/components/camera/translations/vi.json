@@ -1,0 +1,19 @@
+{
+    "services": {
+        "record": {
+            "fields": {
+                "filename": {
+                    "description": "M\u1eabu t\u00ean t\u1eadp tin. Bi\u1ebfn c\u00f3 s\u1eb5n l\u00e0 `entity_id`. Ph\u1ea3i l\u00e0 mp4."
+                }
+            }
+        },
+        "snapshot": {
+            "fields": {
+                "filename": {
+                    "description": "M\u1eabu t\u00ean t\u1eadp tin. Bi\u1ebfn c\u00f3 s\u1eb5n l\u00e0 `entity_id`."
+                }
+            }
+        }
+    },
+    "title": "M\u00e1y \u1ea3nh"
+}

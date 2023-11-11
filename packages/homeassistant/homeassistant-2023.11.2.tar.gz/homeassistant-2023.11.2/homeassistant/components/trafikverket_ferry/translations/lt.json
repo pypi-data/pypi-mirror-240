@@ -1,0 +1,49 @@
+{
+    "config": {
+        "error": {
+            "incorrect_api_key": "Netinkamas pasirinktos paskyros API raktas",
+            "invalid_route": "Nepavyko rasti mar\u0161ruto su pateikta informacija"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "from": "I\u0161 Uosto",
+                    "time": "Laikas",
+                    "to": "\u012e Uost\u0105",
+                    "weekday": "Darbo dienos"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "departure_from": {
+                "name": "I\u0161vykimas i\u0161"
+            },
+            "departure_modified": {
+                "name": "I\u0161vykimas pakeistas"
+            },
+            "departure_time": {
+                "name": "I\u0161vykimo laikas"
+            },
+            "departure_time_next": {
+                "name": "Kitas i\u0161vykimo laikas"
+            },
+            "departure_time_next_next": {
+                "name": "I\u0161vykimo laikas po"
+            },
+            "departure_to": {
+                "name": "I\u0161vykimas \u012f"
+            }
+        }
+    },
+    "selector": {
+        "weekday": {
+            "options": {
+                "thu": "Ketvirtadienis",
+                "tue": "Antradienis",
+                "wed": "Tre\u010diadienis"
+            }
+        }
+    }
+}

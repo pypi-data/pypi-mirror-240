@@ -1,0 +1,15 @@
+{
+    "selector": {
+        "type": {
+            "options": {
+                "last": "Naujausia atnaujinta",
+                "max": "Maksimalus",
+                "mean": "Aritmetinis vidurkis",
+                "median": "Mediana",
+                "min": "Minimumas",
+                "range": "Statistinis diapazonas",
+                "sum": "Suma"
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "config": {
+        "error": {
+            "no_sites_found": "Nerasta svetaini\u0173, kurias vartotojas gal\u0117t\u0173 valdyti.",
+            "unsupported_controller": "Omada valdiklio versija nepalaikoma."
+        }
+    }
+}

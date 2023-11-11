@@ -1,0 +1,20 @@
+{
+    "config": {
+        "abort": {
+            "unique_id_required": "\u012erenginyje tr\u016bksta unikalaus identifikavimo, reikalingo aptikimui."
+        }
+    },
+    "entity": {
+        "sensor": {
+            "printer": {
+                "state": {
+                    "printing": "Spausdinimas",
+                    "stopped": "Sustabdytas"
+                }
+            },
+            "uptime": {
+                "name": "Veiklos laikas"
+            }
+        }
+    }
+}

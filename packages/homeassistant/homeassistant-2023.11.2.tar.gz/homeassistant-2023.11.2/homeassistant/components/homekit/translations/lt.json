@@ -1,0 +1,20 @@
+{
+    "options": {
+        "step": {
+            "advanced": {
+                "title": "I\u0161pl\u0117stin\u0117 konfig\u016bracija"
+            },
+            "init": {
+                "data": {
+                    "mode": "HomeKit re\u017eimas"
+                },
+                "description": "\u201eHomeKit\u201c galima sukonfig\u016bruoti taip, kad b\u016bt\u0173 atskleistas tiltas arba vienas priedas. Priedo re\u017eimu galima naudoti tik vien\u0105 objekt\u0105. Priedo re\u017eimas reikalingas, kad medijos leistuvai su TV arba RECEIVER \u012frengini\u0173 klase tinkamai veikt\u0173. Objektai, esantys \u201e\u012etrauktini domenai\u201c, bus \u012ftraukti \u012f \u201eHomeKit\u201c. Kitame ekrane gal\u0117site pasirinkti, kuriuos objektus \u012ftraukti arba ne\u012ftraukti \u012f \u0161\u012f s\u0105ra\u0161\u0105."
+            }
+        }
+    },
+    "services": {
+        "reset_accessory": {
+            "name": "Atstatyti pried\u0105"
+        }
+    }
+}

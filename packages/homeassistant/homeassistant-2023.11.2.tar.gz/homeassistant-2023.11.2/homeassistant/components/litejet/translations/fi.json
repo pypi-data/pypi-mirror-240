@@ -1,0 +1,19 @@
+{
+    "config": {
+        "abort": {
+            "single_instance_allowed": "Jo m\u00e4\u00e4ritetty. Vain yksi konfiguraatio mahdollinen."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "port": "Portti"
+                }
+            }
+        }
+    },
+    "issues": {
+        "deprecated_yaml_serial_exception": {
+            "description": "LiteJetin konfigurointi YAML:n avulla poistetaan, mutta YAML-konfiguraatiota tuotaessa, sarjaportin avaamisessa tapahtui virhe.\n\nKorjaa YAML-konfiguraatio ja k\u00e4ynnist\u00e4 Home Assistant uudelleen yritt\u00e4\u00e4ksesi uudelleen tai jatka manuaalisesti [integraation m\u00e4\u00e4ritt\u00e4minen]({url})."
+        }
+    }
+}

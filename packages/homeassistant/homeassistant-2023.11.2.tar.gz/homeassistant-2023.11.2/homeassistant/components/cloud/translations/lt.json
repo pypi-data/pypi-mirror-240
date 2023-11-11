@@ -1,0 +1,24 @@
+{
+    "services": {
+        "remote_connect": {
+            "description": "Padaro egzemplioriaus vartotojo s\u0105saj\u0105 pasiekiam\u0105 i\u0161 vietinio tinklo rib\u0173, naudojant \u201eHome Assistant Cloud\u201c."
+        }
+    },
+    "system_health": {
+        "info": {
+            "alexa_enabled": "\u201eAlexa\u201c \u012fjungta",
+            "can_reach_cert_server": "Pasiekite sertifikat\u0173 server\u012f",
+            "can_reach_cloud": "Pasiekite \u201eHome Assistant Cloud\u201c.",
+            "can_reach_cloud_auth": "Pasiekite autentifikavimo server\u012f",
+            "certificate_status": "Sertifikato b\u016bsena",
+            "google_enabled": "\u201eGoogle\u201c \u012fjungta",
+            "instance_id": "Atvejo ID",
+            "logged_in": "Prisijung\u0119s",
+            "relayer_connected": "Relayer prijungtas",
+            "relayer_region": "Relayer regionas",
+            "remote_connected": "Nuotolinis prijungtas",
+            "remote_enabled": "Nuotolinis \u012fjungtas",
+            "subscription_expiration": "Prenumeratos galiojimo laikas"
+        }
+    }
+}

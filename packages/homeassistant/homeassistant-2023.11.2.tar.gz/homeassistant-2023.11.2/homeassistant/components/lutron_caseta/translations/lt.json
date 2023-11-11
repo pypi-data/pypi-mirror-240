@@ -1,0 +1,41 @@
+{
+    "config": {
+        "step": {
+            "import_failed": {
+                "title": "Nepavyko importuoti \u201eCas\u00e9ta\u201c tilto konfig\u016bracijos."
+            }
+        }
+    },
+    "device_automation": {
+        "trigger_subtype": {
+            "button_1": "Pirmas mygtukas",
+            "button_2": "Antras mygtukas",
+            "button_3": "Tre\u010dias mygtukas",
+            "button_4": "Ketvirtas mygtukas",
+            "close_1": "U\u017edaryti 1",
+            "close_2": "U\u017edaryti 2",
+            "close_3": "U\u017edaryti 3",
+            "close_4": "U\u017edaryti 4",
+            "close_all": "U\u017edaryti visus",
+            "group_1_button_1": "Pirmosios grup\u0117s pirmasis mygtukas",
+            "group_1_button_2": "Pirmos grup\u0117s antrasis mygtukas",
+            "group_2_button_1": "Antros grup\u0117s pirmasis mygtukas",
+            "group_2_button_2": "Antros grup\u0117s antrasis mygtukas",
+            "lower": "\u017demesnis",
+            "lower_1": "Apatinis 1",
+            "lower_2": "Apatinis 2",
+            "lower_3": "Apatinis 3",
+            "lower_4": "Apatinis 4",
+            "lower_all": "Nuleiskite visus",
+            "off": "I\u0161jungta",
+            "on": "\u012ejungta",
+            "open_1": "Atidaryti 1",
+            "open_2": "Atidaryti 2",
+            "open_3": "Atidaryti 3",
+            "open_4": "Atidaryti 4",
+            "open_all": "Atidaryti visus",
+            "raise": "Pakelti",
+            "raise_1": "Pakelti 1"
+        }
+    }
+}

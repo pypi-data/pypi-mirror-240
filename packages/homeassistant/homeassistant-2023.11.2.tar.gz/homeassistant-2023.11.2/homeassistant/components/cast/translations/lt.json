@@ -1,0 +1,12 @@
+{
+    "services": {
+        "show_lovelace_view": {
+            "fields": {
+                "view_path": {
+                    "description": "Rodomo prietais\u0173 skydelio rodinio kelias.",
+                    "name": "\u017di\u016br\u0117ti keli\u0105"
+                }
+            }
+        }
+    }
+}

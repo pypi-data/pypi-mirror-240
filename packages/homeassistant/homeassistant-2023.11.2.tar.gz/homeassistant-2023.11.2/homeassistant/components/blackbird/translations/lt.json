@@ -1,0 +1,12 @@
+{
+    "services": {
+        "set_all_zones": {
+            "fields": {
+                "source": {
+                    "name": "\u0160altinis"
+                }
+            },
+            "name": "Nustatykite visas zonas"
+        }
+    }
+}
