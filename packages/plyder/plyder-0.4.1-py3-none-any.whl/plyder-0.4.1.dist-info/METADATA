@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: plyder
+Version: 0.4.1
+Summary: Download manager with web-interface.
+Home-page: https://github.com/kpj/plyder
+License: MIT
+Author: kpj
+Author-email: kim.philipp.jablonski@gmail.com
+Requires-Python: >=3.9.0,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=2.11.3,<4.0.0)
+Requires-Dist: PyYAML (>=5.4.1,<7.0.0)
+Requires-Dist: aiofiles (>=0.6,<23.2)
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: fastapi (>=0.104.0,<0.105.0)
+Requires-Dist: humanize (>=3.3,<5.0)
+Requires-Dist: jsonschema (>=3.2,<5.0)
+Requires-Dist: loguru (>=0.5.3,<0.7.0)
+Requires-Dist: mega.py (>=1.0.8,<2.0.0)
+Requires-Dist: psutil (>=5.8.0,<6.0.0)
+Requires-Dist: pydantic (>=2,<3)
+Requires-Dist: sh (>=1.14.1,<3.0.0)
+Requires-Dist: uvicorn (>=0.13.4,<0.22.0)
+Project-URL: Repository, https://github.com/kpj/plyder
+Description-Content-Type: text/markdown
+
+# plyder
+
+[![PyPI](https://img.shields.io/pypi/v/plyder.svg?style=flat)](https://pypi.python.org/pypi/plyder)
+[![Tests](https://github.com/kpj/plyder/workflows/Tests/badge.svg)](https://github.com/kpj/plyder/actions)
+
+Download manager with web-interface.
+
+<img src="gallery/web-interface.png" width="100%">
+
+
+## Installation
+
+```python
+$ pip install plyder
+```
+
+
+## Usage
+
+```bash
+$ plyder
+```
+
+`plyder` works out of the box. Though you might want to adapt the configuration to your taste.
+
+### Custom download scripts
+
+Custom download scripts can be specified in the configuration file:
+
+```yaml
+download_handlers:
+    - ./github_downloader.sh
+```
+
+`./github_downloader.sh` needs to be an executable script of the following form:
+
+```bash
+#!/usr/bin/env bash
+# PLYDER_HOST: <host to match>
+
+url="$1"
+output_dir="$2"
+
+<custom logic>
+```
+
+See `plyder/download_providers/` for built-in examples.
+
+### Prometheus integration
+
+`plyder` exposes the `/metric` resource which allows monitoring download counts and system usage using [Prometheus](https://prometheus.io/) and, e.g., [Grafana](https://grafana.com/).
