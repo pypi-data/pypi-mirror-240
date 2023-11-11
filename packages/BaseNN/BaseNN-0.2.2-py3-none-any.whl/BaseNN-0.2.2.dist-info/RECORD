@@ -1,0 +1,17 @@
+BaseNN/BaseNN.py,sha256=nlu_szMws5uYt_5ebpWTSphV8-8vKVJqhURpOSfz2XE,43869
+BaseNN/BaseNN1219.py,sha256=jYmeB14KulsZmWf6yUSgit7eqUs3eIayNuGYV6LLWk8,15714
+BaseNN/__init__.py,sha256=guem7Ujcb_WlpDw96fqYcsXeUlhee3Qk43HFGS_GNoQ,270
+BaseNN/load_data.py,sha256=yOufLLTHzB2zGz8xLNA-QYMgZPGe_6gXtROfO0_4wgc,4805
+BaseNN/version.py,sha256=aavQjPEOnXYJlVrchON9aXVlk1eCgJr-lRv5_IEB7bo,1256
+BaseNN/examples/BaseNN_demo.py,sha256=CWxLX-ncWr1bxFnvPUu4xqdf7HL1s-Ij-Bpk5MBeW6U,21918
+BaseNN/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BaseNN/examples/gradio_demo.py,sha256=UW9AlJ0Oi02M2oOWuo0EeLdNcejcX9r5r9gMWJQvGAs,13023
+BaseNN/examples/lstmdemo.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BaseNN/examples/pkl2pth.py,sha256=JpDbpX7s2_LWOPl704uAyllCRpfPcoRbiKRwXAeftHU,3059
+BaseNN/examples/transformer_demo.py,sha256=4hbz9I87kwqBunHi80TvYlhqYjhHOWiRF1gGM6oUTb8,1796
+BaseNN-0.2.2.dist-info/METADATA,sha256=LEhINyiQmbQoYfhfy_HZzRfvlXnwjmVb90MwReeXBGM,525
+BaseNN-0.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+BaseNN-0.2.2.dist-info/entry_points.txt,sha256=pf-u5E7AWHjRNq2eODQU6r1hiT6ZSO0DIXewaNl0VpI,49
+BaseNN-0.2.2.dist-info/top_level.txt,sha256=TbQdvHXKrh-0U9sGrdJNqn5GirdB7VwLYvpTMrtSCfo,7
+BaseNN-0.2.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+BaseNN-0.2.2.dist-info/RECORD,,
