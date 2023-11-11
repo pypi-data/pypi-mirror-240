@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pattern-optimized-routes
+Version: 0.1.5
+Summary: Package to simulate the MultilevelERU (Expected Road Usage) model and the literature baselines results on a road network with a traffic demand.
+Home-page: https://github.com/lwdovico/pattern-optimized-routes
+Author: Ludovico Lemma
+Author-email: lwdovico@protonmail.com
+License: MIT
+Keywords: Utils
+License-File: LICENSE
+
+Multilevel Expected Road Usage
+==============================
+
+This framework was developed throughout the research for my master's
+degree. It consists of an alternative routing strategy based on the road
+usage pattern. I called it Multilevel Expected Road Usage, it is
+designed to increase path diversity and reduce CO2 emissions in urban
+scenarios. The package includes a way to test, simulate, and reproduce
+results on a real traffic demand.
+
+Getting started
+---------------
+
+The library makes extensive use of
+`SUMO <https://sumo.dlr.de/docs/Installing/index.html>`__ and another
+library I collaborated to develop
+(`routing_lib <https://github.com/lwdovico/routing-lib>`__).
+
+Pypi
+~~~~
+
+To install the framework you can just open a terminal with pip installed
+and then digit:
+
+::
+
+   pip install pattern-optimized-routes
+
+Import the library
+~~~~~~~~~~~~~~~~~~
+
+On Python, you can import the library by digiting:
+
+::
+
+   import meru
+
+There are 5 modules available:
+
+-  multilevel.py contains the code of the algorithm and the utilities to
+   make it work
+-  baselines.py contains a class to run other algorithms from
+   `routing_lib <https://github.com/lwdovico/routing-lib>`__
+-  simulate.py contains a few functions to start a
+   `SUMO <https://sumo.dlr.de/docs/Installing/index.html>`__ simulation
+-  extract_measures.py allows the extraction of a set of useful
+   quantitative and qualitative measures out of the raw paths
+-  testing.py contains the function to run the simulation with
+   customizable settings (the default parameters are those of my
+   research)
