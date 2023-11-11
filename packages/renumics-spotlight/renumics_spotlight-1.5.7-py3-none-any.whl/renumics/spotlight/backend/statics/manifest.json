@@ -1,0 +1,28 @@
+{
+  "_lib-16a45650.cjs": {
+    "file": "lib-16a45650.cjs"
+  },
+  "_lib-e8a83cf6.js": {
+    "file": "lib-e8a83cf6.js"
+  },
+  "src/lib.ts": {
+    "file": "lib.cjs",
+    "imports": [
+      "_lib-16a45650.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/lib.ts"
+  },
+  "src/main.tsx": {
+    "file": "main.cjs",
+    "imports": [
+      "_lib-16a45650.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
