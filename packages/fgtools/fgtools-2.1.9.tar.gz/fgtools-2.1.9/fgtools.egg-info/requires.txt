@@ -1,0 +1,9 @@
+scipy
+shapely
+pyproj
+plum-dispatch
+tqdm
+requests
+
+[:python_version < "3.9"]
+importlib-resources
