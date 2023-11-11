@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+MetaVersion.egg-info/PKG-INFO
+MetaVersion.egg-info/SOURCES.txt
+MetaVersion.egg-info/dependency_links.txt
+MetaVersion.egg-info/requires.txt
+MetaVersion.egg-info/top_level.txt

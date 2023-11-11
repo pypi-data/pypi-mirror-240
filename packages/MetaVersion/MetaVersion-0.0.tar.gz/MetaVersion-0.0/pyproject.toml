@@ -1,0 +1,48 @@
+[build-system]
+#requires = ["setuptools", "setuptools-scm"]
+#build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MetaVersion"
+version = "0.0"
+description = "Source control on top of source control."
+readme = "README.md"
+license = {file = "LICENSE.md"}
+requires-python = ">=3.9"
+dependencies = [
+    "dataclasses-json",
+    "importlib-resources",
+    "python-ulid",
+    "strsimpy",
+    "reflink",
+    "xattr",
+]
+authors = [
+    {name = "Nate Skulic", email = "nate.skulic@gmail.com"},
+]
+#packages = [
+#    { include = "metaversion", from="python" },
+#]
+
+[project.optional-dependencies]
+qt = [
+    "QScintilla",
+    "PyQt-builder",
+    "pyqt5",
+    "PyQt5-sip",
+    "PyQtAds",
+    "sip",
+]
+qt-help = [
+    # for build-into documentation
+    "PyQtWebEngine"
+]
+test = [
+    "pytest",
+    "pytest-cov ~=3.0.0",
+]
+build-docs = [
+    "sphinx-book-theme"
+]
