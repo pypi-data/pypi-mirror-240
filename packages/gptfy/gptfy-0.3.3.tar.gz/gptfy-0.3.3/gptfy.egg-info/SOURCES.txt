@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+gptfy/__init__.py
+gptfy/client.py
+gptfy/colors.py
+gptfy/conversation.py
+gptfy/dalle.py
+gptfy/model.py
+gptfy.egg-info/PKG-INFO
+gptfy.egg-info/SOURCES.txt
+gptfy.egg-info/dependency_links.txt
+gptfy.egg-info/requires.txt
+gptfy.egg-info/top_level.txt
