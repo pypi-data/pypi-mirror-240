@@ -1,0 +1,17 @@
+gguf/__init__.py,sha256=ml4NG-A3Gk1eE9XLjFmFhG4ci3W-2Ya6xlg1dRFY-nI,130
+gguf/constants.py,sha256=jdUrPPsou4khOTH5qrJCQxS1qCV9hwYxHBdti2NfjuY,14741
+gguf/gguf.py,sha256=8MDu7a0JEXhLUv_tjhYqDrWubVNc41cFvBYZbkZZenI,478
+gguf/gguf_reader.py,sha256=npZeFcprT5HyMuULbqfBXmFrzkbMH1bmjHluE0Lo0_k,10475
+gguf/gguf_writer.py,sha256=mX59adb2z1tVuxRrTwyEusX4UNKfpKoukSlL3e6UCwM,15252
+gguf/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gguf/tensor_mapping.py,sha256=jw6xIwbqcwvOb4l3-1tDrjRHnYoa5JeTCZSSnY8rsC0,11697
+gguf/vocab.py,sha256=0Zf84khVcqcNvHsvd74pT8VY-XmJUbw_U5mt2CaWiXM,6427
+scripts/__init__.py,sha256=RhXakmMRmegAc8j_GL-wwtk0xPx6q6mTJXMxsLJaYVU,347
+scripts/gguf-convert-endian.py,sha256=nGfuiy5TGvmIuCn5eScfs67K_rT1_wrRCX6nn63GZKs,4481
+scripts/gguf-dump.py,sha256=4MPf9K7RsEM2PUVA2M6WMsFlPnPJXSgirHlclqnidMo,4813
+scripts/gguf-set-metadata.py,sha256=N1ImjYoLTRbVabTyXUw4XEzgExjTC_qp25XKmU7lXck,3887
+gguf-0.5.0.dist-info/LICENSE,sha256=73jH5mWeNMeYGU8NNE6AfHIt5wy8oTWe9UdyZh4Ryjg,1072
+gguf-0.5.0.dist-info/METADATA,sha256=M939f-_7Eyr8ehDM_i-4HPyAfUOp24q0AphyZyaTGz4,3097
+gguf-0.5.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+gguf-0.5.0.dist-info/entry_points.txt,sha256=nI8pWBwADLVEEJpX_zHdvlrAcGfjksn7bTfuQpi4OfE,172
+gguf-0.5.0.dist-info/RECORD,,
