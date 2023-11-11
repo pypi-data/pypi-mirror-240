@@ -1,0 +1,1 @@
+from ascraper.ascraper import scrapa,Filter,File,ScrapAManual

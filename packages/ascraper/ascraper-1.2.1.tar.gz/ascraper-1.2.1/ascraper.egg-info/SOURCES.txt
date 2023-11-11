@@ -1,0 +1,8 @@
+setup.py
+ascraper/__init__.py
+ascraper/ascraper.py
+ascraper.egg-info/PKG-INFO
+ascraper.egg-info/SOURCES.txt
+ascraper.egg-info/dependency_links.txt
+ascraper.egg-info/not-zip-safe
+ascraper.egg-info/top_level.txt
