@@ -1,0 +1,28 @@
+{
+  "_lib-25409e09.js": {
+    "file": "lib-25409e09.js"
+  },
+  "_lib-5805c55d.cjs": {
+    "file": "lib-5805c55d.cjs"
+  },
+  "src/lib.ts": {
+    "file": "lib.cjs",
+    "imports": [
+      "_lib-5805c55d.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/lib.ts"
+  },
+  "src/main.tsx": {
+    "file": "main.cjs",
+    "imports": [
+      "_lib-5805c55d.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
