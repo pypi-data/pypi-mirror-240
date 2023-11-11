@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: featureranker
+Version: 1.0.1
+Summary: Feature ranking ensemble
+Home-page: https://github.com/lhallee/feature-ranker
+License: CC-BY-NC-SA-4.0
+Keywords: feature, ranker, sklearn
+Author: Logan Hallee
+Author-email: lhallee@udel.edu
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: matplotlib (>=3.8.1,<4.0.0)
+Requires-Dist: numpy (>=1.26.0,<2.0.0)
+Requires-Dist: pandas (>=2.1.1,<3.0.0)
+Requires-Dist: scikit-learn (>=1.3.2,<2.0.0)
+Requires-Dist: scipy (>=1.11.2,<2.0.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Requires-Dist: xgboost (>=2.0.1,<3.0.0)
+Project-URL: Repository, https://github.com/lhallee/feature-ranker
+Description-Content-Type: text/markdown
+
+# feature_ranking
+ 
+
