@@ -1,0 +1,17 @@
+Cython
+numpy
+pandas
+scipy
+biocframe==0.3.20
+singlecellexperiment==0.3.3
+summarizedexperiment==0.3.7
+anndata
+mudata
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
