@@ -1,0 +1,14 @@
+nxsconfigserver/ComponentParser.py,sha256=oUEy3_0Q77992pAxR3k8CxzF5UP4hwc2beHYh9v-mJU,7745
+nxsconfigserver/Errors.py,sha256=zFZlQNbZV6UlbGGBV149j1DQbPXAkTmYVgaR1QRIXP8,1956
+nxsconfigserver/MYSQLDataBase.py,sha256=54bFG4KFLMkVYMme3bcybve24qgsxKTvCo7vP6RDjTI,22755
+nxsconfigserver/Merger.py,sha256=oIxvotlqagfEbnchbp1KQKH0UMINbrTyN8OgA8d73O4,21172
+nxsconfigserver/NXSConfigServer.py,sha256=g894NApWFK3RS8MCuZd4HR6K8DCbs0sE-gYLZ9Q0OoI,44001
+nxsconfigserver/Release.py,sha256=S2n8-q2uKW9zd2W34uko6MaiX6Ird3xkho2_gyPNeBM,895
+nxsconfigserver/StreamSet.py,sha256=sSvXJxoDufmt9_Xu5rFaQsp_4x9gww_zMv0NTiiyLlg,5799
+nxsconfigserver/XMLConfigurator.py,sha256=XitDApCprP0Em17Gi2w8J_XFm8RiH3VlyOvc7vlYeiA,34163
+nxsconfigserver/__init__.py,sha256=dAvNwdxRsIARsH--JgJBAxzyaX3KPzZNStQ6B7SLbjI,1718
+nxsconfigserver-2.15.0.data/scripts/NXSConfigServer,sha256=VEAkby0R6UyckF-OofkVDPx3Mkn6rjPrl2xMbbBXqwo,986
+nxsconfigserver-2.15.0.dist-info/METADATA,sha256=TANGG9uRLLzLx3_j23zgAvk_5S9HW4uKaKdjGwTxezg,14299
+nxsconfigserver-2.15.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+nxsconfigserver-2.15.0.dist-info/top_level.txt,sha256=TFz-xXdq3yV2iwY44R0uY1F-zqwYDnOmcJlN9kdo1S8,16
+nxsconfigserver-2.15.0.dist-info/RECORD,,
