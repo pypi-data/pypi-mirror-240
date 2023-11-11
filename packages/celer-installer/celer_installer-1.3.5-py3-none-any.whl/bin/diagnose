@@ -1,0 +1,145 @@
+#!/usr/bin/env python
+import os
+import sys
+
+def check_file_exists(file_path):
+    if not os.path.exists(file_path):
+        print(f"{file_path} not found.")
+        sys.exit(1)
+
+def check_pip_dependencies(requirements_file, required_dependencies):
+    with open(requirements_file, 'r') as f:
+        installed_dependencies = [line.strip() for line in f.readlines()]
+        for dependency in required_dependencies:
+            if dependency not in installed_dependencies:
+                print(f"Pip dependency {dependency} not found in {requirements_file}.")
+                sys.exit(1)
+
+def check_env_variables(env_file, env_variables):
+    try:
+        with open(env_file, 'r') as f:
+            env_data = {}
+            for line in f:
+                key, value = map(str.strip, line.split('=', 1))
+                env_data[key] = value
+
+            missing_keys = [key for key in env_variables if key not in env_data]
+            if missing_keys:
+                print("The following keys are missing in the .env file: " + ', '.join(missing_keys))
+                sys.exit(1)
+    except FileNotFoundError:
+        print(f"{env_file} not found.")
+        sys.exit(1)
+
+def check_server_env(server_env_file, required_keys):
+    try:
+        with open(server_env_file, 'r') as f:
+            server_env_content = f.read()
+
+        missing_keys = [key for key in required_keys if f"{key}=" not in server_env_content]
+        if missing_keys:
+            print("The following required keys are missing in the server.env file: " + ', '.join(missing_keys))
+    except FileNotFoundError:
+        print(f"{server_env_file} not found.")
+        sys.exit(1)
+
+if len(sys.argv) > 1:
+    target_directory = sys.argv[1]
+else:
+    print("Directory not found.")
+    sys.exit(1)
+
+os.chdir(os.path.join(os.getcwd(), target_directory))
+
+required_files = ['.env', 'server.env', 'requirements.txt']
+
+for file in required_files:
+  check_file_exists(file)
+  
+  def check_either_x_or_y_exists(x_file, y_file):
+    x_exists = os.path.exists(x_file)
+    y_exists = os.path.exists(y_file)
+
+    if x_exists and y_exists:
+        print("Both Celer server and Celer server | Sqlite3 files exist. Only one should exist.")
+        return False
+        sys.exit(1)
+    elif not x_exists and not y_exists:
+        print("Neither Celer server nor Celer server | Sqlite3. At least one should exist.")
+        sys.exit(1)
+        return False
+
+x_file = "celer-server.py"
+y_file = "celer-server-sqlite3.py"
+check_either_x_or_y_exists(x_file, y_file)
+
+
+requirements_file = 'requirements.txt'
+required_pip_dependencies = [
+    "async-timeout==4.0.3",
+    "certifi==2023.5.7",
+    "chardet==5.1.0",
+    "charset-normalizer==3.1.0",
+    "click==8.1.6",
+    "cloudpickle==2.2.1",
+    "distlib==0.3.7",
+    "filelock==3.12.2",
+    "fsspec==2023.6.0",
+    "GenDoc==1.0.1",
+    "greenlet==2.0.2",
+    "idna==3.4",
+    "importlib-metadata==6.8.0",
+    "inflection==0.5.1",
+    "locket==1.0.0",
+    "mbstrdecoder==1.1.2",
+    "packaging==23.1",
+    "partd==1.4.0",
+    "platformdirs==3.10.0",
+    "prettytable==3.7.0",
+    "profanityfilter==2.0.6",
+    "prompt-toolkit==3.0.38",
+    "protobuf==3.20.3",
+    "pyaes==1.6.1",
+    "pycryptodome==3.18.0",
+    "PyYAML==6.0.1",
+    "redis==4.5.5",
+    "requests==2.31.0",
+    "secure-smtplib==0.1.1",
+    "sqlvalidator==0.0.20",
+    "toolz==0.12.0",
+    "typing_extensions==4.7.1",
+    "urllib3==2.0.3",
+    "wcwidth==0.2.6",
+    "zipp==3.16.2",
+]
+
+check_pip_dependencies(requirements_file, required_pip_dependencies)
+
+env_file = '.env'
+env_variables = {
+    'redis_host': 'localhost',
+    'redis_port': '6379',
+    'redis_password': '',
+    'redis_username': '',
+    'redis_ssl': 'false',
+    'enable_deleteTable': 'off',
+    'enable_truncateTable': 'on',
+    'enable_deleteTableRow': 'on',
+    'enable_deleteCol': 'on',
+}
+check_env_variables(env_file, env_variables)
+
+server_env_file = 'server.env'
+required_server_env_keys = [
+    'api_key',
+    'c',
+    'd',
+    'error_log',
+    'syntax_error_log',
+    'warning_log',
+    'endpoint',
+    'allowed_ip',
+]
+check_server_env(server_env_file, required_server_env_keys)
+
+print("Success")
