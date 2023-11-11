@@ -1,0 +1,3 @@
+[console_scripts]
+ftools=ftools.cli:cli
+
