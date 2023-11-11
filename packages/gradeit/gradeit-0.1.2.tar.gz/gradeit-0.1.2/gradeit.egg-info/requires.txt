@@ -1,0 +1,17 @@
+numpy
+pandas
+requests
+rasterio
+scipy
+tqdm
+shapely
+
+[dev]
+black
+ruff
+mypy
+pytest
+types-requests
+
+[plot]
+matplotlib
