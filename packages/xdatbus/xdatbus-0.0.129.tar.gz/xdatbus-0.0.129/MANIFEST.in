@@ -1,0 +1,2 @@
+include xdatbus/resources/MN_data_file.blend
+prune xdatbus-dev
