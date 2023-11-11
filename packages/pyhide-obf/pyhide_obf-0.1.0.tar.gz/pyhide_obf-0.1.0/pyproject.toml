@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pyhide-obf"
+version = "0.1.0"
+description = "Obfuscate your Source Code before distributing or publishing anywhere"
+authors = ["Bhallamudi Sai Narasimha Abhiram <68442741+abhirambsn@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "pyhide", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.11"
+pycryptodome = "^3.19.0"
+cryptography = "^41.0.5"
+typer = "^0.9.0"
+uncompyle6 = "^3.9.0"
+prompt-toolkit = "^3.0.40"
+
+[tool.poetry.scripts]
+pyhide = "pyhide.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pyhide-obf
+Version: 0.1.0
+Summary: Obfuscate your Source Code before distributing or publishing anywhere
+Author: Bhallamudi Sai Narasimha Abhiram
+Author-email: 68442741+abhirambsn@users.noreply.github.com
+Requires-Python: >=3.7,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: cryptography (>=41.0.5,<42.0.0)
+Requires-Dist: prompt-toolkit (>=3.0.40,<4.0.0)
+Requires-Dist: pycryptodome (>=3.19.0,<4.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Requires-Dist: uncompyle6 (>=3.9.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+# PyHide - Python Obfuscator
+
+PyHide is a python source code obfuscator which uses Marshal Serialization and Fernet Encryption to obfuscate the source code which protects your source code on the web.
+
+**Disclaimer: Obfuscation could also be used for malicious purposes to hide malware, always be careful while executing obfuscated code, use obfuscated code only from trusted sources**
+
+## Requirements
+
+- Python 3.8
+- Poetry
