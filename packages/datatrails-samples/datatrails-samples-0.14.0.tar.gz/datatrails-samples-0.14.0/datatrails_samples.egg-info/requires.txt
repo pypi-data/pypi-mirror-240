@@ -1,0 +1,3 @@
+cryptography~=41.0.2
+datatrails-archivist==0.27.1
+pyyaml~=6.0.1
