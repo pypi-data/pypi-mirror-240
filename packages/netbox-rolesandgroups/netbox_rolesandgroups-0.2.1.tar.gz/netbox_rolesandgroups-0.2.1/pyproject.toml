@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "netbox-rolesandgroups"
+version = "0.2.1"
+description = ""
+authors = ["izakharov <ilya.zakharov@domrf.ru>"]
+readme = "README.md"
+packages = [{include = "netbox_rolesandgroups"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.2"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
