@@ -1,0 +1,227 @@
+#!/usr/bin/env Rscript
+
+library(castor)
+library(ape)
+library(rhdf5)
+library(ggplot2)
+library(reshape2)
+library(cowplot)
+
+# disable warnings
+options(warn = -1)
+
+# example command string to simulate for "sim.1" through "sim.10"
+# cd ~/projects/phyddle/scripts
+# ./sim/R/sim_one.R ../workspace/simulate/R_example 1 10
+
+# arguments
+# args        = commandArgs(trailingOnly = TRUE)
+# out_path    = args[1]
+
+# analysis settings
+num_rep      = 50
+num_trials   = 20
+num_scouts   = 30
+num_states   = 2
+
+# directories
+proj_name    = "R_validation2"
+sim_path     = paste0("../../workspace/simulate/", proj_name, "/")
+fmt_path     = paste0("../../workspace/format/", proj_name, "/")
+est_path     = paste0("../../workspace/estimate/", proj_name, "/")
+out_path     = paste0("../output/", proj_name, "/")
+
+# true/test dataset
+param_true_fn = paste0(est_path, "new.1.test_true.labels.csv")
+param_cnn_fn  = paste0(est_path, "new.1.test_est.labels.csv")
+
+df_true = read.csv(param_true_fn, sep=",", header=T)
+df_cnn  = read.csv(param_cnn_fn, sep=",", header=T)
+df_true = df_true[ 1:num_rep, ]
+df_cnn  = df_cnn[ 1:num_rep, seq(1,ncol(df_cnn),by=3) ]
+param_names = names(df_true)
+names(df_cnn) = param_names
+
+# get test replicate indexes
+test_hdf5_fn  = paste0(fmt_path, "test.nt500.hdf5")
+test_idx      = h5read(file = test_hdf5_fn, name="idx", index=list(NULL))
+test_aux_data = h5read(file = test_hdf5_fn, name="aux_data", index=list(NULL,NULL))
+test_aux_data_names = h5read(file = test_hdf5_fn, name="aux_data_names", index=list(NULL,NULL))
+sample_frac_idx = which(test_aux_data_names=="sample_frac")
+sample_frac   = test_aux_data[sample_frac_idx,]
+rep_idx       = test_idx[1:num_rep]
+
+# files for test replicates
+tmp_fn       = paste0(sim_path, "sim.", rep_idx)  # sim path prefix
+phy_down_fn  = paste0(tmp_fn, ".downsampled.tre") # newick string
+phy_full_fn  = paste0(tmp_fn, ".tre")             # newick string
+dat_fn       = paste0(tmp_fn, ".dat.nex")         # nexus string 
+mle_fn       = paste0("out_mle.csv")
+
+# get MLE for each test replicate
+df_mle = data.frame()
+for (i in 1:num_rep) {
+    
+    print(phy_full_fn[i])
+    
+    # get tree(s) and sampling proportion (important)
+    tree_full_sim = read.tree(phy_full_fn[i])
+    tree_down_sim = read.tree(phy_down_fn[i])
+    n_full = length(tree_full_sim$tip.label)
+    n_down = length(tree_down_sim$tip.label)
+    rho = sample_frac[i]
+    
+    # get states
+    state_sim_df = read.csv(dat_fn[i], header=T)
+    state_sim = state_sim_df$data + 1 # convert to base-1
+    names(state_sim) = state_sim_df$taxa
+    state_sim = state_sim[tree_down_sim$tip.label]
+
+    #par_true = read.csv(df_true[i,], header=T)
+    # center MLE on true value so MLE is as good as possible
+    par_true = unlist(as.vector(df_true[i,]))
+    names(par_true) = NULL
+    
+    par_mle = NULL
+    while (is.null(par_mle)) {
+        par_mle = tryCatch(
+        {
+            birth = par_true[1:2] # runif(num_states, 0, 1)
+            death = par_true[3]
+            Q = get_random_mk_transition_matrix(num_states, rate_model="ER", max_rate=par_true[4])
+            first_guess = list(
+                birth_rates = birth * exp(2 * runif(2, -0.5, 0.5)),
+                death_rates = death * exp(2 * runif(2, -0.5, 0.5)),
+                transition_matrix = exp(Q * runif(1, -0.5, 0.5))
+            )
+            
+            lower=list(
+                birth_rates=0,
+                death_rates=0,
+                transition_matrix=0
+            )
+            # upper=list(
+            #     birth_rates=1,
+            #     death_rates=1,
+            #     transition_matrix=0.1
+            # )
+            
+            #print(first_guess)
+            
+            # get MLE
+            ret=fit_musse(
+                tree=tree_down_sim,
+                tip_pstates=state_sim,
+                birth_rate_model="ARD",
+                death_rate_model="ER",
+                transition_rate_model="ER",
+                sampling_fractions=rho,
+                first_guess=first_guess,
+                #root_conditioning="crown",
+                lower=lower,
+                upper=upper,
+                Nstates=num_states,
+                Ntrials=num_trials,
+                Nscouts=num_scouts,
+                verbose=F,
+                diagnostics=F)
+
+            #print(ret$parameters)
+            ret$parameters
+        },
+        error = function(m) {
+            NULL
+        })
+        
+        # save MLEs
+        out_mle = c( par_mle$birth_rates, par_mle$death_rates[1], par_mle$transition_matrix[1,2])
+        #names(out_mle) = c( paste0("birth_",1:num_states), paste0("death_",1:num_states), "state_rate" )
+        names(out_mle) = param_names
+        df_mle = rbind(df_mle, data.frame(t(out_mle)))
+    }
+}
+
+write.csv(df_mle, file=mle_fn, row.names=FALSE, quote=F)
+
+
+# MAE, MSE, MAPE, etc.
+mae_cnn = colMeans(abs(df_cnn - df_true))
+mse_cnn = colMeans((df_cnn - df_true)^2)
+mape_cnn = colMeans(abs(df_cnn - df_true)/abs(df_true))
+mse_cnn_rand = colMeans((df_cnn - df_true[sample(1:nrow(df_true)),])^2)
+
+mae_mle = colMeans(abs(df_mle - df_true))
+mse_mle = colMeans((df_mle - df_true)^2)
+mape_mle = colMeans(abs(df_mle - df_true)/abs(df_true))
+mse_mle_rand = colMeans((df_mle - df_true[sample(1:nrow(df_true)),])^2)
+
+mae_comp = colMeans(abs(df_mle - df_cnn))
+mse_comp = colMeans((df_mle - df_cnn)^2)
+mape_comp = colMeans(abs(df_mle - df_cnn)/abs(df_cnn))
+mse_comp_rand = colMeans((df_mle - df_cnn[sample(1:nrow(df_cnn)),])^2)
+
+# R^2
+num_params = length(param_names)
+list_mle = list()
+list_cnn = list()
+list_comp = list()
+for (i in 1:num_params) {
+    
+    xx_mle = data.frame(y=df_true[,i], x=df_mle[,i])
+    yy_mle = lm(y~x, data=xx_mle);
+    list_mle[[i]] = list(
+        intercept=yy_mle$coefficients[1],
+        slope=yy_mle$coefficients[2],
+        r2=summary(yy_mle)$r.squared
+    )
+    #r2_mle[i] = 
+    
+    xx_cnn = data.frame(y=df_true[,i], x=df_cnn[,i])
+    yy_cnn = lm(y~x, data=xx_cnn);
+    list_cnn[[i]] = list(
+        intercept=yy_cnn$coefficients[1],
+        slope=yy_cnn$coefficients[2],
+        r2=summary(yy_cnn)$r.squared
+    )
+    #r2_cnn[i] = summary(yy_cnn)$r.squared
+       
+    xx_comp = data.frame(y=df_mle[,i], x=df_cnn[,i])
+    yy_comp = lm(y~x, data=xx_comp);
+    list_comp[[i]] = list(
+        intercept=yy_comp$coefficients[1],
+        slope=yy_comp$coefficients[2],
+        r2=summary(yy_comp)$r.squared
+    )
+    #r2_comp[i] = summary(yy_comp)$r.squared
+}
+
+par(mfrow=c(3,ncol(df_true)) , mai = c(0.5, 0.6, 0.25, 0.25))
+vmax = c()
+for (i in 1:ncol(df_true)) {
+    vmax[i] = max( rbind(df_true, df_cnn, df_mle)[,i] )
+}
+
+for (i in 1:ncol(df_true)) {
+    plot(df_true[,i], df_cnn[,i], xlab="true", ylab="CNN", col="blue", main=param_names[i], xlim=c(0,vmax[i]), ylim=c(0,vmax[i]))
+    text(x=0, y=vmax[i], adj=c(0,1), label=paste("R^2:",round(list_cnn[[i]]$r2, digits=2)))
+    abline(a=0,b=1,col="black",lwd=1)
+    abline(a=list_cnn[[i]]$intercept,b=list_cnn[[i]]$slope,col="blue",lwd=1, lty=1)
+}
+
+for (i in 1:ncol(df_true)) {
+    plot(df_true[,i], df_mle[,i], xlab="true", ylab="MLE", col="red", main=param_names[i], xlim=c(0,vmax[i]), ylim=c(0,vmax[i]))
+    text(x=0, y=vmax[i], adj=c(0,1), label=paste("R^2:",round(list_mle[[i]]$r2, digits=2)))
+    abline(a=0,b=1,col="black",lwd=1)
+    abline(a=list_mle[[i]]$intercept,b=list_mle[[i]]$slope,col="red",lwd=1, lty=1)
+}
+
+for (i in 1:ncol(df_true)) {
+    plot(df_cnn[,i], df_mle[,i], xlab="CNN", ylab="MLE", col="goldenrod", main=param_names[i], xlim=c(0,vmax[i]), ylim=c(0,vmax[i]))
+    text(x=0, y=vmax[i], adj=c(0,1), label=paste("R^2:",round(list_comp[[i]]$r2, digits=2)))
+    abline(a=0,b=1,col="black",lwd=1)
+    abline(a=list_comp[[i]]$intercept,b=list_comp[[i]]$slope,col="goldenrod",lwd=1, lty=1)
+}
+
+
+
+#dev.off()
