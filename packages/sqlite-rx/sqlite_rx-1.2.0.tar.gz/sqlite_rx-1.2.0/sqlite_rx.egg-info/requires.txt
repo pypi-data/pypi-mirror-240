@@ -1,0 +1,9 @@
+msgpack==1.0.7
+pyzmq==25.1.1
+tornado==6.3.3
+billiard==4.2.0
+
+[cli]
+click==8.1.7
+rich==13.6.0
+pygments==2.16.1
