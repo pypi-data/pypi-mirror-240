@@ -1,0 +1,3 @@
+include multiprocnomain/requirements.txt
+include multiprocnomain/thirdparty.json
+include multiprocnomain/README.MD
