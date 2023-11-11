@@ -1,0 +1,1 @@
+Add `ObserveWavelengthBud` that produces a constant equal to the wavelength of the OBSERVE frames.

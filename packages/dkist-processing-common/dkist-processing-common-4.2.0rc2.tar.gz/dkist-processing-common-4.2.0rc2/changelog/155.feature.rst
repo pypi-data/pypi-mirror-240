@@ -1,0 +1,1 @@
+Provide standard methods for more complicated header IP task parsing (e.g., for lamp/solar gain or polcal darks/clears).
