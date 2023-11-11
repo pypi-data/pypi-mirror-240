@@ -1,0 +1,1 @@
+from .shadow_generation import ShadowGenerationModel
