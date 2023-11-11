@@ -1,0 +1,6 @@
+colorama
+pystyle
+pyfiglet
+qrcodeyaspin
+tqdm
+pytz
