@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: django-weekend
+Version: 0.0.6.3
+Summary: A simple library for tracking weekends and working days
+Home-page: https://github.com/MaksimJames/django_weekend
+Author: Maksim Prilepsky
+Author-email: maksimprilepsky@yandex.ru
+License: UNKNOWN
+Project-URL: GitHub, https://github.com/MaksimJames/django_weekend
+Keywords: django calendar settings weekend
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Django_weekend is a Django library that offers a straightforward and adaptable solution for keeping track of weekends and working days. It provides functionality to determine if a particular date falls on a weekend or a working day, making it easy to manage and manipulate dates in Django projects.
+
+
+# Table of contents
+
+- [Installation](#installation)
+- [Setup](#setup)
+- [Usage](#usage)
+
+# Installation
+
+[(Back to top)](#table-of-contents)
+
+- Download and install latest version of django_weekend:
+
+```python
+pip install django_weekend
+```
+
+
+- Add 'django_weekend' application to the INSTALLED_APPS setting of your Django project settings.py file:
+
+```python
+INSTALLED_APPS = (
+    ...
+    'django_weekend',
+)
+```
+
+
+- Create database tables:
+
+```python
+python manage.py migrate django_weekend
+```
+
+
+**⚠ Attension: By default django_weekend makes all days is working days. You can change this here `admin/django_weekend/commonworkingweeksettings/`**
+
+
+# Setup
+
+[(Back to top)](#table-of-contents)
+
+There are three tables for tracking weekends:
+- `CommonWorkingWeekSettings` is used to store working days
+- `ExcludedWeekends` is used to store dates of days that are usually weekends but not on the saved date
+- `Holidays` is used to store holidays dates
+
+First of all, you need to set up you common schedule in `CommonWorkingWeekSettings`. By default, django_weekend sets up all 7 days as working days. However, you can change it as you want.
+
+*NOTE!* django_weekend uses the following available days: `AVAILABLE_DAYS = ('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday')`. Other day names are not available to save.
+
+To add excluded weekends, you can create a new entry in the ExcludedWeekends table. This will allow you to specify dates that are usually weekends but should be treated as working days.
+
+When calculating working days, `CommonWorkingWeekSettings` will be used as the default schedule. However, if a date is listed in the `ExcludedWeekends` table, it will be considered a working day regardless of the settings in `CommonWorkingWeekSettings`.
+
+For adding holidays, you can use the `Holidays` table. This table will override all other settings and mark the specified dates as holidays.
+
+
+# Usage
+
+[(Back to top)](#table-of-contents)
+
+To determine whether a specific date is a weekend or not, you can use the is_weekend_by_date() method provided by the HolidaysWeekendsService class. This method returns a boolean value indicating whether the given date is a weekend or not. Here's an example of how to use it:
+
+After set up all settings you can use this:
+```python
+from django_weekend.services import HolidaysWeekendsService
+
+
+result = HolidaysWeekendsService().is_weekend_by_date(date='2023-11-11')
+```
+In the above code, date='2023-11-11' is the date for which you want to check if it's a weekend or not. The result variable will contain a boolean value indicating whether the date is a weekend (True) or not (False).
+```python
+>>result=True
+```
+
+
+----
+You can also retrieve a list of weekend dates within a specified date range using the get_weekends_by_range() method. To do this, you'll need to import the HolidaysWeekendsService class from the django_weekend.services module.
+
+Here's an example of how to use the get_weekends_by_range() method:
+
+```python
+from django_weekend.services import HolidaysWeekendsService
+
+result = HolidaysWeekendsService().get_weekends_by_range(start_date='2023-11-11', end_date='2023-11-15')
+```
+
+In the code above, the start_date parameter is set to '2023-11-11' and the end_date parameter is set to '2023-11-15'. Calling the get_weekends_by_range() method will return a list of weekend dates within that date range.
+
+For example, the result might be:
+
+```python
+>>result=['2023-11-11', '2023-11-12']
+```
+This means that '2023-11-11' and '2023-11-12' are the weekends within the specified date range.
+
+By utilizing the get_weekends_by_range() method, you can easily obtain a list of weekend dates for a given range in your Django project using the django_weekend library.
+

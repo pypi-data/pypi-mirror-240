@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+django_weekend/__init__.py
+django_weekend/admin.py
+django_weekend/models.py
+django_weekend/services.py
+django_weekend.egg-info/PKG-INFO
+django_weekend.egg-info/SOURCES.txt
+django_weekend.egg-info/dependency_links.txt
+django_weekend.egg-info/top_level.txt
+django_weekend/migrations/0001_initial.py
+django_weekend/migrations/__init__.py
