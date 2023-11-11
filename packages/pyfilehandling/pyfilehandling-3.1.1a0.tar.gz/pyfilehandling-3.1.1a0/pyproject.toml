@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "pyfilehandling"
+version = "3.1.1-alpha"
+description = "A Python package for file manipulation operations."
+authors = ["Jeel Dobariya <dobariyaj34@gmail.com>"]
+license = "MIT"
+homepage = "https://jeeldobariya38.github.io/PyFileHandling/"
+repository = "https://github.com/JeelDobariya38/PyFileHandling"
+documentation = "https://jeeldobariya38.github.io/PyFileHandling/pyfilehandling.html"
+keywords = ['file handling', 'file manipulation', 'file operation', 'utility']
+readme = "README.md"
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Topic :: Software Development :: Libraries :: Python Modules'
+]
+packages = [
+    { include = 'pyfilehandling' }
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/JeelDobariya38/PyFileHandling/issues"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.3"
+coverage = "^7.3.2"
+
+[tool.poetry.group.lint.dependencies]
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
