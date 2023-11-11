@@ -1,0 +1,15 @@
+kappautils/__init__.py,sha256=PrhMUWUb4H62ZPwIzOEQnnoJhIm1rXFEdYvHGRfybcQ,46
+kappautils/amp_utils.py,sha256=9wE2eBMK_ZCAZi6bYb_OL7vI0d9qlHE6BJ_cHj6cTrI,2751
+kappautils/context_managers.py,sha256=wRvggzh5uJLx0xKJP6xuVg1yY1XB2g008YixmQr7oaA,454
+kappautils/memory_leak_utils.py,sha256=xI1GskY4gOOmkM1RGGdFw8vWgjgYru7fSLJw2PlYYUQ,705
+kappautils/model_utils.py,sha256=5XbOPrdmY7Lg942JXmoIA2nUzpMKDQYJir6jRXo0isk,2100
+kappautils/images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kappautils/images/png/__init__.py,sha256=z8EmhqyIDen_k4aIotVcuLyJJ7ss7lsqem7Q0o6JAm8,136
+kappautils/images/png/constants.py,sha256=Xvk0LSX2plgqel_sdgg0XxrZqS7kqPfBpm-dSTzNSdU,4904
+kappautils/images/png/loaders.py,sha256=LvAQqROuojXjd2MY22WD1jjoAJwuGVdHJPwJFrzZjgs,858
+kappautils/images/png/writers.py,sha256=Lf_WyUgEplm5ttOE65iWFow4sv-e-hq8Dihqzijpu2I,530
+kappautils-0.0.0.dist-info/LICENSE,sha256=F6q-pd0r9EQnrkBwbXqlxs8fl-EB0vmCRn9EwNc8Ob8,1092
+kappautils-0.0.0.dist-info/METADATA,sha256=pYHmMX9uT57UpnAbmhrXuD-jHvdS_5aMCBbpL6ZD7CE,768
+kappautils-0.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+kappautils-0.0.0.dist-info/top_level.txt,sha256=UQxlIm9lP6rfElGbN5-vjt06bZpbCPABksYeD8ZQTbc,11
+kappautils-0.0.0.dist-info/RECORD,,
