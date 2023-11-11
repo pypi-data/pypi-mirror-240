@@ -1,0 +1,21 @@
+{
+    "selector": {
+        "days": {
+            "options": {
+                "sun": "domingo"
+            }
+        }
+    },
+    "services": {
+        "check_date": {
+            "description": "Comproba se a data \u00e9 un d\u00eda laborable.",
+            "fields": {
+                "check_date": {
+                    "description": "Data para comprobar se \u00e9 d\u00eda laborable.",
+                    "name": "Data"
+                }
+            },
+            "name": "Comprobar data"
+        }
+    }
+}

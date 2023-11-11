@@ -1,0 +1,23 @@
+{
+    "config": {
+        "error": {
+            "invalid_location": "\u0160iai vietai rezultat\u0173 nerasta, pabandykite pakeisti viet\u0105 arba stoties spindul\u012f."
+        }
+    },
+    "entity": {
+        "sensor": {
+            "station": {
+                "name": "PM2,5 prane\u0161im\u0173 stotis"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "radius": "Stoties spindulys (mylios)"
+                }
+            }
+        }
+    }
+}

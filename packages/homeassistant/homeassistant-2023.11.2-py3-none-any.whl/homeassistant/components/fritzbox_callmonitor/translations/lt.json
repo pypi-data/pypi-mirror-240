@@ -1,0 +1,25 @@
+{
+    "config": {
+        "abort": {
+            "insufficient_permissions": "Vartotojas neturi pakankamai teisi\u0173 pasiekti AVM FRITZ!Box nustatymus ir jo telefon\u0173 knygas."
+        },
+        "step": {
+            "phonebook": {
+                "data": {
+                    "phonebook": "Telefon\u0173 knyga"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "fritzbox_callmonitor": {
+                "state": {
+                    "dialing": "Skambinimas",
+                    "ringing": "Skamb\u0117jimas",
+                    "talking": "Kalb\u0117jimas"
+                }
+            }
+        }
+    }
+}

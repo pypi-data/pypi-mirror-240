@@ -1,0 +1,7 @@
+{
+    "services": {
+        "remove_from_queue": {
+            "description": "Elimina un elemento da cola."
+        }
+    }
+}

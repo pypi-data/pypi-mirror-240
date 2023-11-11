@@ -1,0 +1,12 @@
+{
+    "entity_component": {
+        "_": {
+            "state": {
+                "idle": "Laukiama",
+                "off": "Pripa\u017eintas",
+                "on": "aktyvus"
+            }
+        }
+    },
+    "title": "\u012esp\u0117jimas"
+}

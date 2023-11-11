@@ -1,0 +1,10 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "Nustatykite \u201eBleBox\u201c, kad jis b\u016bt\u0173 integruotas su \u201eHome Assistant\u201c.",
+                "title": "Nustatykite \u201eBleBox\u201c \u012frengin\u012f"
+            }
+        }
+    }
+}

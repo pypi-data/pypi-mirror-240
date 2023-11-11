@@ -1,0 +1,39 @@
+{
+    "config": {
+        "abort": {
+            "webhook_not_internet_accessible": "Norint gauti \u201eWebhook\u201c prane\u0161imus, j\u016bs\u0173 nam\u0173 asistento egzempliorius turi b\u016bti pasiekiamas i\u0161 interneto."
+        }
+    },
+    "services": {
+        "push_alarm_state": {
+            "fields": {
+                "entity_id": {
+                    "name": "Subjekto ID"
+                },
+                "state": {
+                    "name": "B\u016bsena"
+                }
+            }
+        },
+        "trigger": {
+            "description": "Suaktyvina sukonfig\u016bruot\u0105 IFTTT Webhook.",
+            "fields": {
+                "event": {
+                    "description": "\u012evykio, kur\u012f reikia si\u0173sti, pavadinimas.",
+                    "name": "\u012evykis"
+                },
+                "value1": {
+                    "description": "Bendras laukas duomenims si\u0173sti per \u012fvyk\u012f.",
+                    "name": "1 vert\u0117"
+                },
+                "value2": {
+                    "name": "2 vert\u0117"
+                },
+                "value3": {
+                    "name": "3 vert\u0117"
+                }
+            },
+            "name": "Trigeris"
+        }
+    }
+}

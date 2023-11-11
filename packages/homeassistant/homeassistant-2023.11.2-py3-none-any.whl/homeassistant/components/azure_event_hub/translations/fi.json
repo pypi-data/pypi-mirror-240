@@ -1,0 +1,20 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Palvelu on jo m\u00e4\u00e4ritetty",
+            "single_instance_allowed": "Jo m\u00e4\u00e4ritetty. Vain yksi konfiguraatio mahdollinen."
+        },
+        "error": {
+            "cannot_connect": "Yhteyden muodostaminen ep\u00e4onnistui",
+            "unknown": "Odottamaton virhe"
+        },
+        "step": {
+            "sas": {
+                "data": {
+                    "event_hub_namespace": "Event Hub -nimiavaruus"
+                },
+                "description": "Anna SAS (jaettu k\u00e4ytt\u00f6oikeusallekirjoitus) -tunnistetiedot: {event_hub_instance_name}"
+            }
+        }
+    }
+}

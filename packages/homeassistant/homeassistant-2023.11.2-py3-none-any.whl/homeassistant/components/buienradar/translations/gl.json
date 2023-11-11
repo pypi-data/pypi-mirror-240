@@ -1,0 +1,21 @@
+{
+    "entity": {
+        "sensor": {
+            "sunchance_1d": {
+                "name": "Posibilidade de sol 1d"
+            },
+            "sunchance_2d": {
+                "name": "Posibilidade de sol 2d"
+            },
+            "sunchance_3d": {
+                "name": "Posibilidade de sol 3d"
+            },
+            "sunchance_4d": {
+                "name": "Posibilidade de sol 4d"
+            },
+            "sunchance_5d": {
+                "name": "Posibilidade de sol 5d"
+            }
+        }
+    }
+}

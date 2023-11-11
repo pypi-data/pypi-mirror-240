@@ -1,0 +1,28 @@
+{
+    "issues": {
+        "entity_negative_state": {
+            "description": "\u0160i\u0173 objekt\u0173 b\u016bsena yra neigiama, o tikimasi teigiamos b\u016bsenos:",
+            "title": "Subjekto b\u016bsena yra neigiama"
+        },
+        "entity_not_defined": {
+            "description": "Patikrinkite integracij\u0105 arba konfig\u016bracij\u0105, kuri suteikia:",
+            "title": "Subjektas neapibr\u0117\u017etas"
+        },
+        "entity_unexpected_unit_energy": {
+            "title": "Netik\u0117tas matavimo vienetas"
+        },
+        "entity_unexpected_unit_energy_price": {
+            "description": "\u0160ie objektai neturi numatomo matavimo vieneto {price_units} :"
+        },
+        "entity_unexpected_unit_gas": {
+            "description": "\u0160ie objektai neturi numatomo matavimo vieneto ( {energy_units} energijos jutikliui arba {gas_units} duj\u0173 jutikliui):"
+        },
+        "entity_unexpected_unit_water": {
+            "description": "\u0160ie objektai neturi numatomo matavimo vieneto (bet kurio i\u0161 {water_units} ):"
+        },
+        "recorder_untracked": {
+            "description": "Diktofonas sukonfig\u016bruotas taip, kad ne\u012ftraukt\u0173 \u0161i\u0173 sukonfig\u016bruot\u0173 objekt\u0173:",
+            "title": "Nesekamas subjektas"
+        }
+    }
+}

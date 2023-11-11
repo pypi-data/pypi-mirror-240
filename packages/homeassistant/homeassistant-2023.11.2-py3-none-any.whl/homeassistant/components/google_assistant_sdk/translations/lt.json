@@ -1,0 +1,23 @@
+{
+    "config": {
+        "step": {
+            "auth": {
+                "title": "Susieti Google paskyr\u0105"
+            },
+            "reauth_confirm": {
+                "description": "Integruojant \u201eGoogle Assistant\u201c SDK reikia i\u0161 naujo autentifikuoti paskyr\u0105"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "enable_conversation_agent": "\u012egalinti pokalbi\u0173 agent\u0105",
+                    "language_code": "Kalbos kodas"
+                },
+                "description": "Nustatykite s\u0105veikos su \"Google Assistant\" kalb\u0105 ir ar norite \u012fjungti pokalbi\u0173 agent\u0105."
+            }
+        }
+    }
+}

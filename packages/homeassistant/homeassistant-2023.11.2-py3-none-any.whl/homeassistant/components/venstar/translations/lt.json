@@ -1,0 +1,15 @@
+{
+    "entity": {
+        "sensor": {
+            "schedule_part": {
+                "state": {
+                    "day": "Diena",
+                    "evening": "Vakaras",
+                    "inactive": "Neaktyvus",
+                    "morning": "Rytas",
+                    "night": "Naktis"
+                }
+            }
+        }
+    }
+}

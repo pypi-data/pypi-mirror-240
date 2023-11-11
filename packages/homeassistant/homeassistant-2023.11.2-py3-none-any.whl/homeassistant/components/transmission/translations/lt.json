@@ -1,0 +1,65 @@
+{
+    "config": {
+        "step": {
+            "reauth_confirm": {
+                "description": "Neteisingas {username} slapta\u017eodis."
+            },
+            "user": {
+                "data": {
+                    "password": "Slapta\u017eodis"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "active_torrents": {
+                "name": "Aktyv\u016bs torrentai"
+            },
+            "completed_torrents": {
+                "name": "U\u017ebaigti torrentai"
+            },
+            "download_speed": {
+                "name": "Siuntimo greitis"
+            },
+            "paused_torrents": {
+                "name": "Pristabdyti torrentai"
+            },
+            "started_torrents": {
+                "name": "Prad\u0117ti torrentai"
+            },
+            "total_torrents": {
+                "name": "I\u0161 viso torrent\u0173"
+            },
+            "transmission_status": {
+                "name": "B\u016bsena",
+                "state": {
+                    "downloading": "Atsisiun\u010diama",
+                    "seeding": "S\u0117jama",
+                    "up_down": "Auk\u0161tyn / \u017eemyn"
+                }
+            },
+            "upload_speed": {
+                "name": "\u012ek\u0117limo greitis"
+            }
+        },
+        "switch": {
+            "on_off": {
+                "name": "Jungiklis"
+            },
+            "turtle_mode": {
+                "name": "V\u0117\u017elio re\u017eimas"
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "data": {
+                    "limit": "Riba",
+                    "order": "\u012esakymas"
+                }
+            }
+        }
+    }
+}

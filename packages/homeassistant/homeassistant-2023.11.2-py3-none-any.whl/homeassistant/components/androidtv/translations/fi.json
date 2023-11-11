@@ -1,0 +1,30 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Laite on jo m\u00e4\u00e4ritetty"
+        },
+        "error": {
+            "cannot_connect": "Yhteyden muodostaminen ep\u00e4onnistui",
+            "invalid_host": "Virheellinen is\u00e4nt\u00e4nimi tai IP-osoite",
+            "unknown": "Odottamaton virhe"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Palvelin",
+                    "port": "Portti"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "apps": {
+                "description": "M\u00e4\u00e4rit\u00e4 sovellustunnus {app_id}"
+            },
+            "rules": {
+                "description": "M\u00e4\u00e4rit\u00e4 havaintos\u00e4\u00e4nt\u00f6 sovelluksen id:lle {rule_id}"
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "config": {
+        "error": {
+            "invalid_account": "Neteisingas paskyros ID"
+        },
+        "step": {
+            "reauth_confirm": {
+                "description": "Steam integracij\u0105 reikia i\u0161 naujo autentifikuoti rankiniu b\u016bdu \n\n Rakt\u0105 galite rasti \u010dia: {api_key_url}"
+            }
+        }
+    },
+    "issues": {
+        "removed_yaml": {
+            "description": "Steam konfig\u016bravimas naudojant YAML pa\u0161alintas. \n\n Esamos YAML konfig\u016bracijos nam\u0173 asistentas nenaudoja. \n\n Pa\u0161alinkite YAML konfig\u016bracij\u0105 i\u0161 failo configuration.yaml ir i\u0161 naujo paleiskite \u201eHome Assistant\u201c, kad i\u0161spr\u0119stum\u0117te \u0161i\u0105 problem\u0105.",
+            "title": "Steam YAML konfig\u016bracija buvo pa\u0161alinta"
+        }
+    }
+}

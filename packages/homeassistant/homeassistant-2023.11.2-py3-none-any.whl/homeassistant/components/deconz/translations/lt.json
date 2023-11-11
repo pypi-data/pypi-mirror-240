@@ -1,0 +1,27 @@
+{
+    "config": {
+        "abort": {
+            "no_hardware_available": "Prie deCONZ neprijungta jokia radijo aparat\u016bra"
+        },
+        "error": {
+            "linking_not_possible": "Nepavyko susieti su \u0161liuzu"
+        }
+    },
+    "device_automation": {
+        "trigger_type": {
+            "remote_button_rotated_fast": "Greitai pasuktas mygtukas \"{subtype}\""
+        }
+    },
+    "services": {
+        "configure": {
+            "name": "Konfig\u016bruoti"
+        },
+        "device_refresh": {
+            "description": "Atnaujina turimus deCONZ \u012frenginius.",
+            "name": "\u012erenginio atnaujinimas"
+        },
+        "remove_orphaned_entries": {
+            "description": "I\u0161valo \u012frenginio ir objekto registro \u012fra\u0161us, kuriuos paliko deCONZ."
+        }
+    }
+}

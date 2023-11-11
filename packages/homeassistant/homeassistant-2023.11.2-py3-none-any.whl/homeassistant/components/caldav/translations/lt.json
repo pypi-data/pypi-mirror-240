@@ -1,0 +1,12 @@
+{
+    "config": {
+        "step": {
+            "reauth_confirm": {
+                "description": "Neteisingas {username} slapta\u017eodis."
+            },
+            "user": {
+                "description": "\u012eveskite savo CalDAV serverio kredencialus"
+            }
+        }
+    }
+}

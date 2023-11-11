@@ -1,0 +1,23 @@
+{
+    "entity_component": {
+        "_": {
+            "state": {
+                "off": "I\u0161jungta"
+            }
+        }
+    },
+    "services": {
+        "reload": {
+            "description": "I\u0161 naujo \u012fkelia pagalbininkus i\u0161 YAML konfig\u016bracijos."
+        },
+        "toggle": {
+            "description": "\u012ejungia / i\u0161jungia pagalbinink\u0105."
+        },
+        "turn_off": {
+            "description": "I\u0161jungia pagalbinink\u0105."
+        },
+        "turn_on": {
+            "description": "\u012ejungia pagalbinink\u0105."
+        }
+    }
+}

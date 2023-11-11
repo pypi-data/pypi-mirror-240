@@ -1,0 +1,8 @@
+{
+    "device_automation": {
+        "trigger_type": {
+            "event.value_notification.central_scene": "H\u00e0nh \u0111\u1ed9ng C\u1ea3nh Trung t\u00e2m c\u1ee7a {subtype}",
+            "event.value_notification.scene_activation": "K\u00edch ho\u1ea1t c\u1ea3nh tr\u00ean {subtype}"
+        }
+    }
+}

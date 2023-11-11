@@ -1,0 +1,28 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Slapta\u017eodis"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "state": {
+                "state": {
+                    "storung": "Gedimas",
+                    "taktsperre": "Anticiklas",
+                    "telefonfernschalter": "Telefono nuotolinis jungiklis",
+                    "test": "Testas",
+                    "tpw": "TPW",
+                    "urlaubsmodus": "Atostog\u0173 re\u017eimas",
+                    "ventilprufung": "Vo\u017etuvo bandymas",
+                    "vorspulen": "\u012e\u0117jimo skalavimas",
+                    "zunden": "U\u017edegimas"
+                }
+            }
+        }
+    }
+}

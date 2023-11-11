@@ -1,0 +1,35 @@
+{
+    "config": {
+        "error": {
+            "no_appliances": "Nerasta palaikom\u0173 prietais\u0173"
+        }
+    },
+    "entity": {
+        "sensor": {
+            "end_time": {
+                "name": "Pabaigos laikas"
+            },
+            "whirlpool_machine": {
+                "name": "B\u016bsena",
+                "state": {
+                    "power_failure": "Maitinimo gedimas",
+                    "running_postcycle": "B\u0117gimo postciklas",
+                    "service_diagnostic_mode": "Paslaugos diagnostikos re\u017eimas",
+                    "setting": "Nustatymas",
+                    "smart_delay": "I\u0161manusis delsimas",
+                    "system_initialize": "Sistemos inicijavimas"
+                }
+            },
+            "whirlpool_tank": {
+                "name": "Ploviklio lygis",
+                "state": {
+                    "100": "100 %",
+                    "25": "25 %",
+                    "50": "50%",
+                    "empty": "Tu\u0161\u010dia",
+                    "unknown": "Ne\u017einomas"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Palvelu on jo m\u00e4\u00e4ritetty"
+        },
+        "error": {
+            "invalid_key": "Virheellinen API-avain",
+            "no_devices": "Tililt\u00e4 ei l\u00f6ytynyt laitteita"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "API-avain",
+                    "app_key": "Sovellusavain"
+                },
+                "title": "T\u00e4yt\u00e4 tietosi"
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Tili on jo m\u00e4\u00e4ritetty",
+            "no_channel": "Luo YouTube-kanava, jotta voit k\u00e4ytt\u00e4\u00e4 integraatiota. Ohjeet l\u00f6ytyv\u00e4t osoitteesta {support_url}.",
+            "reauth_successful": "Uudelleentodennus onnistui",
+            "unknown": "Odottamaton virhe"
+        },
+        "error": {
+            "cannot_connect": "Yhteyden muodostaminen ep\u00e4onnistui",
+            "invalid_auth": "Virheellinen todennus"
+        },
+        "step": {
+            "reauth_confirm": {
+                "title": "Todenna integraatio uudelleen"
+            }
+        }
+    }
+}

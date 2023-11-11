@@ -1,0 +1,14 @@
+{
+    "config": {
+        "error": {
+            "no_longer_in_range": "U\u017eraktas neb\u0117ra \u201eBluetooth\u201c diapazone. Perkelkite u\u017erakt\u0105 arba adapter\u012f ir bandykite dar kart\u0105."
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "deadbolt": {
+                "name": "U\u017eraktas"
+            }
+        }
+    }
+}

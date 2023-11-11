@@ -1,0 +1,14 @@
+{
+    "entity": {
+        "select": {
+            "zone_sleep": {
+                "state": {
+                    "120_min": "120 minu\u010di\u0173",
+                    "30_min": "30 minu\u010di\u0173",
+                    "60_min": "60 minu\u010di\u0173",
+                    "90_min": "90 minu\u010di\u0173"
+                }
+            }
+        }
+    }
+}

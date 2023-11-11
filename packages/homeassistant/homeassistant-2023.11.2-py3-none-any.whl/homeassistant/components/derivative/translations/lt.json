@@ -1,0 +1,12 @@
+{
+    "selector": {
+        "time_unit": {
+            "options": {
+                "d": "Dienos",
+                "h": "Valandos",
+                "min": "Minut\u0117s",
+                "s": "Sekund\u0117s"
+            }
+        }
+    }
+}
