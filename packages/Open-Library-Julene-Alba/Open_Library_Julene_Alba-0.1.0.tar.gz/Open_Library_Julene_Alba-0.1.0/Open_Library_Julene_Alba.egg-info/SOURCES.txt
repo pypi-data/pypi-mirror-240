@@ -1,0 +1,8 @@
+README.md
+setup.py
+Open_Library_Julene_Alba.egg-info/PKG-INFO
+Open_Library_Julene_Alba.egg-info/SOURCES.txt
+Open_Library_Julene_Alba.egg-info/dependency_links.txt
+Open_Library_Julene_Alba.egg-info/entry_points.txt
+Open_Library_Julene_Alba.egg-info/requires.txt
+Open_Library_Julene_Alba.egg-info/top_level.txt
