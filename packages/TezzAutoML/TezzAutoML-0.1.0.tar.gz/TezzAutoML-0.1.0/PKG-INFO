@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: TezzAutoML
+Version: 0.1.0
+Summary: An AutoML library built on top of Optuna.
+Author: Japkeerat Singh
+Author-email: japkeerat21@gmail.com
