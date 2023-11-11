@@ -1,0 +1,10 @@
+azcmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azcmd/azblob.py,sha256=qkKcXf8DWpPTVv0EaESoCuuCqhoJ3IWcHSjSr47qV3s,8351
+azcmd/azpg.py,sha256=oIwDkhy0bzcysXdvPxO8OK3F3m1asQryxGK8ZM8RRc8,2026
+azcmd/funcs.py,sha256=4bvqzC3szVos5W8nMg8VB_E--npi7yB3crbNsSARPwI,9638
+azcmd/models.py,sha256=kKbQxCKP849Y0d9uUQ0hI6CN3Bb20BDPknom2_kJ1iY,1580
+azcmd-0.1.1.dist-info/LICENSE,sha256=eCJFtSbAonb2ucI0M0bimQw9ZwZkYLRhqLz5z-TOOp0,1070
+azcmd-0.1.1.dist-info/METADATA,sha256=60nRc8qqbvYlAqe3SnHnCVdVMO1FJrrKNLHtGdSrEy0,1619
+azcmd-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+azcmd-0.1.1.dist-info/entry_points.txt,sha256=-HhcD_WuEWvwcgrmdDsWyT9A_MP-dP7ypzw1rhy7fP0,89
+azcmd-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: azcmd
+Version: 0.1.1
+Summary: Simplify dealing with Azure Blob Storages.
+License: MIT
+Author: Jason Viloria
+Author-email: jnvilo@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: azure-identity (>=1.15.0,<2.0.0)
+Requires-Dist: azure-mgmt-resource (>=23.0.1,<24.0.0)
+Requires-Dist: azure-storage-blob (>=12.18.3,<13.0.0)
+Description-Content-Type: text/markdown
+
+# azcmd
+
+A simplified azure command line tool for humans. Uses Managed Identity as default for login. (You must set the default
+tenant if you have multiple tenants in your account.)
+
+## Storage and Containers
+
+### Listing Storage Accounts
+
+- az-blob ls  - lists all storage accounts 
+- az-blob ls  <storage_account> - lists all containers in a storage account and all blobs in a container
+- az-blob ls <storage_account>/<container> - lists all blobs in a container
+
+### Downloading and Uploading Blobs
+
+#### Get
+- az-blob get storage_account/container/blob - downloads a blob to the current directory. If the blob has subdirectories, they will be created.
+- az-blob get --latest storage_account/container/blob - downloads the latest version of a blob to the current directory. 
+
+#### Put
+- az-blob put filename storage_account/container/blob - uploads a file to a blob. If the blob has subdirectories, they will be created.
+
+
