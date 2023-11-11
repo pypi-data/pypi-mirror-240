@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: django-management-auth
+Version: 0.0.0
+Summary: Login to a Django application from a management command
+Author: Jake Howard
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development
+Requires-Dist: Django>=3.0,<5.0
+Requires-Dist: ruff==0.0.291 ; extra == "lint"
+Requires-Dist: black==23.9.1 ; extra == "lint"
+Requires-Dist: time_machine ; extra == "test"
+Requires-Dist: hypothesis[django] ; extra == "test"
+Provides-Extra: lint
+Provides-Extra: test
+
+# Django management auth
+
+![CI](https://github.com/RealOrangeOne/django-management-auth/workflows/CI/badge.svg)
+![PyPI](https://img.shields.io/pypi/v/django-management-auth.svg)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-management-auth.svg)
+![PyPI - License](https://img.shields.io/pypi/l/django-management-auth.svg)
+
+Login to a Django application from a management command.
+
+## Installation
+
+```
+pip install django-management-auth
+```
+
+Then, add `management_auth` to `INSTALLED_APPS`.
+
+Finally, add the required URLs:
+
+```python
+# urls.py
+
+urlpatterns += [path(".login-as", include("management_auth.urls"))]
+```
+
+## Usage
+
+Authentication happens using a short-lived signed URL, generated from a management command.
+
+```
+./manage.py login_as <username>
+```
+
+This will create a URL for `<username>`. By default, the URLs are valid for 60 seconds (configurable with `--timeout`).
+
+### Fully-qualified URLs
+
+Where possible, URLs, are displayed fully-qualified, such that they can be quickly clicked to log in.
+
+- To specify manually, use `MANAGEMENT_AUTH_BASE_URL`
+- For Wagtail users, `WAGTAILADMIN_BASE_URL` is used to create the URL.
+- For `django.contrib.sites` users, `SITE_ID` is correctly considered
+
+If no base URL is found, a relative path is shown.
+
+## Design considerations
+
+- Tokens are only valid for a short amount of time, intended to prevent reuse / sharing.
+- Tokens are signed URLs, rather than requiring a database table. This means the validation view is faster and more lightweight, and a database leak doesn't risk exposing sessions.
+- Because tokens are signed, they can be used multiple times (however this is a bad idea)
+
