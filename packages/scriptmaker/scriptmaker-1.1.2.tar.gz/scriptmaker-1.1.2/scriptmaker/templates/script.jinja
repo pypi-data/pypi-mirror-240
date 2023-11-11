@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head lang="EN">
+        <title>{{ meta.name }}</title>
+        <link rel="stylesheet" href="file://common.css">
+        <link rel="stylesheet" href="file://script.css">
+    </head>
+
+    <body>
+        {%- for page in pages %}
+
+            {# Script title header on every page #}
+            <div class="header">
+                {%- if meta.logo %}
+                    <img src="{{ logo }}" class="script-logo"/>
+                {%- endif %}
+                <div class="header-text{{ '-logo' if meta.logo else '' }}">
+                    <div class="script-title">{{ meta.name }}</div>
+                    {%- if meta.author %}
+                        <div class="author">by {{ meta.author }}</div>
+                    {%- endif %}
+                </div>
+            </div>
+            
+            {# Character blocks #}
+            <div class="reference">
+                {%- for team in page %}
+                    {%- set pluralized = team + 's' if team != 'townsfolk' and team != 'fabled' else team %}
+                    <h2 class="character-type name-{{ team }}">{{ pluralized | upper }}</h2>
+                    <div class="cols-2{{ '-spacered' if spacers[team] else '' }}">
+                    {%- for character in teams[team] %}
+                        <div class="character">
+                            <img src="{{ icons[character.id] }}" class="icon"/>
+                            <div class="character-name name-{{ team }}">
+                                {{ character.name }}
+                                {%- if jinxes[character.id] %}
+                                    <div class="jinxes name-fabled">
+                                        <span></span>
+                                        {%- for jinx in jinxes[character.id] %}
+                                            <img src="{{ icons[jinx.dst_id] }}" class="icon-jinx"/>
+                                        {%- endfor %}
+                                    </div>
+                                {%- endif %}
+                                <div class="character-ability">{{ character.ability }}</div>
+                            </div>
+                        </div>
+                    {%- endfor %}
+                    </div>
+                {%- endfor %}
+            </div>
+
+            {# Not the first night* #}
+            <div class="not-first-night">* not the first night</div>
+
+            {# Break on every page #}
+            {%- if not loop.last %}
+                <p style="page-break-before: always" ></p>
+            {%- endif %}
+
+        {%- endfor %}
+    </body>
+</html>
