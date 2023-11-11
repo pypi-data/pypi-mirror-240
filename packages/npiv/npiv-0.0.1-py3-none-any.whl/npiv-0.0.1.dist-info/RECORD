@@ -1,0 +1,9 @@
+npiv/__init__.py,sha256=9jJWfMa5s8V4k40sdfEWNuBAdQLLaOwF0VVrraDq93E,444
+npiv/dgp.py,sha256=3vj933KPX97cYMKcQinkmo_OWkY9_IPDTgetZCjsPyQ,2356
+npiv/estimators.py,sha256=zWlIxuD8lW2HBmWdcRg0FIn2kihM3ZpmjRq9Ar9csW4,4403
+npiv/nets.py,sha256=u5rKmyPfd8qAQ38JRoMqKj8txeX33hNHp7muLin5LL0,287
+npiv/sieve.py,sha256=JZYHZyfvT_FZQDOTgXxxak19pV7FqG3n33pbGvn4zsk,1170
+npiv-0.0.1.dist-info/METADATA,sha256=4nJ6yPfT6cM9_RjHIkjuOVqyquvRazw1k0iEqfkP6k0,643
+npiv-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+npiv-0.0.1.dist-info/top_level.txt,sha256=jIH-UZbEN07jhHxfUWsuZnsNnvqW9WP6ulnGYsvoR04,5
+npiv-0.0.1.dist-info/RECORD,,
