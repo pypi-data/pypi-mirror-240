@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+mpl_ornaments/__init__.py
+mpl_ornaments/titles.py
+mpl_ornaments.egg-info/PKG-INFO
+mpl_ornaments.egg-info/SOURCES.txt
+mpl_ornaments.egg-info/dependency_links.txt
+mpl_ornaments.egg-info/requires.txt
+mpl_ornaments.egg-info/top_level.txt
