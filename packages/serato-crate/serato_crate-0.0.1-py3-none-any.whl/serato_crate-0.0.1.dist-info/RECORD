@@ -1,0 +1,9 @@
+LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+serato_crate/__init__.py,sha256=STiiVLcp1iHpKM3cDQqqg6aP2cgS1lXpBVMcPAqM3dw,64
+serato_crate/crate_file.py,sha256=vS0JNr4LbKW8GzUGEZxVGMZAJ0x0x_fYIGHQkkowCRo,2243
+serato_crate/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serato_crate/serato_crate.py,sha256=PtZukP0AC1S0k8h4OevrO90uit818J3VMDW3QVOS28k,2179
+serato_crate-0.0.1.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+serato_crate-0.0.1.dist-info/METADATA,sha256=oPuN-a7bIvR4lNlkhj0nPYw-Z3T6QtVxNK5Cd-Rql5E,838
+serato_crate-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+serato_crate-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: serato-crate
+Version: 0.0.1
+Summary: A Python library for reading and writing Serato DJ crates.
+Home-page: https://github.com/stephanlensky/python-serato-crates
+License: GPL-3.0-only
+Author: Stephan Lensky
+Author-email: public@slensky.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/stephanlensky/python-serato-crates
+Description-Content-Type: text/markdown
+
+# Python Serato Crates
+
+A Python (3.10+) library for reading and writing Serato DJ crates.
+
+## Installation
+
+```
+pip3 install serato-crate
+```
+
