@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: petalouda
+Version: 0.0.0
+Summary: On the fly correlations and statistics
+Author-email: Harvey Devereux <h.devereux@qmul.ac.uk>
+Project-URL: Homepage, https://gitlab.com/apw951/fly
+Project-URL: Bug Tracker, https://gitlab.com/apw951/fly/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
