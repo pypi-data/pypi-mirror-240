@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+statman.egg-info/PKG-INFO
+statman.egg-info/SOURCES.txt
+statman.egg-info/dependency_links.txt
+statman.egg-info/top_level.txt
+stopwatch/__init__.py
+stopwatch/stopwatch.py
