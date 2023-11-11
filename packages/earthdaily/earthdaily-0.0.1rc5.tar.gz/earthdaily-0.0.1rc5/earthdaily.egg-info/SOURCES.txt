@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+earthdaily/__init__.py
+earthdaily.egg-info/PKG-INFO
+earthdaily.egg-info/SOURCES.txt
+earthdaily.egg-info/dependency_links.txt
+earthdaily.egg-info/not-zip-safe
+earthdaily.egg-info/requires.txt
+earthdaily.egg-info/top_level.txt
