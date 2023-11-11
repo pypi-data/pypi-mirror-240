@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+pyprogramsimp.egg-info/PKG-INFO
+pyprogramsimp.egg-info/SOURCES.txt
+pyprogramsimp.egg-info/dependency_links.txt
+pyprogramsimp.egg-info/entry_points.txt
+pyprogramsimp.egg-info/top_level.txt
