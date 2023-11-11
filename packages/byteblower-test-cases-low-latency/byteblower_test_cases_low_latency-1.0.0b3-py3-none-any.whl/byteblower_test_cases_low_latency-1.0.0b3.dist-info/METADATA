@@ -1,0 +1,192 @@
+Metadata-Version: 2.1
+Name: byteblower-test-cases-low-latency
+Version: 1.0.0b3
+Summary: Low Latency test case using ByteBlower.
+Keywords: ByteBlower,network test,traffic test,test case,LLD,Low-Latency DOCSIS,L4S
+Author-email: ByteBlower Development Team <support.byteblower@excentis.com>
+Maintainer-email: Tom Ghyselinck <tom.ghyselinck@excentis.com>, Abdennour Rachedi <abdennour.rachedi@excentis.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Topic :: Software Development :: Testing :: Traffic Generation
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: byteblower-test-framework >=1.0.0,<2.0.0
+Requires-Dist: yapf[pyproject] ; extra == "dev"
+Requires-Dist: isort ; extra == "dev"
+Requires-Dist: rstcheck[toml] ; extra == "dev"
+Requires-Dist: doc8 ; extra == "dev"
+Requires-Dist: Pygments ; extra == "dev"
+Requires-Dist: pydocstyle[toml] ; extra == "dev"
+Requires-Dist: toml ~=0.10.2 ; extra == "dev"
+Requires-Dist: rstcheck[sphinx,toml] ; extra == "docs-dev"
+Requires-Dist: Sphinx >= 5.0 ; extra == "docs-dev"
+Requires-Dist: sphinx-rtd-theme >=1.0 ; extra == "docs-dev"
+Requires-Dist: sphinx-tabs >= 3.4 ; extra == "docs-dev"
+Requires-Dist: sphinx-jsonschema >= 1.19 ; extra == "docs-dev"
+Requires-Dist: importlib-metadata>=4.8.3 ; extra == "docs-dev" and ( python_version<'3.8')
+Requires-Dist: pylint[spelling] ; extra == "test"
+Requires-Dist: pydocstyle[toml] ; extra == "test"
+Requires-Dist: rstcheck[toml] ; extra == "test"
+Requires-Dist: pytest >=6.0 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: pytest-pydocstyle ; extra == "test"
+Requires-Dist: toml ~=0.10.2 ; extra == "test"
+Project-URL: Documentation, https://api.byteblower.com/test-framework
+Project-URL: Homepage, https://www.byteblower.com
+Project-URL: Support Portal, https://support.excentis.com
+Provides-Extra: dev
+Provides-Extra: docs-dev
+Provides-Extra: test
+
+*****************************************************
+ByteBlower - Traffic tests for Low Latency validation
+*****************************************************
+
+Usage
+=====
+
+Prepare runtime environment
+---------------------------
+
+We recommend managing the runtime environment in a Python virtual
+environment. This guarantees proper separation of the system-wide
+installed Python and pip packages.
+
+Important: Working directory
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+All the following sections expect that you first moved to the directory where
+you checked out this project.
+
+On Unix-based systems (Linux, WSL, macOS):
+
+.. code-block:: shell
+
+   cd '/path/to/project/checkout'
+
+On Windows systems using PowerShell:
+
+.. code-block:: shell
+
+   cd 'c:\path\to\project\checkout'
+
+Python virtual environment
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Prepare the Python virtual environment
+
+On Unix-based systems (Linux, WSL, macOS):
+
+.. note::
+   *Mind the leading* ``.`` *which means* **sourcing** ``./env/bin/activate``.
+
+.. code-block:: shell
+
+   python3 -m venv --clear env
+   . ./env/bin/activate
+   pip install -U pip build
+
+On Windows systems using PowerShell:
+
+   **Note**: On Microsoft Windows, it may be required to enable the
+   Activate.ps1 script by setting the execution policy for the user.
+   You can do this by issuing the following PowerShell command:
+
+   .. code-block:: shell
+
+      PS C:> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+   See About Execution Policies for more information.
+
+.. code-block:: shell
+
+   python3.8.exe -m venv --clear env
+   & ".\env\Scripts\activate.ps1"
+   python -m pip install -U pip build
+
+Project requirements
+^^^^^^^^^^^^^^^^^^^^
+
+Install this project as an *editable package*, including its runtime
+dependencies.
+
+.. code-block:: shell
+
+   pip install -U -e .
+
+Run the traffic test
+--------------------
+
+Command-line interface
+^^^^^^^^^^^^^^^^^^^^^^
+
+The test script can be run either as python module or as a command-line script:
+
+For example (*to get help for the command-line arguments*):
+
+#. As a python module:
+
+   .. code-block:: shell
+
+      python -m byteblower.test_cases.low_latency --help
+
+#. As a command-line script:
+
+   .. code-block:: shell
+
+      byteblower-test-cases-low-latency --help
+
+Run the traffic test with default/example configuration file
+(``examples/low_latency.json``).
+
+The reports will be stored under a subdirectory ``reports/``.
+
+On Unix-based systems (Linux, WSL, macOS):
+
+.. code-block:: shell
+
+   . ./env/bin/activate
+
+   # create the reports directory
+   mkdir reports
+
+   byteblower-test-cases-low-latency --report_path reports
+
+On Windows systems using PowerShell:
+
+.. code-block:: shell
+
+   & ".\env\Scripts\activate.ps1"
+   md reports
+   byteblower-test-cases-low-latency --report_path reports
+
+Integrated
+^^^^^^^^^^
+
+.. code-block:: python
+
+   from byteblower.test_cases.low_latency import run
+
+   # Defining test configuration, report path and report file name prefix:
+   test_config = {}
+   report_path = 'my-output-folder'
+   report_prefix = 'my-dut-feature-test'
+
+   # Run the traffic test:
+   run(test_config, report_path=report_path, report_prefix=report_prefix)
+
