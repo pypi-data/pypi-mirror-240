@@ -1,0 +1,8 @@
+numpy==1.23.5
+matplotlib
+logzero
+attrs==23.1.0
+zfit==0.14.0
+rx_scripts==0.2.0
+rx_tools>=0.0.7
+pandas
