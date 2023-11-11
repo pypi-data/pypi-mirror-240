@@ -1,0 +1,4 @@
+py-tgcalls
+pymongo
+python-decouple
+python-dotenv
