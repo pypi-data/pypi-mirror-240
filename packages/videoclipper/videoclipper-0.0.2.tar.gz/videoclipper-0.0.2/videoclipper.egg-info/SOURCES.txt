@@ -1,0 +1,11 @@
+README.md
+setup.py
+videoclipper/__init__.py
+videoclipper/version.py
+videoclipper/videoclipper.py
+videoclipper.egg-info/PKG-INFO
+videoclipper.egg-info/SOURCES.txt
+videoclipper.egg-info/dependency_links.txt
+videoclipper.egg-info/entry_points.txt
+videoclipper.egg-info/requires.txt
+videoclipper.egg-info/top_level.txt
