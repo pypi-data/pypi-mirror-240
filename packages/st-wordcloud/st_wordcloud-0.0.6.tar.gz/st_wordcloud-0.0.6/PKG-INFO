@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: st_wordcloud
+Version: 0.0.6
+Summary: st_wordcloud React component for Streamlit
+Home-page: 
+Author: Andell
+Author-email: drogadvc@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Streamlit - WordCloud React
+
+A Streamlit simple component to display [WordCloud](https://www.npmjs.com/package/react-d3-cloud).
+
+![](./img/demo.png)
+
+
+
