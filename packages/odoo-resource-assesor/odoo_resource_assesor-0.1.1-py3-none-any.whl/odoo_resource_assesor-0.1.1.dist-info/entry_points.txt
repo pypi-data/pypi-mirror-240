@@ -1,0 +1,3 @@
+[console_scripts]
+resource-assesor = odoo_resource_assesor.resource_assesor:main
+
