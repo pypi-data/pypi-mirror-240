@@ -1,0 +1,4 @@
+BinaryTrees.egg-info/PKG-INFO
+BinaryTrees.egg-info/SOURCES.txt
+BinaryTrees.egg-info/dependency_links.txt
+BinaryTrees.egg-info/top_level.txt
