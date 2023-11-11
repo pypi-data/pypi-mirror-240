@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pertvi
+Version: 0.0.1
+Summary: deep mechanistic modeling of single-cell atlas using variational inference
+Home-page: https://github.com/MingzeDong/scShift
+Author: Mingze Dong
+Author-email: mingze.dong@yale.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/MingzeDong/scShift/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scanpy
+Requires-Dist: torch
+Requires-Dist: pytorch-lightning
+Requires-Dist: tqdm
+Requires-Dist: scvi-tools (<=0.16.2,>=0.15.0)
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+Requires-Dist: anndata
+
+UNKNOWN
+
