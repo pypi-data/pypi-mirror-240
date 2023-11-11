@@ -1,0 +1,15 @@
+oesnn_ad/__init__.py,sha256=Q5WXyuYOo0elpr_nzrlI3eG-ADiIwh7so9ne70WyXWQ,37
+oesnn_ad/grf_init.py,sha256=eLtS1rygOV7nf9CE-hzmjwEl4iqVCYPB_5yK4-Rsds0,4385
+oesnn_ad/layer.py,sha256=xKMg7QtWm9cs9ZWez3V3PP4VTq5qkqS17tt9N3ZIf9I,8511
+oesnn_ad/neuron.py,sha256=vu673dRPUGGFIeTtSIc8nL5SuxcqdCpBXJYdcvH2Rfo,4403
+oesnn_ad/oesnn_ad.py,sha256=fLl5he7vYn41upS5cY41DDjCctPyPABKyVkMjG2tctk,7803
+oesnn_ad/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oesnn_ad/tests/test_grf_init.py,sha256=iB0GifqedcMzoqglKrEfbJHyO_beLimbYFWLeVM60jM,2696
+oesnn_ad/tests/test_layers.py,sha256=9_MVtxW7gZiEjGORn8gSJHpJcSLe4A3mSCcTxn_HxwQ,5067
+oesnn_ad/tests/test_neuron.py,sha256=61RM3PEm5CV51o3CjbjIsdYUimNFn6LOsdE5XuP0DNQ,1984
+oesnn_ad/tests/test_oesnn_ad.py,sha256=MkMc7rk0zjxJitAkVE_IScHuT_fBdxx1xoH1DW1DIfc,13238
+OeSNN_AD-0.8.0.dist-info/LICENSE,sha256=NPJU8hPfeaOcXbyObDp1kfx2N6DD5Wj19kHxr-EJiCo,1058
+OeSNN_AD-0.8.0.dist-info/METADATA,sha256=deuRVBNYGVpuR0Kjgp_ogVo5EOkd6-JATTYkI1SLPkA,641
+OeSNN_AD-0.8.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+OeSNN_AD-0.8.0.dist-info/top_level.txt,sha256=1U-s6Ws0g2sKN7EIvk1bd2rbqb-Hl9IJlmKSqYLiwgE,9
+OeSNN_AD-0.8.0.dist-info/RECORD,,
