@@ -1,0 +1,10 @@
+setup.py
+pythonProject1/__init__.py
+pythonProject1/main.py
+pythonProject1/test.py
+zctest.egg-info/PKG-INFO
+zctest.egg-info/SOURCES.txt
+zctest.egg-info/dependency_links.txt
+zctest.egg-info/not-zip-safe
+zctest.egg-info/requires.txt
+zctest.egg-info/top_level.txt
