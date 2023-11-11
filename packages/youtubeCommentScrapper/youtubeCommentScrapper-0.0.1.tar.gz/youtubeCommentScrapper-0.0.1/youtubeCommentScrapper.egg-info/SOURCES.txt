@@ -1,0 +1,8 @@
+License.txt
+setup.py
+youtubeCommentScrapper/__init__.py
+youtubeCommentScrapper.egg-info/PKG-INFO
+youtubeCommentScrapper.egg-info/SOURCES.txt
+youtubeCommentScrapper.egg-info/dependency_links.txt
+youtubeCommentScrapper.egg-info/requires.txt
+youtubeCommentScrapper.egg-info/top_level.txt
