@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: mpl-ornaments
+Version: 0.0.3
+Summary: Small extensions to Matplotlib
+Author-email: Francesco Bianconi <bianco@ieee.org>
+License: MIT License
+Project-URL: homepage, https://github.com/bianconif/mpl_ornaments
+Project-URL: documentation, https://bianconif.github.io/mpl_ornaments
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.10.4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib >=3.8.0
+
+# mpl-ornaments
+A library featuring some extensions to [Matplotlib](https://matplotlib.org/). Full documentation available [here]( https://bianconif.github.io/mpl_ornaments/).
+
+## The `titles` module
+The title module allows to add title and subtitle to a Matplotlib's `Figure` in a and neat and easy way.
+
+###  Example
+
+```python
+import matplotlib.pyplot as plt
+from mpl_ornaments.titles import set_title_and_subtitle
+
+fig, ax = plt.subplots(figsize=(5,6))
+set_title_and_subtitle(fig=fig, title='Figure title', subtitle='Figure subtitle')
+fig.savefig(fname='title1.png')
+```
+
+The above code produces the following result:
+
+[<img src="https://github.com/bianconif/mpl_ornaments/blob/master/output/title1.png"/>]
