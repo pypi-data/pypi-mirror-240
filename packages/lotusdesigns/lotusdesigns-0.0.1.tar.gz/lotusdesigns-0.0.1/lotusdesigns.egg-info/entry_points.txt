@@ -1,0 +1,2 @@
+[console_scripts]
+lotus = lotusdesigns.app:app
