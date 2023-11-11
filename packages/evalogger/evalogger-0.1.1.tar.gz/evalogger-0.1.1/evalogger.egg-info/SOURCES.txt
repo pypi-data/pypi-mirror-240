@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+evalogger/__init__.py
+evalogger/color.py
+evalogger/logger.py
+evalogger.egg-info/PKG-INFO
+evalogger.egg-info/SOURCES.txt
+evalogger.egg-info/dependency_links.txt
+evalogger.egg-info/requires.txt
+evalogger.egg-info/top_level.txt
+tests/test_evalogger.py
