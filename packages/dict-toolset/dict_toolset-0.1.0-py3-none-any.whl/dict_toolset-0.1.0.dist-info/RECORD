@@ -1,0 +1,15 @@
+dict_toolset/__init__.py,sha256=t4Npf5n5wxZR6mgZSvmAP4n69FueQP6oVzEwT_kSR80,88
+dict_toolset/_basic.py,sha256=Nodq-421RKea2Vm6xRy13fQxn2nX9nifVt2GRkifbFo,590
+dict_toolset/_compare.py,sha256=DIyn7tubBcGceXQkkpXtrs_IuYE6zdPyWyiG0Y8W3_U,2732
+dict_toolset/_flat.py,sha256=DKaj6BOBsuugxLUXle9MizueVmlZrerKLwHQJ1WWdc0,2006
+dict_toolset/_key_extractor.py,sha256=ghRuM4LIScuVJOBIkA8jC2Q-1ski5yjateIB0Fbij-4,259
+dict_toolset/_merge.py,sha256=brA5jbOOrISYv7Yq8T38vfvktP0ndQPYkKt9E3kEeBI,1244
+test/__init__.py,sha256=q7K2EwQpGlRgTsi5yHROdxqpDe6grSBBekJ4rsUmE0M,104
+test/compare_test.py,sha256=qQ8Xl89t36RLiv6Q5WNF_U8g2S9-BKnDWmxciIxW8po,1662
+test/flat_test.py,sha256=Go4w7F113ZEtoxl_KBft_T1h1ilbHzB85KPBGT7GNaM,629
+test/merge_test.py,sha256=7VE2qaQc_Ic2CQPfs8YiIyFhcAtBw4dFUvOOKJh3iD0,728
+dict_toolset-0.1.0.dist-info/LICENSE,sha256=qK0xscP0DcpahBGTUbj6jdyGjt13-tio6_bY8tFvpK4,11324
+dict_toolset-0.1.0.dist-info/METADATA,sha256=O6B4ACkaVLcIF_SPnlMTfjJio6IzOigTm29jZ9EZCMI,830
+dict_toolset-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dict_toolset-0.1.0.dist-info/top_level.txt,sha256=hZrxuTveokyO9O9CSj_uf9r7vY7TOtOV1PKoxRr0DtA,18
+dict_toolset-0.1.0.dist-info/RECORD,,

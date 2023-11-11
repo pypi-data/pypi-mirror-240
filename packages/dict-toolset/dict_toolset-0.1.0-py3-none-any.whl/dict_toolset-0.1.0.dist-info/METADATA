@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: dict-toolset
+Version: 0.1.0
+Summary: a toolset to work with python dictonaries and arrays
+Author: Deutsche Telekom IT GmbH
+License: Apache Software License (Apache 2.0)
+Keywords: python,dictonary,list
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Dict-Toolset
+
+**dict-toolset** a simple project which can be used to do some advanced things with python data (dictonaries and arrays)
+
+## Installing Dict-Toolset
+
+Dict-Toolset is available on PyPi
+
+```console
+$ python -m pip install dict-toolset
+```
