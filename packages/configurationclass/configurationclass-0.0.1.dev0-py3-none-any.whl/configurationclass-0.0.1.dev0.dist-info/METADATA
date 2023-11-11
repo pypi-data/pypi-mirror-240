@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: configurationclass
+Version: 0.0.1.dev0
+Summary: A small example package
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# confclass
+- https://pypi.org/project/typed-config/
+- https://typed-settings.readthedocs.io/en/latest/
+- https://pypi.org/project/dataconf/
