@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: syvmo
+Version: 0.0.1
+Summary: SyVMO - 
+Author: Nádia Carvalho
+Author-email: nadiacarvalho118@gmail.com
+License: MIT
+Keywords: vmo,syvmo
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: numba
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+
+# VMO
+Python Code for Variable Markov Oracle (VMO)
