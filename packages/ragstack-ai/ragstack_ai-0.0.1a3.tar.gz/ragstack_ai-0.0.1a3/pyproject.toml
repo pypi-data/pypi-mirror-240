@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ragstack-ai"
+version = "0.0.1a3"
+description = "RAGStack"
+license = "Apache-2.0"
+authors = ["DataStax"]
+readme = "README.md"
+packages = [{include = "ragstack"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+ragstack-ai-langchain = { version = "0.0.1a2", extras = ["openai"] }
+ragstack-ai-langserve = "0.0.1a2"
+
+[tool.poetry.group.test.dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
