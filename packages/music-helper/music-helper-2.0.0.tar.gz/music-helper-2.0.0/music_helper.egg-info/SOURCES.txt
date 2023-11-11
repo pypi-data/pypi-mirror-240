@@ -1,0 +1,9 @@
+README.md
+setup.py
+music_helper.egg-info/PKG-INFO
+music_helper.egg-info/SOURCES.txt
+music_helper.egg-info/dependency_links.txt
+music_helper.egg-info/requires.txt
+music_helper.egg-info/top_level.txt
+musichelper/__init__.py
+musichelper/util.py
