@@ -1,0 +1,9 @@
+matreex/__init__.py,sha256=N05o-zZQP5fDZIgPi2z8TerlJvvgxkMirO-4M5-OHY4,885
+matreex/_runners.py,sha256=z_ITW7dBZhtKM-KtllqEVs1VrMjTgJMNPg2gWjyHuNs,1860
+matreex/matreex.py,sha256=NrFJiLaYV_4FLIeJhZaN6sDA_f1w1R7fuNQhbuTfnNA,519500
+matreex/run_matreex.py,sha256=7eNefAZCniZvX05mhBJ4kugw01LhKFEwRPaa8MRTaXY,3027
+matreex-0.1.1.data/scripts/matreex,sha256=Dt_ghIPGgSavO8qGS93oakgkO_fuyVLZEAu6BSagers,2978
+matreex-0.1.1.dist-info/METADATA,sha256=8OpG8ppLB8Ydk7gi0rR8JDJdPN4F9cfDiDQ2XM6gPII,441
+matreex-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+matreex-0.1.1.dist-info/top_level.txt,sha256=6HtGyevcsqjQymtFLCdndeeT8BcAV_r-7WUpNt1HQrU,8
+matreex-0.1.1.dist-info/RECORD,,
