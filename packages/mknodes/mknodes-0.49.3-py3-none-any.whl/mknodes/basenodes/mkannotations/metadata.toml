@@ -1,0 +1,15 @@
+[metadata]
+name = "MkAnnotations"
+icon = "mdi:alert-box"
+
+[requirements.extension."pymdownx.superfences"]
+
+[fragments.annotation]
+template = """
+{{ node.num }}.{{ 3 - self.num | string | length }}{{ node.items | join("\n\n") | indent }}
+"""
+
+[output.markdown]
+template = """
+{{ node.items | sort(attribute="num") | join }}
+"""
