@@ -1,0 +1,13 @@
+automate.py,sha256=-tscS-Q1ioGG-HC-SXHUM6aO6Bmejl6ThlsNDeheAAc,2066
+main.py,sha256=C1eMGquyr0lAW5iQFvu0xaiZvktyRHXUcSLE3j9M3Qo,235
+arguments/__init__.py,sha256=73XI-CCIlDKiGzWwCOrse7suwx7BaQzl4Vh6zcNUPW4,25
+arguments/arguments.py,sha256=EnahFr_AHgw5kYy3TG9tqSHg0dfeRjDECDIA_QiuYdQ,423
+token_analyser/__init__.py,sha256=0KBlh8Hw_2QC9OU7zTFUx3bnq4e-YWfW4h7m4VbDw_k,45
+token_analyser/token_analyser.py,sha256=ArNFVJo59N9m0pZBDOm6bagW0rSizO_W8S_pkTdM3cY,1132
+token_generator/__init__.py,sha256=LM6wBhMwp--piWC4BO2x6RFhVWD9alO4PaiuxToN8hs,42
+token_generator/token_generator.py,sha256=SwxZ_2Krl-4CP85jYww66fC-p4SszXQ7TyAR1wxXIGs,2956
+Compilateur_canAda_Zhou_Lo_Morel_Ungaro-0.1.dist-info/METADATA,sha256=oFWbdi0LRtTlhMf4fdzh9ps5kB6apm2lXL4Z-o9F-9s,110
+Compilateur_canAda_Zhou_Lo_Morel_Ungaro-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+Compilateur_canAda_Zhou_Lo_Morel_Ungaro-0.1.dist-info/entry_points.txt,sha256=8fP7Dqj0LZhNhwf49GvDjPCZf0SMBqxQNfRiqiuyGcY,33
+Compilateur_canAda_Zhou_Lo_Morel_Ungaro-0.1.dist-info/top_level.txt,sha256=lv3HorEDxNrIWiJmmXt3i_U1Rd26OFsyteKmum6g9r4,42
+Compilateur_canAda_Zhou_Lo_Morel_Ungaro-0.1.dist-info/RECORD,,
