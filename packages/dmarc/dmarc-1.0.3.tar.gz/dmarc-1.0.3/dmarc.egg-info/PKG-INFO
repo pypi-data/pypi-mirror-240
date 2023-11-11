@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: dmarc
+Version: 1.0.3
+Summary: Parse and evaluate DMARC email authentication policy
+Home-page: https://gitlab.com/duobradovic/pydmarc
+Author: Dusan Obradovic
+Author-email: dusan@euracks.net
+License: MIT
+Keywords: dkim,spf,dmarc,email,authentication,rfc5451,rfc7001,rfc7601,rfc8601
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Email :: Mail Transport Agents
+Classifier: Topic :: Communications :: Email :: Filters
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DMARC (Domain-based Message Authentication, Reporting & Conformance)
+
+DMARC email authentication module implemented in Python.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dmarc.
+
+```bash
+pip install dmarc
+```
+
+## Usage
+
+```python
+>>> import dmarc
+>>>
+>>> # represent verified SPF and DKIM status
+>>> aspf = dmarc.SPF(domain='news.example.com', result=dmarc.SPF_PASS)
+>>> adkim = dmarc.DKIM(domain='example.com', result=dmarc.DKIM_PASS)
+>>> admarc = dmarc.DMARC() # admarc = dmarc.DMARC(publicsuffix.PublicSuffixList())
+>>> try:
+...     plc = admarc.parse_record(record='v=DMARC1; p=reject;', domain='example.com') # parse policy TXT RR
+...     res = admarc.get_result(policy=plc, spf=aspf, dkim=adkim) # evaluate policy
+...     res.verify() # check result
+...     adict = res.as_dict() # dict repr
+... except dmarc.RecordSyntaxError:
+...     'invalid dmarc txt rr'
+... except dmarc.PolicyNoneError:
+...     'res.result == POLICY_FAIL and res.disposition == POLICY_DIS_NONE'
+... except dmarc.PolicyQuarantineError:
+...     'res.result == POLICY_FAIL and res.disposition == POLICY_DIS_QUARANTINE'
+... except dmarc.PolicyRejectError:
+...     'res.result == POLICY_FAIL and res.disposition == POLICY_DIS_REJECT'
+... except dmarc.PolicyError:
+...     'res.result == POLICY_FAIL and unknown disposition error'
+...
+>>> res.result == dmarc.POLICY_PASS
+True
+>>> res.disposition == dmarc.POLICY_DIS_NONE
+True
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
