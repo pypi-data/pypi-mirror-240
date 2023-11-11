@@ -1,0 +1,12 @@
+tatsu_api/__init__.py,sha256=BgOvYJQ7ewPDBa1BpB9yPCEZRYNJvrwvlf8pliCCYcQ,190
+tatsu_api/client.py,sha256=7y3j7qULzA7ny-xFEQf6JEt0BvcFicPa3HGC2q18KX8,8903
+tatsu_api/enums.py,sha256=WrgK1mCiWVKbapcbvkNByHbuw5-sJDT_hmSgDLU9470,596
+tatsu_api/errors.py,sha256=ea92DkAPfJ1H9b0pdT37E4iR-t6SF-KYUGzA_mMTW8g,2322
+tatsu_api/http.py,sha256=9gZL9_aS_C6e9JXn9dL2LcxY5wlD8APxKfMBjwGKMXE,9055
+tatsu_api/models.py,sha256=qAsiiFDUV62teo5tafaSh3b56o8EdW48GFG9qN0X-6s,5851
+tatsu_api/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tatsu_api-1.0.0.dist-info/LICENSE,sha256=HtuMj1QwiYHZQ-LBJs3g_hkUgjbFne5Fy7HB6pJUSps,1083
+tatsu_api-1.0.0.dist-info/METADATA,sha256=IuA_92gtzpd5-cMtBml-hcxGUpwAZErnup1-NEJnPQI,5379
+tatsu_api-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+tatsu_api-1.0.0.dist-info/top_level.txt,sha256=YbeGSRuczBEGZlrM3CdhtdS0aQqH9DwTV1k4KegyuMM,10
+tatsu_api-1.0.0.dist-info/RECORD,,
