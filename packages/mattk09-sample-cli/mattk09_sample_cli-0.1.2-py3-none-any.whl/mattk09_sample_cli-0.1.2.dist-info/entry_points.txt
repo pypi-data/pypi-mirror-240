@@ -1,0 +1,4 @@
+[console_scripts]
+cli=sample_cli.cli:main
+cli_hello=sample_cli.cli:hello
+
