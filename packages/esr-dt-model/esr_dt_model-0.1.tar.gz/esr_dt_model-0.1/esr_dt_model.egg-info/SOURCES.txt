@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+esr_dt_model/__init__.py
+esr_dt_model/mymodule.py
+esr_dt_model.egg-info/PKG-INFO
+esr_dt_model.egg-info/SOURCES.txt
+esr_dt_model.egg-info/dependency_links.txt
+esr_dt_model.egg-info/entry_points.txt
+esr_dt_model.egg-info/top_level.txt
