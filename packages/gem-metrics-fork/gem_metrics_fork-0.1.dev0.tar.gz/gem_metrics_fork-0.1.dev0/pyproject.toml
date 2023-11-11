@@ -1,0 +1,16 @@
+[project]
+name="gem_metrics_fork"
+version="0.1dev"
+description="GEM Challenge metrics"
+dynamic = ["dependencies", "readme"]
+
+[tool.setuptools.dynamic]
+dependencies = {file=["requirements.txt"]}
+readme = {file=["README.md"]}
+
+[build-system]
+requires = [
+  "setuptools>=68.0.0",
+  "wheel"
+]
+build-backend = "setuptools.build_meta"
