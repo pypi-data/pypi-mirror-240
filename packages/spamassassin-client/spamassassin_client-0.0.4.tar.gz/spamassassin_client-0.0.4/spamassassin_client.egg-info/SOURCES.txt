@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+spamassassin_client.egg-info/PKG-INFO
+spamassassin_client.egg-info/SOURCES.txt
+spamassassin_client.egg-info/dependency_links.txt
+spamassassin_client.egg-info/top_level.txt
+tests/test.py
