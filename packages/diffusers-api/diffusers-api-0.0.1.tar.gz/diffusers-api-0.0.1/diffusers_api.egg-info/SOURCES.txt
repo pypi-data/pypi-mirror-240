@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+diffusers_api/__init__.py
+diffusers_api.egg-info/PKG-INFO
+diffusers_api.egg-info/SOURCES.txt
+diffusers_api.egg-info/dependency_links.txt
+diffusers_api.egg-info/requires.txt
+diffusers_api.egg-info/top_level.txt
