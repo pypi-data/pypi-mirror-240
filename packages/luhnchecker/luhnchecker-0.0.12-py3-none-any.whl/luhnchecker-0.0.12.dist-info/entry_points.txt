@@ -1,0 +1,2 @@
+[console_scripts]
+luhnchecker = luhnchecker.__main__:main
