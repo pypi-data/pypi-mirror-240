@@ -1,0 +1,5 @@
+setup.py
+steamcommunity.egg-info/PKG-INFO
+steamcommunity.egg-info/SOURCES.txt
+steamcommunity.egg-info/dependency_links.txt
+steamcommunity.egg-info/top_level.txt
