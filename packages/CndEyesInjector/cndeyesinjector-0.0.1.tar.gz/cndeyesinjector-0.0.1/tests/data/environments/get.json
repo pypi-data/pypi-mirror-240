@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": 530,
+      "name": "Jedha",
+      "environment_app": "dev",
+      "environment_infra": "nonprod",
+      "domain": "domain.com",
+      "filename": "",
+      "active": false
+    }
+  ],
+  "total_count": 1,
+  "total_pages": 1
+}

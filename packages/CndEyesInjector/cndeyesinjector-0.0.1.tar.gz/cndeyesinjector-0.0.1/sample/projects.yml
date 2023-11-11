@@ -1,0 +1,30 @@
+- name: "Project #1"
+  guid: "90d902e6-401f-4d07-bae1-c85b4e4a547d"
+  organization_name: org_1
+  source_name: "source #1"
+  active: true
+- name: "Project #2"
+  guid: "e98b867f-701b-41dd-993c-731295ec3a09"
+  organization_name: org_1
+  source_name: "source #1"
+  active: true
+- name: "Project #3"
+  guid: "def9d06f-6e6c-4191-b182-a4ee8e188731"
+  organization_name: org_2
+  source_name: "source #1"
+  active: true
+- name: "Project #4"
+  guid: "8401e98e-24f7-4d25-831a-0057472cff20"
+  organization_name: org_2
+  source_name: "source #1"
+  active: true
+- name: "Project #5"
+  guid: "33ce3ece-433d-47e5-b6de-010174ae0990"
+  organization_name: org_2
+  source_name: "source #2"
+  active: true
+- name: "Project #6"
+  guid: "bda1a72c-48ef-478d-bca5-38ba3337d8cc"
+  organization_name: org_3
+  source_name: "source #2"
+  active: true

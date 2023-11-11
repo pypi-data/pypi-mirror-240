@@ -1,0 +1,10 @@
+- name: "Fl001"
+  cpu: 4
+  memory: 16
+- name: "Fl002"
+  cpu: 8
+  memory: 32
+- name: "Fl003"
+  cpu: 16
+  memory: 64
+
