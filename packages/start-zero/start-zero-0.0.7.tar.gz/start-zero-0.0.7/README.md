@@ -1,0 +1,41 @@
+安装本项目：pip install start-zero
+
+本深度学习框架主要功能：   
+
+| 序号 | 完成度  | 内容             | 备注                                                                                                         |
+|:--:|:----:|:---------------|:-----------------------------------------------------------------------------------------------------------|
+| 1  | 100% | 数值微分、自动微分、高阶求导 | 高阶求导使用反向传播的反向传播（double backpropagation）                                                                    |
+| 2  | 100% | 处理标量和张量        | Tensor类，兼容numpy                                                                                            |
+| 3  | 100% | 支持GPU运算        | 只支持N卡，目前代码需要将np.array变为cupy.array<br/>使用条件：<br/>①Config.ENABLE_GPU = True<br/>②CUDA.is_available() == True |
+| 4  | 100% | Define-by-Run  | 运行时动态图（核心）                                                                                                 |
+| 5  | 100% | 常用函数的正向传播和反向传播 | 目前一共支持38个函数                                                                                                |
+| 6  |  0%  | 封装层（layer）     | 如CNN、RNN等                                                                                                  |
+| 7  |  0%  | Define-and-Run | 静态图（暂时不会去实现，因为涉及领域特定语言）                                                                                    |
+
+目前支持的函数：   
+
+| 序号 |                  函数                  |                                         符号                                          |      备注      |
+|:--:|:------------------------------------:|:-----------------------------------------------------------------------------------:|:------------:|
+| 1  |  合并求和、广播、求和、平均数、矩阵相乘、矩阵转置、重塑形状、线性回归  |           sum_to、broadcast_to、sum、average、matmul、transpose、reshape、linear           | ft0.py（8个函数） |
+| 2  |            加、减、乘、除、幂、负数、模            |                                   +、-、*、/、**、-、%                                    | ft1.py（7个函数） |
+| 3  |            正弦、余弦、正切、双曲正切             |                                  sin、cos、tan、tanh                                   | ft2.py（4个函数） |
+| 4  |        e为底的指数、10为底的对数、e为底的对数         |                                      exp、lg、ln                                      | ft3.py（3个函数） |
+| 5  | S型生长曲线、线性整流函数、归一化指数函数、归一化指数函数、线性整流函数 |                     sigmoid、relu、softmax、log_softmax、leaky_relu                     | ft4.py（5个函数） |
+| 6  |        均方误差、交叉熵损失、交叉熵损失、二元交叉熵        | mean_squared_error、softmax_cross_entropy、sigmoid_cross_entropy、binary_cross_entropy | ft5.py（4个函数） |
+| 7  |                 最大值                  |                                         max                                         |     其它函数     |
+| 8  |                 最小值                  |                                         min                                         |     其它函数     |
+| 9  |               限定数组上下界                |                                        clip                                         |     其它函数     |
+| 10 |                 准确度                  |                                      accuracy                                       |     其它函数     |
+| 11 |                  退出                  |                                       dropout                                       |     其它函数     |
+| 12 |                  批量                  |                                     batch_norm                                      |     其它函数     |
+| 13 |                 嵌入ID                 |                                      embed_id                                       |     其它函数     |
+
+附录一：上传项目到PyPI   
+1、官网：https://pypi.org/   
+2、E:\pyhton\python.exe -m pip install --upgrade pip setuptools wheel  
+3、E:\pyhton\python.exe -m pip install twine   
+4、python setup.py sdist   
+5、E:\pyhton\python.exe -m twine upload dist/*   
+完成2FA认证后，username是：__token__，password是：生成的token   
+6、安装和卸载：pip install start-zero、pip uninstall start-zero   
+指定版本如：pip install start-zero==1.0.0，也可以<或<=等   
