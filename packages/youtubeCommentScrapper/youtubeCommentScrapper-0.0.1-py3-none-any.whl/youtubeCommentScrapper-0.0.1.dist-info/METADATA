@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: youtubeCommentScrapper
+Version: 0.0.1
+Author: Harsh Jain
+License-File: License.txt
+Requires-Dist: selenium
+Requires-Dist: emoji
+
