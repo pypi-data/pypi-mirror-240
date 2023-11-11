@@ -1,0 +1,1145 @@
+<?xml version="1.0" ?>
+<contents>
+  <product_flavors cmm_pf_var="PRODUCT_FLAVORS">
+    <pf>
+      <name>asic</name>
+      <component>
+        <name>common</name>
+        <flavor>asic</flavor>
+      </component>
+      <component>
+        <name>tz</name>
+        <flavor>asic</flavor>
+      </component>
+      <component>
+        <name>tzapps</name>
+        <flavor>asic</flavor>
+      </component>
+      <component>
+        <name>adsp</name>
+        <flavor>asic</flavor>
+      </component>
+      <component>
+        <name>cdsp</name>
+        <flavor>asic</flavor>
+      </component>
+      <component>
+        <name>npu</name>
+        <flavor>asic</flavor>
+      </component>
+      <component>
+        <name>slpi</name>
+        <flavor>asic</flavor>
+      </component>
+      <component>
+        <name>spss</name>
+        <flavor>asic</flavor>
+      </component>
+      <component>
+        <name>wlan_hst</name>
+        <flavor>asic</flavor>
+      </component>
+    </pf>
+  </product_flavors>
+  <product_info>
+    <product_name>QCS8250.LA.2.0</product_name>
+    <hlos_type cmm_var="HLOS_TYPE">LA</hlos_type>
+    <chipid cmm_var="CHIPID">QCS8250</chipid>
+    <meta_type cmm_var="META_VARIANT">FULL_STACK</meta_type>
+    <ddr_type>LP5</ddr_type>
+    <release_test_config>SRC</release_test_config>
+  </product_info>
+  <partition_info>
+    <partition fastboot_erase="true">modemst1</partition>
+    <partition fastboot_erase="true">modemst2</partition>
+    <partition fastboot_erase="true">fsg</partition>
+    <partition fastboot_erase="true">mdm1m9kefs1</partition>
+    <partition fastboot_erase="true">mdm1m9kefs2</partition>
+    <partition fastboot_erase="true">mdm1m9kefsc</partition>
+    <partition fastboot_erase="true">mdmddr</partition>
+  </partition_info>
+  <builds_flat>
+    <build>
+      <name>aop</name>
+      <role>aop</role>
+      <chipset>qcs8250</chipset>
+      <build_id>AOP.HO.2.0-00197-SM8250_E-1</build_id>
+      <windows_root_path cmm_root_path_var="AOP_BUILDROOT">.\..\AOP.HO.2.0\</windows_root_path>
+      <linux_root_path cmm_root_path_var="AOP_BUILDROOT">./../AOP.HO.2.0/</linux_root_path>
+      <image_dir>aop_proc</image_dir>
+      <release_path type="src">HY11_CompileTest</release_path>
+      <release_path type="bin">HK11</release_path>
+      <release_path type="bin_ddm">HK11</release_path>
+      <release_path type="bin_apq">HK11</release_path>
+      <release_path type="bin_ddm_apq">HK11</release_path>
+      <download_file cmm_file_var="AOP_BINARY" minimized="true" backup_partition="aop_b" fastboot_complete="aop_a">
+        <file_name>aop.mbn</file_name>
+        <file_path>aop_proc/build/ms/bin/AAAAANAZO/</file_path>
+      </download_file>
+      <file_ref cmm_file_var="AOP_ELF" minimized="true">
+        <file_name>AOP_AAAAANAZO.elf</file_name>
+        <file_path>aop_proc/core/bsp/aop/build/</file_path>
+      </file_ref>
+      <wf_step_filter>multi_image</wf_step_filter>
+      <buildfile_path>aop_proc/build/</buildfile_path>
+      <build_command>build_packed.sh 8250</build_command>
+    </build>
+    <build>
+      <name>boot</name>
+      <role>boot</role>
+      <chipset>qcs8250</chipset>
+      <build_id>BOOT.XF.3.2-00387-SM8250-1</build_id>
+      <windows_root_path cmm_root_path_var="BOOT_BUILDROOT">.\..\BOOT.XF.3.2\</windows_root_path>
+      <linux_root_path cmm_root_path_var="BOOT_BUILDROOT">./../BOOT.XF.3.2/</linux_root_path>
+      <image_dir>boot_images</image_dir>
+      <release_path type="src">SP_compiletest</release_path>
+      <release_path type="bin">BIN_8250_LAA_LAB</release_path>
+      <release_path type="bin_ddm">BIN_8250_LAA_LAB</release_path>
+      <release_path type="bin_apq">BIN_8250_LAA_LAB</release_path>
+      <release_path type="bin_ddm_apq">BIN_8250_LAA_LAB</release_path>
+      <download_file cmm_file_var="BOOT_BINARY" minimized="true" backup_partition="xbl_b" fastboot_complete="xbl_a">
+        <file_name>xbl.elf</file_name>
+        <file_path>boot_images/QcomPkg/SocPkg/8250/Bin/LAA/RELEASE/</file_path>
+      </download_file>
+      <download_file cmm_file_var="BOOT_CONFIG" minimized="true" backup_partition="xbl_config_b" fastboot_complete="xbl_config_a">
+        <file_name>xbl_config.elf</file_name>
+        <file_path>boot_images/QcomPkg/SocPkg/8250/Bin/LAA/RELEASE/</file_path>
+      </download_file>
+      <download_file cmm_file_var="IMAGEFV_BINARY" minimized="true" backup_partition="imagefv_b" fastboot_complete="imagefv_a">
+        <file_name>imagefv.elf</file_name>
+        <file_path>boot_images/QcomPkg/SocPkg/8250/Bin/LAA/RELEASE/</file_path>
+      </download_file>
+      <download_file fastboot_complete="logfs" minimized="true">
+        <file_name>logfs_ufs_8mb.bin</file_name>
+        <file_path>boot_images/QcomPkg/Tools/binaries/</file_path>
+      </download_file>
+      <device_programmer cmm_file_var="FIREHOSE_DDR_ELF" minimized="true">
+        <file_name>prog_firehose_ddr.elf</file_name>
+        <file_path>boot_images/QcomPkg/SocPkg/8250/Bin/LAA/RELEASE</file_path>
+      </device_programmer>
+      <device_programmer cmm_file_var="FIREHOSE_LITE_ELF" firehose_type="lite" minimized="true">
+        <file_name>prog_firehose_lite.elf</file_name>
+        <file_path>boot_images/QcomPkg/SocPkg/8250/Bin/LAA/RELEASE</file_path>
+      </device_programmer>
+      <file_ref minimized="true">
+        <file_name>*.*</file_name>
+        <file_path>boot_images/QcomPkg/Tools/storage/fh_loader/</file_path>
+      </file_ref>
+      <file_ref storage_type="ufs" minimized="true">
+        <file_name>JtagProgrammer.cmm</file_name>
+        <file_path>boot_images/QcomPkg/SocPkg/Tools/storage/UFS/</file_path>
+      </file_ref>
+      <file_ref storage_type="ufs" minimized="true">
+        <file_name>JtagProgrammer.elf</file_name>
+        <file_path>boot_images/QcomPkg/SocPkg/8250/Bin/LAA/RELEASE/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="BOOT_ELF" ignore="true" minimized="true">
+        <file_name>XBLLoader.dll</file_name>
+        <file_path>boot_images/Build/SM8250LAA/Loader/RELEASE_CLANG40LINUX/AARCH64/QcomPkg/XBLLoader/XBLLoader/RELEASE/</file_path>
+      </file_ref>
+      <wf_step_filter>multi_image</wf_step_filter>
+      <buildfile_path>python/</buildfile_path>
+      <build_command>python -u boot_images/QcomPkg/buildex.py -t 8250,QcomToolsPkg,QcomCatePkg,QcomTestPkg,QuestPkg,QuestBinPkg -v LAA,LAB,LAC,LAD,LAE,LAF &amp;&amp; rm -f boot_images/Conf/* &amp;&amp; cd boot_images/BaseTools &amp;&amp; rm -f ./workspace.txt &amp;&amp; make clean &amp;&amp; cd ../.. &amp;&amp; python boot_images/packit.py -c LAA,LAB,LAC,LAD,LAE,LAF -t 8250,QcomToolsPkg,QcomTestPkg &amp;&amp; mkdir SP_compiletest &amp;&amp; cp -r ./SRC_8250_LAA_LAB/* ./SP_compiletest/ &amp;&amp; echo &quot;./SP_compiletest/boot_images/Build/SM8250LAA/Loader/RELEASE_CLANG40LINUX/AARCH64/xbl.elf&quot; &gt;&gt; BuildProducts.txt &amp;&amp; echo &quot;./SP_compiletest/boot_images/Build/SM8250LAB/Loader/RELEASE_CLANG40LINUX/AARCH64/xbl.elf&quot; &gt;&gt; BuildProducts.txt &amp;&amp; echo &quot;./SP_compiletest/boot_images/QcomPkg/QcomToolsPkg/Bin/QcomTools/RELEASE/tools.fv&quot; &gt;&gt; BuildProducts.txt &amp;&amp; echo &quot;./SP_compiletest/boot_images/QcomPkg/QcomTestPkg/Bin/QcomTest/RELEASE/tests.fv&quot; &gt;&gt; BuildProducts.txt &amp;&amp; python -u SP_compiletest/boot_images/QcomPkg/buildex.py -t 8250,QcomToolsPkg,QcomTestPkg -v LAA,LAB,LAC,LAD,LAE,LAF -r RELEASE</build_command>
+    </build>
+    <build>
+      <name>tz</name>
+      <role>tz</role>
+      <chipset>qcs8250</chipset>
+      <build_id>TZ.XF.5.8.1-00211-SM8250AAAAANDZT-1</build_id>
+      <short_build_path cmm_var="TZ_BUILDID">DARAANAA</short_build_path>
+      <windows_root_path cmm_root_path_var="TZ_BUILDROOT">.\..\TZ.XF.5.8.1\</windows_root_path>
+      <linux_root_path cmm_root_path_var="TZ_BUILDROOT">./../TZ.XF.5.8.1/</linux_root_path>
+      <image_dir>trustzone_images</image_dir>
+      <release_path type="src">HY11_CompileTest</release_path>
+      <release_path type="bin">HK11</release_path>
+      <release_path type="bin_ddm">HK11</release_path>
+      <release_path type="bin_apq">HK11</release_path>
+      <release_path type="bin_ddm_apq">HK11</release_path>
+      <download_file cmm_file_var="TZ_BINARY" minimized="true" backup_partition="tz_b" fastboot_complete="tz_a">
+        <file_name>tz.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/DARAANAA/</file_path>
+      </download_file>
+      <download_file cmm_file_var="HYP_BINARY" minimized="true" backup_partition="hyp_b" fastboot_complete="hyp_a">
+        <file_name>hyp.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/DARAANAA/</file_path>
+      </download_file>
+      <download_file cmm_file_var="TZDEVCFG_BINARY" minimized="true" backup_partition="devcfg_b" fastboot_complete="devcfg_a">
+        <file_name>devcfg.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/DARAANAA/</file_path>
+      </download_file>
+      <download_file cmm_file_var="CMNLIB64_BINARY" minimized="true" pil_split="cmnlib64" backup_partition="cmnlib64_b" fastboot_complete="cmnlib64_a">
+        <file_name>cmnlib64.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/DARAANAA/</file_path>
+      </download_file>
+      <download_file cmm_file_var="CMNLIB_BINARY" minimized="true" pil_split="cmnlib" backup_partition="cmnlib_b" fastboot_complete="cmnlib_a">
+        <file_name>cmnlib.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/DARAANAA/</file_path>
+      </download_file>
+      <file_ref ignore="true" pil_split="smplap32">
+        <file_name>smplap32.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="smplap64">
+        <file_name>smplap64.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="loadalgota64">
+        <file_name>loadalgota64.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" fat_file="true">
+        <file_name>qwes.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <wf_step_filter>non_hlos,multiimage,apdp,apdp_mdm</wf_step_filter>
+      <buildfile_path>/</buildfile_path>
+      <build_command> </build_command>
+    </build>
+    <build>
+      <name>tzapps</name>
+      <role>tzapps</role>
+      <chipset>qcs8250</chipset>
+      <build_id>TZ.APPS.1.8.1-00039-SM8250AAAAANAZT-1</build_id>
+      <short_build_path cmm_var="TZAPPS_BUILDID">DARAANAA</short_build_path>
+      <windows_root_path cmm_root_path_var="TZAPPS_BUILDROOT">.\..\TZ.APPS.1.8.1\</windows_root_path>
+      <linux_root_path cmm_root_path_var="TZAPPS_BUILDROOT">./../TZ.APPS.1.8.1/</linux_root_path>
+      <image_dir>qtee_tas</image_dir>
+      <release_path>HK11</release_path>
+      <download_file minimized="true" pil_split="featenabler" backup_partition="featenabler_b" fastboot_complete="featenabler_a">
+        <file_name>featenabler.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </download_file>
+      <download_file cmm_file_var="UEFISEC_BINARY" minimized="true" backup_partition="uefisecapp_b" fastboot_complete="uefisecapp_a">
+        <file_name>uefi_sec.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </download_file>
+      <download_file cmm_file_var="STORESEC_BINARY" ignore="true" fastboot_complete="true" minimized="true">
+        <file_name>storsec.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </download_file>
+      <download_file cmm_file_var="KEYMASTER_BINARY" minimized="true" backup_partition="keymaster_b" fastboot_complete="keymaster_a">
+        <file_name>km4.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </download_file>
+      <file_ref ignore="true" pil_split="mldapta">
+        <file_name>mldapta.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="fingerpr" minimized="true">
+        <file_name>fingerpr.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="hdcp1" minimized="true">
+        <file_name>hdcp1.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="hdcp2p2" minimized="true">
+        <file_name>hdcp2p2.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="hdcpsrm" minimized="true">
+        <file_name>hdcpsrm.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref fat_file="true">
+        <file_name>widevine.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="securemm">
+        <file_name>securemm.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="gptest">
+        <file_name>gptest.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="voicepri" minimized="true">
+        <file_name>voiceprint.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="hdcptest" minimized="true">
+        <file_name>hdcptest.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="soter64" minimized="true">
+        <file_name>soter64.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="aptcryptotestapp" minimized="true">
+        <file_name>aptcryptotestapp.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="aptcryptotestapp64" minimized="true">
+        <file_name>aptcryptotestapp64.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="apttestapp" minimized="true">
+        <file_name>apttestapp.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="apttestapp64" minimized="true">
+        <file_name>apttestapp64.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="iris" minimized="true">
+        <file_name>iris.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref fat_file="true" pil_split="haventkn">
+        <file_name>haventkn.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" pil_split="winsecap">
+        <file_name>winsecap.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="RTIC_BINARY" fat_file="true" minimized="true">
+        <file_name>rtic.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="RTICTST_BINARY" ignore="true" fat_file="true" minimized="true">
+        <file_name>rtic_tst.mbn</file_name>
+        <file_path>qtee_tas/build/ms/bin/DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" fat_file="true" minimized="true">
+        <file_name>face3d.b*</file_name>
+        <file_path>qtee_tas/build/ms/bin/PIL_IMAGES/SPLITBINS_DARAANAA/</file_path>
+      </file_ref>
+      <file_ref ignore="true" fat_file="true" minimized="true">
+        <file_name>face3d.mdt</file_name>
+        <file_path>qtee_tas/build/ms/bin/PIL_IMAGES/SPLITBINS_DARAANAA/</file_path>
+      </file_ref>
+      <wf_step_filter>non_hlos,multiimage</wf_step_filter>
+      <buildfile_path>/</buildfile_path>
+      <build_command> </build_command>
+    </build>
+    <build>
+      <name>wlan_hst</name>
+      <role>wlan_hst</role>
+      <chipset>qcs8250</chipset>
+      <build_id>WLAN.IOE_HST.1.0.2-00154-QCAHSTSWPL_SILICONZ-1</build_id>
+      <windows_root_path cmm_root_path_var="WLAN_BUILDROOT">.\..\WLAN.IOE_HST.1.0.2\</windows_root_path>
+      <linux_root_path cmm_root_path_var="WLAN_BUILDROOT">./../WLAN.IOE_HST.1.0.2/</linux_root_path>
+      <image_dir>wlan_proc</image_dir>
+      <release_path type="src">BIN</release_path>
+      <release_path type="bin">BIN</release_path>
+      <release_path type="bin_ddm">BIN</release_path>
+      <release_path type="bin_apq">BIN</release_path>
+      <release_path type="bin_ddm_apq">BIN</release_path>
+      <file_ref fat_file="true" sub_dir="qca6390">
+        <file_name>m3.bin</file_name>
+        <file_path flavor="asic">wlan_proc/wlan/subsys/phyucode_binary/image_hastings/</file_path>
+      </file_ref>
+      <file_ref fat_file="true" sub_dir="qca6390">
+        <file_name>amss20.bin</file_name>
+        <file_path flavor="asic">wlan_proc/config/bsp/cnss_ram_v2_TO_link_patched/build/6390.wlanfw.eval_v2_TO/</file_path>
+      </file_ref>
+      <file_ref fat_file="true" sub_dir="qca6390">
+        <file_name>bdwlan.e*</file_name>
+        <file_path flavor="asic">wlan_proc/wlan/phyrf_svc/tools/bdfUtil/device/bdf/qca639x/</file_path>
+      </file_ref>
+      <file_ref ignore="true" fat_file="true" sub_dir="qca6390">
+        <file_name>Data.msc</file_name>
+        <file_path flavor="asic">wlan_proc/config/bsp/cnss_ram_v2_TO_link_patched/build/6390.wlanfw.eval_v2_TO/</file_path>
+      </file_ref>
+      <file_ref ignore="true" minimized="true">
+        <file_name>WLAN_ROM_V2_LINK_PATCHED_6390.wlanfw.eval_v2Q_link.elf</file_name>
+        <file_path flavor="asic">wlan_proc/wlan/bsp/rombin/v2/silicon/wlan_rom_v2_link_patched/build/6390.wlanfw.eval_v2/</file_path>
+      </file_ref>
+      <file_ref ignore="true" minimized="true">
+        <file_name>CNSS_RAM_V2_TO_LINK_PATCHED_6390.wlanfw.eval_v2_TOQ_link.elf</file_name>
+        <file_path flavor="asic">wlan_proc/config/bsp/cnss_ram_v2_TO_link_patched/build/6390.wlanfw.eval_v2_TO/</file_path>
+      </file_ref>
+      <file_ref ignore="true" minimized="true">
+        <file_name>msg_hash.txt</file_name>
+        <file_path flavor="asic">wlan_proc/scripts/myps/qshrink/</file_path>
+      </file_ref>
+      <file_ref ignore="true" minimized="true">
+        <file_name>*.*</file_name>
+        <file_path flavor="asic">wlan_proc/core/v2rom/rom/kernel/qurt/osam/build/T32/generic/</file_path>
+      </file_ref>
+      <file_ref ignore="true" minimized="true">
+        <file_name>pcss_m3_tx_rx.axf</file_name>
+        <file_path flavor="asic">wlan_proc/wlan/subsys/phyucode_binary/image_hastings/</file_path>
+      </file_ref>
+      <wf_step_filter>non_hlos</wf_step_filter>
+      <buildfile_path>/</buildfile_path>
+      <build_command> </build_command>
+    </build>
+    <build>
+      <name>btfm</name>
+      <role>btfm</role>
+      <chipset>qcs8250</chipset>
+      <build_id>BTFM.HST.2.0.0.c3-00489-QCACHROMZ-1</build_id>
+      <windows_root_path cmm_root_path_var="BTFM_BUILDROOT">.\..\BTFM.HST.2.0.0\</windows_root_path>
+      <linux_root_path cmm_root_path_var="BTFM_BUILDROOT">./../BTFM.HST.2.0.0/</linux_root_path>
+      <image_dir>btfm_proc</image_dir>
+      <release_path type="src">HK11</release_path>
+      <release_path type="bin">HK11</release_path>
+      <release_path type="bin_ddm">HK11</release_path>
+      <release_path type="bin_apq">HK11</release_path>
+      <release_path type="bin_ddm_apq">HK11</release_path>
+      <file_ref fat_file_btfm="true">
+        <file_name>htbtfw10.tlv</file_name>
+        <file_path>btfm_proc/bt/build/ms/bin/QCA6690/</file_path>
+      </file_ref>
+      <file_ref fat_file_btfm="true">
+        <file_name>htnv10.bin</file_name>
+        <file_path>btfm_proc/bt/build/ms/bin/QCA6690/</file_path>
+      </file_ref>
+      <file_ref fat_file_btfm="true">
+        <file_name>htbtfw20.tlv</file_name>
+        <file_path>btfm_proc/bt/build/ms/bin/QCA6690/</file_path>
+      </file_ref>
+      <file_ref fat_file_btfm="true">
+        <file_name>htnv20.bin</file_name>
+        <file_path>btfm_proc/bt/build/ms/bin/QCA6690/xo_murata/</file_path>
+      </file_ref>
+      <file_ref ignore="true" minimized="true">
+        <file_name>*.elf</file_name>
+        <file_path>btfm_proc/bt/build/ms/</file_path>
+      </file_ref>
+      <wf_step_filter>btfm</wf_step_filter>
+      <buildfile_path>cd/</buildfile_path>
+      <build_command>cd ./btfm_proc/build; source ./crm_build_btfm.sh --target 6690 --chipset 6690 --kw --patch --uniqueid</build_command>
+    </build>
+    <build>
+      <name>adsp</name>
+      <role>adsp</role>
+      <chipset>qcs8250</chipset>
+      <build_id>ADSP.HT.5.3.c3.1-00005-SM8250-1</build_id>
+      <windows_root_path cmm_root_path_var="ADSP_BUILDROOT">.\..\ADSP.HT.5.3\</windows_root_path>
+      <linux_root_path cmm_root_path_var="ADSP_BUILDROOT">./../ADSP.HT.5.3/</linux_root_path>
+      <image_dir>adsp_proc</image_dir>
+      <release_path type="src">PCT/SRC</release_path>
+      <release_path type="bin">BIN</release_path>
+      <release_path type="bin_ddm">BIN</release_path>
+      <release_path type="bin_apq">BIN</release_path>
+      <release_path type="bin_ddm_apq">BIN</release_path>
+      <download_file cmm_file_var="ADSP_BINARY" pil_split="adsp" minimized="true">
+        <file_name>adsp.mbn</file_name>
+        <file_path>adsp_proc/build/ms/bin/8250.adsp.prod/</file_path>
+      </download_file>
+      <file_ref fat_file="true" minimized="true">
+        <file_name>adspr.jsn</file_name>
+        <file_path flavor="asic">adsp_proc/build/ms/servreg/8250.adsp.prodQ/</file_path>
+      </file_ref>
+      <file_ref fat_file="true" minimized="true">
+        <file_name>adspua.jsn</file_name>
+        <file_path flavor="asic">adsp_proc/build/ms/servreg/8250.adsp.prodQ/</file_path>
+      </file_ref>
+      <file_ref adspso_signed="true">
+        <file_name>*</file_name>
+        <file_path>adsp_proc/build/ms/dynamic_modules/8250.adsp.prod/</file_path>
+      </file_ref>
+      <wf_step_filter>non_hlos,multi_image,dspso</wf_step_filter>
+      <buildfile_path>python/</buildfile_path>
+      <build_command>python ./adsp_proc/build/ms/build_client.py SM8250_ADSP_PACK</build_command>
+    </build>
+    <build>
+      <name>cdsp</name>
+      <role>cdsp</role>
+      <chipset>qcs8250</chipset>
+      <build_id>CDSP.HT.2.3.c2-00004-SM8250-1</build_id>
+      <windows_root_path cmm_root_path_var="CDSP_BUILDROOT">.\..\CDSP.HT.2.3\</windows_root_path>
+      <linux_root_path cmm_root_path_var="CDSP_BUILDROOT">./../CDSP.HT.2.3/</linux_root_path>
+      <image_dir>cdsp_proc</image_dir>
+      <release_path type="src">PCT/SRC</release_path>
+      <release_path type="bin">BIN</release_path>
+      <release_path type="bin_ddm">BIN</release_path>
+      <release_path type="bin_apq">BIN</release_path>
+      <release_path type="bin_ddm_apq">BIN</release_path>
+      <file_ref fat_file="true" minimized="true">
+        <file_name>cdspr.jsn</file_name>
+        <file_path flavor="asic">cdsp_proc/build/ms/servreg/8250.cdsp.prodQ/</file_path>
+      </file_ref>
+      <download_file cmm_file_var="CDSP_BINARY" pil_split="cdsp" minimized="true">
+        <file_name>cdsp.mbn</file_name>
+        <file_path>cdsp_proc/build/ms/bin/8250.cdsp.prod/</file_path>
+      </download_file>
+      <file_ref cdspso_signed="true">
+        <file_name>*</file_name>
+        <file_path>cdsp_proc/build/ms/dynamic_modules/8250.cdsp.prod/</file_path>
+      </file_ref>
+      <wf_step_filter>non_hlos,multi_image,dspso</wf_step_filter>
+      <buildfile_path>python/</buildfile_path>
+      <build_command>python ./cdsp_proc/build/ms/build_client.py SM8250_CDSP_PACK</build_command>
+    </build>
+    <build>
+      <name>slpi</name>
+      <role>slpi</role>
+      <chipset>qcs8250</chipset>
+      <build_id>SLPI.HY.3.0-00268-SM8250AZL-1</build_id>
+      <windows_root_path cmm_root_path_var="SLPI_BUILDROOT">.\..\SLPI.HY.3.0\</windows_root_path>
+      <linux_root_path cmm_root_path_var="SLPI_BUILDROOT">./../SLPI.HY.3.0/</linux_root_path>
+      <image_dir>slpi_proc</image_dir>
+      <release_path type="src">PCT/SRC</release_path>
+      <release_path type="bin">BIN</release_path>
+      <release_path type="bin_ddm">BIN</release_path>
+      <release_path type="bin_apq">BIN</release_path>
+      <release_path type="bin_ddm_apq">BIN</release_path>
+      <file_ref fat_file="true" minimized="true">
+        <file_name>slpir.jsn</file_name>
+        <file_path flavor="asic">slpi_proc/build/ms/servreg/8250.slpi.prodQ/</file_path>
+      </file_ref>
+      <file_ref fat_file="true" minimized="true">
+        <file_name>slpius.jsn</file_name>
+        <file_path flavor="asic">slpi_proc/build/ms/servreg/8250.slpi.prodQ/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="SLPI_BINARY" pil_split="slpi" minimized="true">
+        <file_name>slpi.mbn</file_name>
+        <file_path>slpi_proc/build/ms/bin/8250.slpi.prod/</file_path>
+      </file_ref>
+      <file_ref slpidspso_signed="true">
+        <file_name>*</file_name>
+        <file_path>slpi_proc/build/ms/dynamic_modules/8250.slpi.prod/</file_path>
+      </file_ref>
+      <wf_step_filter>non_hlos,multiimage,dspso</wf_step_filter>
+      <buildfile_path>python/</buildfile_path>
+      <build_command>python ./slpi_proc/build/ms/build_client.py SM8250_SLPI_PACK --ddp</build_command>
+    </build>
+    <build>
+      <name>spss</name>
+      <role>spss</role>
+      <chipset>qcs8250</chipset>
+      <build_id>SPSS.A1.1.3-00082-SM8250AAAAANAZS-1</build_id>
+      <windows_root_path cmm_root_path_var="SPSS_BUILDROOT">.\..\SPSS.A1.1.3\</windows_root_path>
+      <linux_root_path cmm_root_path_var="SPSS_BUILDROOT">./../SPSS.A1.1.3/</linux_root_path>
+      <image_dir>spss_proc</image_dir>
+      <release_path type="src">BIN</release_path>
+      <release_path type="bin">BIN</release_path>
+      <release_path type="bin_ddm">BIN</release_path>
+      <release_path type="bin_apq">BIN</release_path>
+      <release_path type="bin_ddm_apq">BIN</release_path>
+      <download_file cmm_file_var="SPUNVM_BINARY" fastboot_complete="spunvm" minimized="true">
+        <file_name>spunvm.bin</file_name>
+        <file_path>spss_proc/release/crm/</file_path>
+      </download_file>
+      <file_ref cmm_file_var="SPSS2PB00_BINARY" fat_file="true" minimized="true">
+        <file_name>spss2p.b00</file_name>
+        <file_path flavor="asic">spss_proc/release/crm/sm8250v2/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="SPSS2PB01_BINARY" fat_file="true" minimized="true">
+        <file_name>spss2p.b01</file_name>
+        <file_path flavor="asic">spss_proc/release/crm/sm8250v2/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="SPSS2PB02_BINARY" fat_file="true" minimized="true">
+        <file_name>spss2p.b02</file_name>
+        <file_path flavor="asic">spss_proc/release/crm/sm8250v2/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="SPSS2PMDT_BINARY" fat_file="true" minimized="true">
+        <file_name>spss2p.mdt</file_name>
+        <file_path flavor="asic">spss_proc/release/crm/sm8250v2/</file_path>
+      </file_ref>
+      <file_ref ignore="true" fat_file="true" minimized="true">
+        <file_name>*2p.sig</file_name>
+        <file_path flavor="asic">spss_proc/release/crm/sm8250v2/</file_path>
+      </file_ref>
+      <wf_step_filter>non_hlos</wf_step_filter>
+      <buildfile_path>spss_pack.cmd/</buildfile_path>
+      <build_command>spss_pack.cmd spss_pack.cmd</build_command>
+    </build>
+    <build>
+      <name>video</name>
+      <role>video</role>
+      <chipset>qcs8250</chipset>
+      <build_id>VIDEO.VPU.1.0-00108-PROD-1</build_id>
+      <windows_root_path cmm_root_path_var="VENUS_BUILDROOT">.\..\VIDEO.VPU.1.0\</windows_root_path>
+      <linux_root_path cmm_root_path_var="VENUS_BUILDROOT">./../VIDEO.VPU.1.0/</linux_root_path>
+      <image_dir>venus_proc</image_dir>
+      <release_path type="src">HK11</release_path>
+      <release_path type="bin">HK11</release_path>
+      <release_path type="bin_ddm">HK11</release_path>
+      <release_path type="bin_apq">HK11</release_path>
+      <release_path type="bin_ddm_apq">HK11</release_path>
+      <download_file cmm_file_var="VENUS_BINARY" pil_split="venus" minimized="true">
+        <file_name>venus.mbn</file_name>
+        <file_path>venus_proc/build/bsp/asic/build/PROD/mbn/reloc/signed/</file_path>
+      </download_file>
+      <wf_step_filter>non_hlos,multi_image</wf_step_filter>
+      <buildfile_path>build.cmd/</buildfile_path>
+      <build_command>build.cmd build.cmd</build_command>
+    </build>
+    <build>
+      <name>cvp</name>
+      <role>cvp</role>
+      <chipset>qcs8250</chipset>
+      <build_id>CVP.VPU.1.0-00054-PROD-1</build_id>
+      <windows_root_path cmm_root_path_var="CVP_BUILDROOT">.\..\CVP.VPU.1.0\</windows_root_path>
+      <linux_root_path cmm_root_path_var="CVP_BUILDROOT">./../CVP.VPU.1.0/</linux_root_path>
+      <image_dir>cvp_proc</image_dir>
+      <release_path type="src">HK11</release_path>
+      <release_path type="bin">HK11</release_path>
+      <release_path type="bin_ddm">HK11</release_path>
+      <release_path type="bin_apq">HK11</release_path>
+      <release_path type="bin_ddm_apq">HK11</release_path>
+      <download_file cmm_file_var="CVP_BINARY" pil_split="cvpss" minimized="true">
+        <file_name>cvpss.mbn</file_name>
+        <file_path>cvp_proc/build/bsp/asic/build/PROD/mbn/reloc/socCheck/signed/</file_path>
+      </download_file>
+      <wf_step_filter>non_hlos,multi_image</wf_step_filter>
+      <buildfile_path>build.cmd/</buildfile_path>
+      <build_command>build.cmd build.cmd</build_command>
+    </build>
+    <build>
+      <name>apps</name>
+      <role>apps</role>
+      <chipset>qcs8250</chipset>
+      <build_id>LA.VENDOR.13.2.2.r1-02900-QCS8250.0-1</build_id>
+      <windows_root_path cmm_root_path_var="APPS_BUILDROOT">.\..\LA.VENDOR.13.2.2\</windows_root_path>
+      <linux_root_path cmm_root_path_var="APPS_BUILDROOT">./../LA.VENDOR.13.2.2/</linux_root_path>
+      <image_dir>LINUX</image_dir>
+      <release_path type="src"/>
+      <release_path type="bin"/>
+      <release_path type="bin_ddm">HK33</release_path>
+      <release_path type="bin_apq"/>
+      <release_path type="bin_ddm_apq">HK33</release_path>
+      <download_file sparse_image_path="true" minimized="true" fastboot="super">
+        <file_name>super.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file backup_partition="recovery_b" fastboot="recovery_a" minimized="true">
+        <file_name>recovery.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file backup_partition="vbmeta_system_b" fastboot="vbmeta_system_a" minimized="true">
+        <file_name>vbmeta_system.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file cmm_file_var="APPS_BINARY" backup_partition="boot_b" fastboot="boot_a" minimized="true">
+        <file_name>boot.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file cmm_file_var="APPSBOOT_BINARY" backup_partition="abl_b" fastboot="abl_a" minimized="true">
+        <file_name>abl.elf</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file backup_partition="dtbo_b" fastboot="dtbo_a" minimized="true">
+        <file_name>dtbo.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file backup_partition="vbmeta_b" fastboot="vbmeta_a" minimized="true">
+        <file_name>vbmeta.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file sparse_image_path="true" minimized="true" fastboot="true">
+        <file_name>persist.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file sparse_image_path="true" minimized="true" fastboot="true">
+        <file_name>userdata.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file sparse_image_path="true" minimized="true" fastboot="true">
+        <file_name>metadata.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file cmm_file_var="APPSBOOT_RAMDISK_BINARY" backup_partition="init_boot_b" fastboot="init_boot_a" minimized="true">
+        <file_name>init_boot.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file cmm_file_var="APPSVENDOR_BOOT_BINARY" backup_partition="vendor_boot_b" fastboot="vendor_boot_a" minimized="true">
+        <file_name>vendor_boot.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/</file_path>
+      </download_file>
+      <download_file ignore="true" minimized="true" secondary_boot="true">
+        <file_name>boot.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/secondary-boot/</file_path>
+      </download_file>
+      <download_file ignore="true" minimized="true" secondary_boot="true">
+        <file_name>super.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/secondary-boot/</file_path>
+      </download_file>
+      <download_file ignore="true" minimized="true" secondary_boot="true">
+        <file_name>recovery.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/secondary-boot/</file_path>
+      </download_file>
+      <download_file ignore="true" minimized="true" secondary_boot="true">
+        <file_name>vbmeta_system.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/secondary-boot/</file_path>
+      </download_file>
+      <download_file ignore="true" minimized="true" secondary_boot="true">
+        <file_name>dtbo.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/secondary-boot/</file_path>
+      </download_file>
+      <download_file ignore="true" minimized="true" secondary_boot="true">
+        <file_name>vbmeta.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/secondary-boot/</file_path>
+      </download_file>
+      <download_file ignore="true" minimized="true" secondary_boot="true">
+        <file_name>userdata.img</file_name>
+        <file_path>LINUX/android/out/target/product/kona/secondary-boot/</file_path>
+      </download_file>
+      <file_ref ignore="true" minimized="true" secondary_boot="true">
+        <file_name>vmlinux</file_name>
+        <file_path>LINUX/android/out/target/product/kona/secondary-boot/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="APPS_ELF" minimized="true">
+        <file_name>vmlinux</file_name>
+        <file_path>LINUX/android/kernel_platform/out/msm-kernel-kona-gki/dist/</file_path>
+      </file_ref>
+      <file_ref ignore="true" minimized="true">
+        <file_name>adb.exe</file_name>
+        <file_path>LINUX/android/vendor/qcom/proprietary/usb/host/windows/prebuilt/</file_path>
+      </file_ref>
+      <file_ref ignore="true" minimized="true">
+        <file_name>AdbWinApi.dll</file_name>
+        <file_path>LINUX/android/vendor/qcom/proprietary/usb/host/windows/prebuilt/</file_path>
+      </file_ref>
+      <file_ref ignore="true" minimized="true">
+        <file_name>fastboot.exe</file_name>
+        <file_path>LINUX/android/vendor/qcom/proprietary/usb/host/windows/prebuilt/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="IPA_FWS_ELF" ignore="true" minimized="true">
+        <file_name>ipa_fws.elf</file_name>
+        <file_path>LINUX/android/out/target/product/kona/ipa/signed/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="GFX_ELF" ignore="true" minimized="true">
+        <file_name>a650_zap.elf</file_name>
+        <file_path>LINUX/android/out/target/product/kona/vendor/firmware/</file_path>
+      </file_ref>
+      <file_ref ignore="true" minimized="true">
+        <file_name>qca_cld3_wlan.ko.unstripped</file_name>
+        <file_path>LINUX/android/out/target/product/kona/obj/vendor/qcom/opensource/wlan/qcacld-3.0/</file_path>
+      </file_ref>
+      <wf_step_filter>partition,hlos</wf_step_filter>
+      <buildfile_path>./</buildfile_path>
+      <build_command>create_BuildProducts ./create_BuildProducts</build_command>
+    </build>
+    <build>
+      <name>apps_qssi13</name>
+      <role>apps_qssi13</role>
+      <chipset>qcs8250</chipset>
+      <build_id>LA.QSSI.13.0.r1-10300-qssi.0-1</build_id>
+      <windows_root_path cmm_root_path_var="APPS_QSSI_BUILDROOT">.\..\LA.QSSI.13.0\</windows_root_path>
+      <linux_root_path cmm_root_path_var="APPS_QSSI_BUILDROOT">./../LA.QSSI.13.0/</linux_root_path>
+      <image_dir>LINUX</image_dir>
+      <release_path type="src"/>
+      <release_path type="bin"/>
+      <release_path type="bin_ddm"/>
+      <release_path type="bin_apq"/>
+      <release_path type="bin_ddm_apq"/>
+      <wf_step_filter/>
+      <buildfile_path>./</buildfile_path>
+      <build_command>create_BuildProducts ./create_BuildProducts</build_command>
+    </build>
+    <build>
+      <name>apps_kernel</name>
+      <role>apps_kernel</role>
+      <chipset>qcs8250</chipset>
+      <build_id>KERNEL.PLATFORM.2.0.r16-01700-kernel.0-1</build_id>
+      <windows_root_path cmm_root_path_var="APPSKERNEL_BUILDROOT">.\..\KERNEL.PLATFORM.2.0\</windows_root_path>
+      <linux_root_path cmm_root_path_var="APPSKERNEL_BUILDROOT">./../KERNEL.PLATFORM.2.0/</linux_root_path>
+      <image_dir>kernel_platform</image_dir>
+      <release_path type="src"/>
+      <release_path type="bin"/>
+      <release_path type="bin_ddm"/>
+      <release_path type="bin_apq"/>
+      <release_path type="bin_ddm_apq"/>
+      <wf_step_filter/>
+      <buildfile_path>./</buildfile_path>
+      <build_command>create_BuildProducts ./create_BuildProducts</build_command>
+    </build>
+    <build>
+      <name>npu</name>
+      <role>npu</role>
+      <chipset>qcs8250</chipset>
+      <build_id>NPU.FW.2.0-00192-SM8250_NPU_PACK-1</build_id>
+      <windows_root_path cmm_root_path_var="NPU_BUILDROOT">.\..\NPU.FW.2.0\</windows_root_path>
+      <linux_root_path cmm_root_path_var="NPU_BUILDROOT">./../NPU.FW.2.0/</linux_root_path>
+      <image_dir>npu_proc</image_dir>
+      <release_path type="src">BIN</release_path>
+      <release_path type="bin">BIN</release_path>
+      <release_path type="bin_ddm">BIN</release_path>
+      <release_path type="bin_apq">BIN</release_path>
+      <release_path type="bin_ddm_apq">BIN</release_path>
+      <download_file cmm_file_var="NPU_BINARY" pil_split="npu" minimized="true">
+        <file_name>npu.mbn</file_name>
+        <file_path>npu_proc/build/ms/bin/8250.npu.prod/</file_path>
+      </download_file>
+      <wf_step_filter>non_hlos,multi_image</wf_step_filter>
+      <buildfile_path>npu_proc/build/ms/</buildfile_path>
+      <build_command>build_client.py SM8250_NPU_PACK bparams=-k</build_command>
+    </build>
+    <build>
+      <name>common</name>
+      <role>common</role>
+      <chipset>qcs8250</chipset>
+      <build_id>QCS8250.LA.2.0-00053-STD.PROD-1</build_id>
+      <windows_root_path>.\</windows_root_path>
+      <linux_root_path>./</linux_root_path>
+      <image_dir>common</image_dir>
+      <release_path/>
+      <file_ref ignore="true" fat_file="true" minimized="true" sub_dir="sdx55m">
+        <file_name>devcfg.mbn</file_name>
+        <file_path flavor="asic">common/build/ufs/bin/asic/rename_files/</file_path>
+      </file_ref>
+      <download_file storage_type="ufs" backup_partition="modem_b" fastboot="modem_a" minimized="true">
+        <file_name>NON-HLOS.bin</file_name>
+        <file_path>common/build/ufs/bin/asic/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" backup_partition="bluetooth_b" fastboot="bluetooth_a" minimized="true">
+        <file_name>BTFM.bin</file_name>
+        <file_path>common/build/ufs/bin/</file_path>
+      </download_file>
+      <download_file backup_partition="dsp_b" fastboot="dsp_a" minimized="true">
+        <file_name>dspso.bin</file_name>
+        <file_path>common/build/bin/</file_path>
+      </download_file>
+      <download_file cmm_file_var="QUP_BINARY" minimized="true" backup_partition="qupfw_b" fastboot_complete="qupfw_a">
+        <file_name>qupv3fw.elf</file_name>
+        <file_path>common/core_qupv3fw/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" minimized="true" fastboot="ddr">
+        <file_name>zeros_5sectors.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file cmm_file_var="MULTIIMGOEM_BINARY" fastboot_complete="multiimgoem" minimized="true">
+        <file_name>multi_image.mbn</file_name>
+        <file_path>common/build/bin/</file_path>
+      </download_file>
+      <download_file fastboot_complete="apdp" minimized="true">
+        <file_name>apdp.mbn</file_name>
+        <file_path>common/build/bin/apdp</file_path>
+      </download_file>
+      <file_ref cmm_file_var="SEC_ELF_BINARY_MDM" fat_file="true" sub_dir="sdx55m" get_binary="true" minimized="true">
+        <file_name>sec.elf</file_name>
+        <file_path>common/config/ufs/secelf/</file_path>
+      </file_ref>
+      <download_file fastboot_complete="apdp" minimized="true">
+        <file_name>apdp.mbn</file_name>
+        <file_path>common/build/bin/apdp</file_path>
+      </download_file>
+      <download_file storage_type="ufs" minimized="true">
+        <file_name>*.img</file_name>
+        <file_path>common/build/ufs/bin/asic/sparse_images/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" minimized="true">
+        <file_name>*.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" minimized="true">
+        <file_name>*.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file minimized="true">
+        <file_name>sec.dat</file_name>
+        <file_path>common/sectools/resources/build/fileversion2/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" minimized="true">
+        <file_name>gpt_main0.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" minimized="true">
+        <file_name>gpt_main1.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" minimized="true">
+        <file_name>gpt_main2.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" minimized="true">
+        <file_name>gpt_main3.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" minimized="true">
+        <file_name>gpt_main4.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" minimized="true">
+        <file_name>gpt_main5.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" gpt_file="partition:0" minimized="true">
+        <file_name>gpt_both0.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" gpt_file="partition:1" minimized="true">
+        <file_name>gpt_both1.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" gpt_file="partition:2" minimized="true">
+        <file_name>gpt_both2.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" minimized="true">
+        <file_name>gpt_both3.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" gpt_file="partition:4" minimized="true">
+        <file_name>gpt_both4.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <download_file storage_type="ufs" gpt_file="partition:5" minimized="true">
+        <file_name>gpt_both5.bin</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </download_file>
+      <partition_file storage_type="ufs">
+        <file_name>rawprogram_unsparse0.xml</file_name>
+        <file_path>common/build/ufs/bin/asic/sparse_images/</file_path>
+      </partition_file>
+      <partition_patch_file storage_type="ufs">
+        <file_name>patch0.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </partition_patch_file>
+      <partition_file storage_type="ufs">
+        <file_name>rawprogram1.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </partition_file>
+      <partition_patch_file storage_type="ufs">
+        <file_name>patch1.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </partition_patch_file>
+      <partition_file storage_type="ufs">
+        <file_name>rawprogram2.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </partition_file>
+      <partition_patch_file storage_type="ufs">
+        <file_name>patch2.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </partition_patch_file>
+      <partition_file storage_type="ufs">
+        <file_name>rawprogram3.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </partition_file>
+      <partition_patch_file storage_type="ufs">
+        <file_name>patch3.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </partition_patch_file>
+      <partition_file storage_type="ufs">
+        <file_name>rawprogram4.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </partition_file>
+      <partition_patch_file storage_type="ufs">
+        <file_name>patch4.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </partition_patch_file>
+      <partition_file storage_type="ufs">
+        <file_name>rawprogram5.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </partition_file>
+      <partition_patch_file storage_type="ufs">
+        <file_name>patch5.xml</file_name>
+        <file_path>common/build/ufs/</file_path>
+      </partition_patch_file>
+      <file_ref raw_partition="true" storage_type="ufs">
+        <file_name>partition_20.xml</file_name>
+        <file_path>common/config/ufs/external/</file_path>
+      </file_ref>
+      <file_ref storage_type="ufs" fat_file_ufs="true">
+        <file_name>*</file_name>
+        <file_path flavor="asic">common/build/ufs/bin/asic/pil_split_bins/</file_path>
+      </file_ref>
+      <wf_step_filter>partition,non_hlos,cmm_scripts</wf_step_filter>
+    </build>
+    <build>
+      <name>glue</name>
+      <role>glue</role>
+      <chipset>qcs8250</chipset>
+      <build_id>GLUE.QCS8250.LA.1.0-00027-NOOP_TEST-1</build_id>
+      <windows_root_path>.\</windows_root_path>
+      <linux_root_path>./</linux_root_path>
+      <release_path/>
+      <image_dir>common</image_dir>
+      <wf_step_filter>partition,non_hlos,cmm_scripts</wf_step_filter>
+      <buildfile_path>common/build/</buildfile_path>
+      <build_command>build.sh common/build/build.sh</build_command>
+    </build>
+  </builds_flat>
+  <build_tools>
+   
+  </build_tools>
+  <external_tools>
+    <tool>
+      <name>trace32</name>
+      <version cmm_var="T32_VER_EXT">S.2018.04.000095884</version>
+    </tool>
+    <tool>
+      <name>qpst</name>
+      <version>QPST 2.7.483</version>
+    </tool>
+    <tool>
+      <name>qxdm</name>
+      <version>QXDM 04.00.311</version>
+    </tool>
+  </external_tools>
+  <workflow>
+    <tool>
+      <name>fatgen.py</name>
+      <build>common</build>
+      <path>./common/config/storage/</path>
+    </tool>
+    <tool>
+      <name>fatadd.py</name>
+      <build>common</build>
+      <path>./common/config/storage/</path>
+    </tool>
+    <tool>
+      <name>checksparse.py</name>
+      <build>common</build>
+      <path>./common/config/storage/</path>
+    </tool>
+    <tool>
+      <name>pil-splitter.py</name>
+      <build>common</build>
+      <path>./common/config/storage/</path>
+    </tool>
+    <tool>
+      <name>sectools.py</name>
+      <build>common</build>
+      <path>./common/sectools/</path>
+    </tool>
+    <tool>
+      <name>ptool.py</name>
+      <build>common</build>
+      <path>./common/config/storage/</path>
+    </tool>
+    <tool>
+      <name>fat_creation.py</name>
+      <build>common</build>
+      <path>./common/build/app</path>
+    </tool>
+    <tool>
+      <name>make_ext4fs_win.exe</name>
+      <build>common</build>
+      <path>./common/config/ext4fs_tools/windows/</path>
+    </tool>
+    <tool>
+      <name>simg2img_win.exe</name>
+      <build>common</build>
+      <path>./common/config/ext4fs_tools/windows/</path>
+    </tool>
+    <tool>
+      <name>make_ext4fs</name>
+      <build>common</build>
+      <path>./common/config/ext4fs_tools/ubuntu</path>
+    </tool>
+    <tool>
+      <name>elf_mod.exe</name>
+      <build>tz</build>
+      <path>./trustzone_images/ssg/securemsm/accesscontrol/tools/hyp/elf_mod/executables</path>
+    </tool>
+    <tool>
+      <name>elf_mod</name>
+      <build>tz</build>
+      <path>./trustzone_images/ssg/securemsm/accesscontrol/tools/hyp/elf_mod/executables</path>
+    </tool>
+    <tool>
+      <name>simg2img</name>
+      <build>common</build>
+      <path>./common/config/ext4fs_tools/ubuntu</path>
+    </tool>
+    <tool>
+      <name>mcfg_meta.py</name>
+      <build>modem_sdx55m</build>
+      <path>./modem_proc/mcfg/mcfg_gen/scripts/</path>
+    </tool>
+    <step filter="apdp" type="delete">
+      <destn>./bin/apdp</destn>
+    </step>
+    <step filter="apdp" type="exec">
+      <params>python @tool_name debugpolicy -p sm8250 -gsa -i dbgp_ap -o @destn</params>
+      <tool_name>sectools.py</tool_name>
+      <destn>./bin/apdp/</destn>
+    </step>
+    <step filter="multi_image" type="delete">
+      <destn_dir>./bin/multi_image</destn_dir>
+    </step>
+    <step filter="multi_image" type="delete">
+      <destn>./bin/multi_image.mbn</destn>
+    </step>
+    <step filter="multi_image" type="exec">
+      <params>python @tool_name secimage -p sm8250 -m @root_dir --m_gen --m_sign --m_validate -a -o @destn</params>
+      <tool_name>sectools.py</tool_name>
+      <destn>./bin/multi_image/</destn>
+      <root_dir>$[build:common]</root_dir>
+    </step>
+    <step filter="multi_image" type="copy">
+      <destn_dir>./bin/</destn_dir>
+      <src_files>./bin/multi_image/sm8250/multi_image/multi_image.mbn</src_files>
+    </step>
+    <step filter="multi_image" type="delete">
+      <destn_dir>./bin/qti_multi_image</destn_dir>
+    </step>
+    <step filter="multi_image" type="delete">
+      <destn>./bin/multi_image_qti.mbn</destn>
+    </step>
+    <step filter="multi_image" type="exec">
+      <params>python @tool_name secimage -p sm8250 -m @root_dir --m_gen --m_sign --m_validate --qti_signing -a -o @destn</params>
+      <tool_name>sectools.py</tool_name>
+      <destn>./bin/qti_multi_image/</destn>
+      <root_dir>$[build:common]</root_dir>
+    </step>
+    <step filter="multi_image" type="copy">
+      <destn_dir>./bin/</destn_dir>
+      <src_files>./bin/multi_image/sm8250/qti_multi_image/qti_multi_image.mbn</src_files>
+    </step>
+    <step filter="partition" storage_type="ufs" type="exec">
+      <exec_dir>./ufs</exec_dir>
+      <params>python @tool_name -x ./../../config/ufs/external/partition_20.xml</params>
+      <tool_name>ptool.py</tool_name>
+    </step>
+    <step filter="non_hlos" storage_type="ufs" type="exec">
+      <params>python @tool_name @src_file @destn_dir + @src_file_var</params>
+      <tool_name>pil-splitter.py</tool_name>
+      <src_file_vars>$[attribute:pil_split]</src_file_vars>
+      <destn_dir>./ufs/bin/asic/pil_split_bins</destn_dir>
+    </step>
+    <step filter="apdp" type="delete">
+      <destn>./bin/apdp</destn>
+    </step>
+    <step filter="apdp_mdm" type="delete">
+      <destn>./bin/apdp_sdx55</destn>
+    </step>
+    <step filter="apdp" type="exec">
+      <params>python @tool_name debugpolicy -p sm8250 -gsa -i dbgp_ap -o @destn</params>
+      <tool_name>sectools.py</tool_name>
+      <destn>./bin/apdp/</destn>
+    </step>
+    <step filter="non_hlos" type="copy">
+      <src_file_vars>$[attribute:rename_file]</src_file_vars>
+      <destn_dir>./ufs/bin/asic/rename_files</destn_dir>
+    </step>
+    <step filter="non_hlos" storage_type="ufs" type="delete">
+      <destn>./ufs/bin/$[flavor:.]/NON-HLOS.bin</destn>
+    </step>
+    <step filter="non_hlos" storage_type="ufs" type="exec">
+      <params>python @tool_name -a @attributes -c @destn --ps @partition_size --ss 4096 -f asic --fatgen @fatgen_loc --fatadd @fatadd_loc</params>
+      <tool_name>fat_creation.py</tool_name>
+      <attributes>&quot;(fat_file)||(fat_file_ufs)&quot;</attributes>
+      <destn>./ufs/bin/asic/NON-HLOS.bin</destn>
+      <partition_size>@getPartitionSize(&quot;./../config/ufs/external/partition_20.xml&quot;,&quot;modem_a&quot;)</partition_size>
+      <fatgen_loc>@root_dir + common/config/storage/fatgen.py</fatgen_loc>
+      <fatadd_loc>@root_dir + common/config/storage/fatadd.py</fatadd_loc>
+      <root_dir>$[build:common]</root_dir>
+    </step>
+    <step filter="btfm" storage_type="ufs" type="delete">
+      <destn>./ufs/bin/BTFM.bin</destn>
+    </step>
+    <step filter="btfm" storage_type="ufs" type="exec">
+      <params>python @tool_name -a @attributes -c @destn --ps 64 --ss 4096 -f $[flavor:.] --fatgen @fatgen_loc --fatadd @fatadd_loc</params>
+      <tool_name>fat_creation.py</tool_name>
+      <attributes>fat_file_btfm</attributes>
+      <destn>./ufs/bin/BTFM.bin</destn>
+      <fatgen_loc>@root_dir + common/config/storage/fatgen.py</fatgen_loc>
+      <fatadd_loc>@root_dir + common/config/storage/fatadd.py</fatadd_loc>
+      <root_dir>$[build:common]</root_dir>
+    </step>
+    <step filter="hlos" storage_type="ufs" type="exec">
+      <exec_dir>./ufs/bin/asic/sparse_images</exec_dir>
+      <params>python @tool_name -i @rawprogram_xml -s @root_dir + @sparse_dir -o rawprogram_unsparse0.xml</params>
+      <tool_name>checksparse.py</tool_name>
+      <root_dir>$[build:apps]</root_dir>
+      <sparse_dir>LINUX/android/out/target/product/kona/</sparse_dir>
+      <rawprogram_xml>./../../../rawprogram0.xml</rawprogram_xml>
+    </step>
+    <step filter="hlos" storage_type="ufs" type="exec">
+      <exec_dir>./ufs/bin/asic/sparse_images</exec_dir>
+      <params>python @tool_name -i @rawprogram_xml -s @root_dir + @sparse_dir -o rawprogram_unsparse4.xml</params>
+      <tool_name>checksparse.py</tool_name>
+      <root_dir>$[build:apps]</root_dir>
+      <sparse_dir>LINUX/android/out/target/product/kona/</sparse_dir>
+      <rawprogram_xml>./../../../rawprogram4.xml</rawprogram_xml>
+    </step>
+  </workflow>
+</contents>
