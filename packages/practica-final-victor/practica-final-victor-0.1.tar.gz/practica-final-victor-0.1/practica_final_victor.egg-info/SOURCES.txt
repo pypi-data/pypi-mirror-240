@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+Setup.py
+setup.cfg
+setup.py
+Modulo1/__init__.py
+Modulo2/__init__.py
+Modulo2/metodos.py
+practica_final_victor.egg-info/PKG-INFO
+practica_final_victor.egg-info/SOURCES.txt
+practica_final_victor.egg-info/dependency_links.txt
+practica_final_victor.egg-info/top_level.txt
