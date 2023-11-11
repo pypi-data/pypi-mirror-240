@@ -1,0 +1,9 @@
+setup.py
+yourstyle/__init__.py
+yourstyle/your_custom_style.py
+yourstyle.egg-info/PKG-INFO
+yourstyle.egg-info/SOURCES.txt
+yourstyle.egg-info/dependency_links.txt
+yourstyle.egg-info/entry_points.txt
+yourstyle.egg-info/requires.txt
+yourstyle.egg-info/top_level.txt
