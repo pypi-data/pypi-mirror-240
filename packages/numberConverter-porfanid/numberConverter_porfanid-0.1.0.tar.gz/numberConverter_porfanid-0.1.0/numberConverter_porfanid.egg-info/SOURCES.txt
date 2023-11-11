@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+numberConverter_porfanid/__init__.py
+numberConverter_porfanid/numberConverter.py
+numberConverter_porfanid.egg-info/PKG-INFO
+numberConverter_porfanid.egg-info/SOURCES.txt
+numberConverter_porfanid.egg-info/dependency_links.txt
+numberConverter_porfanid.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: numberConverter-porfanid
+Version: 0.1.0
+Summary: This is a simple python package that will help you convert and use numbers that are in different bases
+Author-email: Pavlos Orfanidis <paclos@orfanidis.net.gr>
+Project-URL: Homepage, https://github.com/porfanid/numberConverter
+Project-URL: Bug Tracker, https://github.com/porfanid/numberConverter/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# numberConverter
+
+This is a simple python package that will help you convert and use numbers that are in different bases

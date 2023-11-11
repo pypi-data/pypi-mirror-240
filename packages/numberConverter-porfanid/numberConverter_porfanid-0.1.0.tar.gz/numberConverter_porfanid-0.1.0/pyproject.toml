@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "numberConverter_porfanid"
+version = "0.1.0"
+authors = [
+  { name="Pavlos Orfanidis", email="paclos@orfanidis.net.gr" },
+]
+description = "This is a simple python package that will help you convert and use numbers that are in different bases"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/porfanid/numberConverter"
+"Bug Tracker" = "https://github.com/porfanid/numberConverter/issues"
