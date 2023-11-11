@@ -1,0 +1,26 @@
+[project]
+name = "npiv"
+version = "0.0.1"
+authors = [
+  { name="Luis Rafael Justin Hoderlein", email="first.last@yale.edu" },
+]
+description = "Nonparametric IV Toolbox for Python"
+readme = "README.md"
+requires-python = ">=3.8"
+# TODO(khemritolya): fix dependency versions
+dependencies = [
+    "jax>=0.4.19",
+    "flax",
+    "optax",
+    "tqdm"
+]
+# TODO(khemritolya): fix classifiers
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/khemritolya/npiv"
+"Bug Tracker" = "https://github.com/khemritlya/npiv/issues"

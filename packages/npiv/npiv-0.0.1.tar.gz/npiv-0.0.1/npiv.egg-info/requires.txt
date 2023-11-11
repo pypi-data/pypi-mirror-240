@@ -1,0 +1,4 @@
+jax>=0.4.19
+flax
+optax
+tqdm
