@@ -1,0 +1,31 @@
+[project]
+name = 'mpl-ornaments'
+version = '0.0.3'
+authors = [
+    {name = "Francesco Bianconi", email = "bianco@ieee.org"}
+]
+readme = "README.md"
+description = "Small extensions to Matplotlib"
+requires-python = ">=3.10.4"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+dependencies = [
+    "matplotlib >= 3.8.0",
+]
+license = {text = "MIT License"}
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+homepage = "https://github.com/bianconif/mpl_ornaments"
+documentation = "https://bianconif.github.io/mpl_ornaments"
+
+[tool.setuptools]
+packages = ["mpl_ornaments"]
