@@ -1,0 +1,12 @@
+LICENSE
+README.md
+README.rst
+setup.py
+datafit/__init__.py
+datafit/datafit.py
+datafit.egg-info/PKG-INFO
+datafit.egg-info/SOURCES.txt
+datafit.egg-info/dependency_links.txt
+datafit.egg-info/entry_points.txt
+datafit.egg-info/requires.txt
+datafit.egg-info/top_level.txt
