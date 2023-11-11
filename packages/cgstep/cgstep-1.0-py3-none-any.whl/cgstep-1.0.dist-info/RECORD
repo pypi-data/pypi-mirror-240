@@ -1,0 +1,9 @@
+cgstep/__init__.py,sha256=-9NAANBeei8KOFqNmLpgKeyW80ZxrP4nS8FN0sTRgGE,42
+cgstep/cli.py,sha256=LH9PxsLRJB98_IwGJMn5h6_tE_4E86cq99u-7l7_pNY,23370
+cgstep/tmc5240.py,sha256=M8vWAahUS8Qbl6vjjeQM_gdITdd3UZBOQcEvSENxu5Q,28088
+cgstep-1.0.dist-info/LICENSE,sha256=QAjactVBnwVzK6WI5Ri1ixF4dOcBWKKRc5Jmiiu1IKI,11342
+cgstep-1.0.dist-info/METADATA,sha256=CUme50toRwdkWg7Fdrih96JM9DhorAZV0_E1KXYZNNU,343
+cgstep-1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cgstep-1.0.dist-info/entry_points.txt,sha256=6cPWIshkwOdISIMu9TQZWSTxlR1xmcZWr3HsyLGpr-I,38
+cgstep-1.0.dist-info/top_level.txt,sha256=ausRCO3rL1L-hGq14PiMneo0jlnq59FHDi9TWGtycgw,7
+cgstep-1.0.dist-info/RECORD,,
