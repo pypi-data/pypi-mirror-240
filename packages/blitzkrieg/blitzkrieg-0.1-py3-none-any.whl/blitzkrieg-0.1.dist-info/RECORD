@@ -1,0 +1,11 @@
+blitzkrieg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blitzkrieg/main.py,sha256=kUpvlCNx6Oekcn5ETSj_NQjcq1f8mAI83jsXrRKKd8Y,303
+blitzkrieg/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blitzkrieg/api/fastapi_app.py,sha256=4twU_hSgKS6Npey3b3Ry7a4zmZQvxKrBC_6NAIuiP8k,641
+blitzkrieg/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blitzkrieg/config/settings.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blitzkrieg-0.1.dist-info/METADATA,sha256=oAE41I42EN3wVp1uvz5OHXJcav5GdUe4adnhfuGM33g,9943
+blitzkrieg-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+blitzkrieg-0.1.dist-info/entry_points.txt,sha256=X8DEGK2WRaHYrFZmdP4i-ZQ1rA7dJ0BR7PU5IxX-2I0,47
+blitzkrieg-0.1.dist-info/top_level.txt,sha256=NGc6HavkE8DSBqa9Ewzc-HmHvq68CZQ5RF6J8w3Z06U,11
+blitzkrieg-0.1.dist-info/RECORD,,
