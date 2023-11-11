@@ -1,0 +1,12 @@
+- name: "Dev #1"
+  active: true
+- name: "Construction"
+  active: true
+- name: "Dev #2"
+  active: true
+- name: "Test"
+  active: true
+- name: "PreProd"
+  active: true
+- name: "Prod"
+  active: true

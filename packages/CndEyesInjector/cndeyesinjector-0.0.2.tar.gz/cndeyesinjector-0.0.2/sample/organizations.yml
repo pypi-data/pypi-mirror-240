@@ -1,0 +1,9 @@
+- name: org_1
+  guid: guid_org_1
+  active: true
+- name: org_2
+  guid: guid_org_2
+  active: true
+- name: org_3
+  guid: guid_org_3
+  active: true

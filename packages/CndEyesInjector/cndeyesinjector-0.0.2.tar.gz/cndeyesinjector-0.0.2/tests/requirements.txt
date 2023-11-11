@@ -1,0 +1,5 @@
+expects
+mockito
+requests_mock~=1.10
+mamba
+hatch
