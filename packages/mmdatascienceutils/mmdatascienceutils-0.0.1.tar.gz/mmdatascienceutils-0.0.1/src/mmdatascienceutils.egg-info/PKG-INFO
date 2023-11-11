@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mmdatascienceutils
+Version: 0.0.1
+Summary: A utils package for data science projects
+Author-email: MM Data Science <info@mmdatascience.com>
+Project-URL: Homepage, https://github.com/MandM-DataScience/dsutils
+Project-URL: Bug Tracker, https://github.com/MandM-DataScience/dsutils/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: seaborn
+Requires-Dist: numpy
+
+# dsutils
+A utils package for data science projects
+
+# BUILD PACKAGE INSTRUCTIONS
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+## Build
+py -m build
+## Upload
+py -m twine upload dist/*
