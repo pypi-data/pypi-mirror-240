@@ -1,0 +1,14 @@
+README.md
+setup.py
+podracer/__init__.py
+podracer/_appdata.py
+podracer/download.py
+podracer/download_queue.py
+podracer/organize.py
+podracer/process.py
+podracer/settings.py
+podracer.egg-info/PKG-INFO
+podracer.egg-info/SOURCES.txt
+podracer.egg-info/dependency_links.txt
+podracer.egg-info/requires.txt
+podracer.egg-info/top_level.txt
