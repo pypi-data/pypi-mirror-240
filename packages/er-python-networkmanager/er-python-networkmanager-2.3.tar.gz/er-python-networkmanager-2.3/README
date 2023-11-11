@@ -1,0 +1,7 @@
+acknowledgement
+===============
+This is a fork of https://github.com/seveas/python-networkmanager which is no longer maintained
+Do not expect active development here, we maintain the code on a as-needed basis while we work to replace our NetworkManager integration entirely.
+
+If you are looking for an alternative, please try
+https://github.com/python-sdbus/python-sdbus-networkmanager

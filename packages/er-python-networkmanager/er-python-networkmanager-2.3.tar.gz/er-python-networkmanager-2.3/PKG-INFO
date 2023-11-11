@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: er-python-networkmanager
+Version: 2.3
+Summary: Easy communication with NetworkManager
+Home-page: http://github.com/enabled-robotics/python-networkmanager
+Author: Dennis Kaarsemaker
+Author-email: dennis@kaarsemaker.net
+Maintainer: Niels Hvid
+Maintainer-email: nah@enabled-robotics.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: zlib/libpng License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Networking
+License-File: COPYING
+Requires-Dist: dbus-python
+Requires-Dist: six
