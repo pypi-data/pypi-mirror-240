@@ -1,0 +1,2 @@
+[console_scripts]
+jrt-laser-distance-sensor = jrt_laser_distance_sensor.__main__:main
