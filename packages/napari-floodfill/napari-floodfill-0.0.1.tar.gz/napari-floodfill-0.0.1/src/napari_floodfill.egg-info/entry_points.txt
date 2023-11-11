@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-floodfill = napari_floodfill:napari.yaml

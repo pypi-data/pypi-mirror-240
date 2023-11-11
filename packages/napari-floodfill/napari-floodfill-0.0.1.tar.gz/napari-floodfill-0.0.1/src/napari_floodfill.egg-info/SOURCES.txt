@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/napari_floodfill/__init__.py
+src/napari_floodfill/_widget.py
+src/napari_floodfill/napari.yaml
+src/napari_floodfill.egg-info/PKG-INFO
+src/napari_floodfill.egg-info/SOURCES.txt
+src/napari_floodfill.egg-info/dependency_links.txt
+src/napari_floodfill.egg-info/entry_points.txt
+src/napari_floodfill.egg-info/requires.txt
+src/napari_floodfill.egg-info/top_level.txt
+src/napari_floodfill/_tests/__init__.py
