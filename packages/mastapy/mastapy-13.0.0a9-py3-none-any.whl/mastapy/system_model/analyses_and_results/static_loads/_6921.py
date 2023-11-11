@@ -1,0 +1,502 @@
+"""MountableComponentLoadCase"""
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, TypeVar
+
+from mastapy._internal import constructor
+from mastapy.system_model.analyses_and_results.static_loads import _6834
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_MOUNTABLE_COMPONENT_LOAD_CASE = python_net_import(
+    "SMT.MastaAPI.SystemModel.AnalysesAndResults.StaticLoads",
+    "MountableComponentLoadCase",
+)
+
+if TYPE_CHECKING:
+    from mastapy.system_model.part_model import _2461
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("MountableComponentLoadCase",)
+
+
+Self = TypeVar("Self", bound="MountableComponentLoadCase")
+
+
+class MountableComponentLoadCase(_6834.ComponentLoadCase):
+    """MountableComponentLoadCase
+
+    This is a mastapy class.
+    """
+
+    TYPE = _MOUNTABLE_COMPONENT_LOAD_CASE
+    _CastSelf = TypeVar("_CastSelf", bound="_Cast_MountableComponentLoadCase")
+
+    class _Cast_MountableComponentLoadCase:
+        """Special nested class for casting MountableComponentLoadCase to subclasses."""
+
+        def __init__(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+            parent: "MountableComponentLoadCase",
+        ):
+            self._parent = parent
+
+        @property
+        def component_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            return self._parent._cast(_6834.ComponentLoadCase)
+
+        @property
+        def part_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6925
+
+            return self._parent._cast(_6925.PartLoadCase)
+
+        @property
+        def part_analysis(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results import _2654
+
+            return self._parent._cast(_2654.PartAnalysis)
+
+        @property
+        def design_entity_single_context_analysis(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results import _2650
+
+            return self._parent._cast(_2650.DesignEntitySingleContextAnalysis)
+
+        @property
+        def design_entity_analysis(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results import _2648
+
+            return self._parent._cast(_2648.DesignEntityAnalysis)
+
+        @property
+        def agma_gleason_conical_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6810
+
+            return self._parent._cast(_6810.AGMAGleasonConicalGearLoadCase)
+
+        @property
+        def bearing_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6816
+
+            return self._parent._cast(_6816.BearingLoadCase)
+
+        @property
+        def bevel_differential_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6819
+
+            return self._parent._cast(_6819.BevelDifferentialGearLoadCase)
+
+        @property
+        def bevel_differential_planet_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6822
+
+            return self._parent._cast(_6822.BevelDifferentialPlanetGearLoadCase)
+
+        @property
+        def bevel_differential_sun_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6823
+
+            return self._parent._cast(_6823.BevelDifferentialSunGearLoadCase)
+
+        @property
+        def bevel_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6824
+
+            return self._parent._cast(_6824.BevelGearLoadCase)
+
+        @property
+        def clutch_half_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6830
+
+            return self._parent._cast(_6830.ClutchHalfLoadCase)
+
+        @property
+        def concept_coupling_half_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6836
+
+            return self._parent._cast(_6836.ConceptCouplingHalfLoadCase)
+
+        @property
+        def concept_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6838
+
+            return self._parent._cast(_6838.ConceptGearLoadCase)
+
+        @property
+        def conical_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6841
+
+            return self._parent._cast(_6841.ConicalGearLoadCase)
+
+        @property
+        def connector_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6847
+
+            return self._parent._cast(_6847.ConnectorLoadCase)
+
+        @property
+        def coupling_half_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6849
+
+            return self._parent._cast(_6849.CouplingHalfLoadCase)
+
+        @property
+        def cvt_pulley_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6853
+
+            return self._parent._cast(_6853.CVTPulleyLoadCase)
+
+        @property
+        def cylindrical_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6858
+
+            return self._parent._cast(_6858.CylindricalGearLoadCase)
+
+        @property
+        def cylindrical_planet_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6863
+
+            return self._parent._cast(_6863.CylindricalPlanetGearLoadCase)
+
+        @property
+        def face_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6881
+
+            return self._parent._cast(_6881.FaceGearLoadCase)
+
+        @property
+        def gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6887
+
+            return self._parent._cast(_6887.GearLoadCase)
+
+        @property
+        def hypoid_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6902
+
+            return self._parent._cast(_6902.HypoidGearLoadCase)
+
+        @property
+        def klingelnberg_cyclo_palloid_conical_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6909
+
+            return self._parent._cast(_6909.KlingelnbergCycloPalloidConicalGearLoadCase)
+
+        @property
+        def klingelnberg_cyclo_palloid_hypoid_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6912
+
+            return self._parent._cast(_6912.KlingelnbergCycloPalloidHypoidGearLoadCase)
+
+        @property
+        def klingelnberg_cyclo_palloid_spiral_bevel_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6915
+
+            return self._parent._cast(
+                _6915.KlingelnbergCycloPalloidSpiralBevelGearLoadCase
+            )
+
+        @property
+        def mass_disc_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6918
+
+            return self._parent._cast(_6918.MassDiscLoadCase)
+
+        @property
+        def measurement_component_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6919
+
+            return self._parent._cast(_6919.MeasurementComponentLoadCase)
+
+        @property
+        def oil_seal_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6923
+
+            return self._parent._cast(_6923.OilSealLoadCase)
+
+        @property
+        def part_to_part_shear_coupling_half_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6927
+
+            return self._parent._cast(_6927.PartToPartShearCouplingHalfLoadCase)
+
+        @property
+        def planet_carrier_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6932
+
+            return self._parent._cast(_6932.PlanetCarrierLoadCase)
+
+        @property
+        def point_load_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6935
+
+            return self._parent._cast(_6935.PointLoadLoadCase)
+
+        @property
+        def power_load_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6936
+
+            return self._parent._cast(_6936.PowerLoadLoadCase)
+
+        @property
+        def pulley_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6937
+
+            return self._parent._cast(_6937.PulleyLoadCase)
+
+        @property
+        def ring_pins_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6940
+
+            return self._parent._cast(_6940.RingPinsLoadCase)
+
+        @property
+        def rolling_ring_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6944
+
+            return self._parent._cast(_6944.RollingRingLoadCase)
+
+        @property
+        def shaft_hub_connection_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6946
+
+            return self._parent._cast(_6946.ShaftHubConnectionLoadCase)
+
+        @property
+        def spiral_bevel_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6950
+
+            return self._parent._cast(_6950.SpiralBevelGearLoadCase)
+
+        @property
+        def spring_damper_half_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6954
+
+            return self._parent._cast(_6954.SpringDamperHalfLoadCase)
+
+        @property
+        def straight_bevel_diff_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6956
+
+            return self._parent._cast(_6956.StraightBevelDiffGearLoadCase)
+
+        @property
+        def straight_bevel_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6959
+
+            return self._parent._cast(_6959.StraightBevelGearLoadCase)
+
+        @property
+        def straight_bevel_planet_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6962
+
+            return self._parent._cast(_6962.StraightBevelPlanetGearLoadCase)
+
+        @property
+        def straight_bevel_sun_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6963
+
+            return self._parent._cast(_6963.StraightBevelSunGearLoadCase)
+
+        @property
+        def synchroniser_half_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6964
+
+            return self._parent._cast(_6964.SynchroniserHalfLoadCase)
+
+        @property
+        def synchroniser_part_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6966
+
+            return self._parent._cast(_6966.SynchroniserPartLoadCase)
+
+        @property
+        def synchroniser_sleeve_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6967
+
+            return self._parent._cast(_6967.SynchroniserSleeveLoadCase)
+
+        @property
+        def torque_converter_pump_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6971
+
+            return self._parent._cast(_6971.TorqueConverterPumpLoadCase)
+
+        @property
+        def torque_converter_turbine_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6972
+
+            return self._parent._cast(_6972.TorqueConverterTurbineLoadCase)
+
+        @property
+        def unbalanced_mass_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6977
+
+            return self._parent._cast(_6977.UnbalancedMassLoadCase)
+
+        @property
+        def virtual_component_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6978
+
+            return self._parent._cast(_6978.VirtualComponentLoadCase)
+
+        @property
+        def worm_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6979
+
+            return self._parent._cast(_6979.WormGearLoadCase)
+
+        @property
+        def zerol_bevel_gear_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ):
+            from mastapy.system_model.analyses_and_results.static_loads import _6982
+
+            return self._parent._cast(_6982.ZerolBevelGearLoadCase)
+
+        @property
+        def mountable_component_load_case(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+        ) -> "MountableComponentLoadCase":
+            return self._parent
+
+        def __getattr__(
+            self: "MountableComponentLoadCase._Cast_MountableComponentLoadCase",
+            name: str,
+        ):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = "".join(n.capitalize() for n in name.split("_"))
+                raise CastException(
+                    f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+                ) from None
+
+    def __init__(self: Self, instance_to_wrap: "MountableComponentLoadCase.TYPE"):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def component_design(self: Self) -> "_2461.MountableComponent":
+        """mastapy.system_model.part_model.MountableComponent
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.ComponentDesign
+
+        if temp is None:
+            return None
+
+        type_ = temp.GetType()
+        return constructor.new(type_.Namespace, type_.Name)(temp)
+
+    @property
+    def cast_to(
+        self: Self,
+    ) -> "MountableComponentLoadCase._Cast_MountableComponentLoadCase":
+        return self._Cast_MountableComponentLoadCase(self)
