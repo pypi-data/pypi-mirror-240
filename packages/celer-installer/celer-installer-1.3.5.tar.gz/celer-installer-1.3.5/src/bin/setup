@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+import os
+import sys
+
+if len(sys.argv) > 1:
+    target_directory = sys.argv[1]
+else:
+    print("Directory not found.")
+    sys.exit(1)
+
+os.chdir(os.path.join(os.getcwd(), target_directory))
+
+# Check if .git directory exists before removing it
+if os.path.isdir(".git"):
+    os.system("rm -rf .git")
+else:
+    print(".git directory not found")
+    sys.exit(1)
+
+# Check and rename .example.env to .env
+if os.path.isfile(".example.env"):
+    os.rename(".example.env", ".env")
+else:
+    print(".example.env not found")
+    sys.exit(1)
+
+# Check and rename celer-server-sqlite3.py to celer-server.py
+if os.path.isfile("celer-server-sqlite3.py"):
+    os.rename("celer-server-sqlite3.py", "celer-server.py")
+
+print("Success")
