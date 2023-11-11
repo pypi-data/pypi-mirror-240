@@ -1,0 +1,17 @@
+.envrc
+.gitignore
+LICENSE
+README.md
+ldifj.py
+pyproject.toml
+shell.nix
+.github/dependabot.yml
+.github/workflows/lint.yaml
+.github/workflows/pypi.yaml
+.github/workflows/release.yaml
+ldifj.egg-info/PKG-INFO
+ldifj.egg-info/SOURCES.txt
+ldifj.egg-info/dependency_links.txt
+ldifj.egg-info/entry_points.txt
+ldifj.egg-info/requires.txt
+ldifj.egg-info/top_level.txt
