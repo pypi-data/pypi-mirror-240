@@ -1,0 +1,9 @@
+fast_grid/__init__.py,sha256=WN1FLvJLh1wcdeH2kh_GoTVX-r8JuSQtjQ1J-SKyS2U,69
+fast_grid/ff.py,sha256=QE6mFf1udnYEHCz59-yqOhkdJuofKz4J5DBKeXbwrEQ,692
+fast_grid/potential.py,sha256=XjK7pwniKfCO6CEWMikLo6wf4bhmk9LIDXYohPm4V-A,2168
+fast_grid/utils.py,sha256=G0eHwSn1JLi3lLlEelb1zhpUb6GItNOQq8OkOa_JHDg,1323
+fast_grid/visualize.py,sha256=I4j73vKoUByZCHMGhuqUMMz1OX4LDzQh_RSL-zfdGjM,2144
+fast_grid-0.1.dist-info/METADATA,sha256=H6IAc2yoI0aNv758XCiojY5VGbH-1tj9TBLOgVy-3AM,336
+fast_grid-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fast_grid-0.1.dist-info/top_level.txt,sha256=xEfLhCgdFKcJrHHzsTI_ePqyuCoKXQ_zxZKEVmLsh80,10
+fast_grid-0.1.dist-info/RECORD,,
