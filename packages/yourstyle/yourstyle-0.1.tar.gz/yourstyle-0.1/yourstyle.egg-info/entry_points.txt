@@ -1,0 +1,2 @@
+[pygments.styles]
+yourstyle = yourstyle.your_custom_style:YourCustomStyle
