@@ -1,0 +1,10 @@
+{
+  "public":{
+    "disable_user_login": true,
+    {% if blast_job_folder %}
+    "blast_link": "{{ base_url }}{{ url_prefix }}/{{ sub_url }}/blast"
+    {% else %}
+    "disable_blast": true
+    {% endif %}
+  }
+}
