@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: dcsm
+Version: 0.0.1
+Summary: Package for managing mounts and users on the DCSM server
+Home-page: https://gitlab.com/groups/dcsm
+Author: Guillaume Anciaux
+Author-email: guillaume.anciaux@epfl.ch
+Requires-Python: >=3.9.0,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: argcomplete (>=3.1.4,<4.0.0)
+Requires-Dist: psycopg2 (>=2.9.9,<3.0.0)
+Project-URL: Documentation, https://dcsm.readthedocs.io/en/latest/
+Project-URL: Repository, https://gitlab.com/dcsm/server-deployment/-/tree/main/mount_api
+Description-Content-Type: text/markdown
+
+# Python package `dcsm`
+
+_Package for managing mounts and users on the DCSM server_
+
+
+# Installation
+
+## As developer
+
+### Build requirements
+
+- Python (3.9 minimum)
+- make
+- [Poetry](https://python-poetry.org/docs/#installation)
+
+
+### Instructions
+
+```
+git clone https://gitlab.com/dcsm/server_deployment.git
+cd server_deployment/mount_api
+make install
+```
+
+This will install the `dcsm` package as well as all the development dependencies (_e.g._ for testing)
+

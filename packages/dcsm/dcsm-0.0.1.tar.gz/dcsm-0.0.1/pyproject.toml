@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "dcsm"
+version = "0.0.1"
+description = "Package for managing mounts and users on the DCSM server"
+authors = [
+	"Guillaume Anciaux <guillaume.anciaux@epfl.ch>",
+	"Son Pham-Ba <son.phamba@epfl.ch>"
+]
+license = ""
+readme = "README.md"
+packages = [{include = "dcsm"}]
+homepage = "https://gitlab.com/groups/dcsm"
+repository = "https://gitlab.com/dcsm/server-deployment/-/tree/main/mount_api"
+documentation = "https://dcsm.readthedocs.io/en/latest/"
+
+[tool.poetry.dependencies]
+python = ">=3.9.0,<3.13"
+psycopg2 = "^2.9.9"
+argcomplete = "^3.1.4"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.5.0"
+build = "^1.0.3"
+pytest = "^7.4.3"
+coverage = "^7.3.2"
+
+[build-system]
+requires = ["poetry-core", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+vcs = "git"
+style = "semver"
+
+[tool.poetry-dynamic-versioning.substitution]
+files = [
+	"dcsm/__init__.py",
+]
+
+[tool.poetry.scripts]
+dcsm = "dcsm.commands.main:main_PYTHON_ARGCOMPLETE_OK"
+
+[tool.black]
+line-length = 120
+preview = true
+
+[tool.isort]
+line_length = 120
+profile = "black"
+
+[tool.codespell]
+skip = 'poetry.lock'
