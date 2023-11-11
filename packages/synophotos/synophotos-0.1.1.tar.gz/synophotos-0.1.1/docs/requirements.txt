@@ -1,0 +1,11 @@
+attrs
+cattrs
+click
+fs
+mkdocs
+mkdocs-click
+mkdocs-material
+platformdirs
+requests
+rich
+typing_extensions
