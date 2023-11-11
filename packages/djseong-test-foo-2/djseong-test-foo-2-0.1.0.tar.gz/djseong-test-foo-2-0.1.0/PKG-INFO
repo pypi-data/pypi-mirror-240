@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: djseong-test-foo-2
+Version: 0.1.0
+Summary: test foo option 2
+Author: Daniel
+Author-email: feedback@gmail.com
+Requires-Python: >=3.7
