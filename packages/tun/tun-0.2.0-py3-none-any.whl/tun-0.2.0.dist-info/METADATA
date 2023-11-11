@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: tun
+Version: 0.2.0
+Summary: A Python library for object-oriented physical quantities and units that supports type hinting
+Home-page: https://gitlab.com/c4dht/quantities
+License: GNU AGPLv3
+Author: Paul Kernstock
+Author-email: paul.kernstock@posteo.de
+Maintainer: Paul Kernstock
+Maintainer-email: paul.kernstock@posteo.de
+Requires-Python: >=3.9,<3.13
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy (>=1.0,<2.0)
+Requires-Dist: pandas (>=1.5,<2.0)
+Requires-Dist: pint[pandas] (>=0.22,<0.23)
+Requires-Dist: scipy (>=1.0,<2.0)
+Project-URL: Repository, https://gitlab.com/c4dht/quantities
+Description-Content-Type: text/markdown
+
+# Quantities
+
+A Python library for object-oriented physical quantities and units that supports type hinting
