@@ -1,0 +1,6 @@
+gpio
+httpx
+numpy
+requests
+toml
+torch
