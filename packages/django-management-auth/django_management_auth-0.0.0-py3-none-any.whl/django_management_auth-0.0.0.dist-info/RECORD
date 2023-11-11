@@ -1,0 +1,9 @@
+management_auth/__init__.py,sha256=9sKadUW3DLt0G3GbYEthlYQdvoatTEgcvZEEuDnmDjg,116
+management_auth/tokens.py,sha256=9QzoQWsvIlFM9hUNBAU7L-vhzWiu3ot-a6yrIkMbVG0,1179
+management_auth/urls.py,sha256=JKRvuMu3f8H30W1-5xrGcC5BouMEfwp9-wL6UronqPo,152
+management_auth/views.py,sha256=yHLTeBFSgxgVBAPURc6BIKAdsn4b4Ue4WJ4WxA1Sd08,1307
+management_auth/management/commands/login_as.py,sha256=jGJ2VITd5BmS8tgnQL8mPmo_YVBOFHXo20FFYXXvQ_A,1502
+django_management_auth-0.0.0.dist-info/LICENSE,sha256=1FvQuxhdvMSlk28MFX8FFb5dj9epMPm1ef_bpvSo0tY,1078
+django_management_auth-0.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+django_management_auth-0.0.0.dist-info/METADATA,sha256=CtKUXYuUJ2QLe8hrgfvfgPObQU9CVFWCt4yOwSR1mO4,2748
+django_management_auth-0.0.0.dist-info/RECORD,,
