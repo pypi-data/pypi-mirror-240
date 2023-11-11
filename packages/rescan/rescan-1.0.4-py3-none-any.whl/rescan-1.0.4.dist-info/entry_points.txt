@@ -1,0 +1,2 @@
+[console_scripts]
+rescan = rescan.rescan:main
