@@ -1,0 +1,16 @@
+nd_sim/__init__.py,sha256=AnznzH39uCUmv5a_y3Y71j42lEfcIsaR_QWy0G3Mj2A,132
+nd_sim/fingerprint.py,sha256=sVYxOYzRpAYbe2eEmIVlKbJRenDaj0FHhIfpsKUcmgM,5707
+nd_sim/pca_tranform.py,sha256=4OmtypbyM7gRvUzKpQPlc4HEKWHlwgCyS8O2gHXF47E,6876
+nd_sim/pre_processing.py,sha256=0vRTWDK0SQGvwBOnoTmmcUbFIP1TdjPlUBHQOhcslHg,2729
+nd_sim/similarity.py,sha256=k0U3TBNBcOChY0l1Rs4SGo7Qnd1Ooo65KdPH_PV-aBQ,2197
+nd_sim/utils.py,sha256=t6o9YwYaBFtJ8d2jtfsRiYbzuyGi8YfhY2SrQ19b1j0,6844
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_fingerprint.py,sha256=XKmeD-JJjmZzBl1plbK-_oRoobU9nfGUlrVAaBdxpJ8,2382
+tests/test_pca.py,sha256=Jw0qlQLk-oGNSZmcT1XIvDCk1z_0pVK06H_NVvINGRo,888
+tests/test_preprocessing.py,sha256=wDGf6IlCvoZD6qcxgBy9PNdsO1fTUpGy8XYa3KcK5M0,3060
+tests/test_similarity.py,sha256=x_5wN8u4POTJRQ-HuSt_vUfwMXcYd4Y-g6cDAeTKPt4,1854
+tests/test_utils.py,sha256=KRlCe7v7tjOppd-sC8aIBUi460lEKIFkcik-5ebmY_U,2772
+nd_sim-0.1.0.dist-info/METADATA,sha256=5LGelKj1yaaTa5TsRKXBlV28xUWMX3tvPJoHI1503jE,114
+nd_sim-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+nd_sim-0.1.0.dist-info/top_level.txt,sha256=qm5ZUKKynTga8_Gzr1u9Xxb_GxUCm5E0bbh4cTyWuhE,13
+nd_sim-0.1.0.dist-info/RECORD,,
