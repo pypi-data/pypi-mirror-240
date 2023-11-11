@@ -1,0 +1,12 @@
+submitter/__init__.py,sha256=wB9U42ZaS5T4_fXL6tAC6lJs0q82bWDFbTxuDY4IyaI,587
+submitter/client.py,sha256=syxMHFvGGuGQHNm5CmKSUnsd-6LZ5YFo6BgRtxIXpfs,5851
+submitter/data.py,sha256=86-jcbQsXUb3yyCx9qSyDiOvqE0fVMlqeokVd_GCnFU,4822
+submitter/network.py,sha256=A3lMs5aNAeLN8UEBK_Vs6ZCuC3Y0IxC3AY6gJWyccBw,9187
+submitter/settings.py,sha256=7QSd4VdWQwFbV7ouZ9uw9Qfd1wQ08wwWnjSCc_f7CJI,25
+submitter/adapters/__init__.py,sha256=A_pixIQeAvfbVFfB-XsMh9ts2A1xTad34Q8aQiG9fpY,179
+submitter/adapters/weibo.py,sha256=dQH9IOl1NiaLzO3yS72cjQh6bFSBDTzLy8LexMr4Mqc,5463
+post_submitter-0.4.0.dist-info/LICENSE,sha256=PK7es5k8qjkUjp16en4gZ4gMqFMgvZZ8MXcJazPp0bs,1066
+post_submitter-0.4.0.dist-info/METADATA,sha256=bn8SHvPl3cEoo_opviP5ZHBJ0_lmSCtq_f6-h0lqQXg,1420
+post_submitter-0.4.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+post_submitter-0.4.0.dist-info/top_level.txt,sha256=-aHpkwHEjVi1VqiRwgT23mvEZT32oMj883ip_2RE-l0,10
+post_submitter-0.4.0.dist-info/RECORD,,
