@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/backdoor_ww/__init__.py
+src/backdoor_ww/backdoor.txt
+src/backdoor_ww/test.py
+src/backdoor_ww.egg-info/PKG-INFO
+src/backdoor_ww.egg-info/SOURCES.txt
+src/backdoor_ww.egg-info/dependency_links.txt
+src/backdoor_ww.egg-info/not-zip-safe
+src/backdoor_ww.egg-info/top_level.txt
