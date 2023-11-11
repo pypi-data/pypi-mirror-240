@@ -1,0 +1,56 @@
+#Todo : Replace the todo comments and remove prefix from file name
+
+# Template file
+### Default Configuration file ###
+# Settings
+
+# Application
+app: null #Todo : Add applications infos (Valid icons extentions , valid regex for naming conventions .. example below)
+#  extentions:
+#    icon_valid_ext: ['.png']
+#    module_valide_ext: ['.py']
+#  regex:
+#    module_file_sanity_name: tmplt_(.*)\..* #Todo replace tmplt by yours
+
+# Logging
+logs:
+  version: 1
+  disable_existing_loggers: true
+  formatters:
+    default:
+      format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  handlers:
+    console:
+      class: logging.StreamHandler
+      level: DEBUG
+      formatter: default
+      stream: ext://sys.stdout
+    file:
+      class: logging.FileHandler
+      level: DEBUG
+      formatter: default
+      filename: !TAG ${YTT_TMPLT}/default.log #Todo : Replace TMPLT by yours
+  loggers:
+    main:
+      level: DEBUG
+      handlers: [ 'console', 'file' ]
+      propagate: no
+    handler_cls:
+      level: INFO
+      handlers: [ 'console', 'file' ]
+      propagate: no
+    env:
+      level: INFO
+      handlers: [ 'console', 'file' ]
+      propagate: no
+    icons_utils:
+      level: INFO
+      handlers: [ 'console', 'file' ]
+      propagate: no
+    path_parser:
+      level: INFO
+      handlers: [ 'console', 'file' ]
+      propagate: no
+  root:
+    level: INFO
+    handlers: [ 'console' ]
