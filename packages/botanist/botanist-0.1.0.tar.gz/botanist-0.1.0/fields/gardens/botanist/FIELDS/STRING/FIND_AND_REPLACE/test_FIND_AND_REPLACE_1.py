@@ -1,0 +1,41 @@
+
+'''
+	python3 MODULE/_STATUS/STATUS.py FORMATIONS/STRING/FIND_AND_REPLACE/test_FIND_AND_REPLACE_1.py -k test_3
+'''
+
+from . import FIND_AND_REPLACE
+
+def test_1 ():
+	STRING = FIND_AND_REPLACE ({
+		"STRING": "START ZZZZ START 12341234",
+		"FROM": "START",
+		"TO": "RUN"
+	})
+	
+	print (STRING)
+	
+	assert (STRING == "RUN ZZZZ RUN 12341234")
+	
+def test_2 ():
+	STRING = FIND_AND_REPLACE ({
+		"STRING": "12341234 START ZZZZ STARTSTART",
+		"FROM": "START",
+		"TO": "RUN"
+	})
+	
+	print (STRING)
+	
+	assert (STRING == "12341234 RUN ZZZZ RUNRUN")
+	
+def test_3 ():
+	STRING = FIND_AND_REPLACE ({
+		"STRING": "12341234 START ZZZZ STARTSTART",
+		"FROM": "START ",
+		"TO": "RUN ",
+		
+		"INFO": 1
+	})
+	
+	print (STRING)
+	
+	assert (STRING == "12341234 RUN ZZZZ STARTSTART")

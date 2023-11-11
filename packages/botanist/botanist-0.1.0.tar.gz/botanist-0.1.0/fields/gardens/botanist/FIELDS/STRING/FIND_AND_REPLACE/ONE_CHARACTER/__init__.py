@@ -1,0 +1,23 @@
+
+
+'''
+	from PYTAYA.FORMATIONS.STRING.FIND_AND_REPLACE.ONE_CHARACTER import FIND_AND_REPLACE
+'''
+
+def		FIND_AND_REPLACE	(ASK):
+
+	FROM 	= ASK ["FROM"]
+	TO 		= ASK ["TO"]
+	
+	STRING	= ASK ["STRING"]
+	
+	FRESH = []
+	for CHARACTER in STRING:
+		print ("CHARACTER:", CHARACTER)
+
+		if (CHARACTER == FROM):
+			FRESH.append (TO)
+		else:
+			FRESH.append (CHARACTER)
+
+	return "".join (FRESH)
