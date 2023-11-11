@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+TezzAutoML.egg-info/PKG-INFO
+TezzAutoML.egg-info/SOURCES.txt
+TezzAutoML.egg-info/dependency_links.txt
+TezzAutoML.egg-info/requires.txt
+TezzAutoML.egg-info/top_level.txt
+tezzautoml/__init__.py
+tezzautoml/automl.py
+tezzautoml/main.py
+tezzautoml/models.py
