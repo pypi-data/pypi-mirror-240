@@ -1,0 +1,12 @@
+libdir/__init__.py,sha256=y1X5Nxray5_IQr4GbmSe9RmyJveePyNak3omWm9TeW0,28
+libdir/helloworld.py,sha256=71pjOCEbbWDsL3DGU72nJL5A1oct8IybIKUT46zN5Rk,55
+metastasiz/__init__.py,sha256=6StsxsRba_INpun368II9l9BCCXyaQN7o90KtRUlEUQ,76
+metastasiz/helloworld.py,sha256=71pjOCEbbWDsL3DGU72nJL5A1oct8IybIKUT46zN5Rk,55
+metastasiz/path.py,sha256=ItSdISMuLVZ1OOYDtWlMrc4q-w9SkHeiQAzKE1HywxA,767
+metastasiz/utils.py,sha256=F_0-MI5n6vfWA5-LRdemxvh7zWUtSBzxUhRzYnKOHV8,165
+module1/__init__.py,sha256=hU-ehJTpphLjDwxK1eEghuOhYVYHY6fcLRG0HyQVMxY,34
+module1/helloworld.py,sha256=71pjOCEbbWDsL3DGU72nJL5A1oct8IybIKUT46zN5Rk,55
+metastasiz-0.1.0.dist-info/METADATA,sha256=cfgoChYxsfVA9NFCvtlFKCeq5rmVeA37JvnxVxh80Po,165
+metastasiz-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+metastasiz-0.1.0.dist-info/top_level.txt,sha256=-yHF1aC799E26lpTMt-OKm2sMmSVqT9NHvccFxMhMuU,11
+metastasiz-0.1.0.dist-info/RECORD,,
