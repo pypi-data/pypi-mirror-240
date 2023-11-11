@@ -1,0 +1,6 @@
+kraken_client-0.2.0.dist-info/METADATA,sha256=lHXGG4oJvu_xOjqcfvAHJLVdUlV6dQoKBxI7_zC4wD8,236
+kraken_client-0.2.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+kraken_client/__init__.py,sha256=BqSnvotzizk8Hqt66gC1VGV1BKVy_V3aTcVS1R9ju28,33
+kraken_client/client.py,sha256=WM-T5e8vb1mEE7a1BiHWC1tb8wgmmBvCaE1I9WA9ers,4324
+kraken_client/models.py,sha256=Qt1wGuB7_vNmoqPUvatmC-X55kV4NqeQc9gzTMCzMvk,171
+kraken_client-0.2.0.dist-info/RECORD,,
