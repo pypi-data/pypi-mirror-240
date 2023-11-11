@@ -1,0 +1,12 @@
+chatcli_gpt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chatcli_gpt/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+chatcli_gpt/cli.py,sha256=HrTjiYrYrzXcM1WRdmtR4a557WFQ4Bzn78PzcWrNNUk,14130
+chatcli_gpt/conversation.py,sha256=bb2KkKFBMT1kFBSlmPU0OP1FQSPgXdlT4remwfIsRA4,4050
+chatcli_gpt/data/default_log,sha256=LMkHiPl1gM3JwSK6EEruELSN9ugwAIx0CIZ-LzaDtZg,3956
+chatcli_gpt/log.py,sha256=q_2JGj9bkXDgObVmvm08TTj4L_0CC4dIPs9PvRIU5Lo,4390
+chatcli_gpt/plugins.py,sha256=kayMk2Coz_IjX_1G6C-pPY6L9rUNydWZ8QNp2WOojlQ,4785
+chatcli_gpt-0.5.4.dist-info/LICENSE,sha256=GjbJk5wp2BLoYZQTXwKF1_ATZkubcpSAq_V4gFPim-E,1067
+chatcli_gpt-0.5.4.dist-info/METADATA,sha256=WJdIvgl9VfeYL2IG3I-rwWVBZ2mBdUko-S9zqcxjAYQ,9418
+chatcli_gpt-0.5.4.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+chatcli_gpt-0.5.4.dist-info/entry_points.txt,sha256=3euNbHkWmuBKy205cO-DHl78EWdTeZOTwhrnI2IGBBs,48
+chatcli_gpt-0.5.4.dist-info/RECORD,,
