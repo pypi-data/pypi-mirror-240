@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+./scripts/rescan
+src/rescan/__init__.py
+src/rescan/__main__.py
+src/rescan/rescan.py
+src/rescan.egg-info/PKG-INFO
+src/rescan.egg-info/SOURCES.txt
+src/rescan.egg-info/dependency_links.txt
+src/rescan.egg-info/entry_points.txt
+src/rescan.egg-info/requires.txt
+src/rescan.egg-info/top_level.txt
+tests/test.py

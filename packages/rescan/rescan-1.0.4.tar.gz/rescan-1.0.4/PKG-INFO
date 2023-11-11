@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: rescan
+Version: 1.0.4
+Summary: A Modern Port scanner in python
+Home-page: https://github.com/snowkluster/rescan
+Author: SnowKluster
+Project-URL: Homepage, https://github.com/snowkluster/rescan
+Project-URL: Bug Tracker, https://github.com/snowkluster/rescan/issues
+Project-URL: Changelog, https://github.com/snowkluster/rescan/blob/master/CHANGELOG.md
+Keywords: Port Scanner,Modern
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich~=13.4.2
+Requires-Dist: typer~=0.9.0
+
+                                                         
+██████╗░███████╗░██████╗░█████╗░░█████╗░███╗░░██╗           
+██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗████╗░██║            
+██████╔╝█████╗░░╚█████╗░██║░░╚═╝███████║██╔██╗██║         
+██╔══██╗██╔══╝░░░╚═══██╗██║░░██╗██╔══██║██║╚████║         
+██║░░██║███████╗██████╔╝╚█████╔╝██║░░██║██║░╚███║       
+╚═╝░░╚═╝╚══════╝╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝       
+
+---------------------------
+# Rescan
+A modern port scanner for recon written in python
+
+# Installation
+- `pip install rescan`
+- `rescan info` for more information
+
+#  Debug Setup
+- `git clone https://github.com/snowkluster/rescan.git`
+- `python3 -m pip install -r requirements.txt`
+
+# Help
+- `rescan --help` 
