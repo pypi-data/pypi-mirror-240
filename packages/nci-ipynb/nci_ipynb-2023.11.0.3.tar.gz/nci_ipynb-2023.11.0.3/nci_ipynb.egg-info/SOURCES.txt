@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+nci_ipynb/__init__.py
+nci_ipynb.egg-info/PKG-INFO
+nci_ipynb.egg-info/SOURCES.txt
+nci_ipynb.egg-info/dependency_links.txt
+nci_ipynb.egg-info/requires.txt
+nci_ipynb.egg-info/top_level.txt
