@@ -1,0 +1,76 @@
+# Odoo Resource Assessor
+
+This tool calculates the Odoo configuration based on the available system resources. It is designed to automate the configuration process by calculating the optimal number of worker processes and memory limits for Odoo based on the server's specifications.
+
+## Installation
+
+To install the Odoo Resource Assessor, run the following command:
+
+```bash
+pip install odoo_resource_assesor
+```
+
+## Usage
+
+To assess the resources and get a recommended Odoo configuration, simply execute the tool:
+
+```bash
+resource-assesor
+```
+
+For assessing the current system automatically, use the `--self` flag to have the script determine the available system resources:
+
+```bash
+resource-assesor --self
+```
+
+You can check all the features by passing `--help` flag:
+
+```bash
+$ resource-assesor --help
+
+usage: resource_assesor.py [-h] [--cpu CPU] [--ram RAM] [--limit-time-cpu LIMIT_TIME_CPU] [--limit-time-real LIMIT_TIME_REAL] [--output OUTPUT] [--self]
+
+Calculate Odoo configuration.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --cpu CPU             Number of CPUs
+  --ram RAM             Amount of RAM in GB
+  --limit-time-cpu LIMIT_TIME_CPU
+                        Limit time CPU (default to 600)
+  --limit-time-real LIMIT_TIME_REAL
+                        Limit time real (default to 1200)
+  --output OUTPUT       Output file path to write the configuration
+  --self                Run quietly and use the current machine's resources
+
+```
+
+## Features
+
+- Automatically calculates the number of HTTP workers for Odoo.
+- Determines optimal memory limits based on system's RAM.
+- Can use the current system's resources with the `--self` flag for convenience.
+
+## Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repository and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Thanks to the Odoo community for continuous support and inspiration.
+- Special thanks to all contributors who help maintain and improve this project.
