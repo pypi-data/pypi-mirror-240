@@ -1,0 +1,16 @@
+tests/__init__.py,sha256=R45R2E0-cxnIxj9FamthKopl0bc_baBdwVttvLtsoMg,59
+tests/test_dat_file_loading.py,sha256=ODTGT-P6LfekOY9ZuBkBYDI2fCnUmeVE_QpI-AgUsks,456
+tests/test_file_search_methods.py,sha256=X1EcR54uWR9j1c4d1aspzBIXWsRnlpnw4ummprYEJO4,900
+tests/test_file_selection_methods.py,sha256=FQY12hiWmYYiFsdfTwI0XkDEFNr-8EORn-YMnc5JeTk,669
+tests/test_polarmetric_load.py,sha256=4vYf8dr0UQP3kkaFFQOBqXE0nZNloqPSJg01vRhcAag,669
+tests/test_wrappers.py,sha256=SohOenJqLv5m2Ss-zxObmgJQiAst6i0cipusrpXXsO0,345
+xapres/ApRES_plot.py,sha256=XRpDS8nNsvrvv7F-qw3Pmaz3WhGVGk4bDIZquAOlCJM,6371
+xapres/__init__.py,sha256=m7ErsIsNC9Y-2hbdIAlWxNYke8YyNsrhc4Rr_0XR2z0,38
+xapres/_version.py,sha256=tC9CwL4Nm8brVXJnZNGk_eoZaJj6eOtLKtOrdJMrpoI,21
+xapres/load.py,sha256=kaT8IgFQzB_YKHPJ3N2WWin54IQDjftIsHVDI2zKlWk,48802
+xapres/utils.py,sha256=CJKSJCLfhZoRxroUszTI_P4dc_o86j78XCNPlGkyUS0,7340
+xapres-0.2.1.dist-info/LICENSE.txt,sha256=PgCJgkPBQQqK92P28PVj6rwwcxqr_nr3In77_KTrpIk,1084
+xapres-0.2.1.dist-info/METADATA,sha256=NOY7BGMfjmAZbwFTNZdc6VPydE68Vs7SD04VMEJNY6A,3778
+xapres-0.2.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+xapres-0.2.1.dist-info/top_level.txt,sha256=4Or3S8qgXAziqashIFXz_XMeKjqxMkIIsKB9WFymU0c,13
+xapres-0.2.1.dist-info/RECORD,,
