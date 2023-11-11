@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cofutils
+Version: 0.0.1
+Summary: Experiment toolkits
+Home-page: https://gitee.com/haiqwa/cofutils.git
+Author: whq1516@mail.ustc.edu.cn
+Maintainer: whq1516@mail.ustc.edu.cn
+License: See https://gitee.com/haiqwa/cofutils/blob/main/LICENSE
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: colorful
+
+# Cofutils
+
+This repositry is used to develop functional python module as an experimental toolkit.
+
+## Cofrun
+
+
+## Coflogging
+
+## Cof

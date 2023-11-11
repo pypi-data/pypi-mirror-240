@@ -1,0 +1,10 @@
+cofutils/__init__.py,sha256=1ASHmNKkWE9MYmFyEXEV_9q7Fl7w1Fn4HkcWbT6tJXs,258
+cofutils/coflogger.py,sha256=PHGTB6wcYhcg-Z7Qt_6MM4Xq-NzIU_ekVY7jHkgC-ro,4550
+cofutils/cofmem.py,sha256=6kEBaXkaA_EQ_HsHTEeogXgMLPNo9jEaAvikzrEcOBo,631
+cofutils/dispatch.py,sha256=n0SDPXRPKvnbb55zXFl8Tp6gGiGc_FwjdZ8BhJecv0Q,11456
+cofutils/package_info.py,sha256=GTBbdZuT69hRTVRL3ni0c6I0d6VzU7-ZCOfgY3x8_1w,284
+cofutils-0.0.1.dist-info/METADATA,sha256=TTGz5lmRLIq9piT0-eZW4xVMmWaPUj08cAI7ci0Y_eQ,508
+cofutils-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cofutils-0.0.1.dist-info/entry_points.txt,sha256=kdYw4aR4QeVBq2QVCCtEJ69Ryqj9HlLS-VJdwgKLGA0,50
+cofutils-0.0.1.dist-info/top_level.txt,sha256=nizc5Bqv9RX2g9U6vWrbHJLJF9-1zjMVoV5_1oWCaFo,9
+cofutils-0.0.1.dist-info/RECORD,,
