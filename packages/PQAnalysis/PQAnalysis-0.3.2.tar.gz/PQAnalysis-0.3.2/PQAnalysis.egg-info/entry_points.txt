@@ -1,0 +1,3 @@
+[console_scripts]
+traj2box = PQAnalysis.cli.traj2box:main
+traj2qmcfc = PQAnalysis.cli.traj2qmcfc:main
