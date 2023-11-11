@@ -1,0 +1,9 @@
+pydantic_sql_bridge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_sql_bridge/pydantic_first.py,sha256=NlfwtBrDevXzYQRROzLwYxNZyrshABTCdzJ516-U7bI,1513
+pydantic_sql_bridge/read_write.py,sha256=1pUtjHQ1epuMZe8lMf-41wnt_FKjoNCeeMJ93lX1AD0,3919
+pydantic_sql_bridge/sql_first.py,sha256=1R-m2QioXx_IlorUkenWKz_cf1_kK6BA8uqFHdvoIE8,9613
+pydantic_sql_bridge/utils.py,sha256=tOgcPr616k-KDW4N9TOooCit4eId1CVaNpQPOznloOs,4395
+pydantic_sql_bridge-0.0.4.dist-info/LICENSE,sha256=jqakGF-FqFYVdaMTZm_fLcLYa5JaXIQ3UeoxJtCI9jk,1068
+pydantic_sql_bridge-0.0.4.dist-info/METADATA,sha256=gBEl2rnsljuWcu8adqFinZk95wexoy1mU_24-BlQ-XM,8613
+pydantic_sql_bridge-0.0.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pydantic_sql_bridge-0.0.4.dist-info/RECORD,,
