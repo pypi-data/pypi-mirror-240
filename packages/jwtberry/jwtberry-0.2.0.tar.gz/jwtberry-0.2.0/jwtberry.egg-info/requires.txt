@@ -1,0 +1,6 @@
+django>=4.2.6
+strawberry-graphql>=0.211.1
+pyjwt>=2.8.0
+
+[test]
+pytest
