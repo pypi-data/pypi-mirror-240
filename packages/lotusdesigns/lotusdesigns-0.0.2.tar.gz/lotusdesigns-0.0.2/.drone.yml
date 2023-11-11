@@ -1,0 +1,45 @@
+kind: pipeline
+type: docker
+name: Deploy
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+
+- name: Fetch tags
+  image: drone/git
+  commands:
+  - git fetch --tags
+
+- name: Lint
+  image: python:3.10
+  commands:
+  - pip install --upgrade pip
+  - pip install pylint
+  - pip install -r requirements.txt
+  - pylint lotusdesigns
+
+- name: Build
+  image: python:3.10
+  commands:
+  - pip install --upgrade pip
+  - pip install build
+  - python -m build
+
+- name: Publish PyPi
+  image: python:3.10
+  environment:
+    USERNAME:
+      from_secret: pypi_username
+    PASSWORD:
+      from_secret: pypi_password
+  commands:
+  - pip install --upgrade pip
+  - pip install twine
+  - twine check dist/*
+  - twine upload dist/* --username="$USERNAME" --password="$PASSWORD"
+  when:
+    event:
+    - tag

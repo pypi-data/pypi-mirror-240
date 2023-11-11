@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm[toml]"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lotusdesigns"
+authors = [
+        {name = "Kanelis Elias", email = "e.kanelis@voidbuffer.com"},
+]
+maintainers = [
+        {name = "Kanelis Elias", email = "e.kanelis@voidbuffer.com"},
+]
+readme = "README.md"
+description = "Utility for the lotusDesignPrints shop"
+requires-python = ">3.10"
+keywords = ["image", "photo", "utility"]
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.10',
+    'Topic :: Artistic Software'
+]
+dynamic = ["version", "dependencies"]
+
+[project.urls]
+Homepage = "https://pypi.org/project/lotusdesigns/"
+
+[tool.setuptools_scm]
+version_scheme = "post-release"
+version_file = "lotusdesigns/_version.py"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+lotus = "lotusdesigns.app:app"
