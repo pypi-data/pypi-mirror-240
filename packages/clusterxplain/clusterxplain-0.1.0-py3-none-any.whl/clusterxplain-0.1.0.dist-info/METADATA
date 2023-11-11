@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: clusterxplain
+Version: 0.1.0
+Summary: Provide feature relevance scores fo clustering.
+Home-page: https://github.com/AlexF1994/cluster-explain
+License: MIT
+Author: Alexander Fottner
+Author-email: alexander.fottner@uni-a.de
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ExKMC (>=0.0.3,<0.0.4)
+Requires-Dist: importlib-metadata (>=1.0,<2.0) ; python_version < "3.8"
+Requires-Dist: matplotlib (>=3.6.0,<4.0.0)
+Requires-Dist: nptyping (>=2.3.1,<3.0.0)
+Requires-Dist: pandas (>=1.5.0,<2.0.0)
+Requires-Dist: pyhocon (>=0.3.54,<0.4.0)
+Requires-Dist: scikit-learn (>=1.1.2,<2.0.0)
+Requires-Dist: seaborn (>=0.12.2,<0.13.0)
+Requires-Dist: shap (>=0.41.0,<0.42.0)
+Project-URL: Changelog, https://github.com/me/spam/blob/master/CHANGELOG.md
+Project-URL: Documentation, https://readthedocs.org/projects/cluster-explain/
+Project-URL: Repository, https://github.com/AlexF1994/cluster-explain
+Description-Content-Type: text/markdown
+
+# clusterxplain
+Provide feature relevance scores fo clustering using various explanation methods.
+
+## Installation
+Clusterxplain can be easily installed via pip:
+```
+pip install clusterxplain
+```
+The source coe is available at: https://github.com/AlexF1994/cluster-explain
+
+## How to use it
+The official documentation can be found on https://cluster-explain.readthedocs.io/en/latest/index.html.
+
+But you can also jump right to the quickstart [notebook](docs/source/Quickstart.ipynb).
+
+## Contributions
+All contributions, bug reports, bug fixes, documentation improvements, enhancements, ideas etc. are very welcome.
+
+Before contributing, please set up the pre-commit hooks to reduce errors and ensure consistency
+
+    pip install -U pre-commit
+    pre-commit install
+
+We use `pytest` as test framework. To execute the tests, please run
+
+    poetry run pytest tests
+
+To run the tests with coverage information, please use
+
+    poetry run pytest tests --cov=src --cov-report=xml
+
+and have a look at the `htmlcov` folder, after the tests are done.
+
+## Contact
+
+Alexander Fottner (alexander.fottner@uni-a.de)
+
+## License
+[MIT](LICENSE)
+
