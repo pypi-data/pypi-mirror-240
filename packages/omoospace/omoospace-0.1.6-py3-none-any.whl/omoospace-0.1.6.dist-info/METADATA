@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: omoospace
+Version: 0.1.6
+Summary: 
+Author: manan
+Author-email: icrdr2010@outlook.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: nutree (>=0.5.1,<0.6.0)
+Requires-Dist: pypinyin (>=0.49.0,<0.50.0)
+Requires-Dist: ruamel-yaml (>=0.17.35,<0.18.0)
+Description-Content-Type: text/markdown
+
+# Omoospace
+
+Omoospace is a scalable directory structure solution for digital creation works. We provide a python library for managing omoospace, including creating omoospace, shipping package, setting subspace, etc.
+
+[What is "Omoospace", how does it rule all your creation files?](https://omoolab.github.io/omoospace/omoospace/)
+
+## Installation
+This tool requires python version 3.9 or above [(python official download link)](https://www.python.org/downloads/). You can use [pyenv](https://github.com/pyenv/pyenv) or [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) for managing multiple python versions on a single machine.
+
+Run the following command to install omoospace:
+
+```shell
+pip install omoospace
+```
+
+## Usage
+
+[For Developers](https://omoolab.github.io/omoospace/developers)
