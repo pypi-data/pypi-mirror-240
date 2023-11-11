@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: tatsu_api
+Version: 1.0.0
+Summary: An unofficial, async-ready wrapper for the Tatsu API.
+Author-email: Sachaa-Thanasius <111999343+Sachaa-Thanasius@users.noreply.github.com>
+License: MIT License
+        
+        Copyright (c) 2023 Thanos
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/Sachaa-Thanasius/tatsu-api
+Project-URL: Bug Tracker, https://github.com/Sachaa-Thanasius/tatsu-api/issues
+Keywords: python,python-3,tatsu,tatsu-api
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: aiohttp
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp>=3.8
+Requires-Dist: msgspec
+Provides-Extra: speed
+Requires-Dist: aiodns>=1.1; extra == "speed"
+Requires-Dist: Brotli; extra == "speed"
+Requires-Dist: cchardet; extra == "speed"
+
+# Tatsu
+[![License: MIT](https://img.shields.io/github/license/Sachaa-Thanasius/tatsu-api.svg)](https://opensource.org/licenses/MIT)
+[![Checked with pyright](https://img.shields.io/badge/pyright-checked-informational.svg)](https://github.com/microsoft/pyright/)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+[![PyPI supported Python versions](https://img.shields.io/pypi/pyversions/tatsu-api.svg)](https://pypi.python.org/pypi/discord.py)
+
+A lightweight and asynchronous wrapper for [Tatsu v1 API](https://tatsu.gg), written in Python. Supports every documented API endpoint.
+
+Shoutout to the [discord.py](https://github.com/Rapptz/discord.py) wrapper for being an inspiration and providing a strong example for implementation.
+
+*Note: Modifying a user's scores/points isn't possible without certain Discord permissions. See the API docs for more info.*
+
+## Installing
+Uploading to PyPI is being considered. For now, to install the library, run the following command:
+
+```shell
+# Linux/macOS
+python3 -m pip install -U git+https://github.com/Sachaa-Thanasius/Tatsu@main
+
+# Windows
+py -3 -m pip install -U git+https://github.com/Sachaa-Thanasius/Tatsu@main
+```
+
+## Quick Example
+```python
+import asyncio
+import tatsu_api as tatsu
+
+async def main() -> None:
+    """Example function."""
+    
+    api_key = "API_KEY"
+    test_guild = 173184118492889089     # The Discord ID of the official Tatsu server.
+    test_user = 1234567891              # Random Discord user ID.
+    
+    # The client can be used as a context manager to handle closing of the
+    # internal HTTP session.
+    async with tatsu.Client(api_key) as client:
+        profile = await client.get_user(test_user)
+        print(f"{profile.username} currently has {profile.credits} credits and {profile.reputation} reputation.")
+        
+        username = profile.username
+        
+        ranking = await client.get_member_ranking(test_guild, test_user, "all")
+        print(f"On the Tatsu server, {username} ranks at {ranking.rank} for all time.")
+        
+        before_points = await client.get_member_points(test_guild, test_user)
+        print(f"{username} - Points before update: {before_points.points}")
+        
+        after_points = await client.update_member_points(test_guild, test_user, -10)
+        print(f"{username} - Points after update: {after_points.points}")
+
+asyncio.run(main())
+```
+
+Take a look at the [examples](./examples/) directory for more.
