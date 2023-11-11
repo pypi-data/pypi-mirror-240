@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/reshadow.py
+src/reshadow.egg-info/PKG-INFO
+src/reshadow.egg-info/SOURCES.txt
+src/reshadow.egg-info/dependency_links.txt
+src/reshadow.egg-info/requires.txt
+src/reshadow.egg-info/top_level.txt
