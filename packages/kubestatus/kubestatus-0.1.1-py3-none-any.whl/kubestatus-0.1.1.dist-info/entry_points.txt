@@ -1,0 +1,2 @@
+[console_scripts]
+kubestatus = kubestatus.viewer:main
