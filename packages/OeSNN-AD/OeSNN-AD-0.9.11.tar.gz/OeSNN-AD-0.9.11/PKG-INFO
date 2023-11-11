@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: OeSNN-AD
+Version: 0.9.11
+Summary: OeSNN anomaly detector implementation for Python.
+Author: Mariusz Paluch
+Author-email: mariuszpaluch001@gmail.com
+Keywords: python,data stream,spiking neural network,SNN,anomalies,anomaly detection
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+
+## Title
