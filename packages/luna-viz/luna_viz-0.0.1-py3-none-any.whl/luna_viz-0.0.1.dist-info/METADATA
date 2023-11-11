@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: luna-viz
+Version: 0.0.1
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: h5py
+
