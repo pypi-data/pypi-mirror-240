@@ -1,0 +1,3 @@
+[console_scripts]
+byteblower-low-latency=byteblower.test_cases.low_latency.cli:main
+
