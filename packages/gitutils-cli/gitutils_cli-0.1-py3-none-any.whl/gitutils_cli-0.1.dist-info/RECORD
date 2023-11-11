@@ -1,0 +1,9 @@
+cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli/git_batch_cherry_picker.py,sha256=HAIKgFeAgOaWhwrwArfx2iiBYDm9irpwW6SRIPekKy8,2122
+cli/git_batch_merger.py,sha256=jCH1Es_gGubyBby1ZG3dnx2DlYI4rUIN48o5eQwPm1s,4034
+gitutils_cli-0.1.dist-info/LICENSE,sha256=76S5t_xRHPkOhuw90hkqAtkju1hm4Ba-Gl7SIEGqv6U,1495
+gitutils_cli-0.1.dist-info/METADATA,sha256=8jIugKptNPSXhTkDWW-GpjIssMU0eu_evrKLez0IBJ8,157
+gitutils_cli-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+gitutils_cli-0.1.dist-info/entry_points.txt,sha256=RVyjFsg-xd9SwdSt7GpTsA8RUp4WyJsGFUy99hGhdaI,154
+gitutils_cli-0.1.dist-info/top_level.txt,sha256=2ImG917oaVHlm0nP9oJE-Qrgs-fq_fGWgba2H1f8fpE,4
+gitutils_cli-0.1.dist-info/RECORD,,
