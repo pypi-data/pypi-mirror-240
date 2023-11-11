@@ -1,0 +1,6 @@
+setup.py
+projet_gcb202a23/__init__.py
+projet_gcb202a23.egg-info/PKG-INFO
+projet_gcb202a23.egg-info/SOURCES.txt
+projet_gcb202a23.egg-info/dependency_links.txt
+projet_gcb202a23.egg-info/top_level.txt
