@@ -1,0 +1,55 @@
+
+{# 
+   This template requires you to define or pass in the variable test_list
+   to be a list of dictionaries describing results of tests. 
+   Only items with non-empty item['error'] or item['failure']
+   will be displayed.
+#}
+<details open>
+  <summary>
+    <b>Failures</b>
+  </summary>
+  {% set failure_num = 0 %}	
+  {% for item in test_list %}
+  {% set problem_info = item.error or item.failure %}
+       {% if problem_info %}
+       {# ------------------------------------------------------------ #}
+       {# For this to look right on github, need no spaces before tags #}
+<!-- *IMPORTANT*: to look right on github, need no spaces before tags -->
+<details class="w3-red">
+       {% set failure_num = failure_num + 1 %}
+<summary>{{('%i'%failure_num).zfill(3)}} -- {{ item['@name'] }}</summary>
+<br>
+       {# --------------- #}
+       {# test item has an error but might be one or multiple #}
+       {# --------------- #}
+           {% if problem_info['#text'] %}
+           {# test item had a single error so show it #}
+<PRE>
+{{ problem_info['#text'] }}
+</PRE>
+<br>
+           {% else %}
+           {# --------------- #}
+           {# test item has multiple problems so loop through them #}
+           {# --------------- #}
+Multiple problems:
+<br>
+           {% set problem_num = 0 %}	
+           {% for problem in problem_info %}
+               {% set problem_num = problem_num + 1 %}
+               {% include 'py_test_sub_failure.html' %}
+           {% endfor %}
+           {% endif %}
+</details>
+      {# ------------------------------------------------------------ #}
+      {# Finish processing errors and failures.                       #}
+      {# ------------------------------------------------------------ #}
+      {% else %}
+      {# ------------------------------------------------------------ #}
+      {# Non-error and non-failure processed here
+      {# ------------------------------------------------------------ #}
+<!-- Not showing info for non-problem {{ item['@name'] }} -->
+      {% endif %}
+  {% endfor %}
+</details>

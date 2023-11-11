@@ -1,0 +1,25 @@
+{% extends "ox_layout.html" %}
+{% block body %}
+
+<H1>Task Report for run pytest</H1>
+<div class="w3-light-grey w3-margin-bottom">
+  <div>
+    <TABLE cellpadding="10">
+      <TH>Test report</TH>
+      <TH>Summary</TH>
+      <TR>
+	<TD>{{ task_data.task_name }}</TD>
+	<TD>{{ task_data.json_data['summary'] }}</TD> 
+      </TR>
+    </TABLE>
+  </div>
+</div>
+
+<div class="w3-row-padding" style="max-width:1400px">
+  <div class="w3-container w3-light-grey">
+    {% set test_list = task_data.json_data['tests'] %}
+    {% include 'py_test_failures.html' %}
+  </div>
+</div>
+
+{% endblock %}

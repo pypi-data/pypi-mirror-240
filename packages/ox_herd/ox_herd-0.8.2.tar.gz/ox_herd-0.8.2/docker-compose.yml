@@ -1,0 +1,17 @@
+version: '3'
+services:
+  
+  ox_server:
+    build:
+      context: .
+      args:
+        - GITHUB_USER
+        - GITHUB_TOKEN
+        - GITHUB_SECRET
+        - OX_WEB_USER=$OX_WEB_USER:-disabled
+        - OX_PASSWD_HASH=$OX_PASSWD_HASH:-disabled
+    ports:
+      - '6617:6617'
+    image: ox_herd_image
+    container_name: ox_server
+
