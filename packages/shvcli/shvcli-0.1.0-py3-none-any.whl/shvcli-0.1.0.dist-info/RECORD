@@ -1,0 +1,15 @@
+shvcli/__init__.py,sha256=sLwNBdQC5y7DvXSLQFyUSdP0PLaSC86c7Ui8o7ueRSU,45
+shvcli/__main__.py,sha256=hKtCu7SIDyPkG_dBwwHnfHjQeD3_zpSrPa8ROGyoh6s,1009
+shvcli/cli.py,sha256=d59sUKkaVskTgZDu1iuISx4xaTYvU3qB1Io5HBgUi-Q,8697
+shvcli/client.py,sha256=5bxCHJzXSzjPSlh6eZ3b7qQSZwvwwxIV1aMv-JMtmmg,5333
+shvcli/complet.py,sha256=UMqkysE2omJIa_CDlokxcPLjsnUP4uEV6yNPCHQIg48,4801
+shvcli/config.py,sha256=ZcA6C8fCsETDFR5EXdjB98zgBNsNOhYNghBnYapJUoI,3924
+shvcli/parse.py,sha256=LDZbHCMiEbqlD8fFOAAHfw8lTMR5wO4h1o9vCZY-X2A,1600
+shvcli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shvcli/tools.py,sha256=8iwvWRjGGCC2A5JihoYi25Z1xlpsZEwCRE5JzA-36X0,652
+shvcli-0.1.0.dist-info/LICENSE,sha256=aicyjR-loT0lQ6wg1bl3BwiwNhyRD1c1kTPnNr7VC3E,1073
+shvcli-0.1.0.dist-info/METADATA,sha256=mLYUeIIbIAP2MbX4rr183qQdEbP6vsVIs_Ge9d_u518,6985
+shvcli-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+shvcli-0.1.0.dist-info/entry_points.txt,sha256=_x79ezLEZFeIKcsuX_TqfEeOPuxjbOMmhh7tSc8q4zU,48
+shvcli-0.1.0.dist-info/top_level.txt,sha256=8niFWMmDVkQG7ioC41HHm_WHcJTtbWDVWAvK362lPww,7
+shvcli-0.1.0.dist-info/RECORD,,
