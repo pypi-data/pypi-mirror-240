@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pymaopian/__init__.py
+pymaopian/common.py
+pymaopian/pymaopian.py
+pymaopian.egg-info/PKG-INFO
+pymaopian.egg-info/SOURCES.txt
+pymaopian.egg-info/dependency_links.txt
+pymaopian.egg-info/not-zip-safe
+pymaopian.egg-info/top_level.txt
+tests/test_pymaopian.py
