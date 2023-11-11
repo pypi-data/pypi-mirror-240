@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: MCDATA
+Version: 0.1
+Summary: Um pacote Python para pré-processar dados públicos
+Requires-Python: >=3.11.6
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: boto3
+
