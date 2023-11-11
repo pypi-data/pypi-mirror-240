@@ -1,0 +1,12 @@
+scilaunch/__init__.py,sha256=UKV-R3DbT0Zd7M3ekzsU3DGXUs5Vhtp0K_ZaVWHuBtU,331
+scilaunch/configs.py,sha256=mND5xqVDSKGWErHLrumnmvQihvAyDKzgZoOr3veGnB8,1130
+scilaunch/main.py,sha256=4g35GceXVX111XBYMuUm0JL5j-7u_f8mscsOmm0ems0,1673
+scilaunch/project.py,sha256=O_t4n-b0M96gNs-dUhcb6ztB4lKoggqtmqRCR2NXNMo,5101
+scilaunch/templates/cookiecutterrc/cookiecutter.json,sha256=bJXBX51ciwjIffXosJPYYLArjJou2uwJeD1B-Q-iiAY,1100
+scilaunch/templates/cookiecutterrc/{{cookiecutter._cache_dir}}/.cookiecutterrc,sha256=GSNLf6Lm-CFWlYPoVQmjmkyzBjEdmiusvw2u8w_7Yy8,506
+scilaunch-0.1.2.dist-info/LICENSE,sha256=f0HMTV0hr-SrWBdnRI3fDFvoUcY5JGJIZ5hBsBH_xrs,1507
+scilaunch-0.1.2.dist-info/METADATA,sha256=mDwb2BHHTBJvILtFY84iteUhCVDREm5hMdAKG3lS_GQ,7835
+scilaunch-0.1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+scilaunch-0.1.2.dist-info/entry_points.txt,sha256=Yd2nk2YxYnCCGRjAi1VunrXsLrAdIFx0UjHNEZPbarE,50
+scilaunch-0.1.2.dist-info/top_level.txt,sha256=mjX0Pb_7TZi7o3o2fOW-5F_KILy-RpghLK0To4cfwqA,10
+scilaunch-0.1.2.dist-info/RECORD,,
