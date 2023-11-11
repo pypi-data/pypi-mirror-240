@@ -1,0 +1,2 @@
+def third():
+    print('third')
