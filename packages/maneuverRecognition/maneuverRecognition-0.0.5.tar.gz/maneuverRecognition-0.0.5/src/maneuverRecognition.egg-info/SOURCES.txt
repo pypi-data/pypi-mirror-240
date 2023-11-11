@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/maneuverRecognition.egg-info/PKG-INFO
+src/maneuverRecognition.egg-info/SOURCES.txt
+src/maneuverRecognition.egg-info/dependency_links.txt
+src/maneuverRecognition.egg-info/requires.txt
+src/maneuverRecognition.egg-info/top_level.txt
+src/maneuverrecognition/__init__.py
+src/maneuverrecognition/evaluation.py
+src/maneuverrecognition/modelling.py
+src/maneuverrecognition/preprocessing.py
