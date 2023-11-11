@@ -1,0 +1,2 @@
+[console_scripts]
+rks = rks.main:main
