@@ -1,0 +1,22 @@
+[project]
+name = "petalouda"
+version = "0.0.0"
+authors = [
+  { name="Harvey Devereux", email="h.devereux@qmul.ac.uk" },
+]
+description="On the fly correlations and statistics"
+readme="README.md"
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/apw951/fly"
+"Bug Tracker" = "https://gitlab.com/apw951/fly/-/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+

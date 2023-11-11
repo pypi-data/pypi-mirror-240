@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/petalouda/__init__.py
+src/petalouda.egg-info/PKG-INFO
+src/petalouda.egg-info/SOURCES.txt
+src/petalouda.egg-info/dependency_links.txt
+src/petalouda.egg-info/top_level.txt
