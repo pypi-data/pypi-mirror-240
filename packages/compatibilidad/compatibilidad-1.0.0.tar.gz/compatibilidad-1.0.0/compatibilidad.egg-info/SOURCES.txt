@@ -1,0 +1,5 @@
+setup.py
+compatibilidad.egg-info/PKG-INFO
+compatibilidad.egg-info/SOURCES.txt
+compatibilidad.egg-info/dependency_links.txt
+compatibilidad.egg-info/top_level.txt

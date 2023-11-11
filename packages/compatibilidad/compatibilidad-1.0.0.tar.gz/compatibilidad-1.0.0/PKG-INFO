@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: compatibilidad
+Version: 1.0.0
+Summary: Comprabación de la compatibilidad de dos personas
+Author: Candela Lopéz & Naroa Lauzirika
+Author-email: naroa.lauzirika@alumni.mondragon.edu
+
+Tiene dos clases, una para amigos y otra para posibles parejas
