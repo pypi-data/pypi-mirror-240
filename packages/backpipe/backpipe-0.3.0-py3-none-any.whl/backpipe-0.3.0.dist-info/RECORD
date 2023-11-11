@@ -1,0 +1,11 @@
+backpipe/__init__.py,sha256=ULgPOMF09drnF856ujv_1sWt0pj9WIcEGCN0LHJP8Ng,215
+backpipe/app.py,sha256=vZTujVgYJxBmfZ9ZIbwSapKF9SbNbYMNtNYWGsuqHGE,2566
+backpipe/builder.py,sha256=rkMMxvxtB9l0-Lj9na5jCutNQXxGTWhnCdXaQ5RCyXM,1745
+backpipe/host.py,sha256=_Rthq5gIiBpK6m30oxZnSONe3jEHnE4heoueC3Yiw0o,538
+backpipe/rq.py,sha256=lYNLX15418MAwQeY94_RG9pl5i21Fo7Hv-xN57bHT00,630
+backpipe/server.py,sha256=dUHi25DtuUGM9_xxN4wvnHfVhvbo5rKeakPyUPSAHfU,5416
+backpipe-0.3.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+backpipe-0.3.0.dist-info/METADATA,sha256=UI2UriIpUu67qPjTaRtBaFb_D6ZGiBZ9GKw9jXncv7w,2522
+backpipe-0.3.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+backpipe-0.3.0.dist-info/top_level.txt,sha256=reAevUndeMEIOnYRDmzkJBjEn9m5QHnBGJhA05wd5IE,9
+backpipe-0.3.0.dist-info/RECORD,,
