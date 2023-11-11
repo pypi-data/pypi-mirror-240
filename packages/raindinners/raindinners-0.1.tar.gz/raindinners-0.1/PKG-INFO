@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: raindinners
+Version: 0.1
+Summary: Library for Like microservices
+License-Expression: MIT
+Keywords: aiohttp,api,asyncio
+Requires-Python: >=3.8
+Requires-Dist: aiofiles<23.3,>=23.1
+Requires-Dist: aiohttp~=3.8.5
+Requires-Dist: pydantic<3,>=2.1.1
+Description-Content-Type: text/markdown
+
+# raindinners
+
+RainDinners provides a builtin library for working with its services.
