@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: google-colab-selenium
+Version: 1.0.4
+Summary: Easily use Selenium in Google Colab Notebooks!
+Home-page: https://github.com/jpjacobpadilla/Google-Colab-Selenium
+Author: Jacob Padilla
+Author-email: jp@jacobpadilla.com
+License: MIT
+Keywords: selenium google-colab webdriver automation chromedriver
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium
+Provides-Extra: undetected
+Requires-Dist: undetected-chromedriver ; extra == 'undetected'
+
+# Google-Colab-Selenium
+The best way to use Selenium in Google Colab Notebooks!
+
+```bash
+pip install google-colab-selenium
+```
+
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yzJ59EgqNUKTujCZ7xgLxsA_MlX5vt1_)
+
+
+
