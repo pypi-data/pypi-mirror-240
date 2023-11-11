@@ -1,0 +1,13 @@
+
+:orphan:
+
+.. _sphx_glr_auto_examples_simple_simulations_sg_execution_times:
+
+
+Computation times
+=================
+**00:01.218** total execution time for **auto_examples_simple_simulations** files:
+
++------------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_auto_examples_simple_simulations_two_gaussians.py` (``two_gaussians.py``) | 00:01.218 | 0.0 MB |
++------------------------------------------------------------------------------------------+-----------+--------+

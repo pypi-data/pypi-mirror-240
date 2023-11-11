@@ -1,0 +1,15 @@
+
+:orphan:
+
+.. _sphx_glr_auto_examples_region_of_interest_sg_execution_times:
+
+
+Computation times
+=================
+**00:03.046** total execution time for **auto_examples_region_of_interest** files:
+
++--------------------------------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_auto_examples_region_of_interest_SpanROI.py` (``SpanROI.py``)                                 | 00:01.751 | 0.0 MB |
++--------------------------------------------------------------------------------------------------------------+-----------+--------+
+| :ref:`sphx_glr_auto_examples_region_of_interest_SpanROI_interactive_sum.py` (``SpanROI_interactive_sum.py``) | 00:01.295 | 0.0 MB |
++--------------------------------------------------------------------------------------------------------------+-----------+--------+
