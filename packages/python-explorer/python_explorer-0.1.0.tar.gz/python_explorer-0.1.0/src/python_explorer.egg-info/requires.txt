@@ -1,0 +1,8 @@
+dash>=2.11.1
+dash-bootstrap-components>=1.4.1
+dash-cytoscape>=0.3.0
+dash-extensions>=1.0.3
+dash-iconify>=0.1.2
+dash-mantine-components>=0.12.1
+pypandoc-binary>=1.11
+waitress>=2.0.0
