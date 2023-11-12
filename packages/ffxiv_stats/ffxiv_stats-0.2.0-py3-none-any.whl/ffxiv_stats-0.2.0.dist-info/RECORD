@@ -1,0 +1,8 @@
+ffxiv_stats/__init__.py,sha256=037n5DzUykflsoN1EJP1d6Cn4ugqS__aj8olCoVs8jI,430
+ffxiv_stats/jobs.py,sha256=q7nq19f2y6nki727Gcy2Iqpbg-qx4QbITPA9W7S_zQw,15422
+ffxiv_stats/moments.py,sha256=3YxIH2d83vXsdqrojOGw1LcPL--ktspbKbI9P43FOzE,29736
+ffxiv_stats/rate.py,sha256=8Y0Sf3q-zlS-BQGIMNCKXHQ0JSUHwmW8qWfaIXyvvLo,3045
+ffxiv_stats-0.2.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+ffxiv_stats-0.2.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ffxiv_stats-0.2.0.dist-info/METADATA,sha256=t55C5L9Q3Ymd0m3gRwbF3STNwrwqYr_8IskSzXJD12Y,5174
+ffxiv_stats-0.2.0.dist-info/RECORD,,
