@@ -1,0 +1,10 @@
+unicorn_binance_rest_api/__init__.cp311-win_amd64.pyd,sha256=B51qgdnaJUzFvfxQ1OldCC7q2b9NWS5p4nlQn3-GHUU,20480
+unicorn_binance_rest_api/enums.cp311-win_amd64.pyd,sha256=0_PS4bYNsGxp7kihubdpjyC08UtN2Hv4oUu6oFpFIhU,28160
+unicorn_binance_rest_api/exceptions.cp311-win_amd64.pyd,sha256=4x3sDutqr8GSzyTdg9qajNf7zUUq6AsIdpZvjMCdxls,70144
+unicorn_binance_rest_api/helpers.cp311-win_amd64.pyd,sha256=WbWWaqH7r0f978T59pRQiVDPUSKXNfonYIM9b3KuJJw,45568
+unicorn_binance_rest_api/manager.cp311-win_amd64.pyd,sha256=6-xlNco-g0Cvx3zCYm0zh5jRJlNptrwd-S_LEBsNw-A,851968
+unicorn_binance_rest_api-2.0.3.dist-info/LICENSE,sha256=fZu2USJHnOaNVkhfOZyqSfgqBBpQGwod0OCmMlhd_zM,4795
+unicorn_binance_rest_api-2.0.3.dist-info/METADATA,sha256=u4-7XYmFwghsmcchdFMHWQ5bjTDTifC9lQhN_kBq8sA,25341
+unicorn_binance_rest_api-2.0.3.dist-info/WHEEL,sha256=82gZYSdmJ63dmEqVXfVfYjP-6F3ar13SybIjiy8AOec,102
+unicorn_binance_rest_api-2.0.3.dist-info/top_level.txt,sha256=_JsXtpPC96W8Mez6pBZXOO_oDJhXmptqFI71vD6d3Xg,25
+unicorn_binance_rest_api-2.0.3.dist-info/RECORD,,
