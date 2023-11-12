@@ -1,0 +1,17 @@
+README.md
+setup.py
+getmodelspec.egg-info/PKG-INFO
+getmodelspec.egg-info/SOURCES.txt
+getmodelspec.egg-info/dependency_links.txt
+getmodelspec.egg-info/entry_points.txt
+getmodelspec.egg-info/requires.txt
+getmodelspec.egg-info/top_level.txt
+modelspec/__init__.py
+modelspec/amazon.py
+modelspec/bestbuy.py
+modelspec/model_scraper.py
+modelspec/model_scraper_jp.py
+modelspec/rtings.py
+modelspec/tools/__init__.py
+modelspec/tools/filemanager.py
+modelspec/tools/webdriver.py
