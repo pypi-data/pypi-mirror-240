@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Lib/fontinfo/__init__.py
+Lib/fontinfo.egg-info/PKG-INFO
+Lib/fontinfo.egg-info/SOURCES.txt
+Lib/fontinfo.egg-info/dependency_links.txt
+Lib/fontinfo.egg-info/requires.txt
+Lib/fontinfo.egg-info/top_level.txt
+tests/test_fontinfo.py

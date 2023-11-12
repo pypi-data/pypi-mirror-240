@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: fontinfo
+Version: 0.1.1
+Summary: Represent information about a font in a format agnostic fashion.
+Home-page: https://gitlab.com/fontstuff/fontinfo
+Author: Andreas Eigendorf
+License: MIT
+Project-URL: Source, https://gitlab.com/fontstuff/fontinfo
+Project-URL: Documentation, https://fontstuff.gitlab.io/fontinfo
+Project-URL: Tracker, https://gitlab.com/fontstuff/fontinfo/-/issues
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML>=6.0.1
+Requires-Dist: otSpec>=0.1.34
+
+# fontinfo
+
+Represent information about a font in a format agnostic fashion.
+
+## Installation
+
+```shell
+pip install fontinfo
+```
