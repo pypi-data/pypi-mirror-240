@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+secretshell/__init__.py
+secretshell/secretshell.py
+secretshell.egg-info/PKG-INFO
+secretshell.egg-info/SOURCES.txt
+secretshell.egg-info/dependency_links.txt
+secretshell.egg-info/top_level.txt
