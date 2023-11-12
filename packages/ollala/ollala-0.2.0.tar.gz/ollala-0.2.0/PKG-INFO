@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: ollala
+Version: 0.2.0
+Summary: 
+License: MIT
+Author: Maz Jaleel
+Author-email: mazjaleel@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Ollala
+
+A simple, friendly Ollama HTTP client.
+
+## Goals
+
+- Focus on implementing Ollama APIs as-is without additional abstractions
+- Provide additional, optional abtractions to make it simpler to use
+
+## Next
+
+- [ ] Test / Fix remaining enpoints
+- [ ] Error handling + more tests
+- [ ] Implement an abstraction for a stateful conversation
+
+## Future
+
+- [ ] Consider async APIs with httpx
+- [ ] Consider adding streaming support for responses
+
+## Chores
+
+- [ ] Setup Github Actions for linting, testing, publishing to PyPI
+- [ ] Graphics, icons and aesthetics 
+
