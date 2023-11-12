@@ -1,0 +1,8 @@
+scaf_code/__init__.py,sha256=VrXpHDu3erkzwl_WXrqINBm9xWkcyUy53IQOj042dOs,22
+scaf_code/__main__.py,sha256=tZuhfxIUrWzFe3E0R_1KEbyJYJdPo5jKy6QRK33Ypq8,39
+scaf_code/cli.py,sha256=Ku07AbW6qMEwtmwBfvwvysp9-vHMwGc1enqVoXmt93k,5849
+scaf_code/scaffold_code.py,sha256=TqS6t_fKCAOFh7ZowzdZvZjJC2faYHkhCjMLBh0qoj0,7834
+scaf_code-0.3.0.dist-info/METADATA,sha256=UMVdB3Oefz1TyUgVfv7p-aPIn9We9eePKe1RYYeQ8I0,4807
+scaf_code-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+scaf_code-0.3.0.dist-info/entry_points.txt,sha256=cHbmKiB1FAh3YjueFBOfr9W4OuVXPVel4axrcEoe818,48
+scaf_code-0.3.0.dist-info/RECORD,,
