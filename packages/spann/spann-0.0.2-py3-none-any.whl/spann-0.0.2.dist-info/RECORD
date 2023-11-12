@@ -1,0 +1,9 @@
+spann/__init__.py,sha256=4-AJZZNA9e_W5zCMS6z13ZJ3MiI393m4zyg4j20gmY0,102
+spann/functions.py,sha256=0Fqu1BXrm11HEUc0qYiyXMIg-ABkzvW7o_pxlaQhi3c,2692
+spann/model.py,sha256=fdkNZHOl4a7ArrUNv12iIM9UWF2kcEtSFSz41PO21l0,66128
+spann/preprocess.py,sha256=sliotdFdJAbuNtqMCaeyLHdfcoYaanY0r711xvRLXa4,8132
+spann-0.0.2.dist-info/LICENSE,sha256=8UsgBIwSOTy5kgBlxH-twDAhCw-cq5hJzgpooGPt7cU,11357
+spann-0.0.2.dist-info/METADATA,sha256=u5APA-VNMMxA486XwFey5G2BWTL-FEFS7atRKych5cc,3137
+spann-0.0.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+spann-0.0.2.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spann-0.0.2.dist-info/RECORD,,
