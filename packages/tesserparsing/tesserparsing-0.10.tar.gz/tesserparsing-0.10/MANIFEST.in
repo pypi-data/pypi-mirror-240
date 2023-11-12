@@ -1,0 +1,3 @@
+include tesserparsing/requirements.txt
+include tesserparsing/thirdparty.json
+include tesserparsing/README.MD

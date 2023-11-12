@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tesserparsing/README.MD
+tesserparsing/__init__.py
+tesserparsing/requirements.txt
+tesserparsing/thirdparty.json
+tesserparsing.egg-info/PKG-INFO
+tesserparsing.egg-info/SOURCES.txt
+tesserparsing.egg-info/dependency_links.txt
+tesserparsing.egg-info/requires.txt
+tesserparsing.egg-info/top_level.txt
