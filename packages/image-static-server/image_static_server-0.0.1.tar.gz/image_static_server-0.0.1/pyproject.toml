@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "image_static_server"
+version = "0.0.1"
+description = "Image Static Server to show images from a folder"
+authors = ["idlewith <newellzhou@163.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/idlewith/image_static_server"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+]
+exclude = [
+    "src/image_static_server/.DS_Store",
+    "src/image_static_server/images",
+    "src/image_static_server/.mypy_cache",
+    "src/image_static_server/t.py",
+    "src/image_static_server/templates/t.html",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+iss = "image_static_server.main:main"

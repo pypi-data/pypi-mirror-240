@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: image-static-server
+Version: 0.0.1
+Summary: Image Static Server to show images from a folder
+Home-page: https://github.com/idlewith/image_static_server
+License: MIT
+Author: idlewith
+Author-email: newellzhou@163.com
+Requires-Python: >=3.8,<4
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Image Static Server
+
+Image Static Server to show images from a folder
+
+
+## install image_static_server
+
+```
+pip install image_static_server
+```
+
+## todo: how to use
+
+- make a new folder named `images` in current work path
+
+```
+mkdir images
+```
+
+- then, copy your image to `images` folder
+
+- finally, execute below command to open a website to view images
+
+```
+iss
+```
+
+
+
