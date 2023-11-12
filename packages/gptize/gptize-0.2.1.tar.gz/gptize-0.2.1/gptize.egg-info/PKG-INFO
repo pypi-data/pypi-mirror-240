@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: gptize
+Version: 0.2.1
+Home-page: https://github.com/svetlovtech/gptize
+Author: Alexey Svetlov
+Requires-Python: >=3.11.4
+License-File: LICENSE
