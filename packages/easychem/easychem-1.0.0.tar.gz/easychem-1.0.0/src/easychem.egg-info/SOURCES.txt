@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/easychem/__init__.py
+src/easychem/easychem.py
+src/easychem/ecfortran.f95
+src/easychem/thermo_easy_chem_simp_own.inp
+src/easychem.egg-info/PKG-INFO
+src/easychem.egg-info/SOURCES.txt
+src/easychem.egg-info/dependency_links.txt
+src/easychem.egg-info/not-zip-safe
+src/easychem.egg-info/requires.txt
+src/easychem.egg-info/top_level.txt

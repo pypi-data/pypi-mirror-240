@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: easychem
+Version: 1.0.0
+Summary: Chemistry equilibrium computation tool
+Home-page: https://gitlab.com/EliseLei/easychem
+Author: Elise Lei
+Author-email: elise.lei@etu.minesparis.psl.eu
+License: MIT License
+License-File: LICENSE
+
+# EASYCHEM
+
+## By Paul Mollière and Elise Lei
+
+This is a first sketch, you should be able to install with `setup.py`.
+
+The notebook "tutorial" might help you use the package.
