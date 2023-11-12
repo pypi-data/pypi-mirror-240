@@ -1,0 +1,9 @@
+repo2kaniko/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repo2kaniko/_version.py,sha256=IMl2Pr_Sy4LVRKy_Sm4CdwUl1Gryous6ncL96EMYsnM,411
+repo2kaniko/kaniko.py,sha256=_g39-qicCK3T46utJyz-rI51umHlamsxfde_MUsw9fs,7960
+repo2kaniko-0.1.0.dist-info/LICENSE,sha256=jsllTfM0LjkBRX0VMAA1H0vm4ZrsDGE57qA_N5N1Oyg,1508
+repo2kaniko-0.1.0.dist-info/METADATA,sha256=Uy1nZJyziR_Z1SzFJ12_dAE-9zxQ3FQwpgSXCOjGGt4,3459
+repo2kaniko-0.1.0.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+repo2kaniko-0.1.0.dist-info/entry_points.txt,sha256=1v_GCN14fleYT8STvwqvcg2zmgdgum2NkuLEZwp2vkE,63
+repo2kaniko-0.1.0.dist-info/top_level.txt,sha256=BtTCdHa_xrzdRMB9NbBt-FCcR7X4Ndcnfgmd2JVhklE,12
+repo2kaniko-0.1.0.dist-info/RECORD,,
