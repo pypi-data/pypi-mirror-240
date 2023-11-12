@@ -1,0 +1,10 @@
+kivy_garden/i18n/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kivy_garden/i18n/_exceptions.py,sha256=r_vNGzvBWluShi6e1g76VKg3WQw45jlCposkMZe1r7A,300
+kivy_garden/i18n/fontfinder.py,sha256=1sBd36v9J6-Q9c9OF49I-428SluIgWsS_Nhe8eISZ-U,4914
+kivy_garden/i18n/localizer.py,sha256=_dmee0Ny6VLlW-Nc0_fcCCmv2d4HrLxPLVODy8SQS-I,6029
+kivy_garden/i18n/utils/__init__.py,sha256=EaG7vkSf72tc6GAV_v0TqA2urlMOyKaXsF48zuS4afA,86
+kivy_garden/i18n/utils/_extract_msgids_from_string_literals.py,sha256=min0LFN3XZ9RAP-4F-c7js9EHeZxSBCDYt_IMrRVyG0,1708
+kivy_garden_i18n-0.2.0.dist-info/METADATA,sha256=iSl6UrgQZXk6vhQbtnGRbFzqtMhkIrTBMoXJDoNJK64,1386
+kivy_garden_i18n-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+kivy_garden_i18n-0.2.0.dist-info/entry_points.txt,sha256=-RFAAMe6gj1PFC2SII2NlNGYQ7O4uG8iOwdMgyaQ_Zg,103
+kivy_garden_i18n-0.2.0.dist-info/RECORD,,
