@@ -1,0 +1,8 @@
+README.md
+setup.py
+ps_srx.egg-info/PKG-INFO
+ps_srx.egg-info/SOURCES.txt
+ps_srx.egg-info/dependency_links.txt
+ps_srx.egg-info/entry_points.txt
+ps_srx.egg-info/requires.txt
+ps_srx.egg-info/top_level.txt
