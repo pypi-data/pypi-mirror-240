@@ -1,0 +1,11 @@
+nchr/__init__.py,sha256=c3LaplIW6Pm5BGivfN5f4-3NlXUs4NXt1QXQvvRK0nE,382
+nchr/_modidx.py,sha256=iaJ87ifjBi6xs7NB2CQWg7210joGySHZRc8EiL4uJQ8,599
+nchr/core.py,sha256=FoNFcG286M11ShdGFN2dYRol_1DM_Aw8frAhh8wv9Nk,1150
+nchr/escd.py,sha256=10vBokZbK8lLrsb5XTCP__S96vhxNJNoZkmrmeYm1zs,187
+nchr/tree.py,sha256=s_Gfna4sTxXT0TcUY40IxqM46Xj_Ay4Y4h9Td96TPPQ,826
+nchr-0.0.4.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+nchr-0.0.4.dist-info/METADATA,sha256=wB_vk-npPR4P8I4wXBjzOmqPmag5JqqD4wWP0jl4-as,2170
+nchr-0.0.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+nchr-0.0.4.dist-info/entry_points.txt,sha256=PpLpY6CTrcUMds7Bvn6tPKyv7Mk8DNO2C7BJ39iBAZU,30
+nchr-0.0.4.dist-info/top_level.txt,sha256=LIzWneQwfSYNyMuBeq7LxiHb-zEWqK2rt85C2Pn3nlc,5
+nchr-0.0.4.dist-info/RECORD,,
