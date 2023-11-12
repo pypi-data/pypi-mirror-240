@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+chopchopcolorc/README.MD
+chopchopcolorc/__init__.py
+chopchopcolorc/requirements.txt
+chopchopcolorc/thirdparty.json
+chopchopcolorc.egg-info/PKG-INFO
+chopchopcolorc.egg-info/SOURCES.txt
+chopchopcolorc.egg-info/dependency_links.txt
+chopchopcolorc.egg-info/requires.txt
+chopchopcolorc.egg-info/top_level.txt

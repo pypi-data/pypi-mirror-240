@@ -1,0 +1,3 @@
+include chopchopcolorc/requirements.txt
+include chopchopcolorc/thirdparty.json
+include chopchopcolorc/README.MD
