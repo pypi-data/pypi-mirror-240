@@ -1,0 +1,7 @@
+neurometa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neurometa/constant.py,sha256=tWtoKyYrOPmBMsa0rbvXbQDNYK0p2aiwK3oab0D-rOw,23589
+neurometa/scrape.py,sha256=Mz31VMxlBLFsPeJfsoVlVWn-CeNlQh0CswsIAGY1oOw,12022
+neurometa/static/wikipedia_table.ods,sha256=RukxWQH074MMZq6iwhJnSXwamGE05sEIM08UBen0p2Q,17077
+neurometa-1.1.1.dist-info/METADATA,sha256=eP7636ka_YnQKG0EFx44uvxvfnjQ1znbGq7FxXg3tp0,1731
+neurometa-1.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+neurometa-1.1.1.dist-info/RECORD,,
