@@ -1,0 +1,3 @@
+[console_scripts]
+fclient=fortune_client.app:main
+

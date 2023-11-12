@@ -1,0 +1,12 @@
+fortune_client/__init__.py,sha256=9HoutOp6mrKp-kSy6STHYmbibc82otPvXhvCW3Uqqw8,67
+fortune_client/app.py,sha256=hplNpougo4EY0gHOb4lPMsQD8qiq_o3IPxZpgQS645E,643
+fortune_client/arguments.py,sha256=cKMY2yzaZygM8bsaN2hRW_sWJ_857u-YIk3XpFq4K9s,1870
+fortune_client/fortune_api_data.py,sha256=vU0B4JUAmBH1QtbZZ3DnUBiDjC9GGHl2D0NyewXgzDc,693
+fortune_client/fortune_client.py,sha256=utuLs4ADY1DhXbo3IlepcX0daDuqSZU8_OP-npRyX8M,983
+fortune_client/get_data.py,sha256=0DvMmWlCK931TBhOQtMUsnjGnymR02TPxfn5tbJvVCc,1215
+fortune_client/output.py,sha256=1NwcFbkNsp2rZzk5_bgAyFQabpFnWoDdrnTUXMvJUfE,2008
+fortune_client/parameters.py,sha256=I7svZKsPCyu91c91sIfulhnVAVhEl3Oi8m-EukBc7C0,1485
+fortune_client-0.1.0.dist-info/METADATA,sha256=20GUxXyWzVPw-oDqH17aRSwtvLP_GVvnJpM886LeAj8,418
+fortune_client-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fortune_client-0.1.0.dist-info/entry_points.txt,sha256=S1VRJ9-ZycCt4EoHK5eC_5LH127a7gZsoJT4G75FX90,51
+fortune_client-0.1.0.dist-info/RECORD,,
