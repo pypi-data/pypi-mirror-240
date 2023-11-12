@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/ConsoleMasterPy/__init__.py
+src/ConsoleMasterPy/console_master.py
+src/ConsoleMasterPy.egg-info/PKG-INFO
+src/ConsoleMasterPy.egg-info/SOURCES.txt
+src/ConsoleMasterPy.egg-info/dependency_links.txt
+src/ConsoleMasterPy.egg-info/requires.txt
+src/ConsoleMasterPy.egg-info/top_level.txt
