@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ebisu
+Version: 3.0.0rc1
+Summary: Intelligent quiz scheduling
+Home-page: http://github.com/fasiha/ebisu
+Author: Ahmed Fasih
+Author-email: wuzzyview@gmail.com
+License: Unlicense
+Keywords: quiz review schedule spaced repetition system srs bayesian probability beta random variable
+
+Public-domain library for quiz scheduling with Bayesian statistics.
