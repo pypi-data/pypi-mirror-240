@@ -1,0 +1,11 @@
+poTranslation/__init__.py,sha256=Yg_zey7qCxQOfDnyqr2hspdtrK9U1vcSDWZdZsUe35o,58
+poTranslation/cli.py,sha256=OGl7Y5AES2aS_Y9L9VAUvZCNvGZ8DoV4vBxHyd-zV90,3577
+poTranslation/core.py,sha256=IR65yHoKrf6B0g2kuSUSgfu-CsMAKVH9f9va64ehD1A,2572
+poTranslation/ms.py,sha256=zRwmLSgD3xunw8LDl7ZyTYw1r_xRx7R5RfJ-gP6wzFs,1477
+poTranslation/openai.py,sha256=MzPPX2kLVPKFjC14HvrXz-tQ_oSbt5y8KjdRbNiKHJg,1327
+poTranslation-0.0.2a1.dist-info/LICENSE,sha256=wPqbNjWhLxun-koYueVaDwH7GsP2Evy0fO1eO0IV9b4,1497
+poTranslation-0.0.2a1.dist-info/METADATA,sha256=c9TUBq4Gv08cCq8-54iXH1hBGp2KaYEqUB4TG5_yVps,3604
+poTranslation-0.0.2a1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+poTranslation-0.0.2a1.dist-info/entry_points.txt,sha256=BFrCVDO2KeF7slRSKfdTWBHOZy1gWoI-qW7MmIBaUjQ,60
+poTranslation-0.0.2a1.dist-info/top_level.txt,sha256=xxR85_tEqrZmLWNlOzVhKGe_1YERXm9A5yH-UFjeQp4,14
+poTranslation-0.0.2a1.dist-info/RECORD,,
