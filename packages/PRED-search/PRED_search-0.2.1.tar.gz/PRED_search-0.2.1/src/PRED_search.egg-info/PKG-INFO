@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: PRED-search
+Version: 0.2.1
+Summary: Search predatory journals based on the Norwegian Register for Scientific Journals, Series and Publishers
+Author-email: PeTPPPP <ceklaszorp@freemail.hu>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml
+
+### Example
+
+## Installation
+```shell
+    pip install PRED_search   
+```
+## Running from command line
+```shell
+    python3 PRED_search.py  
+```
+Note: intermediary file will be saved in current/default dir
