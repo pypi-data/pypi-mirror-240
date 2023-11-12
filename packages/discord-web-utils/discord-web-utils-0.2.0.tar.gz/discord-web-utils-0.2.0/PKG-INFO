@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: discord-web-utils
+Version: 0.2.0
+Summary: Discord Web Utilities for monitoring the API calls an network
+Author: discordapp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: requests
+Requires-Dist: watchdog
