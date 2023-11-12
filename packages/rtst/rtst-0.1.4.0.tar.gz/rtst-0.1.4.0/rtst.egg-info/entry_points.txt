@@ -1,0 +1,2 @@
+[console_scripts]
+speech-recog = rtst.main:main
