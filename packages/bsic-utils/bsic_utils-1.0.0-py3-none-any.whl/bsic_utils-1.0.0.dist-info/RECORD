@@ -1,0 +1,7 @@
+doc/source/conf.py,sha256=CQnP5rjI3NF3_5NreIlXDO78tF15n8A8hg3gW0GVHTc,2370
+src/mpl_bsic/__init__.py,sha256=sZw8TSgu4zOwFjf4CiN2gzWgWmJsHnGmcAo1VTiNxDw,22
+src/mpl_bsic/mpl_bsic.py,sha256=SdYRDLWTNVwDRQaFJqSWnGVS3CJkysqg0pDip6Q_n3s,10562
+bsic_utils-1.0.0.dist-info/METADATA,sha256=-CqSZJRwHhDzqLEPiPadlG-NNAuwmSVi271n9b6VEv8,734
+bsic_utils-1.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+bsic_utils-1.0.0.dist-info/licenses/LICENSE,sha256=YniHKNJERFOHbUb1HHZfvv846LkkaC2-RThVelFJMTI,1097
+bsic_utils-1.0.0.dist-info/RECORD,,
