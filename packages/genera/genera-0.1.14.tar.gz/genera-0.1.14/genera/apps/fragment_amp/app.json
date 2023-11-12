@@ -1,0 +1,71 @@
+{
+    "app_name": "Fragment Amp",
+    "description": "Finds a way to amplify your fragments. It will also look to make some changes to your fragments.",
+    "filename": "fragment_amp_app.py",
+    "class_name": "FragmentAmpApp",
+    "funtion_name": "fragment_amp",
+    "screenshots": [
+        "app_store_screenshot_0.png",
+        "app_store_screenshot_1.png"
+    ],
+    "long_description": "",
+    "version": "0.1.1",
+    "author": [
+        "Luhavaya, Hanna",
+        "Linshiz, Gregory",
+        "Jing, Bo"
+    ],
+    "license": "MIT",
+    "logo": "fragment_amp_logo.svg",
+    "dependencies": {
+        "genera": ">=0.1.5"
+    },
+    "options": {
+        "UI": [
+            "hide",
+            "full"
+        ]
+    },
+    "input": {
+        "data": {
+            "fragments": "array",
+            "load_file_path": "string",
+            "save_file_path": "string"
+        },
+        "settings": {
+            "target_Tm": "number",
+            "min_Tm": "number",
+            "max_Tm": "number",
+            "max_Tm_delta": "number",
+            "max_hairpin_Tm": "number",
+            "target_length": "number",
+            "min_length": "number",
+            "max_length": "number",
+            "force_GC_end": "number",
+            "max_fragment_shift": "number"
+        }
+    },
+    "output": {
+        "data": {
+            "fragments": "array",
+            "primers": "dataframe",
+            "overlaps": "array",
+            "shifts": "array"
+        }
+    },
+    "settings": {
+        "target_Tm": 70,
+        "min_Tm": 65,
+        "max_Tm": 75,
+        "max_Tm_delta": 2,
+        "max_hairpin_Tm": 45,
+        "target_length": 25,
+        "min_length": 20,
+        "max_length": 35,
+        "force_GC_end": 1,
+        "max_fragment_shift": 15,
+        "min_fragment_overlap": 45
+    },
+    "nested_apps": [
+    ]
+}

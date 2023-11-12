@@ -1,0 +1,25 @@
+{
+    "class_name": "FragmentAmpUI",
+    "filename": "fragment_amp_ui.py",
+    "settings": {
+        "fragment_amp_frame_label": "Fragment Amp",
+        "max_fragment_shift_label": "Maximum fragment shift (nt)",
+        "min_fragment_overlap_label": "Minimum fragment overlap (nt)",
+        "fragment_amp_button_label": "Adjust fragments and generate primers",
+        "layout_full": {
+            "frames": [
+                ["primer_generator_frame", "primer_properties_frame"],
+                ["fragment_amp_frame", "primer_properties_frame"],
+                ["primer_checker_frame", "primer_properties_frame"]
+            ],
+            "fragment_amp_frame": {
+                "elements": [
+                    ["max_fragment_shift_label", "max_fragment_shift_spinbox"],
+                    ["min_fragment_overlap_label", "min_fragment_overlap_spinbox"],
+                    ["fragment_amp_button", "fragment_amp_button"],
+                    ["status_label", "status_label"]
+                ]
+            }
+        }
+    }
+}
