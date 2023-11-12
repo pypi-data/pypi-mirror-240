@@ -1,0 +1,13 @@
+kavy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kavy/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kavy/core/kavy.py,sha256=Ku79VeHdb94loQJw9tHVNkYgOvNNayizNu-GDtfHOvo,2231
+kavy/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kavy/modules/get_api_key.py,sha256=I8kY2Quf8Z4D4lSHOL_XWnQcjcCVL6FppPplI7gFj-c,310
+kavy/modules/pdf_module.py,sha256=gquiwX4_DiTWusJ6hfAkYFUFBfkWhQpQYrT-C6Q2eTw,1135
+kavy/modules/txt_module.py,sha256=SxOVjaFIr5n76y-y2WDhv7OnwB7jmYZEGAAF7cxMBjI,1147
+kavy/modules/url_module.py,sha256=jn4G4Rwtfvf0cpVYEdY_lfTLj9rp0XK3TxLG2bDaKtI,1597
+kavy/modules/word_module.py,sha256=Iu1jhfVHA5lZaKgOpFpvFAgwz6Xm5ap6Cets4tCDXQM,1208
+kavy/modules/write_api_key.py,sha256=oYqmu0EHPHFRCyy9w8vc8kGyd_yDAvkbi05nQnulM48,351
+kavy-1.0.3.dist-info/METADATA,sha256=r9yhMGlaFgO6TvH3jo3F29hj7vN07JFC2XWdEAQEYl0,6281
+kavy-1.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+kavy-1.0.3.dist-info/RECORD,,

@@ -1,0 +1,170 @@
+Metadata-Version: 2.1
+Name: kavy
+Version: 1.0.3
+Summary: Kavy is a project designed to train a GPT (Generative Pre-trained Transformer) model on custom datasets. It provides the capability to train the model using various data sources, including PDFs, Word documents, plain text files, and URLs.
+License: MIT
+Author: Anupam Maurya
+Author-email: anupammaurya981@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Dist: Deprecated (==1.2.14)
+Requires-Dist: PyPika (==0.48.9)
+Requires-Dist: PyYAML (==6.0.1)
+Requires-Dist: SQLAlchemy (==2.0.23)
+Requires-Dist: aiohttp (==3.8.6)
+Requires-Dist: aiosignal (==1.3.1)
+Requires-Dist: annotated-types (==0.6.0)
+Requires-Dist: anyio (==3.7.1)
+Requires-Dist: async-timeout (==4.0.3)
+Requires-Dist: attrs (==23.1.0)
+Requires-Dist: backoff (==2.2.1)
+Requires-Dist: bcrypt (==4.0.1)
+Requires-Dist: beautifulsoup4 (==4.12.2)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: cachetools (==5.3.2)
+Requires-Dist: certifi (==2023.7.22)
+Requires-Dist: charset-normalizer (==3.3.2)
+Requires-Dist: chroma-hnswlib (==0.7.3)
+Requires-Dist: chromadb (==0.4.17)
+Requires-Dist: click (==8.1.7)
+Requires-Dist: colorama (==0.4.6)
+Requires-Dist: coloredlogs (==15.0.1)
+Requires-Dist: dataclasses-json (==0.6.2)
+Requires-Dist: distro (==1.8.0)
+Requires-Dist: dnspython (==2.4.2)
+Requires-Dist: fastapi (==0.104.1)
+Requires-Dist: filelock (==3.13.1)
+Requires-Dist: flatbuffers (==23.5.26)
+Requires-Dist: frozenlist (==1.4.0)
+Requires-Dist: fsspec (==2023.10.0)
+Requires-Dist: google-auth (==2.23.4)
+Requires-Dist: googleapis-common-protos (==1.61.0)
+Requires-Dist: greenlet (==3.0.1)
+Requires-Dist: grpcio (==1.59.2)
+Requires-Dist: h11 (==0.14.0)
+Requires-Dist: httpcore (==1.0.2)
+Requires-Dist: httptools (==0.6.1)
+Requires-Dist: httpx (==0.25.1)
+Requires-Dist: huggingface-hub (==0.17.3)
+Requires-Dist: humanfriendly (==10.0)
+Requires-Dist: idna (==3.4)
+Requires-Dist: importlib-metadata (==6.8.0)
+Requires-Dist: importlib-resources (==6.1.1)
+Requires-Dist: jsonpatch (==1.33)
+Requires-Dist: jsonpointer (==2.4)
+Requires-Dist: kubernetes (==28.1.0)
+Requires-Dist: langchain (==0.0.334)
+Requires-Dist: langsmith (==0.0.63)
+Requires-Dist: lxml (==4.9.3)
+Requires-Dist: marshmallow (==3.20.1)
+Requires-Dist: monotonic (==1.6)
+Requires-Dist: mpmath (==1.3.0)
+Requires-Dist: multidict (==6.0.4)
+Requires-Dist: mypy-extensions (==1.0.0)
+Requires-Dist: numpy (==1.26.1)
+Requires-Dist: oauthlib (==3.2.2)
+Requires-Dist: onnxruntime (==1.16.2)
+Requires-Dist: openai (==1.2.3)
+Requires-Dist: opentelemetry-api (==1.21.0)
+Requires-Dist: opentelemetry-exporter-otlp-proto-common (==1.21.0)
+Requires-Dist: opentelemetry-exporter-otlp-proto-grpc (==1.21.0)
+Requires-Dist: opentelemetry-proto (==1.21.0)
+Requires-Dist: opentelemetry-sdk (==1.21.0)
+Requires-Dist: opentelemetry-semantic-conventions (==0.42b0)
+Requires-Dist: overrides (==7.4.0)
+Requires-Dist: packaging (==23.2)
+Requires-Dist: posthog (==3.0.2)
+Requires-Dist: protobuf (==4.25.0)
+Requires-Dist: pulsar-client (==3.3.0)
+Requires-Dist: pyasn1 (==0.5.0)
+Requires-Dist: pyasn1-modules (==0.3.0)
+Requires-Dist: pydantic (==2.4.2)
+Requires-Dist: pydantic_core (==2.10.1)
+Requires-Dist: pyreadline3 (==3.4.1)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: python-docx (==1.1.0)
+Requires-Dist: python-dotenv (==1.0.0)
+Requires-Dist: regex (==2023.10.3)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: requests-oauthlib (==1.3.1)
+Requires-Dist: rsa (==4.9)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sniffio (==1.3.0)
+Requires-Dist: soupsieve (==2.5)
+Requires-Dist: starlette (==0.27.0)
+Requires-Dist: sympy (==1.12)
+Requires-Dist: tenacity (==8.2.3)
+Requires-Dist: tiktoken (==0.5.1)
+Requires-Dist: tokenizers (==0.14.1)
+Requires-Dist: tqdm (==4.66.1)
+Requires-Dist: typer (==0.9.0)
+Requires-Dist: typing-inspect (==0.9.0)
+Requires-Dist: typing_extensions (==4.8.0)
+Requires-Dist: urllib3 (==1.26.18)
+Requires-Dist: uvicorn (==0.24.0.post1)
+Requires-Dist: watchfiles (==0.21.0)
+Requires-Dist: websocket-client (==1.6.4)
+Requires-Dist: websockets (==12.0)
+Requires-Dist: wrapt (==1.16.0)
+Requires-Dist: yarl (==1.9.2)
+Requires-Dist: zipp (==3.17.0)
+Description-Content-Type: text/markdown
+
+# Kavy 📚
+
+## Why Kavy?
+
+The choice of the name "Kavy" reflects the poetic nature of the project. It aims to bring a sense of creativity and expression, much like the art of poetry. In the world of natural language processing and conversational AI, the goal is to create beautifully coherent and contextually aware responses—akin to the elegance found in poetry.
+
+## Project Overview
+
+Kavy is a project designed to train a GPT (Generative Pre-trained Transformer) model on custom datasets. It provides the capability to train the model using various data sources, including PDFs, Word documents, plain text files, and URLs.
+
+## Features
+
+- **Versatile Training**: Train the GPT model on diverse data types, including PDFs, Word documents, plain text files, and URLs.
+- **Conversational AI**: Utilize the trained model for generating responses in a conversational manner.
+- **Easy Integration**: Seamlessly integrate Kavy into your projects for natural language understanding and generation.
+
+## Getting Started
+
+To get started with Kavy, follow the installation instructions and examples in the [documentation](link-to-documentation).
+
+## Installation
+
+```bash
+pip install Kavy
+```
+
+## Usage
+
+```python
+from kavy.core.kavy import Kavy
+open_ai_api_key = ""
+
+# Initialize Kavy
+Kavy_instance = Kavy(open_ai_api_key)
+
+# Train the model on custom data
+kavy_instance.train_on_pdf('path/to/pdf/file.pdf')
+
+# Generate a response
+response_txt = kavy_instance.generate_response("What is in the document?")
+```
+
+For more detailed usage, refer to the [documentation](link-to-documentation).
+
+## Contribution
+
+Contributions are welcome! Feel free to open issues or pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
