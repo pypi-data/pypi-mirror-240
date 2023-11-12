@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+
+import glob
+import pandas              as pnd
+
+from rkex_model import model
+from extractor  import extractor as ext
+from logzero    import logger    as log
+from zutils     import utils     as zut
+
+#--------------------------------
+def fit(d_rjpsi, d_eff, d_eff_d, cvmat, d_mod, mod, rseed):
+    d_dat        = mod.get_data(nentries=1000, d_eff=d_eff_d, rseed=rseed)
+    
+    obj          = ext()
+    obj.rjpsi    = d_rjpsi
+    obj.eff      = d_eff
+    obj.cov      = cvmat
+    obj.data     = d_dat
+    obj.model    = d_mod
+    obj.plt_dir  = f'fits_{rseed:03}'
+
+    try:
+        result       = obj.get_rk()
+        result.hesse()
+    except:
+        log.error(f'Fit failed for seed: {rseed}')
+        return
+        
+    df = zut.fit_result_to_pandas(result)
+
+    return df 
+#--------------------------------
+def main():
+    mod     = model()
+    cvmat   = mod.get_cov(kind='diag_eq', c=0.001)
+    d_eff   = mod.get_eff(kind='bias')
+    d_rjpsi = mod.get_rjpsi(kind='eff_bias')
+    d_eff_d = mod.get_eff(kind='half')
+    d_mod   = mod.get_model()
+
+    l_seed  = get_seeds()
+    l_df    = []
+    for rseed in l_seed:
+        df = fit(d_rjpsi, d_eff, d_eff_d, cvmat, d_mod, mod, rseed)
+        if df is not None:
+            l_df.append(df)
+
+    df = pnd.concat(l_df, axis=0)
+    df = df.reset_index(drop=True)
+
+    df.to_json('output.json')
+#--------------------------------
+def get_file_seeds(seed_file):
+    l_seed = []
+    with open(seed_file) as ifile:
+        l_seed = ifile.read().splitlines()
+
+    return l_seed
+#--------------------------------
+def get_seeds():
+    l_seed_file = glob.glob('*.sd')
+    l_seed  = []
+    for seed_file in l_seed_file:
+        l_seed += get_file_seeds(seed_file)
+
+    log.debug(f'Using seeds: {l_seed}')
+
+    l_seed_int = [ int(rseed) for rseed in l_seed ]
+
+    return l_seed_int
+#--------------------------------
+if __name__ == '__main__':
+    main()
+

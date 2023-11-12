@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+VENV=RK_TOY
+mkdir -p $VENV
+
+python3 -m venv $VENV
+source $VENV/bin/activate
+
+pip install rk-extractor 
+
+./run_toys.py 
+
+tar -cf fits.tar fits_*
+
