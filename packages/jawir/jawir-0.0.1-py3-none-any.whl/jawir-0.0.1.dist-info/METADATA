@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: jawir
+Version: 0.0.1
+Summary: jawir - Telegram MTProto API Client Library for Python.
+Home-page: https://github.com/jawirTeam/jawir
+Author: jawirTeam
+Author-email: jawirteam@gmail.com
+License: GNU Lesser General Public License v3.0 (LGPL-3.0)
+Project-URL: Bug Tracker, https://github.com/jawirTeam/jawir/issues
+Project-URL: Documentation, https://jawirteam.tech
+Project-URL: Source Code, https://github.com/jawirTeam/jawir
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (==3.9.0b0)
+Requires-Dist: aiosqlite (<0.18.0,>=0.16.0)
+Requires-Dist: motor (==3.2.0)
+Requires-Dist: pyaes (==1.6.1)
+Requires-Dist: pymongo (==4.4.1)
+Requires-Dist: pysocks (==1.7.1)
+Requires-Dist: pyyaml (==6.0.1)
+Requires-Dist: screeninfo
+
+# Jawir
+
+
