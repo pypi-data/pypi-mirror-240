@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: seatbelt
+Version: 0.1.0
+Summary: A Seatbelt package
+Home-page: https://github.com/yellowduckcompany/packages
+Author: The Yellow Duck Company
+Author-email: hello@yellowduckcompany.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Python
+
+Add ``seatbelt`` to your requirements file or install using pip:
+```
+pip install seatbelt
+```
+
+And add this snippet anywhere in your code base:
+
+```python
+from yellowduck.service import Service
+
+Service(package_id='goose').start()
+```
+
+

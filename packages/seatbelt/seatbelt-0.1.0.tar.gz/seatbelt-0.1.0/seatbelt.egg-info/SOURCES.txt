@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+seatbelt.egg-info/PKG-INFO
+seatbelt.egg-info/SOURCES.txt
+seatbelt.egg-info/dependency_links.txt
+seatbelt.egg-info/top_level.txt
+yellowduck/__init__.py
+yellowduck/package.py
+yellowduck/service.py
