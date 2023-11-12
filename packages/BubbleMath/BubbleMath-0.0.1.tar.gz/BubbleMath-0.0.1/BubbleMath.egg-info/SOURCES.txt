@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+BubbleMath/BubbleMath.py
+BubbleMath/__init__.py
+BubbleMath.egg-info/PKG-INFO
+BubbleMath.egg-info/SOURCES.txt
+BubbleMath.egg-info/dependency_links.txt
+BubbleMath.egg-info/requires.txt
+BubbleMath.egg-info/top_level.txt
