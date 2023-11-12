@@ -1,0 +1,2 @@
+[console_scripts]
+potranslate = poTranslation.cli:translate
