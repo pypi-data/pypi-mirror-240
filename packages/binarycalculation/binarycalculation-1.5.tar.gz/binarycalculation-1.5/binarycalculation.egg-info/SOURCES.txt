@@ -1,0 +1,7 @@
+setup.py
+binarycalculation/binarycalculation.py
+binarycalculation.egg-info/PKG-INFO
+binarycalculation.egg-info/SOURCES.txt
+binarycalculation.egg-info/dependency_links.txt
+binarycalculation.egg-info/not-zip-safe
+binarycalculation.egg-info/top_level.txt
