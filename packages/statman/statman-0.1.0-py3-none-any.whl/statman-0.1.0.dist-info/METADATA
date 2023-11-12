@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: statman
+Version: 0.1.0
+Summary: Collection of metrics collection tools, including a simple stopwatch
+Author: Mighty Pulpo
+Author-email: jayray.net@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# statman-stopwatch.py
+
+[![Python package](https://github.com/jasonray/statman-stopwatch.py/actions/workflows/python-package.yml/badge.svg)](https://github.com/jasonray/statman-stopwatch.py/actions/workflows/python-package.yml)
