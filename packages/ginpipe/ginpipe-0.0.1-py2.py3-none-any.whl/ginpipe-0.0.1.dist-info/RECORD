@@ -1,0 +1,8 @@
+ginpipe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ginpipe/core.py,sha256=k3HAOj0RbHkUx1EXSJeRcFU0o7wPRQUiKaNBaueR80c,13406
+ginpipe/run.py,sha256=zWXosV1cwX-xaOA9ojMvIm5soaBsBCglgQOD2YGIO94,1004
+ginpipe-0.0.1.dist-info/METADATA,sha256=EljscifJu-0f_5xapg4ugnO-QXCqfiDsuA0C41PFUpY,406
+ginpipe-0.0.1.dist-info/WHEEL,sha256=bb2Ot9scclHKMOLDEHY6B2sicWOgugjFKaJsT7vwMQo,110
+ginpipe-0.0.1.dist-info/entry_points.txt,sha256=l2C4JfozrTM4G_VEIQdJdGZiEWvcDOeNoc_nO4ozUqA,45
+ginpipe-0.0.1.dist-info/top_level.txt,sha256=T9J5Kl4J_mNdWlfDCrnCwf-sL1e9JhqU6PI-hSDbUIU,8
+ginpipe-0.0.1.dist-info/RECORD,,
