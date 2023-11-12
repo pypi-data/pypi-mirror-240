@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fortune-client"
+version = "0.1.0"
+description = ""
+authors = ["Łukasz Bacik <mail@luka.sh>"]
+readme = "README.md"
+packages = [{include = "fortune_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+simple-value-object = "^2.0"
+pydantic = "^2.4.2"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+fclient = 'fortune_client.app:main'
