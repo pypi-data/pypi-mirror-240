@@ -1,0 +1,10 @@
+unicorn_binance_rest_api-2.0.3.dist-info/RECORD,,
+unicorn_binance_rest_api-2.0.3.dist-info/LICENSE,sha256=TKw8xASJGCbDouO2RkKj0m8SC9gBYe4nCMxpsdgFV1I,4681
+unicorn_binance_rest_api-2.0.3.dist-info/WHEEL,sha256=A2jZkgFMDpwC3u2jIuTpu0YJVNAgJFArdBmSCtwuW9g,111
+unicorn_binance_rest_api-2.0.3.dist-info/top_level.txt,sha256=_JsXtpPC96W8Mez6pBZXOO_oDJhXmptqFI71vD6d3Xg,25
+unicorn_binance_rest_api-2.0.3.dist-info/METADATA,sha256=6iXKt00r7KX2vukP8J-nyUc5PgvIpF_vNdx8LtO-ZyM,24973
+unicorn_binance_rest_api/__init__.cpython-312-darwin.so,sha256=dVRZ3VJMcHB5iO3XMtqLSsV1Ukt-wVCqCXo66JoxWiU,39752
+unicorn_binance_rest_api/enums.cpython-312-darwin.so,sha256=YaXl0EFDrvN3Su8OycwSn3OmsyFKoPelBNF4QKGCq0Y,62232
+unicorn_binance_rest_api/manager.cpython-312-darwin.so,sha256=CEn52BGfhuHnsP02uUhAZUinDAvNgTsEp_pIkx5y_OY,1255792
+unicorn_binance_rest_api/helpers.cpython-312-darwin.so,sha256=HeZugn9nw_-JCtNxZHOAv1tf1cfKaJgigU_y5oXXXXU,68392
+unicorn_binance_rest_api/exceptions.cpython-312-darwin.so,sha256=0V-sYsfMdxEtkwIdT7D8l-7573_C3cwNIw7DXlIxoHI,109568
