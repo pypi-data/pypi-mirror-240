@@ -1,0 +1,11 @@
+speechrecognition
+langdetect
+googletrans==3.1.0a0
+pyttsx3
+azure-cognitiveservices-speech
+boto3
+transformers
+numpy
+tensorflow
+soundfile
+librosa
