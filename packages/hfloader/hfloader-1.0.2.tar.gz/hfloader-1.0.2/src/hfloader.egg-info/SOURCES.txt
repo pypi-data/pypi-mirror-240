@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/hfloader/__init__.py
+src/hfloader/hf_loader.py
+src/hfloader.egg-info/PKG-INFO
+src/hfloader.egg-info/SOURCES.txt
+src/hfloader.egg-info/dependency_links.txt
+src/hfloader.egg-info/top_level.txt
