@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: my-firstever-py-pkg
+Version: 1.0.0
+Summary: My first python package
+Home-page: https://github.com/whomping-willow/...
+Author: Iffa Ara Sanzida
+Author-email: iffat.stu2018@juniv.edu
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: License
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: gradio
+
+# My ML Project
+
+A short desc of my project
+
+## Description
+A comprehensive desc of my project
+
+## Installation
+
+kivabe ei project reuse korte parbe..open source e egula desc thakbe
+
+## Contributors
+
+## License
