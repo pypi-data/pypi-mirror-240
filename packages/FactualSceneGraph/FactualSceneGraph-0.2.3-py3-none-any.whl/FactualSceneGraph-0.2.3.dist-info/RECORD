@@ -1,0 +1,12 @@
+evaluation_metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evaluation_metrics/soft_spice.py,sha256=3-dL2QbfL36Rg6dU9M569gM5YrIrhOBsf7pbOrR_1mA,9582
+evaluation_metrics/soft_spice_utils.py,sha256=w2QlXvXcFoND0Ro2bHmTf5S5cO45I5strtxyaZla824,3222
+evaluation_metrics/spice_utils.py,sha256=wD6XcRhiY3hIJdfHbAw3uL9Z05wgSi8EMd6kW3dROrg,4503
+evaluation_metrics/utils.py,sha256=XsTcjsyLL9gKCg4sE0BHjCB--pEEUA39alkegAZfJ6w,706
+sng_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sng_parser/scene_graph_parser.py,sha256=fb8Dq-sJKJECxEofZp4m74Am_k_EwiiS9_0zg-_bBOo,4973
+sng_parser/utils.py,sha256=T8EI7_OeuR82IHb2dQraPswlqexEe5dO2jyp0567L3Y,2126
+FactualSceneGraph-0.2.3.dist-info/METADATA,sha256=9WVdyGR7DlX3YbU0kCVFYWpYh2f57ezII1SIVktOIQg,12551
+FactualSceneGraph-0.2.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+FactualSceneGraph-0.2.3.dist-info/top_level.txt,sha256=eCIx8bTpu_my-kWeezkSOwaKf6FE7yDJQCaUC8JxQP8,30
+FactualSceneGraph-0.2.3.dist-info/RECORD,,
