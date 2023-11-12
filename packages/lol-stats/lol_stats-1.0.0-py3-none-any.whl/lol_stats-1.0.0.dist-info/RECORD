@@ -1,0 +1,10 @@
+lol_stats/__init__.py,sha256=95bj2hr1-4jQK6lVrTAjmVRrm0nEksKbS3kBaGDXKsk,29
+lol_stats/launch.py,sha256=cpnd7eN0ktV2cMAXIwDdltvZCPXARiC67CuJf9gO2GY,154
+lol_stats/launcher.py,sha256=SwLyp4nVDq6xHmCCO-gNvmxcsdX84PV3wetvhPyRQnk,218
+lol_stats/program.py,sha256=63VmVs7hfJZSARBszo6GzIzS0cm1_wlPN76Q8BRKzDc,14006
+lol_stats/data/faker.pkl,sha256=wz7lLEtEHTBLrtMigQLx9BS_kWTeWn4zKwszOTMlVx8,156518
+lol_stats/templates/index.html,sha256=WCcGOsGavoL7l6qX_TABocU2kt4jOu7WYmalKUK7bek,2612
+lol_stats-1.0.0.dist-info/METADATA,sha256=-Kw5IGD_h_33jFeAu_74sXBP-ENTfEcRP9DudqlW5Q8,4054
+lol_stats-1.0.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+lol_stats-1.0.0.dist-info/top_level.txt,sha256=2mmgbO4eumjx4PhTcU5-7jra90A2zwZqHXyVzWJE71c,10
+lol_stats-1.0.0.dist-info/RECORD,,
