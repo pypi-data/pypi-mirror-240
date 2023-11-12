@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dian-person-rut-status
+Version: 0.1.6
+Summary: A little implementation to search the rut status from a person on Dian's public website muisca.dian.gov.co
+Home-page: https://github.com/arieljperez/dian_person_rut_status.git
+License: MIT
+Keywords: rut,dian,nit,muisca
+Author: arieljperez
+Author-email: ariel.perez.ti@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/arieljperez/dian_person_rut_status.git
+Description-Content-Type: text/markdown
+
+# DIAN Person Rut Status
+
+MVP
