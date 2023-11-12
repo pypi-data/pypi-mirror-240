@@ -1,0 +1,13 @@
+buildenv/__init__.py,sha256=o2qI1UagsLn1WrGibhTsx1AmB5Tk6aK4HlW6oEQuqhk,711
+buildenv/__main__.py,sha256=W02obraz17NZDmbDZ7ruo9tTg0WUc7F-OtMzcNr5LMM,219
+buildenv/loadme.py,sha256=N0woQSY0cr1yd00UbGL70nbKqi_dtapHslgTBUXI2VE,6986
+buildenv/manager.py,sha256=NpQrFnwoomB_TtH1k5M77P1nJueSxjDt0phqP_BNj-Y,2339
+buildenv/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buildenv/templates/loadme.cmd.jinja,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buildenv/templates/loadme.sh.jinja,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+buildenv/templates/warning.jinja,sha256=batswBWr6fxShD--b-35Jdfea4Eo2pQCd6Sy_kY3k0k,147
+buildenv-0.1.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+buildenv-0.1.0.dist-info/METADATA,sha256=Xysm0eRSIpF9OhqVWSFbaQsWC65mVOE3L7lIgZNn9X4,1820
+buildenv-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+buildenv-0.1.0.dist-info/top_level.txt,sha256=jHq5oCaoVV-5XbXsXzPXXFuQU2AHGKNTjENCjhwIBqs,9
+buildenv-0.1.0.dist-info/RECORD,,
