@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pydisort
+Version: 0.6.1
+Summary: Modern Python interfece of DISORT
+Home-page: https://github.com/zoeyzyhu/pydisort
+Author: Zoey Hu
+Author-email: zoey.zyhu@gmail.com
+License: GPL
+Project-URL: Documentation, https://github.com/zoeyzyhu/pydisort/
+Project-URL: Source, https://github.com/zoeyzyhu/pydisort/src
+Project-URL: Tracker, https://github.com/zoeyzyhu/pydisort/issues
+Keywords: radiative transfer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy >=1.12.0
+
+UNKNOWN
+
