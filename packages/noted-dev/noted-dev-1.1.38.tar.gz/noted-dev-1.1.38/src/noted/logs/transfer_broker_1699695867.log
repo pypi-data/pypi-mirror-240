@@ -1,0 +1,74 @@
+2023-11-11 10:44:27,131 root - DEBUG - MainThread: Creating logging file: noted
+2023-11-11 10:44:27,131 root - DEBUG - MainThread: Loading YAML file: noted/src/noted/config/config-spectrum.yaml
+2023-11-11 10:44:27,136 root - INFO - MainThread: Source: ['CH-CERN']
+2023-11-11 10:44:27,136 root - INFO - MainThread: Destination: ['DE-KIT']
+2023-11-11 10:44:27,136 root - DEBUG - MainThread: Querying CRIC database.
+2023-11-11 10:44:28,184 root - INFO - MainThread: There are 873 endpoints defined in CRIC database
+2023-11-11 10:44:28,251 root - DEBUG - MainThread: Generating query for source, number of endpoints: 74
+2023-11-11 10:44:28,254 root - DEBUG - MainThread: Generating query for destination, number of endpoints: 22
+2023-11-11 10:44:28,254 root - DEBUG - MainThread: Building thread transfer_broker_source_1699695867.
+2023-11-11 10:44:28,254 root - DEBUG - MainThread: Building thread transfer_broker_destination_1699695867.
+2023-11-11 10:44:28,255 root - DEBUG - MainThread: Starting thread transfer_broker_source_1699695867.
+2023-11-11 10:44:28,255 root - DEBUG - MainThread: Starting thread transfer_broker_destination_1699695867.
+2023-11-11 10:44:28,255 root - INFO - transfer_broker_source_1699695867: Monitoring transfers.
+2023-11-11 10:44:28,255 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 10:44:28,255 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 10:44:28,423 root - WARNING - transfer_broker_source_1699695867: No transfers found for the given {src, dst} pair.
+2023-11-11 10:50:29,746 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 10:50:29,747 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 10:50:29,935 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers: make decision.
+2023-11-11 10:50:29,935 root - WARNING - transfer_broker_source_1699695867: Link under supervision: make decision before alert: action start
+2023-11-11 10:50:29,935 root - WARNING - transfer_broker_source_1699695867: Link under supervision: monitor queue before alert.
+2023-11-11 10:50:29,935 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 10:50:29,935 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 10:50:30,100 root - DEBUG - transfer_broker_source_1699695867: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699695867.
+2023-11-11 10:50:30,101 root - DEBUG - transfer_broker_source_1699695867: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699695867.
+2023-11-11 10:50:30,125 root - WARNING - transfer_broker_source_1699695867: Link under supervision: monitor queue before alert: action start, number of events 1
+2023-11-11 10:50:30,125 root - WARNING - transfer_broker_source_1699695867: df_last_event: timestamp: 1699696153377, throughput [Gb/s]: 4.54, parallel_transfers: 6, queued_transfers: 1
+2023-11-11 10:50:30,125 root - WARNING - transfer_broker_source_1699695867: There are 6 transfers with a total of 1.990000 GB - Throughput: 4.540000 Gb/s
+2023-11-11 10:51:30,125 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 10:51:30,126 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 10:51:30,357 root - DEBUG - transfer_broker_source_1699695867: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699695867.
+2023-11-11 10:51:30,385 root - WARNING - transfer_broker_source_1699695867: Link under supervision: monitor queue before alert: action start, number of events 2
+2023-11-11 10:51:30,385 root - WARNING - transfer_broker_source_1699695867: df_last_event: timestamp: 1699696251211, throughput [Gb/s]: 5.02, parallel_transfers: 3, queued_transfers: 0
+2023-11-11 10:51:30,385 root - WARNING - transfer_broker_source_1699695867: There are 3 transfers with a total of 1.930000 GB - Throughput: 5.020000 Gb/s
+2023-11-11 10:51:30,385 root - WARNING - transfer_broker_source_1699695867: Calling to sense-o API to provision a dynamic circuit.
+2023-11-11 10:51:30,418 root - WARNING - transfer_broker_source_1699695867: Sending email: LHCOPN Source: ['CH-CERN'], LHCOPN Destination: ['DE-KIT'], message: START MESSAGE: there is an on-going large data transfer that could potentially congest the link.
+2023-11-11 10:51:30,424 root - DEBUG - transfer_broker_source_1699695867: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699695867.
+2023-11-11 10:51:31,838 root - INFO - transfer_broker_source_1699695867: df_last_event: timestamp: 1699696251211, throughput [Gb/s]: 5.02, parallel_transfers: 3, queued_transfers: 0
+2023-11-11 10:51:31,838 root - INFO - transfer_broker_source_1699695867: There are 3 transfers with a total of 1.930000 GB - Throughput: 5.020000 Gb/s
+2023-11-11 10:52:31,843 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 10:52:31,843 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 10:52:32,053 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers: make decision.
+2023-11-11 10:53:32,058 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 10:53:32,058 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 10:53:32,287 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers: make decision.
+2023-11-11 10:54:32,301 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 10:54:32,301 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 10:54:32,731 root - WARNING - transfer_broker_source_1699695867: No transfers found for the given {src, dst} pair.
+2023-11-11 10:54:34,121 root - DEBUG - transfer_broker_source_1699695867: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699695867.
+2023-11-11 10:54:34,122 root - WARNING - transfer_broker_source_1699695867: Calling to sense-o API to cancel a dynamic circuit.
+2023-11-11 10:54:35,667 root - WARNING - transfer_broker_source_1699695867: Sending email: LHCOPN Source: ['CH-CERN'], LHCOPN Destination: ['DE-KIT'], message: STOP MESSAGE: the large data transfer is ending.
+2023-11-11 10:59:35,681 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers: make decision.
+2023-11-11 10:59:35,681 root - WARNING - transfer_broker_source_1699695867: Link under supervision: make decision before alert: action start
+2023-11-11 10:59:35,681 root - WARNING - transfer_broker_source_1699695867: Link under supervision: monitor queue before alert.
+2023-11-11 10:59:35,681 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 10:59:35,681 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 10:59:35,888 root - WARNING - transfer_broker_source_1699695867: No transfers found for the given {src, dst} pair.
+2023-11-11 11:04:37,239 root - DEBUG - transfer_broker_source_1699695867: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699695867.
+2023-11-11 11:04:37,242 root - DEBUG - transfer_broker_source_1699695867: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699695867.
+2023-11-11 11:04:37,269 root - WARNING - transfer_broker_source_1699695867: Link under supervision: monitor queue before alert: action start, number of events 1
+2023-11-11 11:04:37,270 root - WARNING - transfer_broker_source_1699695867: df_last_event: timestamp: 1699696251211, throughput [Gb/s]: 5.02, parallel_transfers: 3, queued_transfers: 0
+2023-11-11 11:04:37,270 root - WARNING - transfer_broker_source_1699695867: There are 3 transfers with a total of 1.930000 GB - Throughput: 5.020000 Gb/s
+2023-11-11 11:05:37,269 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 11:05:37,270 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 11:05:37,448 root - WARNING - transfer_broker_source_1699695867: No transfers found for the given {src, dst} pair.
+2023-11-11 11:11:38,827 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 11:11:38,828 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 11:11:39,019 root - WARNING - transfer_broker_source_1699695867: No transfers found for the given {src, dst} pair.
+2023-11-11 11:17:40,330 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 11:17:40,332 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 11:17:40,895 root - WARNING - transfer_broker_source_1699695867: No transfers found for the given {src, dst} pair.
+2023-11-11 11:23:42,200 root - DEBUG - transfer_broker_source_1699695867: Inspecting transfers.
+2023-11-11 11:23:42,202 root - DEBUG - transfer_broker_source_1699695867: Querying FTS optimizer.
+2023-11-11 11:23:42,392 root - WARNING - transfer_broker_source_1699695867: No transfers found for the given {src, dst} pair.

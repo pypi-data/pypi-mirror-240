@@ -1,0 +1,4 @@
+timestamp: 1699696153377, datetime: 2023-11-11 10:50:30.101365, data_gigabytes [GB]: 1.99, throughput_gigabits [Gb/s]: 4.54, parallel_transfers: 6, queued_transfers: 1
+timestamp: 1699696251211, datetime: 2023-11-11 10:51:30.357745, data_gigabytes [GB]: 1.93, throughput_gigabits [Gb/s]: 5.02, parallel_transfers: 3, queued_transfers: 0
+timestamp: 1699696251211, datetime: 2023-11-11 10:54:34.122334, data_gigabytes [GB]: 1.93, throughput_gigabits [Gb/s]: 5.02, parallel_transfers: 3, queued_transfers: 0
+timestamp: 1699696251211, datetime: 2023-11-11 11:04:37.240092, data_gigabytes [GB]: 1.93, throughput_gigabits [Gb/s]: 5.02, parallel_transfers: 3, queued_transfers: 0
