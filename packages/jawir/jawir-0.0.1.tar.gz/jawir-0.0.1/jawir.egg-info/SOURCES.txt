@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+jawir.egg-info/PKG-INFO
+jawir.egg-info/SOURCES.txt
+jawir.egg-info/dependency_links.txt
+jawir.egg-info/not-zip-safe
+jawir.egg-info/requires.txt
+jawir.egg-info/top_level.txt
