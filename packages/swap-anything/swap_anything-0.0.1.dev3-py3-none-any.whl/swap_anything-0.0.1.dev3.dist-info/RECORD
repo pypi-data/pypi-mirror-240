@@ -1,0 +1,10 @@
+swapanything/__about__.py,sha256=w6OolX8zHkn_tmtcVh3Cn73WZQB2twDk4DuJFQtQIKs,79
+swapanything/__init__.py,sha256=ExS-7xKL8Zc5ogZQkfuRtd7eS83f2WdMApWh4Z9ssvQ,35
+swapanything/backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swapanything/backend/_base.py,sha256=wKFQCDENp2tHRJ1M7pSYeH2zCTW9gsT4b-f6PnNla1Q,3678
+swapanything/backend/airtable.py,sha256=2AR9S055Eb2UfVUWv-PUDBMSxQRtlKhzXBb8fqoBZ4s,3601
+swap_anything-0.0.1.dev3.dist-info/LICENSE,sha256=F2MJnDxuVc6ckp8z8kPMdjE379Imuklyo8D7Uf44zDM,1068
+swap_anything-0.0.1.dev3.dist-info/METADATA,sha256=s4Qn6zf4JhvYkv0YwBmryvb6S6z8SYMNXDRrJc18Tx0,7531
+swap_anything-0.0.1.dev3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+swap_anything-0.0.1.dev3.dist-info/top_level.txt,sha256=hMGC3wxvRHwOs26YtcMeiB46hg-RjD_b7BTUGtCF5dA,13
+swap_anything-0.0.1.dev3.dist-info/RECORD,,
