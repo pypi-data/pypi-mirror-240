@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: PyPiston
+Version: 0.1.0
+Summary: La librería proporciona una interfaz para interactuar con una API de búsqueda de información sobre coches, gestionando datos de clientes, coches y reservas.
+Home-page: https://github.com/unaiduran/MarkelUnaiProgra.git
+Author: MarkelUnai
+Author-email: unai.duran@alumni.mondragon.edu
