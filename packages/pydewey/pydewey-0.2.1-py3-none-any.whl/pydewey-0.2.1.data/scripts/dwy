@@ -1,0 +1,9 @@
+#!python
+
+import sys
+
+import dewey.cli
+
+
+if __name__ == '__main__':
+    dewey.cli.main()
