@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: machinery_diag
+Version: 1.0.0
+Summary: Package for diagnostic  open data set 
+Author: Khaled Benaggoune
+Author-email: diagprog.opendata@gmail.com
+License: MIT
+Keywords: phm,diagnostic,machinery
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Machinery Data Loader
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+## Overview
+
+Machinery Data Loader is a Python package designed to facilitate the loading and preprocessing
+of machinery data described in the paper titled 
+["Machine Learning for Fault Detection and Diagnosis in Rotating Machines: A Benchmark Data Set"](http://papers.phmsociety.org/index.php/ijphm/article/view/3497).
+The datasets can be downloaded from the [PHM Data Science Repository](https://search-data.ubfc.fr/search.php?s=collection%3ADATA-PHM).
+
+The available datasets include:
+
+1. **AMPERE**: Detection and diagnostics of rotor and stator faults in rotating machines.
+2. **LASPI**: Detection and diagnostics of gearbox faults.
+3. **METALLICADOUR**: Detection and diagnostics of multi-axis robot faults.
+
+## Features
+
+- **Data Loading**: Load data from CSV files specified in a metadata DataFrame.
+- **Data Splitting**: Split metadata DataFrame into training and testing sets.
+- **Configurable**: Easily configurable through a simple configuration dictionary.
+- **Flexible**: Supports different types of machinery data, such as 'ampere', 'laspi', and 'metalica_dour'.
+
+## Installation
+
+Install the Machinery Data Loader package using pip:
+
+```bash
+pip install machinery-loader
+
+```
+
+## Usage
+```python
+from machinery.loader import MachineryDataLoader
+
+# Configure the loader
+config = {
+    'data_dir': 'path/to/data',  # Provide the path to your data directory
+    'data_type': 'ampere',  # Choose data type: 'ampere', 'laspi', 'metalica_dour'
+    'group_by_cols': '',  # Use '' for default grouping by 'Case'; add extra columns for custom grouping
+    'test_size': 0.25,  # Set the test size (default: 0.25)
+    'random_state': 42,  # Set the random state (default: 42)
+}
+
+# Initialize the loader
+loader = MachineryDataLoader(config)
+
+# Load metadata
+metadata_df = loader.load_metadata()
+
+# Split metadata into training and testing sets
+train_df, test_df = loader.split_metadata()
+
+# Load global data
+X, y = loader.load_global_data()
+
+# Load split data
+X_train, X_test, y_train, y_test = loader.load_split_data()
+```
