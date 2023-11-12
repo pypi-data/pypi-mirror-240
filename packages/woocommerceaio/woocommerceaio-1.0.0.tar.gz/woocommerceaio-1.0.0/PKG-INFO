@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: woocommerceaio
+Version: 1.0.0
+Summary: An async Python wrapper for the WooCommerce REST API
+Author-email: Luis Medel <luis@luismedel.com>, "Claudio Sanches @ Automattic" <claudio+pypi@automattic.com>
+Project-URL: Homepage, https://github.com/luismedel/woocommerceaio
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: httpx<1,>=0
