@@ -1,0 +1,6 @@
+beautifulsoup4
+selenium
+lxml
+selenium-stealth
+asyncio
+numpy
