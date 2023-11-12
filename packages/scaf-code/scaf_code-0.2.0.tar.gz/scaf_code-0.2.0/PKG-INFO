@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: scaf-code
+Version: 0.2.0
+Summary: scaf_code is a tool for generating code from reference and specification files by Large Language Models.
+License: MIT
+Author: Ken Morishita
+Author-email: mokemokechicken@gmail.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: openai (>=1.1.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# About
+
+scaf_code is a tool for generating code from reference and specification files by Large Language Models.
+
+# Usage
+
+## Install
+
+```bash
+pip install scaf_code
+```
+
+## Run
+
+```bash
+export OPENAI_API_KEY=<your_openai_api_key>
+scaf_code --ref <ref_file> <ref_file> --spec-file <spec_file> --out <output_path>
+```
+
+## Example
+
+```bash
+scaf_code --out tests/test_scaffold_code.py --ref scaf_code/cli.py scaf_code/scaffold_code.py  --spec "write pytest to scaf_code.scaffold_code.py"
+```
