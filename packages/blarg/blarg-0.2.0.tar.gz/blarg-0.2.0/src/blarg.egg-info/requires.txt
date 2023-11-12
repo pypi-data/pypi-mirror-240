@@ -1,0 +1,11 @@
+jinja2
+typer
+rich
+jinja2~=3.0
+markdown~=3.2
+pymdown-extensions
+pygments
+watchdog
+
+[dev]
+ruff

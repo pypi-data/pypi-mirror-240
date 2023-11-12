@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/blarg/__init__.py
+src/blarg/cli.py
+src/blarg/main.py
+src/blarg/mdconfig.py
+src/blarg.egg-info/PKG-INFO
+src/blarg.egg-info/SOURCES.txt
+src/blarg.egg-info/dependency_links.txt
+src/blarg.egg-info/entry_points.txt
+src/blarg.egg-info/requires.txt
+src/blarg.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+blarg = blarg.cli:app
