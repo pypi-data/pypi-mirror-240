@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: OpenLibraryProgramacion
+Version: 0.1.0
+Summary: Biblioteca para consultar información sobre libros y sus autores.
+Home-page: https://github.com/julenearias/progra_actgrup4.git
+Author: Julene Arias y Alba Sanz
+Author-email: alba.sanz@alumni.mondragon.edu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: La biblioteca contiene funciones para poder obtener infromación sobre libros y escritores, de manera que, con el título de un libro, se podrían saber cuántos libros ha escrito ese autor en los últimos 5 años, entre muchas otras funcionalidades.
+
+# progra_actgrup4

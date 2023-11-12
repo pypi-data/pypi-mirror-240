@@ -1,0 +1,8 @@
+README.md
+setup.py
+OpenLibraryProgramacion.egg-info/PKG-INFO
+OpenLibraryProgramacion.egg-info/SOURCES.txt
+OpenLibraryProgramacion.egg-info/dependency_links.txt
+OpenLibraryProgramacion.egg-info/entry_points.txt
+OpenLibraryProgramacion.egg-info/requires.txt
+OpenLibraryProgramacion.egg-info/top_level.txt
