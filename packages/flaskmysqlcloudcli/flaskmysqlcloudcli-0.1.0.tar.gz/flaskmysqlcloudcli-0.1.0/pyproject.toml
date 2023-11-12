@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry>=1.1.0"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "flaskmysqlcloudcli"
+version = "0.1.0"
+description = "A CLI written in Python to connect to a cloud server over SSH and perform various tasks based on a provided keyword."
+authors = ["Vishal Vishwajeet <vishalvishwajeet422@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+paramiko = "^2.7.2"
+argparse = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
