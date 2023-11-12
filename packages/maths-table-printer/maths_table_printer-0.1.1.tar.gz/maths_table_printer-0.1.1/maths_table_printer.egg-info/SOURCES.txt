@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+maths_table_printer/__init__.py
+maths_table_printer/printer.py
+maths_table_printer.egg-info/PKG-INFO
+maths_table_printer.egg-info/SOURCES.txt
+maths_table_printer.egg-info/dependency_links.txt
+maths_table_printer.egg-info/entry_points.txt
+maths_table_printer.egg-info/top_level.txt

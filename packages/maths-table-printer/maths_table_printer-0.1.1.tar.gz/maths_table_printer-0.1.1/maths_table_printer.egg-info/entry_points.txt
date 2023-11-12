@@ -1,0 +1,2 @@
+[console_scripts]
+maths_table_printer = maths_table_printer.printer:main
