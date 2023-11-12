@@ -1,0 +1,86 @@
+# BubbleMath
+
+
+## Overview
+BubbleMath is a lightweight Python library for common mathematical operations and equations such as the quadratic formula and the Pythagorean Theorem (as well as inverse pythag).
+
+## Usage
+
+To use the BubbleMath library, simply import it and call the desired functions.
+
+## Examples
+
+1. Import the `BubbleMath` library into your Python script.
+
+    ```python
+    import BubbleMath
+    ```
+
+2. Execute the desired functions.
+
+    ### Square Root
+    Calculate the square root of any number.
+    ```python
+    >>> square_root(4)
+    2.0
+    >>> square_root(2)
+    1.4142135623730951
+    >>> square_root(2, precision=5)
+    1.41421 # Rounded to 5 decimal places
+    ```
+    
+    ### Factorial
+    Calculate the factorial of any non-negative integer.
+    ```python
+    >>> factorial(5)
+    120
+    >>> factorial(10)
+    3628800
+    ```
+    
+    ### Quadratic
+    Calculate the roots of a quadratic equation using this formula:
+    
+    `x = (-b +- root(b^2 - 4ac)) / (2a)`
+    
+    ```python
+    >>> quadratic(1, -3, 2)
+    (2.0, 1.0)
+    >>> quadratic(3, -5, 2, precision=3)
+    (1.0, 0.667)  # Rounded to 3 decimal places
+    >>> quadratic(1, 0, -2, precision=5)
+    (1.41421, -1.41421)  # Rounded to 5 decimal places
+    ```
+    
+    ### Pythagorean Theorem
+    Calculate the length of the hypotenuse using the Pythagorean theorem.
+    
+    `a^2 + b^2 = c^2`
+    
+    ```python
+    >>> pythag(3, 4)
+    5.0
+    >>> pythag(5, 9, 1) # Round to 1 decimal place
+    10.3
+    >>> pythag(2.3, 3.9, 3) # Round to 3 decimal places
+    4.528
+    ```
+    
+    ### Inverse Pythagorean Theorem
+    Calculate the length of one missing side using the inverse Pythagorean theorem.
+    
+    `b^2 = c^2 - a^2`
+    
+    ```python
+    >>> inverse_pythag(5, 4)
+    3.0
+    >>> inverse_pythag(4.528, 2.3)
+    3.9
+    >>> inverse_pythag(10.3, 5, 1)
+    9.0
+    ```
+    
+    
+    
+## Precision
+For functions that return floats, you can choose your desired decimal point precision by passing the `precision=n` parameter at the end of the function you are executing, n being a positive integer. If left blank, the precision will use the function's default (all of these are in the type hints of the function itself).
