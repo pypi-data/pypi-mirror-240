@@ -1,0 +1,14 @@
+langware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langware/chat.py,sha256=PT9EUMSaxaX9-U2ZVlqtDSVZC_9OozUyaIP0YbUI00w,7788
+langware/function.py,sha256=0jNsxzhdamX6Kj_qTharUcyN7y__G4V6JVa0iYdSyzI,6820
+langware/logger.py,sha256=Et6V5u3qOxHVdr2i_U7jnIBIMz4X-kFPScbCULp47q4,379
+langware/model.py,sha256=XiDcClaIGI3hQ82NOMKN3N6TSwhJnA3HkL9an3xnrVE,7180
+langware/prompt.py,sha256=Kd69DpuLOlTyfbr9UBFD4esSJPXBmmOjoEv7oO4Pkrs,2574
+langware/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langware/utilities/common.py,sha256=CXeAIPZLonJiPIji-DU8Ir_-KRG5g2bHGvOPzNIIKtI,4581
+Langware-0.1.dist-info/LICENSE-APACHE-2.0,sha256=cUpDZ3hw10kCl0gEX4F8ZS1BXCtGqVso64dXJgqC16g,11344
+Langware-0.1.dist-info/LICENSE-MIT,sha256=LxvUtOoeDcsImEVRYUk1ly2901lVc-s1e65ZFLhb0LE,1057
+Langware-0.1.dist-info/METADATA,sha256=hMpq62C35bYuFkxA1MUVxi1Sp5R8c8-vjb6KD39-nMU,1876
+Langware-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+Langware-0.1.dist-info/top_level.txt,sha256=npEGb7Z31LoPCxI9TAAW-zhovkMSNACLs10_0zpHfM8,9
+Langware-0.1.dist-info/RECORD,,

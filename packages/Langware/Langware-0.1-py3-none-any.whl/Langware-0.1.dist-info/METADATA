@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: Langware
+Version: 0.1
+Summary: Lightweight, powerful and hassle-free Langchain alternative.
+Home-page: https://github.com/langware-ai/langware
+Author: Ivan Stepanov
+Author-email: ivanstepanovftw@gmail.com
+Keywords: langchain openai llama llamacpp chat gpt
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE-APACHE-2.0
+License-File: LICENSE-MIT
+Requires-Dist: pydantic <3,>=2
+Requires-Dist: aiohttp <4,>=3
+Requires-Dist: colorama ~=0.4.6
+
+# Langware
+ 
+Lightweight, powerful and hassle-free Langchain alternative.
+
+Currently, supports OpenAI Chat Completions API.
+Planning to add OpenAI Assistants API, llama.cpp with GBNF-guided sampling, then PyTorch support.
+
+## Installation
+
+```shell
+pip install git+https://github.com/langware-ai/langware.git@main
+```
+
+## Usage
+
+See [examples](examples) folder.
+
+## License
+
+Licensed under either of
+
+- Apache License, Version 2.0, ([LICENSE-APACHE-2.0](LICENSE-APACHE-2.0) or http://www.apache.org/licenses/LICENSE-2.0)
+- MIT license ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
+
+at your option.
+
+## Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you,
+as defined in the Apache-2.0 license, shall be dual licensed as above, without any additional terms or conditions.
