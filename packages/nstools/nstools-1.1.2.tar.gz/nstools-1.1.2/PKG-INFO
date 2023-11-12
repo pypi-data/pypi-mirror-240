@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: nstools
+Version: 1.1.2
+Home-page: https://github.com/seiya-dev/NSTools
+Requires-Python: >=3.10
+Requires-Dist: zstandard
+Requires-Dist: enlighten
+Requires-Dist: pycryptodome
+
+tools for xci/xcz/nsp/nsz
