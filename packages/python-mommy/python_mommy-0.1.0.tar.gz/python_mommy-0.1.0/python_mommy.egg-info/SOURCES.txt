@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+python_mommy/__init__.py
+python_mommy/__main__.py
+python_mommy.egg-info/PKG-INFO
+python_mommy.egg-info/SOURCES.txt
+python_mommy.egg-info/dependency_links.txt
+python_mommy.egg-info/top_level.txt
