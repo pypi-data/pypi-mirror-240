@@ -1,0 +1,13 @@
+AUTHORS.md
+COPYING
+README.md
+setup.cfg
+setup.py
+pyadms/__init__.py
+pyadms/adms_implicit.py
+pyadms/foo.py
+pyadms/nstart.py
+pyadms.egg-info/PKG-INFO
+pyadms.egg-info/SOURCES.txt
+pyadms.egg-info/dependency_links.txt
+pyadms.egg-info/top_level.txt
