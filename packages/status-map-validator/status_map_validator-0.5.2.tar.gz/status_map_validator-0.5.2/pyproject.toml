@@ -1,0 +1,40 @@
+[tool.black]
+line-length = 110
+
+[tool.isort]
+line_length = 110
+multi_line_output = 3
+include_trailing_comma = true
+known_localfolder = "status_map,tests"
+sections = "FUTURE,STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+default_section = "THIRDPARTY"
+
+[tool.poetry]
+name = "status-map-validator"
+version = "0.5.2"
+description = "Status map (and its transitions) data structure and validations"
+license = "MIT"
+authors = ["Douglas Lambertinny <douglas.b.dev@gmail.com>", "Luiz Menezes <luiz.menezesf@gmail.com>", "Rafael Cassau <rafa.cassau@gmail.com>"]
+# readme = "README.rst"
+
+repository = "https://github.com/douglaslambertinny/status-map-validator"
+homepage = "https://github.com/douglaslambertinny/status-map-validator"
+
+keywords = ['status', 'map', 'transition', 'validation']
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<4"
+networkx = ">=2.5"
+
+[tool.poetry.dev-dependencies]
+black = { version = "*", allow-prereleases = true }
+codecov = "*"
+flake8 = ">=4.0"
+isort = ">=4.3"
+pre-commit = "^2.15"
+pytest = ">=6.0"
+pytest-cov = ">=3.0"
+
+[build-system]
+requires = ["poetry>=1.1.11"]
+build-backend = "poetry.masonry.api"
