@@ -1,0 +1,6 @@
+package-lock.yml
+target/
+dbt_modules/
+logs/
+**/.DS_Store
+**/__ibis_sql
