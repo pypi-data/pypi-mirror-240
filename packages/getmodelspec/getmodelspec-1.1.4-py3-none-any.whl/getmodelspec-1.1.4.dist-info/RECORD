@@ -1,0 +1,11 @@
+modelspec/__init__.py,sha256=uSzPsqgST9MKjHzmzw74WkHKTs9JN2liRvSv8YqoN9Y,132
+modelspec/model_scraper.py,sha256=mFN0IteEYRUKtlz75LYXeWEWp_E69RcR07BCLo5bJ7o,11116
+modelspec/tv_score.py,sha256=30esWXXTUcn0_iBCDD7MqabBIIEYE92iqIh6U5GUupo,1995
+modelspec/tools/__init__.py,sha256=GfazKAagvW1pDeuxdpNK1cZWLG5Z-hjTO87XVacKBpU,130
+modelspec/tools/filemanager.py,sha256=0HbLnbWsG-5LOB0GISVwF9ymwKVfZIgVSDnlXsnOO2Y,2129
+modelspec/tools/webdriver.py,sha256=Rblpw-X3IkUdSQV7gU6WGGHAa_szhp3v04XjrpUwGBM,5517
+getmodelspec-1.1.4.dist-info/METADATA,sha256=qc05uNa4IEvZEgKx7AFRkNzK8471DTlPeGDIgSSqDSg,502
+getmodelspec-1.1.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+getmodelspec-1.1.4.dist-info/entry_points.txt,sha256=6i2YSinUF4GcWxReP2Cv2_DY-0XXGqH5WWZF8M0yW0s,67
+getmodelspec-1.1.4.dist-info/top_level.txt,sha256=Ks3fSFaTgX1LK9vyNkTCrssizUTfT6LPDA499FnhobY,10
+getmodelspec-1.1.4.dist-info/RECORD,,
