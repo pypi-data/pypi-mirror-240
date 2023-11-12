@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+pypi_pip_template/__init__.py
+pypi_pip_template/__main__.py
+pypi_pip_template.egg-info/PKG-INFO
+pypi_pip_template.egg-info/SOURCES.txt
+pypi_pip_template.egg-info/dependency_links.txt
+pypi_pip_template.egg-info/entry_points.txt
+pypi_pip_template.egg-info/top_level.txt
+pypi_pip_template/gui/__init__.py
+pypi_pip_template/gui/main.py
+pypi_pip_template/utils/__init__.py
+tests/test.py
