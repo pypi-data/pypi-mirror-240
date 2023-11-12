@@ -1,0 +1,9 @@
+matplotlib
+numpy
+pandas
+pdfplumber
+pdf2image
+pytesseract
+langdetect
+language_tool_python
+requests

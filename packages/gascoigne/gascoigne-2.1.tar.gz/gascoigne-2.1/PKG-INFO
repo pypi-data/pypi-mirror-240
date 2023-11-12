@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gascoigne
+Version: 2.1
+Summary: package with different tools
+Home-page: https://github.com/gabrielepinto/gascoigne
+Author: Gabriele Pinto
+Author-email: gabriele.pinto@uniroma1.it
+License: MIT
+Download-URL: https://github.com/gabrielepinto/gascoigne/archive/refs/tags/2.1.tar.gz
+Keywords: coefficient plot,regression coefficient,coeffplot,regression coefficient plot
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENCE.txt
+
+UNKNOWN
+

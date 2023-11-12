@@ -1,0 +1,14 @@
+LICENCE.txt
+README.md
+setup.cfg
+setup.py
+gascoigne/__init__.py
+gascoigne/bpower.py
+gascoigne/regplot.py
+gascoigne/regplot_nuovo.py
+gascoigne/textdriller.py
+gascoigne.egg-info/PKG-INFO
+gascoigne.egg-info/SOURCES.txt
+gascoigne.egg-info/dependency_links.txt
+gascoigne.egg-info/requires.txt
+gascoigne.egg-info/top_level.txt
