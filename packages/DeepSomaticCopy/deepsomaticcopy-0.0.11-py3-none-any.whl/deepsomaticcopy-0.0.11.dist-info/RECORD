@@ -1,0 +1,14 @@
+DeepSomaticCopy/.DS_Store,sha256=szzMy_-xbeZF6TSKSzr-buU1F5UxdZ2_f6xrLzUtQp8,6148
+DeepSomaticCopy/RLCNA.py,sha256=640whbDEK8mLXgCe47Sji8HZ1KwIl1eN3kRBrhPvzVY,83689
+DeepSomaticCopy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DeepSomaticCopy/example.py,sha256=X8MPB275LbdlIVf8Mawtah11TDi5cPI8aDrkduPD7y8,42
+DeepSomaticCopy/pipeline.py,sha256=umWVyDqnRQT0MXZbwSO-wMCjzZN1ubJXFgljFcEs91o,2895
+DeepSomaticCopy/process.py,sha256=5VHPewLKXGDvVj9q9WWKE8n5h-OvIn9WtBnL3mkZ29E,28538
+DeepSomaticCopy/runBAM.py,sha256=bS8aPMbVU13MktpWGXlTbiQKXu7YkUyR_YWaDWAwz54,45933
+DeepSomaticCopy/scaler.py,sha256=0dXZNKM4gJS2PkMVESr7xkvBl7YeJo0UjRalPAN48QY,70720
+DeepSomaticCopy/shared.py,sha256=44PZ0jKeNqpkvT2WP7Y13xcLfxcuO9KZTQo4HUw3EcQ,24601
+deepsomaticcopy-0.0.11.dist-info/METADATA,sha256=bsTzajVwCoU73EO_BfGNqsNEX68cU6pDlv_cs_LFp_Y,1100
+deepsomaticcopy-0.0.11.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+deepsomaticcopy-0.0.11.dist-info/entry_points.txt,sha256=AbKOUSX0qqpUjSkWyvZ7q2UwIfvzi9b-DnFALESv2oU,209
+deepsomaticcopy-0.0.11.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+deepsomaticcopy-0.0.11.dist-info/RECORD,,
