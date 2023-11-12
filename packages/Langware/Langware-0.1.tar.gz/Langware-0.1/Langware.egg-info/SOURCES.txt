@@ -1,0 +1,17 @@
+LICENSE-APACHE-2.0
+LICENSE-MIT
+README.md
+setup.py
+Langware.egg-info/PKG-INFO
+Langware.egg-info/SOURCES.txt
+Langware.egg-info/dependency_links.txt
+Langware.egg-info/requires.txt
+Langware.egg-info/top_level.txt
+langware/__init__.py
+langware/chat.py
+langware/function.py
+langware/logger.py
+langware/model.py
+langware/prompt.py
+langware/utilities/__init__.py
+langware/utilities/common.py
