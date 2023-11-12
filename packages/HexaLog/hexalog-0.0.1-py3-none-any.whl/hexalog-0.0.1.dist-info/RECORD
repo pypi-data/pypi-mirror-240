@@ -1,0 +1,9 @@
+logger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logger/adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logger/adapters/cli_logger.py,sha256=Qeiclayhre66oEkrsPnqkiVUkqJbqVgs3hYzuG_R3uc,1740
+logger/adapters/logger_for_tests.py,sha256=hj5pERdtZo4Xgn2lbrMVs3AKtRIR3G4LT8NdQEgcfMI,964
+logger/adapters/struct_logger.py,sha256=6rGOnw6vhXPhnhcd3gES8FfEoEF967MqH0x5QcT45G0,2390
+logger/ports.py,sha256=KBAh3fMJu3LLSvNQlPHheFSqxonVxtfKB0vT9HjWHR8,513
+hexalog-0.0.1.dist-info/METADATA,sha256=D12CuSglQD0A6DAp5V_es8H9qWupwzk5RP4fdhA6_Dg,1053
+hexalog-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+hexalog-0.0.1.dist-info/RECORD,,
