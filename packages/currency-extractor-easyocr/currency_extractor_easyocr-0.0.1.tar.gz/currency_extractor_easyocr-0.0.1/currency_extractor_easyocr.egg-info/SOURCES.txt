@@ -1,0 +1,10 @@
+README.md
+setup.py
+currency_extractor_easyocr/__init__.py
+currency_extractor_easyocr/currency_extract.py
+currency_extractor_easyocr.egg-info/PKG-INFO
+currency_extractor_easyocr.egg-info/SOURCES.txt
+currency_extractor_easyocr.egg-info/dependency_links.txt
+currency_extractor_easyocr.egg-info/entry_points.txt
+currency_extractor_easyocr.egg-info/requires.txt
+currency_extractor_easyocr.egg-info/top_level.txt
