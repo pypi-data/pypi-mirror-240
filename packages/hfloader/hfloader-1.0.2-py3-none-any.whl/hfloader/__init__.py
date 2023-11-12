@@ -1,0 +1,1 @@
+from .hf_loader import load_model
