@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+install_env.sh
+setup.py
+getmodelspec.egg-info/PKG-INFO
+getmodelspec.egg-info/SOURCES.txt
+getmodelspec.egg-info/dependency_links.txt
+getmodelspec.egg-info/entry_points.txt
+getmodelspec.egg-info/requires.txt
+getmodelspec.egg-info/top_level.txt
+modelspec/__init__.py
+modelspec/model_scraper.py
+modelspec/tv_score.py
