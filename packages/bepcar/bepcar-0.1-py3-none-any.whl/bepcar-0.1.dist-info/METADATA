@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bepcar
+Version: 0.1
+Summary: A short description of your library
+Home-page: https://github.com/yourusername/my_library
+Author: Alex Zhou
+Author-email: ZYpS_leader@126.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown
+Requires-Dist: pyotp
+Requires-Dist: rich
+
