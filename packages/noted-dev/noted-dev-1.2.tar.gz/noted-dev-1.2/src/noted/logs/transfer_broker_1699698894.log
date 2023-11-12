@@ -1,0 +1,271 @@
+2023-11-11 11:34:54,621 root - DEBUG - MainThread: Creating logging file: noted
+2023-11-11 11:34:54,621 root - DEBUG - MainThread: Loading YAML file: noted/src/noted/config/config-spectrum.yaml
+2023-11-11 11:34:54,624 root - INFO - MainThread: Source: ['CH-CERN']
+2023-11-11 11:34:54,624 root - INFO - MainThread: Destination: ['DE-KIT']
+2023-11-11 11:34:54,624 root - DEBUG - MainThread: Querying CRIC database.
+2023-11-11 11:34:55,125 root - INFO - MainThread: There are 873 endpoints defined in CRIC database
+2023-11-11 11:34:55,195 root - DEBUG - MainThread: Generating query for source, number of endpoints: 74
+2023-11-11 11:34:55,199 root - DEBUG - MainThread: Generating query for destination, number of endpoints: 22
+2023-11-11 11:34:55,199 root - DEBUG - MainThread: Building thread transfer_broker_source_1699698894.
+2023-11-11 11:34:55,199 root - DEBUG - MainThread: Building thread transfer_broker_destination_1699698894.
+2023-11-11 11:34:55,199 root - DEBUG - MainThread: Starting thread transfer_broker_source_1699698894.
+2023-11-11 11:34:55,199 root - DEBUG - MainThread: Starting thread transfer_broker_destination_1699698894.
+2023-11-11 11:34:55,199 root - INFO - transfer_broker_source_1699698894: Monitoring transfers.
+2023-11-11 11:34:55,199 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:34:55,199 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:34:55,377 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:34:55,377 root - WARNING - transfer_broker_source_1699698894: Link under supervision: make decision before alert: action start
+2023-11-11 11:34:55,377 root - WARNING - transfer_broker_source_1699698894: Link under supervision: monitor queue before alert.
+2023-11-11 11:34:55,378 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:34:55,378 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:34:56,369 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 11:34:56,370 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 11:34:56,400 root - WARNING - transfer_broker_source_1699698894: Link under supervision: monitor queue before alert: action start, number of events 1
+2023-11-11 11:34:56,401 root - WARNING - transfer_broker_source_1699698894: df_last_event: timestamp: 1699698726890, throughput [Gb/s]: 0.19, parallel_transfers: 4, queued_transfers: 6
+2023-11-11 11:34:56,401 root - WARNING - transfer_broker_source_1699698894: There are 4 transfers with a total of 0.440000 GB - Throughput: 0.190000 Gb/s
+2023-11-11 11:35:56,401 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:35:56,401 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:36:56,631 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:36:56,632 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:37:56,867 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:37:56,867 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:38:57,067 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:38:57,068 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:39:57,280 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:39:57,280 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:40:57,480 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:40:57,480 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:41:57,670 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:41:57,670 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:42:57,879 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:42:57,880 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:43:58,145 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:43:58,145 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:43:58,389 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 11:43:58,419 root - WARNING - transfer_broker_source_1699698894: Link under supervision: monitor queue before alert: action start, number of events 2
+2023-11-11 11:43:58,419 root - WARNING - transfer_broker_source_1699698894: df_last_event: timestamp: 1699699398974, throughput [Gb/s]: 3.42, parallel_transfers: 2, queued_transfers: 1
+2023-11-11 11:43:58,419 root - WARNING - transfer_broker_source_1699698894: There are 2 transfers with a total of 1.540000 GB - Throughput: 3.420000 Gb/s
+2023-11-11 11:43:58,419 root - WARNING - transfer_broker_source_1699698894: Calling to sense-o API to provision a dynamic circuit.
+2023-11-11 11:43:58,455 root - WARNING - transfer_broker_source_1699698894: Sending email: LHCOPN Source: ['CH-CERN'], LHCOPN Destination: ['DE-KIT'], message: START MESSAGE: there is an on-going large data transfer that could potentially congest the link.
+2023-11-11 11:43:58,462 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 11:43:59,801 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699699398974, throughput [Gb/s]: 3.42, parallel_transfers: 2, queued_transfers: 1
+2023-11-11 11:43:59,801 root - INFO - transfer_broker_source_1699698894: There are 2 transfers with a total of 1.540000 GB - Throughput: 3.420000 Gb/s
+2023-11-11 11:44:59,801 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:44:59,802 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:45:00,027 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:46:00,029 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:46:00,030 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:46:00,237 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:47:00,236 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:47:00,236 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:47:00,479 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:47:00,479 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 11:47:00,479 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 11:47:01,831 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699699602546, throughput [Gb/s]: 0.1, parallel_transfers: 1, queued_transfers: 3
+2023-11-11 11:47:01,831 root - INFO - transfer_broker_source_1699698894: There are 1 transfers with a total of 0.610000 GB - Throughput: 0.100000 Gb/s
+2023-11-11 11:48:01,835 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:48:01,835 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:48:02,045 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:49:02,047 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:49:02,047 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:49:02,233 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:50:02,237 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:50:02,237 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:50:02,422 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:51:02,422 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:51:02,423 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:51:02,624 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:51:02,624 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 11:51:02,625 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 11:51:03,942 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699699798247, throughput [Gb/s]: 0.2, parallel_transfers: 1, queued_transfers: 0
+2023-11-11 11:51:03,942 root - INFO - transfer_broker_source_1699698894: There are 1 transfers with a total of 0.200000 GB - Throughput: 0.200000 Gb/s
+2023-11-11 11:52:03,946 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:52:03,946 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:52:04,157 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:53:04,158 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:53:04,158 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:53:04,374 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:54:04,375 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:54:04,375 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:54:04,628 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:54:04,628 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 11:54:04,629 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 11:54:05,977 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699699982406, throughput [Gb/s]: 0.03, parallel_transfers: 3, queued_transfers: 0
+2023-11-11 11:54:05,977 root - INFO - transfer_broker_source_1699698894: There are 3 transfers with a total of 0.280000 GB - Throughput: 0.030000 Gb/s
+2023-11-11 11:55:05,978 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:55:05,978 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:55:06,249 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:56:06,250 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:56:06,250 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:56:07,040 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:56:07,040 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 11:56:07,040 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 11:56:08,358 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699700143983, throughput [Gb/s]: 0.1, parallel_transfers: 1, queued_transfers: 0
+2023-11-11 11:56:08,358 root - INFO - transfer_broker_source_1699698894: There are 1 transfers with a total of 0.420000 GB - Throughput: 0.100000 Gb/s
+2023-11-11 11:57:08,360 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:57:08,360 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:57:08,579 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:58:08,579 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:58:08,579 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:58:08,806 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:59:08,810 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 11:59:08,810 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 11:59:08,985 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 11:59:08,985 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 11:59:08,986 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 11:59:10,308 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699700294910, throughput [Gb/s]: 0.11, parallel_transfers: 1, queued_transfers: 1
+2023-11-11 11:59:10,308 root - INFO - transfer_broker_source_1699698894: There are 1 transfers with a total of 0.450000 GB - Throughput: 0.110000 Gb/s
+2023-11-11 12:00:10,310 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:00:10,310 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:00:10,491 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:01:10,494 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:01:10,494 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:01:15,209 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:02:15,210 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:02:15,210 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:02:16,279 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:03:16,283 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:03:16,283 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:03:16,497 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:04:16,499 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:04:16,499 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:04:16,688 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:04:16,688 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:04:16,689 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:04:18,133 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699700595449, throughput [Gb/s]: 0.37, parallel_transfers: 1, queued_transfers: 0
+2023-11-11 12:04:18,133 root - INFO - transfer_broker_source_1699698894: There are 1 transfers with a total of 0.320000 GB - Throughput: 0.370000 Gb/s
+2023-11-11 12:05:18,137 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:05:18,138 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:05:18,330 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:06:18,332 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:06:18,332 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:06:18,538 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:06:18,538 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:06:18,539 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:06:19,851 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699700722821, throughput [Gb/s]: 0.48, parallel_transfers: 1, queued_transfers: 0
+2023-11-11 12:06:19,851 root - INFO - transfer_broker_source_1699698894: There are 1 transfers with a total of 0.380000 GB - Throughput: 0.480000 Gb/s
+2023-11-11 12:07:19,854 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:07:19,855 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:07:20,057 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:08:20,066 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:08:20,066 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:08:20,251 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:08:20,252 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:08:20,252 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:08:21,643 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699700844172, throughput [Gb/s]: 0.35, parallel_transfers: 5, queued_transfers: 0
+2023-11-11 12:08:21,644 root - INFO - transfer_broker_source_1699698894: There are 5 transfers with a total of 0.450000 GB - Throughput: 0.350000 Gb/s
+2023-11-11 12:09:21,646 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:09:21,646 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:09:21,828 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:10:21,831 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:10:21,831 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:10:22,093 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:10:22,093 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:10:22,094 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:10:23,503 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699700958661, throughput [Gb/s]: 0.4, parallel_transfers: 1, queued_transfers: 0
+2023-11-11 12:10:23,504 root - INFO - transfer_broker_source_1699698894: There are 1 transfers with a total of 0.520000 GB - Throughput: 0.400000 Gb/s
+2023-11-11 12:11:23,507 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:11:23,508 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:11:23,842 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:11:23,842 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:11:23,843 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:11:25,252 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699701070964, throughput [Gb/s]: 0.36, parallel_transfers: 2, queued_transfers: 0
+2023-11-11 12:11:25,252 root - INFO - transfer_broker_source_1699698894: There are 2 transfers with a total of 0.420000 GB - Throughput: 0.360000 Gb/s
+2023-11-11 12:12:25,251 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:12:25,251 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:12:25,465 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:13:25,469 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:13:25,469 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:13:25,793 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:13:25,793 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:13:25,793 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:13:27,117 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699701178939, throughput [Gb/s]: 0.44, parallel_transfers: 4, queued_transfers: 0
+2023-11-11 12:13:27,117 root - INFO - transfer_broker_source_1699698894: There are 4 transfers with a total of 0.580000 GB - Throughput: 0.440000 Gb/s
+2023-11-11 12:14:27,117 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:14:27,117 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:14:27,345 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:15:27,345 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:15:27,345 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:15:27,546 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:15:27,547 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:15:27,547 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:15:28,965 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699701278557, throughput [Gb/s]: 0.55, parallel_transfers: 1, queued_transfers: 0
+2023-11-11 12:15:28,966 root - INFO - transfer_broker_source_1699698894: There are 1 transfers with a total of 0.600000 GB - Throughput: 0.550000 Gb/s
+2023-11-11 12:16:28,968 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:16:28,968 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:16:29,196 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:16:29,196 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:16:29,197 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:16:30,617 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699701374363, throughput [Gb/s]: 0.69, parallel_transfers: 2, queued_transfers: 0
+2023-11-11 12:16:30,617 root - INFO - transfer_broker_source_1699698894: There are 2 transfers with a total of 0.900000 GB - Throughput: 0.690000 Gb/s
+2023-11-11 12:17:30,621 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:17:30,621 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:17:31,366 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:18:31,367 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:18:31,367 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:18:31,578 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:18:31,579 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:18:31,579 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:18:32,979 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699701468048, throughput [Gb/s]: 0.62, parallel_transfers: 1, queued_transfers: 1
+2023-11-11 12:18:32,980 root - INFO - transfer_broker_source_1699698894: There are 1 transfers with a total of 0.720000 GB - Throughput: 0.620000 Gb/s
+2023-11-11 12:19:32,980 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:19:32,981 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:19:33,187 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:19:33,187 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:19:33,187 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:19:34,540 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699701560165, throughput [Gb/s]: 0.45, parallel_transfers: 3, queued_transfers: 0
+2023-11-11 12:19:34,540 root - INFO - transfer_broker_source_1699698894: There are 3 transfers with a total of 0.730000 GB - Throughput: 0.450000 Gb/s
+2023-11-11 12:20:34,542 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:20:34,542 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:20:34,776 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:21:34,775 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:21:34,775 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:21:34,976 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:21:34,976 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:21:34,977 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:21:36,286 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699701651729, throughput [Gb/s]: 0.27, parallel_transfers: 1, queued_transfers: 0
+2023-11-11 12:21:36,286 root - INFO - transfer_broker_source_1699698894: There are 1 transfers with a total of 0.540000 GB - Throughput: 0.270000 Gb/s
+2023-11-11 12:22:36,290 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:22:36,290 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:22:36,488 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:22:36,488 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:22:36,488 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:22:37,800 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699701742538, throughput [Gb/s]: 0.24, parallel_transfers: 2, queued_transfers: 0
+2023-11-11 12:22:37,800 root - INFO - transfer_broker_source_1699698894: There are 2 transfers with a total of 0.600000 GB - Throughput: 0.240000 Gb/s
+2023-11-11 12:23:37,801 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:23:37,801 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:23:38,012 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:24:38,016 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:24:38,017 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:24:38,208 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:24:38,209 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:24:38,209 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:24:39,578 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699701838235, throughput [Gb/s]: 0.29, parallel_transfers: 18, queued_transfers: 22
+2023-11-11 12:24:39,578 root - INFO - transfer_broker_source_1699698894: There are 18 transfers with a total of 0.380000 GB - Throughput: 0.290000 Gb/s
+2023-11-11 12:25:39,577 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:25:39,578 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:25:39,779 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:25:39,779 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:25:39,780 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:25:41,121 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699701929929, throughput [Gb/s]: 0.37, parallel_transfers: 2, queued_transfers: 2
+2023-11-11 12:25:41,121 root - INFO - transfer_broker_source_1699698894: There are 2 transfers with a total of 0.160000 GB - Throughput: 0.370000 Gb/s
+2023-11-11 12:26:41,121 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:26:41,121 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:26:41,346 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:27:41,349 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:27:41,349 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:27:41,526 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:27:41,527 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:27:41,527 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:27:42,863 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699702021262, throughput [Gb/s]: 0.53, parallel_transfers: 2, queued_transfers: 0
+2023-11-11 12:27:42,863 root - INFO - transfer_broker_source_1699698894: There are 2 transfers with a total of 0.210000 GB - Throughput: 0.530000 Gb/s
+2023-11-11 12:28:42,867 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:28:42,867 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:28:43,066 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
+2023-11-11 12:28:43,066 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_src_rcsite_1699698894.
+2023-11-11 12:28:43,067 root - DEBUG - transfer_broker_source_1699698894: Transfer broker: append data to log file noted/src/noted/transfers/transfer_broker_all_transfers_1699698894.
+2023-11-11 12:28:44,383 root - INFO - transfer_broker_source_1699698894: df_last_event: timestamp: 1699702112617, throughput [Gb/s]: 0.56, parallel_transfers: 1, queued_transfers: 0
+2023-11-11 12:28:44,384 root - INFO - transfer_broker_source_1699698894: There are 1 transfers with a total of 0.210000 GB - Throughput: 0.560000 Gb/s
+2023-11-11 12:29:44,383 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers.
+2023-11-11 12:29:44,383 root - DEBUG - transfer_broker_source_1699698894: Querying FTS optimizer.
+2023-11-11 12:29:44,605 root - DEBUG - transfer_broker_source_1699698894: Inspecting transfers: make decision.
