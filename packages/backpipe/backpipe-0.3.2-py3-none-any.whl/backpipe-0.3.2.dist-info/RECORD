@@ -1,0 +1,12 @@
+backpipe/__init__.py,sha256=VL8eLwBxdtnfFxdJVBg1KeXmatCiBn4uUTvhRTJdx9c,308
+backpipe/app.py,sha256=O3vxXPbh1NjXU4egODLsmDA9IkDk1ZCgKUoTD-SaNio,2749
+backpipe/builder.py,sha256=s3ejYwt5Nafoi51aq_NinF7KVpaIw3FNOgsMA6eUam0,2153
+backpipe/defaults.py,sha256=IAhpxs7P6Z6QWJqv_cZSmvO0HaH--L218XcbOuGP6LI,269
+backpipe/host.py,sha256=LmQtxmQUNAOxLPSb2fxebXk5RBYA9yzAzvPHFrPrU4Q,1005
+backpipe/rq.py,sha256=Fu2eR8dKAvcbTuW14RU76989DtoK8zIg-y-trg0HQW0,775
+backpipe/server.py,sha256=HZscuCdKUHg3FzS3-3inMqE_GHybt_EocPi9mdtwK-E,4786
+backpipe-0.3.2.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+backpipe-0.3.2.dist-info/METADATA,sha256=4-axwQ44IVfKX6cMkKbwTKnQcEwjtPwJcX3pLyNIHo8,2522
+backpipe-0.3.2.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+backpipe-0.3.2.dist-info/top_level.txt,sha256=reAevUndeMEIOnYRDmzkJBjEn9m5QHnBGJhA05wd5IE,9
+backpipe-0.3.2.dist-info/RECORD,,
