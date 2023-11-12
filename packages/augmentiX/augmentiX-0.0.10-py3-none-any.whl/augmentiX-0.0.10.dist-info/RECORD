@@ -1,0 +1,11 @@
+augmentix/__init__.py,sha256=FE982TqoAZ3FDrqKwyWeWwZELmi6v9f3caBxtHiVwBI,80
+augmentix/augmentor.py,sha256=J8ON8TBiGru0ToV2t4pEeKMoTqLUXLpWcrPdSlXDbXk,4515
+augmentix/main.py,sha256=L2cTYUNujDt7fqWiN4EL54l6N3eorQxWpkaPPJzSsUQ,3563
+augmentix/process_augmentor.py,sha256=KG1O0UM9fv6JqfgkBo-r3VT1Wyxk1zVXtR7MyP2oWQ0,1394
+augmentix/utils.py,sha256=UmxQqjbCEfaehlQ5Psj1ZPBQw_GIrtFfXlL-YPaFO0o,8793
+augmentiX-0.0.10.dist-info/LICENSE,sha256=vZWKq32aQoxW0btehulGAAJnnm4HZFG6YRwJipH2Mng,1065
+augmentiX-0.0.10.dist-info/METADATA,sha256=X3Reyzfc6dKiLr5f8EFyZ3zzKq9bqYKcv7itHqAg_cU,3559
+augmentiX-0.0.10.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+augmentiX-0.0.10.dist-info/entry_points.txt,sha256=-WAaMdMcN0OEaTpi6xvVMkxe8qmWsW80O0EbWS1vttg,50
+augmentiX-0.0.10.dist-info/top_level.txt,sha256=NxowVk1ZxatJnqktkQWAQjoTyl1dlAiAHy2bIPFhtNo,10
+augmentiX-0.0.10.dist-info/RECORD,,
