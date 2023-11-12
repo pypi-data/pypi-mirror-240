@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pymaopian
+Version: 0.0.2
+Summary: nothing but type.
+Home-page: https://github.com/gengmu/pymaopian
+Author: shudaonan
+Author-email: 0712014gc@gmail.com
+License: MIT license
+Keywords: pymaopian
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pymaopian
+
+
+[![image](https://img.shields.io/pypi/v/pymaopian.svg)](https://pypi.python.org/pypi/pymaopian)
+[![image](https://img.shields.io/conda/vn/conda-forge/pymaopian.svg)](https://anaconda.org/conda-forge/pymaopian)
+
+
+**nothing but type.**
+
+
+-   Free software: MIT license
+-   Documentation: https://gengmu.github.io/pymaopian
+    
+
+## Features
+
+-   TODO
