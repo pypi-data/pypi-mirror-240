@@ -1,0 +1,6 @@
+dicepy>=0.4
+entyty>=0.0.46
+CharObj
+getch
+pyglet
+pymunk
