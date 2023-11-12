@@ -1,0 +1,16 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+VERSION
+pyproject.toml
+requirements-testing.txt
+requirements.txt
+suid/__init__.py
+suid.egg-info/PKG-INFO
+suid.egg-info/SOURCES.txt
+suid.egg-info/dependency_links.txt
+suid.egg-info/requires.txt
+suid.egg-info/top_level.txt
+tests/__init__.py
+tests/test_suid.py
