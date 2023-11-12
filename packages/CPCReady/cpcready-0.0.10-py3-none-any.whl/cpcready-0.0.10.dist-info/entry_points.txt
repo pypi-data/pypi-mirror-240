@@ -1,0 +1,5 @@
+[console_scripts]
+cpc=CPCReady.main:main
+cpcr=CPCReady.main:main
+cpcready=CPCReady.main:main
+
