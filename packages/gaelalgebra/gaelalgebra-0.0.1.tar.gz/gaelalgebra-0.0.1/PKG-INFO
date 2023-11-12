@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gaelalgebra
+Version: 0.0.1
+Summary: Una librería de álgebra lineal toda persona de IA.
+Project-URL: Homepage, https://github.com/GaelMD415/Cool
+Project-URL: Bug Tracker, https://github.com/GaelMD415/Cool/issues
+Author-email: Gael Muñoz Delgado <munozgael011@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: matplotlib==3.8.1
+Requires-Dist: numpy==1.26.0
+Requires-Dist: scipy==1.11.3
+Description-Content-Type: text/markdown
+
+# Cool

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "gaelalgebra"
+version = "0.0.1"
+authors = [
+    {name = "Gael Muñoz Delgado", email = "munozgael011@gmail.com"}
+]
+description = "Una librería de álgebra lineal toda persona de IA."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "numpy==1.26.0",
+    "matplotlib==3.8.1",
+    "scipy==1.11.3"
+]
+[project.urls]
+"Homepage" = "https://github.com/GaelMD415/Cool"
+"Bug Tracker" = "https://github.com/GaelMD415/Cool/issues"
