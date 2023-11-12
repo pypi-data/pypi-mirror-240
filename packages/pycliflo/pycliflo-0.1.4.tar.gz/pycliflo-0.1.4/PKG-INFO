@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pycliflo
+Version: 0.1.4
+Summary: Tools to get data from cliflo
+Project-URL: Homepage, https://github.com/mullenkamp/pycliflo
+Author-email: Mike Kittridge <mullenkamp1@gmail.com>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: selenium
+Provides-Extra: dev
+Requires-Dist: coverage[toml]>=6.5; extra == 'dev'
+Requires-Dist: matplotlib; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: spyder-kernels==2.4; extra == 'dev'
+Description-Content-Type: text/x-rst
+
+pycliflo
+==================================
+
+A work in progress...
