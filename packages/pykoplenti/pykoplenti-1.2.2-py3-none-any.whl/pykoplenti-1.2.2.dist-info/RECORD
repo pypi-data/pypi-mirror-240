@@ -1,0 +1,12 @@
+pykoplenti/__init__.py,sha256=w9ooy6_JaT9lGvMDAaBHyvYu1uTFTkb1g21WRxp3Kzw,756
+pykoplenti/api.py,sha256=gYWWd8yZ9winj7qPt1-rzx4stX_DLPfy5nOduuamtH4,26431
+pykoplenti/cli.py,sha256=LAiQHlSgoJz07kTtFh0bNyahyYz7gCenhRfradex5wE,12972
+pykoplenti/extended.py,sha256=_MCDtP-6BaAiTFqJ44CLK_Ihkh6nCC0vWWv1lsQfEFs,9311
+pykoplenti/model.py,sha256=g-KyYTF1M1p6OAebyA74OAP_-561u6Hylhgy_jnpMto,2266
+pykoplenti/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pykoplenti-1.2.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pykoplenti-1.2.2.dist-info/METADATA,sha256=YCvoky9ow6vbvRA_qTQpbkm3hMHvMAwnpewjjQmBuGc,5625
+pykoplenti-1.2.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pykoplenti-1.2.2.dist-info/entry_points.txt,sha256=Ix-p1uzKNyOMTK0TOlAC0nsfWS6ATXVuaNDJ5-TwBJw,56
+pykoplenti-1.2.2.dist-info/top_level.txt,sha256=Bi915FGIFYzCujwn5Kwhu3B-sxElgc7gX3gNaYjl4j8,11
+pykoplenti-1.2.2.dist-info/RECORD,,
