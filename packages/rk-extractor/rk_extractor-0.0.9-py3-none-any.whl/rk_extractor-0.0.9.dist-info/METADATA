@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rk-extractor
+Version: 0.0.9
+Summary: Used to extract RK from simultaneous fits
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: logzero
+Requires-Dist: attrs
+Requires-Dist: rx-scripts (>=0.2.0)
+Requires-Dist: rx-tools (>=0.1.2)
+Requires-Dist: zfit (>=0.14.0)
+Requires-Dist: pandas
+
+UNKNOWN
+
