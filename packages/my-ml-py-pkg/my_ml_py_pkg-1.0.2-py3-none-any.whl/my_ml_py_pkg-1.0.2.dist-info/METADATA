@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: my-ml-py-pkg
+Version: 1.0.2
+Summary: My first python package
+Home-page: https://github.com/nosiba28/...
+Author: Khandoker Nosiba Arifin
+Author-email: nosiba.stu2018@juniv.edu
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: gradio
+
+# MyML Project
+
+A short desc of my project
+
+## Description
+A comprehensive desc of my project
+
+## Installation
+
+## Contributors
+
+## License
