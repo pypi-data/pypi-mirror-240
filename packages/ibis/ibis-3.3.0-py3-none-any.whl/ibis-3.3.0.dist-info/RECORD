@@ -1,0 +1,13 @@
+ibis/__init__.py,sha256=FlbKr75e7qow5jRtorTSwgdcImdYEMtwV2kNTfI97Ag,455
+ibis/compiler.py,sha256=UoISCYSDkIOGmbzhEjI7xFxDZnk0NOHo4g7P8Vnoua8,7220
+ibis/context.py,sha256=tTZSKJDPI2r__nsC3hl9OTOZjEIlXUEpnih0NKbCc3k,3613
+ibis/errors.py,sha256=gtRX3LjkdWEP4NaX8HXL_6OU2fCX16IBBSiGMG5wiY4,1531
+ibis/filters.py,sha256=M36KS6dlzfsb2NmHkbVuo8gJbiQ6aQjcHzXxHwZ3Afw,7042
+ibis/loaders.py,sha256=njGTqK8e_IkmqdWfogG1Jpw2ta1ms4m6Nxi5apKQFcY,3689
+ibis/nodes.py,sha256=LFJZt7c0UffFRKFi_qO2pwSgt2d9Qgczt55gjTJwG_4,22042
+ibis/template.py,sha256=IF7m5gU1H-Db5Ml6H58b0Vp8z3Q0TQhrXG-lP7ToYow,1766
+ibis/utils.py,sha256=nLSaxPR9vMphzV9qinlz_Iurv9c49Ps6Knv8vyNlewU,2768
+ibis-3.3.0.dist-info/METADATA,sha256=4nl7Zpt3KA_oEmfLm4o-gIDwdZ3-ygwp4jnXIk43NKo,1281
+ibis-3.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ibis-3.3.0.dist-info/top_level.txt,sha256=EklSoRMKb8kR0dcmcXyiHUyiWzuzOMOWnY9V1bGI3GU,5
+ibis-3.3.0.dist-info/RECORD,,
