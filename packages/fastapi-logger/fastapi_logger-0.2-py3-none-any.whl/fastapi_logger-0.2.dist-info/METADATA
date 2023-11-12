@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: fastapi-logger
+Version: 0.2
+Summary: FastAPI Logger: Enhance your FastAPI applications with comprehensive request logging.
+Author: untitled69.ipynb
+Author-email: ravis2114@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+
+FastAPI Logger is a powerful Python package designed to seamlessly integrate with FastAPI applications, providing advanced request logging capabilities. With FastAPI Logger, you can capture essential details about incoming requests, including sender IP, port, processing time, and more.
+
+## Features
+
+- **Request Details:** Log sender IP, port, request URL, and processing time for each incoming request.
+- **Customizable Logging:** Easily customize the logging behavior to include additional parameters or adapt it to your specific requirements.
+- **Integration with FastAPI:** Integrate the logger seamlessly into your FastAPI application using the provided decorator.
+- **Efficient and Lightweight:** FastAPI Logger is designed to be efficient and lightweight, ensuring minimal impact on the performance of your FastAPI application.
+
+## Installation
+
+You can install FastAPI Logger using pip:
+
+```bash
+pip install fastapi-logger
+```
+
+Usage
+Getting started with FastAPI Logger is straightforward. Simply import the log_request decorator and apply it to your FastAPI endpoints:
+````
+from fastapi import FastAPI, Request
+from fastapi_logger.logger import log_request
+
+app = FastAPI()
+
+@app.get("/example")
+@log_request
+def read_item(request: Request):
+    # Your endpoint logic here
+    return {"message": "Hello, World!"}
+```
+
+FastAPI Logger empowers you to gain valuable insights into your FastAPI application's traffic and performance effortlessly.
