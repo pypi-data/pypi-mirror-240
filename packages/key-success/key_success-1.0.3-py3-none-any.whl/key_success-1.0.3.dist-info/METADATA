@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: key-success
+Version: 1.0.3
+Summary: A complete description of my project
+Home-page: https://github.com/tanzila343/...
+Author: Tanzila
+Author-email: jucse28.343@gmail.com
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# My ML Project
+ a short discription of my Project
+ ##Description
+ A complete description of my project
+ ## Intallation
+
+ ## contribute
+
+
+ ##License
