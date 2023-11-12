@@ -1,0 +1,9 @@
+statman/__init__.py,sha256=ec64LKKmqAg1-xyqVMKh_LDri9UCdl3TRXfnvrcPB5s,122
+statman/gauge.py,sha256=RNZdKMd-CY2F1dh5bIWgDr09-Z2VEIolveuyH65yoAQ,848
+statman/statman.py,sha256=W2GUxAruVe8gtF_0qb4Lnz0N0qU_wUePIz0p6TpQxGs,1678
+statman/stopwatch.py,sha256=V3f5zTyuN9o4Iz_4houYYWoEYP-ckTrobNNJOldBmi0,2342
+statman-0.2.0.dist-info/LICENSE,sha256=3xn73_Waa9GpeFqrTCLOqD7_xwjUOtfWb7JEwzs2vjw,1066
+statman-0.2.0.dist-info/METADATA,sha256=VonMITkVm7UWpbcNoCTtEBWfhxVj_yp75TQLODOKY50,4546
+statman-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+statman-0.2.0.dist-info/top_level.txt,sha256=mLykKcayiuWrF0HdNBzubvhwwg-7KxI-tVDoZnTTa6g,8
+statman-0.2.0.dist-info/RECORD,,
