@@ -1,0 +1,6 @@
+setup.py
+KdnTools.egg-info/PKG-INFO
+KdnTools.egg-info/SOURCES.txt
+KdnTools.egg-info/dependency_links.txt
+KdnTools.egg-info/requires.txt
+KdnTools.egg-info/top_level.txt
