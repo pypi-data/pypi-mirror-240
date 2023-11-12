@@ -1,0 +1,16 @@
+lotusdesigns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lotusdesigns/_version.py,sha256=hB095avW4HuDZxn8qPHRG1UMzSSonb8ZDAsLxt9hmk8,411
+lotusdesigns/app.py,sha256=pP2FgDqq-YF67GN7wbK96-QsOycQl0AYmS4YPqx6EBs,4146
+lotusdesigns/args.py,sha256=EuleG7w8n4XzPzd7r60-L_9VKXNirhaKIfoQ-U3gikw,1222
+lotusdesigns/bl.py,sha256=gmAJC2rlH3cqFYX7P1E3zFlKZ0CwOObeCNbZDnICrGE,2283
+lotusdesigns/config.py,sha256=KCqNegVpVvg5iPAMCgm1k-3zX4RTK88AAAd1ic2z4k8,3718
+lotusdesigns/photo.py,sha256=Z79sD57mCLKX_b-GKp-_7S6w_WZ61MaZAaIHEd8Hpd4,1627
+lotusdesigns/utils.py,sha256=ZkCGpbUrs3suqHo8elNiVo0Ovp-_InOjxaAYKN8qkno,1998
+lotusdesigns/skeleton/config.yml,sha256=5t6NvhC7pkhfqwPY4zGR6SfXJ151nme_qABkqBEeoio,85
+lotusdesigns/skeleton/template.jpg,sha256=KFgWmJxOXf8ou5Lizf7mHLX87NfnRv6B0MfUqpF9MV4,15717178
+lotusdesigns/skeleton/template.json,sha256=BFzRYpivn63k0Qs-MdEucFxpvvv9fLvqLRUB8Ad4jgE,371
+lotusdesigns-0.0.3.dist-info/METADATA,sha256=xzI-EQaQAy5k6-IdN0EbDyUhetPwiNCS7JHkuVvTR48,1350
+lotusdesigns-0.0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+lotusdesigns-0.0.3.dist-info/entry_points.txt,sha256=vZ7u2ozQW9AHO-hmyzsKhDJspgWvA8dVK_bBoBBEh1U,47
+lotusdesigns-0.0.3.dist-info/top_level.txt,sha256=nKC5BZp2fT3hONg5OX-lEFebevMqbi88__V_taY7MJM,13
+lotusdesigns-0.0.3.dist-info/RECORD,,
