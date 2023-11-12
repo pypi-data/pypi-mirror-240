@@ -1,0 +1,2 @@
+[console_scripts]
+python-explorer = python_explorer.cli:run_explore
