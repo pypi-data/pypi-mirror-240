@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mpl_bsic
+Version: 1.0.1
+Summary: BSIC's Plotting Library
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Andrea Franceschini <andrea.franceschini03@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# AF's Utils Package
+
+## Read Docs
+
+1. Download the docs.pdf file
+
+## If the matplotlib fonts does not work
+
+You have to install the .ttf and clean your matplotlib cache (full guide to come)
+
+Hosted docs page WIP!
