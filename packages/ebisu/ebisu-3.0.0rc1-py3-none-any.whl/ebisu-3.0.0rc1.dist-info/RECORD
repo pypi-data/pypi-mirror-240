@@ -1,0 +1,11 @@
+ebisu/__init__.py,sha256=fnDroLnOY-1gKqhXeAFaZmHPwlYSMHdvBCYsW8cwAUw,71
+ebisu/ebisu.py,sha256=0hAPAnHQbeDhef0n746EaN3ccCw74NnX06UuZfHW4gQ,6146
+ebisu/logsumexp.py,sha256=CEqtf3eSwl2Qk5S8p1LvJdFUed29fgZN01fa9Lu08Yc,707
+ebisu/ebisu2beta/__init__.py,sha256=PaQdqTFlbsKaGEvCx_a9X9NEJPwrJmFLlSdykmTZpHA,70
+ebisu/ebisu2beta/alternate.py,sha256=xqGtqZid7tXM0IwqQazQmpiLyg4S9oaNcT70S0TvdUg,4569
+ebisu/ebisu2beta/ebisu.py,sha256=CyxOf16Dyz--relbUU1JyWGHuTcNxNqHNjOCNytsPGc,12820
+ebisu-3.0.0rc1.dist-info/METADATA,sha256=Wqk383BV4kaHOO19UAcKwqCGuAbnBZZf2vsuoqCTGZ4,417
+ebisu-3.0.0rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ebisu-3.0.0rc1.dist-info/top_level.txt,sha256=-O8Bi5w6Pvzl6677VnEgjq0Jph-3961SHGDTuA6kV4s,6
+ebisu-3.0.0rc1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ebisu-3.0.0rc1.dist-info/RECORD,,
