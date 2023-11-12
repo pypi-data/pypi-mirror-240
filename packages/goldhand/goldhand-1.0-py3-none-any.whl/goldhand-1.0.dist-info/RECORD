@@ -1,0 +1,9 @@
+goldhand/__init__.py,sha256=ihEkhO-z6MG_h27u4Mf6dAldHfhFpz55Zc3b8l96baE,64
+goldhand/helpers.py,sha256=l9yn0kVTiwfUR8sI5nH1QFx6dYikaUQgRA227Ox7hs0,6130
+goldhand/stocks.py,sha256=hmQMdkAqC9bE0Dwx5O5lf7RiwBssLIPDBxO81HOPWMs,9085
+goldhand/test.py,sha256=kBdozOMlBVgEy67120g7S1KPW8wBvELODRjJBAJ1-J0,224
+goldhand/tw.py,sha256=uroFlKHvMPODFrrLgEjgVi9yaCvDVzBeDKYJSFJTbmY,8137
+goldhand-1.0.dist-info/METADATA,sha256=7CbYL8MQaJMwvHoi9RExnVhVpKfQdbMxdKMJiyyCXkU,1931
+goldhand-1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+goldhand-1.0.dist-info/top_level.txt,sha256=siEJ2_a_Fx_7hqRI4Ms6SzCelbXrK_1H_eOF8KAaMdA,9
+goldhand-1.0.dist-info/RECORD,,
