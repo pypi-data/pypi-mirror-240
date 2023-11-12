@@ -1,0 +1,15 @@
+mec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mec/data.py,sha256=asWHqIWSfXkWRaYUCllZ9IIgk-Jhk6PWfa3n7j53QoY,1036
+mec/gt.py,sha256=iwZmLytIiaHGsyDNHu7ZQf2F15vVxvV1FEY9BvZffI0,7369
+mec/lp.py,sha256=X-6gE4iwBl_5eklgije1cR4BovtOS3jkV0YpVCxKmXY,13548
+mec/ot.py,sha256=jgFc0MJ8ZI-Cvxsk6wqhb3HJqYl4hbvsMBoTRxfC5Xs,8670
+mec/datasets/StiglerData1939.txt,sha256=NkDKORo9zX0UpnWyQzhx9jjLh0R-CKWcVBlg9HLO_48,5175
+mec/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mec/et/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mec/et/ntu.py,sha256=XkZXFayH3DZjRbWsqhXyLdkRBLCViTkX6Jt0vrA0rNM,22636
+mec/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mec/tests/tests.py,sha256=uCeeqY30K8J-AOA-EdqKoO6Yo94UiR0fdG1bU45O1Rw,2203
+mec-0.0.4.3.dist-info/METADATA,sha256=j_ywECwy7ZPIubSvdMaLl86LmS1V2be0IeJ71NiBKn0,223
+mec-0.0.4.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mec-0.0.4.3.dist-info/top_level.txt,sha256=DO2XASVVCell5eh9uskktafIM95SUykDkQ-iSuHdNww,4
+mec-0.0.4.3.dist-info/RECORD,,
