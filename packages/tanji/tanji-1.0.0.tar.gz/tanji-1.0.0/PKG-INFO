@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: tanji
+Version: 1.0.0
+Summary: Tanji is a Python encryption library that provides a secure and flexible solution for encrypting and decrypting messages. It leverages both symmetric and asymmetric encryption techniques to ensure the confidentiality and integrity of your data.
+License: MIT
+Author: Anupam Maurya
+Author-email: anupammaurya981@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Dist: cffi (>=1.16.0,<2.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: cryptography (>=41.0.5,<42.0.0)
+Requires-Dist: iniconfig (>=2.0.0,<3.0.0)
+Requires-Dist: packaging (>=23.2,<24.0)
+Requires-Dist: pluggy (>=1.3.0,<2.0.0)
+Requires-Dist: pycparser (>=2.21,<3.0)
+Requires-Dist: pytest (>=7.4.3,<8.0.0)
+Description-Content-Type: text/markdown
+
+# Tanji Encryption Library 👩‍💻🔐
+
+Tanji is a Python encryption library that provides a secure and flexible solution for encrypting and decrypting messages. It leverages both symmetric and asymmetric encryption techniques to ensure the confidentiality and integrity of your data.
+
+## Features 🚀
+
+- **Symmetric Encryption:** Utilizes the Advanced Encryption Standard (AES) algorithm for symmetric key encryption.
+- **Asymmetric Encryption:** Employs RSA algorithm for secure asymmetric key encryption.
+- **Base64 Encoding:** Efficiently encodes encrypted data using Base64 for safe transmission.
+- **Key Pair Generation:** Automatically generates RSA key pairs for secure communication.
+- **Random Initialization Vectors (IV):** Uses random IVs to enhance security.
+- **Ease of Use:** Simple and straightforward interface for encrypting and decrypting messages.
+
+## How Tanji Differs 🤔
+
+- **Robust Security:** Tanji prioritizes the security of your data by combining symmetric and asymmetric encryption methods.
+- **Key Pair Generation:** Automatically generates and manages RSA key pairs, simplifying the encryption process.
+- **Dynamic Initialization Vectors:** Randomly generated IVs for each encryption enhance the resistance against cryptographic attacks.
+- **Base64 Encoding:** Encoded data ensures compatibility and safe transmission across different systems.
+- **Developer-Friendly:** Designed to be user-friendly and easily integrated into various Python projects.
+
+## Getting Started 🏁
+
+1. Install Tanji:
+
+    ```bash
+    pip install tanji
+    ```
+
+2. Use Tanji in your Python project:
+
+    ```python
+    from tanji import Tanji
+
+    # Example Usage
+    tanji = Tanji()
+    encrypted_message, ciphertext = tanji.encrypt_message("Hello, Tanji!")
+    decrypted_message = tanji.decrypt_message(encrypted_message, ciphertext)
+
+    print("Original Message:", "Hello, Tanji!")
+    print("Encrypted Message:", encrypted_message)
+    print("Decrypted Message:", decrypted_message)
+    ```
+
+## Contributing 🤝
+
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+## License 📄
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
