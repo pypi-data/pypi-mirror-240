@@ -1,0 +1,7 @@
+setup.py
+Libreria_generador_codigos.egg-info/PKG-INFO
+Libreria_generador_codigos.egg-info/SOURCES.txt
+Libreria_generador_codigos.egg-info/dependency_links.txt
+Libreria_generador_codigos.egg-info/entry_points.txt
+Libreria_generador_codigos.egg-info/requires.txt
+Libreria_generador_codigos.egg-info/top_level.txt
