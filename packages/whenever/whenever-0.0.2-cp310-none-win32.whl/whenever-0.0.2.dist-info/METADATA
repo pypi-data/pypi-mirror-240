@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: whenever
+Version: 0.0.2
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: pytest ~=7.4 ; extra == 'test'
+Requires-Dist: black ~=23.3 ; extra == 'test'
+Requires-Dist: isort ~=5.12 ; extra == 'test'
+Provides-Extra: test
+License-File: LICENSE
+Summary: Experimental datetime library
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# Whenever
+
+Experimental datetime library
+
+## Development
+
+Some useful commands:
+
+```python
+maturin develop --extras test
+pytest
+```
+
