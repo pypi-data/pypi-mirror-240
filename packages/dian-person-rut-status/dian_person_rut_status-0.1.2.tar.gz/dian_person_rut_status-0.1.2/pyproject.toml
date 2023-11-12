@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "dian_person_rut_status"
+version = "0.1.2"
+description = "A little implementation to search the rut status from a person on Dian's public website muisca.dian.gov.co"
+authors = ["arieljperez <ariel.perez.ti@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/arieljperez/dian_person_rut_status.git"
+repository = "https://github.com/arieljperez/dian_person_rut_status.git"
+packages = [{include = "dian_person_rut_status"}]
+keywords = ["rut", "dian", "nit", "muisca"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
