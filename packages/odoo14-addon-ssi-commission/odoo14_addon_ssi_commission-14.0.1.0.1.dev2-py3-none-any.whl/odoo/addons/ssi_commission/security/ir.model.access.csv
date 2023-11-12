@@ -1,0 +1,19 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_commission_type_configurator,commission_type - configurator,model_commission_type,commission_type_group,1,1,1,1
+access_commission_type_all,commission_type - all user,model_commission_type,,1,0,0,0
+access_commission_type_item_configurator,commission_type.item - configurator,model_commission_type_item,commission_type_group,1,1,1,1
+access_commission_type_item_all,commission_type.item - all user,model_commission_type_item,,1,0,0,0
+access_commission_item_configurator,commission_item - configurator,model_commission_item,commission_item_group,1,1,1,1
+access_commission_item_all,commission_item - all user,model_commission_item,,1,0,0,0
+access_commission_all,commission - all,model_commission,,1,0,0,0
+access_commission_viewer,commission - viewer,model_commission,commission_viewer_group,1,0,0,0
+access_commission_user,commission - user,model_commission,commission_user_group,1,1,1,1
+access_commission_detail_all,commission.detail - all,model_commission_detail,,1,0,0,0
+access_commission_detail_viewer,commission.detail - viewer,model_commission_detail,commission_viewer_group,1,0,0,0
+access_commission_detail_user,commission.detail - user,model_commission_detail,commission_user_group,1,1,1,1
+access_commission_tax_all,commission.tax - all,model_commission_tax,,1,0,0,0
+access_commission_tax_viewer,commission.tax - viewer,model_commission_tax,commission_viewer_group,1,0,0,0
+access_commission_tax_user,commission.tax - user,model_commission_tax,commission_user_group,1,1,1,1
+access_commission_item_computation_all,commission.item_computation - all,model_commission_item_computation,,1,0,0,0
+access_commission_item_computation_viewer,commission.item_computation - viewer,model_commission_item_computation,commission_viewer_group,1,0,0,0
+access_commission_item_computation_user,commission.item_computation - user,model_commission_item_computation,commission_user_group,1,1,1,1
