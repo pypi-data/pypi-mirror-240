@@ -1,0 +1,5 @@
+[console_scripts]
+putl = putl.commands:app
+
+[nbdev]
+putl = putl._modidx:d
