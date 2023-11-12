@@ -1,0 +1,12 @@
+pyprojectlib/__init__.py,sha256=loKEh0z8CtwEbUtJz9TZ_yoabR9GAcfL_QeWBt3q9uE,699
+pyprojectlib/cli.py,sha256=7TBANZMHuz0mWXeVa4q_DiN9HXkQen3OnghUcFAwBYg,2691
+pyprojectlib/helper.py,sha256=2XuvXwhJ0MGOgnnbMqtJyOO6GZTlCCOeOaEfUxd4D04,1810
+pyprojectlib/pypackage.py,sha256=gaxXM1ckvtIF84qoJvchqjyT1tR2k6BQBN2E27cqXoo,5720
+pyprojectlib/pyproject.py,sha256=9U1UJ-n4WkLf_qCNAEh3WK9D-QlsNWXrx8Jy2HSniBE,5256
+pyprojectlib/pyrepo.py,sha256=jCcuQYryQaDgONh1ydbGwEKuNpzzYMDIpprpGAEi6F0,4959
+pyprojectlib/pyuser.py,sha256=XunzszIZjbSNJp4eLNLJTjvUXCTuovSHKBx6OHDUcp0,1464
+pyprojectlib-0.0.1.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+pyprojectlib-0.0.1.dist-info/METADATA,sha256=b10XgSIUlUe7f9tTTIQn1XEvoMryAADBgnzoIVcy1II,43077
+pyprojectlib-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pyprojectlib-0.0.1.dist-info/top_level.txt,sha256=as47APLjeQeF7iTA0S35KzHM9ePSr14Yorx4tF2iV_I,13
+pyprojectlib-0.0.1.dist-info/RECORD,,
