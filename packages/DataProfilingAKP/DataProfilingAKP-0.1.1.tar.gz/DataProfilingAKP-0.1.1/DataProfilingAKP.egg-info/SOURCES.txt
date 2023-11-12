@@ -1,0 +1,7 @@
+setup.py
+DataProfilingAKP.egg-info/PKG-INFO
+DataProfilingAKP.egg-info/SOURCES.txt
+DataProfilingAKP.egg-info/dependency_links.txt
+DataProfilingAKP.egg-info/top_level.txt
+Library/DataProfileAKP.py
+Library/__init__.py
