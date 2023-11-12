@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+poTranslation.egg-info/PKG-INFO
+poTranslation.egg-info/SOURCES.txt
+poTranslation.egg-info/dependency_links.txt
+poTranslation.egg-info/entry_points.txt
+poTranslation.egg-info/requires.txt
+poTranslation.egg-info/top_level.txt
+poTranslator/__init__.py
+poTranslator/cli.py
+poTranslator/core.py
+poTranslator/ms.py
