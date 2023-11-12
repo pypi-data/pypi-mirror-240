@@ -1,0 +1,8 @@
+LICENSE
+README.md
+just_playlists.py
+pyproject.toml
+just_playlists.egg-info/PKG-INFO
+just_playlists.egg-info/SOURCES.txt
+just_playlists.egg-info/dependency_links.txt
+just_playlists.egg-info/top_level.txt
