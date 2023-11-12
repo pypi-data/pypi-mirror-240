@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: PolygonCollision
+Version: 0.0.4
+Summary: A simple python collision dectection tool
+Author: made-up
+Project-URL: Homepage, https://github.com/vertmit/PolygonCollision
+Project-URL: Bug Tracker, https://github.com/vertmit/PolygonCollision/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+<img src="https://raw.githubusercontent.com/vertmit/PolygonCollision/aa4848617edbad97b15d97c889084a235e973b6f/logo.png" width="200"/>
+<br>
+
+PolygonCollision is a Python module designed for efficient collision detection between 2D polygons. Using the Separating Axis Theorem (SAT), this library enables precise detection of intersections between polygons, making it an essential tool for game developers, simulations, and applications requiring accurate collision detection between shapes.
+
+# Features:
+Polygon Collision Detection: Determine whether two 2D polygons overlap with accurate collision detection algorithms.
+Customizable Shapes: Define custom 2D shapes by specifying their vertices as Vector objects.
+Calculate verlocity: Calculate the verlocity between two different shapes.
+Efficient Algorithm: Implementing the Separating Axis Theorem (SAT) ensures fast and reliable collision detection for complex polygons.
+
+# How It Works:
+The library checks for collisions by projecting the shapes onto various axes and checking if the projections overlap. If there is no axis along which the projections of the two shapes do not overlap, they are colliding.
+
+# Code Examples:
+```Python
+import PolygonCollision
+from PolygonCollision.shape import Shape
+from PolygonCollision import velocity
+
+# Create two shapes
+shape1 = Shape(vertices=[(0, 0), (2, 0), (2, 2), (0, 2)], radius=1)
+shape2 = Shape(vertices=[(5, 5), (7, 5), (7, 7), (5, 7)])
+
+# Display initial positions and sizes of shapes
+print("Initial position of shape1:", shape1.get_pos())
+print("Initial position of shape2:", shape2.get_pos())
+print("Initial width of shape1:", shape1.get_width())
+print("Initial height of shape1:", shape1.get_height())
+print("Initial vertices of shape2:", shape2.get_vertices())
+
+# Calculate the velocity between the two shapes
+velocity = velocity.calculate_velocity(shape1, shape2)
+
+# Apply the velocity to both shapes for the next frame
+new_position_shape1 = velocity.apply_velocity(shape1, velocity)
+new_position_shape2 = velocity.apply_velocity(shape2, velocity)
+
+# Output the results
+print("\nNew position of shape1:", new_position_shape1)
+print("New position of shape2:", new_position_shape2)
+
+# Check for collision between the two shapes
+collision_result = shape1.collide(shape2)
+print("\nCollision between shape1 and shape2:", collision_result)
+
+# Move shape1 and display its new position
+shape1.move(2, 2)
+print("\nPosition of shape1 after movement:", shape1.get_pos())
+
+# Move shape2 to a specific position and display its new position
+shape2.move_to(10, 10)
+print("Position of shape2 after movement:", shape2.get_pos())
+
+# Edit a vertex of shape1 and display its new vertices
+shape1.edit_vertex(1, pos=(3, 3))
+print("\nVertices of shape1 after editing vertex 1:", shape1.get_vertices())
+```
+Output
+```Output
+POLYGON COLLISION!!!
+no circle collision
+```
+# License:
+This Collision Detection Library is licensed under the MIT License - see the LICENSE file for details.
