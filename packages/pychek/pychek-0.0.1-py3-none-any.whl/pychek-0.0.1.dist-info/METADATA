@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pychek
+Version: 0.0.1
+Summary: Streaming video data via networks
+Home-page: UNKNOWN
+Author: xbais (Aakash Singh Bais)
+Author-email: <aakash@aioniaepochi.org>
+License: UNKNOWN
+Keywords: python,print,profiler
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argparse
+Requires-Dist: colorama
+Requires-Dist: psutil
+Requires-Dist: pyfiglet
+Requires-Dist: setuptools
+Requires-Dist: tqdm
+
+A smarter print and profile for Python execution checks.
+
