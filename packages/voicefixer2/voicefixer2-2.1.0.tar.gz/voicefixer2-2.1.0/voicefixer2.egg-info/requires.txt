@@ -1,0 +1,8 @@
+matplotlib
+torch>=1.7.0
+progressbar
+torchlibrosa==0.0.7
+GitPython
+streamlit
+pyyaml
+pydub
