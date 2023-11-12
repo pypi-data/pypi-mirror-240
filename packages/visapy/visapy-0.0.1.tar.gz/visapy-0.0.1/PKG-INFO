@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: visapy
+Version: 0.0.1
+Summary: A package to help you build your own agent-based model with the VISA protocol
+Project-URL: Homepage, https://github.com/AgentLabCn/visapy
+Project-URL: Bug Tracker, https://github.com/AgentLabCn/visapy/issues
+Author-email: AgentLabCn <hezhou@ucas.ac.cn>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# visapy
+
+This package helps you to easily create an agent-based model (ABM) under the VISA protocol.
