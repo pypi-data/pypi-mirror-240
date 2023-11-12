@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pychek
+Version: 0.0.2.4
+Summary: A smarter print and profile for Python execution checks.
+Home-page: UNKNOWN
+Author: xbais (Aakash Singh Bais)
+Author-email: <aakash@aioniaepochi.org>
+License: UNKNOWN
+Keywords: python,print,profiler
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argparse
+Requires-Dist: colorama
+Requires-Dist: psutil
+Requires-Dist: pyfiglet
+Requires-Dist: setuptools
+Requires-Dist: tqdm
+
+# pyChek : A Smarter Print for Execution Checks
+A Python Library to Track Program Progress
+![2023-11-01_03-33](https://github.com/aakashsinghbais/pyprodigy/assets/56718090/b5eb78db-c61f-4e37-8933-73fe9a7ee363)
+
+# Dependencies
+Please make sure that the following Python packages are installed on your system / virtual environment : tqdm, colorama, pyfiglet, psutil
+
+# Installation
+Simply run the following:
+```bash
+pip install pychek
+```
+
+# Usage
+First, add `from pychek import check` to your program header. Then, you can do the following wherever needed in the program :
+1. `check("header", "Your Header Goes Here")` : Print the graffitti header.
+2. `check("pass", "Your custom pass message here")`
+3. `check("info", "Your custom info message here")`
+4. `check("finish")` : program execution finishes here.
+
+# Updates & Other Info
+**Github:** [https://github.com/xbais/pychek](https://github.com/xbais/pychek)
+
+
