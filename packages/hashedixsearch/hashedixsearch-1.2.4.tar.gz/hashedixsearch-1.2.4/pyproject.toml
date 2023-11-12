@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [
+    {name = "James Addison", email = "james@reciperadar.com"},
+]
+classifiers=[
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)"
+]
+dependencies = [
+    "hashedindex >= 0.10.0"
+]
+description = "in-process search-engine for python"
+license = { text = "AGPL-3.0-or-later" }
+name = "hashedixsearch"
+readme = { content-type = "text/markdown", file = "README.md" }
+requires-python = ">= 3.8"
+urls = { Homepage = "https://pypi.org/project/hashedixsearch/", Source = "https://github.com/openculinary/hashedixsearch.git/" }
+version = "1.2.4"
+
+[tool.setuptools]
+packages = ["hashedixsearch"]

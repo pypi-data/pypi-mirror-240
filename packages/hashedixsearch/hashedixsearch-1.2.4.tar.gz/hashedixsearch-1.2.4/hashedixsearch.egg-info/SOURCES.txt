@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+hashedixsearch/__init__.py
+hashedixsearch/_utils.py
+hashedixsearch/search.py
+hashedixsearch.egg-info/PKG-INFO
+hashedixsearch.egg-info/SOURCES.txt
+hashedixsearch.egg-info/dependency_links.txt
+hashedixsearch.egg-info/requires.txt
+hashedixsearch.egg-info/top_level.txt
+tests/test_benchmark.py
+tests/test_search.py
