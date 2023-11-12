@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: blarg
+Version: 0.2.0
+Summary: My new blog
+Author-email: Daniel Roy Greenfeld <daniel@feldroy.com>
+Maintainer-email: Daniel Roy Greenfeld <daniel@feldroy.com>
+License: GNU General Public License v3
+Project-URL: Homepage, https://github.com/pydanny/blarg
+Project-URL: Bug Tracker, https://github.com/pydanny/blarg/issues
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: jinja2
+Requires-Dist: typer
+Requires-Dist: rich
+Requires-Dist: jinja2 ~=3.0
+Requires-Dist: markdown ~=3.2
+Requires-Dist: pymdown-extensions
+Requires-Dist: pygments
+Requires-Dist: watchdog
+Provides-Extra: dev
+Requires-Dist: ruff ; extra == 'dev'
+
+# Blarg README
+
+A static site generator
+
+## Installation:
+
+```
+git clone git@github.com:pydanny/blarg.git
+cd blarg
+pip install -e .
+```
+
+## Building:
+
+```
+blarg build .
+```
+
+
+## Serving the site:
+
+```
+blarg serve
+```
+
+## Release to PyPI
+
+Create a pull request that:
+
+1. Adds release notes to `CHANGELOG.md`.
+
+2. Updates the `VERSION` constant in `pyproject.toml` and .
+
+Commit these changes in a single commit with subject matching
+`Bump version to v...`.
+
+After merging the pull request, push an annotated tag to Github with:
+
+```sh
+make tag
+```
+
+This will trigger a Github action to publish the package to PyPI.
+
+Note: Until we're configured, just do this to release:
+
+```
+pip install -U build twine
+python -m build
+twine upload dist/*
+```
