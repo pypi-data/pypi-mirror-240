@@ -1,0 +1,2 @@
+[repo2docker.engines]
+kaniko = repo2kaniko.kaniko:KanikoEngine
