@@ -1,0 +1,6 @@
+timestamp: 1699698726890, datetime: 2023-11-11 11:34:56.370282, data_gigabytes [GB]: 0.44, throughput_gigabits [Gb/s]: 0.19, parallel_transfers: 4, queued_transfers: 6
+timestamp: 1699699398974, datetime: 2023-11-11 11:43:58.389416, data_gigabytes [GB]: 1.54, throughput_gigabits [Gb/s]: 3.42, parallel_transfers: 2, queued_transfers: 1
+timestamp: 1699699602546, datetime: 2023-11-11 11:47:00.479629, data_gigabytes [GB]: 0.61, throughput_gigabits [Gb/s]: 0.1, parallel_transfers: 1, queued_transfers: 3
+timestamp: 1699699798247, datetime: 2023-11-11 11:51:02.625194, data_gigabytes [GB]: 0.2, throughput_gigabits [Gb/s]: 0.2, parallel_transfers: 1, queued_transfers: 0
+timestamp: 1699699982406, datetime: 2023-11-11 11:54:04.629154, data_gigabytes [GB]: 0.28, throughput_gigabits [Gb/s]: 0.03, parallel_transfers: 3, queued_transfers: 0
+timestamp: 1699700143983, datetime: 2023-11-11 11:56:07.040555, data_gigabytes [GB]: 0.42, throughput_gigabits [Gb/s]: 0.1, parallel_transfers: 1, queued_transfers: 0
