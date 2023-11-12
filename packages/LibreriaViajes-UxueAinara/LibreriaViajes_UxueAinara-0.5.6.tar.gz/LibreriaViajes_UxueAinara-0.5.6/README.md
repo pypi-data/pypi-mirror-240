@@ -1,0 +1,56 @@
+# VIAJES
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+Esta es una librería que proporciona información de interes de lugares. Con el objetivo de facilitar la obtencion de informacion para viajeros como informacion meteorológica, turística, monetaria y una calculadora de distancia entre dos lugares, 
+
+## Contenido
+
+- [Instalación](#Instalación)
+- [Documentación Completa](#Documentación-completa)
+- [Uso](#Uso)
+- [Licencia](#licencia)
+
+# Instalación
+
+Puedes instalar la librería usando pip: pip install LibreriaViajes_UxueAinara
+
+
+# Documentación Completa
+## Clase DestinoInfo
+La clase DestinoInfo proporciona métodos para obtener información meteorológica y turística de un destino.
+
+    - Método obtener_coordenadas(ciudad): Obtiene las coordenadas geográficas (latitud y longitud) de una ciudad utilizando la API de OpenWeatherMap.
+    - Método obtener_datos_meteorologicos(ciudad): Utiliza la API de OpenWeatherMap para obtener datos meteorológicos de la ciudad especificada.
+    - Método obtener_informacion_turistica(ciudad, query): Devuelve información turística de la ciudad, filtrada por un término de búsqueda.
+
+## Clase CalculadoraDeDistancia
+La clase CalculadoraDeDistancia permite calcular la distancia en kilómetros entre dos lugares utilizando las coordenadas geográficas.
+
+    - Método validar_coordenadas(lat, lon): Valida las coordenadas de un punto.
+    - Método haversine_distance(ciudad): Devuelve las coordenadas verificadas de una ciudad.
+    - Método calcular_distancia(): Calcula la distancia en kilómetros entre dos puntos.
+
+## Clase ConversorDeMoneda
+La clase ConversorDeMoneda permite realizar conversiones de moneda utilizando una API de tipos de cambio.
+
+    - Método cambio_moneda(base_currency, target_currency, cantidad=1): Realiza la conversión de una cantidad de una moneda base a una moneda objetivo utilizando la API de Open Exchange Rates.
+
+
+# Uso
+from LibreriaViajes_UxueAinara import DestinoInfo, CalculadoraDeDistancia, ConversorDeMoneda
+
+### Ejemplo de uso de la información meteorológica
+info_meteorologica = DestinoInfo().obtener_datos_meteorologicos("Bilbao")
+
+### Ejemplo de uso de la información turística
+info_turistica = DestinoInfo().obtener_informacion_turistica("Bilbao", "Restaurant")
+
+### Ejemplo de uso de la calculadora de distancia
+distancia_entre_lugares = CalculadoraDeDistancia("Bilbao", "San Sebastian").calcular_distancia()
+
+### Ejemplo de uso del conversor de moneda
+cambio_moneda = ConversorDeMoneda().cambio_moneda("USD", "EUR", cantidad=100)
+
+
+
