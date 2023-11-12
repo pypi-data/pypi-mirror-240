@@ -1,0 +1,8 @@
+tanji/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tanji/asymmetric.py,sha256=y2OMgXsH6okqih63XOajdQH09VuJ4a4xS1XLKERgSOI,1314
+tanji/secrets.py,sha256=vehIh9w8qAVzb3houJNGgi5tF-gRlu21xab0lXUasTE,25
+tanji/symmetric.py,sha256=FkgMAU_DMS6Yvn-Q7cJsbWXBqCwl42Sjz_D9v7SR65g,1030
+tanji/tanji.py,sha256=dry0D419xuy8p4eb4JqeWF54KsI6SbC6t3emV17fVVw,1326
+tanji-1.0.3.dist-info/METADATA,sha256=W41YkoE_P2vu_lvhuuAIAhFeEGwOeQTFaw174upgk1I,3341
+tanji-1.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+tanji-1.0.3.dist-info/RECORD,,
