@@ -1,0 +1,63 @@
+{
+    "class_name": "PrimerGeneratorUI",
+    "filename": "primer_generator_ui.py",
+    "settings": {
+        "load_file_label": "Load FASTA file",
+        "load_file_type": "FASTA files",
+        "load_file_ext": "*.fasta",
+        "T_inputs": {
+            "target_Tm": "Target Tm (°C)",
+            "min_Tm": "Minimum Tm (°C)",
+            "max_Tm": "Maximum Tm (°C)",
+            "max_Tm_delta": "Maximum Tm delta (°C)",
+            "max_hairpin_Tm": "Maximum hairpin Tm (°C)"
+        },
+        "T_input_increment": 0.1,
+        "length_inputs": {
+            "target_length": "Target length (nt)",
+            "min_length": "Minimum length (nt)",
+            "max_length": "Maximum length (nt)"
+        },
+        "force_GC_end_label": "Force G/C at 3' end",
+        "save_file_label": "Save primer sequences",
+        "save_file_type": "XLSX files",
+        "save_file_ext": "*.xlsx",
+        "generate_primers_label": "Generate primers",
+        "primer_generator_frame_label": "Primer Generator",
+        "primer_checker_frame_label": "Primer Checker",
+        "primer_properties_frame_label": "Primer Properties",
+        "layout_full": {
+            "frames": [
+                ["primer_generator_frame", "primer_properties_frame"],
+                ["primer_checker_frame", "primer_properties_frame"]
+            ],
+            "primer_generator_frame": {
+                "elements": [
+                    ["load_file_button", "load_file_input"],
+                    ["target_Tm_label", "target_Tm_spinbox"],
+                    ["min_Tm_label", "min_Tm_spinbox"],
+                    ["max_Tm_label", "max_Tm_spinbox"],
+                    ["max_Tm_delta_label", "max_Tm_delta_spinbox"],
+                    ["max_hairpin_Tm_label", "max_hairpin_Tm_spinbox"],
+                    ["target_length_label", "target_length_spinbox"],
+                    ["min_length_label", "min_length_spinbox"],
+                    ["max_length_label", "max_length_spinbox"],
+                    ["force_GC_end_label", "force_GC_end_toggle"],
+                    ["save_file_button", "save_file_input"],
+                    ["generate_primers_button","generate_primers_button"]
+                ]
+            },
+            "primer_checker_frame": {
+                "elements": [
+                    ["sequence_text"],
+                    ["primer_checker_button"]
+                ]
+            },
+            "primer_properties_frame": {
+                "elements": [
+                    ["property_table"]
+                ]
+            }
+        }
+    }
+}
