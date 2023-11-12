@@ -1,0 +1,2 @@
+class VTEXException(Exception):
+    pass
