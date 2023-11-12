@@ -1,0 +1,10 @@
+watch_xfce_xfconf/__init__.py,sha256=OyMJfh9CSDQNRY7kYyjvczXprcc1pFO5Yp4mqVm2yC4,1934
+watch_xfce_xfconf/xfconf.py,sha256=TuHXx2OVdBSPah6PoIlghYkmUd55EHgJaw6W8_mxRnI,6060
+watch_xfce_xfconf/xfconf_helpers.py,sha256=_Iucb9oF1DgcFNe6G_38JblyIEeidLmBg4lhVRQWgVg,1907
+watch_xfce_xfconf/xfconf_item.py,sha256=fWY2LE3w_Cqg0FI0v4FVYnmvH9rx88CGtJV0aeGekhM,2231
+watch_xfce_xfconf-1.0.5.dist-info/LICENSE,sha256=swfjZLFKOwo9XXAxmzDSW094S4GlRQ8FqNvpcYG4eQY,1064
+watch_xfce_xfconf-1.0.5.dist-info/METADATA,sha256=dUyhX9uJIw80xCbuHv4gYO5whkjS77PaXFC6ttuGPOM,3768
+watch_xfce_xfconf-1.0.5.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+watch_xfce_xfconf-1.0.5.dist-info/entry_points.txt,sha256=KCUNXlh6X2wLvms7MB0wq4G30Q6MY3bRMkuIsfFXmVI,83
+watch_xfce_xfconf-1.0.5.dist-info/top_level.txt,sha256=9THGBDldGdMf6aN8f9Gs9e7cUYIaaTU4WkG09we3CrY,18
+watch_xfce_xfconf-1.0.5.dist-info/RECORD,,
