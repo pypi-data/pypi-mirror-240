@@ -1,0 +1,8 @@
+README.md
+setup.py
+protein_interaction/__init__.py
+protein_interaction/get_interaction.py
+protein_interaction.egg-info/PKG-INFO
+protein_interaction.egg-info/SOURCES.txt
+protein_interaction.egg-info/dependency_links.txt
+protein_interaction.egg-info/top_level.txt
