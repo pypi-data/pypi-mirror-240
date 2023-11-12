@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+proceduralSettingsWidget/__init__.py
+proceduralSettingsWidget/inputWidgets.py
+proceduralSettingsWidget/parameters.py
+proceduralSettingsWidget/settingsWidget.py
+proceduralSettingsWidget/version.py
+proceduralSettingsWidget.egg-info/PKG-INFO
+proceduralSettingsWidget.egg-info/SOURCES.txt
+proceduralSettingsWidget.egg-info/dependency_links.txt
+proceduralSettingsWidget.egg-info/requires.txt
+proceduralSettingsWidget.egg-info/top_level.txt
