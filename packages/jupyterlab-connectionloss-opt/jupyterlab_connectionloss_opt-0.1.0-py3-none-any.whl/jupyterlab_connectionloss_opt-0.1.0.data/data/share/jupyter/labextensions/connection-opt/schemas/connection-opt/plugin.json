@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "connection-opt",
+  "description": "connection-opt settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
