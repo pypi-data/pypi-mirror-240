@@ -1,0 +1,6 @@
+argparse
+colorama
+psutil
+pyfiglet
+setuptools
+tqdm

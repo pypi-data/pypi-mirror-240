@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pychek/__init__.py
+pychek/main.py
+pychek.egg-info/PKG-INFO
+pychek.egg-info/SOURCES.txt
+pychek.egg-info/dependency_links.txt
+pychek.egg-info/requires.txt
+pychek.egg-info/top_level.txt
