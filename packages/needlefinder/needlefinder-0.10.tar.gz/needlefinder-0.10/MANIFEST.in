@@ -1,0 +1,3 @@
+include needlefinder/requirements.txt
+include needlefinder/thirdparty.json
+include needlefinder/README.MD
