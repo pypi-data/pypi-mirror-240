@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+grayness_index/__init__.py
+grayness_index/gi.py
+grayness_index_python.egg-info/PKG-INFO
+grayness_index_python.egg-info/SOURCES.txt
+grayness_index_python.egg-info/dependency_links.txt
+grayness_index_python.egg-info/requires.txt
+grayness_index_python.egg-info/top_level.txt
