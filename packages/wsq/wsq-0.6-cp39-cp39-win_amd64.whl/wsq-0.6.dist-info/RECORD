@@ -1,0 +1,12 @@
+_wsq.cp39-win_amd64.pyd,sha256=_ZBOf9LK8J5LfRM7S3gwr6uunO5m6ab1j37Srss1knk,82944
+wsq/WsqImagePlugin.py,sha256=Ov_ik1gZKjVlp-7tHCo1BoseX53IkpTOqDuBKE7PoPM,4350
+wsq/__init__.py,sha256=p_UwJR8BSwkpqID9TUVLPiCR4469DuyySpNQcIGiZLY,166
+wsq/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wsq/tests/test.wsq,sha256=dkAS_zB_6J6jSjFEu3-2Kf1vm36twUIy6EKifsOoNkM,22887
+wsq/tests/test_wsq.py,sha256=KFyzTX6uovPJLMMJAteBe9VZHAYJvCDrltuRLl_uC0s,1670
+wsq-0.6.dist-info/AUTHORS.rst,sha256=umHTvzk9MyzgyTpnRoOfdn6LCkHcC_8zmCJHRVhCFOQ,579
+wsq-0.6.dist-info/LICENSE,sha256=rcS4Ezder64UK2xKtmfvSN1musYF0otXXCjj7vM36Pg,22380
+wsq-0.6.dist-info/METADATA,sha256=AnUenkxDLMXIENu5ieOUAN8F2Xs_ed8iDKYohrIkNh0,2927
+wsq-0.6.dist-info/WHEEL,sha256=QEPhY-QL5bUCGe8xLO1ow2Nlf5beRmRJkZ8YmG0I2hM,100
+wsq-0.6.dist-info/top_level.txt,sha256=ssp9981NSlBaxhDei3eMOjC8qvDAxDIpSVBhJLCQbLQ,9
+wsq-0.6.dist-info/RECORD,,
