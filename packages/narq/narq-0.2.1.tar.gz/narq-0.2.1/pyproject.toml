@@ -1,0 +1,64 @@
+[tool.poetry]
+name = "narq"
+version = "0.2.1"
+description = "A distributed task queue built with asyncio and redis, with built-in web interface"
+authors = ["Adrian <adriandinis99@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/kita99/narq.git"
+repository = "https://github.com/kita99/narq.git"
+documentation = "https://github.com/kita99/narq/blob/master/README.md"
+keywords = ["asyncio", "task", "arq", "queue", "distributed"]
+packages = [
+    { include = "narq" }
+]
+include = ["LICENSE", "README.md", "CHANGELOG.md"]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+click = "*"
+redis = "^5.0.1"
+crontab = "*"
+fastapi = { version = "*", extras = ["all"] }
+loguru = "*"
+aiofiles = "*"
+asyncmy = { version = "^0.2.8", optional = true }
+asyncpg = { version = "*", optional = true }
+tortoise-orm = { version = "^0.20.0" }
+async-timeout = "^4.0.3"
+
+[tool.poetry.dev-dependencies]
+ruff = "*"
+isort = "*"
+black = "*"
+pytest = "*"
+pytest-xdist = "*"
+mypy = "*"
+pytest-asyncio = "*"
+cryptography = "*"
+types-redis = "*"
+
+[tool.poetry.extras]
+postgres = ["asyncpg"]
+mysql = ["asyncmy"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+narq = "narq.cli:main"
+
+[tool.black]
+line-length = 100
+target-version = ['py36', 'py37', 'py38', 'py39']
+
+[tool.pytest.ini_options]
+asyncio_mode = 'auto'
+
+[tool.mypy]
+pretty = true
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 100
