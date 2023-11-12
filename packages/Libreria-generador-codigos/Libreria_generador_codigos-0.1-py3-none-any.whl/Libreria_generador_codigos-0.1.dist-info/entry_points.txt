@@ -1,0 +1,3 @@
+[console_scripts]
+trabajo_grupal.py = Libreria_generador_codigos.trabajo_grupal.py:main
+
