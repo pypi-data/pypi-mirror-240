@@ -1,0 +1,2 @@
+[console_scripts]
+currency_symbol_extract = currency_extractor_easyocr.currency_extract:main
