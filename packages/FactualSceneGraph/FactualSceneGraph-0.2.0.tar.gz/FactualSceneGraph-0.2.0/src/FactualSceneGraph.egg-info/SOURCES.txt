@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+src/FactualSceneGraph.egg-info/PKG-INFO
+src/FactualSceneGraph.egg-info/SOURCES.txt
+src/FactualSceneGraph.egg-info/dependency_links.txt
+src/FactualSceneGraph.egg-info/requires.txt
+src/FactualSceneGraph.egg-info/top_level.txt
+src/evaluation_metrics/__init__.py
+src/evaluation_metrics/soft_spice.py
+src/evaluation_metrics/soft_spice_utils.py
+src/evaluation_metrics/spice_utils.py
+src/evaluation_metrics/utils.py
+src/sng_parser/__init__.py
+src/sng_parser/scene_graph_parser.py
+src/sng_parser/utils.py
