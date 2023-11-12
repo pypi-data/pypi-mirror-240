@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: deepehrgraph
+Version: 0.2.0
+Summary: 
+Author: francois.cokelaer
+Author-email: francois.cokelaer@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: lightning (>=2.1.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# deep-ehr-graph
+deep-ehr-graph
+
