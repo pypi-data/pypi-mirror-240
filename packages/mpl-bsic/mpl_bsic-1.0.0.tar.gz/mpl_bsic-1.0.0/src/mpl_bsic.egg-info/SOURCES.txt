@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/mpl_bsic.egg-info/PKG-INFO
+src/mpl_bsic.egg-info/SOURCES.txt
+src/mpl_bsic.egg-info/dependency_links.txt
+src/mpl_bsic.egg-info/entry_points.txt
+src/mpl_bsic.egg-info/requires.txt
+src/mpl_bsic.egg-info/top_level.txt

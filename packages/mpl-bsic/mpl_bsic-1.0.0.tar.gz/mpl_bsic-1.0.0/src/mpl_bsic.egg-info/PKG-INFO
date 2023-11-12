@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: mpl-bsic
+Version: 1.0.0
+Summary: BSIC's plotting library
+Home-page: https://github.com/NotFrancee/mpl_bsic
+Author: Andrea Franceschini
+Author-email: andrea.franceschini2@studbocconi.it
+Project-URL: Bug Reports, https://github.com/NotFrancee/mpl_bsic/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/NotFrancee/mpl_bsic
+Keywords: plotting matplotlib style
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.12, <4
+Description-Content-Type: text/markdown
+Requires-Dist: peppercorn
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+
+# AF's Utils Package
+
+## Read Docs
+
+1. Download the docs.pdf file
+
+## If the matplotlib fonts does not work
+
+You have to install the .ttf and clean your matplotlib cache (full guide to come)
+
+Hosted docs page WIP!
