@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+nsb_ml_py_pkg.egg-info/PKG-INFO
+nsb_ml_py_pkg.egg-info/SOURCES.txt
+nsb_ml_py_pkg.egg-info/dependency_links.txt
+nsb_ml_py_pkg.egg-info/requires.txt
+nsb_ml_py_pkg.egg-info/top_level.txt
