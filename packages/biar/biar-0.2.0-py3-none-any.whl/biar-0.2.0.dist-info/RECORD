@@ -1,0 +1,12 @@
+biar/__init__.py,sha256=YuCxJT5pmn5HkL10JodwZr_Pi381B2URVyWpoNPywdA,553
+biar/__metadata__.py,sha256=pGyBuE2fDmwpzNnXBZplTXdrAWxtVSWfdHb3V3Nekvg,264
+biar/services.py,sha256=dM6LsnulXG-zPxs2zq2prQh93S_0nuJqu3fcfGSAh9A,12381
+biar/user_agents.py,sha256=5AH5uCy3IzYUF9h_0jyzQGLpA18Crm_MIj2g_FmZLAY,1776
+tests/unit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/biar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/unit/biar/test_services.py,sha256=1QOJZsa-Men0BeiXMP9t2dmoXL6gb3TM7BYb5H3O9vk,6093
+biar-0.2.0.dist-info/LICENSE,sha256=m3HC0qNbLncIe7vnd_JejI5_SXhK8lhuZQFg4pJs0jI,1071
+biar-0.2.0.dist-info/METADATA,sha256=AieilGZVOnU8lKHBUhJDwbEqOumnmXXa87f8xa3MgVY,4376
+biar-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+biar-0.2.0.dist-info/top_level.txt,sha256=hUnWMuwdHGmLdF1dnWYyU1AB_mkZnNSVuOAMLqKBrEE,11
+biar-0.2.0.dist-info/RECORD,,
