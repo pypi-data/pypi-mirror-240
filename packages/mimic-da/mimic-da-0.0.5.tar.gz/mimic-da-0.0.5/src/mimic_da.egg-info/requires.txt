@@ -1,0 +1,10 @@
+numpy>=1.24.3
+pandas>=2.0.3
+scipy>=1.5.0
+networkx>=2.5.1
+matplotlib
+samba-metric>=0.0.9
+MIPMLP>=1.2.8
+pyqt5==5.15.10
+ete3==3.1.2
+statsmodels>=0.14.0
