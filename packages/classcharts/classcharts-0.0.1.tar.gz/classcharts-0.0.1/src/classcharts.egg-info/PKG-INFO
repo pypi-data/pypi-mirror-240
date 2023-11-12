@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: classcharts
+Version: 0.0.2
+Summary: A package for accessing the Classcharts API
+Author-email: Duzo <duz.0@outlook.com>
+Project-URL: Homepage, https://github.com/duzos/classcharts-api-python
+Project-URL: Bug Tracker, https://github.com/duzos/classcharts-api-python/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ClassCharts API
+
+## Dependencies
+
+This package requires requests to work
+
+```cmd
+pip install requests
+```
+
+## Completed
+
+### Clients
+
+- [x] Supports Student clients
+- [ ] Support Parent Clients
+- [ ] Auto log back in after 3 minutes
+
+### Information
+
+#### Unchecked boxes means utilities to make accessing them easier have not been created
+
+- [ ] Announcements
+- [ ] Homework
+- [ ] Homework Statuses
+- [ ] Behaviour Points
+- [ ] Rewards
+- [ ] Student Information
+- [ ] Timetable Lesson
+- [ ] Day Timetable

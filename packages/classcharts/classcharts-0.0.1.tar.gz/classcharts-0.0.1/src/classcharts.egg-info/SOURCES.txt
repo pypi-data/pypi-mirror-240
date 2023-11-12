@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/classcharts/Clients.py
+src/classcharts/__init__.py
+src/classcharts/clients.py
+src/classcharts.egg-info/PKG-INFO
+src/classcharts.egg-info/SOURCES.txt
+src/classcharts.egg-info/dependency_links.txt
+src/classcharts.egg-info/top_level.txt
