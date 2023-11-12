@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+augmentiX.egg-info/PKG-INFO
+augmentiX.egg-info/SOURCES.txt
+augmentiX.egg-info/dependency_links.txt
+augmentiX.egg-info/entry_points.txt
+augmentiX.egg-info/requires.txt
+augmentiX.egg-info/top_level.txt
+augmentix/__init__.py
+augmentix/augmentor.py
+augmentix/main.py
+augmentix/process_augmentor.py
+augmentix/utils.py
