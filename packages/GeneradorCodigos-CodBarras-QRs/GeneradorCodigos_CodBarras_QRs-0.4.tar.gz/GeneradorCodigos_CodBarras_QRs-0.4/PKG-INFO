@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: GeneradorCodigos_CodBarras_QRs
+Version: 0.4
+Summary: Libreria diseñada para la creación de QRs para tiendas con páginas web, especialmente eCommerce, donde además tiene la posibilidad de generar códigos de barras para cada uno de los distintos productos que están a la venta en la tienda.
+Home-page: https://github.com/nahiaunceta/GuardarCodigo_Progra_bda4_Sara_Nahia.git
+Author: Sara & Nahia
+Author-email: sara.crego@alumni.mondragon.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# GuardarCodigo_Progra_bda4_Sara_Nahia
+
+README: ExplicaciÃ³n del CÃ³digo
+
+### Clase GuardarCodigo
+
+La clase `GuardarCodigo` sirve como clase base para guardar cÃ³digos generados como imÃ¡genes. Incluye un mÃ©todo `guardar_imagen` para almacenar imÃ¡genes en una carpeta especÃ­fica con un directorio, nombre y extensiÃ³n dados.
+
+### Clase GeneradorDominioYQR
+
+La clase `GeneradorDominioYQR`, que hereda de `GuardarCodigo`, genera dominios web a partir de nombres dados y cÃ³digos QR a partir de esos dominios. Contiene los siguientes mÃ©todos:
+
+- `init(nombre_sitio_web)`: Inicializa una instancia con el nombre del sitio web proporcionado.
+- `generar_dominio()`: Genera un URL de dominio a partir del nombre del sitio web.
+- `generar_qr(carpeta_guardado='QRs', extension_guardado='png', tamano_cuadrado=10, tamano_borde=4)`: Genera un cÃ³digo QR a partir del dominio y lo guarda como una imagen con las caracterÃ­sticas introducidas.
+
+### Clase GeneradorCodigosDeBarras
+
+La clase `GeneradorCodigosDeBarras`, tambiÃ©n heredando de `GuardarCodigo`, genera cÃ³digos de barras EAN-13. Contiene el siguiente mÃ©todo:
+
+- `generar_codigo_de_barras(producto, codigo, carpeta_guardado='codigos_barras', extension_guardado='png')`: Genera un cÃ³digo de barras EAN-13 y lo guarda como una imagen. Toma un nombre de producto y un cÃ³digo de barras de 12 dÃ­gitos o genera uno aleatorio si no se proporciona.
+
+### Ejemplo
+
+Hay un ejemplo al final que demuestra cÃ³mo usar estas clases. Crea instancias de `GeneradorDominioYQR` y `GeneradorCodigosDeBarras`, genera un cÃ³digo QR para una tienda ficticia ("mi_tienda") y cÃ³digos de barras EAN-13 para dos productos ("Producto1" y "Producto2") con cÃ³digos predefinidos o generados aleatoriamente.
+
+Para ejecutar el ejemplo, ejecuta el script, y crearÃ¡ cÃ³digos QR e imÃ¡genes de cÃ³digos de barras en las carpetas especificadas. AsegÃºrate de tener instaladas las bibliotecas necesarias (`qrcode`, `os`, `random`, `barcode`) antes de ejecutar el script.
+
+SiÃ©ntete libre de adaptar e integrar estas clases en tus proyectos para generar cÃ³digos QR y cÃ³digos de barras.
+

@@ -1,0 +1,3 @@
+[console_scripts]
+trabajo_grupal.py = GeneradorCodigos_CodBarras_QRs.trabajo_grupal.py:main
+
