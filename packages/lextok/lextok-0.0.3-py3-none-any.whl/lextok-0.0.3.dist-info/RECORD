@@ -1,0 +1,15 @@
+lextok/__init__.py,sha256=K1Ln_KlynSdgfkM44wWfpscfwPZexGaj71JIBlxZjzw,586
+lextok/attrs.py,sha256=ptNyQhUHaUtUUq2XMp-l2jjA2EIZviSHVW0GgIml1oA,4590
+lextok/components/__init__.py,sha256=JkGI577Xpv9mEixNYHjtu4JuAFnodBBmPZ9Ph2tKktc,561
+lextok/components/_pattern.py,sha256=NJXg_8tvzdxHczXa7pl8bUAEHUx33rqe8MPQPspnju8,4440
+lextok/components/abbv.py,sha256=QelbbHr6rvTNsTlDCSKuoInPTmJvXMt_vEFq-_HgwE4,8439
+lextok/components/digit.py,sha256=5s77DInCy5523fTMDTaVSY99BP4jtFQmXS3YDjnKUbw,1547
+lextok/components/duo.py,sha256=esKP2tAS3gEy4pzoH3ETc_Mv62ytgT-R0m1_a07Ng8A,1265
+lextok/components/party.py,sha256=Ll9OzU9vBmj-36Fkj-RuDBcyX96xJrXfsuqmMhba3Zk,1870
+lextok/components/serial.py,sha256=h_N71UScTHo4eG0Je2xxV91SCW3kRWRZ-qYKqB4UkKI,6595
+lextok/components/year.py,sha256=pNe7Ql5rGZC0sPHsBKhFSf0X6zs_PZ5Q1NgV4nY37SY,453
+lextok/test.py,sha256=J3KJUSvLgjs77dUUd39PPdtEfMJbObPNi8sLQ7RDqys,1223
+lextok/tok.py,sha256=iZipayaHaY5znbzRstwnJaiUBQeAoaMNFD8EBuG5FCk,2706
+lextok-0.0.3.dist-info/METADATA,sha256=Ihi5ko61VS9ZJrurg77HhakdC5fjsHoj9DqN5I56Z-Q,3080
+lextok-0.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+lextok-0.0.3.dist-info/RECORD,,
