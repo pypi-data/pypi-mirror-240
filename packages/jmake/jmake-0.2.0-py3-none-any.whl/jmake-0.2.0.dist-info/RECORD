@@ -1,0 +1,12 @@
+jmake/__init__.py,sha256=Zj1UjhuNYfIc8RFsAknBU2AdB7Og2K-Z1jBfRxyf3Hw,408
+jmake/generator.py,sha256=3C370RN30K2mOTUKbMvkwnQvtG9TO4yU08O5pWEmn1o,14308
+jmake/jmake.py,sha256=yBN5wqWwhIh8rBgWivcKyCH4-oIutnow5NRxyoqrozg,8257
+jmake/scriptenv.py,sha256=JAsxK5XjDYio4Nz367jBNae9KLAX7bptuWwQWem50XY,621
+jmake/utils.py,sha256=cXy2t3liqUWwM9LcTOUsET831XCASlrP6LlaS1nLZFg,4998
+jmake/builtin/__init__.py,sha256=sa-YAzCWU9JqsuYwXIYUT0O3fbBPHQ1V6RjNFmKoXsY,279
+jmake/builtin/vulkan.py,sha256=BdhkNpTNfPtJvMtYARfg8F8GEv_pO-sTk6L_HfEzdgs,755
+jmake-0.2.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+jmake-0.2.0.dist-info/METADATA,sha256=jrGjbCTWOamb8xp_6qcpFW3mznGJrDugX7jpxHMRCdU,13526
+jmake-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+jmake-0.2.0.dist-info/top_level.txt,sha256=GeR703VlFurCIM6-u98vm4aWVg8wAtOvVz41iU0vwKk,6
+jmake-0.2.0.dist-info/RECORD,,
