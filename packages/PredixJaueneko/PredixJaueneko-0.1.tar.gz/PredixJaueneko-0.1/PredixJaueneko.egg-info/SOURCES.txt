@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+PredixJaueneko/__init__.py
+PredixJaueneko/develop.py
+PredixJaueneko/librerias.py
+PredixJaueneko.egg-info/PKG-INFO
+PredixJaueneko.egg-info/SOURCES.txt
+PredixJaueneko.egg-info/dependency_links.txt
+PredixJaueneko.egg-info/requires.txt
+PredixJaueneko.egg-info/top_level.txt

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PredixJaueneko
+Version: 0.1
+Summary: A package for data analysis and modeling by Jaueneko
+Home-page: https://github.com/enekoeo/jauenekoobtenermodelo
+Download-URL: https://github.com/enekoeo/jauenekoobtenermodelo/archive/refs/tags/v_01.tar.gz
+Author: Jaueneko
+Author-email: joneneko.echeandia@alumni.mondragon.edu
+License: MIT
+Keywords: data analysis,modeling,machine learning
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
