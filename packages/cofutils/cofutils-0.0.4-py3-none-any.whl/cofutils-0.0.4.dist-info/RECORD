@@ -1,0 +1,12 @@
+cofutils/__init__.py,sha256=3WoM6tRpqbkXS2j1Jaw-AkxxfuOj7MFpj8-lWFixdOs,540
+cofutils/cofcumem.py,sha256=gqaQ1rin-riRyxf4APeGTB8gmg4HG4xYVOZNcZgUL2w,628
+cofutils/coflog.py,sha256=PHGTB6wcYhcg-Z7Qt_6MM4Xq-NzIU_ekVY7jHkgC-ro,4550
+cofutils/coftime.py,sha256=XzaHIBjKgl1oVhk52hTWali6Q-z03k-0QuW0pQRnmlw,2898
+cofutils/csv_handler.py,sha256=hJ0icrso2_wjeT39gsK2KhTdNXJ1Z3BTW0it-Ko1yL4,713
+cofutils/dispatch.py,sha256=53j-Q312RwzH1oug8cJXlsJ_5f_277VMcXr1wZSZqOY,11489
+cofutils/package_info.py,sha256=tojibk1ptsxO4kGpL0TYfgRQJHE58h0g2O04Nzw49xw,285
+cofutils-0.0.4.dist-info/METADATA,sha256=8qZV7qG3r7TDR4IxCvd6NA_y8jP7kUByL1PMFeMGHJ0,4123
+cofutils-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cofutils-0.0.4.dist-info/entry_points.txt,sha256=kdYw4aR4QeVBq2QVCCtEJ69Ryqj9HlLS-VJdwgKLGA0,50
+cofutils-0.0.4.dist-info/top_level.txt,sha256=nizc5Bqv9RX2g9U6vWrbHJLJF9-1zjMVoV5_1oWCaFo,9
+cofutils-0.0.4.dist-info/RECORD,,
