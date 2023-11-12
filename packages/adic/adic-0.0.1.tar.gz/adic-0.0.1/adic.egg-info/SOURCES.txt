@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+adic/__init__.py
+adic/_modidx.py
+adic/core.py
+adic.egg-info/PKG-INFO
+adic.egg-info/SOURCES.txt
+adic.egg-info/dependency_links.txt
+adic.egg-info/entry_points.txt
+adic.egg-info/not-zip-safe
+adic.egg-info/requires.txt
+adic.egg-info/top_level.txt

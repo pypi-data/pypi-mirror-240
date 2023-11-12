@@ -1,0 +1,5 @@
+[console_scripts]
+adic = adic.commands:app
+
+[nbdev]
+adic = adic._modidx:d
