@@ -1,0 +1,19 @@
+From: noted@cern.ch
+To: carmen.misa.moreira@cern.ch
+Subject: [NOTED-SPECTRUM-test] Notification
+Hi,
+
+An action on the network is required...
+
+
+START MESSAGE: there is an on-going large data transfer that could potentially congest the link.
+
+Source: ['CH-CERN']
+Destination: ['DE-KIT']
+
+	Timestamp: 1699699398974
+	Amount of data [GB]: 1.54
+	Number of parallel transfers: 2
+	Number of queued transfers: 1
+	Throughput [Gb/s]: 3.42
+
