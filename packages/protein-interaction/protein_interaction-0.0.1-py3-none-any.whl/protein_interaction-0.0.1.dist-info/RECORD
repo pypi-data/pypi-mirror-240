@@ -1,0 +1,6 @@
+protein_interaction/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+protein_interaction/get_interaction.py,sha256=aQZVauIMvhJfyTKGG3Bg3kWRAOnYLpSx9Bo_-YE7Lk4,4761
+protein_interaction-0.0.1.dist-info/METADATA,sha256=zppZHgbrg8GOOtDjXHD4xVztYUE3bO_9moVlwAXyZtw,907
+protein_interaction-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+protein_interaction-0.0.1.dist-info/top_level.txt,sha256=zOpn-xrNBEtFZSS0nDq_oEmQuMjX3jo4M1IvOn4PmJ4,20
+protein_interaction-0.0.1.dist-info/RECORD,,
