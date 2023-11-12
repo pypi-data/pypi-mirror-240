@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: my-py-pkg-shv1
+Version: 1.0.7
+Summary: My first python package
+Home-page: https://github.com/asmaul_shahana/...
+Author: Asmaul Shahana
+Author-email: asmaulshahana@gmail.com
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: gradio
+
+# My ML Project
+
+Short description about the project
+
+## Description
+
+A comprehensive view
+of my project
+
+## installation
+
+How users can install the work
+
+## Contributors
+
+## License
+
