@@ -1,0 +1,12 @@
+_wsq.cpython-39-x86_64-linux-gnu.so,sha256=_ctdoIod6eSlV1Pv2CDJH1NQIxouiB6QxR__F7NozXI,735944
+wsq/__init__.py,sha256=RBWd7ooeMvXnkizkoUb3t2fuCTVT3HeSaYn9dLX_QIk,158
+wsq/WsqImagePlugin.py,sha256=OGGjmiDIJx7IN8o9tYvc954XzeuvYdpxns2DAiXqMg0,4215
+wsq/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wsq/tests/test.wsq,sha256=dkAS_zB_6J6jSjFEu3-2Kf1vm36twUIy6EKifsOoNkM,22887
+wsq/tests/test_wsq.py,sha256=FEycd3-faZxdfGbznnxYY8Y5enaL-ZrXOKxpPSNzTxU,1618
+wsq-0.6.dist-info/top_level.txt,sha256=ssp9981NSlBaxhDei3eMOjC8qvDAxDIpSVBhJLCQbLQ,9
+wsq-0.6.dist-info/AUTHORS.rst,sha256=AMWFts8435jYXlX429eYsEdj_Y6Zwud1vtbkJfUW2FI,565
+wsq-0.6.dist-info/METADATA,sha256=tw6SEG3j7tUyF3LWtL6iaRxe7DIugx47vDuze4SX54s,2823
+wsq-0.6.dist-info/RECORD,,
+wsq-0.6.dist-info/LICENSE,sha256=uFK0M159LmSA6q6RzZ2eAnLQJCECHHnyM0-PFqVV6YY,21863
+wsq-0.6.dist-info/WHEEL,sha256=nIxR5vuQPQ6CvC3h-1pWWXVV6Ku-TITLSJjpV-6iFqM,148
