@@ -1,0 +1,7 @@
+bert-finetuned-ner
+build
+data
+dist
+fast_token_classifier
+tests
+venv
