@@ -1,0 +1,7 @@
+setup.py
+Generador_Codbarras_QRs.egg-info/PKG-INFO
+Generador_Codbarras_QRs.egg-info/SOURCES.txt
+Generador_Codbarras_QRs.egg-info/dependency_links.txt
+Generador_Codbarras_QRs.egg-info/entry_points.txt
+Generador_Codbarras_QRs.egg-info/requires.txt
+Generador_Codbarras_QRs.egg-info/top_level.txt
