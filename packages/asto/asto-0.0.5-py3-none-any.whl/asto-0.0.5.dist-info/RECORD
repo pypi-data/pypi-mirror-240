@@ -1,0 +1,12 @@
+asto/__init__.py,sha256=rNoRu0IuM4xyvb8laE52LKFBZAFv-XXit68QQCJBTus,308
+asto/_modidx.py,sha256=JlZS5BYPkk8idYMsIBJnvy8mB06trwoX6Zs2JpfQubI,2544
+asto/arrs.py,sha256=ZB5oN6tEFa-xeaRscagzW4Aj529_VnqrCkc_r8dYYes,3891
+asto/cast.py,sha256=PEta0YbQEjyFpPeBxaK3ed5QLQ7NNqe939YK41F1JEI,917
+asto/nums.py,sha256=gxIuhdJlqWJIs6bCslHDGu7X_YsAaPTBbmJLO69LFbY,1128
+asto/time.py,sha256=yaU4Ke6y10EEAlHQj40vDEu_hyCtqdY3RgnVbPiuXoY,731
+asto-0.0.5.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+asto-0.0.5.dist-info/METADATA,sha256=NiH03WdIPuGORtKoZC6m_XNOAjTad6ntRJPjOmfnHR8,2372
+asto-0.0.5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+asto-0.0.5.dist-info/entry_points.txt,sha256=0irswxYi_Yp_Hqekm7r3lP9W5nJ7jPDD2dWUknPPFhE,30
+asto-0.0.5.dist-info/top_level.txt,sha256=Nc5X-2WRB737BLVPGUltYlTmKj_qH-_LL_Pk_Q1q8tk,5
+asto-0.0.5.dist-info/RECORD,,
