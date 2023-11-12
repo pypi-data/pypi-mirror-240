@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+shellinux/__init__.py
+shellinux/shellinux.py
+shellinux.egg-info/PKG-INFO
+shellinux.egg-info/SOURCES.txt
+shellinux.egg-info/dependency_links.txt
+shellinux.egg-info/top_level.txt
