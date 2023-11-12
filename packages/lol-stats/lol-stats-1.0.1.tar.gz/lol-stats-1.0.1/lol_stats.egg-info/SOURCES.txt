@@ -1,0 +1,11 @@
+setup.py
+lol_stats/__init__.py
+lol_stats/launcher.py
+lol_stats/program.py
+lol_stats.egg-info/PKG-INFO
+lol_stats.egg-info/SOURCES.txt
+lol_stats.egg-info/dependency_links.txt
+lol_stats.egg-info/requires.txt
+lol_stats.egg-info/top_level.txt
+lol_stats/data/faker.pkl
+lol_stats/templates/index.html
