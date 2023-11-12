@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: summer-search
+Version: 0.0.2
+Summary: Search and summarize the web with ease!
+Author: Cozmic (Hem Sainath)
+Author-email: hemsainath15@gmail.com
+Keywords: python,search,summerisation,summary,ml,information
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
