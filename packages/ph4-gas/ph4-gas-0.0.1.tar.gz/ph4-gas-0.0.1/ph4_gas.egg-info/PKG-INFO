@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: ph4-gas
+Version: 0.0.1
+Summary: Ph4 Sensirion Gas Index algorithm in Python 
+Home-page: https://github.com/ph4r05/ph4-sensirion-gas-index-algorithm-py
+Author: Dusan Klinec
+Author-email: dusan.klinec@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
+
+Ph4 Sensirion Gas Index algorithm in Python
+===========================================
+
+Port of the `Sensirion Gas Index
+Algorithm <https://github.com/Sensirion/gas-index-algorithm/>`__ to pure
+Python. From the commit
+`31c1108f716 <https://github.com/Sensirion/gas-index-algorithm/commit/31c1108f71633bc8664a2e045b1b4fa2b75445e9>`__
+
+Development
+-----------
+
+Install pre-commit hooks defined by ``.pre-commit-config.yaml``
+
+.. code:: shell
+
+   pip3 install -U pre-commit
+   pre-commit install
+
+Auto fix
+
+.. code:: shell
+
+   pre-commit run --all-files
+
+Plugin version update
+
+.. code:: shell
+
+   pre-commit autoupdate

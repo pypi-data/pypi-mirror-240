@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ph4_gas.egg-info/PKG-INFO
+ph4_gas.egg-info/SOURCES.txt
+ph4_gas.egg-info/dependency_links.txt
+ph4_gas.egg-info/requires.txt
+ph4_gas.egg-info/top_level.txt
+ph4gas/__init__.py
+ph4gas/sensirion.py
+tests/test_main.py

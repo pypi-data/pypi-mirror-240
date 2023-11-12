@@ -1,0 +1,13 @@
+
+[dev]
+mypy
+pre-commit
+pytest
+types-PyYAML
+pep8
+pypandoc
+
+[docs]
+Sphinx>=1.0
+sphinx_rtd_theme
+sphinxcontrib-programoutput
