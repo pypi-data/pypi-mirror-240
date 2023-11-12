@@ -1,0 +1,11 @@
+consentcrawl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+consentcrawl/__main__.py,sha256=pxadyEDUWlRRrpxNKavBqzFET_KeEkAzKH2umOfllCc,4150
+consentcrawl/assets/blocklists.yml,sha256=m5swfjVnfUN4H56WWDJDN29WRD_OaTP-cwWldRgdcuE,2292
+consentcrawl/assets/consent_managers.yml,sha256=vmlyM9z_QeVQaJOxN4rhNbOOuTa8-5Ku3SpDeIxG6eA,9257
+consentcrawl/blocklists.py,sha256=eDayN6uvY7xLWHWUBSMnJu6w1I_9Rpq667y5n_WVwl4,6637
+consentcrawl/crawl.py,sha256=KTbrVY9DvS23dNOYQru82Wwsn0qaXRk4o5FWlz1hv9U,13775
+consentcrawl/utils.py,sha256=egv_umMqZGF4x-GExisaHgUy0VEsO1CX6ZdweUce9Qg,697
+consentcrawl-0.1.0.dist-info/LICENSE,sha256=_H4vBcNWkBqh2xt-4ln84-Z-LXaACtB_oKEPzUzOPJg,1071
+consentcrawl-0.1.0.dist-info/METADATA,sha256=j-pPb1hd_pA-Tvei4hgTJkx9H7F0WsRG1yf6X93UScc,4793
+consentcrawl-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+consentcrawl-0.1.0.dist-info/RECORD,,
