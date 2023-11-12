@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "PRED_search"
+version = "0.2.2"
+authors = [
+  { name="PeTPPPP", email="ceklaszorp@freemail.hu" },
+]
+description = "Search predatory journals based on the Norwegian Register for Scientific Journals, Series and Publishers"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    'lxml'
+]
+
