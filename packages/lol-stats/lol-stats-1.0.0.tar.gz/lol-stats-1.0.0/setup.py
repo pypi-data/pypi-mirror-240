@@ -1,0 +1,24 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='lol-stats',
+    version='1.0.0',
+    packages=find_packages(),
+    install_requires=[
+        'Flask','numpy','selenium','beautifulsoup4','pandas','webdriver-manager'
+    ],
+    author='Atahan Uz',
+    author_email='atahanuz23@gmail.com',
+    description="Extract text from a YouTube video in a single command, using OpenAi's Whisper speech recognition model",
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
+    package_data={
+        'lol_stats': ['data/*', 'templates/*'],
+    },
+    url='https://github.com/atahanuz/lol-stats',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+    ],
+)

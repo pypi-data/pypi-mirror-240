@@ -1,0 +1,6 @@
+Flask
+numpy
+selenium
+beautifulsoup4
+pandas
+webdriver-manager
