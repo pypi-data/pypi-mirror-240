@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+localaplace/__init__.py
+localaplace/laplace.py
+localaplace.egg-info/PKG-INFO
+localaplace.egg-info/SOURCES.txt
+localaplace.egg-info/dependency_links.txt
+localaplace.egg-info/requires.txt
+localaplace.egg-info/top_level.txt
