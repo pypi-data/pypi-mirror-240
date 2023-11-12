@@ -1,0 +1,8 @@
+fink_anomaly_detection_model/__init__.py,sha256=MQCkWmlfpkP9NBYY4W9fU4jY_BAozgUUyTEzVdFkn_8,89
+fink_anomaly_detection_model/main_script_.py,sha256=b7DKUpDjZ_RB9pMeVChYX0DGpzu6CTEiEy69MDT2LsM,10478
+fink_anomaly_detection_model/reactions_reader.py,sha256=C7wWHtv7sRB6EkGhkdLvK8GTl2Dd_K5LULNTprXZLmU,5779
+fink_anomaly_detection_model-0.4.12.dist-info/METADATA,sha256=wZ3Ztyo-1igJTeDlipCeoITbnhlwTaupdfqd9Wiypmo,2246
+fink_anomaly_detection_model-0.4.12.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+fink_anomaly_detection_model-0.4.12.dist-info/entry_points.txt,sha256=1rm7mPRQjZqzIvkDuxoAamU30YNC4jQ1s-o7CKlVyx0,156
+fink_anomaly_detection_model-0.4.12.dist-info/top_level.txt,sha256=DAb3WFQdegckHwrOfm4JGw5Dov31OSxHJImU9t5Fi9M,29
+fink_anomaly_detection_model-0.4.12.dist-info/RECORD,,
