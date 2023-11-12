@@ -1,0 +1,11 @@
+pypi_pip_template/__init__.py,sha256=8JHarHJqSfsv94A51qH4U_Kp0qlVs0Q9I4zjt2tqwBM,655
+pypi_pip_template/__main__.py,sha256=3m7HKNdbOJGEzFZ_c_XMk9oZC6pFiWMQkBj7te_KWwk,198
+pypi_pip_template/gui/__init__.py,sha256=ely2PttjgSv7vKdzskuD1rtK_l_UOpmxJSz8isrveD0,16
+pypi_pip_template/gui/main.py,sha256=EviNryhKm6RCwOPZo-Lx8B4jPKS29py66ahQ3ZcseEs,208
+pypi_pip_template/utils/__init__.py,sha256=ely2PttjgSv7vKdzskuD1rtK_l_UOpmxJSz8isrveD0,16
+pypi_pip_template-0.0.4.dist-info/LICENSE,sha256=09vT6KJCr70v70HtwoLwHS6qc3pWptKBgZkKDaJUqyg,1085
+pypi_pip_template-0.0.4.dist-info/METADATA,sha256=cyOoaVwNwh7zRROR2eA89MLSWvf_16JDAkGCb4BhDpQ,5010
+pypi_pip_template-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pypi_pip_template-0.0.4.dist-info/entry_points.txt,sha256=YT5DFs5PH-sKYR5rSXji0fmMLgnAh_g9aCLRJOqNqC4,70
+pypi_pip_template-0.0.4.dist-info/top_level.txt,sha256=mHNvMNQCKbl4dkM2DaWHDX6VC3pF29rTXiv6JQ7RC1c,18
+pypi_pip_template-0.0.4.dist-info/RECORD,,
