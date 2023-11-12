@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: bib-dedupe
+Version: 0.1.0
+Summary: Identify and merge duplicates in bibliographic records
+License: MIT
+Author: Gerit Wagner
+Author-email: gerit.wagner@uni-bamberg.de
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: dev
+Requires-Dist: colrev (>=0.10.4,<0.11.0)
+Requires-Dist: coverage[toml] (>=7.3.2,<8.0.0) ; extra == "dev"
+Requires-Dist: pylint (==3.0.1) ; extra == "dev"
+Requires-Dist: pytest (>=7.2.1,<8.0.0) ; extra == "dev"
+Description-Content-Type: text/markdown
+
+# bib-dedupe
+
+<!-- [![License](https://img.shields.io/github/license/CoLRev-Ecosystem/bib-dedupe.svg)](https://github.com/CoLRev-Environment/bib-dedupe/releases/) -->
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
+
+A Python library to identify and merge duplicates in bibliographic records.
+
+## License
+
+This project is distributed under the [MIT License](LICENSE) the documentation is distributed under the [CC-0](https://creativecommons.org/publicdomain/zero/1.0/) license.
+If you contribute to the project, you agree to share your contribution following these licenses.
