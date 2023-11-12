@@ -1,0 +1,10 @@
+gpt_editor_utils/__init__.py,sha256=aBEbDvx4LMg8A1TJJR6dEHu8rQODVin528hLS_EDvuA,22
+gpt_editor_utils/config.py,sha256=qzRmDVmpRX0hdMeUPeQEOZqRlb4fR1oMwq-J7KUjcA4,83
+gpt_editor_utils/html_to_claude_chat_list.py,sha256=g9z0TQBGGh3W0ZdzIC149xYRpOyeWbo6SEKI06TfhFs,2287
+gpt_editor_utils/html_to_gpts_list.py,sha256=iQeqlpga3vtuuwo84NTCrAduX8O6cxxVen5l7apMhm0,3070
+gpt_editor_utils/pdf_to_text_from_moodle_dl_dir.py,sha256=jW1k6P6x2eBvmWD3_HGYiyniNjOUsxzPWhTODLLcY7U,2370
+gpt_editor_utils/utils.py,sha256=LWhlqNbHF8MNzy3K0-MPch_Ty5lNWDuQxGB53nRnfSE,2500
+gpt_editor_utils-0.1.4.dist-info/METADATA,sha256=uHMEXtkzsTgfEe8HlVowuZBiH9im19d-VdhE1oCdeNs,752
+gpt_editor_utils-0.1.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gpt_editor_utils-0.1.4.dist-info/entry_points.txt,sha256=cYJ5m3oXgwvFWm-AtWMbguptvMa_MqalKDE7p5Yz7DE,221
+gpt_editor_utils-0.1.4.dist-info/RECORD,,

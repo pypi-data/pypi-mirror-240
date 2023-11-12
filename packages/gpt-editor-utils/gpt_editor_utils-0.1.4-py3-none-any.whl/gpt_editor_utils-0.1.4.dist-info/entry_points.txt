@@ -1,0 +1,5 @@
+[console_scripts]
+html-to-claude-chat-list=gpt_editor_utils.html_to_claude_chat_list:main
+html-to-gpts-list=gpt_editor_utils.html_to_gpts_list:main
+moodle-pdf-to-text=gpt_editor_utils.pdf_to_text_from_moodle_dl_dir:main
+
