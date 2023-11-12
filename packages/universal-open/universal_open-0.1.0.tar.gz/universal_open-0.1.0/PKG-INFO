@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: universal-open
+Version: 0.1.0
+Summary: Platform agnostic file opener
+Home-page: https://github.com/Nicoretti/one-piece/tree/grand-line/python/universal-open
+License: BSD-2-Clause
+Keywords: open,xdg-open,start,application-launcher,launcher,cli
+Author: Nicola Coretti
+Author-email: nico.coretti@gmail.com
+Maintainer: Nicola Coretti
+Maintainer-email: nico.coretti@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Documentation, https://github.com/Nicoretti/one-piece/blob/grand-line/python/universal-open/README.md
+Project-URL: Homepage, https://github.com/Nicoretti/one-piece/blob/grand-line/python/universal-open/README.md
+Project-URL: Repository, https://github.com/Nicoretti/one-piece/tree/grand-line/python/universal-open
+Project-URL: Source, https://github.com/Nicoretti/one-piece/blob/grand-line/python/universal-open/
+Description-Content-Type: text/markdown
+
+# Universal-Open (`uopen`)
+
+**`uopen`** is a cross-platform utility that serves as an alternative to platform-specific commands like `xdg-open`
+on Linux, `open` on macOS, and `start` on Windows. It is designed to provide a unified entry point on any of those platforms,
+promoting interoperability for configuration files and scripts.
+
+**`uopen`** just acts as a named pass-through shim, offering a common entry point for various platforms. 
+However, it is important to note that using platform-specific flags with **`uopen`** is not recommended.
+
