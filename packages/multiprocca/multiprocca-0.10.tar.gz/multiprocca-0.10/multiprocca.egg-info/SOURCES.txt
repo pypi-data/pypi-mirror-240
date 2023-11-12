@@ -1,0 +1,15 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+multiprocca/README.MD
+multiprocca/__init__.py
+multiprocca/proclauncher.py
+multiprocca/requirements.txt
+multiprocca/thirdparty.json
+multiprocca.egg-info/PKG-INFO
+multiprocca.egg-info/SOURCES.txt
+multiprocca.egg-info/dependency_links.txt
+multiprocca.egg-info/requires.txt
+multiprocca.egg-info/top_level.txt

@@ -1,0 +1,4 @@
+include multiprocca/requirements.txt
+include multiprocca/thirdparty.json
+include multiprocca/README.MD
+include multiprocca/proclauncher.py
