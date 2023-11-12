@@ -1,0 +1,94 @@
+# ESR_DT_MODEL
+
+This package serves as a hub for consolidating all individual model developments associated with the Digital Twin project. Its primary objective is to generate unified and ensemble-based model outputs, which can be seamlessly integrated into any downstream applications.
+
+Note the athe API token must be set up in ``~/.pypirc``.
+
+## Install the package
+
+The package can be installed using ``pip``:
+
+```
+pip install esr_dt_model
+```
+
+## Usage:
+
+This package serves as a repository for preserving modeling development processes and allows for the retrieval of information from previous developments.
+
+### Save model and related dataset:
+The model, training dataset and test dataset can be saved as below:
+```
+    import esr_dt_model
+    esr_dt_model.export_model(
+        "DT",
+        "Sijin", 
+        trained_model, 
+        training_dataset, 
+        test_dataset)
+```
+Where here ``DT`` is the project name, ``Sijin`` is the user name, ``trained_model`` is a trained model, ``training_dataset`` is the dataset used for training the model, ``test_dataset`` is the dataset used for testing the model. Note that ``project name``, ``user name``, ``trained model``, ``training dataset`` are mandatory arguments, while ``test_data`` is optional.
+
+By default, the model and related dataset will be saved in the development channel. When a model is well tested, the model can be saved in the production channel by setting ``prod`` to ``True``. For example:
+```
+    import esr_dt_model
+    esr_dt_model.export_model(
+        ...
+        prod=True)
+```
+
+### List model and related dataset:
+
+We can list all stored model and related dataset as below:
+
+```
+    import esr_dt_model
+    esr_dt_model.view_model(
+        filters = {
+            "project_name": ["DT"],
+            "datetime_start": "20231112T0149",
+            "datetime_end": "20231112T0250",
+        }
+    )
+
+```
+The ``filters`` here indicates the conditions that we want to put when list the model. The full ``filters`` can incldude the arguments including ``project_name``, ``datetime_start``, ``datetime_end``, ``user``, ``fmt``, ``output_type``, for example:
+
+```
+    filters = {
+        "project_name": ["DT"],
+        "datetime_start": "20231112T0149",
+        "datetime_end": "20231112T0250",
+        "user": ["Sijin"],
+        "fmt": ["pkl", "onnx"],
+        "output_type": ["dev", "prod"]
+    }
+```
+
+An optional argument ``key`` can also be used to specify the columns that you want to view. The full columns include ``['project_name', 'version', 'datetime', 'user', 'type', 'fmt', 'output', 'output_type', 'training_data', 'test_data']``. By default, all columns will be shown.
+
+
+### Load the model:
+The saved model can be loaded as:
+
+```
+import esr_dt_model
+esr_dt_model.load_model("D7QVDT")
+```
+
+where ``D7QVDT`` is the model version (a unique ID) that can be obtained from running ``esr_dt_model.view_model``.
+
+
+
+## Appendix: Publish the package (for development only)
+
+The package can be published as:
+
+```
+make publish
+```
+
+
+
+
+
