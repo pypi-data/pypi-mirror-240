@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: aika-datagraph
+Version: 1.0.0
+Summary: Methods for storing a network of datasets and their dependencies.
+Home-page: https://github.com/phil20686/aika/
+Author: Philip Stephens, Dominic Kennedy
+Author-email: philip.stephens@sjc.oxon.org
+License: GNU LGPLv3
+Project-URL: Source, https://github.com/phil20686/aika/
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: doc/LICENSE.rst
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: numpy
+Requires-Dist: aika-utilities
+Requires-Dist: aika-time
+Requires-Dist: pymongo
+Requires-Dist: typing-extensions
+Requires-Dist: retry
+Requires-Dist: portalocker
+Provides-Extra: all
+Requires-Dist: mongomock ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Provides-Extra: test
+Requires-Dist: mongomock ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# Introduction
+
+The aika project is a collection of libraries for working with time series data, and in particular with
+timeseries data that is expected to be continuously updated. The datagraph sub project is a way to store
+time series data along with any parameters used to generate that data including other data. It comes with
+several different persistence engines which can be used to browse stored data and filter by parameters. Since
+it embeds the dependency graph it enforces consistency. Importantly, meta data such as the time range of
+the data is stored in the meta data allowing consumers to check the existence of data without examining it.
+Within the aika project this is used as the backing layer to the task library (putki) which allows the tasks
+to efficiently know which tasks need to be run at any given point in time.
+
+You can read more about the aika project on [the project webpage](https://github.com/phil20686/aika/).
+
+# Installation
+``python -m pip install aika-datagraph``

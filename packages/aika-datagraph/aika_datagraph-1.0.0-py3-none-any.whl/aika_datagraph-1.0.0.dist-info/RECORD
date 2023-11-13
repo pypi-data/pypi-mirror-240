@@ -1,0 +1,17 @@
+aika/datagraph/__init__.py,sha256=K4xYqUzA1NKtzHX_sjvvKsB9amtjMADv4CI1preZ72s,245
+aika/datagraph/interface.py,sha256=bAXhm6bYbcUZwUD-SkkoZFfDsA7YW8mXw-5zbKpnU9U,33242
+aika/datagraph/utils.py,sha256=9VzvmwLNGzDHEJvBhQVx_AnxkEaP_u-bJQcqi_h8V1c,813
+aika/datagraph/persistence/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aika/datagraph/persistence/hash_backed.py,sha256=sTJ3eTdA6HuVz6ogbqC5xhifCOGwOnk1QNFVuRhLz8U,7612
+aika/datagraph/persistence/mongo_backed.py,sha256=TO7XMnSQGCzjpe3r3HtsHUq32tM38r4o2DR-NspacY8,8948
+aika/datagraph/persistence/pure_filesystem_backend.py,sha256=TTHsQO4AaicZ6LmOD9HMsA_hZycM2zYDaC7XmfGOWGs,7453
+aika/datagraph/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aika/datagraph/tests/persistence_tests.py,sha256=udMfLNFxGQhg1pT-Sp8XQZczXY85HRTeCfZva6p96jk,11128
+aika/datagraph/tests/test_basic_objects.py,sha256=wrDvcH-ZCk3Mki0S0jB1qwqG9Dy73GNZTJt5P0pbzcY,3014
+aika/datagraph/tests/test_engines_against_interface.py,sha256=syp5Hrf4O4pzeC5JgybcyZkntxLcjCMKnuTspqRT8T4,16052
+aika/datagraph/tests/test_utils.py,sha256=gwIbRI-FvfytMvKxwTZhYCeQllIkN5Wg01kSy3MMrzw,1151
+aika_datagraph-1.0.0.dist-info/LICENSE.rst,sha256=SBlKQKpYL6dtSRFMVr6OGe0EAkohTYrBkU56_j4THQs,7797
+aika_datagraph-1.0.0.dist-info/METADATA,sha256=tHsz34ioT_6qgSpDC461DPYXNMxW6ncBeF_eePy0lyw,2768
+aika_datagraph-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aika_datagraph-1.0.0.dist-info/top_level.txt,sha256=FvXzRkOCP8_urRuRrrIGnvdgt6L2w8EI2eAFiETptK4,5
+aika_datagraph-1.0.0.dist-info/RECORD,,
