@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Application
+Name=turAI
+GenericName=Python IDE
+Exec=/usr/bin/turAI %F
+Comment=Python IDE for beginners
+Icon=turAI
+StartupWMClass=turAI
+Terminal=false
+Categories=Development;IDE
+Keywords=programming;education
+MimeType=text/x-python;
+Actions=Edit;
+
+[Desktop Action Edit]
+Exec=/usr/bin/turAI %F
+Name=Edit with turAI
