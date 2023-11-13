@@ -1,0 +1,9 @@
+sum_two_numbers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sum_two_numbers/calculator.py,sha256=bvFk7-gJfz4rBtMX9iq0eXBCgX5yX8vFrYQMPwQM2a0,40
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_calculator.py,sha256=cDyUCfGbntS6IJHDJoLfclnz2zwYHOjzVyJbcSLARyQ,145
+sum_two_numbers-0.1.0.dist-info/METADATA,sha256=eOs6v0CgzsSAP9WCrM6vLgqmQ2uW9nN9WmTFbbxPJhg,179
+sum_two_numbers-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sum_two_numbers-0.1.0.dist-info/entry_points.txt,sha256=mhHS_QS4drzuL9YgsvofQdCss5yvXtmik3VXi4u4ybo,69
+sum_two_numbers-0.1.0.dist-info/top_level.txt,sha256=bbSDX_HKBsToE3jYymRfAklFyoy0_kYjstn_cJW1Edc,22
+sum_two_numbers-0.1.0.dist-info/RECORD,,
