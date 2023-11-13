@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: rootfs
+Version: 0.0.1
+Summary: Unix root filesystem for software 2.0
+Author-email: Jason Wilkes <notarealdeveloper@gmail.com>
+Project-URL: Homepage, https://github.com/notarealdeveloper/rootfs
