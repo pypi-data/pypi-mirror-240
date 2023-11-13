@@ -1,0 +1,9 @@
+setup.py
+snappy/__init__.py
+snappy/crawlers.py
+snappy/tools.py
+swift_snappy.egg-info/PKG-INFO
+swift_snappy.egg-info/SOURCES.txt
+swift_snappy.egg-info/dependency_links.txt
+swift_snappy.egg-info/requires.txt
+swift_snappy.egg-info/top_level.txt

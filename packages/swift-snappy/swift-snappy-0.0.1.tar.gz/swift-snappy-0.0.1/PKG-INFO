@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: swift-snappy
+Version: 0.0.1
+Summary: Crawl any website, extracting URLs, images, or clean screenshots.
+Author: SwiftSerpent
+Author-email: brownpt98@gmail.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
