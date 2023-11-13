@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: stimpack
+Version: 0.0.2
+Summary: Precise and flexible generation of stimuli for neuroscience experiments.
+Home-page: https://github.com/ClandininLab/stimpack
+Author: Minseung Choi
+Author-email: minseung@stanford.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: platformdirs
+Requires-Dist: PyQT6
+Requires-Dist: h5py
+Requires-Dist: pyYaml
+Requires-Dist: moderngl
+Requires-Dist: scikit-image
+
+UNKNOWN
+
+
