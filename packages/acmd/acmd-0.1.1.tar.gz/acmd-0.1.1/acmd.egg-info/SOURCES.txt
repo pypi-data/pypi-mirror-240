@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+acmd.egg-info/PKG-INFO
+acmd.egg-info/SOURCES.txt
+acmd.egg-info/dependency_links.txt
+acmd.egg-info/entry_points.txt
+acmd.egg-info/requires.txt
+acmd.egg-info/top_level.txt
+aws_cli_bedrock/__init__.py
+aws_cli_bedrock/cli_creactor.py
+aws_cli_bedrock/test/__init__.py
+aws_cli_bedrock/test/test_cli_creator.py
