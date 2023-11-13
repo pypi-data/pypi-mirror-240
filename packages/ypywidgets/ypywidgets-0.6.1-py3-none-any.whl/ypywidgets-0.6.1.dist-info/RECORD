@@ -1,0 +1,9 @@
+ypywidgets/__init__.py,sha256=-mZ7e5JRRrAgXPCyYCn9kCkNzwS9Krqk9NJgUOXo3Jo,104
+ypywidgets/comm.py,sha256=T6BOq_qQNcWZWtTQjOR0SLIiDpfhlB-qN27cEcRVS5g,2485
+ypywidgets/reactive.py,sha256=5fagIpE9mYSZBozKhsFgMnb7Yumz7ecXkdiAqjblFnQ,709
+ypywidgets/utils.py,sha256=SnQ_4MTV4ny2gRi_LmO0eMxk7cDK0xHvii8f79JMKYQ,2944
+ypywidgets/widget.py,sha256=lu2zNwTBvRnHp9vL1PWqFLQVVbtbetxmTlwGiYtitfg,743
+ypywidgets-0.6.1.dist-info/METADATA,sha256=R3LSKbzILssbOEO-jmjKKK8QI5qllef1UA32XhpUd1k,1817
+ypywidgets-0.6.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ypywidgets-0.6.1.dist-info/licenses/LICENSE,sha256=9stplgn8rtMDvWxUkcaS3dUfWpviN4XiguPVVinAMY4,1071
+ypywidgets-0.6.1.dist-info/RECORD,,
