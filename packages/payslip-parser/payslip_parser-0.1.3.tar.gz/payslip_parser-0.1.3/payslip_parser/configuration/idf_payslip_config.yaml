@@ -1,0 +1,97 @@
+regions:
+  - name: to
+    is_header: true
+    bounds:
+      x0: 40
+      y0: 20
+      x1: 340
+      y1: 70
+  - name: payslip_date
+    is_header: true
+    bounds:
+      x0: 110
+      y0: 105
+      x1: 180
+      y1: 125
+  - name: personal_data
+    is_header: true
+    bounds:
+      x0: 10
+      y0: 145
+      x1: 145
+      y1: 200
+  - name: bank_details
+    is_header: true
+    bounds:
+      x0: 10
+      y0: 205
+      x1: 145
+      y1: 260
+  - name: raw_data
+    is_header: false
+    bounds:
+      x0: 150
+      y0: 140
+      x1: 430
+      y1: 250
+  - name: monthly_payments
+    is_header: false
+    bounds:
+      x0: 220
+      y0: 280
+      x1: 430
+      y1: 390
+  - name: monthly_reductions
+    is_header: false
+    bounds:
+      x0: 10
+      y0: 280
+      x1: 220
+      y1: 390
+  - name: net_monthly_payment
+    is_header: false
+    bounds:
+      x0: 10
+      y0: 385
+      x1: 60
+      y1: 410
+  - name: payments_differences
+    is_header: false
+    bounds:
+      x0: 220
+      y0: 420
+      x1: 430
+      y1: 535
+  - name: reductions_differences
+    is_header: false
+    bounds:
+      x0: 10
+      y0: 420
+      x1: 220
+      y1: 535
+  - name: net_differences
+    is_header: false
+    bounds:
+      x0: 10
+      y0: 530
+      x1: 60
+      y1: 555
+  - name: total_transfer_to_bank
+    is_header: false
+    bounds:
+      x0: 10
+      y0: 695
+      x1: 70
+      y1: 715
+  - name: ignore_messages
+    is_header: false
+    is_ignore_region: true
+    bounds:
+      x0: 0
+      y0: 740
+      x1: 700
+      y1: 1000
+rtl_payslip: true
+century_prefix: 20
+pages_to_ignore:
+  - 1
