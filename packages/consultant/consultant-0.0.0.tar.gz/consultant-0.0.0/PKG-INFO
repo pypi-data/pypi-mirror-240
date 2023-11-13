@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: consultant
+Version: 0.0.0
+Summary: Command line interface frontent for AI assistance
+Author-email: Kanelis Elias <e.kanelis@voidbuffer.com>
+Maintainer-email: Kanelis Elias <e.kanelis@voidbuffer.com>
+Project-URL: Homepage, https://pypi.org/project/consultant/
+Keywords: template
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >3.10
+Description-Content-Type: text/markdown
+Requires-Dist: xdg-base-dirs==6.0.1
+
+# Consultant
+
+> Command line interface frontent for AI assistance.
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+
+### Installation
+
+Run the following command:
+
+```sh
+pip install consultant
+```
+
+
+## Contact
+
+Kanelis Elias - [@email](mailto:e.kanelis@voidbuffer.com)

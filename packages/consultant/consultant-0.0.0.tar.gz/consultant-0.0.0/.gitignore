@@ -1,0 +1,7 @@
+# Virtual environment
+/.venv*
+
+# Package build
+/.eggs
+/dist
+*/*.egg-info/
