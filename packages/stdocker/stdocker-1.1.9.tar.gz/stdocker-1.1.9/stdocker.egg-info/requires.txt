@@ -1,0 +1,13 @@
+twine
+wheel
+docker
+pyyaml
+python-dotenv
+click
+requests
+beautifultable
+termcolor
+setuptools
+
+[cli]
+click>=5.0
