@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: r53collector
+Version: 1.2.12
+Summary: package description
+Home-page: UNKNOWN
+Author: name
+Author-email: your@email.com
+License: UNKNOWN
+Keywords: python,route53,excel,sso,aws,aws org,subdomains,dangling,certificates
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: termcolor
+Requires-Dist: boto3
+Requires-Dist: openpyxl
+Requires-Dist: ipaddress
+Requires-Dist: dnspython
+
+UNKNOWN
+
