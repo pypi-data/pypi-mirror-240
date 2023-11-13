@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: transcription-diff
+Version: 0.1.3
+Summary: Speech to transcription comparison
+Home-page: https://github.com/CorentinJ/transcription-diff
+Author: Corentin Jemine
+Author-email: corentin.jemine@gmail.com
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A small python library to find differences between audio and transcriptions
+https://github.com/CorentinJ/transcription-diff/
