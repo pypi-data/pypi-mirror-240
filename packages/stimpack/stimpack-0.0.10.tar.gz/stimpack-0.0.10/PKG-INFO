@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: stimpack
+Version: 0.0.10
+Summary: Precise and flexible generation of stimuli for neuroscience experiments.
+Home-page: https://github.com/ClandininLab/stimpack
+Author: Minseung Choi
+Author-email: minseung@stanford.edu
+License: UNKNOWN
+Project-URL: Documentation, https://stimpack.readthedocs.io/en/latest/index.html
+Description: UNKNOWN
+Platform: UNKNOWN
