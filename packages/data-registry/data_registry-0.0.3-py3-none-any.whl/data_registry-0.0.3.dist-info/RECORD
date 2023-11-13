@@ -1,0 +1,10 @@
+registry/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+registry/drivers.py,sha256=BYK8IvhQ9Q4a4cazCxK9MxWErZPQPx50-z67iDRHqSo,2440
+registry/entity.py,sha256=yZ0URhjGq0uA_bnYzU0c6n5-0hnKLZ0rFa8ABJSdO0I,506
+registry/registry.py,sha256=CKyJOSI0dAYLyEqInr9fz1cedyE_nNOkK9uu8t_6Fbw,5914
+registry/repository.py,sha256=HI003p7h5ae2TzYCt2o_vR3nSGBAoD0_B3Ako2MztP4,3720
+registry/schema.py,sha256=NX5medtVTbffaAr8u0FS9U91i3Knc4ZudVS9_gXnAHM,288
+data_registry-0.0.3.dist-info/METADATA,sha256=NJ5xNgH-b8Q8i0jOZACNBLDjXHx4BbXwlTw5HrWiwWI,562
+data_registry-0.0.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+data_registry-0.0.3.dist-info/licenses/LICENSE,sha256=8EMX_FpwO3B7cIlsxxO25L97DqgAGKiEwD4oC6J8O1Y,1062
+data_registry-0.0.3.dist-info/RECORD,,
