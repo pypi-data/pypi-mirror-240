@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ root_folder_name }}/ | pictriage</title>
+  <style>
+    .gallery-img {
+      padding: 5px;
+      max-width: {{ img_width }}px;
+      max-height: {{ img_width }}px;
+      margin: 0 auto;
+    }
+
+
+    #lens img {
+      /* don't set to 100% because we want these standardized */
+      width: {{ ZOOM_IMAGE_WIDTH }}px;
+      padding: none;
+      max-width: none;
+      max-height: none;
+      margin: none;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      /* good to have this, otherwise it looks bad with a space
+      next to the lens. but it doesn't look good when the screen is wide
+      justify-content: space-between;
+      */
+    }
+
+  /* can use this together with space-between
+  so the last row doesn't have a huge gap */
+  /*
+    .flex-container::after {
+  content: "";
+  flex: auto;
+    }
+    */
+
+    .toolbar {
+      /*
+      */
+      display: flex;
+      align-items: center;
+      position: sticky;
+      margin-top: 10px;
+      top: 0px;
+      left: 0px;
+      z-index: 100;
+
+    }
+
+  my-fieldset {
+      opacity: 1;
+      background-color: white;
+    outline: 1px solid black;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    display: inline;
+  }
+
+    #lens {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: 100%;
+      overflow: hidden;
+      width: {{ zoom_pane_width }}px;
+    }
+
+</style>
+<script src="{% static 'htmx.min.js' %}" defer></script>
+<script src="{% static 'alpine.min.js' %}" defer></script>
+</head>
+<body>
+<div class="toolbar">
+  <!-- autocomplete=off is necessary because the browser tries to preserve state
+    between reloads, which is not what we want.
+    we always need to be in sync with the server.
+    for example if you restart the server.
+    https://stackoverflow.com/questions/5496301/
+    -->
+  <!-- why did i use style="display: inline" here before? -->
+
+    <my-fieldset>
+    <!-- i put the <form> inside the fieldset because otherwise the fieldset outline box
+         gets mangled -->
+      <form id="action-form" autocomplete="off">
+      <label>Click action:
+
+      <select
+          name="action"
+          hx-post="/settings"
+          hx-trigger="change"
+          hx-swap="none"
+          onclick="renderClickAction()"
+      >
+      {% for action_option in AVAILABLE_ACTIONS %}
+        <option value="{{ action_option }}"
+               {% if action_option == current_action %}
+                selected
+              {% endif %}
+        >
+        {{ action_option }}
+        </option>
+    {% endfor %}
+        </select>
+        </label>
+        </form>
+      </my-fieldset>
+
+  <my-fieldset>
+    <label>Thumbnail size (pixels):
+    <input type="number"
+           hx-trigger="change"
+           hx-post="/settings"
+           name="img_width"
+           id="img_width"
+           value="{{ img_width }}"
+           step="50" min="50" size="6"/>
+      </label>
+  </my-fieldset>
+
+    <my-fieldset>
+    <label>
+      <input
+          hx-post="/lens_visibility"
+          type="checkbox"
+          name="lens_visibility"
+          onclick="renderLensVisibility(this)"
+          {% if lens_visibility %}checked{% endif %}
+      >
+      Show zoom pane
+    </label>
+      </my-fieldset>
+  <my-fieldset>
+    <my-legend>Folder</my-legend>
+    <button onclick="jumpSection(-1)">prev ↑</button>
+    <button onclick="jumpSection(1)">next ↓</button>
+    </my-fieldset>
+
+
+</div>
+<br><br><br>
+<div class="lens-and-galleries">
+  <div id="lens"></div>
+
+  <div class="galleries" id="galleries">
+    <p>Number of images: {{ num_images }}</p>
+    <details>
+      <summary>Table of contents</summary>
+      <ol>
+      {% for folder, fps in folders %}
+        <li><a href="#folder-{{ folder }}">{{ folder }}</a></li>
+      {% endfor %}
+      </ol>
+    </details>
+        {% for folder, fps in folders %}
+    <div class="folder" id="folder-{{ folder }}">
+          <h2 style="display: inline">{{ folder }}/
+            <!-- should always show it because don't want to wait for a page refresh -->
+            <button class="clickable" data-fp="{{ folder }}" data-isfolder="1">Click all</button>
+
+          </h2>
+        <div class="flex-container">
+          {% for fp in fps %}
+          <div class="clickable" data-fp='{{ fp }}'>
+            <!-- 
+              put the random fragment because otherwise
+              the browser might reload the image from RAM
+              and not even look in browser cache.
+               -->
+            <img src="{% static fp %}#{% rand %}" class="gallery-img" loading="lazy" title="{{ fp }}">
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+  </div>
+  
+</div>
+
+<script>
+  let zoom_pane_width = "{{ zoom_pane_width }}px"
+  const NONE_CLICK_ACTION = '{{ NONE_ACTION }}';
+</script>
+<script src="{% static 'interaction.js' %}"></script>
+<script src="{% static 'lens.js' %}"></script>
+<script src="{% static 'scrollspy.js' %}"></script>
+
+<script>
+  for (let img of document.querySelectorAll(".gallery-img")) {
+    img.title = img.title.split('/').pop();
+    
+  }
+</script>
+-->
+</body>
+</html>
