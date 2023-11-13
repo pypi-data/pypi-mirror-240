@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/kota/__init__.py
+src/kota.egg-info/PKG-INFO
+src/kota.egg-info/SOURCES.txt
+src/kota.egg-info/dependency_links.txt
+src/kota.egg-info/top_level.txt
