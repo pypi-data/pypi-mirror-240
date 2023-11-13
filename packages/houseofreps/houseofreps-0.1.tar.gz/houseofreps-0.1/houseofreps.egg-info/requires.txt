@@ -1,0 +1,8 @@
+loguru
+mashumaro
+numpy
+pandas
+plotly
+pytest
+setuptools
+tqdm
