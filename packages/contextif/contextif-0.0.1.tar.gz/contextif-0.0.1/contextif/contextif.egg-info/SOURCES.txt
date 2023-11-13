@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+contextif/contextif.egg-info/PKG-INFO
+contextif/contextif.egg-info/SOURCES.txt
+contextif/contextif.egg-info/dependency_links.txt
+contextif/contextif.egg-info/requires.txt
+contextif/contextif.egg-info/top_level.txt
+tests/test_state.py
