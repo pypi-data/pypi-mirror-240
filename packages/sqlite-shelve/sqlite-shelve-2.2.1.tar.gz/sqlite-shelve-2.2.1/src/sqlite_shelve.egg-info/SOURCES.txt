@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/sqlite_shelve.egg-info/PKG-INFO
+src/sqlite_shelve.egg-info/SOURCES.txt
+src/sqlite_shelve.egg-info/dependency_links.txt
+src/sqlite_shelve.egg-info/entry_points.txt
+src/sqlite_shelve.egg-info/top_level.txt
+src/sqliteshelve/__init__.py
+src/sqliteshelve/cli.py
+tests/test_sqliteshelve.py
