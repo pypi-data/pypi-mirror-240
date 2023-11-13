@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+multiprocshapefinder/README.MD
+multiprocshapefinder/__init__.py
+multiprocshapefinder/requirements.txt
+multiprocshapefinder/thirdparty.json
+multiprocshapefinder.egg-info/PKG-INFO
+multiprocshapefinder.egg-info/SOURCES.txt
+multiprocshapefinder.egg-info/dependency_links.txt
+multiprocshapefinder.egg-info/requires.txt
+multiprocshapefinder.egg-info/top_level.txt
