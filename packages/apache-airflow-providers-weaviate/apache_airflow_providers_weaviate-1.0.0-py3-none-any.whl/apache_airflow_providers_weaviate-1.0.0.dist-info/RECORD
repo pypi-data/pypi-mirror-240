@@ -1,0 +1,13 @@
+airflow/providers/weaviate/__init__.py,sha256=15JDh6QYTXYYvVdIfdLuKVLFQOf7RwWZ6tQ7vCkIuH0,1563
+airflow/providers/weaviate/get_provider_info.py,sha256=b45bUoi6yUnN3C3nHR8Wuv_6mn8SsOjTT-tw0u4MEDA,2250
+airflow/providers/weaviate/hooks/__init__.py,sha256=h9YaOHsHa6a7IrJjzUqViwwFxsB0g3c50MYN9re6-dM,1053
+airflow/providers/weaviate/hooks/weaviate.py,sha256=QRLIr2XlCDhKRbFzcVoubOR1IrYdXQyRdTqwIScxpoQ,6612
+airflow/providers/weaviate/operators/__init__.py,sha256=h9YaOHsHa6a7IrJjzUqViwwFxsB0g3c50MYN9re6-dM,1053
+airflow/providers/weaviate/operators/weaviate.py,sha256=Bjpb2Gw1b_OjfkpjRFQ6DG-hhznlQb1qzJcT4LUFYok,2705
+apache_airflow_providers_weaviate-1.0.0.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_weaviate-1.0.0.dist-info/METADATA,sha256=3W_7aKIaopPg9OOXgAOnk-C6UCAvJNDkdgi4B4tczHo,4515
+apache_airflow_providers_weaviate-1.0.0.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_weaviate-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+apache_airflow_providers_weaviate-1.0.0.dist-info/entry_points.txt,sha256=DYsuHNn_FGFK6NLD9-Ifro1p1pRlbX-xKkbQLsEot0c,105
+apache_airflow_providers_weaviate-1.0.0.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_weaviate-1.0.0.dist-info/RECORD,,
