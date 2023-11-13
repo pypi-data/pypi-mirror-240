@@ -1,0 +1,98 @@
+# flickr-sdc
+
+This library contains structured data definitions for Flickr photos on Wikimedia Commons.
+
+It also contains some utilities for working with structured data on Wikimedia files, including a Wikimedia API client with structured data-related methods, and a set of Python types for the Wikidata data model.
+
+These definitions are used by [Flickypedia](https://github.com/Flickr-Foundation/flickypedia) and [Flickypedia Backfillr Bot](https://github.com/Flickr-Foundation/flickypedia-backfillr-bot), and are published here
+
+## Naming things
+
+SDC stands for "Structured Data on (Wikimedia) Commons".
+
+I'm using "statement" and "claim" somewhat interchangeably, but that might be wrong in some places.
+I've read [Commons:Statements](https://commons.wikimedia.org/wiki/Commons:Statements), but I still don't really understand the distinction.
+
+## Usage
+
+There are three parts of this library that might be useful:
+
+1.  **The `create_sdc_claims_for_flickr_photo()` function.**
+    This creates a complete set of SDC statements for a Flickr photo.
+
+    It takes a `SinglePhoto` as an argument, which comes from the [flickr-photos-api](https://github.com/Flickr-Foundation/flickr-photos-api) library.
+    For example:
+    
+    ```pycon
+    >>> from flickr_photos_api import FlickrPhotosApi
+    >>> from flickr_sdc import create_sdc_claims_for_flickr_photo
+    >>> sdc = create_sdc_claims_for_flickr_photo(
+    ...     photo = FlickrPhotosApi(…).get_single_photo(photo_id="14898030836")
+    ... )
+    >>> sdc
+    {'claims': [{'mainsnak': {'snaktype': 'somevalue', 'property': 'P170'}...
+    ```
+    
+    This returns a Python dictionary which can be JSON-ified and passed directly to Wikimedia's [`wbeditentity` API](https://www.wikidata.org/w/api.php?modules=wbeditentity&action=help).
+    
+    See [structured_data.py](https://github.com/Flickr-Foundation/flickr-sdc/blob/main/src/flickr_sdc/structured_data.py) for the complete set of structured data definitions.
+
+2.  **The WikimediaSdcApi client.**
+    This has some methods for doing stuff with structured data on Wikimedia files, including:
+    
+    *   Retrieving the structured data for a file using `WikimediaSdcApi.get_structured_data(page_id: str)`
+    *   Upating a single statement for a file on Commons using `WikimediaSdcApi.update_statement()`
+    
+    This is defined in [wikimedia.py](https://github.com/Flickr-Foundation/flickr-sdc/blob/main/src/flickr_sdc/wikimedia.py), and you can see the docstrings on the individual functions for more usage information.
+
+3.  **The Python types for the Wikidata data model in <a href="https://github.com/Flickr-Foundation/flickr-sdc/blob/main/src/flickr_sdc/_types.py">_types.py</a>.**
+    These are all exported as part of the top-level module (e.g. `from flickr_sdc import NewStatement`) and can be used with Python type checkers like mypy.
+    I found them very useful for writing type-checked code.
+
+## Development
+
+You can set up a local development environment by cloning the repo and installing dependencies:
+
+```console
+$ git clone https://github.com/Flickr-Foundation/flickr-sdc.git
+$ cd flickr-sdc
+$ python3 -m venv .venv
+$ source .venv/bin/activate
+$ pip install -e .
+```
+
+If you want to run tests, install the dev dependencies and run py.test:
+
+```console
+$ source .venv/bin/activate
+$ pip install -r dev_requirements.txt
+$ coverage run -m pytest tests
+$ coverage report
+```
+
+To make changes to the library:
+
+1.  Create a new branch
+2.  Push your changes to GitHub
+3.  Open a pull request
+4.  Fix any issues flagged by GitHub Actions (including tests, code linting, and type checking)
+5.  Ask somebody to review your change
+6.  Merge it!
+
+To create a new version on PyPI:
+
+1.  Update the version in `src/flickr_sdc/__init__.py`
+2.  Add release notes in `CHANGELOG.md` and push a new tag to GitHub
+3.  Deploy the release using twine:
+
+    ```console
+    $ python3 -m build
+    $ python3 -m twine upload dist/* --username=__token__
+    ```
+    
+    You will need [a PyPI API token](https://pypi.org/help/#apitoken) to publish packages.
+    This token is stored in 1Password.
+
+## License
+
+This project is dual-licensed as Apache-2.0 and MIT.
