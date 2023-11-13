@@ -1,0 +1,7 @@
+pyproject.toml
+requests.py
+ValWrap.egg-info/PKG-INFO
+ValWrap.egg-info/SOURCES.txt
+ValWrap.egg-info/dependency_links.txt
+ValWrap.egg-info/requires.txt
+ValWrap.egg-info/top_level.txt
