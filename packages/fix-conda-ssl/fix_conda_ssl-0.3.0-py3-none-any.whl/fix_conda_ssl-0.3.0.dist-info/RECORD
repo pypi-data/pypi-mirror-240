@@ -1,0 +1,8 @@
+fix_conda_ssl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fix_conda_ssl/app.py,sha256=0A2XhjE0UeY-qH8H7MBbr0EA-YcGqaTmNkHmdEEtSMo,4171
+fix_conda_ssl/app.tcss,sha256=EXHTbUfB3kStgW7x1rUnC34nlGaw9dze8qZ8R8USI4c,646
+fix_conda_ssl-0.3.0.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+fix_conda_ssl-0.3.0.dist-info/METADATA,sha256=6pvGae9qpqXd_a9zdwhiXSf_4BkbZ-JL4e2MnrKkflE,2731
+fix_conda_ssl-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fix_conda_ssl-0.3.0.dist-info/entry_points.txt,sha256=jnOWMfOFgmp8-WrM620IvqD1kSyTDZwzt5dWeGiuzwo,51
+fix_conda_ssl-0.3.0.dist-info/RECORD,,
