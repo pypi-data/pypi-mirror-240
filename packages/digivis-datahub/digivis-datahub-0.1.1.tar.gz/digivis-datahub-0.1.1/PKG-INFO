@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: digivis-datahub
+Version: 0.1.1
+Summary: A package for handeling multiple MQTT connections
+Home-page: https://github.com/anton04/Datahub
+Author: Anton Gustafsson
+Author-email: anton.gustafsson@ri.se
