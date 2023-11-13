@@ -1,0 +1,3 @@
+[console_scripts]
+r53collector = r53collector:main
+
