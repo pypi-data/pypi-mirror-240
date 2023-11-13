@@ -1,0 +1,2 @@
+[console_scripts]
+elem_hasp_cli = elem_hasplib.elem_hasplib_cli:cli

@@ -1,0 +1,8 @@
+{
+   "image_name": "dataelem/idp:2.3.0",
+   "gpus": "0",
+   "container_name": "dataelem_engine_2.3.0",
+   "license_token": "local",
+   "mount_path": "/home/serving/exchange_file",
+   "api_ports": "8502,8506,8507"
+}

@@ -1,0 +1,7 @@
+{
+   "sdk_version": "SDKVERSION",
+   "container_name": "dataelem_engine_CONTAINERVERSION",
+   "ip": "auto",
+   "mount_path": "/home/serving/exchange_file",
+   "api_ports": "8502,8506,8507"
+}
