@@ -1,0 +1,8 @@
+__init__.py,sha256=y4j729GATiJnWVsojcAEApEWpMMqr59cVOb3RZ8isWU,32
+mimic/__init__.py,sha256=9KDW6io9DZ65jndiQ1mscYHo0rXVOlDpCQE1KGvwHjg,66
+mimic/miMic_test.py,sha256=xrRp3baE12C_tbBhxS529SW6n1u5qNvJxSV6WNsWct0,41865
+mimic/tax_tree_create.py,sha256=_RkLCprkNMoGLnBKmmYh6Vjcygsia3HVtJM8pPK9pTE,2051
+mimic_da-0.0.6.dist-info/METADATA,sha256=AyPZifCvg_O7ZrusQWCccbhfI8ew0KoPXICIrKPiBvU,7457
+mimic_da-0.0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mimic_da-0.0.6.dist-info/top_level.txt,sha256=-BVzfDlX0Ie22e5lmfZh-cdLxL6O_8eHRy0hIBaMqE0,15
+mimic_da-0.0.6.dist-info/RECORD,,
