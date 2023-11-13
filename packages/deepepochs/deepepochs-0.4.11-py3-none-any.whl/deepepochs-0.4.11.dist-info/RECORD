@@ -1,0 +1,16 @@
+deepepochs/__init__.py,sha256=ztoZ3_lYzJ2Mo4O6YHJ-YlqQcdIaX9f5Kg41RqP2ZR0,205
+deepepochs/loops.py,sha256=o-uApCp54_H6wRi9ksHmWyLvX58P0LOb4lK0WG3YVU4,26275
+deepepochs/metrics.py,sha256=euLiuTJjwzatsA0a224XuxaG__xAFdb7er1irB_oI6E,3400
+deepepochs/trainer.py,sha256=B_zJ_-f8oD3l8Y1q_QUFaDJ6XEkvDPWYbLi1lVmuRx0,17986
+deepepochs/utils.py,sha256=RgWtEUQlVbJ04XMZGsSnArJBzU6z05cO-JmiSlNpTzk,6578
+deepepochs/callbacks/__init__.py,sha256=BDq_EBvuZcEmX5nYljC3_l7Q6ZmB_efiFU3nu4aDuAY,216
+deepepochs/callbacks/analyze.py,sha256=pC3H8FLOs_Bu0lxRvo8R1Fr0_h8FVCC4K2iQ81sniYE,4386
+deepepochs/callbacks/callback.py,sha256=rqJb57oBCEmyqht1HajB4CkuShabK9L2VfiGktfb-fE,10955
+deepepochs/callbacks/check.py,sha256=ExCJqRlhdAmZz8y8DBO-kHq7IB4l9rDQ8wk1vLOvt5A,5134
+deepepochs/callbacks/log.py,sha256=USkIn6CdBTKSXZLm2wKg8Fw7kk4hj4flXga2RwvNOVk,3480
+deepepochs/callbacks/lr_find.py,sha256=GjNntDowfI2wN0wH4bJuUO8MAAjpducIxy8X85GtpZo,1738
+deepepochs-0.4.11.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+deepepochs-0.4.11.dist-info/METADATA,sha256=LJsyJrYeCyAUXjf0LPeLEB00t8FQSSibqFIm45QqGkM,6680
+deepepochs-0.4.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+deepepochs-0.4.11.dist-info/top_level.txt,sha256=j976ROcH3JrQdIruL1TcLvu7mtPrpfxLmgQDGTgRY_0,11
+deepepochs-0.4.11.dist-info/RECORD,,
