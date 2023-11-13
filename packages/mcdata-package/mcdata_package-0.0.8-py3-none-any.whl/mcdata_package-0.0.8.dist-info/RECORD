@@ -1,0 +1,10 @@
+mcdata/ManipularTabela.py,sha256=djrJTeLqpvM_pAA6KY49ZOiSQ5XTmMIPyUPuOCWXY2E,681
+mcdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcdata/dicionarios.py,sha256=AFmc_q0kbkW2AOoAOSKG2sfZAbwNDtqVDAWlRwRcdYk,755
+mcdata/s3.py,sha256=wx0ELWvoxs832_0w_nikxlXkfix53Wh5Zc-z9pUSyoY,688
+mcdata/transformar.py,sha256=mKvK4bFj4CGoM3xugDQSMyz-suxIdmLqz2qT-2TQaAc,519
+mcdata_package-0.0.8.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+mcdata_package-0.0.8.dist-info/METADATA,sha256=iIoB72NmxuP8mRGf7yjxiD5OZum7cQsdW7YXlFZx21s,4971
+mcdata_package-0.0.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mcdata_package-0.0.8.dist-info/top_level.txt,sha256=p66NuulisysO8FjXaaXwThpW4qjx-JcncSQOKpeL3GY,7
+mcdata_package-0.0.8.dist-info/RECORD,,
