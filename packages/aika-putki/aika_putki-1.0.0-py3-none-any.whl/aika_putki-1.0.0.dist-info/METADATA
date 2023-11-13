@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: aika-putki
+Version: 1.0.0
+Summary: Task framework designed for time series data
+Home-page: https://github.com/phil20686/aika/
+Author: Philip Stephens, Dominic Kennedy
+Author-email: philip.stephens@sjc.oxon.org
+License: GNU LGPLv3
+Project-URL: Source, https://github.com/phil20686/aika/
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: doc/LICENSE.rst
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: numpy
+Requires-Dist: aika-time
+Requires-Dist: aika-utilities
+Requires-Dist: attrs
+Requires-Dist: frozendict
+Requires-Dist: overrides
+Requires-Dist: networkx
+Requires-Dist: luigi ; python_version < "3.11"
+Requires-Dist: backports.cached-property ; python_version < "3.8"
+Provides-Extra: all
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+# Introduction
+
+aika-putki is a task framework designed to make it easy
+to build production and research systems on top of timeseries
+data. They provide tasks which have a notion of completeness
+which is founded on an awareness of what data is expected
+from a successful computation, and thus completeness is 
+defined via the inspection of parent tasks existing output
+and not via knowledge of when a task was last run. This directly
+solves many issues around eg mis-computing moving averages due
+to unavailable data. 
+
+For more information see the [aika project wepage](https://github.com/phil20686/aika/)
