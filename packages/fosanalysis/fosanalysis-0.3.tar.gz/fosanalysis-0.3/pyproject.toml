@@ -1,0 +1,59 @@
+[project]
+name = "fosanalysis"
+
+version = "0.3"
+
+description = "A framework to evaluate distributed fiber optic sensor data"
+
+readme = "README.md"
+
+requires-python = ">=3.7"
+
+license = {file = "LICENSE"}
+
+keywords = [
+	"crack monitoring",
+	"distributed fiber",
+	"optical sensing",
+	"DFOS",
+	"structural health monitoring",
+	"automated data assessment",
+	]
+
+authors = [
+	{name = "Bertram Richter", email = "bertram.richter@tu-dresden.de" }
+]
+
+maintainers = [
+	{name = "Bertram Richter", email = "bertram.richter@tu-dresden.de" }
+]
+
+classifiers = [
+	"Intended Audience :: Developers",
+	"Intended Audience :: Science/Research",
+	
+	"License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+	
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.7",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = [
+	"numpy",
+	"scipy",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/TUD-IMB/fosanalysis"
+"Bug Reports" = "https://github.com/TUD-IMB/fosanalysis/issues"
+"Source" = "https://github.com/TUD-IMB/fosanalysis"
+"Changelog" = "https://github.com/TUD-IMB/fosanalysis/blob/master/CHANGELOG.md"
+
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
