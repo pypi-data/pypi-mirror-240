@@ -1,0 +1,6 @@
+onnxruntime
+Pillow
+pyyaml
+redis
+requests
+tabulate
