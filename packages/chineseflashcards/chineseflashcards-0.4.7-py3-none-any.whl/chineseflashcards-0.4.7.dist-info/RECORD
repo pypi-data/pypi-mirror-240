@@ -1,0 +1,13 @@
+chineseflashcards/__init__.py,sha256=Ye140ZVuznsr2jKHw7NyX9NtH45B_5OTqradyG-3lgI,13482
+chineseflashcards/__main__.py,sha256=TukeAsDeCfzzqTRLa9Ek6J3OsI2mUnLVfn4WypsnwcM,1073
+chineseflashcards/add_pinyin_diacritics_and_color.js,sha256=IIse03YJseBALXnx2vzJlAT8VFUtoVdodIinpZem5YI,2771
+chineseflashcards/cards.css,sha256=bNF0feiRfZkKfEDPlCbSJTb2JS9PnNYI4vZ1r0jwOGM,1154
+chineseflashcards/cedict.txt,sha256=Ukji48pjJnCzlTVm4Wf9bc0ab4bB2s-Mqv8Ha4cdTxU,8630351
+chineseflashcards/fields.json,sha256=JqGlfHK5px5IGN8dx_Eis4XC6cQytiF459lF4XQgZhc,2072
+chineseflashcards/templates.yaml,sha256=CoLqBVdEJHzr0whjNk98b5hvOkSeM48Y9LND4e92vtg,3383
+chineseflashcards/version.py,sha256=UmVafZY7kcXtTkcxANj_olsrrxex9xg7OUKA4sTbnN8,22
+chineseflashcards-0.4.7.dist-info/LICENSE.md,sha256=2x_pd6Ep2K_rYjZmwXFRyZtqqYLrWl6T1QUXC4Mgs3Q,555
+chineseflashcards-0.4.7.dist-info/METADATA,sha256=Jw6L0JZPnBjowWmSjLA3xkMX8djqutvoRJwjw09i9xk,342
+chineseflashcards-0.4.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+chineseflashcards-0.4.7.dist-info/top_level.txt,sha256=4DquGw_uunWnf52Bj2HOSNy_8T6bHqtUDrDFRnIG5m8,18
+chineseflashcards-0.4.7.dist-info/RECORD,,
