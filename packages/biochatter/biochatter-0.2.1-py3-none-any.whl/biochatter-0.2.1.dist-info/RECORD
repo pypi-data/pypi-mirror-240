@@ -1,0 +1,12 @@
+biochatter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+biochatter/_misc.py,sha256=L6EY6jc1jsULJWfKxv39e8G0XOtC1xfPj1TpkCImNAs,2839
+biochatter/_stats.py,sha256=-hYMTX2C6O8dh2ZC9SyAKv75X-tUNMrT1k2jMyvEzmE,2672
+biochatter/llm_connect.py,sha256=lJuSgPN35BuPqThIolnpGwbCltU5dameFnC4GnfTMfM,19445
+biochatter/podcast.py,sha256=3oZ5KQmh6BOk4ppP2H7cHTkPj0Bc_u1HBMp-YZppfVs,8736
+biochatter/prompts.py,sha256=pvNnJRV-YvefQxeP_hV9zrwIA2yzqjuDD8VnlU3UxE8,19279
+biochatter/vectorstore.py,sha256=ceTQIrFFRzAn9Ayij2p5kMO8UjcrTNqalN1bj42BSiQ,7966
+biochatter/vectorstore_host.py,sha256=4lvOMQe2RhRUDDF5jhZ4AD2hh4wR_jX7bO018lpZleg,17826
+biochatter-0.2.1.dist-info/LICENSE,sha256=QRN3grTnzT9Fmfaxmln5-1FX6blKITzaNzIGI7hqwDU,1066
+biochatter-0.2.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+biochatter-0.2.1.dist-info/METADATA,sha256=o-xSwLr4Yvs_E5y1qeUd4qOJcDsOPPYpyRWPDSgZb2o,5178
+biochatter-0.2.1.dist-info/RECORD,,
