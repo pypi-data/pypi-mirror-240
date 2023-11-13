@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/linux_joystick/__init__.py
+src/linux_joystick/joystick.py
+src/linux_joystick_py.egg-info/PKG-INFO
+src/linux_joystick_py.egg-info/SOURCES.txt
+src/linux_joystick_py.egg-info/dependency_links.txt
+src/linux_joystick_py.egg-info/requires.txt
+src/linux_joystick_py.egg-info/top_level.txt

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: linux-joystick-py
+Version: 0.0.4
+Summary: A simple interface for Linux /dev/input/js devices
+Author-email: Ethan Stacy <ethanstacy02@gmail.com>
+Project-URL: Homepage, https://github.com/Ethanol5455/linux-joystick-py
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typing-extensions
+
+# linux-joystick-py
+
+Python package to read Linux /dev/js devices.  
+Tested using an Xbox Core controller (Bluetooth) using xpadneo drivers.
