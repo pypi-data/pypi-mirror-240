@@ -1,0 +1,3 @@
+[creart.creators]
+launart = launart.creator:LaunartCreator
+
