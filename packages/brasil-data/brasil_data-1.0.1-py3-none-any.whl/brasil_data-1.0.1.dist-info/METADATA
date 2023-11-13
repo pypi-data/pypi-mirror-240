@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: brasil-data
+Version: 1.0.1
+Summary: Brazilian financial market data sources
+Home-page: https://github.com/gabrielguarisa/brdata
+License: MIT
+Keywords: data,dados,brasil,br,brazil,finance,financeiro,mercado
+Author: Gabriel Guarisa
+Author-email: gabrielguarisa@gmail.com
+Requires-Python: >=3.9,<3.13
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.11.2)
+Requires-Dist: cache-decorator (>=2.1.15,<3.0.0)
+Requires-Dist: html5lib (>=1.1)
+Requires-Dist: pandas (>=1.5.3)
+Requires-Dist: random-user-agent (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.31.0)
+Project-URL: Repository, https://github.com/gabrielguarisa/brdata
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://github.com/gabrielguarisa/brdata"><img src="https://raw.githubusercontent.com/gabrielguarisa/brdata/0bd34000bf29bd5b93aee011f368bc0385680c58/logo.png?token=GHSAT0AAAAAABPPKYT7BQBOVDJG3NYYQKNOYQ5JIZA" alt="brdata"></a>
+</p>
+<p align="center">
+    <em>Brazilian financial market data sources</em>
+</p>
+
+<div align="center">
+
+[![Package version](https://img.shields.io/pypi/v/brasil-data?color=%2334D058&label=pypi%20package)](https://pypi.org/project/brasil-data/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Semantic Versions](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--versions-e10079.svg)](https://github.com/gabrielguarisa/brdata/releases)
+[![License](https://img.shields.io/github/license/gabrielguarisa/brdata)](https://github.com/gabrielguarisa/brdata/blob/main/LICENSE)
+
+</div>
+
+## Installation
+
+```shell
+pip install brasil-data
+```
+
+## Usage
+
+The documentation is available in the [docs folder](https://github.com/gabrielguarisa/brdata/tree/main/docs) or in the [docs website](https://gabrielguarisa.github.io/brdata/).
+
+## How to contribute
+
+To contribute, please read the [CONTRIBUTING.md](https://github.com/gabrielguarisa/brdata/blob/main/CONTRIBUTING.md) file.
+

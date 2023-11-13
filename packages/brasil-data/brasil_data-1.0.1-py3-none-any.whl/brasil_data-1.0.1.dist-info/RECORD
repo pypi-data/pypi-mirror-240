@@ -1,0 +1,13 @@
+brdata/__init__.py,sha256=lmQk6ZjbVVCUijQeBEa97MaK_a95wHDFxG9fUtZkqak,72
+brdata/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+brdata/core/crawler.py,sha256=OZVPXN7VS2nKY4firfaLuehFJmTW-elordie9nvUaYw,1981
+brdata/core/exceptions.py,sha256=LR8INUJr0sOv_wU4ziI0cfl0wqUhxl0ZSA1iGT8a9QQ,482
+brdata/core/req.py,sha256=GGmuLIQxQapPhaRhY1VFzoKUuQa7XenRSq3xU0Gt-6M,1466
+brdata/crawlers/__init__.py,sha256=hGHwfJqWLi9mDNVaf4XmnD31fnm3iSgGiljKQxarWFQ,207
+brdata/crawlers/cvm.py,sha256=dmN6EnFiJySdpJ_cG761Jo0j_YiaC6wQ-KTVf1MCAS0,3892
+brdata/crawlers/valor.py,sha256=kZ2MEPIjZnIfrpQ19n4t3QMmqyHMTk6lialRSZKUog4,7071
+brdata/crawlers/xpi.py,sha256=UOllxz-HxjEWzvDqPClSI7ZdVpuTGXQd3gGkdW7reiw,2825
+brasil_data-1.0.1.dist-info/LICENSE,sha256=Yo7vjLRFzb_wHvZnv-6OR0IPJSrPc0xfgPi8FaXPLCU,1071
+brasil_data-1.0.1.dist-info/METADATA,sha256=YoD2Nliy98rdMTjtLtdP1X2HKmt9_4vk7tw4i-okdbQ,2234
+brasil_data-1.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+brasil_data-1.0.1.dist-info/RECORD,,
