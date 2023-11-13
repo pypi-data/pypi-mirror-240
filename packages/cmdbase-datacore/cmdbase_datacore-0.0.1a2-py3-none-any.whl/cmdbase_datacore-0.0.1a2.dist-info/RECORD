@@ -1,0 +1,16 @@
+cmdbase_datacore/__init__.py,sha256=Q8ae04FufVRqO_1TjWnGV6QNmlbjZFY1LGc7dEXWrRU,679
+cmdbase_datacore/__main__.py,sha256=8lWYFrZWEOaf3RcTV9jclJb9yxAnbLuJmJ0__al1mgw,253
+cmdbase_datacore/_version.py,sha256=zlWg3of0gD4zVGqkHsRuaANnbpSmueLb_5jW9e8_kiI,429
+cmdbase_datacore/commands.py,sha256=XYOcv1PbqBJf8ezH4SianNTizrqah5eluSLUSzJx_6w,1464
+cmdbase_datacore/commons.py,sha256=LJDdMNavbKvzs9RV7l7q1WMeggy4WdtpYN4bStlcBIc,6371
+cmdbase_datacore/get.py,sha256=ZyjMofK6IbExm1vLm-hFljKLBNCSL4nhBzA1bHArlf0,610
+cmdbase_datacore/host.py,sha256=RmFKQnndPHJ5zDnf3VZA7MBGok68QWWgODyw9ZU7iDk,1915
+cmdbase_datacore/port.py,sha256=HdIdd637UvufJ17J4C4Ce6As148vjAzX7_C2KRQMuGM,2596
+cmdbase_datacore/portconnection.py,sha256=bEbLsXj7Uk8iQ3qgn_538CnC9CGRsnDQIvY557vBlDE,527
+cmdbase_datacore/server.py,sha256=f2BQ9y6rFxtXbLituPbbakyI-HZTZtWYIDAk80FWIrA,5014
+cmdbase_datacore/virtualdisk.py,sha256=rKNrTyzpqP6xs9zXtJZrTEjZv0IHrg-Z64VYqkltYWs,6351
+cmdbase_datacore-0.0.1a2.dist-info/METADATA,sha256=TGdBwjq6QNBRZ0fy8bJL4UQnWZJWz0jr8PrmhtyAqcM,1291
+cmdbase_datacore-0.0.1a2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+cmdbase_datacore-0.0.1a2.dist-info/entry_points.txt,sha256=r-sqncB9VsU-HLus1HcVIBwbootF2gqNbYCBFtI7RuU,68
+cmdbase_datacore-0.0.1a2.dist-info/top_level.txt,sha256=dSKIcq4I9j-LqNFy9e1300SapJxZ6PH6ig8Vu0hTvQ4,17
+cmdbase_datacore-0.0.1a2.dist-info/RECORD,,

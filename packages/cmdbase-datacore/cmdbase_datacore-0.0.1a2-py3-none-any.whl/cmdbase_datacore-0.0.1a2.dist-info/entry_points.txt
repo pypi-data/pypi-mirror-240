@@ -1,0 +1,2 @@
+[console_scripts]
+cmdbase_datacore = cmdbase_datacore.__main__:main
