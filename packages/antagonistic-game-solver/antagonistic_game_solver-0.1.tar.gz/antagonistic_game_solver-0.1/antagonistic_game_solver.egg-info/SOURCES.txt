@@ -1,0 +1,14 @@
+LICENSE.txt.txt
+MANIFEST.in
+Workflow.ipynb
+setup.cfg
+setup.py
+antagonistic_game_solver.egg-info/PKG-INFO
+antagonistic_game_solver.egg-info/SOURCES.txt
+antagonistic_game_solver.egg-info/dependency_links.txt
+antagonistic_game_solver.egg-info/requires.txt
+antagonistic_game_solver.egg-info/top_level.txt
+package/__init__.py
+package/matrix_game.py
+tests/__init__.py
+tests/test.py
