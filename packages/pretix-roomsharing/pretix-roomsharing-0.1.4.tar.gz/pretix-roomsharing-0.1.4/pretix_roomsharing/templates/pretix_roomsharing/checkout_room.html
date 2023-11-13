@@ -1,0 +1,51 @@
+{% extends "pretixpresale/event/checkout_base.html" %}
+{% load i18n %}
+{% load money %}
+{% load bootstrap3 %}
+{% block inner %}
+    <p>
+        {% trans "You will share a room together with other attendees. You can create or join a rooming group. Please share this information with the friends, that you want to room with!" %}
+    </p>
+    <form method="post">
+        {% csrf_token %}
+        {% if order_has_room %}
+        {% include "pretix_roomsharing/fragment_roomform.html" %}
+        {% else %}
+        <div class="panel-group" id="room_accordion">
+            <div class="panel panel-default">
+                <label class="accordion-radio">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <input type="radio" name="room_mode" value="none"
+                                    data-parent="#room_accordion"
+                                    {% if selected == "none" %}checked="checked"{% endif %}
+                                    data-toggle="radiocollapse" data-target="#room_none"/>
+                            <strong>{% trans "No room types in order" %}</strong>
+                        </h4>
+                    </div>
+                </label>
+                <div id="room_none"
+                        class="panel-collapse collapsed {% if selected == "none" %}in{% endif %}">
+                    <div class="panel-body form-horizontal">
+                        {% trans "Your ticket doesn't grant you a room, so there is nothing for you to do here. Press continue to keep going!" %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        <div class="row checkout-button-row">
+            <div class="col-md-4">
+                <a class="btn btn-block btn-default btn-lg"
+                   href="{{ prev_url }}">
+                    {% trans "Go back" %}
+                </a>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <button class="btn btn-block btn-primary btn-lg" type="submit">
+                    {% trans "Continue" %}
+                </button>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </form>
+{% endblock %}
