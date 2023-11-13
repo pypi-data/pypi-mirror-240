@@ -1,0 +1,3 @@
+[console_scripts]
+cldf_rel=cldf_rel.cli:main
+
