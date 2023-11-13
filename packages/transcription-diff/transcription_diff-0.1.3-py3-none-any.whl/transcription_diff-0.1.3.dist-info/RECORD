@@ -1,0 +1,17 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_examples.py,sha256=0aZUTrOB_1NN5OzFynmQ1t7NJyTUYWBhDLGLBM6ZZcw,479
+tests/test_slicemap.py,sha256=v4_ouuls5VQmJhVC9jugnMZIGOMZ5CNXerZgnd4uIOE,11950
+tests/test_text_normalization.py,sha256=DETGPxdUT361EheGwg8f6KwpbtJcj0RzrbaEhBhRwNE,2636
+tests/test_whisper_asr.py,sha256=93q7ZtsxSm4h8YyzP7R8o3FiXvmXWTPEthOOC8jBcpo,1706
+transcription_diff/__init__.py,sha256=LPNaKUFe5S0lxcbXP4IcviKz02tUsjRUDAJch2OV7IE,23
+transcription_diff/find_lang_match.py,sha256=s5_4tVybHv5Ejeh51pC19i7_O71e93T47AYhnOioEaE,1799
+transcription_diff/number_normalization.py,sha256=U6g14t9PeEEijV5Ap2zze2YCi4F6SnJR_K_bJBNkUEU,16840
+transcription_diff/slice_map.py,sha256=1RbH2GAfarIqmYZVQtGszZI8YIVZ5lXRSFAJMpSH-_Q,12723
+transcription_diff/text_diff.py,sha256=xf8XDyhj0huxCLmFTLT-oJs4p-TNLK1QK3tSskrP8DY,6754
+transcription_diff/text_normalization.py,sha256=rf7XLOl_cno9IxyXH9FR7QJU2MDcdpsbk8uNaMNaV_8,6491
+transcription_diff/whisper_asr.py,sha256=jQWBvsb_vk4-qGBoWRMlhsTX5WJNP_dTajlfhqhEgqU,6431
+transcription_diff-0.1.3.dist-info/LICENSE,sha256=ZoQvT7WFoadWc9vKBzQ23Ped8j_4LmwzymwGVAhulJM,1093
+transcription_diff-0.1.3.dist-info/METADATA,sha256=Al7DarLKWV5JQosM-ZYOMpqe_QZg-32ydIus61AODEk,978
+transcription_diff-0.1.3.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+transcription_diff-0.1.3.dist-info/top_level.txt,sha256=3UF7GO7BQEtV083J6PgGFcyVJ4-FMl4078vBdCpoNn8,25
+transcription_diff-0.1.3.dist-info/RECORD,,
