@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: minio_operations
+Version: 0.1
+Summary: Python package for MinIO operations
+Home-page: https://github.com/A-Kamaee/minio_operations
+Author: Abouzar Kamaee
+Author-email: abouzarkamaee@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
