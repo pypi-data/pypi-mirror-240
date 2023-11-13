@@ -1,0 +1,7 @@
+funcmodels/__init__.py,sha256=Nlc9hbKq294EKaf3obQaZZJIMCbNUy9g7X03qCMQ2tE,180
+funcmodels/funcmodel.py,sha256=Yz9Etx36VexeZ0WNsNipc-NvSxNV6pADcHyh9isXnWk,3879
+funcmodels/openai_function.py,sha256=OyDsELJUSbD2EUTVBdnWCnesaV0QXVOfE5eENv41cDU,7343
+funcmodels-0.0.7.dist-info/METADATA,sha256=Z0rLDj1BQYgU8qyFF2kX8X2xxayc6WHhDWkRfvGpHxk,4668
+funcmodels-0.0.7.dist-info/WHEEL,sha256=cdcF4Fbd0FPtw2EMIOwH-3rSOTUdTCeOSXRMD1iLUb8,105
+funcmodels-0.0.7.dist-info/licenses/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+funcmodels-0.0.7.dist-info/RECORD,,
