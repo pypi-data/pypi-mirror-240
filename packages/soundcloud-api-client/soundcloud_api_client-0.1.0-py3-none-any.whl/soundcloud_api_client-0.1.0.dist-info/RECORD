@@ -1,0 +1,10 @@
+soundcloud/__init__.py,sha256=XyvycNxcdLT0Ensov_UAZvaYZdtiDhTg301DeTFpoGc,137
+soundcloud/_asynctool.py,sha256=iOr1h7s6VARX2kmSV3nE8RQsXPb-LTTgbO_OLJyAlaY,169
+soundcloud/_client.py,sha256=rDpHGM58sazb3sXAoO2-hA4aZI3mt3OXrjaLn5JzetA,1340
+soundcloud/_front.py,sha256=9O3o0BbOSdSviEkA0j3R5C8z4LqvEjRsYrPeJFkF27s,1539
+soundcloud/_models.py,sha256=UBryfHcqnuQ2-_FqlNXPcltutfM4Gnq-lFd6v8hYx1E,1350
+soundcloud/_protocols.py,sha256=yFlOJECG_Ms0mxbDVqpWldcQLpt7aVW4luVFORgkcCc,309
+soundcloud/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soundcloud_api_client-0.1.0.dist-info/METADATA,sha256=IG2WUSDgSfxtVkXUc3iGby4lg_PmTvDuHx1o-iqKaaY,764
+soundcloud_api_client-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+soundcloud_api_client-0.1.0.dist-info/RECORD,,
