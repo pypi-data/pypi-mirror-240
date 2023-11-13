@@ -1,0 +1,10 @@
+numpy
+scipy
+pandas
+matplotlib
+platformdirs
+PyQT6
+h5py
+pyYaml
+moderngl
+scikit-image
