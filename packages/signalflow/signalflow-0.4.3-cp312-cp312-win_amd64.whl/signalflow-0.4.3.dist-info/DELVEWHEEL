@@ -1,0 +1,2 @@
+Version: 1.5.1
+Arguments: ['C:\\Users\\jules.hodgson\\Documents\\SignalFlow\\Workspace\\.venv\\Scripts\\delvewheel', 'repair', '--add-path=..\\..\\dlls', '.\\signalflow-0.4.3-cp312-cp312-win_amd64.whl']
