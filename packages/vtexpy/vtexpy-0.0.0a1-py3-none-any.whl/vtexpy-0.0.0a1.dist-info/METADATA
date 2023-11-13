@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: vtexpy
+Version: 0.0.0a1
+Summary: Unnoficial Python SDK for VTEX API.
+Home-page: https://github.com/lvieirajr/vtex-python
+License: MIT
+Keywords: vtex,sdk,client
+Author: Luis Vieira
+Author-email: lvieira@lvieira.com
+Maintainer: Luis Vieira
+Maintainer-email: lvieira@lvieira.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: httpx[http2] (>=0.25,<0.26)
+Project-URL: Documentation, https://github.com/lvieirajr/vtex-python
+Project-URL: Repository, https://github.com/lvieirajr/vtex-python
+Description-Content-Type: text/markdown
+
+# VTEXPY
+
+Unnoficial Python SDK for VTEX API.
+
+
+# Development
+For helpful commands:
+
+```shell
+make help
+```
+
+
+[makefile]: https://github.com/datafoldbr/datafold/blob/master/Makefile
+

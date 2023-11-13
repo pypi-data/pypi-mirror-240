@@ -1,0 +1,15 @@
+vtex/__init__.py,sha256=hbtDYw4Kb2h9m6jFes4Jo-eS8pVLaPDnI1c3L5J8hDo,255
+vtex/_api/__init__.py,sha256=-AiE4g7hcCy3N8e1UcM0US70UePN5hE4fXWET_BIdHQ,168
+vtex/_api/base.py,sha256=Tz6v-j-SlvelbfFCkpV6fzCsDKde4VPxybwDfCDvei8,4640
+vtex/_api/catalog.py,sha256=HHv9Y2SR1CSgh7j-VRrhDjktPgEu24X-CbvkPG19gWw,176
+vtex/_api/logistics.py,sha256=VicpXxOz5YnPqJ0ko7nD7oD3-Uq347gfFcdCQlkTho4,1214
+vtex/_api/orders.py,sha256=cGlwmO3JHcWfya5MUfEJKvhepluIkdP1wpvLpkzHnjI,173
+vtex/_exceptions.py,sha256=mu1kk5XGndDu4-DLgY5Dtb76zdgHaMmWxXbFflZ3GVo,79
+vtex/_response.py,sha256=f9SLjiLQuw9o6nG6slXNSJ-jU5F_l54i6LT4yrt9KPg,1075
+vtex/_types.py,sha256=0ohJ3N8LtDnKUvlcI5QiIvNAzSZt8FYMLn_pLJ7nAq4,1497
+vtex/_vtex.py,sha256=o2_2_dNah2X7r0wJNOUg4vJSgHo7vWwg7P2WrZQS4wA,1157
+vtex/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vtexpy-0.0.0a1.dist-info/LICENSE,sha256=jzh7EVI-OeCp2CU2dE4u1aJwaXrRnt-OTUFcTF4EDDM,1083
+vtexpy-0.0.0a1.dist-info/METADATA,sha256=lnMiG0kYss3cKim3K7eX5mYpUdq3tGXf-6PpJXJ3JnI,1498
+vtexpy-0.0.0a1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+vtexpy-0.0.0a1.dist-info/RECORD,,
