@@ -1,0 +1,15 @@
+notevennexus/__init__.py,sha256=DlZC8MPoLmrpv5OvC30EuUQ2FttZSlaHYJOVsOz6Ugw,522
+notevennexus/__main__.py,sha256=n-dDs4vUpzvxKgEwwOu8p3Aq2KL_MjR4Bgv9FIicFZU,854
+notevennexus/hdf5.py,sha256=hobnt4iCSMQ-2glVVWcHfmsNAAoBYRGa6Mpwib_Tnxo,1531
+notevennexus/io.py,sha256=e1pTkHio6UtOOfLcPnGTk1KMVziOmoWZqiPJN26DOoY,787
+notevennexus/json.py,sha256=2QYk-Bz4A2JQZb9Yrat1QtKQNZWftLswVCtavIj8wo4,3361
+notevennexus/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notevennexus/tree.py,sha256=FVh1FbcuqOqoPSQ6tStSmrEjuTIcBCBwTAFXXKWR5cY,863
+notevennexus/validate.py,sha256=h6yX8gok3Pn3p20gnQVQmNA1ZO0I8mFvyLkZ_L3ca3M,2109
+notevennexus/validators.py,sha256=83MWMvZGx1jlBxkrg3rxWH6tqo_WU4zWwaLL-iEbvlg,5912
+notevennexus-0.1.0.dist-info/LICENSE,sha256=pvkUUgjLqx3ORl0XbYGk7JVRgZHw3MfbvzbDhlfOnWw,1553
+notevennexus-0.1.0.dist-info/METADATA,sha256=Xqtdcfy-PsjSbTjrxG9ftH6ZvGSw0wBXAiqM3XU5ElY,3316
+notevennexus-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+notevennexus-0.1.0.dist-info/entry_points.txt,sha256=LRDuyTcFWsBhU40XP5bJqu2XFLjP1S_CJyvzKeyEO3Y,60
+notevennexus-0.1.0.dist-info/top_level.txt,sha256=-MKPFizzfm2v4J1eW8iF1oNVprQSTGHTCM6vUNiCRlQ,13
+notevennexus-0.1.0.dist-info/RECORD,,
