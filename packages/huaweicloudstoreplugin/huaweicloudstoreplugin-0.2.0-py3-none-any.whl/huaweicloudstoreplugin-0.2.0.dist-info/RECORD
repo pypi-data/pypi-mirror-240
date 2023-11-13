@@ -1,0 +1,10 @@
+huaweicloudstoreplugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huaweicloudstoreplugin/store/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huaweicloudstoreplugin/store/artifact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huaweicloudstoreplugin/store/artifact/huaweicloud_obs_artifact_repo.py,sha256=9rFD8GStblpJd19tSrxahgqc-dEbz253wvjbHq6k-6U,7162
+huaweicloudstoreplugin-0.2.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+huaweicloudstoreplugin-0.2.0.dist-info/METADATA,sha256=8dSckSJ2ySJZpKHPg6Nx3rU_6t06aF8uXD9beLRijgc,2541
+huaweicloudstoreplugin-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+huaweicloudstoreplugin-0.2.0.dist-info/entry_points.txt,sha256=mZhAlnX9NgYGMKayZnFw0sQwlJgAOB301NUN9T5oWpA,136
+huaweicloudstoreplugin-0.2.0.dist-info/top_level.txt,sha256=xgI2XmdANzWsQW5oDchThAo-nKH3bfMtedyyLI3StTw,23
+huaweicloudstoreplugin-0.2.0.dist-info/RECORD,,
