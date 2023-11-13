@@ -1,0 +1,7 @@
+sentigpt/__init__.py,sha256=L0Ukf4YlckV3zCw61AgfhbP1kKPAyKnmqKV757XKqSc,66
+sentigpt/aimanager.py,sha256=mTSAPZCmv4nzYmfwsD5BTNvyvNkhPvUsfQ1oJRLGHCk,752
+sentigpt/sentimentmanager.py,sha256=iBjVq7-0srkb5vLGAthbKOSmotevATuAPS2T3K5wLHI,8086
+sentigpt-0.12.dist-info/METADATA,sha256=pcRI4exKIyORRAbWzS07de56uh1Etpg2A4aU25paqkI,489
+sentigpt-0.12.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+sentigpt-0.12.dist-info/top_level.txt,sha256=uaZ5wIXWSB6j3Pnts-jTtKoyBqKg7y3nG80b3PrWK8I,9
+sentigpt-0.12.dist-info/RECORD,,
