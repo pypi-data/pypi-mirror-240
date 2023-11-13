@@ -1,0 +1,14 @@
+lextok/__init__.py,sha256=NJ38wDDEX6x9xp4l-2ZiZGIISHztxXIJZ0WgOZvRX2E,826
+lextok/attrs.py,sha256=CUysX0VpWnXKXDHzNPWTNgLyI9DfUUWce-GfBIciz0k,4747
+lextok/main.py,sha256=2AJAyZND9GxqbDix-3DIaoKmw5ENOGTgGagvvj1BBNc,3934
+lextok/rules/__init__.py,sha256=8xMfvbO3aE04Jqhsa4JOzMNtU1wEix-8BBxcvFSEG7k,986
+lextok/rules/_pattern.py,sha256=maXTFtrym8DL8motpBZzt_wDklFoKF0FgtqEwgZcJ1w,6368
+lextok/rules/abbv.py,sha256=eQZgV8mBZjAWegcEsnFuwJiCJcKgr65lAMivkhs8vCU,9271
+lextok/rules/builder.py,sha256=BsGcBpxu2NunXJuVORby0pYrQP6zbapeZ0rYhd5juUQ,4970
+lextok/rules/cites.py,sha256=O-ep8CpiqaEbrT3srISXEgG1UxEbeWL5GJmOkmBM-Wc,5308
+lextok/rules/pretest.py,sha256=FAmgRKDNwsQKTVkMi9bsuRMl-E7GkiESv_7kmKkaROc,1305
+lextok/spans.py,sha256=t8dIb90-vep5m2E78l8osbIXRnXnV9CotJNmc-cxeFs,799
+lextok/tokens.py,sha256=UCvXJLHxJoY6KPioDRJvCb_KGQSP_w4l55PZrp2hl30,3094
+lextok-0.0.9.dist-info/METADATA,sha256=DnA1tvZozKGoIxjWvXqmsm7RST-RDBHTEP9__1k43rs,7183
+lextok-0.0.9.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+lextok-0.0.9.dist-info/RECORD,,
