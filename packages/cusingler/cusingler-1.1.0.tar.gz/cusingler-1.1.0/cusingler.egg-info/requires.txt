@@ -1,0 +1,4 @@
+h5py
+
+[test]
+pytest>=6.0

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cusingler.egg-info/PKG-INFO
+cusingler.egg-info/SOURCES.txt
+cusingler.egg-info/dependency_links.txt
+cusingler.egg-info/not-zip-safe
+cusingler.egg-info/requires.txt
+cusingler.egg-info/top_level.txt
+test/test_basic.py
