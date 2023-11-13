@@ -1,0 +1,3 @@
+[console_scripts]
+twcp=tailwind_cp.main:main
+
