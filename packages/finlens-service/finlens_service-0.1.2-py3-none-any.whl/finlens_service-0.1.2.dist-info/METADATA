@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: finlens-service
+Version: 0.1.2
+Summary: 
+Author: Luke Pafford
+Author-email: lpafford@amazon.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# finlens-service
+Service code for finlens.me
+
