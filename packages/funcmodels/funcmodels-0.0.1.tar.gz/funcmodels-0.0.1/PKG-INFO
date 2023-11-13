@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: funcmodels
+Version: 0.0.1
+Summary: Pydantic model validation and argument handling, for your functions!
+Author-email: Ryan Young <dev@ryayoung.com>
+License-Expression: MIT
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: docstring-parser
+Requires-Dist: pydantic
