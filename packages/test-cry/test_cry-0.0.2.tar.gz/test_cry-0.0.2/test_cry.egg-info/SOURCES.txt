@@ -1,0 +1,7 @@
+setup.py
+test_cry/__init__.py
+test_cry/some.py
+test_cry.egg-info/PKG-INFO
+test_cry.egg-info/SOURCES.txt
+test_cry.egg-info/dependency_links.txt
+test_cry.egg-info/top_level.txt
