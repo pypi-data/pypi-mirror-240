@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pulsegen
+Version: 0.0.1
+Summary: A pulse generator used for SQUID quantum circuit
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Orkesh Nurbolat <MG1922077@smail.nju.edu.cn>
+License-File: LICENSE.txt
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+A Gate to Pulse generator.

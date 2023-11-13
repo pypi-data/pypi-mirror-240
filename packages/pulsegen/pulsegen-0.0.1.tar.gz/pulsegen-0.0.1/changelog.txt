@@ -1,0 +1,11 @@
+version 1.1.2
+-- added U3 randomized benchmarking gates
+-- operation.py added in purpose of caneclling crosstalk with U3 
+
+version 1.1.0
+-- major change , seperated the qubit info and line info 
+-- making the phase1 as the place the virtual z integrates
+
+
+version 0.9
+-- basic implementation of the pulsegen
