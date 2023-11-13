@@ -1,0 +1,146 @@
+[tool.poetry]
+name = "aiogram-middlewares"
+version = "0.0.3"
+description = "Useful middlewares for aiogram bots =)"
+authors = ["BlackCatDevel0per <bcdev@mail.ru>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Framework :: AsyncIO",
+    "Typing :: Typed",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Communications :: Chat",
+]
+
+[tool.ruff]
+line-length = 100
+select = [
+	"RUF",
+	"FBT",
+	"FURB",
+	"PERF",
+	"TRY",
+	"FLY",
+	"YTT",
+	"PIE",
+	# "PYI",  # For stub files
+	"TCH",
+	"FA",
+	"UP",
+	"EM",
+	"PL",
+	"G",  # NOTE: CONF!
+	"INP",
+	"PT",
+	"DJ",
+	"NPY",
+	"PD",
+	"ERA",
+	"ARG",
+	"INT",
+	"TID",
+	"SIM",
+	"SLOT",
+	"RET",
+	"RSE",
+	"SLF",
+	"T20",
+	"Q",
+	"ISC",
+	"BLE",
+	"DTZ",
+	"COM",
+	"C4",
+	"A",
+	"PTH",
+	"FIX",
+	"TD",
+	"ANN",
+	"S",
+	"ASYNC",
+	"D",
+	"N",
+
+	"C",
+	"I",
+	# Pycodestyle
+	"E",
+	# Pyflakes
+	"F",
+	"B",
+	"W",
+	# isort
+	# "I001"
+]
+
+ignore = [
+	"W191", "D206", "RET502",
+	"UP040",  # New type aliases (type hinting)
+	"PTH123",  # Not good solution for all things..
+	"TD001",
+	"TD002",
+	"TD003",
+	"S101",
+]  # Add RET503?
+
+src = ["src/aiogram_middlewares", "tests", "scripts", "examples"]
+exclude = [
+    ".git",
+    "build",
+    "dist",
+    "venv",
+    ".venv",
+    "docs",
+    "tests",
+    "dev",
+    "*.egg-info",
+]
+target-version = "py38"
+
+[tool.ruff.flake8-quotes]
+inline-quotes = "single"
+
+[tool.ruff.format]
+indent-style = "tab"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+aiogram = "^3.1.1"
+
+[tool.poetry.group.extra]
+optional = true
+
+[tool.poetry.group.extra.dependencies]
+brotli = "^1.1.0"
+rich = "^13.6.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-dependency = "^0.5.1"
+ruff = "^0.0.292"
+
+
+
+[tool.poetry.group.testing]
+optional = true
+
+[tool.poetry.group.testing.dependencies]
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
