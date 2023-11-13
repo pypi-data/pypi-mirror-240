@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "esl-babylon-callm"
+version = "0.0.1"
+description = ""
+authors = ["epam"]
+readme = "README.md"
+packages = [
+    { include = "esl_babylon_callm" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.4.2"
+pydantic-settings = "^2.0.3"
+sqlalchemy = "^2.0.23"
+redis = "^5.0.1"
+langchain = "^0.0.335"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
