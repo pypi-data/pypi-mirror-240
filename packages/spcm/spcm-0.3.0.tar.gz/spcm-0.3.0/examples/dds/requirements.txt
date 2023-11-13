@@ -1,0 +1,3 @@
+spcm
+PyQt5
+psutil
