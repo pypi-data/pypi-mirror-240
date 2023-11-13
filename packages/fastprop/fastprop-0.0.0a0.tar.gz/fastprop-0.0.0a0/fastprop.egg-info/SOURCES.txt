@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+fastprop/__init__.py
+fastprop/fastprop.py
+fastprop.egg-info/PKG-INFO
+fastprop.egg-info/SOURCES.txt
+fastprop.egg-info/dependency_links.txt
+fastprop.egg-info/requires.txt
+fastprop.egg-info/top_level.txt
+test/test_fastprop.py
