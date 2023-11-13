@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: MusicLibrary_bdata
+Version: 0.3
+Summary: Allows users to search for songs and artist or albums and get information about them
+Home-page: https://github.com/pauleaguirre/MusicLibrary_bdata
+Download-URL: https://github.com/pauleaguirre/MusicLibrary_bdata/archive/refs/tags/v_02.tar.gz
+Author: Peio and Paule
+Author-email: peio.diaz@alumni.mondragon.edu
+License: MIT
+Keywords: MUSIC,API,SEARCH
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+## INDICE
+- Resumen
+- Ficheros
+- Setup
+
+## Resumen
+Esta biblioteca de Python proporciona funcionalidades para buscar y obtener información sobre canciones, artistas y álbumes utilizando las APIs de Spotify y Musixmatch. Además, ofrece recomendaciones basadas en canciones y artistas.
+
+## Ficheros
+music_library.py: Contiene las clases Search, Recommend y LyricsSearch. Estas clases encapsulan varios métodos para interactuar con las APIs de Spotify y Musixmatch, buscar música, obtener detalles y obtener recomendaciones.
+
+ejecucion.py: Un script que demuestra el uso de la biblioteca con consultas y interacciones de muestra.
+
+## Setup
+Para usar esta biblioteca, sigue estos pasos:
+
+Instalar Dependencias:
+
+pip install spotipy 
+pip install requests
+pip install pandas
+
+Claves de API:
+
+Obtén una clave de API de desarrollador de Spotify creando una aplicación en el Tablero de Desarrolladores de Spotify.
+Obtén una clave de API de Musixmatch registrándote en el Portal de Desarrolladores de Musixmatch.
+Configurar Claves de API:
+
+Abre ejecucion.py y reemplaza los marcadores de posición para SPOTIPY_CLIENT_ID, SPOTIPY_CLIENT_SECRET y MUSIXMATCH_API_KEY con tus claves reales.
+
+Ejecutar el Ejemplo:
+
+Ejecuta el script ejecucion.py para ver interacciones y salidas de muestra.
+
+#### Uso de clases
+##### Clase Search
+
+search_song():
+Busca canciones en Spotify según la entrada del usuario.
+Devuelve una lista de IDs de canciones y un DataFrame con detalles de canciones.
+
+search_artist():
+Busca artistas en Spotify según la entrada del usuario.
+Devuelve una lista de IDs de artistas y un DataFrame con detalles de artistas.
+
+search_album():
+Busca álbumes en Spotify según la entrada del usuario.
+Devuelve un DataFrame con detalles de álbumes.
+
+song_statistics(lista_ids):
+Obtiene estadísticas de canciones en Spotify según una lista de IDs de canciones.
+Devuelve un DataFrame con estadísticas de canciones.
+
+songs_by_genre():
+Busca canciones en Spotify según un género especificado.
+Devuelve un DataFrame con detalles de canciones.
+
+##### Clase Recommend
+
+recommend_by_song():
+Recomienda canciones basadas en una canción seleccionada por el usuario.
+Devuelve una lista con detalles de canciones recomendadas.
+
+recommend_by_artist():
+Recomienda artistas basados en un artista seleccionado por el usuario.
+Devuelve una lista con nombres de artistas recomendados.
+
+##### Clase LyricsSearch
+
+search_lyrics():
+Busca letras de canciones en Musixmatch según la entrada del usuario.
+Devuelve las letras y un ID único de canción.
+
+top_songs_by_country():
+Obtiene las canciones más populares en un país especificado en Musixmatch.
+Devuelve una lista de diccionarios con detalles de canciones.
