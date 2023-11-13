@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: larry-ai
+Version: 0.0.1
+Requires-Dist: fastapi <1.0.0,>=0.95.0
+Requires-Dist: uvicorn[standard] ==0.21.1
+Requires-Dist: jinja2
+Requires-Dist: click
+Requires-Dist: openai ==0.28.1
+
+# larry
