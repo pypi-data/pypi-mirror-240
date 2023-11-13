@@ -1,0 +1,9 @@
+antagonistic_game/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+antagonistic_game/matrix_game.py,sha256=P1WM4iS1_hT6XlKEigLlUGyKnvr1yclP16DZ0y1PaHI,8263
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=qqPe3Rb6nHlnpLsFInoe0l0W9IoO3IASmUjBg63k29A,8817
+antagonistic_game-0.7.dist-info/LICENSE.txt.txt,sha256=gbmThHSpoB4o8rgi9k1Lj2rJvHFIa-Fg2dqJBSFD_-o,1103
+antagonistic_game-0.7.dist-info/METADATA,sha256=3I9k3gd57tWgww50ccUefDpu33qzOlaZq6asY4OJPK4,531
+antagonistic_game-0.7.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+antagonistic_game-0.7.dist-info/top_level.txt,sha256=egQwqO240CEROm2jxbFyR_nXyu8al9mM7b9oT6uIkww,24
+antagonistic_game-0.7.dist-info/RECORD,,
