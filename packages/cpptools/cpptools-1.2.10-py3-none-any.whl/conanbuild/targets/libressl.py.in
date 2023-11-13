@@ -1,0 +1,108 @@
+from conans import ConanFile, tools, CMake
+import os
+import platform
+
+
+class LibresslConan(ConanFile):
+    name = "libressl"
+    version = "@version@"
+    settings = "os", "arch", "compiler", "build_type"
+    options = {"shared": [True, False]}
+    default_options = "shared=False"
+    exports_sources = "*"
+    url = "https://ftp.openbsd.org/"
+
+    def source(self):
+        tools.download('https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-@version@.tar.gz', 'libressl.tar.gz')
+        tools.untargz("libressl.tar.gz")
+        self.run('mv libressl-@version@/* .')
+        self.run('rm libressl.tar.gz')
+
+    def configure(self):
+        del self.settings.compiler.libcxx
+
+    def cmakeBuild(self):
+        cmake = CMake(self)
+        options = ['-DCMAKE_INSTALL_PREFIX=%s'%self.package_folder]
+
+        if(self.options['shared']):
+            options.append('-DBUILD_SHARED_LIBS=ON')
+
+        if self.settings.os == "Android":
+            cmake.generator = "Unix Makefiles"
+            if tools.os_info.is_windows:
+                make_program = os.environ.get("CONAN_BASH_PATH").replace("bash.exe", "make.exe")
+                options.append("-DCMAKE_MAKE_PROGRAM=%s"%make_program)
+
+            toolchain_file = os.environ.get(
+                "ANDROID_NDK_HOME") + "/build/cmake/android.toolchain.cmake"
+            options.append("-DCMAKE_TOOLCHAIN_FILE="+toolchain_file)
+            if(self.settings.compiler == "clang"):
+                options.append("-DANDROID_TOOLCHAIN=clang")
+                options.append("-DANDROID_STL=c++_static")
+            else:
+                options.append("-DANDROID_TOOLCHAIN=gcc")
+                options.append("-DANDROID_STL=gnustl_static")
+            if(self.settings.arch == "armv7"):
+                options.append("-DANDROID_ABI=armeabi-v7a")
+            elif(self.settings.arch == "armv8"):
+                options.append("-DANDROID_ABI=arm64-v8a")
+        elif self.settings.os == "iOS":
+            sysroot = "iphoneos"
+            if(self.settings.arch == "x86" or self.settings.arch == "x86_64"):
+                sysroot = "iphonesimulator"
+            target_arch = str(self.settings.arch)
+            if(self.settings.arch == "armv8"):
+                target_arch = "arm64"
+            elif(self.settings.arch == "x86"):
+                target_arch = "i386"
+            options.append("-DCMAKE_OSX_SYSROOT="+sysroot)
+            options.append("-DCMAKE_OSX_ARCHITECTURES="+target_arch)
+            options.append("-DIOS=TRUE")
+        elif(self.settings.os == "Macos"):
+            sysroot = "macosx"
+            target_arch = str(self.settings.arch)
+            if(self.settings.arch == "x86"):
+                target_arch = "i386"
+            if(self.settings.arch == "armv8"):
+                target_arch = "arm64"
+            options.append("-DCMAKE_OSX_SYSROOT="+sysroot)
+            options.append("-DCMAKE_OSX_ARCHITECTURES="+target_arch)
+            options.append("-DMACOS=TRUE")
+        elif(self.settings.os == "Linux"):
+            if(self.settings.arch == "x86"):
+                options.append("-DCMAKE_C_FLAGS=-m32 -fPIC")
+                options.append("-DCMAKE_CXX_FLAGS=-m32 -fPIC")
+                options.append("-DCMAKE_EXE_LINKER_FLAGS=-m32")
+            elif(self.settings.arch == "armv7"):
+                if("CFLAGS" in os.environ):
+                    options.append("-DCMAKE_C_FLAGS=-fPIC %s"%os.environ.get("CFLAGS"))
+                else:
+                    options.append("-DCMAKE_C_FLAGS=-fPIC")
+                if("CXXFLAGS" in os.environ):
+                    options.append("-DCMAKE_CXX_FLAGS=-fPIC %s"%os.environ.get("CXXFLAGS"))
+                else:
+                    options.append("-DCMAKE_CXX_FLAGS=-fPIC")
+            else:
+                options.append("-DCMAKE_CXX_FLAGS=-fPIC")
+                options.append("-DCMAKE_C_FLAGS=-fPIC")
+                
+            if("CMAKE_TOOLCHAIN_FILE_NAME" in os.environ):
+                options.append("-DCMAKE_TOOLCHAIN_FILE=%s"%os.environ.get("CMAKE_TOOLCHAIN_FILE_NAME"))
+        
+        cmake.configure(args=options, source_folder=self.source_folder)
+        cmake.build()
+        cmake.install()
+
+    def build(self):
+        with tools.chdir(self.source_folder):
+            tools.mkdir('_build')
+            with tools.chdir('./_build'):
+                self.cmakeBuild()
+        
+    def package_info(self):
+        if(self.settings.compiler == 'Visual Studio'):
+            self.cpp_info.libs = ['crypto','ssl', 'tls']
+            self.cpp_info.system_libs = ['Bcrypt.lib']
+        else:
+            self.cpp_info.libs = ['tls','ssl', 'crypto']
