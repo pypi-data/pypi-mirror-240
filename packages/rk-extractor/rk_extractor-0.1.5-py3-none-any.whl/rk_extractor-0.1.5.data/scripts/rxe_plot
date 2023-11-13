@@ -1,0 +1,46 @@
+#!python
+
+import glob
+import os
+import pandas            as pnd
+import matplotlib.pyplot as plt
+
+from logzero import logger as log
+
+#-------------------------------------------------------
+def get_df():
+    l_json_path = glob.glob('sandbox/*/output.json')
+    l_df = [ pnd.read_json(json_path) for json_path in l_json_path ]
+
+    if len(l_df) == 0:
+        log.error(f'Cannot find any JSON file')
+        raise
+
+    df   = pnd.concat(l_df, axis=0)
+    df   = df.reset_index(drop=True)
+
+    return df
+#-------------------------------------------------------
+def plot(df):
+    os.makedirs('plots', exist_ok = True)
+
+    df['pull'] = (df['rk value'] - 1 ) / df['rk error']
+
+    mu = df.pull.mean()
+    sd = df.pull.std()
+
+    df.plot.hist(column=['pull'], bins=50, range=(-3, +3), histtype='step')
+    plt.axvline(x=mu   , color='red', linestyle='--')
+    plt.axvline(x=mu-sd, color='red', linestyle=':')
+    plt.axvline(x=mu+sd, color='red', linestyle=':')
+
+    plt.savefig(f'plots/pull.png')
+    plt.close('all')
+#-------------------------------------------------------
+def main():
+    df = get_df()
+    plot(df)
+#-------------------------------------------------------
+if __name__ == '__main__':
+    main()
+
