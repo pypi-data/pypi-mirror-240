@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: alecto
+Version: 2.0.2
+Summary: Alecto is an advanced command-line tool for password hashing. With support for various hashing algorithms, including MD5, SHA-256, SHA-512, Argon2, and bcrypt, it offers flexibility and security. Users can choose algorithms, include custom salts, and specify hash lengths, making it a versatile solution for password hashing needs.
+Home-page: https://github.com/saphiraaa/NetherMath
+Author: Saphiraaa
+Author-email: fredmarkivand@gmail.com
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Alecto: Advanced Password Hashing Tool
+
+Alecto is an advanced command-line utility designed for sophisticated password hashing, offering a comprehensive set of features and algorithms to bolster security. Below, you'll find an in-depth guide on Alecto's features, advanced usage, supported algorithms, and practical examples.
+
+## Features
+
+### 1. **Extensive Algorithm Support**
+
+Alecto boasts support for a diverse array of hashing algorithms, providing users with the flexibility to tailor their security measures to specific requirements. Here is a list of available algorithms:
+
+- md5
+- sha1
+- sha224
+- sha256
+- sha384
+- sha512
+- shake_128
+- shake_256
+- blake2s
+- blake2b
+- argon2
+- bcrypt
+- sha3_224
+- sha3_256
+- sha3_384
+- sha3_512
+- scrypt
+- mysql323
+- mysql41
+- mssql2000
+- mssql2005
+- oracle11
+- lmhash
+- nthash
+- pbkdf2_sha256
+- des_crypt
+- bsdi_crypt
+- bigcrypt
+- crypt16
+- md5_crypt
+- sha1_crypt
+- sha256_crypt
+- sha512_crypt
+- sun_md5_crypt
+- apr_md5_crypt
+- phpass
+- cta_pbkdf2_sha1
+- dlitz_pbkdf2_sha1
+- django_pbkdf2_sha1
+- django_pbkdf2_sha256
+- grub_pbkdf2_sha512
+- scram
+- bsd_nthash
+- cisco_type7
+- fshp
+- pbkdf2_hmac_sha1
+- pbkdf2_hmac_sha256
+- pbkdf2_hmac_sha512
+- md4
+- whirlpool
+- sm3
+- ripemd160
+- md5-sha1
+- sha128
+
+### 2. **Algorithm Specification**
+
+Directly specify the hashing algorithm:
+
+```bash
+python alecto.py -a <algorithm> <password>
+```
+
+### 3. **Custom Salt Integration**
+
+Elevate password security by introducing custom salts into the hashing process. Alecto seamlessly accommodates custom salts, providing users with granular control over the salting mechanism, a crucial aspect of robust password storage.
+
+### 4. **Terminal Clarity Enhancement**
+
+Alecto includes a terminal-clearing functionality, optimizing user experience by ensuring a clean and organized interface.
+
+### 5. **Fine-tuned Hash Length Specification**
+
+Specific to shake_128 and shake_256 algorithms, Alecto enables users to precisely specify the hash length using the `--hash-length` option. This advanced feature allows for tailoring hash outputs to exact requirements.
+
+## Advanced Usage
+
+### 1. **Parallel Salting**
+
+For enhanced security, leverage both custom and default salts simultaneously:
+
+```bash
+python alecto.py <password> -a <algorithm> --salt --both-salt
+```
+
+### 2. **Custom Salt Usage**
+
+Utilize a custom salt in the hashing process:
+
+```bash
+python alecto.py <password> -a <algorithm> --salt --custom-salt
+```
+
+### 3. **Custom Byte Length For SHAKE128 AND SHAKE256**
+
+'''bash
+python alecto.py <password> -a <shake128 or shake256> --hash-length <length>
+'''
+## Examples
+
+### 1. **Custom Algorithm and Salt**
+
+```bash
+python alecto.py -a sha3_256 --custom-salt mypassword
+```
+
+### 2. **Parallel Salting with Shake_256**
+
+```bash
+python alecto.py -- salt --both-salt -a shake_256 --hash-length 64 mypassword
+```
+## Considerations
+
+- When using a custom salt, it is seamlessly integrated into the hashing process.
+- For algorithms like argon2 and bcrypt, employing a custom salt enhances overall security.
+- Default salts are automatically generated when using the `--salt` or `--both-salt` options.
+
+**Disclaimer:** Alecto is intended for educational and security research purposes. Users are advised to employ the tool responsibly and adhere to ethical guidelines.
