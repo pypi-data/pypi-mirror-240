@@ -1,0 +1,32 @@
+from colorama import init, Fore
+from LoggingConfig import logger
+
+
+class User:
+    def __init__(self):
+        init()
+        self.clear = "\033c"
+        self.red = Fore.RED
+        self.blue = Fore.BLUE
+        self.green = Fore.GREEN
+        self.reset = Fore.RESET
+
+    def Ctext(self, colour, text):
+        print(f"{colour}{text}{self.reset}\n")
+        logger.info(f"{colour}{text}{self.reset}")
+
+    def Choice(self, text, options, callbacks):
+        check = [str(i) for i in range(1, len(options) + 1)]
+        callback_dict = {str(i): callback for i, callback in enumerate(callbacks, start=1)}
+
+        while True:
+            self.Ctext(self.blue, f"{text}")
+            for i, option in enumerate(options, start=1):
+                print(f"({i}) {option}")
+
+            choice = input("\nInput: ")
+
+            if choice in check and choice in callback_dict:
+                callback_dict[choice]()  # Execute the corresponding function
+            else:
+                self.Ctext(self.red, f"{self.clear}Invalid input. Please choose a valid option.")
