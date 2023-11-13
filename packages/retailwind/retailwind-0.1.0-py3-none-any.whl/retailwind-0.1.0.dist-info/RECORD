@@ -1,0 +1,11 @@
+dev/tailwind.css,sha256=qgdtRitGSGsh7-QEkvE8XuAofhizGX7hBxx1vOLe058,878119
+retailwind/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+retailwind/__main__.py,sha256=6w36J4d7i4aO8py0Wdah5NG9ESzP3pjBuO_LUIW2PkA,1700
+retailwind/interactive.py,sha256=r66kUX3XeEywoXObSmAYYKxJq9ADv2gXwhySVQ7YbrY,3149
+retailwind/parser.py,sha256=E5fsmV_N_7FNy1a1tUfGduLD3LdL0HXqGcx0a8gplkA,2911
+retailwind/tailwind.py,sha256=IZwWPqBZoJTejRhigS56EpPKreTJMl2h3bsNTceF1zg,877567
+retailwind/translator.py,sha256=tmEI0RAzm0IgHLBKRLvJcMmSx24IrYHsfdRfclLWqNY,3816
+retailwind-0.1.0.dist-info/METADATA,sha256=nYkKRZt5d4uvd-dEJjF4B4t-fp5tz7h4K6F5rPqJo7s,1758
+retailwind-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+retailwind-0.1.0.dist-info/entry_points.txt,sha256=3Pgo0BFt8pn0hqEY9L26qsCKS9m-1alqufim49MJM9M,55
+retailwind-0.1.0.dist-info/RECORD,,

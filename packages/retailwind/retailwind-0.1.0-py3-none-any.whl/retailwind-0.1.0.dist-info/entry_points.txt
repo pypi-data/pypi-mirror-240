@@ -1,0 +1,3 @@
+[console_scripts]
+retailwind=retailwind.__main__:main
+
