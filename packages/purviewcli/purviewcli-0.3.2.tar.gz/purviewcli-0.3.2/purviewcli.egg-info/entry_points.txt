@@ -1,0 +1,2 @@
+[console_scripts]
+pv = purviewcli.cli.cli:main
