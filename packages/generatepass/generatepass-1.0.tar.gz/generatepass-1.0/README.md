@@ -1,0 +1,59 @@
+#generatepass
+
+This is password generator::
+
+Hizart.soft H._T@2022
+
+## Usage
+
+1. **Generate a Password:**
+
+   ```python
+    from password_generator import generate_pass
+
+    password = generate_pass()
+    print("Generated Password:", password)
+
+2. **Check Password Strength:**
+    
+    ```python
+    from password_generator import check_pass, get_user_password
+
+    user_password = get_user_password()
+    strength_result = check_pass(user_password)
+    print(strength_result)
+
+3. **Encrypt and Decrypt Password:**
+
+    ```python
+    from password_generator import use_encrypt_pass, use_decrypt_pass, get_user_password
+
+    user_password = get_user_password()
+
+    # Encrypt password
+    encrypted_password = use_encrypt_pass(user_password)
+    print("Encrypted Password:", encrypted_password)
+
+    # Decrypt password
+    decrypted_password = use_decrypt_pass(encrypted_password)
+    print("Decrypted Password:", decrypted_password)
+
+
+5. **Customize Password Length:**
+
+    ```python
+    from password_generator import generate_pass
+
+    custom_length_password = generate_pass(length=16)
+    print("Custom Length Password:", custom_length_password)
+
+6. **Check Password Strength and Generate**
+
+    ```python
+    from password_generator import check_pass, generate_pass
+
+    password = generate_pass()
+    print("Generated Password:", password)
+
+    strength_result = check_pass(password)
+    print(strength_result)
