@@ -1,0 +1,16 @@
+phi/__init__.py,sha256=2VFmm_TKWVaJbvV0Z-rDtFXl4q2kyq1eRShJo6dpczU,335
+phi/export.py,sha256=9SLszibqYzaGlKZutorOHaowP_yDnad6D4V8ULp5_uM,2422
+phi/preprocess.py,sha256=PeSgrMwAQdD_XhNv6vcKUtLi00KiDRFYjyGqWUNVuTE,1412
+phi/train.py,sha256=CSYa9YvqJswgXgaw2d_71Noe8mai-EGH0SiWvAwqBXw,3818
+phi/tt.py,sha256=aJUK9ddY1ud_XDRII5wO1o8f6SLMe4Juvmg0jydov7s,2108
+phi/data/chirp.wav,sha256=OIo6V4uoHXu4XJFtfehIXNOd7kc70NnZCWewytCUukQ,88246
+phi/data/chirp_features.npy,sha256=LO6eKOVoHD0MQVqyv63IE61Hi3uaR3Trhk-0Q3kJq4Q,8960
+phi/data/chirp_signal.npy,sha256=HHlHr-Q5Q_aCpMLoHEcaJWiiLvZjIRitsoL8-bLww8I,88448
+phi/ddsp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phi/ddsp/core.py,sha256=iEo0mbOgQXzkcMcjfPJc_TAmQxUCOJnxica_84SAzNA,5004
+phi/ddsp/model.py,sha256=lx6ZzErB1PDUkoJjiOT_WG68By3riZT1iHa0xZw9INI,5243
+phi/ddsp/utils.py,sha256=mawTfOYlxKB6iWZ-j01jsQX0NnnZSe30M5UOnMIhIVM,309
+phi_ddsp-1.0.24.dist-info/LICENSE,sha256=Lm-MCy0qMmG2KdLlOziwbJ3N698Icq2OhmajpHnYOGY,1067
+phi_ddsp-1.0.24.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+phi_ddsp-1.0.24.dist-info/METADATA,sha256=axrlLNtjjH97v0MtrpE53SgrMEHI5aFPnkH-HPG9tGw,2169
+phi_ddsp-1.0.24.dist-info/RECORD,,
