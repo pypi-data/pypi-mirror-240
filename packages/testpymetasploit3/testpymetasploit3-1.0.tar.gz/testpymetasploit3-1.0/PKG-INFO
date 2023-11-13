@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: testpymetasploit3
+Version: 1.0
+Summary: A full-fledged msfrpc library for Metasploit framework.
+Home-page: https://github.com/DanMcInerney/testpymetasploit3
+Download-URL: https://github.com/DanMcInerney/pymetasploit3/zipball/master
+Author: Dan McInerney
+Author-email: danhmcinerney@gmail.com
+License: GPL
+License-File: LICENSE
+
+test
