@@ -1,0 +1,11 @@
+demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demo/card_drawer.py,sha256=JYMGLxdohDbrOUK-JSkovtvX-Enxbt3cNVcuUn-gEl0,908
+demo/dice_roller.py,sha256=GHnHaBRYkNupMT4-c_3ZqvffuWhfSjSkmfgY8AdF8A0,589
+dicencards/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dicencards/cards.py,sha256=3Jk5XHClGFR1stXNXr7W5R-8Mu25TppYQ6et96TDd8Q,5355
+dicencards/dice.py,sha256=3G68ciIdM348Ihiqam5ZJwjQIWRuevc97-G5h7KidE0,1833
+dicencards-0.1.0.dist-info/LICENSE.txt,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+dicencards-0.1.0.dist-info/METADATA,sha256=wM4-9uSTb2G-62huhAzQQsTsm6FxCrYJ5EBf6UdAHVo,790
+dicencards-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dicencards-0.1.0.dist-info/top_level.txt,sha256=P8aKXi9_KG7nDA7MoIIn0wVE_gzqIdmDruO3FpMUy8E,16
+dicencards-0.1.0.dist-info/RECORD,,
