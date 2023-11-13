@@ -1,0 +1,9 @@
+README.md
+setup.py
+stimpack.egg-info/PKG-INFO
+stimpack.egg-info/SOURCES.txt
+stimpack.egg-info/dependency_links.txt
+stimpack.egg-info/entry_points.txt
+stimpack.egg-info/not-zip-safe
+stimpack.egg-info/requires.txt
+stimpack.egg-info/top_level.txt
