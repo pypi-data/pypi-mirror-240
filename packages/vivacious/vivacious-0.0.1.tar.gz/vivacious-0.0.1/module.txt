@@ -1,0 +1,11 @@
+
+
+coterie
+
+	priorities:
+		health scan and health advancents, 
+		checked with body_scan and modules that use body_scan
+		
+		where:			
+			body_scan
+				botanist

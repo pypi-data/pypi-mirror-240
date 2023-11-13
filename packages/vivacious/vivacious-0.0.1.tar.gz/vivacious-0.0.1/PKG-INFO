@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vivacious
+Version: 0.0.1
+Summary: health module
+Description-Content-Type: text/plain
+
+
+
+coterie
+
+	priorities:
+		health scan and health advancents, 
+		checked with body_scan and modules that use body_scan
+		
+		where:			
+			body_scan
+				botanist

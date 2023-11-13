@@ -1,0 +1,7 @@
+module.txt
+pyproject.toml
+structures/decor/vivacious/__init__.py
+structures/decor/vivacious.egg-info/PKG-INFO
+structures/decor/vivacious.egg-info/SOURCES.txt
+structures/decor/vivacious.egg-info/dependency_links.txt
+structures/decor/vivacious.egg-info/top_level.txt
