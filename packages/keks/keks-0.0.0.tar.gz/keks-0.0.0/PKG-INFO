@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: keks
+Version: 0.0.0
+Summary: for a school project
+Keywords: 
+Requires-Python: ~=3.11
+Description-Content-Type: text/markdown
+Classifier: Topic :: Education
+Classifier: Natural Language :: German
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-md ; extra == "test"
+Project-URL: Author, https://github.com/katzensindniedlich
+Project-URL: Source, https://github.com/katzensindniedlich/keks
+Project-URL: Webpage, https://schokokeks.pages.dev
+Provides-Extra: test
+
+♥
+
