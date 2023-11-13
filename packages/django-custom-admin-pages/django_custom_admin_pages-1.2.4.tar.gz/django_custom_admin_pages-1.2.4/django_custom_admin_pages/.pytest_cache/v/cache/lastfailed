@@ -1,0 +1,4 @@
+{
+  "tests/test_custom_admin_pages.py::test_django_custom_admin_pages_route_names": true,
+  "tests/test_custom_admin_pages.py::TestGetAppList::TestCaseFullAppPath::test_get_app_list": true
+}
