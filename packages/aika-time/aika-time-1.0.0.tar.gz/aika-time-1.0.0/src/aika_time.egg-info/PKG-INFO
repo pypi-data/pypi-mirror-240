@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: aika-time
+Version: 1.0.0
+Summary: Methods for dealing with timestamps, timeranges, and timeseries
+Home-page: https://github.com/phil20686/aika/
+Author: Philip Stephens, Dominic Kennedy
+Author-email: philip.stephens@sjc.oxon.org
+License: GNU LGPLv3
+Project-URL: Source, https://github.com/phil20686/aika/
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: all
+License-File: doc/LICENSE.rst
+
+# Introduction
+aika time is part of the aika project for working with time series data, you can find more details
+on the [project webpage](https://github.com/phil20686/aika/): 
+
+# aika-time
+
+Utility methods for working with timestamps and time series in the context of pandas. Principal components are:
+
+1. Time stamp class that enforces olsen timestamps, i.e. all timestamps must have a time zone.
+2. TimeOfDay class that represents a time of day in a given timezone, and given a 
+set of dates produce the correct timestamp.
+3. TimeRange class that represents a timerange.
+4. causal.py - utilities for aligning one series on another in a causally correct way.
+
+# Install
+```python -m pip install aika-time```
+
+
