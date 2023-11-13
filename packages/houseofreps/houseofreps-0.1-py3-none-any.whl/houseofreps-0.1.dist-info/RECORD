@@ -1,0 +1,12 @@
+houseofreps/__init__.py,sha256=074OjZENmVJ9WY0ztXyPokgzF0T2zL2MDGl7aKp-5hQ,129
+houseofreps/apportionment.csv,sha256=MANasH_NrnXVqLJDx1U5MKCGp4w0V1EAq3YQz9SNmg8,28134
+houseofreps/house.py,sha256=j0n2NhKluDiG4-l4noLiCP9HXQ7GvUv9r4-yrNrwLls,8487
+houseofreps/min_pop_changes.py,sha256=rIrNpJ2mjM_Ph_McTnjkhN_Nn6g-BXOEP3c11oxBa2M,7586
+houseofreps/population_shifts.py,sha256=eWnXtZfoBCzKdzRRxHdF3kmA18gzUffHwInHueMYayc,9033
+houseofreps/state.py,sha256=2Z55jE1jum936Va375lsg6wRTt9VfOVBsqyGiGXy_oQ,8990
+houseofreps/validate.py,sha256=ax0yyMUmIL4P_z0B0tkW4nI4YQ9ZE7lrJWYU0c0t8RI,2687
+houseofreps-0.1.dist-info/LICENSE,sha256=na-_SkPfvStpozFLYob5rStzK48NwxcXz2XewC6s1iY,1054
+houseofreps-0.1.dist-info/METADATA,sha256=SgFQNtRmw1oxSlQZgg4_aVO4Qz0MrW2GyC98bbETQC4,5013
+houseofreps-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+houseofreps-0.1.dist-info/top_level.txt,sha256=ZdoW02FqZZ13_30qH1pOM-y1wU0ZE6JCVd9rxrXvSw0,12
+houseofreps-0.1.dist-info/RECORD,,
