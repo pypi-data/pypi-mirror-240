@@ -1,0 +1,6 @@
+numpy
+ase
+numba
+fire
+plotly
+pandas
