@@ -1,0 +1,5 @@
+fastapi<1.0.0,>=0.95.0
+uvicorn[standard]==0.21.1
+jinja2
+click
+openai==0.28.1
