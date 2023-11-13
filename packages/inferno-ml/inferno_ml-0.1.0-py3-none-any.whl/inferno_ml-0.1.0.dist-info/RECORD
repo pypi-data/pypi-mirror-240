@@ -1,0 +1,9 @@
+inferno_ml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inferno_ml/accelerate.py,sha256=hc0CjvA6etu8Pv2CfpZTYmy7Z6hlKmJKbWnrJRb4btA,5968
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_accelerate.py,sha256=a2psZvkLN6-bKKba6eS4yQN-3CkSXpTQ5XJat6kcquk,335
+inferno_ml-0.1.0.dist-info/LICENSE,sha256=e6xUPT_371UBZyaRc1TCtcYynodkFpjrHrcSZjfM50k,1067
+inferno_ml-0.1.0.dist-info/METADATA,sha256=O-CG8FydFn-sWOyAVl16klFfm17yGDd5oAJSSteBEs0,1275
+inferno_ml-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+inferno_ml-0.1.0.dist-info/top_level.txt,sha256=54Sr8w8NNs31jUPMCirWlJP_tNVzt8WA09ji3ARh_bE,17
+inferno_ml-0.1.0.dist-info/RECORD,,
