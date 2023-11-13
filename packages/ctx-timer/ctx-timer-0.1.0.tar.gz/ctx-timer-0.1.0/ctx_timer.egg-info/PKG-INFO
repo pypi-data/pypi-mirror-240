@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: ctx-timer
+Version: 0.1.0
+Summary: A simple context manager for timing code execution
+Home-page: https://github.com/jgabriellima/ctx-timer
+Author: João Gabriel Lima
+Author-email: joaogabriellima.eng@gmail.com
+Description-Content-Type: text/markdown
