@@ -1,0 +1,15 @@
+corava/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+corava/audio_util.py,sha256=o98_iN2giTAYTwAHnsdYqBmFo77GqROk0MyP6oZa9CU,1854
+corava/aws_services.py,sha256=XuNz4UDkjRs3gjc9_DYnhXCcjW30lDn-7BXSZ1OImfg,350
+corava/cora.py,sha256=K3LZv-xhOOelMRr0oa8gX07bWW5xKui-omxXTnb9BR8,6159
+corava/cora_config.py,sha256=dcaGAnUEZY8s930_pZ3o2Pnpz0MwtPBSwHzY4kBbYLU,499
+corava/cora_memory.py,sha256=tOJ7kY0SlbLzkjwATmUa1AkXJ0NyBNEeHSqSP4s0UOE,2889
+corava/cora_skills.py,sha256=iQdtI5L69_NZCvglFB67d2CdF7vIUf3IAodk3j4enQs,4850
+corava/cora_visualiser.py,sha256=EfgGoTVu9D70ao8Adwa3Qzr1WXsykV_SrC4ZpBXBdKM,2858
+corava/openai_services.py,sha256=KbXWhdtEOwES_5DPzRbt8re6yVyeWfs4M4x_AeGlVLA,2397
+corava/utilities.py,sha256=lENP-iE-THo1BA8vGDOyOmpBUdllRJCp15HUlPCRbIc,1957
+corava-0.2.1.dist-info/entry_points.txt,sha256=WsphuhwmB65f5VKKiE-VmnPE1JmfhbMDBgUVJUW_qj8,34
+corava-0.2.1.dist-info/LICENSE,sha256=mGLVz9ndItHvkUlFAhVESJ8ifyg-ZC-fisAYKgc0cdY,1091
+corava-0.2.1.dist-info/METADATA,sha256=TBpo2-NOZa5aIrq1BYhvoClKqKO7TWaMOIAnkNKFvYM,7903
+corava-0.2.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+corava-0.2.1.dist-info/RECORD,,
