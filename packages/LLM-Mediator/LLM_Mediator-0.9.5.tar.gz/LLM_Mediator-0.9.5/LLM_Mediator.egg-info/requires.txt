@@ -1,0 +1,9 @@
+openai==0.28
+torch
+torchvision
+torchaudio
+transformers
+peft
+chardet
+sentence-transformers
+pynvml
