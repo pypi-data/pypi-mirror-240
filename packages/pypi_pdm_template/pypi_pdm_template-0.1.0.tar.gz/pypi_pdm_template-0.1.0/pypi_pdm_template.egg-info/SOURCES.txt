@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+pypi_pdm_template/__init__.py
+pypi_pdm_template/__main__.py
+pypi_pdm_template.egg-info/PKG-INFO
+pypi_pdm_template.egg-info/SOURCES.txt
+pypi_pdm_template.egg-info/dependency_links.txt
+pypi_pdm_template.egg-info/top_level.txt
+pypi_pdm_template/gui/__init__.py
+pypi_pdm_template/gui/main.py
+pypi_pdm_template/utils/__init__.py
+tests/test_pypi_pdm_template.py
