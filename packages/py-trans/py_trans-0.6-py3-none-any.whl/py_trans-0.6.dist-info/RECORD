@@ -1,0 +1,12 @@
+py_trans/__init__.py,sha256=k6ZFhUhV93yFJMQ_1Bw4sOaKcDWKcaEqsh3ts71hJtI,464
+py_trans/async_translator.py,sha256=byMzni5kSby0HE6CIBYKunBjijac2z8OX0c4HP5VrKU,6167
+py_trans/errors.py,sha256=cgdnjfDYdmTsxzSf_x3jqVnGCM96gdrFLrMDW9mXIjc,379
+py_trans/extras.py,sha256=bNVViOWbTWBbs7QmFfM2Vd5qAvDaoQJzkvqeBT8iFm0,2237
+py_trans/translator.py,sha256=biovblS1NNWRWssYfwmNaw7VO-KacpSLSylypkmiLPM,4982
+py_trans/data/languages.json,sha256=33v8l-ZPV1coKrWI7RsIrIeqgarlLdpt6exNNhTL0l0,5570
+py_trans/data/version.json,sha256=sPrHXOfArknA3nQ3LaVJbfvY59fHb8QSDQLyxul2uDQ,25
+py_trans-0.6.dist-info/LICENSE,sha256=Mh3AbO8qQUr43iyfQgYkxlsHSgzSP2OqHNbvx1a-W_o,1047
+py_trans-0.6.dist-info/METADATA,sha256=R-aKVicn1sdNEv_EVzo86x2t_y4hVjZ_1FApNR1pCxE,3070
+py_trans-0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+py_trans-0.6.dist-info/top_level.txt,sha256=vH-PUMSsT48CgrBiWnqMQR6PFnwMsEKU9Toh8xLLeIo,9
+py_trans-0.6.dist-info/RECORD,,
