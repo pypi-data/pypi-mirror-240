@@ -1,0 +1,93 @@
+# relnotegen
+
+## Overview
+
+relnotegen is a Python-based tool designed to automate the process of generating and styling release notes for mobile applications. It extracts release information from markdown files stored in Azure DevOps wiki, formats this information into HTML using Jinja2 templates, and then applies Tailwind CSS for styling. The final HTML release notes can be uploaded to cloud storage or used in any other desired manner.
+
+## Features
+
+- **Markdown to HTML**: Converts markdown files from Azure DevOps wiki into HTML.
+- **Dynamic Styling**: Uses Tailwind CSS to style the generated HTML release notes.
+- **Customizable Templates**: Supports Jinja2 templates for HTML output, allowing for flexible and customizable formatting.
+- **Configurable**: Easily configurable via a JSON file.
+
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.6 or higher
+- Jinja2, markdown (Installable via `pip`)
+- Access to Azure DevOps wiki markdown files
+- Node.js and npm (for Tailwind CSS)
+
+### Installation
+
+Install the package via pip:
+
+```bash
+$ pip install relnotegen
+```
+
+### Configuration
+
+Create the `relnotegen.config.json` file to set your preferences. Here's an example (all fields are required):
+
+```json
+{
+    "searchPath": "./mdown",
+    "template": "template.html",
+    "outputFile": "myapp-release-notes.html",
+    "templateParameters": {
+        "pageTitle": "MyApp Release Notes",
+        "heading": "What's New",
+        "package": "Your App Name"
+    }
+}
+```
+
+### Usage
+
+Run relnotegen:
+
+```bash
+$ relnotegen
+```
+
+### Output
+
+- The script will generate an HTML file as specified in the `outputFile` parameter.
+- A corresponding CSS file (same name as `outputFile`, but with `.css` extension) will also be generated for styling.
+
+## How It Works
+
+1. **Collect Markdown Files**: Scans the specified directory for markdown files.
+2. **Extract Release Info**: Parses each markdown file for release data.
+3. **Render HTML**: Uses Jinja2 templates to format the extracted data into HTML.
+4. **Generate CSS**: Runs Tailwind CSS to style the HTML file.
+
+Only markdown files with the proper "frontmatter" are collected. The frontmatter starts and ends with three dashes. Here's an example (both fields are required):
+
+```markdown
+---
+release-date: 2023-10-29
+version: 2.0.8
+---
+We worked hard to bring you the following updates:
+
+## Improvements <span class="ios"/><span class="android"/>
+- You can now order peperoni pizza
+- We removed pineapple as possible pizza toppings
+
+## Bug Fixes <span class="ios"/>
+- Fixed a crash issue when ordering more than 100 pizza's
+```
+
+## Customization
+
+- **HTML Template**: Modify `template.html` to change the structure of the output HTML.
+- **CSS Styling**: Edit `template.css` to customize styles. Run Tailwind CSS to compile these styles into the final CSS.
+
+## License
+
+This project is licensed under the MIT License.
