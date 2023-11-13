@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: faux-synth
+Version: 0.1.1
+Summary: A package for generating mails and addresses
+Home-page: https://github.com/FelixSmtt/FauxSynth
+Author: Felix S
+Author-email: felix-dev@smtt.me
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
