@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+NOTES_TO_SELF.md
+README.md
+TODO.md
+setup.py
+src/rich_graph/__init__.py
+src/rich_graph/structs.py
+src/rich_graph/traversal.py
+src/rich_graph.egg-info/PKG-INFO
+src/rich_graph.egg-info/SOURCES.txt
+src/rich_graph.egg-info/dependency_links.txt
+src/rich_graph.egg-info/requires.txt
+src/rich_graph.egg-info/top_level.txt
