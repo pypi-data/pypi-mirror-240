@@ -1,0 +1,13 @@
+rdadata/__init__.py,sha256=TljmCyeB8ey6egX70hvVeO2wYCYzgmMmGLuhCmohOHg,205
+rdadata/constants.py,sha256=hX1YnxrzZ0Pu55qHAj4AbxnAVqmi2jeEW1RY2P_URyM,8052
+rdadata/equal.py,sha256=Hvh0nrU1pMz5U3k762tEqytYUOvaz-tweov8l2npMiQ,963
+rdadata/geoutils.py,sha256=hW2PXppoMMl7arV17918VwC_5R27sIac0WET8TP8UdM,762
+rdadata/graph.py,sha256=WXPVISRWrsADETq5l567MNL9FMfjPqybA2KUa31rC3g,8661
+rdadata/helpers.py,sha256=SBM53yfPw6HvLCa4O_MvrlUwGi5DqVq1iPo3Lt4dqLI,353
+rdadata/readwrite.py,sha256=COFClYvkR4vPFUgCs7E0QEmp1n9CYbJDhlF3NQjN7dI,6455
+rdadata/timers.py,sha256=magyEDAZvi4iRwRlrd-qLXIUA4TYhzU99BKTW7ZFDEA,1248
+rdadata-1.0.0.dist-info/LICENSE,sha256=5wLoU6pG_MghKdqpcP7OqN3BBqadtiorK_M1If4Y0Wg,1067
+rdadata-1.0.0.dist-info/METADATA,sha256=fCEhkaKpXERLxAMyvIWLV0kId1LJba9u3AxTkWxF4Fc,2594
+rdadata-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+rdadata-1.0.0.dist-info/top_level.txt,sha256=j54Mqf14SXJPnCuIMzPyctOAoxtH1fmzQ9_cFgwBIYU,8
+rdadata-1.0.0.dist-info/RECORD,,
