@@ -1,0 +1,9 @@
+godaddypy/__init__.py,sha256=43aIkUiE2CT4tK0r5J-II_WKh_Fp7CvqxLryC4I4fXA,126
+godaddypy/__main__.py,sha256=PyczATNPMs2X4HSsYqksSk_9yWbuh_0hM8WONbip4-k,50
+godaddypy/account.py,sha256=L7AKzOfXX8yIlYRLIW8FM068iZ9JD94D-We1DkvSJJw,5380
+godaddypy/client.py,sha256=3lBXN5pSCRHJRrPhvgKEThQ84I8iknLxbQ7DsgIeMAk,12939
+GoDaddyPy-2.5.1.dist-info/LICENSE,sha256=HeL32oyMmH3q9QgyHjFnhUNcxa41lanTbPdac1NeEPI,1483
+GoDaddyPy-2.5.1.dist-info/METADATA,sha256=--I9EElw-I9aDqJh07rewFLSp_ClPyf4hdV-9HMVNyE,4839
+GoDaddyPy-2.5.1.dist-info/WHEEL,sha256=P2T-6epvtXQ2cBOE_U1K4_noqlJFN3tj15djMgEu4NM,110
+GoDaddyPy-2.5.1.dist-info/top_level.txt,sha256=QumI1GGtaIuWuCuC425AYyW5u1sugNVf2Uv1wSRNqN4,10
+GoDaddyPy-2.5.1.dist-info/RECORD,,
