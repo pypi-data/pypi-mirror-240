@@ -1,0 +1,12 @@
+aws_cli_bedrock/__init__.py,sha256=9c4aVz-3nf6RibbN-O1OXslfxlSCqHzvgGpKUXqMtNk,92
+aws_cli_bedrock/cli_creactor.py,sha256=vFyQDe74Zkb7Fjb8CeVn9NTC8FAtZZR532k-vKmbVJo,4765
+aws_cli_bedrock/cli_reactor.py,sha256=PzwZVaGHkhiWnY8YJcoz3Mfrpg5yVm7HqdeTyTgUkxE,4767
+aws_cli_bedrock/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_cli_bedrock/test/test_cli_creator.py,sha256=k_dL2eyfvLXjIJWNOkhCf_IAMVYc06Ezua3sD4dJUG0,732
+aws_cli_bedrock/test/test_cli_reactor.py,sha256=Gl_ETUfjtPDZz3i2M_uO4XPcXETuhELN9zYkXlHNnjs,731
+acmd-0.1.4.dist-info/LICENSE,sha256=h96dTyP-a_yaJ-nqvpwoy7aQZohIOee0cV1_5q-DYVM,1079
+acmd-0.1.4.dist-info/METADATA,sha256=76m_KEgwUSkZrf7UxyN2qyLqkcFzX_Eu-3PxrSdLd3s,861
+acmd-0.1.4.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+acmd-0.1.4.dist-info/entry_points.txt,sha256=Pz-Jp5_18URrQmr7h8bB7zsW20BQvElPrAWD5_wqCaY,60
+acmd-0.1.4.dist-info/top_level.txt,sha256=aCBBzoMek1oqEDtsFFNh2aEzOcaKXQhRdJx5e58_Ht4,16
+acmd-0.1.4.dist-info/RECORD,,
