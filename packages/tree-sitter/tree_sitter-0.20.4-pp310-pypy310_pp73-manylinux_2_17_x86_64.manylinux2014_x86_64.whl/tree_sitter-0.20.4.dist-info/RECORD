@@ -1,0 +1,9 @@
+tree_sitter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_sitter/__init__.py,sha256=pGkg8Vvm9AN68zecpH_X37Y8DJcRCtPWQM2JkjuCft4,7520
+tree_sitter/binding.pyi,sha256=d4hHL6gWO932auhWKgajLLAH9Q7MaYym9ageo3Y1Mz0,15331
+tree_sitter/binding.pypy310-pp73-x86_64-linux-gnu.so,sha256=84HXUdrnoe1IBxxee8RcZWObSNaJtbHhEu4IWQZG8Co,259992
+tree_sitter-0.20.4.dist-info/top_level.txt,sha256=oNKDFAeLi6i39EcTTW75DL0SE5sMBkgX0TRMpJe3Lrs,12
+tree_sitter-0.20.4.dist-info/WHEEL,sha256=6SlJLTeafWAhNNNb19_2tUNlzG0WWfrIi5ZI6dsqTA4,166
+tree_sitter-0.20.4.dist-info/METADATA,sha256=cKbtJl1bqBs72NL4GH5-40eRqCVCTJEaHByjYFO4vLc,7209
+tree_sitter-0.20.4.dist-info/LICENSE,sha256=GvB5BUP_-smd070pC_g8qWP0-AKQZetvNWOPTfhjro4,1088
+tree_sitter-0.20.4.dist-info/RECORD,,
