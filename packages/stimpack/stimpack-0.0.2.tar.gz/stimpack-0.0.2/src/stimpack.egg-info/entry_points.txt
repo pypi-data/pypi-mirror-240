@@ -1,0 +1,3 @@
+[console_scripts]
+stimpack = stimpack.experiment.gui:main
+
