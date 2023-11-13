@@ -1,0 +1,4 @@
+[console_scripts]
+hychan48-cake-is-not-a-lie=cli:fire_cake
+hychan48-dont-get-volunteered=cli:fire_knight_bfs
+
