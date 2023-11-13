@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+mcproxy/__init__.py
+mcproxy/memcache.py
+mcproxy.egg-info/PKG-INFO
+mcproxy.egg-info/SOURCES.txt
+mcproxy.egg-info/dependency_links.txt
+mcproxy.egg-info/top_level.txt
+mcproxy/cmodule/cmem.c
