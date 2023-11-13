@@ -1,0 +1,16 @@
+curation_utils/__init__.py,sha256=LKnEnDzOt08vl_Ymww8cGCubK9gCds3dGngO9G9xwKA,128
+curation_utils/archive_utility.py,sha256=CLzMeijeJeMS6r5o_jmiNwwXDV2VynSMIee3_zv7fvg,6354
+curation_utils/dir_helper.py,sha256=4IzaIZtJNuXnKW6GSwrj5I73oZ5rj_zio7GRXGeaE2o,2772
+curation_utils/list_helper.py,sha256=SwTUS0wrftyTwrNH3BIUZux1qOpZ-yntWzDWvvn1pcc,565
+curation_utils/scraping.py,sha256=htUYCD-2d5tjClufPWDMqeekXcaOE0JqMtdRT_6iv2Q,4149
+curation_utils/file_helper/__init__.py,sha256=JCwqJvsHvuIkPtgYC7xyN5oL8NnnOA4JySXIa9GXHjc,8460
+curation_utils/file_helper/multi_file_reader.py,sha256=UooSncAr6cBLROJrooJdbJh7l0yZArUYDeOwb8DrSnA,2197
+curation_utils/google/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+curation_utils/google/api_helper.py,sha256=uLID3EFgAOGat15uO3bF3kj_ZySxtlVGxzw3dciQd6c,5466
+curation_utils/google/drive.py,sha256=jsK4u7uuUFR-bbK1IpCkl3sDLTq2cT1WY8x7c8Q6LjQ,3234
+curation_utils/google/sheets.py,sha256=hhykq7S9o-XS2rQecZ3uhRCRiSbojcvisQLEjaVXTV4,3433
+curation_utils-0.2.10.dist-info/LICENSE.txt,sha256=ceC9ZJOV9H6CtQDcYmHOS46NA3dHJ_WD4J9blH513pc,1081
+curation_utils-0.2.10.dist-info/METADATA,sha256=f160BPCNySS0-qiikXjxx3UV9zBRjh_9PTQgFV7R2B8,2365
+curation_utils-0.2.10.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+curation_utils-0.2.10.dist-info/top_level.txt,sha256=Zwec4MTvbF45FihaiVS_wd1o2YO0JUAd2-NJsMV_Q20,15
+curation_utils-0.2.10.dist-info/RECORD,,
