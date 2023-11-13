@@ -1,0 +1,10 @@
+fluxstore/__init__.py,sha256=5UpE3u-XXxv6lOl2QdLugSWuLECITpWCrEhZ0Q_u4D4,1311
+fluxstore/combine_reducers.py,sha256=Om_kOWFeORM6sUfs-tetLrypWkRUgueKEh-FhtbCQoY,1035
+fluxstore/create_action.py,sha256=rGNHNdoxIRbaBzH3JvNOx7H_Je23V5HDhEG1C8-xihY,1024
+fluxstore/create_async_thunk.py,sha256=Tekh7t6DRnxKOIgctfRxquwctrvCHLnWBiYzbGqlrE0,716
+fluxstore/create_reducer.py,sha256=8gC7jUUeURKGiZA1twJNhpDE4UTDwm9a-UfU5cY9nlk,818
+fluxstore/create_slice.py,sha256=dNSRVGx7pOzWbYzgmLp1_BD8oSxDm7JHPHa7eBgsmiE,426
+fluxstore/create_store.py,sha256=rW0dyP05QyZMGIYCRynzY4RXnDTVAio9qoUntv-qSgw,1320
+fluxstore-0.1.0.dist-info/METADATA,sha256=hq_wpieTJU2cY2b69s1sXZ3pCV2As4z7JNUbdWz6yfM,306
+fluxstore-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+fluxstore-0.1.0.dist-info/RECORD,,
