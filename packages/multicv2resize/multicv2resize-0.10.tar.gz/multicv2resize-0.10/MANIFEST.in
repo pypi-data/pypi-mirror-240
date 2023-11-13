@@ -1,0 +1,3 @@
+include multicv2resize/requirements.txt
+include multicv2resize/thirdparty.json
+include multicv2resize/README.MD

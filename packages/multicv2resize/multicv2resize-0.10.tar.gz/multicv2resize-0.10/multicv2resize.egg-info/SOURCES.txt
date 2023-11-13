@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+multicv2resize/README.MD
+multicv2resize/__init__.py
+multicv2resize/requirements.txt
+multicv2resize/thirdparty.json
+multicv2resize.egg-info/PKG-INFO
+multicv2resize.egg-info/SOURCES.txt
+multicv2resize.egg-info/dependency_links.txt
+multicv2resize.egg-info/requires.txt
+multicv2resize.egg-info/top_level.txt
