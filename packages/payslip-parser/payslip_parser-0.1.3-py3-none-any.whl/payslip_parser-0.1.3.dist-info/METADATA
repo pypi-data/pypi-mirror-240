@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: payslip_parser
+Version: 0.1.3
+Summary: Parse your payslips from PDFs to pandas dataframes.
+Project-URL: Homepage, https://github.com/eldarab/payslip-parser
+Project-URL: Bug Tracker, https://github.com/eldarab/payslip-parser/issues
+Author-email: Eldar Abraham <author@example.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Payslip Parser
+Parse your payslips from PDFs to pandas dataframes.
