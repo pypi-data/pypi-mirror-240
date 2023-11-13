@@ -1,0 +1,49 @@
+# ModuleTester setup configuration file
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ModuleTester"
+authors = [{ name = "Codra", email = "p.raybaut@codra.fr" }]
+description = "ModuleTester is a test management software for Python packages"
+readme = "README.md"
+license = { file = "LICENSE" }
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Topic :: Software Development :: User Interfaces",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: OS Independent",
+    "Operating System :: POSIX",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.8, <4"
+dependencies = ["guidata >= 3.1", "QtPy >= 1.9", "beautifulsoup4"]
+dynamic = ["version"]
+
+[project.scripts]
+moduletester-cli = "moduletester.manager:cli"
+
+[project.gui-scripts]
+moduletester = "moduletester.gui:run"
+
+[project.optional-dependencies]
+dev = ["black", "isort", "pylint", "Coverage"]
+doc = ["PyQt5", "sphinx>6", "pydata_sphinx_theme"]
+
+[tool.setuptools.packages.find]
+include = ["moduletester*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.svg", "*.mo", "*.txt", "*.json"]
+
+[tool.setuptools.dynamic]
+version = { attr = "moduletester.__version__" }

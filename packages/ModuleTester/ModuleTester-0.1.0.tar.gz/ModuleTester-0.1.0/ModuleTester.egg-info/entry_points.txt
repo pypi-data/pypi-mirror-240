@@ -1,0 +1,5 @@
+[console_scripts]
+moduletester-cli = moduletester.manager:cli
+
+[gui_scripts]
+moduletester = moduletester.gui:run
