@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: flaskmysqlcloudcli
+Version: 0.2.0
+Summary: A CLI written in Python to connect to a cloud server over SSH and perform various tasks based on a provided keyword.
+Author: Vishal Vishwajeet
+Author-email: vishalvishwajeet422@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: argparse (>=1.4.0,<2.0.0)
+Requires-Dist: paramiko (>=2.7.2,<3.0.0)
