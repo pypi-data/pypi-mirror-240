@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/EGCI.py
+src/__init__.py
+src/EGCI.egg-info/PKG-INFO
+src/EGCI.egg-info/SOURCES.txt
+src/EGCI.egg-info/dependency_links.txt
+src/EGCI.egg-info/requires.txt
+src/EGCI.egg-info/top_level.txt
+tests/test_EGCI.py
