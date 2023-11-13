@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "telepybot"
+version = "0.1.12"
+description = "A Python class to help you interact with Telegram's bot api."
+license = "MIT"
+authors = ["Federico Giancarelli <hello@federicogiancarelli.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+cryptography = "^39.0.2"
+pydantic = "^2.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
