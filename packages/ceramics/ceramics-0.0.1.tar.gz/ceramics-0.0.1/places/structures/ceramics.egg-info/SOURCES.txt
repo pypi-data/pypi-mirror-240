@@ -1,0 +1,7 @@
+module.txt
+pyproject.toml
+places/structures/ceramics/__init__.py
+places/structures/ceramics.egg-info/PKG-INFO
+places/structures/ceramics.egg-info/SOURCES.txt
+places/structures/ceramics.egg-info/dependency_links.txt
+places/structures/ceramics.egg-info/top_level.txt
