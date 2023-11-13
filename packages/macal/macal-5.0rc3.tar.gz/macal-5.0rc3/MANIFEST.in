@@ -1,0 +1,6 @@
+include LICENSE.txt
+include README.md
+include documentation/*
+include tests/*
+include src/macal/lib/*
+include src/macal/lib/ext/*
