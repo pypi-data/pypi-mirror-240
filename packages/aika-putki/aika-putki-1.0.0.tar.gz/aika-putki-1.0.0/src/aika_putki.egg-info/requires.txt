@@ -1,0 +1,22 @@
+pandas>=1.1.5
+numpy
+aika-time
+aika-utilities
+attrs
+frozendict
+overrides
+networkx
+
+[:python_version < "3.11"]
+luigi
+
+[:python_version < "3.8"]
+backports.cached-property
+
+[all]
+pytest
+pytest-cov
+
+[test]
+pytest
+pytest-cov
