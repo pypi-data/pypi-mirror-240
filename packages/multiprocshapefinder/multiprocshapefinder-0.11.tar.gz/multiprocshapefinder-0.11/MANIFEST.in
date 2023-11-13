@@ -1,0 +1,4 @@
+include multiprocshapefinder/requirements.txt
+include multiprocshapefinder/thirdparty.json
+include multiprocshapefinder/README.MD
+include multiprocshapefinder/multishapemain.py
