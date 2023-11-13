@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: wrun-py
+Version: 0.0.1.post1
+Summary: Python wrapper around invoking wrun (https://github.com/scop/wrun)
+Home-page: https://github.com/scop/wrun
+Author: Ville Skyttä
+Author-email: ville.skytta@iki.fi
+License: Apache License 2.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# wrun
+
+`wrun` downloads, caches, and runs an executable,
+with the same one command for multiple OS/architectures.
+
+```shellsession
+$ wrun --help
+Usage of wrun:
+  -http-timeout duration
+    	HTTP client timeout (default 5m0s)
+  -url value
+    	[<OS>/<architecture>=]URL (at least one required to match)
+
+wrun downloads, caches, and runs executables.
+The same one command works for multiple OS/architectures.
+
+The runtime OS and architecture are matched against the given URL matchers.
+The first matching one in the order given is chosen as the URL to download.
+The matcher OS and architecture may be globs.
+As a special case, a plain URL with no matcher part is treated as if it was given with the matcher */*.
+URL fragments are treated as hex encoded digests for the download, and checked.
+
+The first non-flag argument or -- terminates wrun arguments.
+Remaining ones are passed to the downloaded one.
+
+Environment variables:
+- WRUN_CACHE_HOME: location of the cache, defaults to wrun in the user cache dir
+- WRUN_VERBOSE: controls output verbosity; false decreases, true increases
+```
+
+## License
+
+SPDX-License-Identifier: Apache-2.0
