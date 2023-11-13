@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "CloudMage-GitUtils"
+version = "1.0.2"
+description = "Git based helpers and Report Templates"
+authors = ["Rich Nason <rnason@cloudmage.io>"]
+maintainers = ["Rich Naeson <cloudmaege@naeson.nl>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+include = [
+    "CHANGELOG.md",
+    "LICENSE"
+]
+homepage = "https://github.com/CloudMaege/PYPKG-GitUtils.git"
+repository = "https://github.com/CloudMaege/PYPKG-GitUtils.git"
+documentation = "https://github.com/CloudMaege/PYPKG-GitUtils.git"
+keywords = [
+    "Packages",
+    "CloudMage",
+    "CloudMaege",
+    "CloudMæge",
+    "Git"
+]
+
+classifiers = [
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+packages = [
+    {include = "cloudmage"}
+]
+
+[tool.poetry.urls]
+"Releases" = "https://github.com/CloudMaege/PYPKG-GitUtils/releases"
+"Issues" = "https://github.com/CloudMaege/PYPKG-GitUtils/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+PyGithub = "^2.1.1"
+progress = "^1.6"
+cloudmage-jinjautils = "^1.0.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.3"
+pylint = "^3.0.2"
+coverage = "^7.3.2"
+
+[tool.poetry.scripts]
+
+[build-system]
+requires = ["poetry>=1.7.0"]
+build-backend = "poetry.masonry.api"
