@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ra-interp
+Version: 0.0.1
+Summary: Interpolation library from own multivariate method
+Home-page: https://github.com/RachelAlcraft/ra-interp
+Author: Rachel Alcraft
+Author-email: rachelalcraft@gmail.com
+Project-URL: Bug Tracker, https://github.com/RachelAlcraft/ra-interp/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ra-interp
