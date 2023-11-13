@@ -1,0 +1,2 @@
+[console_scripts]
+ip-check = eark_validator.cli.app:main
