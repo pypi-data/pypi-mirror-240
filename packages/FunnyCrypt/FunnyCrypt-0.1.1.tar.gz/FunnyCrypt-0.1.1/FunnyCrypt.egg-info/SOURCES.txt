@@ -1,0 +1,8 @@
+setup.py
+FunnyCrypt/__init__.py
+FunnyCrypt/funnycrypt.py
+FunnyCrypt.egg-info/PKG-INFO
+FunnyCrypt.egg-info/SOURCES.txt
+FunnyCrypt.egg-info/dependency_links.txt
+FunnyCrypt.egg-info/entry_points.txt
+FunnyCrypt.egg-info/top_level.txt
