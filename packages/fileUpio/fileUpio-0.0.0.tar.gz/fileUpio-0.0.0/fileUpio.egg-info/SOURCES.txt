@@ -1,0 +1,7 @@
+setup.py
+fileUpio/fileio.py
+fileUpio.egg-info/PKG-INFO
+fileUpio.egg-info/SOURCES.txt
+fileUpio.egg-info/dependency_links.txt
+fileUpio.egg-info/requires.txt
+fileUpio.egg-info/top_level.txt
