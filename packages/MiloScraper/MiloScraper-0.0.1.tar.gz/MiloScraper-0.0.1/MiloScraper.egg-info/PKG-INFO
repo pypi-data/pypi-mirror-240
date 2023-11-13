@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: MiloScraper
+Version: 0.0.1
+Summary: A very basic scraper
+Home-page: 
+Author: Culty
+Author-email: sleepyculty@gmail.com
+License: MIT
+Keywords: scraper
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+Hi
+
+This Is MiloScraper a simple scraper that works for python and api scraping
+
+
+
+you can connect to a url using
+
+a = milo.connect(url='https://google.com')
+
+u can add headers and timeout
+
+a = milo.connect(url='https://google.com', headers=headers, timeout=10)
+
+u can decode json using
+
+a = milo.decode(a)
+
+
+made by culty have fun
+
+
+Change Log
+==========
+
+0.0.1 (13/11/2023)
+-------------------
+- First Release

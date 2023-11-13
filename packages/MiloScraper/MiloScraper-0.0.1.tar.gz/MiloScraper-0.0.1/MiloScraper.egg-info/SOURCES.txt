@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+main.py
+pyproject.toml
+MiloScraper/__init__.py
+MiloScraper.egg-info/PKG-INFO
+MiloScraper.egg-info/SOURCES.txt
+MiloScraper.egg-info/dependency_links.txt
+MiloScraper.egg-info/requires.txt
+MiloScraper.egg-info/top_level.txt
