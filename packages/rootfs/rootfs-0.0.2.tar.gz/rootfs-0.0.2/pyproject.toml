@@ -1,0 +1,18 @@
+[project]
+name = "rootfs"
+version = "0.0.2"
+authors = [
+  { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
+]
+description = "Unix root filesystem for software 2.0"
+dependencies = []
+
+# For including the non-python files in the installed repo
+[tool.setuptools.package-data]
+rootfs = ["**/*"]
+
+[project.urls]
+homepage = "https://github.com/notarealdeveloper/rootfs"
+
+[project.scripts]
+rootfs = "rootfs.bin:main"
