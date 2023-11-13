@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sentigpt
+Version: 0.141
+Summary: Sentiment analyze with gpt
+Home-page: https://github.com/xikest/sentigpt
+Author: xikest
+Project-URL: Source, https://github.com/xikest/sentigpt
+Project-URL: Bug Tracker, https://github.com/xikest/sentigpt/issues
+Requires-Python: >=3.7
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: seaborn
+Requires-Dist: openai
