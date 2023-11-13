@@ -1,0 +1,5 @@
+scipy
+matplotlib
+vtk!=9.1.*,>=7
+PyQt5
+opencv-python-headless
