@@ -1,0 +1,8 @@
+process_flow_modules/OpenAIModule.py,sha256=gdjxSErpy2AOXExbl08LjB90KSLsMbt0eZicJnHvwDI,1122
+process_flow_modules/OutlookModule.py,sha256=qXmWp4ZenaDTGKmOl2vyGsayx2sWiW9_e94Parm5tAg,1818
+process_flow_modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LundProcessFlowModules-1.0.6.dist-info/LICENSE.txt,sha256=1-c_pXCUbisxCYgKmHdSXRyOspdpX3sJW_6Z4LA5RGk,1071
+LundProcessFlowModules-1.0.6.dist-info/METADATA,sha256=knE_JhltIHbIA8kaN4ILnve82RWzWHxY14cVLdnKf-s,1376
+LundProcessFlowModules-1.0.6.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+LundProcessFlowModules-1.0.6.dist-info/top_level.txt,sha256=fXnr729fGil0UIGQfVyZtL3E0xUjDcuhbDIlj1l2Uos,21
+LundProcessFlowModules-1.0.6.dist-info/RECORD,,
