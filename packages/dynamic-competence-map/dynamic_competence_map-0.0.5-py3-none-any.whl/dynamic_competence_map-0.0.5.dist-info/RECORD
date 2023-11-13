@@ -1,0 +1,16 @@
+dcm/__init__.py,sha256=1lsa1n8qAP0w9JsWGRXptjjoVBArXazRXWUqiOC08ig,19
+dcm/dcm_cmd.py,sha256=7fEKxlNXrceZu6V0b2dtgZazGD2FBg7zr4SizdYKf8o,1180
+dcm/dcm_core.py,sha256=lnqNFwuBWx9skmVkKHlZjCELOiD-hpT0hKPPZIbmDlk,14257
+dcm/dcm_webserver.py,sha256=_YDENbCjU2jJRy02CcwfCT528nAsC36q5KhtjFBfAy0,4506
+dcm/svg.py,sha256=QYEwuEJ3kioypCCktV7vcxx1DnuoKvp6-eOOwcYe91w,14143
+dcm/version.py,sha256=z_unObbHIDHXYlGytBNGUlCNyhQ3551VvjHHnanQZZk,939
+dcm_examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dcm_examples/arch_student_123.json,sha256=5TMqOTwZ8KHnTQS1v1t6A6p489i1ybK1NOCrZs6TLPU,1481
+dcm_examples/architecture.json,sha256=PQ-NR9IDyw9xASxGRe9-FqiDy_T8ExZrHenJsw53S98,6759
+dcm_examples/portfolio_plus.json,sha256=uCVFmpbUxo-ktIIQaU_vj_ubw8dydPXiujdzv3uus34,3815
+dcm_examples/rwth_aachen_master_informatik.json,sha256=hpytw6iTnqvbKV-IASDNsT87D2eXaLUohD-cz9yPITI,27863
+dynamic_competence_map-0.0.5.dist-info/METADATA,sha256=1wZIEAqJm-xu0a6iQiMZNZpB12hE8WQyrVR2X7sBmYY,2580
+dynamic_competence_map-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dynamic_competence_map-0.0.5.dist-info/entry_points.txt,sha256=1ixi0uSDTWJIJ8sTZw5BH5CwTzHn7wtWU4QRAJe8GCk,41
+dynamic_competence_map-0.0.5.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dynamic_competence_map-0.0.5.dist-info/RECORD,,
