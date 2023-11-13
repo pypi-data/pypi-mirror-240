@@ -1,0 +1,11 @@
+a_cv2_easy_resize
+a_cv_imwrite_imread_plus
+a_pandas_ex_apply_ignore_exceptions
+multiprocca
+numexpr
+numpy
+numpydoc
+opencv_python
+pandas
+pyFFTW
+scipy

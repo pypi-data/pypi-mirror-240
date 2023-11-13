@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+needlefinder/README.MD
+needlefinder/__init__.py
+needlefinder/requirements.txt
+needlefinder/thirdparty.json
+needlefinder.egg-info/PKG-INFO
+needlefinder.egg-info/SOURCES.txt
+needlefinder.egg-info/dependency_links.txt
+needlefinder.egg-info/requires.txt
+needlefinder.egg-info/top_level.txt
