@@ -1,0 +1,2 @@
+[console_scripts]
+relnotegen = relnotegen.relnotegen:main
