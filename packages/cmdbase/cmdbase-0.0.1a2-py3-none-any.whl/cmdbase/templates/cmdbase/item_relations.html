@@ -1,0 +1,18 @@
+<table class="table table-sm" data-toggle="table" data-search="true" data-show-search-clear-button="true">
+    <thead>
+    <tr>
+        <th data-sortable="true">Type</th>
+        <th data-sortable="true">Path</th>
+        <th data-sortable="true">Related</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for r in relations %}
+    <tr>
+        <td>{{ r.type }}</td>
+        <td>{{ r.path | default_if_none:'' }}</td>
+        <td><a href="{{ r.related.get_absolute_url }}">{{ r.related }}</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

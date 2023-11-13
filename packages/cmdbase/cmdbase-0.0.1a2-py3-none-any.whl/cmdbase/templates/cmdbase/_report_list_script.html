@@ -1,0 +1,17 @@
+<script>
+server_bootstrap_table('#report_list', {
+    url: "{% url 'cmdbase:api_report' %}{% if by %}?by={{ by }}{% endif %}",
+    sortable: true,
+    columns: [
+        {field: 'id', title: 'Id', formatter: (value) => `<a href="${cmdbase.base_url}/report/${value}">${value}</a>`},
+        {field: 'at', title: 'At', sortable: true, formatter: datetime_formatter},
+        {% if not by %}{field: 'by', title: 'By', formatter: field_formatter('by_username', {url_template: "${base_url}/reporter/${value}"})},{% endif %}
+        {field: 'origin', title: 'Origin', formatter: choices_formatter('cmdbase_report_origin')},
+        {field: 'item_count', title: 'Items', sortable: true},
+        {field: 'issue_count', title: 'Issues', sortable: true},
+        {field: 'root_item', title: 'Root item', formatter: field_formatter('root_item_fullname', {url_field: 'root_item_url'})},
+        {field: 'root_action', title: 'Root action', formatter: choices_formatter('cmdbase_reportitem_action')},
+        {field: 'root_data', title: 'Root data', formatter: (value) => value ? `<small><code>${JSON.stringify(value, null, 4)}</code></small>`: ``},
+    ]
+})
+</script>

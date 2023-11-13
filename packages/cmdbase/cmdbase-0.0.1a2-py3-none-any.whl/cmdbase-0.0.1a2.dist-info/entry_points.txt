@@ -1,0 +1,2 @@
+[console_scripts]
+cmdbase = cmdbase.__main__:main

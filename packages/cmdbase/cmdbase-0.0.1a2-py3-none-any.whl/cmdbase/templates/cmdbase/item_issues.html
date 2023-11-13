@@ -1,0 +1,16 @@
+<table class="table table-sm" data-toggle="table" data-search="true" data-show-search-clear-button="true">
+    <thead>
+    <tr>
+        <th data-sortable="true">Issue</th>
+        <th data-sortable="true">Context</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for i in item.issue_set.all %}
+    <tr>
+        <td>{{ i.get_display }}</td>
+        <td><small><code>{{ i.context | default_if_none:'' }}</code></small></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

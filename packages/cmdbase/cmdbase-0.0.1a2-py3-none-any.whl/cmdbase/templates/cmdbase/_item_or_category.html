@@ -1,0 +1,5 @@
+{% if elem.category_name %}
+<a href="{% url 'cmdbase:item' elem.category_slug elem.slug %}">{{ elem.name }}</a> (<a href="{% url 'cmdbase:category' elem.category_slug %}">{{ elem.category_name }}</a>){% if elem.source and elem.value %}&nbsp;&nbsp;&nbsp;<small class="text-secondary">[{{ elem.source }}: {{ elem.value }}]</small>{% endif %}
+{% else %}
+<a href="{% url 'cmdbase:category' elem.slug %}">{{ elem.name }}</a> <i>({{ _("Category") }})</i>
+{% endif %}

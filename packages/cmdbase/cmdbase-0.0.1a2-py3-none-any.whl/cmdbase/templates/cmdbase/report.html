@@ -1,0 +1,86 @@
+{% extends 'cmdbase/base.html' %}
+{% load i18n static %}
+
+{% block title %}{{ object }}{% endblock %}
+
+{% block content %}
+<h1>{{ object }}</h1>
+<hr />
+
+<dl class="row">
+    <dt class="col-sm-3">At</dt>
+    <dd class="col-sm-9">{{ object.at }}</dd>
+
+    <dt class="col-sm-3">By</dt>
+    <dd class="col-sm-9"><a href="{% url 'cmdbase:reporter' object.by.pk %}">{{ object.by }}</a></dd>
+
+    <dt class="col-sm-3">Origin</dt>
+    <dd class="col-sm-9">{{ object.get_origin_display }}</dd>
+
+    <dt class="col-sm-3">Item count</dt>
+    <dd class="col-sm-9">{{ object.item_count }}</dd>
+
+    <dt class="col-sm-3">Issue count</dt>
+    <dd class="col-sm-9">{{ object.issue_count }}</dd>
+
+    <dt class="col-sm-3">Root item</dt>
+    <dd class="col-sm-9">{% if root_reportitem.item %}<a href="{{ root_reportitem.item.get_absolute_url }}">{{ root_reportitem.item }}</a>{% endif %}</dd>
+
+    <dt class="col-sm-3">Root action</dt>
+    <dd class="col-sm-9">{{ root_reportitem.get_action_display | default_if_none:'' }}</dd>
+
+    <dt class="col-sm-3">Root data</dt>
+    <dd class="col-sm-9"><small><code>{{ root_reportitem.data }}</code></small></dd>
+</dl>
+
+<p>
+    <small>Created: <strong>{{ object.created }}</strong> | Updated: <strong>{{ object.updated }}</strong> | Id: <strong>{{ object.id }}</strong></small>
+</p>
+
+<hr />
+<h2>Items</h2>
+
+<table class="table table-sm" data-toggle="table" data-search="true" data-show-search-clear-button="true">
+    <thead>
+    <tr>
+        <th data-sortable="true">Item</th>
+        <th data-sortable="true">Action</th>
+        <th data-sortable="true">Path</th>
+        <th data-sortable="true">Data</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for r in reportitem_set %}
+    <tr>
+        <td class="fw-bold">{% if r.item %}<a href="{{ r.item.get_absolute_url }}">{{ r.item }}</a>{% endif %}</td>
+        <td>{{ r.get_action_display | default_if_none:'' }}</td>
+        <td>{% if r.path %}{{ r.path }}{% else %}<i>Root</i>{% endif %}</td>
+        <td><small><code>{{ r.data }}</code></small></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<hr />
+<h2>Issues</h2>
+
+<table class="table table-sm" data-toggle="table" data-search="true" data-show-search-clear-button="true">
+    <thead>
+    <tr>
+        <th data-sortable="true">Issue</th>
+        <th data-sortable="true">Path</th>
+        <th data-sortable="true">Data</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for i in reportissue_set %}
+    <tr>
+        <td class="fw-bold">{{ i.display }}</td>
+        <td>{% if i.path %}{{ i.path }}{% else %}<i>Root</i>{% endif %}</td>
+        <td><small><code>{{ i.data }}</code></small></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

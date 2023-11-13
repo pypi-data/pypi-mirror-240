@@ -1,0 +1,91 @@
+{% extends 'cmdbase/base.html' %}
+{% load i18n static %}
+
+{% block content %}
+{% if should_authenticate and not request.user.is_authenticated %}
+<div class="text-center">
+    <h1 class="display-1">{{ _("Welcome") }}</h1>
+    <div><a class="btn btn-primary btn-lg" href="{{ LOGIN_URL }}?next={{ request.get_full_path }}" role="button">{{ _("Log in") }}</a></div>
+</div>
+{% endif %}
+
+
+{# ------------------------------------------------------------------------- #}
+{% if search %}
+<h1 class="mt-3 mb-3">{{ _("Search results") }}</h1>
+
+<p>
+    <a href="{% url 'cmdbase:index' %}" class="btn btn-secondary" role="button"><i class="bi bi-house"></i> {{ _("Back home") }}</a>
+</p>
+
+<p>{{ _("Search") }}{{ _(":") }} <mark>{{ search }}</mark></p>
+
+{% if search_results %}
+<ul>
+    {% for elem in search_results %}
+    <li>{% include 'cmdbase/_item_or_category.html' %}</li>
+    {% endfor %}
+    {% if search_results_more %}
+    <li>... <i><a href="?search={{ search|urlencode }}&limit={{ next_limit|urlencode }}"><i class="bi bi-plus-circle-dotted"></i> More</a></i> ...</li>
+    {% endif %}
+</ul>
+{% else %}
+<p>No result.</p>
+{% endif %}
+
+
+{# ------------------------------------------------------------------------- #}
+{% elif categories or recents %}
+
+<div class="row">
+    {% if categories %}
+    <div class="col-md-{% if recents %}8{% else %}12{% endif %}">
+        <h1 class="mt-3 mb-3">{{ _("Categories") }}</h1>
+
+        <div id="categories-toolbar">
+        <p>
+            {% if request.user.is_staff %}
+            <a href="{% url 'admin:cmdbase_category_changelist' %}" role="button" class="btn btn-secondary"><i class="bi-gear-fill"></i> {{ _("Admin") }}</a>
+            {% endif %}
+        </p>
+        </div>
+
+        <table class="table table-sm" data-toggle="table" data-search="true" data-show-search-clear-button="true" data-toolbar="#categories-toolbar">
+            <thead>
+            <tr>
+                <th data-sortable="true">Name</th>
+                <th data-sortable="true">Items</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for category in categories %}
+            <tr>
+                <td class="fw-bold"><a href="{{ category.get_absolute_url }}">{{ category.name }}</a></td>
+                <td>{{ category.items_count }}</td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% endif %}
+
+    {% if recents %}
+    <div class="col-md-{% if categories %}4{% else %}12{% endif %}">
+        <h1 class="mt-3 mb-3">{{ _("Recent") }}</h1>
+
+        <p>
+            <a href="{% url 'cmdbase:clear_recent' %}" class="btn btn-secondary" role="button" onclick="return confirm('Are you sure you want to clear the recent list?')"><i class="bi bi-trash"></i> Clear</a>
+        </p>
+
+        <ul>
+            {% for elem in recents %}
+            <li>{% include 'cmdbase/_item_or_category.html' %}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endif %}
+</div>
+
+{% endif %}
+
+{% endblock %}

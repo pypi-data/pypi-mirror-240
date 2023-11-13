@@ -1,0 +1,16 @@
+{% extends 'cmdbase/base.html' %}
+{% load i18n static %}
+
+{% block title %}Permission denied{% endblock %}
+
+{% block content %}
+<h1 class="text-danger">Permission denied</h1>
+
+{% if not request.user.is_authenticated %}
+<p><a class="btn btn-secondary" href="{{ LOGIN_URL }}?next={{ request.get_full_path }}" role="button">{{ _("Log in") }}</a></p>
+{% endif %}
+
+{% if debug %}
+<pre>{{ exception }}</pre>
+{% endif %}
+{% endblock %}

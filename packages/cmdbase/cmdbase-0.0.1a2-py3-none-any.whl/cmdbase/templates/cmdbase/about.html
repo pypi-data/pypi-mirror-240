@@ -1,0 +1,14 @@
+{% extends 'cmdbase/base.html' %}
+{% load i18n static %}
+
+{% block title %}{{ _("About") }}{% endblock %}
+
+{% block content %}
+<h1>{{ _("About") }}</h1>
+<h4>CMDBase</h4>
+<hr />
+
+<p>Building blocks for a CMDB leveraging Django and PostgreSql.</p>
+
+<p>Find us <a href="https://gitlab.com/ipamo/cmdbase">on Gitlab</a> (<a href="https://gitlab.com/ipamo/cmdbase/-/issues">report issues</a>) and <a href="https://pypi.org/project/cmdbase">on PyPI</a>.</p>
+{% endblock %}

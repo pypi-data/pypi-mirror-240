@@ -1,0 +1,10 @@
+[
+    // Servers
+    {"_c": "Server", "name": "demo-esx-1", "vmware_vm": {"cluster": {"_c": "VMCluster", "name": "Demo cluster"}}}
+    ,{"_c": "Server", "name": "demo-esx-2", "vmware_vm": {"cluster": {"_c": "VMCluster", "name": "Demo cluster"}}}
+    // VMs
+    ,{"_c": "VM", "name": "demo-vm-1", "vmware_host": {"cluster": {"_c": "VMCluster", "name": "Demo cluster"}}}
+    ,{"_c": "VM", "name": "demo-vm-2", "vmware_host": {"cluster": {"_c": "VMCluster", "name": "Demo cluster"}}}
+    ,{"_c": "VM", "name": "demo-vm-3", "vmware_host": {"cluster": {"_c": "VMCluster", "name": "Demo cluster"}}}
+    ,{"_c": "VM", "name": "demo-vm-4", "vmware_host": {"cluster": {"_c": "VMCluster", "name": "Demo cluster"}}}
+]

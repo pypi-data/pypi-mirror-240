@@ -1,0 +1,110 @@
+{% extends 'cmdbase/base.html' %}
+{% load i18n static %}
+
+{% block title %}{{ category.name }} (Category){% endblock %}
+
+{% block content %}
+<h1>{{ category.name }}</h1>
+<h4>Category</h4>
+<hr />
+
+{% if request.user.is_staff %}
+<p>
+    <a href="{% url 'admin:cmdbase_category_change' category.id %}" role="button" class="btn btn-secondary"><i class="bi-gear-fill"></i> {{ _("Admin") }}</a>
+</p>
+{% endif %}
+
+<dl class="row">
+    {% if parents %}
+    <dt class="col-sm-3">Parents</dt>
+    <dd class="col-sm-9">
+        {% for parent in parents %}
+            {% if not forloop.first %}&gt;{% endif %} <a href="{{ parent.get_absolute_url }}">{{ parent }}</a>
+        {% endfor %}
+    </dd>
+    {% endif %}
+
+    {% if category.child_set.exists %}
+    <dt class="col-sm-3">Children</dt>
+    <dd class="col-sm-9">{% include "cmdbase/_category_children_tree.html" %}</dd>
+    {% endif %}
+
+    {% if category.help %}
+    <dt class="col-sm-3">Help</dt>
+    <dd class="col-sm-9">{{ category.help }}</dd>
+    {% endif %}
+</dl>
+
+<p>
+    <small>Created: <strong>{{ category.created }}</strong> | Updated: <strong>{{ category.updated }}</strong> | Id: <strong>{{ category.id }}</strong></small>
+</p>
+
+<hr />
+<h2>Props</h2>
+
+<div id="props-toolbar">
+<p>
+    {% if request.user.is_staff %}
+    <a href="{% url 'admin:cmdbase_prop_changelist' %}?category__id__exact={{ category.id }}" role="button" class="btn btn-secondary"><i class="bi-gear-fill"></i> {{ _("Admin") }}</a>
+    {% endif %}
+</p>
+</div>
+
+<table class="table table-sm" data-toggle="table" data-search="true" data-show-search-clear-button="true" data-toolbar="#props-toolbar">
+    <thead>
+    <tr>
+        <th data-sortable="true">Fullname</th>
+        <th data-sortable="true">Category</th>
+        <th data-sortable="true">Ordinal</th>
+        <th data-sortable="true">Nature</th>
+        <th data-sortable="true">Unit</th>
+        <th data-sortable="true">Config</th>
+        <th data-sortable="true">Help</th>
+        {% if request.user.is_staff %}<th></th>{% endif %}
+    </tr>
+    </thead>
+    <tbody>
+    {% for cp in category.categoryprop_set.all %}
+    <tr>
+        <td class="fw-bold">{{ cp.prop_fullname }}</a></td>
+        <td>{% if cp.prop_category_id == category.id %}<i>{{ category.name }}</i>{% else %}<a href="{{ cp.prop_category.get_absolute_url }}">{{ cp.prop_category_name }}</a>{% endif %}</td>
+        <td>{{ cp.prop_ordinal }}</td>
+        <td>{{ cp.get_prop_nature_display | default_if_none:'' }}</td>
+        <td>{{ cp.prop_unit | default_if_none:'' }}</td>
+        <td>{{ cp.prop_config | default_if_none:'' }}</td>
+        <td>{{ cp.prop_help | default_if_none:'' }}</td>
+        {% if request.user.is_staff %}<td class="text-end"><a href="{% url 'admin:cmdbase_prop_change' cp.prop_id %}" role="button" class="btn btn-secondary btn-sm" title="Admin"><i class="bi-gear-fill"></i></a></td>{% endif %}
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<hr />
+<h2>Items</h2>
+
+<div id="items-toolbar">
+<p>
+    {% if request.user.is_staff %}
+    <a href="{% url 'admin:cmdbase_item_changelist' %}?category__id__exact={{ category.id }}" role="button" class="btn btn-secondary"><i class="bi-gear-fill"></i> {{ _("Admin") }}</a>
+    {% endif %}
+</p>
+</div>
+
+<table class="table table-sm" data-toggle="table" data-search="true" data-show-search-clear-button="true" data-toolbar="#items-toolbar">
+    <thead>
+    <tr>
+        <th data-sortable="true">Name</th>
+        <th data-sortable="true">Category</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for item in items %}
+    <tr>
+        <td class="fw-bold"><a href="{{ item.get_absolute_url }}">{{ item.name }}</a></td>
+        <td>{% if item.category_id == category.id %}<i>{{ category.name }}</i>{% else %}<a href="{{ item.category.get_absolute_url }}">{{ item.category }}</a>{% endif %}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

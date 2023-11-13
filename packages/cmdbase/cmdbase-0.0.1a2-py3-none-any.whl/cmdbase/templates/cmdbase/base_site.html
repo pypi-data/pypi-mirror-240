@@ -1,0 +1,124 @@
+{% load i18n static static_lib %}<!doctype html>{% get_current_language as LANGUAGE_CODE %}{% get_current_language_bidi as LANGUAGE_BIDI %}
+<html lang="{{ LANGUAGE_CODE|default:'en' }}" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr,auto' }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/x-icon" href="{% static 'cmdbase/favicon.ico' %}"/>
+
+    {% style_lib 'bootstrap' 'dist/css/bootstrap.min.css' '5.2.3' 'sha256-wLz3iY/cO4e6vKZ4zRmo4+9XDpMcgKOvv/zEU3OMlRo=' %}
+    {% style_lib 'bootstrap-icons' 'font/bootstrap-icons.css' '1.10.3' 'sha256-4RctOgogjPAdwGbwq+rxfwAmSpZhWaafcZR9btzUk18=' %}
+    {% style_lib 'bootstrap-table' 'dist/bootstrap-table.min.css' '1.21.2' 'sha256-Je9PmdF7VB3AY6oHw5Eit82SumgIt9XpISdDMBy7sPQ=' %}
+    <link rel="stylesheet" href="{% static 'cmdbase/base.css' %}" />
+    <link rel="stylesheet" href="{% static 'cmdbase/search.css' %}" />
+    {% block style %}{% endblock %}
+
+    <title>{% block title %}CMDBase{% endblock %}</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+        <div class="container">
+            <a href="{% url 'cmdbase:index' %}" class="navbar-brand"><img src="{% static 'cmdbase/logo-30px.png' %}" width="30" height="30" class="d-inline-block align-text-top"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollabsibleContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollabsibleContent">
+                {% if request.user.is_authenticated or not should_authenticate %}
+                <form action="{% url 'cmdbase:index' %}" method="get" id="nav-search-form" class="d-flex">
+                    <input type="search" name="search" placeholder="{{ _('Search') }}" id="navbar-search" list="navbar-search-list" class="form-control me-2" autocomplete="off" aria-label="Search">
+                    <button type="submit" class="btn btn-outline-dark"><i class="bi-search" title="{{ _('Search') }}"></i></button>
+                    <div class="autocomplete-result"></div>
+                </form>
+                {% else %}
+                <ul class="navbar-nav">
+                </ul>
+                {% endif %}
+                <ul class="ms-auto navbar-nav">
+                    {% if request.user.is_authenticated %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="bi-person-fill"></i> <span id="username">{{ request.user.username }}</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            {% if request.user.is_staff %}
+                                <li><a class="dropdown-item" href="{% url 'cmdbase:report_list' %}">{{ _("Reports") }}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'cmdbase:issue_list' %}">{{ _("Issues") }}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'admin:index' %}"><i class="bi-gear-fill"></i> {{ _("Admin panel") }}</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                            {% endif %}
+                            <li><a class="dropdown-item" href="{{ LOGOUT_URL }}"><i class="bi-door-closed-fill"></i> {{ _("Log out") }}</a></li>                        
+                        </ul>
+                    </li>            
+                    {% else %}
+                    <li class="nav-item"><a class="nav-link" href="{{ LOGIN_URL }}?next={{ request.get_full_path }}">{{ _("Log in") }}</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        {% include "cmdbase/_messages.html" %}
+        
+        <main role="main" class="pb-3">
+        {% block content %}{% endblock %}
+        </main>
+    </div>
+
+    <footer class="text-muted">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    &copy; {{ COPYRIGHT_HOLDER }} {{ COPYRIGHT_YEARS }}
+                    | <a href="{% url 'cmdbase:about' %}">{{ _("About") }}</a>
+                </div>
+                <div class="col-6 text-end">
+                    <div>
+                        <form action="{% url 'cmdbase:select_language' %}" method="post" class="form-horizontal" role="form">
+                            {% csrf_token %}
+                            <input type="hidden" name="next" value="{{ request.get_full_path }}" />
+                            <label asp-for="lang">{{ _("Language") }}{{ _(":") }}</label>
+                            {% get_available_languages as LANGUAGES %}
+                            <select name="lang" onchange="this.form.submit();">
+                                {% for lang, language_name in LANGUAGES %}
+                                <option value="{{ lang }}" {% if lang == LANGUAGE_CODE %} selected{% endif %}>{{ lang|language_name_local|title }} ({{ lang|language_name }})</option>
+                                {% endfor %}
+                            </select>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    {% script_lib 'jquery' 'dist/jquery.min.js' '3.6.0' 'sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=' %}
+    {% script_lib 'bootstrap' 'dist/js/bootstrap.bundle.min.js' '5.2.3' 'sha256-lSABj6XYH05NydBq+1dvkMu6uiCc/MbLYOFGRkf3iQs=' %}
+    {% script_lib 'bootstrap-table' 'dist/bootstrap-table.min.js' '1.21.2' 'sha256-SFw+RlzTCSKJPJcMvfBTolMFPIeGwpOkN0jXxWwXlQ8=' %}
+    {% if LANGUAGE_CODE|slice:':2' == 'fr' %}
+        {% script_lib 'bootstrap-table' 'dist/locale/bootstrap-table-fr-FR.min.js' '1.21.2' 'sha256-r+1LseIF6RNoKJ85OcMrirNRO5Lzl6lx1cAYMy+XidI=' %}
+    {% elif LANGUAGE_CODE|slice:':2' == 'ru' %}
+        {% script_lib 'bootstrap-table' 'dist/locale/bootstrap-table-ru-RU.min.js' '1.21.2' 'sha256-JQcpr6Hcu3ff6hjU0gcf6xghPcauxwihbkqXPfQttLU=' %}
+    {% endif %}
+
+    {% if debug %}
+    <script src="{% url 'js_choices' %}" type="text/javascript"></script>
+    {% else %}    
+        {% if LANGUAGE_CODE|slice:':2' == 'fr' %}
+        <script src="{% static 'choices-fr.js' %}"></script>
+        {% elif LANGUAGE_CODE|slice:':2' == 'ru' %}
+        <script src="{% static 'choices-ru.js' %}"></script>
+        {% else %}
+        <script src="{% static 'choices-en.js' %}"></script>
+        {% endif %}
+    {% endif %}
+    
+    <script src="{% static 'cmdbase/base.js' %}"></script>
+    {{ configure_cmdbase_script }}
+    <script src="{% static 'cmdbase/search.js' %}"></script>
+    <script>
+        bind_cmdbase_search_form("nav-search-form")
+    </script>
+    {% block script %}{% endblock %}
+</body>
+</html>

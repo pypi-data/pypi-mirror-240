@@ -1,0 +1,32 @@
+<table class="table table-sm" data-toggle="table" data-search="true" data-show-search-clear-button="true">
+    <thead>
+    <tr>
+        <th data-sortable="true">Id</th>
+        <th data-sortable="true">At</th>
+        <th data-sortable="true">By</th>
+        <th data-sortable="true">Origin</th>
+        <th data-sortable="true">Path</th>
+        <th data-sortable="true">Data</th>
+        <th data-sortable="true">Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for r in reportitems %}
+    <tr>
+        <td>
+            {% if request.user.is_staff %}
+            <a href="{{ r.report.get_absolute_url }}">{{ r.report.id }}</a>
+            {% else %}
+            {{ r.report_id }}
+            {% endif %}
+        </td>
+        <td>{{ r.report.at }}</td>
+        <td><a href="{% url 'cmdbase:reporter' r.report.by.pk %}">{{ r.report.by }}</a></td>
+        <td>{{ r.report.get_origin_display }}</td>
+        <td>{% if r.path %}{{ r.path }}{% else %}<i>Root</i>{% endif %}</td>
+        <td><small><code>{{ r.data | default_if_none:'' }}</code></small></td>
+        <td>{{ r.get_action_display }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>

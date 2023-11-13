@@ -1,0 +1,19 @@
+{% extends 'cmdbase/base.html' %}
+{% load i18n static %}
+
+{% block title %}{{ object }} (Reporter){% endblock %}
+
+{% block content %}
+<h1>{{ object }}</h1>
+<h4>Reporter</h4>
+<hr />
+
+<h2>Last reports</h2>
+
+<table class="table table-sm" id="report_list"></table>
+
+{% endblock %}
+
+{% block script %}
+{% include 'cmdbase/_report_list_script.html' with by=object.id %}
+{% endblock %}

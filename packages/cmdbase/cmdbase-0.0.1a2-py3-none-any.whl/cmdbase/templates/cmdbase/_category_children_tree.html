@@ -1,0 +1,9 @@
+{% if display_category_in_children_tree %}<li> <a href="{{ category.get_absolute_url }}">{{ category }}</a>{% endif %}
+    {% if category.child_set.exists %}
+    <ul>
+    {% for child in category.child_set.all %}
+        {% include "cmdbase/_category_children_tree.html" with category=child display_category_in_children_tree=True %}
+    {% endfor %}
+    </ul>
+    {%  endif%}
+{% if display_category_in_children_tree %}</li>{% endif %}

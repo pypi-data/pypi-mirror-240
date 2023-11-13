@@ -1,0 +1,15 @@
+{% extends 'cmdbase/base.html' %}
+{% load i18n static %}
+
+{% block title %}Reports{% endblock %}
+
+{% block content %}
+<h1>Reports</h1>
+<hr />
+
+<table class="table table-sm" id="report_list"></table>
+{% endblock %}
+
+{% block script %}
+{% include 'cmdbase/_report_list_script.html' %}
+{% endblock %}

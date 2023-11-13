@@ -1,0 +1,42 @@
+{% extends 'cmdbase/base.html' %}
+{% load i18n static %}
+
+{% block title %}Issues{% endblock %}
+
+{% block content %}
+<h1>Issues</h1>
+<hr />
+
+<table class="table table-sm" id="issue_list"></table>
+{% endblock %}
+
+{% block script %}
+<script>
+server_bootstrap_table('#issue_list', {
+    url: "{% url 'cmdbase:api_issue' %}",
+    columns: [
+        {field: 'on_type_model', title: 'On type'},
+        {field: 'on', title: 'On object', formatter: function (value, row) {
+            let result = row['on_name'] ?? value
+            if (row['on_url']) {
+                result = `<a href="${row['on_url']}">${result}</a>`
+            }                
+            return result
+        }},
+        {field: 'display', title: 'Issue'},
+        {field: 'context', title: 'Context', formatter: function (value) {
+            if (! value)
+                return ''
+            let result = JSON.stringify(value, null, 1)
+            if (result.length > 100)
+                result = result.substr(0,100) + '…'
+            return `<small><code>${result}</code></small>`
+        }},
+        {field: 'created', title: 'Created', formatter: datetime_formatter},
+        {field: 'updated', title: 'Updated', formatter: datetime_formatter},
+        {field: 'acked', title: 'Acked', formatter: datetime_formatter},
+        {field: 'acked_by_username', title: 'Acked by'},
+    ]
+})
+</script>
+{% endblock %}

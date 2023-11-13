@@ -1,0 +1,236 @@
+Item:
+  props:
+    product:
+      ordinal: 800
+      nature: RELATION
+
+    serial:
+      ordinal: 810
+      nature: TEXT
+      search: True
+      index: UNIQUE
+      index_with: product
+
+    acquisition:
+      ordinal: 820
+      nature: RELATION
+      #TODO target_item: Contract
+    
+    acquisition_cost:
+      ordinal: 830
+      nature: DECIMAL
+      unit: EUR
+      help: One-off, all inclusive (except otherwise documented in contract item). 
+
+    support:
+      ordinal: 840
+      nature: RELATION
+      #TODO target_item: Contract
+    
+    support_cost:
+      ordinal: 850
+      nature: DECIMAL
+      unit: EUR
+      help: Yearly, all inclusive (except otherwise documented in contract item).
+
+  children:
+    Host:
+      props:
+        memory:
+          ordinal: 200
+          nature: DECIMAL
+          help: RAM in GiB.
+        
+        cpu:
+          ordinal: 210
+          nature: INTEGER
+          help: Number of CPUs.
+
+        location:
+          ordinal: 770
+          nature: RELATION
+          #TODO target_item: Enclosure|Rack|Site
+
+        pos_in_container:
+          ordinal: 780
+          nature: INTEGER
+
+        size_in_container:
+          ordinal: 790
+          nature: INTEGER
+
+        disks:
+          nature: TABLE
+          help: Physical disks provided to the host.
+          children:
+            key:
+              nature: INTEGER
+            disk:
+              nature: RELATION
+
+        nics:
+          nature: TABLE
+          help: Physical network interfaces.
+
+        vmware_host:
+          nature: SECTION
+          ordinal: 20000
+          children:
+            ref:
+              nature: TEXT
+              index: UNIQUE
+            raw:
+              ordinal: 32700
+              
+        datacore_host:
+          ordinal: 20000
+          nature: SECTION
+          children:
+            ref:
+              nature: TEXT
+              index: UNIQUE
+            raw:
+              ordinal: 32700
+
+
+      children:
+        Server:
+          help: Server (physical, otherwise use category VM).
+          props:
+            cpu_cores:
+              ordinal: 220
+              nature: INTEGER
+              help: Number of CPU physical cores.
+          
+            datacore_server:
+              ordinal: 20000
+              nature: SECTION
+              children:
+                uuid:
+                  nature: TEXT
+                  index: UNIQUE
+                raw:
+                  ordinal: 32700
+
+        Workstation:
+          
+        VM:
+          help: Virtual machine
+          props:
+            cpu:
+              ordinal: 210
+              nature: INTEGER
+              help: Number of vCPUs.
+
+            vmware_vm:
+              nature: SECTION
+              ordinal: 20000
+              children:
+                ref:
+                  nature: TEXT
+                  index: UNIQUE
+                raw:
+                  ordinal: 32700
+
+        Switch:
+
+        Enclosure:
+        
+        Rack:
+
+    Site:
+      props:
+        code:
+          nature: TEXT
+          index: UNIQUE FOR_CATEGORY
+
+    Domain:
+
+    Cluster:
+      props:
+        member:
+          nature: RELATION
+          
+        provider:
+          nature: RELATION
+        
+      children:
+        VMCluster:
+        
+        VDiskCluster:
+          props:
+            datacore_servergroup:
+              ordinal: 20000
+              nature: SECTION
+              children:
+                uuid:
+                  nature: TEXT
+                  index: UNIQUE
+                raw:
+                  ordinal: 32700
+
+    Disk:
+      help: Disk (physical by default, otherwise use category VDisk).
+
+      props:
+        capacity:
+          ordinal: 240
+          nature: DECIMAL
+          unit: GiB
+
+        freespace:
+          ordinal: 260
+          nature: DECIMAL
+          unit: GiB
+
+      children:
+        VDisk:
+          help: Virtual disk (such as datastores provided by a SAN/SDS).
+
+          props:
+            unallocated:
+              ordinal: 250
+              nature: DECIMAL
+              unit: GiB
+              help: Space in GiB not yet allocated by the SAN/SDS.
+
+            vmware_datastore:
+              nature: SECTION
+              ordinal: 20000
+              children:
+                ref:
+                  nature: TEXT
+                  index: UNIQUE
+                raw:
+                  ordinal: 32700
+
+            datacore_virtualdisk:
+              ordinal: 20000
+              nature: SECTION
+
+    Vendor:
+      props:
+        aka:
+          nature: TEXT
+          search: true
+
+    Product:
+      props:
+        vendor:
+          nature: RELATION
+        nature:
+          nature: CHOICES
+
+    License:
+      props:
+        product:
+          nature: RELATION
+
+        vmware_license:
+          nature: SECTION
+          ordinal: 20000
+
+    Contract:
+      props:
+        vendor:
+          nature: RELATION
