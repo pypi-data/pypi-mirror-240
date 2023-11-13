@@ -1,0 +1,11 @@
+rollnw.cpython-310-x86_64-linux-gnu.so,sha256=tvFzCGfTnbXocWiioeITBL9Va1D2CYWNyPQCQDoTxsI,12580112
+rollnw-0.15.dev0.dist-info/top_level.txt,sha256=LoJYRO7WeOw8sRk9BcRdUoGdlSBHXYkyD2M2N-7T1LE,17
+rollnw-0.15.dev0.dist-info/WHEEL,sha256=JmQLNqDEfvnYMfsIaVeSP3fmUcYDwmF12m3QYW0c7QQ,152
+rollnw-0.15.dev0.dist-info/METADATA,sha256=GxdskzhVg2pdnlm71BXkb8PZH8zJCC-6tWx6e5feY0I,5080
+rollnw-0.15.dev0.dist-info/LICENSE,sha256=yjQdNANEe8_t9GwAmqwWoFKxQIscuSRruK2JbkJdCgU,1101
+rollnw-0.15.dev0.dist-info/RECORD,,
+rollnw-stubs/script.pyi,sha256=6tdz3H7P3SniLM7yUrH4Q89mReo3XZZXZ0QQ56TZ2DM,11591
+rollnw-stubs/model.pyi,sha256=fFQRzNh4y0L4PyjRWMYbcpy-apxVXD71bLcmHWF3-6A,12409
+rollnw-stubs/__init__.pyi,sha256=x11ZphxE2sromjOVSJnLj6sP0e5FEZAYa2iACWC3q3I,89597
+rollnw-stubs/nwn1.pyi,sha256=fblXifdydnAFQGbo_UuXhPA81pHgmV5PHHhVuGhQ0uc,4128
+rollnw-stubs/kernel.pyi,sha256=A7hUGONdIE2ypv7Q50cuSPosi3g3FrEhnzjckUyRA0c,3881
