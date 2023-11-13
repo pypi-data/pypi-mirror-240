@@ -1,0 +1,19 @@
+scipy
+shapely
+pyproj
+plum-dispatch
+tqdm
+requests
+appdirs
+bs4
+dateutil
+OSMPythonTools
+Pillow
+plum-dispatch
+appdirs
+python-dateutil
+natsort
+requests
+
+[:python_version < "3.9"]
+importlib-resources
