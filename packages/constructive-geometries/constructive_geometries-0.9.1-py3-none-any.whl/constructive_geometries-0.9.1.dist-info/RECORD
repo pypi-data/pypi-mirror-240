@@ -1,0 +1,11 @@
+constructive_geometries/__init__.py,sha256=vvUlsyhuczPTpr32OfUxxIot6yPefclRrfBHHQPpkF0,112
+constructive_geometries/cg.py,sha256=gW3xpyGi-aTO3ytd45aEukrhY-KX4jfxRXM_n_saIM8,9267
+constructive_geometries/compatibility.py,sha256=Whp9sEGabJ4I-Z31UMXipxZjPnOTHA2L0-MpY2hF56A,823
+constructive_geometries/geomatcher.py,sha256=C_gGW_TCWI8TWqSEcHKyhLRj7neTsB15uYYUSJUsvkI,12340
+constructive_geometries/data/faces.gpkg,sha256=1I2kpVUJfWoB28O3RIErE96QDxjTatOV-gejY2TDrBU,24498176
+constructive_geometries/data/faces.json,sha256=AM5t8x63nek9hK_nPsGlokvQdzkYdJjXyYT1_DWck4A,1207421
+constructive_geometries-0.9.1.dist-info/LICENSE,sha256=AJbT3ZlZMpSbChIecjtWvjbqf2Ubm42H10RyUp4EjFQ,1518
+constructive_geometries-0.9.1.dist-info/METADATA,sha256=2NBy_0e49CMtcOemhhF44Vo-8ifTPmf__Ut78oc3qwA,1289
+constructive_geometries-0.9.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+constructive_geometries-0.9.1.dist-info/top_level.txt,sha256=hgZUbd-5AQp27LgXUCDPj_QO_YGzRf7tXGDNLQruk0I,24
+constructive_geometries-0.9.1.dist-info/RECORD,,
