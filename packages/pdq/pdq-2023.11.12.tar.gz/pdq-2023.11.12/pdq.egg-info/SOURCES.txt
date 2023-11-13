@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pdq/__init__.py
+pdq/utils.py
+pdq.egg-info/PKG-INFO
+pdq.egg-info/SOURCES.txt
+pdq.egg-info/dependency_links.txt
+pdq.egg-info/not-zip-safe
+pdq.egg-info/top_level.txt

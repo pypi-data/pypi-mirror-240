@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pdq
+Version: 2023.11.12
+Summary: pdq
+Home-page: https://github.com/fzhu2e/pdq
+Author: Feng Zhu
+Author-email: infnorm@outlook.com
+License: BSD-3
+Keywords: pdq
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+# quant
