@@ -1,0 +1,10 @@
+setuptools>=39.2
+numpy
+astropy
+scipy
+matplotlib
+python-dateutil
+PyYaml
+
+[test]
+pytest

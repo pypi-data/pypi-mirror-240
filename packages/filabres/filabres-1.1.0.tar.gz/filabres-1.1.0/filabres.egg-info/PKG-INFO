@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: filabres
+Version: 1.1.0
+Summary: Data Reduction Package for CAHA instruments
+Home-page: https://github.com/nicocardiel/filabres
+Author: Nicolás Cardiel
+Author-email: cardiel@ucm.es
+License: GPLv3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: setuptools>=39.2
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: python-dateutil
+Requires-Dist: PyYaml
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+# filabres
+
+Automatic Data Reduction Pipeline for CAHA data.
+
+Filabres is embedded in a joint effort of the Calar Alto Observatory 
+(especially Santos Pedraz and Jesús Aceituno), the Spanish Virtual Observatory
+ (Enrique Solano, José Manuel Alacid and Miriam Cortés), and the Physics of 
+ the Earth and Astrophysics Department at the Universidad Complutense de 
+ Madrid (Nicolás Cardiel, Sergio Pascual, Enrique Galcerán and Jaime 
+ Hernández), and the collaboration of the Instituto de Física de Cantabria 
+ (Maite Ceballos), with the main goal of providing useful reduced images 
+ through the Calar Alto Archive hosted at 
+ http://caha.sdc.cab.inta-csic.es/calto/.
+
+Although this software package has been initially created with the idea of 
+performing the automatic reduction of direct images obtained with the 
+instrument CAFOS, placed at the 2.2 m telescope of the Calar Alto 
+Observatory, filabres has been designed to allow the future inclusion of 
+additional observing modes and instruments.
+
+See full documentation at https://filabres.readthedocs.io/
+
+Software repository: https://github.com/nicocardiel/filabres
+
+Developers and maintainers: Nicolás Cardiel (cardiel@ucm.es) and 
+Sergio Pascual (sergiopr@fis.ucm.es)
