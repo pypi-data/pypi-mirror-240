@@ -1,0 +1,5 @@
+setup.py
+pystachios.egg-info/PKG-INFO
+pystachios.egg-info/SOURCES.txt
+pystachios.egg-info/dependency_links.txt
+pystachios.egg-info/top_level.txt
