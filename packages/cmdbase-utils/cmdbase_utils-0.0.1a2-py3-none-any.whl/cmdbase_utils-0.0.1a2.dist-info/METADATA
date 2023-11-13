@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: cmdbase-utils
+Version: 0.0.1a2
+Summary: Shared utilities for CMDBase and command-line tool interacting with the REST API.
+Author-email: Ipamo <dev@ipamo.net>
+Project-URL: Homepage, https://gitlab.com/ipamo/cmdbase
+Project-URL: Bug Tracker, https://gitlab.com/ipamo/cmdbase/issues
+Keywords: cmdb
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.11.2
+Description-Content-Type: text/markdown
+Requires-Dist: zut >=0.7.8
+Requires-Dist: tabulate
+Requires-Dist: json-with-comments
+
+CMDBase utils
+=============
+
+Shared utilities for CMDBase and command-line tool interacting with the REST API.
+
+:warning: **This project is in very early alpha status. It is not suitable for production yet. Breaking API changes and modifications of key concepts are still very likely to occur.**
+
+## Getting started
+
+See [CMDBase documentation](https://cmdbase.readthedocs.io/en/latest/) on _readthedocs.io_.
+
+## Sources
+
+See [CMDBase source code](https://gitlab.com/ipamo/cmdbase) on _gitlab.com_.
+
+## Packages
+
+[CMDBase packages](https://pypi.org/project/cmdbase) are published on _pypi.org_.
+
+## License
+
+This project is licensed under the terms of the [MIT license](https://gitlab.com/ipamo/cmdbase/-/blob/main/LICENSE.txt).
