@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Folder Contents</title>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Fetch the files from the API
+    fetch(window.location.href + '?format=json')
+    .then(response => {
+        // Check if the request was successful
+        if (response.ok) {
+            return response.json();
+        } else {
+            throw new Error('Network response was not ok.');
+        }
+    })
+    .then(data => {
+        // Handle the list of files here
+        const list = document.getElementById('file-list');
+        data.forEach(file => {
+            const listItem = document.createElement('li');
+            listItem.textContent = file.name; // Assuming the JSON objects have a "name" key
+            list.appendChild(listItem);
+        });
+    })
+    .catch(error => {
+        // Handle any errors here
+        console.error('There has been a problem with your fetch operation:', error);
+    });
+});
+</script>
+</head>
+<body>
+<h1>Folder Contents</h1>
+<ul id="file-list">
+    <!-- The file list will be populated here by the JavaScript -->
+</ul>
+</body>
+</html>
