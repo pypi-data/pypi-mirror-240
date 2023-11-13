@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: bitbuilder-cli
+Version: 0.1.0
+Summary: A CLI tool for BitBuilder
+Author-email: Your Name <youremail@example.com>
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic==1.10.4
+Requires-Dist: fastapi==0.89.1
+Requires-Dist: uvicorn[standard]==0.23.2
+Requires-Dist: loguru==0.7.2
+Requires-Dist: diff-match-patch==20230430
+Requires-Dist: requests==2.31.0
+
+### To test
+```
+virtualenv venv
+. venv/bin/activate
+pip install .
+```
+and then you can use commands like
+```
+bb ping
+```
+and when you're done
+```
+deactivate
+```
+
+
+### To publish
+```
+pip install twine
+twine upload dist/*
+```
