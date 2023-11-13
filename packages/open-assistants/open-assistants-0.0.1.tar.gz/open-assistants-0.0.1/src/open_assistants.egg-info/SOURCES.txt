@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/open_assistants/__init__.py
+src/open_assistants/example.py
+src/open_assistants.egg-info/PKG-INFO
+src/open_assistants.egg-info/SOURCES.txt
+src/open_assistants.egg-info/dependency_links.txt
+src/open_assistants.egg-info/top_level.txt
