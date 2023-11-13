@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: py-valid-proxy
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/suvorinov/py_valid_proxy.git
+Author: Suvorinov Oleg
+Author-email: suvorinovoleg@yandex.ru
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# py-valid-proxy
+
+## В работе
+
