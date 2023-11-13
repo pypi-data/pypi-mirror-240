@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/libblas_dev.egg-info/PKG-INFO
+src/libblas_dev.egg-info/SOURCES.txt
+src/libblas_dev.egg-info/dependency_links.txt
+src/libblas_dev.egg-info/entry_points.txt
+src/libblas_dev.egg-info/requires.txt
+src/libblas_dev.egg-info/top_level.txt
