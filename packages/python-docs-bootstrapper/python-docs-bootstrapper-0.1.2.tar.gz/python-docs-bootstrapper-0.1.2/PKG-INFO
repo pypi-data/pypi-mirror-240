@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: python-docs-bootstrapper
+Version: 0.1.2
+Summary: Bootstrapper for Python documentation translations
+Author-email: egeakman <me@egeakman.dev>
+License: MIT
+Project-URL: Homepage, https://github.com/egeakman/python-docs-bootstrapper
+Project-URL: Issues, https://github.com/egeakman/python-docs-bootstrapper/issues
+Project-URL: Releases, https://github.com/egeakman/python-docs-bootstrapper/releases
+Keywords: automation,CLI,documentation,i18n,python-docs,sphinx,translation,utilities
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sphinx==4.5
+
+# python-docs-bootstrapper
+
+This repository contains the scripts and data used to bootstrap a new translation of the Python documentation.
+
+## Installation
+
+```bash
+$ pip install python-docs-bootstrapper
+```
+
+## Usage
+
+```bash
+$ bootstrapper --help
+usage: bootstrapper [-h] [-b BRANCH] language
+
+positional arguments:
+  language              IETF language tag (e.g. tr, pt-br)
+
+options:
+  -h, --help            show this help message and exit
+  -b BRANCH, --branch BRANCH
+                        CPython branch (e.g. 3.12)
+```
+
+## Example
+
+```bash
+$ bootstrapper tr --branch 3.12
+```
