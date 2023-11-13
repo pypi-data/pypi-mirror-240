@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+multiwhacamole/README.MD
+multiwhacamole/__init__.py
+multiwhacamole/requirements.txt
+multiwhacamole/thirdparty.json
+multiwhacamole.egg-info/PKG-INFO
+multiwhacamole.egg-info/SOURCES.txt
+multiwhacamole.egg-info/dependency_links.txt
+multiwhacamole.egg-info/requires.txt
+multiwhacamole.egg-info/top_level.txt

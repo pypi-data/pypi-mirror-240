@@ -1,0 +1,3 @@
+include multiwhacamole/requirements.txt
+include multiwhacamole/thirdparty.json
+include multiwhacamole/README.MD
