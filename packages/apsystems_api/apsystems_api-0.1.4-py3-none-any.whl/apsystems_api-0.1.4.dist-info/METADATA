@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: apsystems_api
+Version: 0.1.4
+Summary: 
+License: MPL-2.0
+Author: Mawoka
+Author-email: git@mawoka.eu
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.8.6,<4.0.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# APsystems-API
+
+This API is used to interface with the [APsystems EZ1-M](https://emea.apsystems.com/diy/ez1/) using their cloud service.
