@@ -1,0 +1,14 @@
+flickr_sdc/__init__.py,sha256=MQJ1WjZ-RVkLzyR7gdIqqeRzZPoli9Er1keTXTI7JLM,762
+flickr_sdc/_types.py,sha256=-MbUnwavY4DY_mk7z6XS2a6hTApYUuEdB4M5V9D1PAw,5181
+flickr_sdc/flickr_user_ids.py,sha256=bzi16Y-WoUGRB9hhb7FkGRcq9XwzkJuKPJ6zcxPfBVA,4234
+flickr_sdc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flickr_sdc/structured_data.py,sha256=B9vRe75XW_bC0i5UAG5lU5zWK3IUu0hxF_GbfnBW0ho,12350
+flickr_sdc/utils.py,sha256=0xDTmP0irFxWAKGlP5sA0CV2Yb_foARu8ECWpsS0oHw,976
+flickr_sdc/wikidata.py,sha256=c6vTXu8C6rTHE5vc_GTeMvNXWHG90JP4NafTxHINDkk,4694
+flickr_sdc/wikimedia.py,sha256=yyG0yuqE_bBXdkxzUavvp4bHxyWC0vEKc29HLJqrIlY,4747
+flickr_sdc-1.0.0.dist-info/LICENSE-APACHE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+flickr_sdc-1.0.0.dist-info/LICENSE-MIT,sha256=0lTh9BLH_hA5eNVmfptbjPAyjq9hl24MH98-h0mI22s,1074
+flickr_sdc-1.0.0.dist-info/METADATA,sha256=lHAylKyM2kZ-y1UQnEivgXNiGRI-xgWeWho-5lx_3wI,5016
+flickr_sdc-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+flickr_sdc-1.0.0.dist-info/top_level.txt,sha256=j_eaibpO43IctPvd70mQ0e3gnGopyrJboygVeRBXFWk,11
+flickr_sdc-1.0.0.dist-info/RECORD,,
