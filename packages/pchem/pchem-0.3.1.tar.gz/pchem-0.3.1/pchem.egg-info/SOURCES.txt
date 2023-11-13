@@ -1,0 +1,112 @@
+.gitignore
+LICENSE
+Procfile
+Readme.md
+check_requirements.py
+environment.yml
+pyproject.toml
+requirements.txt
+run
+setup.py
+setup.sh
+streamlit.ini
+webhook.md
+.github/workflows/python-package-conda.yml
+apps/ace.py
+apps/arrhen.py
+apps/combineCSV.py
+apps/combineCSVElectrochem.py
+apps/combineEChemZip.py
+apps/combineRaman.py
+apps/entropySplit.py
+apps/ex2.py
+apps/fuelcell.py
+apps/impedance.py
+apps/kinetics.py
+apps/pchemapp.py
+apps/plotExcel.py
+apps/rutherford.py
+apps/solartronData.py
+apps/solartronDataSingle.py
+apps/thermoCalorimeter.py
+apps/thermoFirstLaw.py
+apps/thermoGas.py
+apps/util.py
+notebooks/2021-09-13 ChemSpiPy Molecule Lookup.ipynb
+notebooks/2nd Law In-class Problems.ipynb
+notebooks/A3 Plotting Example.ipynb
+notebooks/A7 Data and Plotting Python 22FA Key.ipynb
+notebooks/A7 Data and Plotting Python Practice 22FA.ipynb
+notebooks/A7 Data and Plotting Python Practice-Copy1.ipynb
+notebooks/A7 Data and Plotting Python Practice.ipynb
+notebooks/A7 Python Thermodynamic Data.ipynb
+notebooks/A8 22FA 8-9 KEY.ipynb
+notebooks/A8 Key 2022FA.ipynb
+notebooks/A8 Key.ipynb
+notebooks/A8 Python Thermodynamic Data Key.ipynb
+notebooks/A8 Python Thermodynamic Data Lookup 22FA.ipynb
+notebooks/A8 Python Thermodynamic Data Lookup.ipynb
+notebooks/A8 Python Thermodynamic Data.ipynb
+notebooks/Assignment.ipynb
+notebooks/CHE 341 Ideal Solution Model.ipynb
+notebooks/CHE341 A6 SymPy for Symbolic Math-Copy1.ipynb
+notebooks/CHE341 A6 SymPy for Symbolic Math.ipynb
+notebooks/CHE341-A9-vapor_pressure_data.xlsx
+notebooks/CHE341-A9-vapor_pressure_data_key.xlsx
+notebooks/Calorimetry - chemical reaction.ipynb
+notebooks/Check dG dS optimization-Copy1.ipynb
+notebooks/Check dG dS optimization-Copy2.ipynb
+notebooks/Check dG dS optimization.ipynb
+notebooks/Data Analysis in Python.ipynb
+notebooks/E2 22FA.ipynb
+notebooks/Equilibrium Notebook.ipynb
+notebooks/GPT-2-Simple.ipynb
+notebooks/IR Spectrum Reading.ipynb
+notebooks/Kinetics Simulations v1.ipynb
+notebooks/KvsT.pdf
+notebooks/Modified Solver 2.ipynb
+notebooks/Modified Solver.ipynb
+notebooks/Rotovibrational Data.ipynb
+notebooks/Row echatlon Form.ipynb
+notebooks/Standard Equilibrium Solver.ipynb
+notebooks/Standard Equilibrium vant Hoff cP 22FA.ipynb
+notebooks/Standard Equilibrium vant Hoff cP.ipynb
+notebooks/Standard Equilibrium vant Hoff.ipynb
+notebooks/Statistical Mechanics Blank Template.ipynb
+notebooks/Statistical Mechanics Python Template 22FA Instructor.ipynb
+notebooks/Statistical Mechanics Python Template 22FA Student.ipynb
+notebooks/Statistical Mechanics Python Template 22FA.ipynb
+notebooks/Statistical Mechanics Python Template-Copy1.ipynb
+notebooks/Statistical Mechanics Python Template-Copy2.ipynb
+notebooks/Statistical Mechanics Python Template.ipynb
+notebooks/The SymPy Solver 2.ipynb
+notebooks/The SymPy Solver.ipynb
+notebooks/Untitled-9-mba.ipynb
+notebooks/Untitled.ipynb
+notebooks/Untitled1.ipynb
+notebooks/Untitled10.ipynb
+notebooks/Untitled11.ipynb
+notebooks/Untitled12.ipynb
+notebooks/Untitled2.ipynb
+notebooks/Untitled3.ipynb
+notebooks/Untitled4.ipynb
+notebooks/Untitled5.ipynb
+notebooks/Untitled6.ipynb
+notebooks/Untitled7.ipynb
+notebooks/Untitled8.ipynb
+notebooks/Untitled9.ipynb
+notebooks/Vapor_Pressure_data.ipynb
+notebooks/dS-chem-potentials.ipynb
+notebooks/prisms.ipynb
+notebooks/test-2.ipynb
+pchem/__init__.py
+pchem/calorimetry.py
+pchem/calorimetry_old.py
+pchem.egg-info/PKG-INFO
+pchem.egg-info/SOURCES.txt
+pchem.egg-info/dependency_links.txt
+pchem.egg-info/not-zip-safe
+pchem.egg-info/requires.txt
+pchem.egg-info/top_level.txt
+tests/test_calorimetry.py
+tests/test_solver.py
