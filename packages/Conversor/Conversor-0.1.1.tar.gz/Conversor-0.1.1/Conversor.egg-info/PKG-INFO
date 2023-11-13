@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: Conversor
+Version: 0.1.1
+Summary: El objetivo de este proyecto es desarrollar una librería para Python que facilite la conversión de distintos tipos de medidas.
+Home-page: https://github.com/gorkaelorriaga/nunez_elorriaga/
+Author: Iker
+Author-email: iker.nunez@alumni.mondragon.edu
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+El objetivo de este proyecto es desarrollar una librerÃ­a para Python que aporte a sus usuarios, facilitando la conversiÃ³n de distintos tipos de medidas. EstarÃ¡ enfocada sobre todo a datasets con objetivo de poder transformar variables entre unidades de mediciÃ³n.
+
+Funcionalidades:
+    - Herencias:
+        - Simples: Heredar funciones de una Ãºnica clase.
+        - MÃºltiples: Heredar funciones de varias clases.
+    - Excepciones:
+        - Los valores introducidos tienen que ser numÃ©ricos.
+        - Las unidades introducidas tienen que existir y estar comprendidas en la librerÃ­a.
+
+InstalaciÃ³n
+    -pip install Conversor
+
+Dependencias
+    - pip install requests
+
+USO
+    - from tu_paquete.convertir import Conversor
+
+    Ejemplo de conversiÃ³n de longitud
+        - conversor = Conversor(value_or_values=df["distancia"], measure_from="M", measure_to="KM")
+        - conversor.value_or_values()
+        - print(conversor)
+
+    Ejemplo DF
+        - conversor = Conversor(value_or_values=df["distancia"], measure_from="M", measure_to="KM")
+        - conversor.value_or_values()
+        - df["distancia"] = conversor
+        - print(df["distancia"])
+
+Autores: Iker NÃºÃ±ez GonzÃ¡lez y Gorka Elorriaga Menendez.
