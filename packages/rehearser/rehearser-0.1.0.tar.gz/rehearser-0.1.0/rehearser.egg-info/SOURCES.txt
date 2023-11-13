@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+rehearser.egg-info/PKG-INFO
+rehearser.egg-info/SOURCES.txt
+rehearser.egg-info/dependency_links.txt
+rehearser.egg-info/requires.txt
+rehearser.egg-info/top_level.txt

@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: rehearser
+Version: 0.1.0
+Summary: Rehearser makes writing reliable unit tests and contract tests super easy!
+Home-page: https://github.com/kevinchwong/rehearser
+Author: Kevin C. Wong
+Author-email: kevinchwong@gmail.com
+Keywords: unit testing,contract testing,testing tools,open source,developer tools,rehearsal,proxy,rehearser
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 🎭 Rehearser - We make writing reliable unit tests and contract tests super easy! 🎭
+
+Rehearser is a robust and intuitive tool designed to save much of your time in unit and contract testing creation. With its unique approach to replaying interactions, Rehearser ensures your software components interact seamlessly and error-free.
+
+## Key Features:
+
+- Easy to use 🎭
+- Replay Interactions for python method, HTTP or etc... 🔄
+- User-Friendly Interface 🖥️
+- Integration with Popular Testing Frameworks 🤖
+- Support for Multiple Programming Languages 🐍🌐☕
+- Open Source ❤️
+- Community Support 👫
+
+Join the Rehearser community and make your testing process as smooth as a rehearsal! 🎭
+
+#UnitTesting #ContractTesting #TestingTools #OpenSource #DeveloperTools #Rehearser
