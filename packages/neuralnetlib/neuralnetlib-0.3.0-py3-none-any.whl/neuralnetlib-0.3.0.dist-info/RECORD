@@ -1,0 +1,13 @@
+neuralnetlib/__init__.py,sha256=iXBR-9OOKjbo6B1QndRaMIE-fyRs1PPl7XmFSxrUhbs,134
+neuralnetlib/activations.py,sha256=ozmaE1w_8fz4wmWx6V_kmk4EK9qHwm_nOS0-mMhxKe0,3685
+neuralnetlib/layers.py,sha256=ZMAys7H5WTkJg5-bAZ1GP6hsV8T_4TI5sW5C7y76Y3c,4722
+neuralnetlib/losses.py,sha256=u56xO5oxUoJPQSLN9Mha3ryZ2dMMsayRV7O2TqckXeg,3454
+neuralnetlib/metrics.py,sha256=zSI4BZQ39TmYT1egzhmfY2MJKdOIu47bE6WCmUx06K8,2097
+neuralnetlib/model.py,sha256=54YWgnfzARankPd2WbwNzmQAOo3H5SafHnTAEBifAfQ,6193
+neuralnetlib/optimizers.py,sha256=kaWmE0yXTyFZMf4t4CIOcy2M5PKuNxlIAGGTq0c7t7A,6711
+neuralnetlib/utils.py,sha256=XvSO4EKYH59MkR579Nn8urtLXc_Ds7Npk1LWmQoef3Y,944
+neuralnetlib-0.3.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+neuralnetlib-0.3.0.dist-info/METADATA,sha256=MAVXEXMc26Y2zqZ7X7Ie4iGuXo8STFLOpfHAR3LDcfg,2643
+neuralnetlib-0.3.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+neuralnetlib-0.3.0.dist-info/top_level.txt,sha256=bhYXFnXnNTDpg95LH0yoOZ760_t98aiF2BdA1F-pLC0,13
+neuralnetlib-0.3.0.dist-info/RECORD,,
