@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mcproxy
+Version: 0.1.0rc1
+Summary: A high performance library for strong consistent caching
+Home-page: https://github.com/QuangTung97/mcproxy
+Author: quangtung97
+Author-email: quangtung29121997@gmail.com
+License: MIT
+Project-URL: Changes, https://github.com/QuangTung97/mcproxy/releases
+Project-URL: Code, https://github.com/QuangTung97/mcproxy
+Project-URL: Issue Tracker, https://github.com/QuangTung97/mcproxy/issues
+Description: # MCProxy a memcache proxy library
+        
+Keywords: Memcached,key-value store,caching
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
