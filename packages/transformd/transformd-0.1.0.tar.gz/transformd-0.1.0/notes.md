@@ -1,0 +1,4 @@
+- wish `hatch` had an install/sync option to update environment instead of always having to do `run`
+- hatch lacks lock files
+- rye has `rye add` seems silly but it's a nice workflow
+- hatch custom environments feels like overkill
