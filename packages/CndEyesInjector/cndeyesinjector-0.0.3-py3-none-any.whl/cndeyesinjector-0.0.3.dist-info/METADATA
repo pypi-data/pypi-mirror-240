@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: CndEyesInjector
+Version: 0.0.3
+Summary: Lib and method to inject data into CndEyesRails
+Author: Denis Fabien <denis@changendevops.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <3.12,>=3.9
+Requires-Dist: cndprint
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# Cndeyesinjector
