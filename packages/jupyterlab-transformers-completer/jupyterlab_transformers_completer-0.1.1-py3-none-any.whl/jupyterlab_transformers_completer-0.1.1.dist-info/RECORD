@@ -1,0 +1,15 @@
+jupyterlab_transformers_completer/__init__.py,sha256=cX9ehYJnk6zDsQccpz390HtId8n-fq3kWh94QwoNSXs,1488
+jupyterlab_transformers_completer/_version.py,sha256=lFB9nR4WN0iXcp5UpfmTfw1Z2jWBDmClLEWF046NHmc,171
+jupyterlab_transformers_completer-0.1.1.data/data/etc/jupyter/jupyter_server_config.d/jupyterlab_transformers_completer.json,sha256=bUQSFnjDPwhOdKS--YpJSgXqtV5HpWkjOIInSPUrGNw,108
+jupyterlab_transformers_completer-0.1.1.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/package.json,sha256=G-k-_lvOQgdOD_onU9D_X_5GiqhzDj5DE4HAh1ORhG4,5761
+jupyterlab_transformers_completer-0.1.1.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/213.a1ad7d216eb96a92ae43.js,sha256=oa19IW65apKuQxh2u-84iI-7mD6anYozYBCazVVoJLc,4055
+jupyterlab_transformers_completer-0.1.1.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/468.9346458cbd12ddab51f4.js,sha256=k0ZFjL0S3atR9N0i6iMvXxoeeKuCLTP_TnjlQtpEPPI,7980
+jupyterlab_transformers_completer-0.1.1.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/747.82e78a8edf88647d214c.js,sha256=gueKjt-IZH0hTDGe_2UmjxTlS8IDUyGpWO5JaORlPrs,4048
+jupyterlab_transformers_completer-0.1.1.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/remoteEntry.5318df2a0a81a0bb7725.js,sha256=UxjfKgqBoLt3JXox163npS4i9ZCiRu4iIwt34EbNfqk,6700
+jupyterlab_transformers_completer-0.1.1.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/style.js,sha256=5TyMMpaze8EMiorqm9aFxH8YIQdpnReefh-g2qsqInE,177
+jupyterlab_transformers_completer-0.1.1.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/static/third-party-licenses.json,sha256=5z5gY0sStbT_P2WqbrAlmEtTHDPn0-v6dtp4O8CCBTs,2452
+jupyterlab_transformers_completer-0.1.1.data/data/share/jupyter/labextensions/@jupyterlab/transformers-completer/install.json,sha256=iQSRudMeFztGdwPcxRZCCww0Q6XXRsIklwFWHKJsin8,227
+jupyterlab_transformers_completer-0.1.1.dist-info/METADATA,sha256=TRxhJuBePIpxWK1pSQHVLXpsn6JPdttqVSh7VtQq2fg,7408
+jupyterlab_transformers_completer-0.1.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_transformers_completer-0.1.1.dist-info/licenses/LICENSE,sha256=TQtBmYiNKToXIdY21md6KlxjzUb3M_-eAhbPU0xVJ00,1526
+jupyterlab_transformers_completer-0.1.1.dist-info/RECORD,,
