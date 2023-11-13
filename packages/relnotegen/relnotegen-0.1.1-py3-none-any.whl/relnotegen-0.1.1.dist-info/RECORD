@@ -1,0 +1,9 @@
+relnotegen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+relnotegen/relnotegen.py,sha256=zFTjinj4BizsGB2rdgsUfoPfmZpPxr_RHYZ5tnZJG80,4583
+relnotegen-0.1.1.data/data/LICENSE,sha256=tuNIiT4tHrYpILUBlhws9J2jjVVBL-dmeh5CVbqT58k,1073
+relnotegen-0.1.1.dist-info/LICENSE,sha256=tuNIiT4tHrYpILUBlhws9J2jjVVBL-dmeh5CVbqT58k,1073
+relnotegen-0.1.1.dist-info/METADATA,sha256=JXcV-1lZ6sKNVVshJyNezLz0WAinLeVWQwLH9OY__4g,3944
+relnotegen-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+relnotegen-0.1.1.dist-info/entry_points.txt,sha256=z4mC7iej_qXsW4OwJE0y1FaYVntc2ZKnbNS83enEMrQ,58
+relnotegen-0.1.1.dist-info/top_level.txt,sha256=D1Ch805kuHsQJlCMin16A3nhXtbHOc8FUsiHOfV04o0,11
+relnotegen-0.1.1.dist-info/RECORD,,
