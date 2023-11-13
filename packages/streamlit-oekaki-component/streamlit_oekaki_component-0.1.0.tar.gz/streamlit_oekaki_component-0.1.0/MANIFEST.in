@@ -1,0 +1,4 @@
+include my_streamlit_component/frontend/index.html
+include my_streamlit_component/frontend/main.js
+include my_streamlit_component/frontend/streamlit-component-lib.js
+include my_streamlit_component/frontend/style.css

@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+streamlit_oekaki_component/__init__.py
+streamlit_oekaki_component.egg-info/PKG-INFO
+streamlit_oekaki_component.egg-info/SOURCES.txt
+streamlit_oekaki_component.egg-info/dependency_links.txt
+streamlit_oekaki_component.egg-info/top_level.txt
