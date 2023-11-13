@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: dicencards
+Version: 0.1.1.dev1
+Summary: Python package to manage dice rolls and card draws.
+Home-page: https://bitbucket.org/xroy/dicencards
+Author: Xavier ROY
+Author-email: xavier@regbuddy.eu
+License: Apache License, Version 2.0
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Intended Audience :: Developers
+License-File: LICENSE.txt
+Requires-Dist: setuptools
+
+Dice'n'Cards
+=============
+
+Python package to manage dice rolls and card draws
+
+Installation guide
+------------------
+
+::
+
+    pip install dicencards
+
+

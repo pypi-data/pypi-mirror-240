@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+dicencards/__init__.py
+dicencards/cards.py
+dicencards/dice.py
+dicencards.egg-info/PKG-INFO
+dicencards.egg-info/SOURCES.txt
+dicencards.egg-info/dependency_links.txt
+dicencards.egg-info/requires.txt
+dicencards.egg-info/top_level.txt
