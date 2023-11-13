@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: mypyref
+Version: 1.1.0
+Summary: Standard Python reference documentation in a local server
+License: MIT
+Author: Steampunk Wizard
+Author-email: mypyref@steampunkwizard.ca
+Requires-Python: >=3.11,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: wizlib (>=1.1,<1.2)
+Description-Content-Type: text/markdown
+
+# MyPyRef
+
+Standard Python reference documentation in a local server
+
+<a href="https://www.flaticon.com/free-icons/reptile" title="reptile icons">Reptile icons created by Freepik - Flaticon</a>
+
+Installation:
+
+```bash
+pipx install mypyref
+```
+
+Use:
+
+```
+mypyref install
+```
+
+(Note it's hard-coded to Python 3.11.)
+
+Then to start the server:
+
+```
+mypyref start
+```
+
+The browse http://localhost:9000 to see the reference docs. Code on an airplane! Without WiFi!
+
+And to stop it:
+
+```
+mypyref stop
+```
+
