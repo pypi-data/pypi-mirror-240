@@ -1,0 +1,16 @@
+[project]
+name = "pygidb"
+version = "0.0.1a0"
+authors = [{ name="ScuroNeko" }]
+description = "Library for operating with Genshin Impact DB"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://git.nix13.pw/gidb/py-gidb"
+"Bug Tracker" = "https://git.nix13.pw/gidb/py-gidb/issues"
