@@ -1,0 +1,14 @@
+lightly_insights/__init__.py,sha256=Onh7vciVn0R0KIQZspedPILbeXWbCKpSXu4TsKFDmAU,126
+lightly_insights/analyze.py,sha256=kZtGAep8lFxnx3t450FWNVFjsrh0-ff9gD4L_WOwIAY,6232
+lightly_insights/plots.py,sha256=Tw25z5bA2Zh2yWnLD93yRZbV1aEO6GP_9gQ7nNuQ3K8,7619
+lightly_insights/present.py,sha256=DFnWjOJGJU4cGZeLJCKMazJ3E8MQvawFuOFUpuXDaXE,7244
+lightly_insights/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lightly_insights/static/cdn.jsdelivr.net_npm_bootstrap@5.3.2_dist_js_bootstrap.bundle.min.js,sha256=gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0,80663
+lightly_insights/static/cdn.jsdelivr.net_npm_bootswatch@5_dist_flatly_bootstrap.min.css,sha256=JbXZMBEeXZolOq78p-ASw-5YCEXPUmNmKmIMYeGDTe0,233574
+lightly_insights/static/favicon.png,sha256=igdtheEAKW1n_v_Fmqv5Mtp4KnXLOCpSAGl7OMh1Rjk,15233
+lightly_insights/templates/plots.html,sha256=xlw-1B2XSkOAkAS5t5SJ-_fWFcktc_FlEQDiC59LY10,762
+lightly_insights/templates/report.html,sha256=VQ9t6mI0sFhEY95H4CnMYP_1FCvJLP-SA4Xr7dcrBfU,13265
+lightly_insights-0.1.0.dist-info/LICENSE,sha256=eAa_oQy_GEketdnQugu6-9g5zi3pfCG8QmVRDD5IM-E,1064
+lightly_insights-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+lightly_insights-0.1.0.dist-info/METADATA,sha256=j-v4ILT0MXWTbMtkoX16_f_S4omBxtl0Yj8eKQ_mbVY,4945
+lightly_insights-0.1.0.dist-info/RECORD,,
