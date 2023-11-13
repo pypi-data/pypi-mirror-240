@@ -1,0 +1,10 @@
+pypi_pdm_template/__init__.py,sha256=7eQPMLmknaUJZqLIEsd2gH70Tz2eS76Sw3jQUVY0fjA,657
+pypi_pdm_template/__main__.py,sha256=5ESbB4annJb8sPKq9OMApI6m4fS_JBqADPcG-YsOTjQ,96
+pypi_pdm_template/gui/__init__.py,sha256=eoZ6GfifbqhMLNzjlqRDVil-yyBkOmVN9ujSgJWNBlY,15
+pypi_pdm_template/gui/main.py,sha256=cI0Kfw0LpDztQOccNDnsJwlR2gYVqH-uDYt_Abvt3Fg,198
+pypi_pdm_template/utils/__init__.py,sha256=eoZ6GfifbqhMLNzjlqRDVil-yyBkOmVN9ujSgJWNBlY,15
+pypi_pdm_template-0.1.0.dist-info/LICENSE,sha256=Mm-WaQY9R4x0jloPS20XHqG9me7oljCUMD7tefsbdLw,1064
+pypi_pdm_template-0.1.0.dist-info/METADATA,sha256=L2y8FcmLJ3FYxMHZk6Y7AapyRhUYpUfv6aSUKMR_Q2A,1129
+pypi_pdm_template-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+pypi_pdm_template-0.1.0.dist-info/top_level.txt,sha256=yTsGRrqLsMsLHEMM-hB6iQ1uz5YVflcJ0mCbDcuORCI,18
+pypi_pdm_template-0.1.0.dist-info/RECORD,,
