@@ -1,0 +1,8 @@
+pysquel/__init__.py,sha256=DBTF6UEnMXhU3rFYCgOYJEUp1qxDU2_ax-af72om8m8,25
+pysquel/analyzer.py,sha256=IIdkM6Ikkq69kVioBNHTcAtHf2iIxudIVSs5RwrjNH8,1048
+pysquel/cli.py,sha256=hRWf6ke8Zxw0mg0BCQRCaxwj8ozgp858oiPm5Iot_yw,348
+pysquel/linter.py,sha256=uPuroVQmkU2fUpiKQG4o-XjJCgyetMImuxHaHcw7d4U,1587
+pysquel-0.0.1.dist-info/METADATA,sha256=7nzUBAYy-gqO7E1w1F9-jgOYFoe1xFcij6QF9nJj03k,3006
+pysquel-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pysquel-0.0.1.dist-info/entry_points.txt,sha256=Ulcf12maCgVg67f3ikfP_wrobGPMrGmB-XTYEdkSecA,43
+pysquel-0.0.1.dist-info/RECORD,,
