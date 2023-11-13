@@ -1,0 +1,14 @@
+aika/ml/__init__.py,sha256=6i9aan5l1xZBoc2jt3WYluBPw3W04dFZaYWNfFQhLFA,289
+aika/ml/interface.py,sha256=621ag9eY_8h42VGvUJL2LhJH-c4pSfRHLZxvCLQWfKY,9915
+aika/ml/generators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aika/ml/generators/walkforward.py,sha256=bdrI6KCouoxycghuPGNkh38v013QkTZsIwf5dbRluXY,6983
+aika/ml/generators/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aika/ml/generators/tests/test_walkforward.py,sha256=g0lWMF2sZ6jubphvW_8XhhwNTfi0PbZcCC4KffsLKWw,19060
+aika/ml/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aika/ml/tests/test_pipeline.py,sha256=PVneN9Zm2K_ZW5LGBnJsoZd_NE4sQxfm_2iT1jGYR20,15462
+aika/ml/tests/test_sklearn_transformer.py,sha256=Ij0J79ZDejkGcxywvc98So_NGYHuGajph9yqmBUCNVM,1919
+aika_ml-1.0.0.dist-info/LICENSE.rst,sha256=SBlKQKpYL6dtSRFMVr6OGe0EAkohTYrBkU56_j4THQs,7797
+aika_ml-1.0.0.dist-info/METADATA,sha256=3vXlrwfpDaqtMTZq6UrT_yMYlNi5zMUeXIA4Gp7S3Kg,2068
+aika_ml-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+aika_ml-1.0.0.dist-info/top_level.txt,sha256=FvXzRkOCP8_urRuRrrIGnvdgt6L2w8EI2eAFiETptK4,5
+aika_ml-1.0.0.dist-info/RECORD,,
