@@ -1,0 +1,3 @@
+[sqlalchemy.dialects]
+oushudb = sqlalchemy_oushudb.dialect:OushuDBDialect
+oushudb+psycopg2 = sqlalchemy_oushudb.dialect:OushuDBDialect
