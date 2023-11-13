@@ -1,0 +1,7 @@
+tobii/__init__.py,sha256=osrDA5A84mHbI-GVJXpLHqVsZxgJjcKlp_17cLs-i7c,132
+tobii/engine.py,sha256=JAqOvoc7yNX5yiqzmAcfbESVUXlZbHiTHaOVzWrBxKc,7150
+tobii/tobii.py,sha256=pyrQF46so1RN7mPsQnNiDuazijNmCcYdh9E8Oq7SE-8,5393
+tobii/tobii_stream_engine.dll,sha256=p622GWC3ZHNx_fxYAx2Aa-IXk-7XfnYyTKlJu33ybyU,2520424
+tobii_python-0.1.1.dist-info/METADATA,sha256=5rYJKU0G84vlcnFKRc_BKT9UvLS5GXHb6qnPZOB-Aak,236
+tobii_python-0.1.1.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+tobii_python-0.1.1.dist-info/RECORD,,

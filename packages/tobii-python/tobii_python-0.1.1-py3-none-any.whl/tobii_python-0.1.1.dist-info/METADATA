@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: tobii-python
+Version: 0.1.1
+Summary: tobii python bindings
+Author-Email: Zhan Rongrui <2742392377@qq.com>
+License: MIT
+Requires-Python: <3.13,>=3.10
+Description-Content-Type: text/markdown
+
+# example-package
