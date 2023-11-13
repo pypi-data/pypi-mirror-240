@@ -1,0 +1,5 @@
+# MANIFEST.in
+
+include ltk/*.py
+include LICENSE
+include README.md
