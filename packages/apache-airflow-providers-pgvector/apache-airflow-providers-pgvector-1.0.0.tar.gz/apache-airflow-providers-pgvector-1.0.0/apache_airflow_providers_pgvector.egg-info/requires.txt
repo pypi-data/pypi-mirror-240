@@ -1,0 +1,9 @@
+apache-airflow-providers-postgres>=5.7.1
+apache-airflow>=2.5.0
+pgvector>=0.2.3
+
+[common.sql]
+apache-airflow-providers-common-sql
+
+[postgres]
+apache-airflow-providers-postgres
