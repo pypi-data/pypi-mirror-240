@@ -1,0 +1,2 @@
+[console_scripts]
+shelve-tool = sqliteshelve.cli:cli
