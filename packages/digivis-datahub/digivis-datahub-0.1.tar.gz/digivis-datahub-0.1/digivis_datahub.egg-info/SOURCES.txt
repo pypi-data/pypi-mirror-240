@@ -1,0 +1,6 @@
+DataHub.py
+setup.py
+digivis_datahub.egg-info/PKG-INFO
+digivis_datahub.egg-info/SOURCES.txt
+digivis_datahub.egg-info/dependency_links.txt
+digivis_datahub.egg-info/top_level.txt
