@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+huaweicloudstoreplugin/__init__.py
+huaweicloudstoreplugin.egg-info/PKG-INFO
+huaweicloudstoreplugin.egg-info/SOURCES.txt
+huaweicloudstoreplugin.egg-info/dependency_links.txt
+huaweicloudstoreplugin.egg-info/entry_points.txt
+huaweicloudstoreplugin.egg-info/requires.txt
+huaweicloudstoreplugin.egg-info/top_level.txt
+huaweicloudstoreplugin/store/__init__.py
+huaweicloudstoreplugin/store/artifact/__init__.py
+huaweicloudstoreplugin/store/artifact/huaweicloud_obs_artifact_repo.py
+tests/test_huaweicloud_obs_artifact_repo.py
