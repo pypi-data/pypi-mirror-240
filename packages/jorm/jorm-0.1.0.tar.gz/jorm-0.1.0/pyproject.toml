@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jorm"
+version = "0.1.0"
+description = "Isolated django ORM (as close as possible to official version)"
+authors = ["José Luis Escobar Gámez <userjleg@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "jorm"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+asgiref = "^3.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
