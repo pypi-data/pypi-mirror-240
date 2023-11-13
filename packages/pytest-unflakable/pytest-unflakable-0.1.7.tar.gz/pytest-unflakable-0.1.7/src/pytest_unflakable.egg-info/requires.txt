@@ -1,0 +1,5 @@
+pytest>=6.2.0
+requests>=2.19.0
+
+[dev]
+requests-mock[fixture]
