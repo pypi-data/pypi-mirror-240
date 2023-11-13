@@ -1,0 +1,11 @@
+esr_dt_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esr_dt_model/esr_dt_model.py,sha256=ChB9HNClwfAnG0VANAdq-BEJ3UAjNn9oZu1rOXlZjqk,8856
+esr_dt_model/mymodule.py,sha256=Z-AFKXDMYae4KMcDUS3R62fY_2J3gsuVq7DnYh2LsvA,82
+mypackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypackage/mymodule.py,sha256=Z-AFKXDMYae4KMcDUS3R62fY_2J3gsuVq7DnYh2LsvA,82
+esr_dt_model-0.0.4.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+esr_dt_model-0.0.4.dist-info/METADATA,sha256=Yi2e2436CYvBDBlFK9Cuvp1WdnZqA6HQ64fYZsni8Ec,4942
+esr_dt_model-0.0.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+esr_dt_model-0.0.4.dist-info/entry_points.txt,sha256=6S93ZHRMfz46wovJF4jAUrKiVxgxEIIkNAoszsSaFUI,73
+esr_dt_model-0.0.4.dist-info/top_level.txt,sha256=pplZPoG9MbLM0byzv0WABZTW1G9h1p73t6SIX0yxM7g,13
+esr_dt_model-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,153 @@
+Metadata-Version: 2.1
+Name: esr-dt-model
+Version: 0.0.4
+Summary: ESR DT Model
+Author-email: jzanetti1985 <sijin.zhang@esr.cri.nz>
+Project-URL: Homepage, https://dev.azure.com/ESR-NZ/DigitalTwin/_git/Sijin_codes/esr_dt_model
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: onnx
+Requires-Dist: skl2onnx
+Requires-Dist: onnxmltools
+Requires-Dist: darts
+
+# ESR_DT_MODEL
+
+This package serves as a hub for consolidating all individual model developments associated with the Digital Twin project. Its primary objective is to generate unified and ensemble-based model outputs, which can be seamlessly integrated into any downstream applications.
+
+## 1. Install the package
+
+The package can be installed using ``pip``:
+
+```
+pip install esr_dt_model
+```
+
+## 2. Usage:
+
+This package serves as a repository for preserving modeling development processes and allows for the retrieval of information from previous developments.
+
+The following provides a simple example of using the package:
+
+```
+from pandas import read_csv
+from xgboost import XGBRegressor
+from esr_dt_model import esr_dt_model
+
+# load dataset
+url = 'https://raw.githubusercontent.com/jbrownlee/Datasets/master/housing.csv'
+df = read_csv(url, header=None)
+
+# split training and target dataset
+x, y = df.iloc[:, :-1], df.iloc[:, -1].to_frame()
+
+# train the model
+model = XGBRegressor()
+trained_model = model.fit(x, y)
+
+# save the data:
+esr_dt_model.export_model(
+    project_name="example",
+    user="Sijin",
+    trained_models=trained_model,
+    training_data=x,
+    target_data=y
+)
+
+# view the model:
+esr_dt_model.view_model()
+
+# load the model:
+model = esr_dt_model.import_model(model_version="Simple_example")
+```
+
+### 2.1 Save model and related dataset:
+The model, training dataset and test dataset can be saved as below:
+```
+    from esr_dt_model import esr_dt_model
+    esr_dt_model.export_model(
+        <Project Name>,
+        <User>, 
+        <Trained Models>, 
+        <Training Dataset>, 
+        <Target Dataset>)
+```
+Where here ``<Project Name>`` is the project name, ``<User>`` is the user name, ``<Trained Models>`` is a trained model, ``<Training Dataset>`` is the dataset used for training the model, ``<Target Dataset>`` is the target dataset in the training process. Note that ``project name``, ``user``, ``trained model``, ``training dataset`` and ``target dataset`` are mandatory arguments.
+
+By default, the model and related dataset will be saved in the development channel. When a model is well tested, the model can be saved in the production channel by setting ``prod`` to ``True``. For example:
+```
+    esr_dt_model.export_model(
+        ...
+        prod=True)
+```
+
+Also, by default, for each training process, a unique ID will be assigned. However, one can fix the ID by setting the argument of ``exp_id``. For example:
+```
+    esr_dt_model.export_model(
+        ...
+        exp_id="Simple_example")
+```
+
+### 2.2 List model and related dataset:
+
+We can list all stored model and related dataset as below:
+
+```
+    from esr_dt_model import esr_dt_model
+    esr_dt_model.view_model(
+        filters = {
+            "project_name": [<Project name1>, <Project name2>, ...],
+            "datetime_start": <Start date>,
+            "datetime_end": <End date>,
+        }
+    )
+
+```
+The ``filters`` here indicates the conditions that we want to put when list the model. The full ``filters`` can incldude the arguments including ``project_name``, ``datetime_start``, ``datetime_end``, ``user``, ``fmt``, ``output_type``, for example:
+
+```
+    filters = {
+        "project_name": ["DT"],
+        "datetime_start": "20231112T0149",
+        "datetime_end": "20231112T0250",
+        "user": ["Sijin"],
+        "fmt": ["pkl", "onnx"],
+        "output_type": ["dev", "prod"]
+    }
+```
+
+An optional argument ``key`` can also be used to specify the columns that you want to view. The full columns include ``['project_name', 'version', 'datetime', 'user', 'type', 'fmt', 'output', 'output_type', 'training_data', 'test_data']``. By default, all columns will be shown.
+
+
+### 2.3 Load the model:
+The saved model can be loaded as:
+
+```
+esr_dt_model.load_model("D7QVDT")
+```
+
+where ``D7QVDT`` is the model version (a unique ID) that can be obtained from running ``esr_dt_model.view_model``. By default, if we find multiple models share the same model version (e.g., set by ``exp_id``), only the latest version of the model will be returned. However, we can return all models by setting ``latest`` argument to ``False``. For example,
+
+```
+esr_dt_model.load_model("D7QVDT", latest=False)
+```
+
+
+## Appendix: Publish the package (for development only)
+
+The package can be published as:
+
+```
+make publish
+```
+
+Note the athe API token must be set up in ``~/.pypirc``.
+
+
+
+
