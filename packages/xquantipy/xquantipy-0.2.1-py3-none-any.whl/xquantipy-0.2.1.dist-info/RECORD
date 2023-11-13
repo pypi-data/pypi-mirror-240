@@ -1,0 +1,15 @@
+xquantipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xquantipy/constants.py,sha256=YLsfeO8GCgi1CnwZ6EEyU2oe7or8bRApAZJbAiAAspk,5624
+xquantipy/economics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xquantipy/economics/analysis.py,sha256=UK7N-PfNJJGQIaqY9GctSbmf-1NGR1veraZca9bRVvQ,2819
+xquantipy/economics/macro.py,sha256=RXjZS80C5cd_mo3brmXPYS-eDFZSKw1e3QUi7YmhKl4,1382
+xquantipy/fetcher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xquantipy/fetcher/scraper.py,sha256=7febSO9D9azNi5_tFWNQwgj7hXEEIUFcIivBBuKq25o,3198
+xquantipy/stocks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xquantipy/stocks/analysis.py,sha256=GYpM-Q6cRv4OE8XTyPt4MEEdXMpfzDyNp57eJRHK8Z4,3603
+xquantipy/stocks/ticker.py,sha256=rcELDfI5DN0v-LH0xtiVcDVmg4l4wBwrJ5HIB2JUQQU,11018
+xquantipy-0.2.1.dist-info/LICENSE.md,sha256=SEEPO-OkDdqtg6EFxSMLCl91BdCbsyAiCutuQfbvLj4,1077
+xquantipy-0.2.1.dist-info/METADATA,sha256=_VCrMBw3Zd7yVuMabpX1SKXyUMQXd0vEfMkjGviYZ04,717
+xquantipy-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+xquantipy-0.2.1.dist-info/top_level.txt,sha256=LxVn5QprIFvhEBf7Loovm7CAEabQfEpMov3g0k26nks,10
+xquantipy-0.2.1.dist-info/RECORD,,
