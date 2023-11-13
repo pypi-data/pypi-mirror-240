@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: iso3166KOR
+Version: 0.0.1
+Summary: Self-contained ISO 3166-1 country definitions.
+Home-page: https://github.com/JaeHyunL/iso3166KOR
+Author: JaeHyunL
+Author-email: swaa23@gmail.com
+License: MIT
+Keywords: iso 3166-1:KOR,iso country Korean
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+
+# 한글 국가명 -> iso3166 표준 국가명, 코드 값
+
+
+
+참조해서 만듬. https://github.com/deactivated/python-iso3166/tree/master
+
+
+
+```
+$pip install iso3166KOR
+```
+
+```
+>>> from iso3166KOR import countries
+>>> countries.get('미국')
+Country(name='미국', apolitical_name='UNITED STATES', numeric='840', alpha2='US', alpha3='USA')
+>>> countries.get('미합중국')
+Country(name='미합중국', apolitical_name='United States of America', numeric='840', alpha2='US', alpha3='USA')
+```
+
+
+

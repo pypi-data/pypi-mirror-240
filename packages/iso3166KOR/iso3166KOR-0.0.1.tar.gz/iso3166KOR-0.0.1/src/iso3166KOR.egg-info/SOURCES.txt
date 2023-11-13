@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/iso3166KOR/__init__.py
+src/iso3166KOR/py.typed
+src/iso3166KOR.egg-info/PKG-INFO
+src/iso3166KOR.egg-info/SOURCES.txt
+src/iso3166KOR.egg-info/dependency_links.txt
+src/iso3166KOR.egg-info/not-zip-safe
+src/iso3166KOR.egg-info/top_level.txt
