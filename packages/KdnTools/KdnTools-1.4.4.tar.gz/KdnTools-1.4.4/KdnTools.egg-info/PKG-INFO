@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: KdnTools
+Version: 1.4.4
+Summary: Useful tools for every project.
+Home-page: https://github.com/KdntNinja/Code/tree/main/Python/KdnTools
+Author: KdntNinja
+Project-URL: Source, https://github.com/KdntNinja/Code/tree/main/Python/KdnTools
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10,<3.12
+Description-Content-Type: text/markdown
+Requires-Dist: prettytable
+Requires-Dist: colorama
+Requires-Dist: requests
+
+# KdnTools
+
+## Description
+
+This is a collection of tools I use often in my code and I thought it would be useful to have them all in one place.
+
+## Documentation
+
