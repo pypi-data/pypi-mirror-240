@@ -1,0 +1,3 @@
+[console_scripts]
+xbridge=cmd.__main__:main
+
