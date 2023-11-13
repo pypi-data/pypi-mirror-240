@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pywaybackup
+Version: 0.2
+Summary: Download snapshots from the Wayback Machine
+Home-page: https://github.com/bitdruid/pywaybackup
+Author: bitdruid
+Author-email: bitdruid@outlook.com
+License: MIT
+Keywords: wayback machine internet archive
+License-File: LICENSE
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: idna ==3.4
+Requires-Dist: python-magic ==0.4.27
+Requires-Dist: requests ==2.31.0
+Requires-Dist: urllib3 ==2.0.7
+

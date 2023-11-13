@@ -1,0 +1,2 @@
+[console_scripts]
+pywaybackup = pywaybackup.cli:main
