@@ -1,0 +1,150 @@
+- guid: "c99af70b-a66a-4649-84db-215fff51af6e"
+  domain_name: domain.com
+  hostname_name: "mav1"
+  datacenter_name: "Datacenter #1"
+  source_name: "source #1"
+  deployment_guid: "47754e1e-57a9-4072-94b8-0f62514df847"
+  cloud_account_name: "CloudAccount #1"
+  tier_name: "Tiers #6"
+  os_type_name: "Windows"
+  software_name: "CyberArk"
+  cpu: 4
+  memory: 4096
+  power_state: true
+  success: true,
+  finished: true,
+  item_created_at: "2023-10-15 10:34:00"
+  item_updated_at: "2023-10-15 10:34:00"
+  item_deleted_at: ""
+  tags: ['backup:weekly']
+  ips: ["192.168.2.1"]
+  active: true
+  
+- guid: "71fb5634-5ae4-4a5a-9365-602e0bb7359e"
+  domain_name: domain.com
+  hostname_name: "hostname1"
+  datacenter_name: "Datacenter #1"
+  source_name: "source #1"
+  tier_name: "Tiers #6"
+  os_type_name: "Windows"
+  software_name: "vmWare Aria"
+  cpu: 4
+  memory: 4096
+  power_state: true
+  success: true,
+  finished: true,
+  item_created_at: "2023-10-15 10:34:00"
+  item_updated_at: "2023-10-15 10:34:00"
+  item_deleted_at: ""
+  tags: ['backup:daily', 'app:Def', 'tiers:tiers#6']
+  ips: ["192.171.2.11"]
+  active: true
+  
+- guid: "bd904ad2-a534-4011-b518-44c707490788"
+  domain_name: domain.com
+  hostname_name: "hostname2"
+  datacenter_name: "Datacenter #1"
+  source_name: "source #1"
+  deployment_guid: "50f4eaf8-8096-440a-a47e-aa47ecd5e7c7"
+  cloud_account_name: "CloudAccount #1"
+  tier_name: "Tiers #2"
+  os_type_name: "Linux"
+  software_name: "CyberArk"
+  cpu: 16
+  memory: 8192
+  power_state: true
+  success: true,
+  finished: true,
+  item_created_at: "2023-10-15 10:34:00"
+  item_updated_at: "2023-10-15 10:34:00"
+  item_deleted_at: ""
+  tags: ['backup:weekly', 'app:Abc', 'tiers:tiers#2']
+  ips: ["192.171.4.11"]
+  active: true
+  
+- guid: "fd8eaa27-1c5b-4f7b-952a-d4e1780fc936"
+  domain_name: domain.com
+  hostname_name: "hostname3"
+  datacenter_name: "Datacenter #1"
+  source_name: "source #3"
+  deployment_guid: "50f4eaf8-8096-440a-a47e-aa47ecd5e7c7"
+  cloud_account_name: "CloudAccount #1"
+  tier_name: "Tiers #6"
+  os_type_name: "Linux"
+  software_name: "Hashicorp Vault"
+  cpu: 2
+  memory: 1024
+  power_state: true
+  success: true,
+  finished: true,
+  item_created_at: "2023-10-15 10:34:00"
+  item_updated_at: "2023-10-15 10:34:00"
+  item_deleted_at: ""
+  tags: ['backup:weekly']
+  ips: ["192.171.2.9"]
+  active: true
+  
+- guid: "422eb9fa-58a1-40b0-bd10-122d6609d9a6"
+  domain_name: domain.com
+  hostname_name: "hostname4"
+  datacenter_name: "Datacenter #1"
+  source_name: "source #4"
+  deployment_guid: "47754e1e-57a9-4072-94b8-0f62514df847"
+  cloud_account_name: "CloudAccount #1"
+  tier_name: "Tiers #6"
+  os_type_name: "Linux"
+  software_name: "Hashicorp Vault"
+  cpu: 6
+  memory: 4096
+  power_state: true
+  success: true,
+  finished: true,
+  item_created_at: "2023-10-15 10:34:00"
+  item_updated_at: "2023-10-15 10:34:00"
+  item_deleted_at: ""
+  tags: ['backup:weekly']
+  ips: ["192.171.2.3"]
+  active: true
+  
+- guid: "a5d77073-713b-4a52-87e4-91744dc1beec"
+  domain_name: domain.dev
+  hostname_name: "hostname5"
+  datacenter_name: "Datacenter #1"
+  source_name: "source #2"
+  cloud_account_name: "CloudAccount #1"
+  tier_name: "Tiers #5"
+  os_type_name: "Windows"
+  software_name: "vmWare Aria"
+  cpu: 4
+  memory: 4096
+  power_state: true
+  success: true,
+  finished: true,
+  item_created_at: "2023-10-15 10:34:00"
+  item_updated_at: "2023-10-15 10:34:00"
+  item_deleted_at: ""
+  tags: ['backup:weekly']
+  ips: ["192.171.4.45"]
+  active: true
+  
+- guid: "08d6f6f1-c6fc-499c-b334-d6a7b1b32599"
+  domain_name: domain.dev
+  hostname_name: "hostname6"
+  datacenter_name: "Datacenter #2"
+  source_name: "source #2"
+  deployment_guid: "0fc072a2-7f8d-4430-8b06-54956c904a35"
+  cloud_account_name: "CloudAccount #1"
+  tier_name: "Tiers #6"
+  os_type_name: "Windows"
+  software_name: "CyberArk"
+  cpu: 8
+  memory: 16384
+  power_state: true
+  success: true,
+  finished: true,
+  item_created_at: "2023-10-15 10:34:00"
+  item_updated_at: "2023-10-15 10:34:00"
+  item_deleted_at: "2023-10-15 10:34:00"
+  tags: ['backup:weekly']
+  ips: ["192.171.3.21"]
+  active: true

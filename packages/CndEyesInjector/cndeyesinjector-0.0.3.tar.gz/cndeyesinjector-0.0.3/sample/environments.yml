@@ -1,0 +1,25 @@
+- name: "NonProd-Dev#1"
+  active: true
+  environment_app_name: "Dev #1"
+  environment_infra_name: "Non-Prod"
+  domain_name: domain.dev
+- name: "NonProd-Construction"
+  active: true
+  environment_app_name: "Construction"
+  environment_infra_name: "Non-Prod"
+  domain_name: domain.dev
+- name: "NonProd-Dev#2"
+  active: true
+  environment_app_name: "Dev #2"
+  environment_infra_name: "Non-Prod"
+  domain_name: domain.dev
+- name: prod-preprod
+  active: true
+  environment_app_name: "PreProd"
+  environment_infra_name: "Prod"
+  domain_name: domain.com
+- name: prod-prod
+  active: true
+  environment_app_name: "Prod"
+  environment_infra_name: "Prod"
+  domain_name: domain.com

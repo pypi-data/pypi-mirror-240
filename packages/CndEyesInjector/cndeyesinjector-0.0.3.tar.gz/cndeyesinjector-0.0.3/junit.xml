@@ -1,0 +1,353 @@
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/apps[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/apps[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/apps/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/apps/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/stupid-path[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/stupid-path[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/stupid-path/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/stupid-path/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/cloud_accounts[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "source_name": "Vador", "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/cloud_accounts[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/cloud_accounts/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/cloud_accounts/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/customers[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "email": "email", "username": "username"}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/customers[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/customers/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/customers/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/datacenters[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha"}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/datacenters[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/datacenters/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/datacenters/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/deployments[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "project_guid": "project_guid", "service_name": "service_name", "owner_name": "owner_name", "environment_name": "environment_name", "requester_name": "requester_name", "guid": "guid", "last_seen": "2023-01-01", "success": "2023-01-01", "finished": "2023-01-01", "item_created_at": "2023-01-01", "item_updated_at": "2023-01-01", "item_deleted_at": "2023-01-01", "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/deployments[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/deployments/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/deployments/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/domains[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/domains[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/domains/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/domains/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environment_apps[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environment_apps[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environment_apps/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environment_apps/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environment_infras[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environment_infras[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environment_infras/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environment_infras/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environments[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "environment_app": "dev", "environment_infra": "nonprod", "domain": "domain.com", "filename": "", "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environments[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environments/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/environments/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/flavors[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "cpu": 10, "memory": 1024, "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/flavors[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/flavors/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/flavors/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/hostnames[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "domain_id": 123}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/hostnames[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/hostnames/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/hostnames/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/licenced_apps[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "max": 123, "renew_date": "2023-01-01", "renew_before": "2023-01-01", "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/licenced_apps[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/licenced_apps/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/licenced_apps/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/organizations[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "guid": "guid123", "active": true}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/organizations[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/organizations/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/organizations/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/os_types[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha"}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/os_types[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/os_types/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/os_types/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/projects[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "source_id": 123, "guid": "guid", "organization_id": 456}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/projects[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/projects/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/projects/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/services[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "app_id": 123, "description": "ma description", "organization_id": 456}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/services[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/services/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/services/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/softwares[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha"}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/softwares[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/softwares/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/softwares/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/sources[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/sources[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/sources/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/sources/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/tiers[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "active": true}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/tiers[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/tiers/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/tiers/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/vms[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "name": "Jedha", "guid": "guid", "domain_name": "domain_name", "hostname_name": "hostname_name", "datacenter_name": "datacenter_name", "source_name": "source_name", "deployment_guid": "deployment_guid", "cloud_account_name": "cloud_account_name", "tier_name": "tier_name", "os_type_name": "os_type_name", "software_name": "software_name", "cpu": 10, "memory": 2048, "power_state": true, "success": "2023-01-01", "finished": "2023-01-01", "item_created_at": "2023-01-01", "item_updated_at": "2023-01-01", "item_deleted_at": "2023-01-01", "tags": ["abc"], "ips": ["127.0.0.1", "127.0.0.2", "127.0.0.3"], "active": false}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/vms[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/vms/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/vms/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/vm_tags[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: get[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"items": [{"id": 530, "vm_id": 456, "tag_id": 123}], "total_count": 1, "total_pages": 1}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/vm_tags[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: post[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 201[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true, "id": 533}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/vm_tags/456[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: patch[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 200[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{"success": true}'[0m
+[93m>> #|#12/11/2023 13:39:48#|#Url: https://cndeyesrails.test:443/api/v2/vm_tags/3[0m
+[93m>> #|#12/11/2023 13:39:48#|#Method: delete[0m
+[93m>> #|#12/11/2023 13:39:48#|#Status Code: 204[0m
+[93m>> #|#12/11/2023 13:39:48#|#Response Content: b'{}'[0m
+<testsuite errors="0" timestamp="2023-11-12T13:39:47.854635" host="localhost" tests="111" skipped="0" failures="0" time="1.123013"><testcase classname="tests.app_spec" name="App __init__ it shoud get an instance" file="tests/app_spec.py" time="0.001338" /><testcase classname="tests.app_spec" name="App get it shoud get" file="tests/app_spec.py" time="0.008492" /><testcase classname="tests.app_spec" name="App create it shoud create" file="tests/app_spec.py" time="0.006010" /><testcase classname="tests.app_spec" name="App patch it shoud update" file="tests/app_spec.py" time="0.004847" /><testcase classname="tests.app_spec" name="App delete it shoud delete" file="tests/app_spec.py" time="0.003576" /><testcase classname="tests.base_spec" name="App __init__ it shoud get an instance" file="tests/base_spec.py" time="0.000774" /><testcase classname="tests.base_spec" name="App get it shoud get" file="tests/base_spec.py" time="0.005202" /><testcase classname="tests.base_spec" name="App create it shoud create" file="tests/base_spec.py" time="0.004190" /><testcase classname="tests.base_spec" name="App patch it shoud update" file="tests/base_spec.py" time="0.003919" /><testcase classname="tests.base_spec" name="App delete it shoud delete" file="tests/base_spec.py" time="0.003343" /><testcase classname="tests.cloud_account_spec" name="CloudAccount __init__ it shoud get an instance" file="tests/cloud_account_spec.py" time="0.000653" /><testcase classname="tests.cloud_account_spec" name="CloudAccount get it shoud get" file="tests/cloud_account_spec.py" time="0.005367" /><testcase classname="tests.cloud_account_spec" name="CloudAccount create it shoud create" file="tests/cloud_account_spec.py" time="0.003810" /><testcase classname="tests.cloud_account_spec" name="CloudAccount patch it shoud update" file="tests/cloud_account_spec.py" time="0.003550" /><testcase classname="tests.cloud_account_spec" name="CloudAccount delete it shoud delete" file="tests/cloud_account_spec.py" time="0.003060" /><testcase classname="tests.customer_spec" name="Customer __init__ it shoud get an instance" file="tests/customer_spec.py" time="0.000624" /><testcase classname="tests.customer_spec" name="Customer get it shoud get" file="tests/customer_spec.py" time="0.004947" /><testcase classname="tests.customer_spec" name="Customer create it shoud create" file="tests/customer_spec.py" time="0.003708" /><testcase classname="tests.customer_spec" name="Customer patch it shoud update" file="tests/customer_spec.py" time="0.004010" /><testcase classname="tests.customer_spec" name="Customer delete it shoud delete" file="tests/customer_spec.py" time="0.003045" /><testcase classname="tests.datacenter_spec" name="Datacenter __init__ it shoud get an instance" file="tests/datacenter_spec.py" time="0.000613" /><testcase classname="tests.datacenter_spec" name="Datacenter get it shoud get" file="tests/datacenter_spec.py" time="0.004362" /><testcase classname="tests.datacenter_spec" name="Datacenter create it shoud create" file="tests/datacenter_spec.py" time="0.003637" /><testcase classname="tests.datacenter_spec" name="Datacenter patch it shoud update" file="tests/datacenter_spec.py" time="0.003552" /><testcase classname="tests.datacenter_spec" name="Datacenter delete it shoud delete" file="tests/datacenter_spec.py" time="0.003089" /><testcase classname="tests.deployment_spec" name="Deployment __init__ it shoud get an instance" file="tests/deployment_spec.py" time="0.000659" /><testcase classname="tests.deployment_spec" name="Deployment get it shoud get" file="tests/deployment_spec.py" time="0.007306" /><testcase classname="tests.deployment_spec" name="Deployment create it shoud create" file="tests/deployment_spec.py" time="0.003881" /><testcase classname="tests.deployment_spec" name="Deployment patch it shoud update" file="tests/deployment_spec.py" time="0.003800" /><testcase classname="tests.deployment_spec" name="Deployment delete it shoud delete" file="tests/deployment_spec.py" time="0.003285" /><testcase classname="tests.domain_spec" name="Domain __init__ it shoud get an instance" file="tests/domain_spec.py" time="0.000672" /><testcase classname="tests.domain_spec" name="Domain get it shoud get" file="tests/domain_spec.py" time="0.004881" /><testcase classname="tests.domain_spec" name="Domain create it shoud create" file="tests/domain_spec.py" time="0.003956" /><testcase classname="tests.domain_spec" name="Domain patch it shoud update" file="tests/domain_spec.py" time="0.003939" /><testcase classname="tests.domain_spec" name="Domain delete it shoud delete" file="tests/domain_spec.py" time="0.003140" /><testcase classname="tests.environment_app_spec" name="EnvironmentApp __init__ it shoud get an instance" file="tests/environment_app_spec.py" time="0.000638" /><testcase classname="tests.environment_app_spec" name="EnvironmentApp get it shoud get" file="tests/environment_app_spec.py" time="0.004713" /><testcase classname="tests.environment_app_spec" name="EnvironmentApp create it shoud create" file="tests/environment_app_spec.py" time="0.003792" /><testcase classname="tests.environment_app_spec" name="EnvironmentApp patch it shoud update" file="tests/environment_app_spec.py" time="0.003690" /><testcase classname="tests.environment_app_spec" name="EnvironmentApp delete it shoud delete" file="tests/environment_app_spec.py" time="0.003431" /><testcase classname="tests.environment_infra_spec" name="EnvironmentInfra __init__ it shoud get an instance" file="tests/environment_infra_spec.py" time="0.000701" /><testcase classname="tests.environment_infra_spec" name="EnvironmentInfra get it shoud get" file="tests/environment_infra_spec.py" time="0.005743" /><testcase classname="tests.environment_infra_spec" name="EnvironmentInfra create it shoud create" file="tests/environment_infra_spec.py" time="0.004266" /><testcase classname="tests.environment_infra_spec" name="EnvironmentInfra patch it shoud update" file="tests/environment_infra_spec.py" time="0.004090" /><testcase classname="tests.environment_infra_spec" name="EnvironmentInfra delete it shoud delete" file="tests/environment_infra_spec.py" time="0.003426" /><testcase classname="tests.environment_spec" name="Environment __init__ it shoud get an instance" file="tests/environment_spec.py" time="0.000686" /><testcase classname="tests.environment_spec" name="Environment get it shoud get" file="tests/environment_spec.py" time="0.005972" /><testcase classname="tests.environment_spec" name="Environment create it shoud create" file="tests/environment_spec.py" time="0.004139" /><testcase classname="tests.environment_spec" name="Environment patch it shoud update" file="tests/environment_spec.py" time="0.004204" /><testcase classname="tests.environment_spec" name="Environment delete it shoud delete" file="tests/environment_spec.py" time="0.003411" /><testcase classname="tests.eyes_injector_spec" name="EyesInjector __init__ it shoud get an instance" file="tests/eyes_injector_spec.py" time="0.000685" /><testcase classname="tests.flavor_spec" name="Flavor __init__ it shoud get an instance" file="tests/flavor_spec.py" time="0.000679" /><testcase classname="tests.flavor_spec" name="Flavor get it shoud get" file="tests/flavor_spec.py" time="0.005935" /><testcase classname="tests.flavor_spec" name="Flavor create it shoud create" file="tests/flavor_spec.py" time="0.004833" /><testcase classname="tests.flavor_spec" name="Flavor patch it shoud update" file="tests/flavor_spec.py" time="0.004545" /><testcase classname="tests.flavor_spec" name="Flavor delete it shoud delete" file="tests/flavor_spec.py" time="0.003656" /><testcase classname="tests.hostname_spec" name="Hostname __init__ it shoud get an instance" file="tests/hostname_spec.py" time="0.000878" /><testcase classname="tests.hostname_spec" name="Hostname get it shoud get" file="tests/hostname_spec.py" time="0.006588" /><testcase classname="tests.hostname_spec" name="Hostname create it shoud create" file="tests/hostname_spec.py" time="0.004987" /><testcase classname="tests.hostname_spec" name="Hostname patch it shoud update" file="tests/hostname_spec.py" time="0.004749" /><testcase classname="tests.hostname_spec" name="Hostname delete it shoud delete" file="tests/hostname_spec.py" time="0.004120" /><testcase classname="tests.licenced_app_spec" name="LicencedApp __init__ it shoud get an instance" file="tests/licenced_app_spec.py" time="0.000897" /><testcase classname="tests.licenced_app_spec" name="LicencedApp get it shoud get" file="tests/licenced_app_spec.py" time="0.006344" /><testcase classname="tests.licenced_app_spec" name="LicencedApp create it shoud create" file="tests/licenced_app_spec.py" time="0.004391" /><testcase classname="tests.licenced_app_spec" name="LicencedApp patch it shoud update" file="tests/licenced_app_spec.py" time="0.003912" /><testcase classname="tests.licenced_app_spec" name="LicencedApp delete it shoud delete" file="tests/licenced_app_spec.py" time="0.003331" /><testcase classname="tests.organization_spec" name="Organization __init__ it shoud get an instance" file="tests/organization_spec.py" time="0.000649" /><testcase classname="tests.organization_spec" name="Organization get it shoud get" file="tests/organization_spec.py" time="0.005159" /><testcase classname="tests.organization_spec" name="Organization create it shoud create" file="tests/organization_spec.py" time="0.004007" /><testcase classname="tests.organization_spec" name="Organization patch it shoud update" file="tests/organization_spec.py" time="0.003776" /><testcase classname="tests.organization_spec" name="Organization delete it shoud delete" file="tests/organization_spec.py" time="0.003469" /><testcase classname="tests.os_type_spec" name="OsType __init__ it shoud get an instance" file="tests/os_type_spec.py" time="0.000646" /><testcase classname="tests.os_type_spec" name="OsType get it shoud get" file="tests/os_type_spec.py" time="0.004831" /><testcase classname="tests.os_type_spec" name="OsType create it shoud create" file="tests/os_type_spec.py" time="0.004004" /><testcase classname="tests.os_type_spec" name="OsType patch it shoud update" file="tests/os_type_spec.py" time="0.003759" /><testcase classname="tests.os_type_spec" name="OsType delete it shoud delete" file="tests/os_type_spec.py" time="0.003237" /><testcase classname="tests.project_spec" name="Project __init__ it shoud get an instance" file="tests/project_spec.py" time="0.000642" /><testcase classname="tests.project_spec" name="Project get it shoud get" file="tests/project_spec.py" time="0.005601" /><testcase classname="tests.project_spec" name="Project create it shoud create" file="tests/project_spec.py" time="0.004290" /><testcase classname="tests.project_spec" name="Project patch it shoud update" file="tests/project_spec.py" time="0.003638" /><testcase classname="tests.project_spec" name="Project delete it shoud delete" file="tests/project_spec.py" time="0.003183" /><testcase classname="tests.service_spec" name="Service __init__ it shoud get an instance" file="tests/service_spec.py" time="0.000723" /><testcase classname="tests.service_spec" name="Service get it shoud get" file="tests/service_spec.py" time="0.005587" /><testcase classname="tests.service_spec" name="Service create it shoud create" file="tests/service_spec.py" time="0.004232" /><testcase classname="tests.service_spec" name="Service patch it shoud update" file="tests/service_spec.py" time="0.004162" /><testcase classname="tests.service_spec" name="Service delete it shoud delete" file="tests/service_spec.py" time="0.003350" /><testcase classname="tests.software_spec" name="Software __init__ it shoud get an instance" file="tests/software_spec.py" time="0.000748" /><testcase classname="tests.software_spec" name="Software get it shoud get" file="tests/software_spec.py" time="0.004986" /><testcase classname="tests.software_spec" name="Software create it shoud create" file="tests/software_spec.py" time="0.004111" /><testcase classname="tests.software_spec" name="Software patch it shoud update" file="tests/software_spec.py" time="0.003797" /><testcase classname="tests.software_spec" name="Software delete it shoud delete" file="tests/software_spec.py" time="0.003262" /><testcase classname="tests.source_spec" name="Source __init__ it shoud get an instance" file="tests/source_spec.py" time="0.000672" /><testcase classname="tests.source_spec" name="Source get it shoud get" file="tests/source_spec.py" time="0.005255" /><testcase classname="tests.source_spec" name="Source create it shoud create" file="tests/source_spec.py" time="0.003989" /><testcase classname="tests.source_spec" name="Source patch it shoud update" file="tests/source_spec.py" time="0.003878" /><testcase classname="tests.source_spec" name="Source delete it shoud delete" file="tests/source_spec.py" time="0.003223" /><testcase classname="tests.tier_spec" name="Tier __init__ it shoud get an instance" file="tests/tier_spec.py" time="0.000683" /><testcase classname="tests.tier_spec" name="Tier get it shoud get" file="tests/tier_spec.py" time="0.004942" /><testcase classname="tests.tier_spec" name="Tier create it shoud create" file="tests/tier_spec.py" time="0.003887" /><testcase classname="tests.tier_spec" name="Tier patch it shoud update" file="tests/tier_spec.py" time="0.003912" /><testcase classname="tests.tier_spec" name="Tier delete it shoud delete" file="tests/tier_spec.py" time="0.003183" /><testcase classname="tests.vm_spec" name="Vm __init__ it shoud get an instance" file="tests/vm_spec.py" time="0.000623" /><testcase classname="tests.vm_spec" name="Vm get it shoud get" file="tests/vm_spec.py" time="0.009543" /><testcase classname="tests.vm_spec" name="Vm create it shoud create" file="tests/vm_spec.py" time="0.004040" /><testcase classname="tests.vm_spec" name="Vm patch it shoud update" file="tests/vm_spec.py" time="0.003742" /><testcase classname="tests.vm_spec" name="Vm delete it shoud delete" file="tests/vm_spec.py" time="0.003099" /><testcase classname="tests.vm_tag_spec" name="VmTag __init__ it shoud get an instance" file="tests/vm_tag_spec.py" time="0.000673" /><testcase classname="tests.vm_tag_spec" name="VmTag get it shoud get" file="tests/vm_tag_spec.py" time="0.005155" /><testcase classname="tests.vm_tag_spec" name="VmTag create it shoud create" file="tests/vm_tag_spec.py" time="0.003887" /><testcase classname="tests.vm_tag_spec" name="VmTag patch it shoud update" file="tests/vm_tag_spec.py" time="0.003653" /><testcase classname="tests.vm_tag_spec" name="VmTag delete it shoud delete" file="tests/vm_tag_spec.py" time="0.003095" /></testsuite>

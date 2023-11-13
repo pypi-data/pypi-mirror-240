@@ -1,0 +1,80 @@
+- name: "Service #1"
+  app_id: 1
+  organization_id: 1
+  description: ""
+- name: "Service #2"
+  app_id: 2
+  organization_id: 1
+  description: ""
+- name: "Service #3"
+  app_id: 3
+  organization_id: 1
+  description: ""
+- name: "Service #4"
+  app_id: 4
+  organization_id: 1
+  description: ""
+- name: "Service #5"
+  app_id: 1
+  organization_id: 1
+  description: ""
+- name: "Service #6"
+  app_id: 1
+  organization_id: 1
+  description: ""
+- name: "Service #7"
+  app_id: 4
+  organization_id: 1
+  description: ""
+- name: "Service #8"
+  app_id: 1
+  organization_id: 1
+  description: ""
+- name: "Service #9"
+  app_id: 4
+  organization_id: 2
+  description: ""
+- name: "Service #10"
+  app_id: 3
+  organization_id: 2
+  description: ""
+- name: "Service #11"
+  app_id: 3
+  organization_id: 2
+  description: ""
+- name: "Service #12"
+  app_id: 1
+  organization_id: 2
+- name: "Service #13"
+  app_id: 1
+  organization_id: 2
+- name: "Service #14"
+  app_id: 2
+  organization_id: 2
+- name: "Service #15"
+  app_id: 2
+  organization_id: 2
+- name: "Service #16"
+  app_id: 2
+  organization_id: 2
+- name: "Service #17"
+  app_id: 1
+  organization_id: 2
+- name: "Service #18"
+  app_id: 4
+  organization_id: 3
+- name: "Service #19"
+  app_id: 1
+  organization_id: 3
+- name: "Service #20"
+  app_id: 1
+  organization_id: 3
+- name: "Service #21"
+  app_id: 1
+  organization_id: 3
+- name: "Service #22"
+  app_id: 1
+  organization_id: 3
+- name: "Service #23"
+  app_id: 1
+  organization_id: 1

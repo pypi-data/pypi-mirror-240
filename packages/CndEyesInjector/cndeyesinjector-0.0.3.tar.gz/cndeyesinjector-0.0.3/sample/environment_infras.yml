@@ -1,0 +1,6 @@
+- name: "Non-Prod"
+  active: true
+- name: "Prod"
+  active: true
+- name: "Sandbox"
+  active: true

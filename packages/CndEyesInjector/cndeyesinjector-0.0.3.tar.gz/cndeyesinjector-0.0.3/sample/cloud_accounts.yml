@@ -1,0 +1,13 @@
+- source_name: "source #1"
+  name: "CloudAccount #1"
+  guid: "97042c30-5b3b-47f1-a2a9-651aaac2df7d"
+- source_name: "source #1"
+  name: "CloudAccount #2"
+  guid: "d4f18626-2461-4412-893e-494b27dcff2f"
+- source_name: "source #1"
+  name: "CloudAccount #3"
+  guid: "982f1af8-6fe0-41d1-a2e8-0bcd53daa8f6"
+- source_name: "source #2"
+  name: "CloudAccount #4"
+  guid: "149d44e5-8fd2-4df3-9775-38f6d0172856"
+

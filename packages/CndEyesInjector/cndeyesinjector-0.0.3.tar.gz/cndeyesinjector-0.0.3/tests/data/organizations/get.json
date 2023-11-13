@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": 530,
+      "name": "Jedha",
+      "guid": "guid123",
+      "active": true
+    }
+  ],
+  "total_count": 1,
+  "total_pages": 1
+}

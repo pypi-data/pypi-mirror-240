@@ -1,0 +1,4 @@
+- name: "source #1"
+  active: true
+- name: "source #2"
+  active: true

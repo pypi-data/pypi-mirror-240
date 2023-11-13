@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": 530,
+      "name": "Jedha",
+      "email": "email",
+      "username": "username"
+    }
+  ],
+  "total_count": 1,
+  "total_pages": 1
+}
