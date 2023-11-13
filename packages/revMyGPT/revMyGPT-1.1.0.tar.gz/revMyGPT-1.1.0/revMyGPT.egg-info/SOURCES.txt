@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+revMyGPT/V1.py
+revMyGPT/V3.py
+revMyGPT/__init__.py
+revMyGPT/__main__.py
+revMyGPT/typings.py
+revMyGPT/utils.py
+revMyGPT/version.py
+revMyGPT.egg-info/PKG-INFO
+revMyGPT.egg-info/SOURCES.txt
+revMyGPT.egg-info/dependency_links.txt
+revMyGPT.egg-info/top_level.txt
