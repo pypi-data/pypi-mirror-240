@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyrocket-launch
+Version: 0.2.0
+Summary: Rocket Simulation Toy
+Author-Email: pysatellite <pysatellite@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: glfw>=2.6.2
+Requires-Dist: p5>=0.7.1
+Description-Content-Type: text/markdown
+
+# pyrocket-launch
+
+### Ref
+- https://projects.raspberrypi.org/en/projects/rocket-launch/1
+- https://pypi.org/project/p5/
