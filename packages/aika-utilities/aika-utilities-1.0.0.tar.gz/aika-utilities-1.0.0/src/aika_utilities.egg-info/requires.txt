@@ -1,0 +1,11 @@
+frozendict
+pandas>=1.1.5
+numpy
+
+[all]
+pytest
+pytest-cov
+
+[test]
+pytest
+pytest-cov
