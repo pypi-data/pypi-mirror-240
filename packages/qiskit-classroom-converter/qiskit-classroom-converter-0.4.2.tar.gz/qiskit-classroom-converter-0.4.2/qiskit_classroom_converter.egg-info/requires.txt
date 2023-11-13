@@ -1,0 +1,15 @@
+qiskit==0.45.0
+qiskit-aer==0.13.0
+loguru==0.7.2
+sympy==1.12
+antlr4-python3-runtime==4.11
+ipython==8.17.2
+numpy==1.26.1
+
+[dev]
+coverage==7.3.2
+pylint==3.0.2
+tox==4.11.3
+build==1.0.3
+pdoc==14.1.0
+notebook==7.0.6
