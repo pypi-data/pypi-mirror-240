@@ -1,0 +1,6 @@
+click
+requests
+polib
+tqdm
+python-dotenv
+openai
