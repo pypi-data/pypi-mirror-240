@@ -1,0 +1,8 @@
+api
+bert-finetuned-ner
+data
+dist
+fast_token_classifier
+frontend
+tests
+venv
