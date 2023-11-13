@@ -1,0 +1,11 @@
+litemapy/__init__.py,sha256=Pl9ejT0wO0nCyDf4yQ2VqQWzTfpUbmNcBshQOAoup-c,123
+litemapy/boxes.py,sha256=QEEkrMEZ60lTKAw_-__MMrR9N0XCocl5cCVCqYYBBFA,569
+litemapy/info.py,sha256=i09IGyVPcnDIL6O4Dbef5q-0uzHIE_PaAVSbbyFUWp4,537
+litemapy/minecraft.py,sha256=RgXOyWnvOMwNRIkbnMNV6uy2RWUPeisOPhnULCuEthY,11969
+litemapy/schematic.py,sha256=4kwrx7ezXCu1l7zcNeV28vMd7A6btW_CAwiaCS9nkBs,37848
+litemapy/storage.py,sha256=1X49qIPIauT23cO6qEH95Gw3pHcbPVBPvgGYdoKnKr0,6250
+litemapy-0.8.0b0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+litemapy-0.8.0b0.dist-info/METADATA,sha256=g70MpNd4x9Hj4-6K0LA1LiczJvy4EonJIVOjEYlx8ds,3556
+litemapy-0.8.0b0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+litemapy-0.8.0b0.dist-info/top_level.txt,sha256=PzNeDf25TKbillsv5q3rW_4CPiPZR13wXaDGwiXGeeY,9
+litemapy-0.8.0b0.dist-info/RECORD,,
