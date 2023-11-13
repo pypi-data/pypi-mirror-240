@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sec2time
+Version: 0.1.0
+Author-Email: TechieG <35962141+gokulnath30@users.noreply.github.com>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: pytest>=7.4.3
+Description-Content-Type: text/markdown
+
+# sec2time
