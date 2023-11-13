@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: deepehrgraph
+Version: 0.3.0
+Summary: 
+Author: francois.cokelaer
+Author-email: francois.cokelaer@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: lightning (>=2.1.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# deep-ehr-graph
+
+
+ > deep-ehr-graph
+
+[![PyPI Version][pypi-image]][pypi-url]
+[![Build Status][build-image]][build-url]
+[![Code Coverage][coverage-image]][coverage-url]
+
+...
+
+<!-- Badges: -->
+
+[pypi-image]: https://img.shields.io/pypi/v/deepehrgraph
+[pypi-url]: https://pypi.org/project/deepehrgraph/
+[build-image]: https://github.com/fco-dv/deep-ehr-graph/actions/workflows/build.yaml/badge.svg
+[build-url]: https://github.com/fco-dv/deep-ehr-graph/actions/workflows/build.yaml
+[coverage-image]: https://codecov.io/gh/fco-dv/deep-ehr-graph/branch/main/graph/badge.svg
+[coverage-url]: https://codecov.io/gh/fco-dv/deep-ehr-graph/
+
