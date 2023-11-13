@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: syunity_advanced
+Version: 0.0.1
+Summary: a template for syunity algorithm
+Home-page: https://github.com/zhec5hl01/python-games
+Author: shenarder
+Author-email: shenarder@163.com
+License: MIT
+Classifier: Topic :: Games/Entertainment 
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A template for syunity_advanced.
+You can use it to type functions from zh more quickly.
+You only should type some like this:
+"
+from syunity_advanced import *
+"

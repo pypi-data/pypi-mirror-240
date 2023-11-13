@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+syunity_advanced.egg-info/PKG-INFO
+syunity_advanced.egg-info/SOURCES.txt
+syunity_advanced.egg-info/dependency_links.txt
+syunity_advanced.egg-info/top_level.txt
