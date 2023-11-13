@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: payslip-parser
+Version: 0.1.4
+Summary: Parse your payslips from PDFs to pandas dataframes.
+License: MIT
+Author: Your Name
+Author-email: your@email.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyMuPDF (>=1.22,<1.23)
+Requires-Dist: pandas
+Requires-Dist: pathlib
+Requires-Dist: pydantic
+Requires-Dist: pyyaml
+Description-Content-Type: text/markdown
+
+# Payslip Parser
+Parse your payslips from PDFs to pandas dataframes.
+
