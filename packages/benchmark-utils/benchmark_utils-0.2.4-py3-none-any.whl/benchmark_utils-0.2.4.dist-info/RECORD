@@ -1,0 +1,8 @@
+benchmark_utils/__init__.py,sha256=Hy-MDVgi4a3lqYyzME2AxEaidjJuWza3e2GSBQIaAgc,81
+benchmark_utils/benchmark.py,sha256=Jp4Iw6ZAChrWqHOYp-qzBIfBGMtJI69Ls-6Kt4jeDWk,12641
+benchmark_utils/version.py,sha256=y10FH2dgh60ZlJ6Enpww0eODMRR5V1bScAR85i59ozo,42
+benchmark_utils-0.2.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+benchmark_utils-0.2.4.dist-info/METADATA,sha256=rM6e5ZdLAU4LYX-ZdfOXCtuG_nASg81ly5_86q_qIb0,10138
+benchmark_utils-0.2.4.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+benchmark_utils-0.2.4.dist-info/top_level.txt,sha256=eT56L3Y-AHQwanTfhpKTA23H3Jt2XYOnk2qgUAzZmoI,16
+benchmark_utils-0.2.4.dist-info/RECORD,,
