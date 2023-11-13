@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "HexaLog"
+version = "0.6.0" # DO NOT EDIT THIS LINE MANUALLY
+description = "HexaLog is a logging port and set of opinionated adapters meant to simplify using a logger in a hexagonal architecture."
+authors = ["ericcbonet <ericcbonet@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "hexalog" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+structlog = "23.2.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "7.4.3"
+pytest-mock = "3.12.0"
+black = "^23.11.0"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
