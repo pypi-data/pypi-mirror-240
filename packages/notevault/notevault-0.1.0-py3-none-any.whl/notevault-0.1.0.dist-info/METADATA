@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: notevault
+Version: 0.1.0
+Summary: save parsed markdown into sqlite db
+Author-Email: sysid <sysid@gmx.de>
+License: MIT
+Requires-Python: >=3.10
+Requires-Dist: sqlite-utils>=3.35.1
+Requires-Dist: markdown>=3.5.1
+Requires-Dist: bs4>=0.0.1
+Requires-Dist: pydantic>=2.4.2
+Requires-Dist: dateparser>=1.1.8
+Requires-Dist: sqlalchemy>=2.0.23
+Requires-Dist: alembic>=1.12.1
+Requires-Dist: typer>=0.9.0
+Requires-Dist: pydantic-settings>=2.0.3
+Requires-Dist: pyyaml>=6.0.1
+Description-Content-Type: text/markdown
+
+# vimania-sqlite
+
+bash script to create a sqlite database from vimania's csv files,
+```bash
+sqlite-utils query semantic_units.db "
+SELECT 
+    document.name,
+    general.start,
+    general.end,
+    general.breaks,
+    general.timestamp,
+    general.date,
+    meeting.name AS meeting_name,
+    meeting.start AS meeting_start,
+    meeting.duration,
+    meeting.minutes,
+    meeting.participants
+FROM document
+LEFT JOIN general ON document.name = general.document_name
+LEFT JOIN meeting ON document.name = meeting.document_name;
+"
+
+```
