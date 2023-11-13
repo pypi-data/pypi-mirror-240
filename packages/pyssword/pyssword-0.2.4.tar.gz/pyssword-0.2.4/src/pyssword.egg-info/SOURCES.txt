@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/pyssword/__init__.py
+src/pyssword/pyssword.py
+src/pyssword/util.py
+src/pyssword.egg-info/PKG-INFO
+src/pyssword.egg-info/SOURCES.txt
+src/pyssword.egg-info/dependency_links.txt
+src/pyssword.egg-info/entry_points.txt
+src/pyssword.egg-info/requires.txt
+src/pyssword.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_pyssword.py
