@@ -1,0 +1,9 @@
+README.md
+setup.py
+data_handling/__init__.py
+data_handling/operations.py
+minio_operations.egg-info/PKG-INFO
+minio_operations.egg-info/SOURCES.txt
+minio_operations.egg-info/dependency_links.txt
+minio_operations.egg-info/requires.txt
+minio_operations.egg-info/top_level.txt
