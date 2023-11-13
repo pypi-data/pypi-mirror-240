@@ -1,0 +1,14 @@
+cookies:{%for key,value in cookies.items()%}
+  {{key}}:
+    v1:{{value['v1']}}
+    v2:{{value['v2']}}
+    {%endfor%}
+headers:{%for key,value in headers.items()%}
+  {{key}}:
+    v1:{{value['v1']}}
+    v2:{{value['v2']}}
+    {%endfor%}
+{% if args %}args:{%for key,value in args.items()%}
+  {{key}}:
+    v1:{{value['v1']}}
+    v2:{{value['v2']}}{%endfor%}{%endif%}
