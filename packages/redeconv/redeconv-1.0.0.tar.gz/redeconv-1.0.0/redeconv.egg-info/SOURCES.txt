@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+redeconv.egg-info/PKG-INFO
+redeconv.egg-info/SOURCES.txt
+redeconv.egg-info/dependency_links.txt
+redeconv.egg-info/requires.txt
+redeconv.egg-info/top_level.txt
