@@ -1,0 +1,5 @@
+poetry_learn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poetry_learn/hello.py,sha256=JpylOPNcPTAnPl_F6XsnoiSxixflG37yDnF1zjoB-sk,70
+poetry_learn-0.1.0.dist-info/METADATA,sha256=kldiIb8_cfwdS5YUYVPBTCPaIBQU43O5bA3Kej5Gppg,509
+poetry_learn-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+poetry_learn-0.1.0.dist-info/RECORD,,
