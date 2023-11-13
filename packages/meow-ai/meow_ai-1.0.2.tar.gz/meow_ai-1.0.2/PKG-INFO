@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: meow-ai
+Version: 1.0.2
+Summary: 以标准的 OpenAI API 格式访问所有 LLM
+Author: meowjiao321
+Author-email: meowjiao321@163.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: openai (>=1.2.2,<2.0.0)
+Requires-Dist: pyreadline3 (>=3.4.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+<div align="center">
+
+# Meow AI
+
+以标准的 OpenAI API 格式访问所有 LLM
+
+</div>
+
+安装:
+
+- `pip install meow-ai`
+
+使用:
+
+- `meow-ai`
