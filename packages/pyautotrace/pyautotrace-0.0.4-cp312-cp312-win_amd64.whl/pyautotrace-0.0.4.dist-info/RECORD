@@ -1,0 +1,13 @@
+autotrace/__init__.py,sha256=oKY6axUe9c0oYjqn1tM9h_-GlpWkxRQbR7E8wM1lj6s,427
+autotrace/_autotrace.c,sha256=5g-Dzm0N-VsZ_s74dxutjt0RUUj8-dl51Tu29fVJPrs,545068
+autotrace/_autotrace.cp312-win_amd64.pyd,sha256=zgBvVFfSeTPtQyv5HGW9QGwQJBNbppKk3xiHF6FGk38,222208
+autotrace/_autotrace.pxd,sha256=Y2yfGJbKczSwnf-rA66nP6olUlqPBOFAZGQiKIrrtUY,6348
+autotrace/_autotrace.pyx,sha256=fj6oLggz1ECsqDsWyKZT6LDRmvzklnXSv_KNo3TVnr4,8506
+autotrace/autotrace.py,sha256=WFYUY_KEaIbR4BDvKj-sEgDpaIQs3COhBa0VVqU7g5w,8124
+autotrace/overrides.cpp,sha256=E_bg2zgC4tTZaonzBUHsC4mW0r7-4ihqdIdiEp6GlqI,5559
+autotrace/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyautotrace-0.0.4.dist-info/LICENSE.txt,sha256=LEqQ15Pb9lnIFFhtatdHgXVvXY-LWM-Mqbj8dQiYvwE,1086
+pyautotrace-0.0.4.dist-info/METADATA,sha256=TNhdIc0pDOCJxYQR95k0QjCLctlg5c2rk7wTb8rebxM,3596
+pyautotrace-0.0.4.dist-info/WHEEL,sha256=aDrgWfEd5Ac7WJzHsr90rcMGiH4MHbAXoCWpyP5CEBc,102
+pyautotrace-0.0.4.dist-info/top_level.txt,sha256=6n5pcH86aFO2umgxoVSXJkzuemugOhWOiUImZ0mF4J0,10
+pyautotrace-0.0.4.dist-info/RECORD,,
