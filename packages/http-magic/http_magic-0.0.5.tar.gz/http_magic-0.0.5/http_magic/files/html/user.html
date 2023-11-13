@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script language="JavaScript">
+        user=<& values &>;
+        alert(user);
+    </script>
+    <title>Title</title>
+    <%{name}%> was born in <%{place_of_birth.city}, {place_of_birth.country}%>
+    <& "hello there! " + values.name &>
+</head>
+<body>
+<$
+def show_numbers():
+    for i in range(100):
+        magic.raw(str(i))
+
+
+show_numbers()
+$>
+</body>
+</html>

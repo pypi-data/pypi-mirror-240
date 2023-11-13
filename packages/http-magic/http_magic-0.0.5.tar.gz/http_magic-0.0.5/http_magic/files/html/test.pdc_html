@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<%
+
+import random
+
+def show_numbers():
+    for i in range(100):
+        response.write(random.randint(1,100))
+show_numbers()
+
+%>
+Here goes more content
+<%
+show_numbers()
+%>
+
+<%
+if request.session:
+  response.write(request.session)
+  if "counter" in request.session:
+    counter = request.session.counter
+  else:
+    counter = 0
+  response.write(counter)
+  request.session.counter = counter + 1
+%>
+
+</head>
+<body>
+
+</body>
+</html>
