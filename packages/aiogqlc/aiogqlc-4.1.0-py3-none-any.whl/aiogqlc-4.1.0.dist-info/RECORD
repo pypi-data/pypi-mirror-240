@@ -1,0 +1,10 @@
+aiogqlc/__init__.py,sha256=b6O5xEQKEhBb-oyMr6h8WMExls1tOfO3uxQPzFAi0AU,70
+aiogqlc/client.py,sha256=_sQwwu6NbYtRJAIvawP3pKd-dhw70LcumgU-G7WWPTQ,8483
+aiogqlc/constants.py,sha256=dsCL6zppAb1FSEaj-TT2iAUIQhROlODRBDLA4lFZgQY,331
+aiogqlc/errors.py,sha256=zz8L4lF7lcQkI0KJq_4yMIu75ao84z31mxqlfJ02HBs,331
+aiogqlc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiogqlc/utils.py,sha256=iSlAq6BkVJHc9aN6KT6h2nnclm9Tail8zi6Ud0t754I,352
+aiogqlc-4.1.0.dist-info/LICENSE,sha256=S4W976r4dHTvQMoheBZTPn3osvf54HyQKkpBguHSb5c,1055
+aiogqlc-4.1.0.dist-info/METADATA,sha256=yoRlSkEMFk7ug-U9fAhpclpTXN1gAhj02S0knFNO6oU,4969
+aiogqlc-4.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+aiogqlc-4.1.0.dist-info/RECORD,,
