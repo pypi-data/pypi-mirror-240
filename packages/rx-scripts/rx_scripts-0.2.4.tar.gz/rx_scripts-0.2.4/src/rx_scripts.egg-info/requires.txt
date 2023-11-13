@@ -1,0 +1,9 @@
+scipy
+sympy
+mplhep
+hist
+pandas
+zfit
+dill
+awkward
+dill

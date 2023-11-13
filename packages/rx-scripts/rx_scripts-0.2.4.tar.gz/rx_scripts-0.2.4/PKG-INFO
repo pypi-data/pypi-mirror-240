@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: rx_scripts
+Version: 0.2.4
+Summary: Generic utilities for data analysis
+
+Package used to store utilities for RX calculation
