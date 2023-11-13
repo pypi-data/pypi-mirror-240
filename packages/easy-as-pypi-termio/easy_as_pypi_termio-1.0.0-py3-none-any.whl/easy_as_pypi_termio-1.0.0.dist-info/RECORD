@@ -1,0 +1,12 @@
+easy_as_pypi_termio/__init__.py,sha256=mDxqs-ZlNcSJe-3Axmu2BfmYDd4JMKtir0yifzyxlY0,2156
+easy_as_pypi_termio/ascii_art.py,sha256=UtDWbGHt_D-HYdUqiPMNe_YAC27YpaKOZUjXv1uw68M,38127
+easy_as_pypi_termio/ascii_table.py,sha256=g6x2tuT0mvQszRjYTBbFxfWxsoFXLxNuIF-Ged7HcUQ,7300
+easy_as_pypi_termio/crude_progress.py,sha256=272wlUQfDvW6bfKKW0df6oHuk6HI0aVnCc439ukv81g,3755
+easy_as_pypi_termio/echoes.py,sha256=5o51a0c9eKisvxj-Gf_HU6EzLW8zVFN8DwZsy4eZ00k,2886
+easy_as_pypi_termio/errors.py,sha256=O8b_fp0gX9fneC5bkVheqXAxINYNPpyBcAUgPrUqZ0U,3445
+easy_as_pypi_termio/paging.py,sha256=Ljs_zy322vKzE4C3-PbDLmBltmv0n50ksMd9kH4UkgY,3036
+easy_as_pypi_termio/style.py,sha256=vtMsHIqSf9IFXjukECRPCPz6mIblsYhhIGPH8GIsevs,4888
+easy_as_pypi_termio-1.0.0.dist-info/LICENSE,sha256=baVmyxNgCisX2lMzbkDvJxX9Sy1Z33_LR1OnTccxrAM,1088
+easy_as_pypi_termio-1.0.0.dist-info/METADATA,sha256=bx0uRjGDSEM_PlgixXiSxCZexQ3HncJan24bVCDv_9s,3981
+easy_as_pypi_termio-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+easy_as_pypi_termio-1.0.0.dist-info/RECORD,,
