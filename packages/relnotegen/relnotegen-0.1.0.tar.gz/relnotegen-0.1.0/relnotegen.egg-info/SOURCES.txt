@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+relnotegen/__init__.py
+relnotegen/relnotegen.py
+relnotegen.egg-info/PKG-INFO
+relnotegen.egg-info/SOURCES.txt
+relnotegen.egg-info/dependency_links.txt
+relnotegen.egg-info/requires.txt
+relnotegen.egg-info/top_level.txt
