@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: permuter
+Version: 0.0.10
+Summary: This a library incorparates libraries like numpy, and random to permutate the given data.
+Home-page:  
+Author: M0F0IAm
+Author-email:  
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev

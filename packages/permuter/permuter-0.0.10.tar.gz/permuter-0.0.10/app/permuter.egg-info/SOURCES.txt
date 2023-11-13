@@ -1,0 +1,9 @@
+setup.py
+app/permuter/__init__.py
+app/permuter.egg-info/PKG-INFO
+app/permuter.egg-info/SOURCES.txt
+app/permuter.egg-info/dependency_links.txt
+app/permuter.egg-info/requires.txt
+app/permuter.egg-info/top_level.txt
+app/permuter/src/__init__.py
+app/permuter/src/permuter.py
