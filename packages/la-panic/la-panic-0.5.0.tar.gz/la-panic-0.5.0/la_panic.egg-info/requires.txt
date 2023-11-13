@@ -1,0 +1,7 @@
+setuptools
+click
+coloredlogs
+cached-property
+
+[test]
+pytest
