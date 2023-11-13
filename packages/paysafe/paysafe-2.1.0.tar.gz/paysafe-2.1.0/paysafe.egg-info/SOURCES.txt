@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+paysafe.egg-info/PKG-INFO
+paysafe.egg-info/SOURCES.txt
+paysafe.egg-info/dependency_links.txt
+paysafe.egg-info/not-zip-safe
+paysafe.egg-info/top_level.txt
