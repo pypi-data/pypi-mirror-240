@@ -1,0 +1,9 @@
+README.md
+setup.py
+pictriage/__init__.py
+pictriage.egg-info/PKG-INFO
+pictriage.egg-info/SOURCES.txt
+pictriage.egg-info/dependency_links.txt
+pictriage.egg-info/entry_points.txt
+pictriage.egg-info/requires.txt
+pictriage.egg-info/top_level.txt

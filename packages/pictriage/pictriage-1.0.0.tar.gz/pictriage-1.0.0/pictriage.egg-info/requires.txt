@@ -1,0 +1,5 @@
+starlette
+uvicorn
+ibis==3.2.0
+natsort==8.4.0
+python-multipart
