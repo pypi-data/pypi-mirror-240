@@ -1,0 +1,2 @@
+[console_scripts]
+consultant = consultant.app:app

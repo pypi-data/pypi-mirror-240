@@ -1,0 +1,10 @@
+consultant/__init__.py,sha256=qtwRl4dawIUJ_GSimjpPZp3ZNmrgrgQSJdJ2sMU0bsc,198
+consultant/app.py,sha256=OKeNI5A1wRpmfNxBE1pbA1IA3wAa5ilONVeeFlfaYrE,1240
+consultant/args.py,sha256=7w9un6eFcBnJR9VbkDvKazr71xaeUw9YaEH_Vt8Msqo,679
+consultant/config.py,sha256=8Iv2RyYINXYU84l7qpb0peCHrye9iRVehH-hov75J7o,1745
+consultant/logger.py,sha256=-jKbmyc7uMahhMVXnuL6m7OVBS0YAosUQ2NPtJ6jwes,2287
+consultant-0.0.0.dist-info/METADATA,sha256=lJFKTa1m9DOmXxciaDiYhpMt7Yx7tK1p-Ja_apk1ACE,854
+consultant-0.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+consultant-0.0.0.dist-info/entry_points.txt,sha256=i7THtPTbpfwN62Ugt9GFlv0REC2G6dEPl-V0rSyNVvw,50
+consultant-0.0.0.dist-info/top_level.txt,sha256=YAlUHX-Kp_SAVFgFGjYN5IdKakFHKDebKKoK_ZOyXLc,11
+consultant-0.0.0.dist-info/RECORD,,
