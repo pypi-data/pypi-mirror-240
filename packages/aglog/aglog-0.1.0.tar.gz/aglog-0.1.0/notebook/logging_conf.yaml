@@ -1,0 +1,27 @@
+version: 1
+disable_existing_loggers: False
+formatters:
+  simple:
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  json:
+    (): aglog.JsonFormatter
+    datefmt: "%Y-%m-%dT%H:%M:%S"
+    indent: 2
+    colorize: true
+    keys:
+      # - asctime
+      # - name
+      - levelname
+      # - message
+      - user
+      - path
+      - exc_info
+      - stack_info
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: json
+loggers:
+  "":
+    level: INFO
+    handlers: [console]
