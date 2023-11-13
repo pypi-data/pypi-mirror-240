@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: redeconv
+Version: 1.0.3
+Summary: One wildly used method for scRNA-seq data normalization is to make the total count, called the transcriptome size, of all genes in each cell to be the same, such as counts per million (CPM) or count per 10 thousand (CP10K)
+Home-page: https://github.com/jyyulab/redeconv
+Author: Songjian Lu
+Author-email: songjian.lu@stjude.org
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib==3.7.2
+Requires-Dist: numpy==1.24.4
+Requires-Dist: pandas==2.0.3
+Requires-Dist: scipy==1.10.1
+Requires-Dist: seaborn==0.12.2
+
+# redeconv
