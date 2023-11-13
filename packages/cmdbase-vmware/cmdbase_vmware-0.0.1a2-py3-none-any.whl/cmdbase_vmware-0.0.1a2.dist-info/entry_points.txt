@@ -1,0 +1,2 @@
+[console_scripts]
+cmdbase_vmware = cmdbase_vmware.__main__:main
