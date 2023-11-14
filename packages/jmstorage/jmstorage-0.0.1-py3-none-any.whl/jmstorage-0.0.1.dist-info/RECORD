@@ -1,0 +1,12 @@
+jmstorage/__init__.py,sha256=BMkQqnxJdJ1BkgYbEvd15hF9iMr9ThwqFKCGehhtkYE,53
+jmstorage/client.py,sha256=Xh9UXD3X1xo2IFF39NoLagM4t9bOfZL2TxhBg4nvv-M,1152
+jmstorage/constants.py,sha256=SHJHkShgSx5ADKK9ymBgqIqmVmyv0kiGTutkvF8BG7E,131
+jmstorage/storage/__init__.py,sha256=CZEgTnZZ4HiXu2ZOSnaPchY13S2CfXEDLy6pruHGuF4,175
+jmstorage/storage/base.py,sha256=8yfE3UTxQThw_suHr6Gg48s6IsSKtOc4fhNqxVbJLGI,645
+jmstorage/storage/disk_storage_manager.py,sha256=ykH-ZdFAP42vRcN-mfL4babYvEKwRDzinMKQeK5t11A,2321
+jmstorage/storage/redis_storage_manager.py,sha256=fXQSsZg7GWcWQkf9hOsPki3cNaOy-TdQsyQQs_LnbHg,162
+jmstorage-0.0.1.dist-info/LICENSE,sha256=8-YGtYJnp4oLA1Vlw2vOv6B1k8HvRrChMpi9N_pgp70,1058
+jmstorage-0.0.1.dist-info/METADATA,sha256=YWW-4c3uzgRMX_BhmMr25d5QRbZCX80VbLES_htg-7I,3629
+jmstorage-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+jmstorage-0.0.1.dist-info/top_level.txt,sha256=iN-_uYFem2Iei8E_De_TOP04noEVcDNjf4con4FMO_w,10
+jmstorage-0.0.1.dist-info/RECORD,,
