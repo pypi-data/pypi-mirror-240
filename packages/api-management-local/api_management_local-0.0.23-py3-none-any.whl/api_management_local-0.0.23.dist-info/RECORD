@@ -1,0 +1,11 @@
+api_management_local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+api_management_local/api_call.py,sha256=CYWVrn2wp9JEZu9QALkdwgdToAjz3lFZbs2gEnm99dk,1463
+api_management_local/api_limit.py,sha256=ibvLpLhNqtIrzcYZTKrTqnxlKVpE23e0pkH-eDOuRZI,1770
+api_management_local/api_management_local.py,sha256=tXiWWfukixXoZ87IYL6_VwJnWx6TPg9b4k61KDHX6s8,8417
+api_management_local/direct.py,sha256=L7NIkMHvqL6oHyrRtqJ-DlHZNUQ3aq3ffsdqITcg7bI,6034
+api_management_local/external_user_id.py,sha256=J1kc4VdjH58tD23oBVKGyoJjLlDGlfRv0a6BEVFUQVY,197
+api_management_local/indirect.py,sha256=3jdXAL5bEqXAt1MHMbLYoGO4MZLXMX3itMAiu1cfC3k,4004
+api_management_local-0.0.23.dist-info/METADATA,sha256=eO-wzJUcgqQI29zZnQ8aE2fqVnYiGbM-U16-aMkYozU,3806
+api_management_local-0.0.23.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+api_management_local-0.0.23.dist-info/top_level.txt,sha256=GDgX0-5UbGsgnABExrCgeh2a4EZJyNOqPk4OQZLpj9U,21
+api_management_local-0.0.23.dist-info/RECORD,,
