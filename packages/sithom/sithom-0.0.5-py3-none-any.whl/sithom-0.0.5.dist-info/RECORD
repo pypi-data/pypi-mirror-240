@@ -1,0 +1,14 @@
+sithom/__init__.py,sha256=bmpWmdQcFnDS039cpQvKEUWAbHkg0W50fKFC0XJTXU4,121
+sithom/_version.py,sha256=Oaf956oCyFFh_BfAs8y3ffIHm_9yICkqxB-G-dRhASQ,177
+sithom/curve.py,sha256=N32D8oVLivAmjXhhTi-AuPW3e_jEVFgsETUhJQU6bAk,7496
+sithom/misc.py,sha256=ryep45sGDo0Ae6EXh_E7TJ5-I4qpWohoODvhT_r6Jks,4612
+sithom/place.py,sha256=6YF2AplzNDUlJUfMNOHQcObu-r5Dzgpw0ETwqs3P5mw,5277
+sithom/plot.py,sha256=FfJWHgeF_qnDe3uTT0S69xuY17GBX2B__TKvMXe2-n8,17941
+sithom/time.py,sha256=AYpyKjZW77iUOYFu4-qskgPYZowOmAk1NN4lhHHLs-Y,4094
+sithom/unc.py,sha256=EhHfbL2NZZLsLG__Jf3_9TQAcSojC93liGH7q82Cds8,3149
+sithom/xr.py,sha256=L_8_8xueqk_7pRvI_QrCCYxa9lMqA0dPZqapft8yDEo,6339
+sithom-0.0.5.dist-info/LICENSE,sha256=XqC0zRV6LnPqvPxpVC8W5UixqC2cP14Bjo44RsQvtMQ,1076
+sithom-0.0.5.dist-info/METADATA,sha256=nHALSDIUL2aOXn7ROHWW_yPB4LnW3Kh44vahoyFSFp4,3362
+sithom-0.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+sithom-0.0.5.dist-info/top_level.txt,sha256=AvSvJZ2QhgB5QR-xp9M9-oTdORr_VDjWcgVhhxNg9Rk,7
+sithom-0.0.5.dist-info/RECORD,,
