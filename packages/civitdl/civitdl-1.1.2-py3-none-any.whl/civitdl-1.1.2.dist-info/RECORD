@@ -1,0 +1,12 @@
+civitdl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+civitdl/__main__.py,sha256=hCGX3hSyFtG62KDbLHs4dEXfbB61RUCEFkB86lIfLUA,41
+civitdl/batch_download.py,sha256=pO18_MxoIqlFblPmJhj_GlBajnqLHICMKjfcbPtwsGU,2894
+civitdl/command_line.py,sha256=WDc2wd8H34m_UjlCFw-wBCbhv6DCtv_6JSc4LZGo5-8,1121
+civitdl/filters.py,sha256=Vdt_dWTZD3zUylJOSBMdMEVriJXdlU3kCIuOab4QswA,2055
+civitdl/get_model.py,sha256=gypo090Lztb1JaZ2Ks9psExzyqoP4QyHvgdLi1HvN7I,8446
+civitdl/utils.py,sha256=ynNEUi8yORpz_mv8PeRGRoEoIXx5uqCUzv0i_Lgi9Q8,2422
+civitdl-1.1.2.dist-info/METADATA,sha256=Cx4-hhoUPRuTt0tg6WBpmlym6EL2A2Aj-Gb8xenRr2M,7458
+civitdl-1.1.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+civitdl-1.1.2.dist-info/entry_points.txt,sha256=yOckLtZ-FuDmkstVzLVnNUQQI-LTAiDgCRJuFBiEEmY,54
+civitdl-1.1.2.dist-info/top_level.txt,sha256=jsrJGXT6oh9XF7qjT7o5ZdZXt6y29R3TJXyZi7nXd2U,8
+civitdl-1.1.2.dist-info/RECORD,,
