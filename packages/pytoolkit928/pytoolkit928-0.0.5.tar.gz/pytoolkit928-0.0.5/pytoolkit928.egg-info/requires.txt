@@ -1,0 +1,11 @@
+certifi
+decorator
+pathlib
+dataclasses
+PyYaml
+pandas
+numpy
+
+[test]
+pytest-cov
+unittest
