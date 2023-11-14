@@ -1,0 +1,6 @@
+pyproject.toml
+structure.txt
+structures/modules/spontaneous.egg-info/PKG-INFO
+structures/modules/spontaneous.egg-info/SOURCES.txt
+structures/modules/spontaneous.egg-info/dependency_links.txt
+structures/modules/spontaneous.egg-info/top_level.txt
