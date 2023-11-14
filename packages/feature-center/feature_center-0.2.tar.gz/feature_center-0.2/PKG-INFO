@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: feature_center
+Version: 0.2
+Summary: 百度搜索架构部效率平台sdp特征中心数据加载模块
+Home-page: http://icode.baidu.com/
+Author: sunyutong01
+Author-email: sunyutong01@baidu.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
