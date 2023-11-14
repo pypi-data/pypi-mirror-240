@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: yaml-creator
+Version: 0.1
+Summary: A library for managing Kubernetes resource deployments
+Home-page: https://github.com/AndrewAlscher/phd_project_full/tree/main/resource_management/yaml_creator/yaml_creator_library
+Author: Andrey Alscher
+Author-email: andrewalscher@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+
+This is a Resource Analyzer service.
+
+It allows to manage resources directly using Python coude instead of YAML representation.
