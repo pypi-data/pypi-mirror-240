@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyfing
+Version: 0.1.0
+Summary: pyfing - Fingerprint recognition in Python
+Author-email: Raffaele Cappelli <raffaele.cappelli@unibo.it>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/raffaele-cappelli/pyfing
+
+# pyfing
+Fingerprint recognition in Python
+

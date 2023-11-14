@@ -1,0 +1,10 @@
+pyfing/__init__.py,sha256=MWnx-JMK4F8AdadJ1KSgMWmNXASavphRCk8vHhKPDjY,191
+pyfing/definitions.py,sha256=Epd4Kg5YJ6Pbzb7qNrTqY9_l38uGHpPYsBBBmOFuqw0,545
+pyfing/segmentation.py,sha256=BKvQkP3WEXy9FtDyQ1_N3W9H6bPXyDVoX2boCN9KJ9o,9206
+pyfing/utils/__init__.py,sha256=G8ETaw6-vhzTmoioqjlHW-eQ9wwhiedjn2ljjK9FB84,35
+pyfing/utils/fvc_segmentation.py,sha256=2nE7zBzoW6z9AdaH0u1rCYD28NdHgrOm3yJCbhqjKXE,795
+pyfing/utils/notebook.py,sha256=tcACcimLY6g2CjK48RHeYpa6qH2E8s7bHcrVjOCPk9I,2095
+pyfing-0.1.0.dist-info/LICENSE,sha256=7h429g5b7Dqd60Scz8oODn7nwVIvDDy4w5H-BUDd9E8,1084
+pyfing-0.1.0.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+pyfing-0.1.0.dist-info/METADATA,sha256=WJgI-s-XJgnQrbIu9kUWMlrV6DrTNz0o3I8ILMaA8aU,362
+pyfing-0.1.0.dist-info/RECORD,,
