@@ -1,0 +1,2 @@
+[console_scripts]
+junit_to_markdown = junit_to_markdown.converter:convert_file
