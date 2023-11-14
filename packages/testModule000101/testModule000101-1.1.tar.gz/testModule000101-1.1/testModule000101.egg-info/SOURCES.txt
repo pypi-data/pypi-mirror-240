@@ -1,0 +1,13 @@
+setup.py
+myapp/__init__.py
+myapp/admin.py
+myapp/apps.py
+myapp/models.py
+myapp/tests.py
+myapp/urls.py
+myapp/views.py
+testModule000101.egg-info/PKG-INFO
+testModule000101.egg-info/SOURCES.txt
+testModule000101.egg-info/dependency_links.txt
+testModule000101.egg-info/requires.txt
+testModule000101.egg-info/top_level.txt
