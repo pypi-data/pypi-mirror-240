@@ -1,0 +1,15 @@
+framework16_inputmodule/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+framework16_inputmodule/cli.py,sha256=VoWD2-W7NxKxM9AcjJJeuqZVa_VuZPlWGfKdNh2HBao,12726
+framework16_inputmodule/font.py,sha256=ZDsNUUhAUJFAAacFMpebj0V7ZfcbD554yGaimofpAm8,32489
+framework16_inputmodule/gui/__init__.py,sha256=L6vwsxPKnKc1TIdAKrzrbYy7CUAkNpELPeFgvQb4pFM,9336
+framework16_inputmodule/gui/games.py,sha256=1jHF7fOhHy_-pQHC4EYijeGsv9deG1-ExHaijPybQ_g,5458
+framework16_inputmodule/gui/gui_threading.py,sha256=49tW9TcErXb3TfINnmbwL8ZjrIHr2pBGnF2qMkmY3Hw,468
+framework16_inputmodule/gui/ledmatrix.py,sha256=rze1Flz97G0jEjRwfkPTSDMjhVGrYARCVvBeMi8oPQM,2287
+framework16_inputmodule/inputmodule/__init__.py,sha256=8E4HoDJ_LhLB2sUQCjRYxjM3vMWeYdSqnzPgiXx0Mn4,3439
+framework16_inputmodule/inputmodule/b1display.py,sha256=ZzhBhEHoMSIGqLYR9R2HAvxMH7rXZINQlpilUFbecT0,4497
+framework16_inputmodule/inputmodule/c1minimal.py,sha256=Sx28CiHSwa2Nn_EC3yRkyTmoXs5XElzuEWeqGPWlg44,954
+framework16_inputmodule/inputmodule/ledmatrix.py,sha256=S9TcBZyIx6IDram1CMUNsOO1jTAPXVw1-iBkFXX_gNk,13403
+framework16_inputmodule-0.1.1.dist-info/METADATA,sha256=uosq7Xc0AnejI74vpBQkLCPtd3W1CHJc5jvNkh2fJKw,5461
+framework16_inputmodule-0.1.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+framework16_inputmodule-0.1.1.dist-info/entry_points.txt,sha256=SxuU8C3LgzLD5KMGs8w2D-1EXB-YHbg6CM6R-jHXU74,137
+framework16_inputmodule-0.1.1.dist-info/RECORD,,

@@ -1,0 +1,5 @@
+[console_scripts]
+ledmatrixctl = framework16_inputmodule.cli:main_cli
+
+[gui_scripts]
+ledmatrixgui = framework16_inputmodule.cli:main_gui
