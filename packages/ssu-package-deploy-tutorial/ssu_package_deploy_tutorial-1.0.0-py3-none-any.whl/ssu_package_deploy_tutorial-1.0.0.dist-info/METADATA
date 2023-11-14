@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ssu-package-deploy-tutorial
+Version: 1.0.0
+Summary: PyPI를 활용한 패키지 배포 과정 알아보기 (tutorial)
+Author: Junwon Moon
+License-File: license
+
