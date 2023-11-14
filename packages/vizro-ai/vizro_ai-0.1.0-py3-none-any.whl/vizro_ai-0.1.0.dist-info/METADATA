@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: vizro_ai
+Version: 0.1.0
+Summary: Vizro-AI is a tool for generating data visualizations
+Author: Vizro Team
+License-File: LICENSE.txt
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.9
+Requires-Dist: ipython>=8.10.0
+Requires-Dist: langchain==0.0.325
+Requires-Dist: openai<1.0.0,>=0.27.8
+Requires-Dist: pandas
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: tabulate
+Requires-Dist: urllib3>=2.0.7
+Requires-Dist: vizro>=0.1.4
+Description-Content-Type: text/markdown
+
+# Vizro-AI README
+
+Vizro-AI is a tool for generating visualizations.
+
+## Disclaimer
+
+Please review the [Disclaimer](https://vizro-ai.readthedocs.io/en/latest/pages/explanation/disclaimer/) before using `vizro-ai` package.
+
+## Documentation
+
+For more information, please refer to our [Documentation](https://vizro-ai.readthedocs.io/en/latest/).
+
+## Acknowledgment
+
+Vizro-AI is powered by [LangChain](https://github.com/langchain-ai/langchain).
