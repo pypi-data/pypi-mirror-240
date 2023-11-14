@@ -1,0 +1,11 @@
+name: plassembler
+channels:
+    - conda-forge
+    - bioconda
+    - defaults
+dependencies:
+    - plassembler >=1.4.1
+    - canu ==2.2
+    - pip:
+        - git+https://github.com/rrwick/Unicycler.git
+
