@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nerva_numpy/__init__.py
+src/nerva_numpy/example.py
+src/nerva_numpy.egg-info/PKG-INFO
+src/nerva_numpy.egg-info/SOURCES.txt
+src/nerva_numpy.egg-info/dependency_links.txt
+src/nerva_numpy.egg-info/top_level.txt
