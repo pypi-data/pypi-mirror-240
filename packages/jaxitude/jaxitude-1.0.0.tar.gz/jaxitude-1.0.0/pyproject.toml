@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["demos*"]
+
+[project]
+name = "jaxitude"
+version = "1.0.0"
+authors = [
+  { name="jhand1993" },
+]
+description = "Intuitive attitude calculations, conversions, and state estimation modeling with JAX"
+readme = "README.md"
+requires-python = ">=3.9.18"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jhand1993/jaxitude"
+"Bug Tracker" = "https://github.com/jhand/jaxitude/issues"
