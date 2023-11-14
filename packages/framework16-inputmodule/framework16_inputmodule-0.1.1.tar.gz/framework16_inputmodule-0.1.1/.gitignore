@@ -1,0 +1,30 @@
+**/*.rs.bk
+.#*
+.gdb_history
+target/
+
+venv
+
+# editor files
+.vscode/*
+!.vscode/*.md
+!.vscode/*.svd
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+!.vscode/settings.json
+*.uf2
+
+# Panic dump
+message.bin
+
+# Python
+__pycache__
+
+# Hatch
+_version.py
+
+# pyinstaller
+build/
+dist/
+ledmatrix_control.spec
