@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: streamlit-login-auth-ui-23
+Version: 0.2.0
+Summary: A streamlit library which provides a Login/Sign-Up UI with an option to reset password, also supports cookies.
+Home-page: https://github.com/sovdevs/st_login_auth_ui_23
+Author: SOVDEVS DEV1
+Author-email: sovdevs0@gmail.com
+Keywords: streamlit,machine learning,login,sign-up,authentication,cookies
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
