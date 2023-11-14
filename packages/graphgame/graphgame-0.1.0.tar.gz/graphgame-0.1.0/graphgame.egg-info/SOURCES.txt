@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+graphgame.egg-info/PKG-INFO
+graphgame.egg-info/SOURCES.txt
+graphgame.egg-info/dependency_links.txt
+graphgame.egg-info/entry_points.txt
+graphgame.egg-info/requires.txt
+graphgame.egg-info/top_level.txt
