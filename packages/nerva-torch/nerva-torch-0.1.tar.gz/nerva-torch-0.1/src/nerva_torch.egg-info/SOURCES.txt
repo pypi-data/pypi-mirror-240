@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nerva_torch/__init__.py
+src/nerva_torch/example.py
+src/nerva_torch.egg-info/PKG-INFO
+src/nerva_torch.egg-info/SOURCES.txt
+src/nerva_torch.egg-info/dependency_links.txt
+src/nerva_torch.egg-info/top_level.txt
