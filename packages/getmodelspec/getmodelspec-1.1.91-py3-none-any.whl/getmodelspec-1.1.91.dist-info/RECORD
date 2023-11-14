@@ -1,0 +1,14 @@
+modelspec/__init__.py,sha256=XyEyDUmpvcuYUSBhub_0lQfKCNuLKNTfYWW4xrZdBGQ,184
+modelspec/amazon.py,sha256=IMPN_Hl9nxriYh-DpSR-5A3P536E1-mMyuDrR_cAubE,3161
+modelspec/bestbuy.py,sha256=sZZ2_uInORCN8wK5nA30XEkB3gj04UJdytLR6rBHvnk,3263
+modelspec/model_scraper.py,sha256=axmLFvdbJ0Yx48mazdOYS3Ouq0y--3sRwO_mVZgftmU,11099
+modelspec/model_scraper_jp.py,sha256=9Boe49Qj7tKlEzo0X9dArKzbVTw4SLF8ti7ND5fhDnM,9602
+modelspec/rtings.py,sha256=C5YRi42eBMXYW2MGOlGhCAd2dy7UY9kXz8TmLYkHYHM,4459
+modelspec/tools/__init__.py,sha256=bg_fO0moW11GjgsfhdQtsrOH7UePTVkbVmrPHWtRU1w,98
+modelspec/tools/filemanager.py,sha256=wtWlZHjqY2Dg77kZSjtDYhXMKDQVWxM6e0Con4irer0,2103
+modelspec/tools/webdriver.py,sha256=FPnhqwPPSzIHa4gRhSQpqhcIK016U_yr9QwbOWAoDDo,9487
+getmodelspec-1.1.91.dist-info/METADATA,sha256=BRA6H5_JXxXE1WCOw3yMhOWkG1BQA1aq93m4EYmyF6Q,503
+getmodelspec-1.1.91.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+getmodelspec-1.1.91.dist-info/entry_points.txt,sha256=6i2YSinUF4GcWxReP2Cv2_DY-0XXGqH5WWZF8M0yW0s,67
+getmodelspec-1.1.91.dist-info/top_level.txt,sha256=Ks3fSFaTgX1LK9vyNkTCrssizUTfT6LPDA499FnhobY,10
+getmodelspec-1.1.91.dist-info/RECORD,,
