@@ -1,0 +1,12 @@
+passable/__init__.py,sha256=76ht90SuDv9z6asGRp-0NJRgVqmGLBFM3Y50uWUGpV4,332
+passable/_modidx.py,sha256=h1EhkVhBnwET6F_8VlvB2ge4-NZRPdfgkUolIoxqLAw,652
+passable/core.py,sha256=ERD_9A-zguRKC-HmyFJV1-24L60qt3DFR1iygSjRgbE,713
+xpass/__init__.py,sha256=4_DOtfzy6OqtGjuzldv4fUvRAzUsKuuRy1hV2t_DcCE,372
+xpass/_modidx.py,sha256=OJz8oj8TcrwliT9b4HTOiP59ko3CTLfN7lRvpRD7YtU,779
+xpass/core.py,sha256=4-Zrd1rbsK6lsO4_5urD6gxwLlFQRMFh_V1LtrEUfj4,902
+xpass-0.0.4.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+xpass-0.0.4.dist-info/METADATA,sha256=b7fPM-MhL47DZMdaOMJCtj6Sxahf94Xd2d8eaGlMhjU,2155
+xpass-0.0.4.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+xpass-0.0.4.dist-info/entry_points.txt,sha256=cHa-BHNP3KHeqcgFRh8b4Qv5eM3dKhH94dA8BfdUJR4,32
+xpass-0.0.4.dist-info/top_level.txt,sha256=sN5Zg_xkfAAPyRwaCMxQrzw9SmUz-Jpwq9YGHcxoC7c,15
+xpass-0.0.4.dist-info/RECORD,,
