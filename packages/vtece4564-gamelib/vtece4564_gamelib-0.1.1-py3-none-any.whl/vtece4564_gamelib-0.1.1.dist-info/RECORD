@@ -1,0 +1,16 @@
+gameauth/__init__.py,sha256=bPcpgZHXtetoidewbwym2yVnYZ3bs3iqQZjPDJ9NdnM,210
+gameauth/__main__.py,sha256=9tUZTnlkiRZL0dbeJMHIJf6e7ChSk2ifYpFmCNbp8mw,2004
+gameauth/key_util.py,sha256=bwyFoUAA6l7mNU03RpNaMZB9gX5sPhGL5Z3cduWupiA,1515
+gameauth/password.py,sha256=MV_1ukknan0wkqBLZqB8lPwY-SkKBqo8frq-NRqpiD0,1285
+gameauth/token.py,sha256=uxLOh_nTS1quxTvnv_p0THtQ2WeiPUG4XrR759y41Fs,260
+gameauth/token_generator.py,sha256=IvAPVOdhciPUnz8H6aLtOnWJInoD7OrtotbA9Q42x8E,1861
+gameauth/token_validator.py,sha256=evXUP_PktqWhH-FqJyceBsbMyGLChlv8lvuaRtyrEF4,2155
+gamecomm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gamedb/__init__.py,sha256=8ao_esX0YyQm19w7fRHarSkBeoGN20v4kHusfBWzJX4,156
+gamedb/game_repository.py,sha256=E6aca1V4OoTmDSZSmcMLxnfcXH7QdzTayRd5NJN7PNg,1469
+gamedb/user_repository.py,sha256=9U95i5lFHHDyNmGavAFPZFVqVhwSiGLyzY7uTvkvw3I,1903
+vtece4564_gamelib-0.1.1.dist-info/LICENSE,sha256=JEQUUyTtBoprA_Pb4VaKq1qk2hdVFHjY_sm6okLacAw,648
+vtece4564_gamelib-0.1.1.dist-info/METADATA,sha256=zFR4cEssX2UTl1NE-CXeZSS1A3-m2MQuWi_uYAiTR4I,2188
+vtece4564_gamelib-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+vtece4564_gamelib-0.1.1.dist-info/top_level.txt,sha256=EOVED34-3Np2Rn_68Vg7GFwODdVJFkVSVz-zGTxkPlY,25
+vtece4564_gamelib-0.1.1.dist-info/RECORD,,
