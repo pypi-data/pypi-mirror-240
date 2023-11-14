@@ -1,0 +1,5 @@
+__title__ = "wethenew-client"
+__description__ = "wethenew-client is a robust and user-friendly client library designed to simplify interactions with the wethenew API. It provides developers with an intuitive interface to access and manipulate data, streamlining the integration of wethenew services into various applications."
+__version__ = "1.0.0"
+__author__ = "niewiemczego"
+__license__ = "MIT"
