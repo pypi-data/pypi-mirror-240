@@ -1,0 +1,7 @@
+setup.py
+diffydes/__init__.py
+diffydes/exp.py
+diffydes.egg-info/PKG-INFO
+diffydes.egg-info/SOURCES.txt
+diffydes.egg-info/dependency_links.txt
+diffydes.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: diffydes
+Version: 0.0.25
+Summary: some
+Author: Your Name
+Author-email: yourname@gmail.com
+Keywords: py
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+
+some
