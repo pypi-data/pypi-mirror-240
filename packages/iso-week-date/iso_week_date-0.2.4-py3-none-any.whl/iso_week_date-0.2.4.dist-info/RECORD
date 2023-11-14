@@ -1,0 +1,14 @@
+iso_week_date/__init__.py,sha256=rS4__1zuTgZolyEwo04OeSfv3Tq0oMMByNwh87PqX_E,360
+iso_week_date/_patterns.py,sha256=-qdTxcvdxSyZf66Nt6Oa5q2ru3H7upelGtZoIYqj-co,1698
+iso_week_date/_utils.py,sha256=8js9sniCZnFvXihQPg8WZxTpWdfa7fvPecDaUtOJXzk,2337
+iso_week_date/base.py,sha256=wXGOB9xJyCrc31UYtfY0C8hVikbhyRI1KRrMzCuXM4Q,8484
+iso_week_date/isoweek.py,sha256=IhpL6wrpzp9vO0BUVCwVF7DKFRE606zBkXNCkVrW7h0,12336
+iso_week_date/isoweekdate.py,sha256=PIrVGA1ZHT6CzRDjjnVCi1UOt3zj4vWPbUpWcVX57Zg,7744
+iso_week_date/mixin.py,sha256=kqNualDgay8qc6x-OayaPe9hErQRXXEXx7nMilWIP7w,13850
+iso_week_date/pandas_utils.py,sha256=7vWFWvTE-DiocFKkitOjSUhvIM6rEmjh1U0d0XtntXU,9683
+iso_week_date/polars_utils.py,sha256=Qb1S3F1kpvuZuV9HvTHyldkq6SC4WxL_d2IXeKjLBLk,9611
+iso_week_date/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iso_week_date-0.2.4.dist-info/METADATA,sha256=-TXSXcjc2bFXllbEZlGry99PFdQbPcw8VcQndpCWIM0,8880
+iso_week_date-0.2.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+iso_week_date-0.2.4.dist-info/licenses/LICENSE,sha256=dvme5SVaxB8S--1OkhJXMzOrJnDhPZvCY_vys9LsoBo,1075
+iso_week_date-0.2.4.dist-info/RECORD,,
