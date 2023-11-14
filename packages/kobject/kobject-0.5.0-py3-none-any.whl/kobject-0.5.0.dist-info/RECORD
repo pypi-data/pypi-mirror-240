@@ -1,0 +1,9 @@
+kobject/__init__.py,sha256=ynKr7Erx9U2AwVXi1OLU2NI04h5Xd8Wz4ok2sPTj_f8,281
+kobject/common.py,sha256=tmAUHhlN_3uFcfBbTdf8vM9kwAJgEsZb6u7GHsDNn60,2381
+kobject/from_json.py,sha256=GDR4r3AKnSx_Emcl8tfOK2Ocl5r6-_OqVnrRLF7FH9A,6371
+kobject/to_json.py,sha256=A0hp1J91TJzMM4fmFgRpEf9SOcCHDmOQ9j3hUQ2xK6I,2668
+kobject/validator.py,sha256=noCXSJIjDazHD-SyzqNWMW8dAC1uTjJERE9zYrj8_rs,4626
+kobject-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kobject-0.5.0.dist-info/METADATA,sha256=jXfwKzQqJ0gpxwQUng8bXDAXkuxWxdSCLRgWy5w9inc,8750
+kobject-0.5.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+kobject-0.5.0.dist-info/RECORD,,
