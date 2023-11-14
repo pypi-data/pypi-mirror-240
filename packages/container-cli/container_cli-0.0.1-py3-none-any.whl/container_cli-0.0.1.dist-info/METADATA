@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: container-cli
+Version: 0.0.1
+Summary: ✨A powerful tool for docker containers✨
+Author: y
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru (>=0.7)
+Requires-Dist: checkopt (>=1)
+Requires-Dist: questionary (>=2)
+
