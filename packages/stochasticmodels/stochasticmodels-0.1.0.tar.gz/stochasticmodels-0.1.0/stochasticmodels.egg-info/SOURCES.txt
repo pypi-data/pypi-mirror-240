@@ -1,0 +1,7 @@
+MANIFEST.in
+Readme.md
+setup.py
+stochasticmodels.egg-info/PKG-INFO
+stochasticmodels.egg-info/SOURCES.txt
+stochasticmodels.egg-info/dependency_links.txt
+stochasticmodels.egg-info/top_level.txt
