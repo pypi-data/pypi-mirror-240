@@ -1,0 +1,23 @@
+{% load i18n %}
+{% load eventurl %}
+{% load bootstrap3 %}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            {% trans "Registration ID" %}
+        </h3>
+    </div>
+    <div class="panel-body">
+        {% if regid %}
+        <p>
+            {% blocktrans trimmed with regid=regid.regid %}
+                This order's registration ID is: <strong>{{ regid }}</strong>.
+            {% endblocktrans %}
+        </p>
+        {% else %}
+            <p>
+                {% trans "Registration ID is not set. Maybe this order existed before the registration ID module, or your settings don't allow for a product type or state to get a registration ID." %}
+            </p>
+        {% endif %}
+    </div>
+</div>
