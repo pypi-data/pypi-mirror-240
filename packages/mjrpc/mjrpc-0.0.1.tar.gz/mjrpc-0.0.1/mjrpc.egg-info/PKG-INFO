@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mjrpc
+Version: 0.0.1
+Summary: A MuJoCo gRPC implementation for fast simulations and communication.
+Author: Lucas Maggi
+Author-email: lucas.maggi@usp.br
+Requires-Dist: grpcio
+
+A MuJoCo gRPC implementation for fast simulations and communication.
