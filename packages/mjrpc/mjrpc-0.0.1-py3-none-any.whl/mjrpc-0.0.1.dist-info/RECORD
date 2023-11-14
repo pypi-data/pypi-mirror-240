@@ -1,0 +1,8 @@
+mjrpc/__init__.py,sha256=LIFc899f3mddNHe9Wj47sTkqbg9hf87q2uxJjotE8fU,97
+mjrpc/mujoco.py,sha256=3rTfwX77dXgN9GgPukuhyFqnDvc39-Lrvn7H4UL2Euk,2795
+mjrpc/mujoco_pb2.py,sha256=isM4LpzfTTCn63V_pM6gJxv1gwZ3x4AtSfYI61maW-c,1635
+mjrpc/mujoco_pb2_grpc.py,sha256=T2jeK-SIWMdt7WH_Zo_KbmRPjIsJEUoKHCL__rC9y08,5536
+mjrpc-0.0.1.dist-info/METADATA,sha256=MUDASunJw9LscwDrlFOBO0bglOZwwiabWX0YwZ6V_Fw,272
+mjrpc-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mjrpc-0.0.1.dist-info/top_level.txt,sha256=uqp8gYmR3IWqwH0Rzc2qe-fXql75-Hy44ANa9MedKqI,6
+mjrpc-0.0.1.dist-info/RECORD,,
