@@ -1,0 +1,13 @@
+dendritecli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dendritecli/_version.py,sha256=CqDGE4B1ZqZ-56mxeOFcXRTmlxrdOh4ayrjbcPjziE4,411
+dendritecli/api.py,sha256=_JOFEKLE-HlFAwqQ9iaZReJD_yyhwXf2L_UcZfac134,18005
+dendritecli/main.py,sha256=EIL-W7l9xLXoJyYYLoNpC7EPSeAIooH6AJ_CDyYwNiA,8502
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/_mock_server.py,sha256=wGECcb6qyxj8yqiNNqQ-RgMC3l-M_PgE6AA75UjD6nM,6501
+tests/test_api.py,sha256=-r6SoEkxinIKtHNsChuaRVWrvIT-U_vB0l-_gEwZh6o,3540
+dendritecli-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dendritecli-1.1.0.dist-info/METADATA,sha256=4-awizONxVNm01pY79H_9kgeiZ6LPyMfD2cOEOhnJXM,43826
+dendritecli-1.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+dendritecli-1.1.0.dist-info/entry_points.txt,sha256=NN2_Zagpi71FafFdXUWIZaOlbYr2uBskoJAUP_ops-E,91
+dendritecli-1.1.0.dist-info/top_level.txt,sha256=4x9lzP1O2wxcN_UV2jVKUMuJrY5YmhKXZI53kWQLDdo,18
+dendritecli-1.1.0.dist-info/RECORD,,
