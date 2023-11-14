@@ -1,0 +1,2 @@
+[console_scripts]
+console_scripts = codeenv.__main__:main

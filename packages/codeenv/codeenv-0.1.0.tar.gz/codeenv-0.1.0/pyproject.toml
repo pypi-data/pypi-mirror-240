@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codeenv"
+version = "0.1.0"
+description = "Automatic coding environment generator for basic development"
+authors = [{name="Rares Sarmasag", email="rares.sarmasag@stud.acs.upb.ro"}]
+license = { file = "LICENSE" }
+readme = "README.md"
+dependencies = ["gitpython>=3.1.24"]
+
+[project.urls]
+Home = "https://github.com/rares9301/codeenv"
+
+[project.scripts]
+console_scripts = "codeenv.__main__:main"
+
