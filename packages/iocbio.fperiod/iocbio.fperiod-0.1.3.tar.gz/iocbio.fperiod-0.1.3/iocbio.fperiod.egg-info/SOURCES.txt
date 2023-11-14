@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+iocbio/fperiod.c
+iocbio/fperiod.pyx
+iocbio.fperiod.egg-info/PKG-INFO
+iocbio.fperiod.egg-info/SOURCES.txt
+iocbio.fperiod.egg-info/dependency_links.txt
+iocbio.fperiod.egg-info/requires.txt
+iocbio.fperiod.egg-info/top_level.txt
+src/libfperiod.c
+src/libfperiod.h
