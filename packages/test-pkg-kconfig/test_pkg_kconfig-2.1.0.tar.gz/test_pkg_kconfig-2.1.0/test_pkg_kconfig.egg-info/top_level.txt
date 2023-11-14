@@ -1,0 +1,7 @@
+dist
+docs
+esp_idf_kconfig
+kconfcheck
+kconfgen
+kconfserver
+test
