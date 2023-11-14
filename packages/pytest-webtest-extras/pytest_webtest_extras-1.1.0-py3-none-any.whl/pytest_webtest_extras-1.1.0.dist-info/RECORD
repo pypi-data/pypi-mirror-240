@@ -1,0 +1,10 @@
+pytest_webtest_extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_webtest_extras/extras.py,sha256=E_yYLowgjHdW7rd6GFruAdgYkyFWu4Gk04jpkWjK9Nk,5326
+pytest_webtest_extras/plugin.py,sha256=_JlMlNYzGDwj-4_a7dgT3BIfHNBZKkZqWnJSB8--xhY,5487
+pytest_webtest_extras/utils.py,sha256=oHloUsSfrbpmoQ6f-anwSzTGNAEYyoHHcCnOy12M10Q,9443
+pytest_webtest_extras/resources/error.png,sha256=s8vvG59fOChrOaA-2oSR1oGmU8j0nevMSecCyrJzydk,33002
+pytest_webtest_extras/resources/style.css,sha256=OAnju667bSNB8dXmFMmLo9Q1gkfq6r6iBFs9Rc5AGtw,610
+pytest_webtest_extras-1.1.0.dist-info/entry_points.txt,sha256=ztRLQJIIGic_b9gm9ETdMArKPF-tYLiC6vFUE-VCNv0,56
+pytest_webtest_extras-1.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+pytest_webtest_extras-1.1.0.dist-info/METADATA,sha256=OlLuaOrEmdIdh1PJoofVOyqrj0NtUN7bhiuTkt58cko,1238
+pytest_webtest_extras-1.1.0.dist-info/RECORD,,
