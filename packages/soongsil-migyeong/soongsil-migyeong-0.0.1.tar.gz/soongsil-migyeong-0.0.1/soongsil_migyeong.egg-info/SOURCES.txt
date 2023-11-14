@@ -1,0 +1,7 @@
+README.md
+setup.py
+soongsil_migyeong.egg-info/PKG-INFO
+soongsil_migyeong.egg-info/SOURCES.txt
+soongsil_migyeong.egg-info/dependency_links.txt
+soongsil_migyeong.egg-info/entry_points.txt
+soongsil_migyeong.egg-info/top_level.txt
