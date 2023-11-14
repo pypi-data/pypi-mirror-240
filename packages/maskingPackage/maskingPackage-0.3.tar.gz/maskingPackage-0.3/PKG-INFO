@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: maskingPackage
+Version: 0.3
+Requires-Dist: pandas
+Requires-Dist: os
+Requires-Dist: csv
+Requires-Dist: cryptography
