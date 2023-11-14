@@ -1,0 +1,7 @@
+fire
+unicodedata2
+
+[testing]
+setuptools
+pytest
+pytest-cov
