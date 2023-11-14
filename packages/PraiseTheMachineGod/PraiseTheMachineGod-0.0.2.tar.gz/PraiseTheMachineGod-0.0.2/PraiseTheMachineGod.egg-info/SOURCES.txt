@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+PraiseTheMachineGod.egg-info/PKG-INFO
+PraiseTheMachineGod.egg-info/SOURCES.txt
+PraiseTheMachineGod.egg-info/dependency_links.txt
+PraiseTheMachineGod.egg-info/top_level.txt
