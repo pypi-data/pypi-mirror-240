@@ -1,0 +1,10 @@
+livekit/plugins/openai/__init__.py,sha256=sm4_E_DBCurIYEfJC28pbmeSzLv-UR_ZbQSJuZRDopg,221
+livekit/plugins/openai/chatgpt.py,sha256=dRcdncjbCBp4EXCVExNFPlvI7OFvBmsae_fzzAvwDvI,3014
+livekit/plugins/openai/tts.py,sha256=3qTYZ4-rtl7Q4XmuXTc3eCZWbjIJ1jeS55kGHlFH7-4,2020
+livekit/plugins/openai/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+livekit/plugins/openai/whisper_api_transcriber.py,sha256=AAP_8QvLRIxt8f12pk6dkcLKvTf4kKJwNw6_BCUH8zM,2308
+livekit/plugins/openai/whisper_local_transcriber.py,sha256=_cmgRtEQVnM68Xlraay-EgSTSznFt-DmPAGzJcShoQE,2005
+livekit_plugins_openai-0.0.1.dist-info/METADATA,sha256=pd9JQ_JxtLsqOYGV1sMOHJN-49HdixGl9ztd5WHj7B4,1269
+livekit_plugins_openai-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+livekit_plugins_openai-0.0.1.dist-info/top_level.txt,sha256=OoDok3xUmXbZRvOrfvvXB-Juu4DX79dlq188E19YHoo,8
+livekit_plugins_openai-0.0.1.dist-info/RECORD,,
