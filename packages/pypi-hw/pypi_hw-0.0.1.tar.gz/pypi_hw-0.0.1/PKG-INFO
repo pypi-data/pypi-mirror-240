@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pypi_hw
+Version: 0.0.1
+Summary: a PyPI Hello World
+Home-page: https://gitlab.com/blakedewey/pypi_hw
+Author: Blake Dewey
+Author-email: blake.dewey@jhu.edu
+License: Apache License, 2.0
+Keywords: pypi
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nibabel
+Requires-Dist: pydicom
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: scipy
