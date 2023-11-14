@@ -1,0 +1,15 @@
+LICENCE
+README.md
+pyproject.toml
+src/proxmox_backup_rdx/__init__.py
+src/proxmox_backup_rdx/main.py
+src/proxmox_backup_rdx.egg-info/PKG-INFO
+src/proxmox_backup_rdx.egg-info/SOURCES.txt
+src/proxmox_backup_rdx.egg-info/dependency_links.txt
+src/proxmox_backup_rdx.egg-info/entry_points.txt
+src/proxmox_backup_rdx.egg-info/top_level.txt
+src/proxmox_backup_rdx/models/__init__.py
+src/proxmox_backup_rdx/models/datastore.py
+src/proxmox_backup_rdx/models/prunejob.py
+src/proxmox_backup_rdx/models/syncjob.py
+src/proxmox_backup_rdx/models/utils.py
