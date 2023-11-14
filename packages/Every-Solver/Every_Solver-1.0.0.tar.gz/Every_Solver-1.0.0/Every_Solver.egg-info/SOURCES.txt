@@ -1,0 +1,5 @@
+setup.py
+Every_Solver.egg-info/PKG-INFO
+Every_Solver.egg-info/SOURCES.txt
+Every_Solver.egg-info/dependency_links.txt
+Every_Solver.egg-info/top_level.txt

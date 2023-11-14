@@ -1,0 +1,4 @@
+docx
+math
+re
+sympy
