@@ -1,0 +1,7 @@
+README.md
+setup.py
+recipemaster.egg-info/PKG-INFO
+recipemaster.egg-info/SOURCES.txt
+recipemaster.egg-info/dependency_links.txt
+recipemaster.egg-info/requires.txt
+recipemaster.egg-info/top_level.txt
