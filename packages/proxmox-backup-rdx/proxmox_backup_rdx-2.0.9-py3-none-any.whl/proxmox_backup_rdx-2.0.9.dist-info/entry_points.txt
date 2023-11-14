@@ -1,0 +1,2 @@
+[console_scripts]
+proxmox-backup-rdx = proxmox_backup_rdx.main:main
