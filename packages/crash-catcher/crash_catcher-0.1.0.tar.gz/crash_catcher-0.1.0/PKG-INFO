@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: crash-catcher
+Version: 0.1.0
+Summary: Error logger/crash reporter decorator
+Author-email: Rhet Turnbull <rturnbull+git@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: mkdocs>=1.4.2 ; extra == "docs"
+Requires-Dist: mkdocs-material>=9.0.13 ; extra == "docs"
+Requires-Dist: mkdocstrings-python>=0.8.3 ; extra == "docs"
+Requires-Dist: pytest>=7.4.2 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Requires-Dist: mypy>=1.6.1 ; extra == "test"
+Project-URL: Home, https://github.com/RhetTbull/crash_catcher
+Provides-Extra: docs
+Provides-Extra: test
