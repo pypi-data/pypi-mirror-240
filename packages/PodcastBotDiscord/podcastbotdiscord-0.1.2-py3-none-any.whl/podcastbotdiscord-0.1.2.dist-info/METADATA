@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: PodcastBotDiscord
+Version: 0.1.2
+Summary: A discord bot that can play podcasts
+Project-URL: Homepage, https://github.com/PILIX123/PodcastDicordBot
+Author: Pierre-Luc R.
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10.5
