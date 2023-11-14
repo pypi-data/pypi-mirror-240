@@ -1,0 +1,2 @@
+[console_scripts]
+cyprint = cyprint:cyprint
