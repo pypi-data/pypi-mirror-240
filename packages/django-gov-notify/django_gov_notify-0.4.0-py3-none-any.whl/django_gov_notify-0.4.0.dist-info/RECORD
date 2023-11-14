@@ -1,0 +1,7 @@
+django_gov_notify/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+django_gov_notify/backends.py,sha256=TYP35qP2aPSg3nFryFcsuLhdXiWkIbhlwveOfpkpbys,2438
+django_gov_notify/message.py,sha256=AeHRDjEIDLLPcJiiAlgcemaFNat4QRV06ATxJnC3RdE,3997
+django_gov_notify/utils.py,sha256=0Mu1PJ9LYQApW30GTD2qFbg_6HRz_Jouyb8yzH4RVLk,876
+django_gov_notify-0.4.0.dist-info/METADATA,sha256=CcTiRePTXbeXGdNnFICqGOXQOWnQvIsHyEN0Rso-ZSs,5486
+django_gov_notify-0.4.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+django_gov_notify-0.4.0.dist-info/RECORD,,
