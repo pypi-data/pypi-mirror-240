@@ -1,0 +1,11 @@
+pttn/__init__.py,sha256=cpkqivHTceF-xTAEqY6zyX9kgdSwrTxKpz3Oe3iYyHc,397
+pttn/_modidx.py,sha256=Qt71iJ5O8RE0fS-N8cVwcvDYajkIb-lF9jwLugNw2pY,858
+pttn/cons.py,sha256=Dd9mf5mKp0qugPSuRb_73bz1kMRI4vRMiEqdgrnGRAQ,296
+pttn/snek.py,sha256=zlHuH2CDsHGNdpxeZdHrbsXdmO9csXqtKZVisPrHum0,1927
+pttn/util.py,sha256=xUS_p0e7Xsg03sH6ExlzrBY2SJWWafmpjkmlUmx4s4g,2256
+pttn-0.0.5.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+pttn-0.0.5.dist-info/METADATA,sha256=g6vIdt8sQjoTcoyUpmgUCKN1kdt_JRFo44PIe-kShUg,2216
+pttn-0.0.5.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pttn-0.0.5.dist-info/entry_points.txt,sha256=Fgf5SDm38Ehb5rRJ7AVEJ_59gvcg7AN3XiJNU4Vtf3E,74
+pttn-0.0.5.dist-info/top_level.txt,sha256=YniD6bNO-Y4wHZDONufAAUbKbkzOv_oJmDXbegteiQ0,5
+pttn-0.0.5.dist-info/RECORD,,
