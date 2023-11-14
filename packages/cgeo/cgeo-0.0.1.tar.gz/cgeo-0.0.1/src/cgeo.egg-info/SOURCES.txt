@@ -1,0 +1,7 @@
+LICENSE.md
+README.md
+pyproject.toml
+src/cgeo.egg-info/PKG-INFO
+src/cgeo.egg-info/SOURCES.txt
+src/cgeo.egg-info/dependency_links.txt
+src/cgeo.egg-info/top_level.txt
