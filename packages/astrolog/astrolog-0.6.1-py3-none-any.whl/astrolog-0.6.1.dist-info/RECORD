@@ -1,0 +1,9 @@
+astrolog/__init__.py,sha256=k9vOKBhONifKHPodeNJ4vi_rgguXH3CDX_5pYR2frHw,614
+astrolog/celestials.py,sha256=ozXsVzTuhib_2afTjuWSll_cQp0ejNoqVNiXho5bo_0,14049
+astrolog/coords.py,sha256=IMjK7hE4AJkHE14Wi_1nEMFl6WRJq2YiDs9wcDTMliI,3815
+astrolog/natal.py,sha256=TsahGv-EumWaILAxv7pcQaHxgqzkMNE2Yuq9M1owDFs,4312
+astrolog/primitives.py,sha256=6KJtFoGf0_uxkNMigBerf9MT16WSfstljX84h3UvnBA,1452
+astrolog/zodiac.py,sha256=nzi2aFNTG3LD-fxdWcukHPcLpc29XKGs91H380lNbmo,3183
+astrolog-0.6.1.dist-info/METADATA,sha256=Pkt2hSia10zJEbs7zldJL9MV9MduLg7itgM5uwpXFmA,875
+astrolog-0.6.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+astrolog-0.6.1.dist-info/RECORD,,
