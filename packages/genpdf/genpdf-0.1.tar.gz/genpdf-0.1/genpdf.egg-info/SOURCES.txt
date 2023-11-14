@@ -1,0 +1,11 @@
+setup.py
+_genpdf/__init__.py
+_genpdf/main.py
+_genpdf/deposit/__init__.py
+_genpdf/deposit/pdfgen.py
+_genpdf/deposit/test25.py
+_genpdf/deposit/utilitaires.py
+genpdf.egg-info/PKG-INFO
+genpdf.egg-info/SOURCES.txt
+genpdf.egg-info/dependency_links.txt
+genpdf.egg-info/top_level.txt
