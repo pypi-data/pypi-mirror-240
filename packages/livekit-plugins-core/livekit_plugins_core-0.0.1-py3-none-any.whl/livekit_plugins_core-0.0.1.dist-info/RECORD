@@ -1,0 +1,12 @@
+livekit/plugins/core/__init__.py,sha256=sXEAqtYBqY_RuBliGLh-ZcuzpVjGWkG1eyeP3m05Kzk,550
+livekit/plugins/core/async_iterator_list.py,sha256=yrutRvRNGp9bXj3BR1mcf7ftWGTRjASm4H1h6o536l0,333
+livekit/plugins/core/async_queue_iterator.py,sha256=S7YxJIh_scLL_lJXhEq23qNtX9oRQEFHD52p2OmqaOE,1187
+livekit/plugins/core/common_plugins.py,sha256=DouodX9G_oZPp6UQsbCaumnIsIazUIEq9x3FYI80PL4,769
+livekit/plugins/core/plugin.py,sha256=MjRTJuiHkTPxyCERwKThIDhhuvu98aE3ALbJBnP30rM,6121
+livekit/plugins/core/version.py,sha256=ugyuFliEqtAwQmH4sTlc16YXKYbFWDmfyk87fErB8-8,21
+livekit/plugins/core/utils/__init__.py,sha256=ivU2li4cIFkaqMXN-rX23HsE_1QTIQp6EA0F8MQ51Ew,63
+livekit/plugins/core/utils/complete_sentences_plugin.py,sha256=NIASkxRLiPjWi-GjZqNs5dtkEZNLX1t_35uUOPTSZD4,1111
+livekit_plugins_core-0.0.1.dist-info/METADATA,sha256=hnXBnk-srK71a9GC8LLQvCH_16SxaduejtA01M9Sm9c,1081
+livekit_plugins_core-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+livekit_plugins_core-0.0.1.dist-info/top_level.txt,sha256=OoDok3xUmXbZRvOrfvvXB-Juu4DX79dlq188E19YHoo,8
+livekit_plugins_core-0.0.1.dist-info/RECORD,,
