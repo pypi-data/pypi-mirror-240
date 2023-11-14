@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+chroma/__init__.py
+chroma/example.py
+generate_chroma.egg-info/PKG-INFO
+generate_chroma.egg-info/SOURCES.txt
+generate_chroma.egg-info/dependency_links.txt
+generate_chroma.egg-info/requires.txt
+generate_chroma.egg-info/top_level.txt
