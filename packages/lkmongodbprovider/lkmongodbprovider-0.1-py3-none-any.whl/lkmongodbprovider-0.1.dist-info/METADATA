@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: lkmongodbprovider
+Version: 0.1
+Summary: LavKode MongoDB provider
+Home-page: https://muthupandian.in
+Author: muthugit
+Author-email: base.muthupandian@gmail.com
+Requires-Dist: lkinterface >=0.3
+
+LavKode MongoDB provider
