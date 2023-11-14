@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: rgprc
+Version: 2023.11.12
+Summary: A simple to use Python gRPC Reflection Client
+Project-URL: Homepage, https://codeberg.org/viridianforge/rgprc
+Project-URL: Bug Tracker, https://codeberg.org/viridianforge/rgprc/issues
+Author-email: Wayne Manselle <wayne@viridianforge.tech>
+License: Apache 2.0
+License-File: LICENSE
+Keywords: client,grpc,reflection
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: cryptography>=39.0.1
+Requires-Dist: google-api-core>=2.9.0
+Requires-Dist: grpcio-reflection>=1.53.0
+Requires-Dist: grpcio>=1.53.0
+Provides-Extra: dev
+Requires-Dist: gprcio-tools; extra == 'dev'
+Requires-Dist: grpc-stubs; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Requires-Dist: types-protobuf; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# rgprc
+
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+A simple to use, reflection only - grpc client.
+
+## Features
+
+- Make GRPC calls against reflection enabled servers
+
+## How to install
+
+``` shell
+pip install rgrpc
+```
+
+## How to use
+
+``` python
+try:
+    rgrpc_client = Client('localhost:50051')
+    response = rgprc_client.request('myserver.myservice', 'mymethod', {'field1':'value1'})
+except Exception as e:
+    logger.error(f"Failed to initialize rgrpc client: {e}")
+```
+
+## Developer Setup
+
+### Environment Setup
+
+1. `python3 -m venv /where/you/like/to/store/venvs`
+2. `source /venv/bin/activate`
+3. `pip install -r dev-requirements.txt`
+4. `pre-commit install`
+
+### Running tests
+
+Running `tests.sh` will execute the following actions:
+
+- `ruff check ./rgrpc` - will run the [ruff](https://docs.astral.sh/ruff/linter/) linter over core source files
+- `ruff format ./rgrpc` - will run the [ruff](https://docs.astral.sh/ruff/formatter/) formatter over core source files
+- `mypy rgprc/*.py` - will run [mypy](https://mypy.readthedocs.io/en/stable/getting_started.html) over core source files.
+- `pytest --cov=rgrpc tests/` - will run tests and generate a short coverage report
+
+## Maintainers
+
+- [ViridianForge](viridianforge.tech)

@@ -1,0 +1,7 @@
+rgrpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rgrpc/client.py,sha256=dOqZqcVkGWpzaHMLDBX518r2cbvECCNLpbELQTRlOu0,3470
+rgrpc/reflected_method.py,sha256=hOzUTSspAstsfNOL3T33x6MLn0UhJUnw6gTH3fdzWkw,2975
+rgprc-2023.11.12.dist-info/METADATA,sha256=JP30WN_tB1iq63NrC8ExYqRCr_-g8gd7gY0PcZa2vXQ,2556
+rgprc-2023.11.12.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+rgprc-2023.11.12.dist-info/licenses/LICENSE,sha256=wzdYU7MYtG6S_0www7PsGHgNjXLYhHUWudDU3JF9cYk,10266
+rgprc-2023.11.12.dist-info/RECORD,,
