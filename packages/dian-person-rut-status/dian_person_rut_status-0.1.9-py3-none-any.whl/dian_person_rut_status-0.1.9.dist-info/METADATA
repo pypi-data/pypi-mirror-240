@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: dian-person-rut-status
+Version: 0.1.9
+Summary: A little implementation to search the rut status from a person on Dian's public website muisca.dian.gov.co
+Home-page: https://github.com/arieljperez/dian_person_rut_status.git
+License: MIT
+Keywords: rut,dian,nit,muisca
+Author: arieljperez
+Author-email: ariel.perez.ti@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/arieljperez/dian_person_rut_status.git
+Description-Content-Type: text/markdown
+
+# 🔎 Get Person's DIAN Rut Status by TIN 📑🇨🇴
+
+ ![PyPi version](https://badgen.net/pypi/v/dian-person-rut-status/)
+
+This module allows you to retrieve a person's DIAN RUT status by providing their TIN (NIT in Spanish) through [DIAN's public official website](https://muisca.dian.gov.co/WebRutMuisca/DefConsultaEstadoRUT.faces). It is implemented as a function that operates synchronously within the [requests library](https://requests.readthedocs.io/en/latest/). Currently, it is an early version of the Minimum Viable Product (MVP) and is ready to be used.
+
+
+## DIAN Public official site
+The public oficial can be [found here](https://muisca.dian.gov.co/WebRutMuisca/DefConsultaEstadoRUT.faces).
+
+## Installation
+
+```bash
+pip install dian_person_rut_status
+```
+
+## Usage
+
+Once the package is installed.
+
+```python
+from dian_person_rut_status import muisca
+
+
+person_rut_status = muisca.get_person_rut_status(tin="Colombian Person TIN")
+```
+
+The __'tin'__ in this context refers to the __Colombia Unique Taxpayer Number__, a unique identifier assigned to individuals obligated to pay taxes. It is important to note that the __'tin'__ should be provided without its __check digit__
