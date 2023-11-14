@@ -1,0 +1,8 @@
+numpy==1.26.1
+pandas==2.1.2
+dask[complete]==2023.10.1
+xgboost==2.0.1
+PyYAML
+types-PyYAML
+pyarrow
+fastparquet
