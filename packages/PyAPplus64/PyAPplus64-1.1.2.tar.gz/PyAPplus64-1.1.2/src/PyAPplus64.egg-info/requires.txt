@@ -1,0 +1,9 @@
+pyodbc
+PyYAML
+SQLAlchemy
+pandas
+XlsxWriter
+zeep
+pysimplegui
+sqlparse
+sqlfmt
