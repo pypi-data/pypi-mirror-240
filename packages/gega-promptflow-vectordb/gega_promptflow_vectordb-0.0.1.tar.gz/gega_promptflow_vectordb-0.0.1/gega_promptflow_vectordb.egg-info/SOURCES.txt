@@ -1,0 +1,8 @@
+README.md
+setup.py
+gega_promptflow_vectordb.egg-info/PKG-INFO
+gega_promptflow_vectordb.egg-info/SOURCES.txt
+gega_promptflow_vectordb.egg-info/dependency_links.txt
+gega_promptflow_vectordb.egg-info/entry_points.txt
+gega_promptflow_vectordb.egg-info/requires.txt
+gega_promptflow_vectordb.egg-info/top_level.txt
