@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pazer.egg-info/PKG-INFO
+pazer.egg-info/SOURCES.txt
+pazer.egg-info/dependency_links.txt
+pazer.egg-info/requires.txt
+pazer.egg-info/top_level.txt
+pnzer/__init__.py
