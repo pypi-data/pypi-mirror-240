@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+Ascopy/Ascopy.py
+Ascopy/__init__.py
+Ascopy/copula.py
+Ascopy/stats_func.py
+Ascopy.egg-info/PKG-INFO
+Ascopy.egg-info/SOURCES.txt
+Ascopy.egg-info/dependency_links.txt
+Ascopy.egg-info/requires.txt
+Ascopy.egg-info/top_level.txt

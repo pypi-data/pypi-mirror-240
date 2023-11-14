@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Ascopy
+Version: 0.0.1
+Summary: A python package of Yuan et al.’s copula method.
+Author: Zunli Yuan
+Author-email: yzl@hunnu.edu.cn
+License: MIT
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy>=1.13
+Requires-Dist: scipy
+Requires-Dist: astropy
+Requires-Dist: emcee
+Requires-Dist: matplotlib
+Requires-Dist: h5py
+Requires-Dist: corner
+Requires-Dist: tqdm
+
+# Ascopy
+
+**Ascopy** is an MIT licensed Python package of Yuan et al.鈥檚 copula method.
+
