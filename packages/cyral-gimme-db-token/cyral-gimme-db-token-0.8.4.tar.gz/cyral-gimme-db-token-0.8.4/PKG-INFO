@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cyral-gimme-db-token
+Version: 0.8.4
+Summary: Eases using Cyral for SSO login to databases.
+Author: Cyral
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: awscli (>=1.22.55,<2.0.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: cryptography (>=39.0.1,<40.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Cyral Gimme DB Token
+
+The Cyral Gimme DB Token is a tool used for easing the process of SSO login to databases through the command line.
+
+## Deprecated
+This tool is **deprecated** and no longer valid with Cyral Control Plane version `4.12` or later. Please use the [Cyral CLI](https://pypi.org/project/cyral/) to retrieve tokens going forward.
+
