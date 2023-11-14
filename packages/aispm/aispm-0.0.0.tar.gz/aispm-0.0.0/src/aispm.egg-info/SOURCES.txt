@@ -1,0 +1,7 @@
+pyproject.toml
+src/aispm/__init__.py
+src/aispm/main.py
+src/aispm.egg-info/PKG-INFO
+src/aispm.egg-info/SOURCES.txt
+src/aispm.egg-info/dependency_links.txt
+src/aispm.egg-info/top_level.txt
