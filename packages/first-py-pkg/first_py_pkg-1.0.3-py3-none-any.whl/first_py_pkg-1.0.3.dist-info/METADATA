@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: first-py-pkg
+Version: 1.0.3
+Summary: My first python package
+Home-page: https://github.com/Liza337/MyML
+Author: Liza Akter
+Author-email: jucse28.337@gmail.com
+License: MIT license
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: gradio
+
+# My ML project
+
+this is my first ml project
+
+# Long Description
+This is my first ml project.In this project we will setup python package and then publish it .
