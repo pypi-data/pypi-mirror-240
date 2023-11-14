@@ -1,0 +1,30 @@
+{
+  "description": "Implementation library for OpenID Connect clients and servers.",
+  "author": "Cochise Ruhulessin",
+  "author_email": "cochiseruhulessin@gmail.com",
+  "url": "https://gitlab.com/unimatrixone",
+  "licenses": "Proprietary",
+  "install_requires": [
+    "cel-python",
+    "pydantic>2"
+  ],
+  "classifiers": [
+     "Development Status :: 4 - Beta",
+     "Intended Audience :: Developers",
+     "Intended Audience :: Financial and Insurance Industry",
+     "Intended Audience :: Healthcare Industry",
+     "License :: Other/Proprietary License",
+     "Operating System :: POSIX",
+     "Operating System :: POSIX :: Linux",
+     "Programming Language :: Python :: 3.11",
+     "Programming Language :: Python :: 3.12",
+     "Programming Language :: Python :: 3 :: Only",
+     "Topic :: Internet",
+     "Topic :: Internet :: WWW/HTTP :: Session",
+     "Topic :: Office/Business",
+     "Topic :: Security",
+     "Topic :: Security :: Cryptography",
+     "Topic :: Software Development :: Libraries",
+     "Topic :: Software Development :: User Interfaces"
+  ]
+}

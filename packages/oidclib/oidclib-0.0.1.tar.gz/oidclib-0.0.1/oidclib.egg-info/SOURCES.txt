@@ -1,0 +1,10 @@
+MANIFEST.in
+VERSION
+setup.py
+oidclib/__init__.py
+oidclib/package.json
+oidclib.egg-info/PKG-INFO
+oidclib.egg-info/SOURCES.txt
+oidclib.egg-info/dependency_links.txt
+oidclib.egg-info/requires.txt
+oidclib.egg-info/top_level.txt
