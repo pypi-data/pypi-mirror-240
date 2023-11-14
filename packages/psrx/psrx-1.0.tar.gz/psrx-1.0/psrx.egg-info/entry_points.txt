@@ -1,0 +1,2 @@
+[console_scripts]
+psrx = srx_script.main_script:main
