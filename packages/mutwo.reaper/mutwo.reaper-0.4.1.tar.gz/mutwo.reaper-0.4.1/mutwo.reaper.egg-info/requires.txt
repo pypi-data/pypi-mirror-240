@@ -1,0 +1,4 @@
+mutwo.core<2.0.0,>=0.61.4
+
+[testing]
+pytest>=7.1.1
