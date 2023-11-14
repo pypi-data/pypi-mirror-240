@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: easy-pip-gui
+Version: 1.1.2
+Summary: An easy pip GUI
+Home-page: https://github.com/Fawn06220/Easy-pip-gui
+Download-URL: https://github.com/Fawn06220/Easy-pip-gui/archive/v_1.0.tar.gz
+Author: François Garbez
+Author-email: fawn06220@gmail.com
+License: MIT
+Keywords: python,pip,gui
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: wxpython
+Requires-Dist: pip-api
+Requires-Dist: pip-review
+
+Hi all !
+
+I made an easy GUI to use PIP, there are some cool functionnalities :
+
+- Type a library name in the field to install it
+- Possibility to list librairies
+- Possibility to update all your libraries/or one at once
+- Possibility to uninstall last installed(e.g if mistake) or from a list of installed libs
+- You can listen to music o/ 
+
+USAGE : python -m easy-pip-gui
+
+-13/11/2023-
+I had to list librairies as URLs to be able to get mouse events over them...
+
+Enjoy ;)
+contact : fawn06220@gmail.com
