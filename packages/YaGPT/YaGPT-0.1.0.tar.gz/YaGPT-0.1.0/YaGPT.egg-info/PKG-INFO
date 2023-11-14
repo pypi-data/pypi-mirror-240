@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: YaGPT
+Version: 0.1.0
+Summary: This Python library provides a simple wrapper for interacting with Yandex Language Models, making it easy to send requests for text generation.
+Home-page: https://github.com/Artem174a/YaGPT_API_metods/
+Author: Artem Mot
+Author-email: artem174a@yandex.ru
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# YaGPT API
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+***
+
+This Python library provides a simple wrapper for interacting with Yandex Language Models, making it easy to send requests for text generation.
+
+## Features
+**Simplified Interaction:** Easily send requests to Yandex Language Models with just a few lines of code.
+
+**Error Handling:** Robust error handling for HTTP requests and unexpected errors.
+
+**Example Usage:** Included example for quick integration into your projects.
+
+**Source Code:** [GitHub](https://github.com/Artem174a/YaGPT_API_metods)
+
+## Installation
+
+```bash
+pip install YaGPT
+```
+
+## Usage
+```python
+from YaGPT import YaGPT, YaGPTException
+
+# Replace with your actual values
+folder_id = "your_folder_id"
+iam_token = "your_iam_token"
+
+# Create a LanguageModel instance
+lm = YaGPT(folder_id, iam_token)
+
+try:
+    # Send a request to the language model
+    result = lm.instruct(
+            model="general",
+            instruction_text="РќР°Р№РґРё РѕС€РёР±РєРё РІ С‚РµРєСЃС‚Рµ Рё РёСЃРїСЂР°РІСЊ РёС…",
+            request_text="Р›Р°РјРёРЅР°С‚ РїРѕРґРѕР№РґРµС‚ РґР»СЏ СѓРєР»Р°РґРєРµ РЅР° РєСѓС…РЅРµ РёР»Рё РІ РґРµС‚СЃРєРѕР№ РєРѕРјРЅР°С‚Рµ",
+            max_tokens=1500,
+            temperature=0.6)
+
+    if result:
+        for alternative in result:
+            print(f"Generated Text: {alternative['text']}")
+            print(f"Score: {alternative['score']}")
+            print(f"Number of Tokens: {alternative['num_tokens']}")
+            print()
+except YaGPTException as e:
+    print(f"Language Model Error: {e}")
+```

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+YaGPT/__init__.py
+YaGPT.egg-info/PKG-INFO
+YaGPT.egg-info/SOURCES.txt
+YaGPT.egg-info/dependency_links.txt
+YaGPT.egg-info/requires.txt
+YaGPT.egg-info/top_level.txt
