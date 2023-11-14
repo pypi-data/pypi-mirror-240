@@ -1,0 +1,2 @@
+[console_scripts]
+docker_overdose = docker_overdose.__main__:main
