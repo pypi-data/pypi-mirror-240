@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "list-test-poetry"
+version = "0.1.0"
+description = ""
+authors = ["cybernight"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^7.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+message = "list_test_poetry:message"
