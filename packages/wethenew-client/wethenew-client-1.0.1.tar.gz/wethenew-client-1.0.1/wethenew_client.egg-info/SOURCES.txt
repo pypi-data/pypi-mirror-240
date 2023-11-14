@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+wethenew/__init__.py
+wethenew/__version__.py
+wethenew/_helpers.py
+wethenew/_http_manager.py
+wethenew/_proxy_manager.py
+wethenew/main.py
+wethenew/models.py
+wethenew_client.egg-info/PKG-INFO
+wethenew_client.egg-info/SOURCES.txt
+wethenew_client.egg-info/dependency_links.txt
+wethenew_client.egg-info/requires.txt
+wethenew_client.egg-info/top_level.txt
