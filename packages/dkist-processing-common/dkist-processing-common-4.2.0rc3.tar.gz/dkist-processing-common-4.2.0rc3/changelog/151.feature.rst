@@ -1,0 +1,1 @@
+Add `TaskName` enum that holds the strings related to specific IP task types. Also add corresponding tags (e.g., `Tag.task_dark()`).

@@ -1,0 +1,1 @@
+Add `auto_squeeze` kwarg to `fits_array_decoder` to match behavior of `FitsAccessBase` objects. This kwarg squeezes out dummy WCS dimensions present in raw summit data.

@@ -1,0 +1,1 @@
+Greatly improve speed of parsing by intelligently caching the `Stem.petals` property.

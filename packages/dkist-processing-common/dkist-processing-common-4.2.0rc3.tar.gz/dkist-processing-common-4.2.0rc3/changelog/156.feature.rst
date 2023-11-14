@@ -1,0 +1,1 @@
+Add standardized wavelength-aware mixin that can be used to add wavelength-dependent parsing to `ParameterBase` subclasses.

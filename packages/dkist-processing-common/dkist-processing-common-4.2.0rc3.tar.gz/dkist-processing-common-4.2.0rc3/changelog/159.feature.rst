@@ -1,0 +1,1 @@
+Add `angle_round_ndigits` kwarg to `CSStep` object that specifies the desired precision when matching the angles of GOS optics. The default rounding amount has also been changed from 3 digits to 1 digit (tenth's place).
