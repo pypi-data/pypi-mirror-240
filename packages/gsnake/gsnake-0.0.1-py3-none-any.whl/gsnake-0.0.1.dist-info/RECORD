@@ -1,0 +1,10 @@
+gsnake/__init__.py,sha256=1ODgAzr6_drGkdMnY4nrbtaqMICkl7lUet1UuWdgCL8,54
+gsnake/__main__.py,sha256=X8HVLa6wvK8GbxftAP2sqzV5qAESgEnTvHSXUkLYzeI,88
+gsnake/bg.jpg,sha256=nMfrS7GDhB6zweHSWhN21Tk0lgmlWRJllkCGqt3lc0M,325612
+gsnake/config.py,sha256=RoOcVCt2AhxtbxntOKbNaJXhYYZ1AJ2tUj3bt0TC_rg,872
+gsnake/main.py,sha256=Sga_y4yM_l7q7BdAPXFneAjKqXkp4gzk8_bX5RbSlcM,6522
+gsnake/music.mp3,sha256=JsS338WHmb1XiUllcMAanZqU9ATxlCqE6RTN1wbYWig,4594825
+gsnake-0.0.1.dist-info/METADATA,sha256=qYZI39_cOQfjv80qvnJCCHurp0HluhqYC0CNVc2_bsE,13000
+gsnake-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+gsnake-0.0.1.dist-info/licenses/LICENSE.txt,sha256=WYmcYJG1QFgu1hfo7qrEkZ3Jhcz8NUWe6XUraZvlIFs,10172
+gsnake-0.0.1.dist-info/RECORD,,
