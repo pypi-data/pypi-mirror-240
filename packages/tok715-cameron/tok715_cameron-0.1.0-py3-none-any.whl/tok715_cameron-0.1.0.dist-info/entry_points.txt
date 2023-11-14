@@ -1,0 +1,3 @@
+[console_scripts]
+tok715-cameron=cameron:cli
+
