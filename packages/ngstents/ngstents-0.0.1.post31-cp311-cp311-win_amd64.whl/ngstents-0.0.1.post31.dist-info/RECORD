@@ -1,0 +1,13 @@
+ngstents-0.0.1.post31.data/data/ngstents/__init__.py,sha256=WLHrDA0Q8t6M01P4JAFXUHSMJXuqohXQnlvt3gy7pKE,382
+ngstents-0.0.1.post31.data/data/ngstents/_pytents.lib,sha256=zvWyHxY3RQl0WmIDWYTpLb-IbN0KiCnLeHQ0tQ2uSPs,61972
+ngstents-0.0.1.post31.data/data/ngstents/_pytents.pyd,sha256=BlBiC73-fWgxysqAjgQ-989pruwVrvEVU-WNRk0rRQo,368128
+ngstents-0.0.1.post31.data/data/ngstents/conslaw/__init__.py,sha256=ONL7U7apbWZdk3RG4yB3dH9LQ9F_yJLFFrtj8lRBbsM,2122
+ngstents-0.0.1.post31.data/data/ngstents/conslaw/_pyconslaw.lib,sha256=uCuxQbyspiPaQfgnl0Tar4-QMiQo5ViWo8KQqq7PkY0,46216
+ngstents-0.0.1.post31.data/data/ngstents/conslaw/_pyconslaw.pyd,sha256=5P78CNsoF8kz-pAGykgOI1pCBectxjdfepd-eBDwaTk,2372608
+ngstents-0.0.1.post31.data/data/ngstents/utils/__init__.py,sha256=t6uHBvhW15jYlOpLElrjpcHWnMLBdBYTKDFGe3UUcWY,126
+ngstents-0.0.1.post31.data/data/ngstents/utils/_drawtents.py,sha256=8bKgsTuvWIgTLMvdqNGa6cPTl2xjOZ4yv-gCaXtVhPw,1682
+ngstents-0.0.1.post31.data/data/ngstents/utils/_drawtents2d.py,sha256=w6CBwI2IYQNGy2eqqqG0Fp3PfmQXpdgZS2rX75gEi7s,3939
+ngstents-0.0.1.post31.dist-info/METADATA,sha256=NXxZXFaa8iyhXTbQ404Toizh6TlAMzCuFZQDtmzVxCY,658
+ngstents-0.0.1.post31.dist-info/WHEEL,sha256=9ByyFbAKRuZM0nkWrpkFQLsIGf3j6YNyNngZGkU79fI,96
+ngstents-0.0.1.post31.dist-info/top_level.txt,sha256=XAbFqsacDng6-GJTWCGHeI4JIVUVx86V2VBPSv--mWE,9
+ngstents-0.0.1.post31.dist-info/RECORD,,
