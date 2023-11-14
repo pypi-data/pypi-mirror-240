@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: soongsil-migyeong
+Version: 0.0.1
+Summary: PyPI를 활용한 패키지 배포 과정 알아보기 (tutorial)
+Home-page: https://github.com/diayoak/soongsil-migyeong
+Author: Junwon Moon
+Author-email: diayoak@kakao.com
+Keywords: soongsil,migyeong
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+# 숭실대학교 미디어경영학과
+
+패키지 배포 Study를 목적으로 만들었습니다.
