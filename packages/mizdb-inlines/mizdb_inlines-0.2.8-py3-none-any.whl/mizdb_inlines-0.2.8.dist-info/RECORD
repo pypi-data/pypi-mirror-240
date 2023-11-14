@@ -1,0 +1,11 @@
+mizdb_inlines/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mizdb_inlines/renderers.py,sha256=ULvITMvLcsYjWwznVI8nVvz8TjRuTGaNg-XczEAtN9Y,8259
+mizdb_inlines/views.py,sha256=00jNfkBeqaKzJIbl5th5TaCxHLOdr-M0xgXEyop2plA,2661
+mizdb_inlines/static/mizdb_inlines/js/mizdb_inlines.js,sha256=elIBkwf7B7x3NiHEblpyy86LnZVlbYVtYXux9ojynus,5998
+mizdb_inlines/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mizdb_inlines/templatetags/mizdb_inlines.py,sha256=h3Lc38OC4I2TJtn8gsDUzjaLhf_1XX0Pd_QrtwIwMcU,241
+mizdb_inlines-0.2.8.dist-info/LICENSE,sha256=XZvR_Ch0YrxQWLuKyHJ_MNgAjiN6c59Qak9Ev1WllaU,1070
+mizdb_inlines-0.2.8.dist-info/METADATA,sha256=byCvPULdVUZFRNzhSTw5vk7hnX6rF1h0be-td0MNaRQ,3773
+mizdb_inlines-0.2.8.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+mizdb_inlines-0.2.8.dist-info/top_level.txt,sha256=qqwu2J2sngN4tZfKjS8y4aU4W3fOkmQOVTAtG6L8BNU,14
+mizdb_inlines-0.2.8.dist-info/RECORD,,
