@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: RSree
+Version: 0.0.2
+Summary: It is basic library that contains some functions related to ML and some Functions that are very useful in codes
+Author: Rahul Sree Manitha
+Author-email: <m.rahulsree1122@gmail.com>
+Keywords: python,ml,RunOne,RunOneTimeinLoop
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
