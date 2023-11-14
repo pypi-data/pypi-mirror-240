@@ -1,0 +1,3 @@
+[console_scripts]
+message=list_test_poetry:message
+
