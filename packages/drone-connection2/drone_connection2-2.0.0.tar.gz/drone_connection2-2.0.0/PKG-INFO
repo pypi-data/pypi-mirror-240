@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: drone_connection2
+Version: 2.0.0
+Summary: Drone connection
+Home-page: UNKNOWN
+Author: RAKOTONIAINA Harry Yves
+Author-email: iharrysh.rakotoniaina@gmail.com
+License: @H._T Free
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10, <3.11
+Description-Content-Type: text/markdown
+
+## Usage
+
+*. **Import packages:**
+
+    ```python
+
+    from drone_connection import DroneConnection
+
+    # Create a drone connection instance
+    drone = DroneConnection(address='127.0.0.1', port=14550)
+
+    # Connect to the drone
+    drone.connect()
+
+    # Send a command to the drone
+    drone.send_command('takeoff')
+
+    # Receive data from the drone
+    drone.receive_data()
+
+    # Disconnect from the drone
+    drone.disconnect()
+

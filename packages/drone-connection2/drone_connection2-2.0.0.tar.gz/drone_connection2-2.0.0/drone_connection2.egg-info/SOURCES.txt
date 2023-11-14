@@ -1,0 +1,6 @@
+README.md
+setup.py
+drone_connection2.egg-info/PKG-INFO
+drone_connection2.egg-info/SOURCES.txt
+drone_connection2.egg-info/dependency_links.txt
+drone_connection2.egg-info/top_level.txt
