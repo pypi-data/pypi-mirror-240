@@ -1,0 +1,11 @@
+#!/bin/sh
+# Builds the frontend for production
+
+# Stop on errors
+export NODE_OPTIONS="--max_old_space_size=6144"
+set -e
+
+cd "$(dirname "$0")/.."
+
+npx update-browserslist-db@latest
+./node_modules/.bin/gulp build-app
