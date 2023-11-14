@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pywaybackup.egg-info/PKG-INFO
+pywaybackup.egg-info/SOURCES.txt
+pywaybackup.egg-info/dependency_links.txt
+pywaybackup.egg-info/entry_points.txt
+pywaybackup.egg-info/requires.txt
+pywaybackup.egg-info/top_level.txt
+waybackup/__init__.py
+waybackup/archive.py
+waybackup/waybackup.py

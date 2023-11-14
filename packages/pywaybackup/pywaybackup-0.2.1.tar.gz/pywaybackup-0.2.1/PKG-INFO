@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pywaybackup
+Version: 0.2.1
+Summary: Download snapshots from the Wayback Machine
+Home-page: https://github.com/bitdruid/waybackup
+Author: bitdruid
+Author-email: bitdruid@outlook.com
+License: MIT
+Keywords: wayback machine internet archive
+License-File: LICENSE
