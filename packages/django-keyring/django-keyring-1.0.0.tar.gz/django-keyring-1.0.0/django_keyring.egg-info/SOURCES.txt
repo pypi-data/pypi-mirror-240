@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_keyring.egg-info/PKG-INFO
+django_keyring.egg-info/SOURCES.txt
+django_keyring.egg-info/dependency_links.txt
+django_keyring.egg-info/requires.txt
+django_keyring.egg-info/top_level.txt
