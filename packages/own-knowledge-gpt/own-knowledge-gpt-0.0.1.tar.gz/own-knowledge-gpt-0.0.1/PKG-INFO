@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: own-knowledge-gpt
+Version: 0.0.1
+Summary: autoML for training and inference Deep Learning model
+Home-page: https://huggingface.co/myn0908
+Author: TinVo
+Author-email: tinprocoder0908@gmail.com
+License: MIT
+Keywords: AI HACKER VNESE,AI,autoGPT,Deep Learning,LLM,Interface
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
