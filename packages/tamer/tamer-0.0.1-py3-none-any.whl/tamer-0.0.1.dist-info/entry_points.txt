@@ -1,0 +1,2 @@
+[console_scripts]
+tamer = src.tamer.cli:main

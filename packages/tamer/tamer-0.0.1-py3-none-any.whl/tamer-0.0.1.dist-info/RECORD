@@ -1,0 +1,9 @@
+tamer/__init__.py,sha256=x8DIMbVHeV6gTkxCjT9Oy71z4t-FvVNAPmY-xHEBBiI,226
+tamer/cli.py,sha256=MJ3yyAUkUMKfTdTAwBtaMJG_b4MdKOdXymPj2qN80gc,318
+tamer/configs.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tamer/utils.py,sha256=JSd2ZSkSZ4auQt5sGRsAl5yYmBub5ghYEc3hHhwlDBk,368
+tamer-0.0.1.dist-info/METADATA,sha256=Ifop78ZupBdFh9rAibydRWEJO27WR1m9Q0qDk61JTsc,2087
+tamer-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+tamer-0.0.1.dist-info/entry_points.txt,sha256=lYKAvuzqNQZobedOcty3VA4vwAu2iSv93edq78ajFl8,45
+tamer-0.0.1.dist-info/licenses/LICENSE,sha256=dmYOKGkZBeHA5EeMSi8FhJNy1sqpMD-A5xtq803QiCA,1071
+tamer-0.0.1.dist-info/RECORD,,
