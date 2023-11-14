@@ -1,0 +1,5 @@
+[console_scripts]
+gega_promptflow_vectordb_service = gega_promptflow_vectordb.service.server.rest.app:main
+
+[package_tools]
+gega_promptflow_vectordb_tools = gega_promptflow_vectordb.tool.tools_manager:list_package_tools
