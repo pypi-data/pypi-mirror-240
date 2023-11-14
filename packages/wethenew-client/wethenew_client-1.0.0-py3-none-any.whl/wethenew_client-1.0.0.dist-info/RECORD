@@ -1,0 +1,12 @@
+wethenew/__init__.py,sha256=BCTjDRd-3YnCQJSRw0NPoqSFlo0UeUQgOiWbRCBFaR4,85
+wethenew/__version__.py,sha256=rENGjyocQadePnkG831OnX6cs6l3Lh5XhmlXjjYGBLo,397
+wethenew/_helpers.py,sha256=hPZUGaqELCxHex-NDPiwY_3hMIrVNyt1bH-7BuBp5Mk,405
+wethenew/_http_manager.py,sha256=QCURNQnYNfiW90_H0AkO2dltuIx2-9h-404P7o8vx2s,7459
+wethenew/_proxy_manager.py,sha256=79iy1vgM0mKfl0bLgT2Ez9Qp9feGGbdYzH4VRuFFIpE,1300
+wethenew/main.py,sha256=iEte4VeH73609GCTtp_TiMKq8gJ8pwkOYl2slnxVl_E,2994
+wethenew/models.py,sha256=7lhtV61-1dHFwWznvXD8A9pU1oLx0tv4l_QPDacm-AU,101
+wethenew_client-1.0.0.dist-info/LICENSE,sha256=HjrT7C9j4F2doYZhUOefQywwYL-pccjsaNSXaUwCLrI,1060
+wethenew_client-1.0.0.dist-info/METADATA,sha256=RNYDBJ1G2e0FgLkq1MwBm6vczc8gVBI6mpFJHglURQw,3552
+wethenew_client-1.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+wethenew_client-1.0.0.dist-info/top_level.txt,sha256=uX-FTIT4Euex5QOSOZKHzm3_GqnZfiUiDACXMDV2rio,9
+wethenew_client-1.0.0.dist-info/RECORD,,
