@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mewo-http-client"
+version = "0.1.0"
+description = ""
+authors = ["feluxe <felix@meyerwolters.de>"]
+readme = "README.md"
+packages = [
+    { include = "mewo_http_client"},
+]
+exclude = ["tests"]
+
+[tool.poetry.scripts]
+mewo-http-client-post-json = 'mewo_http_client.cli:post_json'
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
