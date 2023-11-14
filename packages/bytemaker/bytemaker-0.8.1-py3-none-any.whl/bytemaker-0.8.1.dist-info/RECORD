@@ -1,0 +1,13 @@
+bytemaker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bytemaker/aggregate_types.py,sha256=UF5hm56FwcQVPbdLjGVg0eY8re63-3m96BjYnriE5oY,14059
+bytemaker/bits.py,sha256=inrfsl0LJVakS-4ssWe20yzqYTmRn1LBopp3_2GfslE,13926
+bytemaker/utils copy.py,sha256=kGqeUTp2ghwqlXOYM4trtl4isKgdSMd3hh4cVN6azhg,4292
+bytemaker/utils.py,sha256=XNSO82WDJdv5T7KdrlOCTbywg63o_V5fD5YvauL5ZrI,4399
+bytemaker/ytypes.py,sha256=O6Q6Wum9RejnUFGnkjsJe2IOQT3fjPmy44EtbTvFV80,29465
+bytemaker/native_types/ctypes_.py,sha256=3_ErFMs5PLdfX4hQatEZm4k0ijwIFJjj29X541BQt20,4800
+bytemaker/native_types/pytypes.py,sha256=0onzRrhW_mQ5p0Ton0XqadHmsgqo6JxG3ilK8Esrbwg,10020
+bytemaker-0.8.1.dist-info/LICENCE.md,sha256=LbdzFIE427zMCS6nX_EgrflNtr1cCt7muaw8V4ko2FY,1308
+bytemaker-0.8.1.dist-info/METADATA,sha256=ygsWb9Zl8fP06TEpKIgnTowjcJ6LGvt2QZyX8XXZDYI,2786
+bytemaker-0.8.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+bytemaker-0.8.1.dist-info/top_level.txt,sha256=TRznQyfoz9lkfSEQi6hP-kOpqehKIhHuFD_euEiDW0Y,10
+bytemaker-0.8.1.dist-info/RECORD,,
