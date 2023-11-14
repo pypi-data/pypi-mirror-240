@@ -1,0 +1,9 @@
+rabbitmq_api_client-0.0.3.dist-info/METADATA,sha256=xFO6v5PxDA-dNH2Kl_QoLIx_cNCc6RLCeYHd7WNXtC0,1184
+rabbitmq_api_client-0.0.3.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+rabbitmq_api_client-0.0.3.dist-info/licenses/LICENCE,sha256=_TzrqYKPib_JUr7vn0u6CqNYqThnYWxHLvCzAdYeCDk,1057
+rabbitmq_api_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rabbitmq_api_client/base.py,sha256=wvU5Vam5msz5CFN3kNkQ6ta5jzyr1_DrMUOY5fTZz4A,1201
+rabbitmq_api_client/client.py,sha256=XA0rP-sPCP7NdairdX1QRsvxYpPW8yvhU45LGgC6ovM,4904
+rabbitmq_api_client/exceptions.py,sha256=z0xvKGsAPSBNAKd0IW2JRewxkrz-ITq1NVKEBH3QQ20,470
+rabbitmq_api_client/schemas.py,sha256=ZM78OHysBs9vHXDq2J1p6ihzjGRVrRZzvNXIouZ6kgw,1544
+rabbitmq_api_client-0.0.3.dist-info/RECORD,,
