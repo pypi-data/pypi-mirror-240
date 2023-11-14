@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: graphixlite
+Version: 0.0.1rc0
+Summary: Fully object-oriented game engine for Python
+Author-email: Oskar Raszkiewicz <oskar.raszkiewicz@proton.me>
+Project-URL: Homepage, https://github.com/oskarraszkiewicz/graphixlite
+Project-URL: Bug Tracker, https://github.com/oskarraszkiewicz/graphixlite/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GraphixLite
+
+GraphixLite is a game engine written in Python.
+
+**Work-in-progress**
