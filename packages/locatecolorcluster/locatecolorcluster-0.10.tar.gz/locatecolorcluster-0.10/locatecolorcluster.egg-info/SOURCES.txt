@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+locatecolorcluster/README.MD
+locatecolorcluster/__init__.py
+locatecolorcluster/requirements.txt
+locatecolorcluster/thirdparty.json
+locatecolorcluster.egg-info/PKG-INFO
+locatecolorcluster.egg-info/SOURCES.txt
+locatecolorcluster.egg-info/dependency_links.txt
+locatecolorcluster.egg-info/requires.txt
+locatecolorcluster.egg-info/top_level.txt

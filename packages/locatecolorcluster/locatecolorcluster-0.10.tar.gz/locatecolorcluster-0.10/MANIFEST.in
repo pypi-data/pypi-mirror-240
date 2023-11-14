@@ -1,0 +1,3 @@
+include locatecolorcluster/requirements.txt
+include locatecolorcluster/thirdparty.json
+include locatecolorcluster/README.MD

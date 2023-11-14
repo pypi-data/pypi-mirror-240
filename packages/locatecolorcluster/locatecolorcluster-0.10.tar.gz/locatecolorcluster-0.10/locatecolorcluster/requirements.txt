@@ -1,0 +1,10 @@
+Shapely
+a_cv2_easy_resize
+a_cv_imwrite_imread_plus
+cythoneuclideandistance
+locate_pixelcolor_c
+numexpr
+numpy
+opencv_python
+scikit_learn
+scipy
