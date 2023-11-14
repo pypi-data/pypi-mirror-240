@@ -1,0 +1,15 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/publish.yml
+src/trio_serial_windows/__init__.py
+src/trio_serial_windows/_windows.py
+src/trio_serial_windows/_windows_cffi.py
+src/trio_serial_windows.egg-info/PKG-INFO
+src/trio_serial_windows.egg-info/SOURCES.txt
+src/trio_serial_windows.egg-info/dependency_links.txt
+src/trio_serial_windows.egg-info/requires.txt
+src/trio_serial_windows.egg-info/top_level.txt
+test/test_rx_tx.py
