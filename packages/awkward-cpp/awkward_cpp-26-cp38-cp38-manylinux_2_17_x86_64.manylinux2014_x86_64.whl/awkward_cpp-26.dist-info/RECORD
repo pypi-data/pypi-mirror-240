@@ -1,0 +1,12 @@
+awkward_cpp/libawkward.py,sha256=G-B183PlScol-edd5zqcMmVfYyV4Q2XHCJElv1Oo_tU,8699
+awkward_cpp/__init__.py,sha256=malu6jtLO0A1MbePF1n7_OHQ7TWYMMRJA9gcjpFsEAs,196
+awkward_cpp/_kernel_signatures.py,sha256=O2eOZkCsTgveMmKD9Wn4rIKMZavFt9BA9OEVt8YsOTw,146884
+awkward_cpp/cpu_kernels.py,sha256=LmFjbEAKsyhV0Fxd57viFXA9Xs2oje5CfgAnoern2Jw,753
+awkward_cpp/lib/_ext.cpython-38-x86_64-linux-gnu.so,sha256=Kp5yv5XPOgOTXbJ5w8OYj01bnrjLW_6d-tVGwjAp1KE,381192
+awkward_cpp/lib/libawkward.so,sha256=aHGdAiWnHfFN3Cu8efpX2uALqxn9B_pjnb-19TlDy04,1307896
+awkward_cpp/lib/libawkward-cpu-kernels.so,sha256=VwZg29PIwFL-aXNsL0cjH69JwODZG-q_i9Uu9qXaF5M,855624
+awkward_cpp-26.dist-info/WHEEL,sha256=w2ygqTLTdHhIM4PYv6yc1_ffHRJS3ZxvCtBOfxnJy2Y,151
+awkward_cpp-26.dist-info/RECORD,,
+awkward_cpp-26.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awkward_cpp-26.dist-info/METADATA,sha256=MpMM_j6ZdyntI0-PebqMdqBoUoUFHbzAKTW0gSGJbXE,2203
+awkward_cpp-26.dist-info/licenses/LICENSE,sha256=8F5OAD_PpZAb4NOYgFqGU6oelSEEM-AOiaTFUoSRtOY,1520
