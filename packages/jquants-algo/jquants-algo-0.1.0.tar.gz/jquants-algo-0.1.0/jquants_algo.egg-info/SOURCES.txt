@@ -1,0 +1,11 @@
+LICENCE.txt
+README.md
+pyproject.toml
+jquants_algo/__init__.py
+jquants_algo/algo.py
+jquants_algo.egg-info/PKG-INFO
+jquants_algo.egg-info/SOURCES.txt
+jquants_algo.egg-info/dependency_links.txt
+jquants_algo.egg-info/requires.txt
+jquants_algo.egg-info/top_level.txt
+tests/test_algo.py

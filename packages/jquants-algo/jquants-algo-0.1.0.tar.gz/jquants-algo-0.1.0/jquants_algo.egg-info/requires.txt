@@ -1,0 +1,7 @@
+jquants-api-client
+matplotlib
+
+[dev]
+pytest
+pytest-cov
+pytest-mock
