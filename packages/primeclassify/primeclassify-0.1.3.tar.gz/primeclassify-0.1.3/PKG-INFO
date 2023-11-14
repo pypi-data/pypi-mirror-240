@@ -1,0 +1,247 @@
+Metadata-Version: 2.1
+Name: primeclassify
+Version: 0.1.3
+Summary: Library of functions to classify prime numbers
+Author: Rich Holmes
+Author-email: Rich Holmes <rs.holmes@gmail.com>
+License: Creative Commons Legal Code
+        
+        CC0 1.0 Universal
+        
+            CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+            LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+            ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+            INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+            REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+            PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+            THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+            HEREUNDER.
+        
+        Statement of Purpose
+        
+        The laws of most jurisdictions throughout the world automatically confer
+        exclusive Copyright and Related Rights (defined below) upon the creator
+        and subsequent owner(s) (each and all, an "owner") of an original work of
+        authorship and/or a database (each, a "Work").
+        
+        Certain owners wish to permanently relinquish those rights to a Work for
+        the purpose of contributing to a commons of creative, cultural and
+        scientific works ("Commons") that the public can reliably and without fear
+        of later claims of infringement build upon, modify, incorporate in other
+        works, reuse and redistribute as freely as possible in any form whatsoever
+        and for any purposes, including without limitation commercial purposes.
+        These owners may contribute to the Commons to promote the ideal of a free
+        culture and the further production of creative, cultural and scientific
+        works, or to gain reputation or greater distribution for their Work in
+        part through the use and efforts of others.
+        
+        For these and/or other purposes and motivations, and without any
+        expectation of additional consideration or compensation, the person
+        associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+        is an owner of Copyright and Related Rights in the Work, voluntarily
+        elects to apply CC0 to the Work and publicly distribute the Work under its
+        terms, with knowledge of his or her Copyright and Related Rights in the
+        Work and the meaning and intended legal effect of CC0 on those rights.
+        
+        1. Copyright and Related Rights. A Work made available under CC0 may be
+        protected by copyright and related or neighboring rights ("Copyright and
+        Related Rights"). Copyright and Related Rights include, but are not
+        limited to, the following:
+        
+          i. the right to reproduce, adapt, distribute, perform, display,
+             communicate, and translate a Work;
+         ii. moral rights retained by the original author(s) and/or performer(s);
+        iii. publicity and privacy rights pertaining to a person's image or
+             likeness depicted in a Work;
+         iv. rights protecting against unfair competition in regards to a Work,
+             subject to the limitations in paragraph 4(a), below;
+          v. rights protecting the extraction, dissemination, use and reuse of data
+             in a Work;
+         vi. database rights (such as those arising under Directive 96/9/EC of the
+             European Parliament and of the Council of 11 March 1996 on the legal
+             protection of databases, and under any national implementation
+             thereof, including any amended or successor version of such
+             directive); and
+        vii. other similar, equivalent or corresponding rights throughout the
+             world based on applicable law or treaty, and any national
+             implementations thereof.
+        
+        2. Waiver. To the greatest extent permitted by, but not in contravention
+        of, applicable law, Affirmer hereby overtly, fully, permanently,
+        irrevocably and unconditionally waives, abandons, and surrenders all of
+        Affirmer's Copyright and Related Rights and associated claims and causes
+        of action, whether now known or unknown (including existing as well as
+        future claims and causes of action), in the Work (i) in all territories
+        worldwide, (ii) for the maximum duration provided by applicable law or
+        treaty (including future time extensions), (iii) in any current or future
+        medium and for any number of copies, and (iv) for any purpose whatsoever,
+        including without limitation commercial, advertising or promotional
+        purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+        member of the public at large and to the detriment of Affirmer's heirs and
+        successors, fully intending that such Waiver shall not be subject to
+        revocation, rescission, cancellation, termination, or any other legal or
+        equitable action to disrupt the quiet enjoyment of the Work by the public
+        as contemplated by Affirmer's express Statement of Purpose.
+        
+        3. Public License Fallback. Should any part of the Waiver for any reason
+        be judged legally invalid or ineffective under applicable law, then the
+        Waiver shall be preserved to the maximum extent permitted taking into
+        account Affirmer's express Statement of Purpose. In addition, to the
+        extent the Waiver is so judged Affirmer hereby grants to each affected
+        person a royalty-free, non transferable, non sublicensable, non exclusive,
+        irrevocable and unconditional license to exercise Affirmer's Copyright and
+        Related Rights in the Work (i) in all territories worldwide, (ii) for the
+        maximum duration provided by applicable law or treaty (including future
+        time extensions), (iii) in any current or future medium and for any number
+        of copies, and (iv) for any purpose whatsoever, including without
+        limitation commercial, advertising or promotional purposes (the
+        "License"). The License shall be deemed effective as of the date CC0 was
+        applied by Affirmer to the Work. Should any part of the License for any
+        reason be judged legally invalid or ineffective under applicable law, such
+        partial invalidity or ineffectiveness shall not invalidate the remainder
+        of the License, and in such case Affirmer hereby affirms that he or she
+        will not (i) exercise any of his or her remaining Copyright and Related
+        Rights in the Work or (ii) assert any associated claims and causes of
+        action with respect to the Work, in either case contrary to Affirmer's
+        express Statement of Purpose.
+        
+        4. Limitations and Disclaimers.
+        
+         a. No trademark or patent rights held by Affirmer are waived, abandoned,
+            surrendered, licensed or otherwise affected by this document.
+         b. Affirmer offers the Work as-is and makes no representations or
+            warranties of any kind concerning the Work, express, implied,
+            statutory or otherwise, including without limitation warranties of
+            title, merchantability, fitness for a particular purpose, non
+            infringement, or the absence of latent or other defects, accuracy, or
+            the present or absence of errors, whether or not discoverable, all to
+            the greatest extent permissible under applicable law.
+         c. Affirmer disclaims responsibility for clearing rights of other persons
+            that may apply to the Work or any use thereof, including without
+            limitation any person's Copyright and Related Rights in the Work.
+            Further, Affirmer disclaims responsibility for obtaining any necessary
+            consents, permissions or other rights required for any use of the
+            Work.
+         d. Affirmer understands and acknowledges that Creative Commons is not a
+            party to this document and has no duty or obligation with respect to
+            this CC0 or use of the Work.
+        
+Project-URL: Homepage, https://gitlab.com/rsholmes/primeclassify
+Project-URL: Bug Tracker, https://gitlab.com/rsholmes/primeclassify/-/issues
+Keywords: primes,prime numbers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Freely Distributable
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# primeclassify
+
+A library of functions to classify prime numbers
+
+Each classification function takes an argument, `p`, which *is assumed
+to be a prime number*. There also are optional arguments `tout` and
+`store`. `tout` is the maximum processing time the function may take
+and `store` is the maximum number of data values it can store. These
+are self enforced. Some have additional optional arguments.
+
+Generally, classifications that depend on a number base assume base 10.
+
+Each returns one of:
+
+* `False` (`p` not a member of that classification), or
+* `None` (could not complete test), or
+* something other than `False` or `None` (`p` a member of that classification) — usually `True`, but sometimes additional information (such as, for twin primes,
+which primes it is a twin of)
+
+A return value of `None` may mean it is literally unknown whether `p` is in that classification, or just that the function doesn't know and doesn't care to find out. For example, the largest known Mersenne prime is M<sub>82,589,933</sub> = 2<sup>82,589,933</sup> − 1, but the `mer` function will return 'None' for any 'p' larger than M<sub>127</sub>.
+
+There are in addition a few utility functions.
+
+# Classification functions
+
+* `balanced (p, tout=0, stor=0)` [Balanced prime](https://en.wikipedia.org/wiki/Balanced_prime)
+* `chen (p, tout=0, stor=0)` [Chen prime](https://en.wikipedia.org/wiki/Chen_prime)
+* `circular (p, tout=0, stor=0)` [Circular prime](https://en.wikipedia.org/wiki/Circular_prime)
+* `cluster(p, tout=0, stor=0)` [Cluster prime](https://en.wikipedia.org/wiki/Cluster_prime)
+* `cousin(p, tout=0, stor=0)` [Cousin prime](https://en.wikipedia.org/wiki/Cousin_prime) (returns `False` or tuple of its cousins)
+* `cuban(p, tout=0, stor=0)` [Cuban prime](https://en.wikipedia.org/wiki/Cuban_prime) (returns `False` or (1 or 2 indicating which series))
+* `cullen(p, tout=0, stor=0)` [Cullen prime](https://en.wikipedia.org/wiki/Cullen_prime)
+* `delicate(p, tout=0, stor=0)` [Delicate prime](https://en.wikipedia.org/wiki/Delicate_prime)
+* `dihedral(p, tout=0, stor=0)` [Dihedral prime](https://en.wikipedia.org/wiki/Dihedral_prime)
+* `dbmer(p, tout=0, stor=0)` [Double Mersenne prime](https://en.wikipedia.org/wiki/Double_Mersenne_prime)
+* `emirp(p, tout=0, stor=0)` [Emirp](https://en.wikipedia.org/wiki/Emirp)
+* `even(p, tout=0, stor=0)` Even prime
+* `factorial(p, tout=0, stor=0)` [Factorial prime](https://en.wikipedia.org/wiki/Factorial_prime)
+* `fermat(p, tout=0, stor=0)` [Fermat prime](https://en.wikipedia.org/wiki/Fermat_number)
+* `fibo(p, tout=0, stor=0)` [Fibonacci prime](https://en.wikipedia.org/wiki/Fibonacci_prime)
+* `fortunate(p, tout=0, stor=0)` [Fortunate prime](https://en.wikipedia.org/wiki/Fortunate_prime)
+* `good(p, tout=0, stor=0)` [Good prime](https://en.wikipedia.org/wiki/Good_prime)
+* `happy(p, tout=0, stor=0)` [Happy prime](https://en.wikipedia.org/wiki/Happy_prime)
+* `higgs(p, expt=2, tout=0, stor=0)` [Higgs prime](https://en.wikipedia.org/wiki/Higgs_prime) with exponent `expt`
+* `lartrunc(p, tout=0, stor=0)` [Left-and-right-truncatable prime](https://en.wikipedia.org/wiki/Left-and-right-truncatable_prime)
+* `ltrunc(p, tout=0, stor=0)` [Left-truncatable prime](https://en.wikipedia.org/wiki/Left-truncatable_prime)
+* `lucas(p, tout=0, stor=0)` [Lucas prime](https://en.wikipedia.org/wiki/Lucas_prime)
+* `mer(p, tout=0, stor=0)` [Mersenne prime](https://en.wikipedia.org/wiki/Mersenne_prime)
+* `mills(p, tout=0, stor=0)` [Mills prime](https://en.wikipedia.org/wiki/Mills_prime)
+* `minimal(p, tout=0, stor=0)` [Minimal prime](https://en.wikipedia.org/wiki/Minimal_prime_(recreational_mathematics))
+* `motzkin(p, tout=0, stor=0)` [Motzkin prime](https://en.wikipedia.org/wiki/Motzkin_prime)
+* `nsw(p, tout=0, stor=0)` [Newman–Shanks–Williams prime](https://en.wikipedia.org/wiki/Newman%E2%80%93Shanks%E2%80%93Williams_prime)
+* `pal(p, tout=0, stor=0)` [Palindromic prime](https://en.wikipedia.org/wiki/Palindromic_prime)
+* `pell(p, tout=0, stor=0)` [Pell prime](https://en.wikipedia.org/wiki/Pell_prime)
+* `pelllucas(p, tout=0, stor=0)` [Pell-Lucas prime](https://en.wikipedia.org/wiki/Pell-lucas_prime)
+* `permutable(p, tout=0, stor=0)` [Permutable prime](https://en.wikipedia.org/wiki/Permutable_prime)
+* `pierpont(p, tout=0, stor=0)` [Pierpont prime](https://en.wikipedia.org/wiki/Pierpont_prime)
+* `pillai(p, tout=0, stor=0)` [Pillai prime](https://en.wikipedia.org/wiki/Pillai_prime)
+* `primequadruplet(p, tout=0, stor=0)` [Prime quadruplet prime](https://en.wikipedia.org/wiki/Prime_quadruplet) (returns `False` or tuple of triples of other three members of quadruplets)
+* `primetriplet(p, tout=0, stor=0)` [Prime triplet prime](https://en.wikipedia.org/wiki/Prime_triplet) (returns `False` or tuple of duples of other two members of triplets)
+* `primorial(p, tout=0, stor=0)` [Primorial prime](https://en.wikipedia.org/wiki/Primorial_prime)
+* `proth(p, tout=0, stor=0)` [Proth prime](https://en.wikipedia.org/wiki/Proth_prime)
+* `pyth(p, tout=0, stor=0)` [Pythagorean prime](https://en.wikipedia.org/wiki/Pythagorean_prime)
+* `quartan(p, tout=0, stor=0)` [Quartan prime](https://en.wikipedia.org/wiki/Quartan_prime)
+* `repu(p, tout=0, stor=0)` [Repunit prime](https://en.wikipedia.org/wiki/Repunit_prime)
+* `rtrunc(p, tout=0, stor=0)` [Right-truncatable prime](https://en.wikipedia.org/wiki/Right-truncatable_prime)
+* `safe(p, tout=0, stor=0)` [Safe prime](https://en.wikipedia.org/wiki/Safe_prime)
+* `sexy(p, tout=0, stor=0)` [Sexy prime](https://en.wikipedia.org/wiki/Sexy_prime) (returns `False` or tuple of its sexy partners. Yes, I said that.)
+* `sophie(p, tout=0, stor=0)` [Sophie Germain prime](https://en.wikipedia.org/wiki/Sophie_Germain_prime)
+* `strobe(p, tout=0, stor=0)` [Strobogrammatic prime](https://en.wikipedia.org/wiki/Strobogrammatic_number)
+* `strong(p, tout=0, stor=0)` [Strong prime](https://en.wikipedia.org/wiki/Strong_prime)
+* `superprime(p, tout=0, stor=0)` [Super-prime](https://en.wikipedia.org/wiki/Super-prime)
+* `supersing(p, tout=0, stor=0)` [Supersingular prime](https://en.wikipedia.org/wiki/Supersingular_prime_(moonshine_theory)) (of moonshine theory)
+* `twin(p, tout=0, stor=0)` [Twin prime](https://en.wikipedia.org/wiki/Twin_prime) (returns `False` or tuple of its twins.)
+* `wagstaff(p, tout=0, stor=0)` [Wagstaff prime](https://en.wikipedia.org/wiki/Wagstaff_prime)
+* `wief(p, tout=0, stor=0)` [Wieferich prime](https://en.wikipedia.org/wiki/Wieferich_prime)
+* `williams(p, b=3, tout=0, stor=0)` [Williams prime](https://en.wikipedia.org/wiki/Williams_number) (returns `False` or `n`)
+* `wilson(p, tout=0, stor=0)` [Wilson prime](https://en.wikipedia.org/wiki/Wilson_prime)
+* `wolsten(p, tout=0, stor=0)` [Wolstenhome prime](https://en.wikipedia.org/wiki/Wolstenholme_prime)
+* `woodall(p, tout=0, stor=0)` [Woodall prime](https://en.wikipedia.org/wiki/Woodall_prime)
+
+# Utility functions
+
+* `class_from_list (p, thelist, complete, limit=None)` Used internally
+* `describe(p, tout=0, stor=0, extras={higgs: (2,), williams: (3, 10)})` Returns a list of classifications passed by `p`. Functions are called with `tout=tout, stor=stor`. `extras` give limits for additional arguments.
+* `test_classify (fn, limit1, limit2=-1, tout=0, stor=0, extra=None)` Calls function `fn` for primes `p` in range [2, limit1] or [limit1, limit2], with `tout=tout, stor=stor`, and prints results. `extra` is extra argument for functions that take one.
+
+# Classifications not included
+
+These are not integer primes:
+
+* [Eisenstein prime](https://en.wikipedia.org/wiki/Eisenstein_integer#Eisenstein_primes)
+* [Gaussian prime](https://en.wikipedia.org/wiki/Gaussian_prime)
+
+These are just too hard for me to code!
+
+* [Full reptend prime](https://en.wikipedia.org/wiki/Full_reptend_prime)
+* [Genocchi prime](https://en.wikipedia.org/wiki/Genocchi_prime)
+* [Highly cototient prime](https://en.wikipedia.org/wiki/Highly_cototient_prime)
+* [Lucky prime](https://en.wikipedia.org/wiki/Lucky_prime)
+* [Ramanujan prime](https://en.wikipedia.org/wiki/Ramanujan_prime)
+* [Regular (and irregular) prime](https://en.wikipedia.org/wiki/Regular_prime)
+* [Supersingular prime](https://en.wikipedia.org/wiki/Supersingular_prime_(algebraic_number_theory)) (of algebraic number theory)
+* [Wall-Sun-Sun prime](https://en.wikipedia.org/wiki/Wall%E2%80%93Sun%E2%80%93Sun_prime)
+
+----
+
+Author: Rich Holmes  
+Source repository: https://gitlab.com/rsholmes/primeclasses
