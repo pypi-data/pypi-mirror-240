@@ -1,0 +1,9 @@
+prefect_ray/__init__.py,sha256=MdzglqlJiNdbpIJOtTPEb-x5AXfNwdKIbw8Dhh1X-6A,123
+prefect_ray/_version.py,sha256=JZwvqikDfCCwKiKZACTJ5bAWVh46IypQyVgYlcN4in0,497
+prefect_ray/context.py,sha256=_RkdqefQBqgMn46JXUjEOJ9NBqDMqG3DR3Ez5K3ACnI,2049
+prefect_ray/task_runners.py,sha256=_xtUZDLv3vzHSDdhKGZ1tARoqrc0FQoTnHrt4WvAZsE,8808
+prefect_ray-0.3.1.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_ray-0.3.1.dist-info/METADATA,sha256=A6enfVTXhjAbtoshK-9w9kAVuU-76EdphDlqSBBJbE4,11651
+prefect_ray-0.3.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+prefect_ray-0.3.1.dist-info/top_level.txt,sha256=0bJF7uKF8VN7FbOCRsmIfAefaP6fimiUrCBy6beGSCA,12
+prefect_ray-0.3.1.dist-info/RECORD,,
