@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: recipemaster
+Version: 1.0.0
+Summary: Este proyecto ha sido realizado por Asier Aranoa y Paul Magunazelaia. El objetivo principal de este proyecto es crear una herramienta que permita a los usuarios obtener recetas de cocina en función de los ingredientes que tienen disponibles en casa.
+Home-page: https://github.com/Paulma09/progra_TrabajoGrupal
+Author: AsierPaul
+Author-email: asierpaul@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Requires-Dist: csv
+Requires-Dist: json
+
+# progra_TrabajoGrupal
+Trabajo grupal donde se pondrán en práctica los fundamentos adquiridos en clase para desplegar una librería en PyPi
