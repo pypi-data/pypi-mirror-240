@@ -1,0 +1,2 @@
+[console_scripts]
+whatsapp-api = whatsapp_api.whatsapp_api:main

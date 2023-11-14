@@ -1,0 +1,10 @@
+README.md
+setup.py
+onyx_whatsapp_api.egg-info/PKG-INFO
+onyx_whatsapp_api.egg-info/SOURCES.txt
+onyx_whatsapp_api.egg-info/dependency_links.txt
+onyx_whatsapp_api.egg-info/entry_points.txt
+onyx_whatsapp_api.egg-info/requires.txt
+onyx_whatsapp_api.egg-info/top_level.txt
+whatsapp_api/__init__.py
+whatsapp_api/whatsapp_api.py
