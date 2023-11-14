@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: backports-httpmethod
+Version: 0.1.0
+Summary: A backport of Python 3.11+ `http.HTTPMethod` enum
+Project-URL: Documentation, https://github.com/edgarrmondragon/backports.httpmethod#readme
+Project-URL: Issues, https://github.com/edgarrmondragon/backports.httpmethod/issues
+Project-URL: Source, https://github.com/edgarrmondragon/backports.httpmethod
+Author-email: Edgar Ramírez-Mondragón <edgarrmondragon@hey.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: backports,enum,http,httpmethod
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: backports-strenum
+Provides-Extra: dev
+Requires-Dist: backports-httpmethod[test]; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+# backports.httpmethod
+
+[![PyPI - Version](https://img.shields.io/pypi/v/backports.httpmethod.svg)](https://pypi.org/project/backports.httpmethod)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/backports-httpmethod.svg)](https://pypi.org/project/backports.httpmethod)
+
+A backport of Python 3.11+ [`http.HTTPMethod`](https://docs.python.org/3/library/http.html#http.HTTPMethod) enum for Python 3.7+.
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Installation
+
+```console
+pip install backports.httpmethod
+```
+
+## Usage
+
+```python
+import sys
+
+if sys.version_info >= (3, 11):
+    from http import HTTPMethod
+else:
+    from backports.httpmethod import HTTPMethod
+
+
+HTTPMethod.GET == 'GET'  # True
+HTTPMethod.GET.value  # 'GET'
+HTTPMethod.GET.description  # 'Retrieve the target.'
+list(HTTPMethod)[:3] # [<HTTPMethod.GET: 'GET'>, <HTTPMethod.HEAD: 'HEAD'>, <HTTPMethod.POST: 'POST'>]
+```
+
+## License
+
+`backports-httpmethod` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
