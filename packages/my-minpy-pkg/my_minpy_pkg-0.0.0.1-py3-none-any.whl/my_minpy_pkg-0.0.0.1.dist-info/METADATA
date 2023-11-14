@@ -1,0 +1,168 @@
+Metadata-Version: 2.1
+Name: my-minpy-pkg
+Version: 0.0.0.1
+Summary: My first python package
+Home-page: https://github.com/Minhaj28/..
+Author: Md Minhaj Uddin
+Author-email: mdminhajuddin.official@gmail.com
+License: MIT license
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: aiofiles ==23.2.1
+Requires-Dist: alabaster ==0.7.13
+Requires-Dist: altair ==5.1.2
+Requires-Dist: annotated-types ==0.6.0
+Requires-Dist: anyio ==3.7.1
+Requires-Dist: attrs ==23.1.0
+Requires-Dist: Babel ==2.13.1
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: click ==8.1.7
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: contourpy ==1.2.0
+Requires-Dist: cycler ==0.12.1
+Requires-Dist: docutils ==0.18.1
+Requires-Dist: exceptiongroup ==1.1.3
+Requires-Dist: fastapi ==0.104.1
+Requires-Dist: ffmpy ==0.3.1
+Requires-Dist: filelock ==3.13.1
+Requires-Dist: fonttools ==4.44.0
+Requires-Dist: fsspec ==2023.10.0
+Requires-Dist: gradio ==4.2.0
+Requires-Dist: gradio-client ==0.7.0
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: httpcore ==1.0.2
+Requires-Dist: httpx ==0.25.1
+Requires-Dist: huggingface-hub ==0.19.0
+Requires-Dist: idna ==3.4
+Requires-Dist: imagesize ==1.4.1
+Requires-Dist: importlib-metadata ==6.8.0
+Requires-Dist: importlib-resources ==6.1.1
+Requires-Dist: jaraco.classes ==3.3.0
+Requires-Dist: Jinja2 ==3.1.2
+Requires-Dist: jsonschema ==4.19.2
+Requires-Dist: jsonschema-specifications ==2023.7.1
+Requires-Dist: keyring ==24.3.0
+Requires-Dist: kiwisolver ==1.4.5
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: MarkupSafe ==2.1.3
+Requires-Dist: matplotlib ==3.8.1
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: more-itertools ==10.1.0
+Requires-Dist: nh3 ==0.2.14
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: orjson ==3.9.10
+Requires-Dist: packaging ==23.2
+Requires-Dist: pandas ==2.1.3
+Requires-Dist: Pillow ==10.1.0
+Requires-Dist: pkginfo ==1.9.6
+Requires-Dist: pydantic ==2.4.2
+Requires-Dist: pydantic-core ==2.10.1
+Requires-Dist: pydub ==0.25.1
+Requires-Dist: Pygments ==2.16.1
+Requires-Dist: pyparsing ==3.1.1
+Requires-Dist: python-dateutil ==2.8.2
+Requires-Dist: python-multipart ==0.0.6
+Requires-Dist: pytz ==2023.3.post1
+Requires-Dist: pywin32-ctypes ==0.2.2
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: readme-renderer ==42.0
+Requires-Dist: referencing ==0.30.2
+Requires-Dist: requests ==2.31.0
+Requires-Dist: requests-toolbelt ==1.0.0
+Requires-Dist: rfc3986 ==2.0.0
+Requires-Dist: rich ==13.6.0
+Requires-Dist: rpds-py ==0.12.0
+Requires-Dist: scipy ==1.11.3
+Requires-Dist: semantic-version ==2.10.0
+Requires-Dist: shellingham ==1.5.4
+Requires-Dist: six ==1.16.0
+Requires-Dist: sniffio ==1.3.0
+Requires-Dist: snowballstemmer ==2.2.0
+Requires-Dist: Sphinx ==7.2.6
+Requires-Dist: sphinx-rtd-theme ==1.3.0
+Requires-Dist: sphinxcontrib-applehelp ==1.0.7
+Requires-Dist: sphinxcontrib-devhelp ==1.0.5
+Requires-Dist: sphinxcontrib-htmlhelp ==2.0.4
+Requires-Dist: sphinxcontrib-jquery ==4.1
+Requires-Dist: sphinxcontrib-jsmath ==1.0.1
+Requires-Dist: sphinxcontrib-qthelp ==1.0.6
+Requires-Dist: sphinxcontrib-serializinghtml ==1.1.9
+Requires-Dist: starlette ==0.27.0
+Requires-Dist: tomlkit ==0.12.0
+Requires-Dist: toolz ==0.12.0
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: twine ==4.0.2
+Requires-Dist: typer ==0.9.0
+Requires-Dist: typing-extensions ==4.8.0
+Requires-Dist: tzdata ==2023.3
+Requires-Dist: urllib3 ==2.0.7
+Requires-Dist: uvicorn ==0.24.0.post1
+Requires-Dist: websockets ==11.0.3
+Requires-Dist: zipp ==3.17.0
+
+myML
+==============================
+
+## project descriptions
+only for practice
+
+Project Organization
+------------
+
+    ├── LICENSE
+    ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    ├── README.md          <- The top-level README for developers using this project.
+    ├── data
+    │   ├── external       <- Data from third party sources.
+    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   └── raw            <- The original, immutable data dump.
+    │
+    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    │
+    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    │
+    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    │                         the creator's initials, and a short `-` delimited description, e.g.
+    │                         `1.0-jqp-initial-data-exploration`.
+    │
+    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    │
+    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    │   └── figures        <- Generated graphics and figures to be used in reporting
+    │
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    │                         generated with `pip freeze > requirements.txt`
+    │
+    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── src                <- Source code for use in this project.
+    │   ├── __init__.py    <- Makes src a Python module
+    │   │
+    │   ├── data           <- Scripts to download or generate data
+    │   │   └── make_dataset.py
+    │   │
+    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   │   └── build_features.py
+    │   │
+    │   ├── models         <- Scripts to train models and then use trained models to make
+    │   │   │                 predictions
+    │   │   ├── predict_model.py
+    │   │   └── train_model.py
+    │   │
+    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │       └── visualize.py
+    │
+    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+
+
+--------
+
+## installation
+
+## contributors
+
+## LICENSE
