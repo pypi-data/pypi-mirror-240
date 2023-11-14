@@ -1,0 +1,54 @@
+<div
+  class="main"
+>
+  {%- include "components/form/search.jinja" -%}
+  {%- if search_results|length > 0 -%}
+    <div class="content">
+    {% for node in search_results %}
+      {% if node.is_requirement %}
+        {% with requirement=node, document=node.document, node_controls=True %}
+          {%- include "components/requirement/tiny_extends_card.jinja" -%}
+        {% endwith %}
+      {% elif node.is_section %}
+        {% with section=node, document=node.document, node_controls=True %}
+          {%- include "components/section/tiny_extends_card.jinja" -%}
+        {% endwith %}
+      {% endif %}
+    {% endfor %}
+    </div>
+  {%- else -%}
+
+<sdoc-main-placeholder
+  style="height: unset;"
+  data-testid="search-main-placeholder"
+>
+<pre>
+Query examples:
+~~~~~~~~~~~~~~
+
+
+
+StringExpression:
+  '"' string = /[^"]+/ '"'
+;
+
+NodeFieldExpression:
+  'node["' field_name = /[A-Za-z0-9]+/ '"]'
+;
+
+NodeHasParentRequirementsExpression:
+  _ = 'node.has_parent_requirements'
+;
+
+NodeIsRequirementExpression:
+  _ = 'node.is_requirement'
+;
+
+NodeIsSectionExpression:
+  _ = 'node.is_section'
+;
+</pre>
+</sdoc-main-placeholder>
+
+  {%- endif -%}
+</div> {# /.main #}
