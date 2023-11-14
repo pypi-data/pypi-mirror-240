@@ -1,0 +1,12 @@
+qpic/Makefile,sha256=SWYzh4R2C4r6trtO6sakQE4N_JY9XL5LnKMgeDN7SKw,3164
+qpic/__init__.py,sha256=FIHvqFlk9b5yzvC5MnIL5WHNJATIO4ekomv67G82TJk,169
+qpic/__main__.py,sha256=lmg9QJePZaeZzti5EGz0j9yp19kWmZL4na9x0PBaccg,120071
+qpic/qpic.py,sha256=lmg9QJePZaeZzti5EGz0j9yp19kWmZL4na9x0PBaccg,120071
+qpic-1.1.0.data/scripts/qpic,sha256=B_CbXQvWolIKpFg9vMMzBzPPcHKuHo6QS96Wlk_dCNc,5166
+qpic-1.1.0.data/scripts/tikz2preview,sha256=3mVXoa0EtRc7Qf1HLmKJqXLkaCOEBbXYzOv3YootGbE,1388
+qpic-1.1.0.dist-info/AUTHORS.rst,sha256=u7h1i2_PZehqNsRxHfaT0GQxdlx73y9MtFp35S-H7q0,191
+qpic-1.1.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+qpic-1.1.0.dist-info/METADATA,sha256=VhMoEhH9zxtpG5C6c69YX_au18SwW7ARMR3lFNFwUA4,7193
+qpic-1.1.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+qpic-1.1.0.dist-info/top_level.txt,sha256=ZNyhl0-ottjAMouMvGQ4V45LNrTmiOSUHeJ_8keekLc,5
+qpic-1.1.0.dist-info/RECORD,,
