@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+ksearch_bot.egg-info/PKG-INFO
+ksearch_bot.egg-info/SOURCES.txt
+ksearch_bot.egg-info/dependency_links.txt
+ksearch_bot.egg-info/requires.txt
+ksearch_bot.egg-info/top_level.txt
