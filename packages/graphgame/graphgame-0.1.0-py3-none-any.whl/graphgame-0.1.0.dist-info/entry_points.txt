@@ -1,0 +1,2 @@
+[console_scripts]
+graphgame = your_package.main:main
