@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+Baouly_packageIlogger.egg-info/PKG-INFO
+Baouly_packageIlogger.egg-info/SOURCES.txt
+Baouly_packageIlogger.egg-info/dependency_links.txt
+Baouly_packageIlogger.egg-info/entry_points.txt
+Baouly_packageIlogger.egg-info/top_level.txt
+ilogger/__init__.py
+ilogger/ilogger.py
+test/__init__.py
+test/test_ilogger.py

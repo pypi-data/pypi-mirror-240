@@ -1,0 +1,2 @@
+[console_scripts]
+monprojet = monprojet.main:main

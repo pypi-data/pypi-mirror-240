@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Baouly-packageIlogger
+Version: 0.1.0
+Home-page: https://github.com/BaoulyNelson/projetModule.git
+Author: Nelson Baouly
+Author-email: elconquistadorbaoulyn@gmail.com
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.2
