@@ -1,0 +1,9 @@
+my_algo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_algo/apriory.py,sha256=8-4rDxO7mTvhpI90KIkB_IjOBha7owepswrINo5-tjQ,2729
+my_algo/decisiontree.py,sha256=yHSOt4-Rj7_0x6QayN5QsKVeVNnrORU-YfWUTCoBw88,3223
+my_algo/kmeans.py,sha256=9E49I_NtXtmsnnOw99LmAIt5JgRtHZb-umcE-oWRuGM,2181
+my_algo/linearreg.py,sha256=i1j1fCAOgNSYHh1wC4ojpfPwNKAeCjLgQhp3OBeDOB4,1069
+ddos_dmpa_algos-0.1.1.dist-info/METADATA,sha256=XcPbuhKc2xrpas7i9wsm8WG8457TlYrIUc4XjoS-3Rg,202
+ddos_dmpa_algos-0.1.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+ddos_dmpa_algos-0.1.1.dist-info/top_level.txt,sha256=j5xlshX3ZZzuNy7Dd096STjURTq-T791vZJTUT-qRVo,8
+ddos_dmpa_algos-0.1.1.dist-info/RECORD,,
