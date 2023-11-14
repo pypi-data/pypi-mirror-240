@@ -1,0 +1,7 @@
+pypiwin32
+pycryptodome
+pyinstaller
+pillow
+requests
+numpy
+pyautogui
