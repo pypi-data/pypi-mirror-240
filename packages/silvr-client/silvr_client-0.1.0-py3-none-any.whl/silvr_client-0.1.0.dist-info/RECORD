@@ -1,0 +1,11 @@
+silvr_client/__init__.py,sha256=zaHwHhA1Y_21wX68PS-LLO7fLv5BVyXsaqVIAaKSrvE,571
+silvr_client/authentication.py,sha256=uJNpo8U576qIPcMUc8WNRI-vNUjMzE362qpCNWOVPdo,305
+silvr_client/choices.py,sha256=MYK-e99dElBKY-QuJchve0eTQiuPmtmQa0SGQRa2QvM,2013
+silvr_client/client.py,sha256=gYdOgogeRGYIglWnbPMQ-JyNomS-cYSKKpdP0honDY4,2516
+silvr_client/models.py,sha256=L1S4FRJKAjbJOn9LRkerjvT2ViXu2JMSM7GZgmXk4AM,3471
+silvr_client/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+silvr_client-0.1.0.dist-info/LICENCE,sha256=w_0J_O07Ng4d3IGpQF_jS3SNggGfyVHqShOoTuAQW_k,554
+silvr_client-0.1.0.dist-info/METADATA,sha256=vhWhGJKy4B-eIgMSENxPg8vo7_sNEnXT3m5fQZNZNbc,1020
+silvr_client-0.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+silvr_client-0.1.0.dist-info/top_level.txt,sha256=uXxDYZxNhm6AaSnz2yF1aBNSQMm_Bdekp4wNeuqObE8,13
+silvr_client-0.1.0.dist-info/RECORD,,
