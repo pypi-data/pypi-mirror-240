@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ttkvideos
+Version: 0.0.1
+Summary: playing video (with audio) in tkinter label
+Home-page: 
+Author: Vishal Sharma
+Author-email: vishalsharma659615@gmail.com
+License: MIT
+Keywords: videos
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: Licence.txt
+
+ttkVideos: Python module for playing videos (with sound) inside tkinter Label widget using Pillow and imageio.
+It works best & fast on small size videos however takes few seconds of time for larger videos files.
+It also uses threading for playing sound of the file in background & takes time to load the sound early.
+Copyright Â© 2023 Vishal Sharma vishalsharma659615@gmail.com
+Released under the terms of the MIT license (https://opensource.org/licenses/MIT) as described.
+
+Change Log
+===========
+
+0.0.1(13/11/2023)
+-----------------
+- First Release
