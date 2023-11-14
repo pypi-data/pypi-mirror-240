@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: vericold_plotter
+Version: 1.0.0
+Summary: VeriCold logfiles plotter
+Author-email: StSav012 <stsav012@gmail.com>
+License: LGPLv3
+Project-URL: Source Code, https://github.com/StSav012/VeriCold_Log_Plotter
+Project-URL: Bug Tracker, https://github.com/StSav012/VeriCold_Log_Plotter/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pyqtgraph
+
+# VeriCold Log Plotter
+
+VeriCold logfiles are created by Oxford Instruments plc. VeriCold Log Plotter is a viewer for them.
+
+VeriCold Log Plotter is licensed under the [GNU LGPL version 3](https://www.gnu.org/copyleft/lesser.html).
+
+### Requirements
+
+- Python 3.8 or newer; the newer the better;
+- `pyqtgraph` to plot the data;
+- (optionally) `pyexcelerate` to export the data into Office Open XML (aka XLSX) files.
