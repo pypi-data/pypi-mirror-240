@@ -1,0 +1,20 @@
+[project]
+name = "primeclassify"
+version = "0.1.4"
+authors = [
+  { name="Rich Holmes", email="rs.holmes@gmail.com" },
+]
+description = "Library of functions to classify prime numbers"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = ["primes", "prime numbers"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: Freely Distributable",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/rsholmes/primeclassify"
+"Bug Tracker" = "https://gitlab.com/rsholmes/primeclassify/-/issues"
