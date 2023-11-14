@@ -1,0 +1,13 @@
+README.md
+setup.py
+scrapy_llm_loader/__init__.py
+scrapy_llm_loader/langchain_api.py
+scrapy_llm_loader/langchain_integration.py
+scrapy_llm_loader/loader.py
+scrapy_llm_loader/output_parser.py
+scrapy_llm_loader/prompt.py
+scrapy_llm_loader/utils.py
+scrapy_llm_loader.egg-info/PKG-INFO
+scrapy_llm_loader.egg-info/SOURCES.txt
+scrapy_llm_loader.egg-info/dependency_links.txt
+scrapy_llm_loader.egg-info/top_level.txt
