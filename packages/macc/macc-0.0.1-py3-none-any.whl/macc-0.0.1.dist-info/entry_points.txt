@@ -1,0 +1,2 @@
+[nbdev]
+macc = macc._modidx:d

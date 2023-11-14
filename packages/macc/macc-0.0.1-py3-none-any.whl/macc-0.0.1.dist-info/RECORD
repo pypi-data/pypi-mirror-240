@@ -1,0 +1,10 @@
+macc/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+macc/_modidx.py,sha256=AEwtMJl311YCfczjevuupx5TaaQ7XnuI1qx7nRQpBvY,7179
+macc/datasets.py,sha256=5L4fMCm2b-1s7wfMfPyZWokS2I9PzZ63TCQjIwUCYLs,1282
+macc/learn.py,sha256=02PnnJVWsT3Gz2HPXy4Byz-WBh85aM5Wf05GHiMCz6k,8239
+macc-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+macc-0.0.1.dist-info/METADATA,sha256=zY6wzStrG2-T9k6y83sjjNRrT6fOdgKI5T82590KbUQ,1208
+macc-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+macc-0.0.1.dist-info/entry_points.txt,sha256=BH4RnkCThmtpn21k98-fzhjBxcUyne-WBZx1CFcZ9xc,30
+macc-0.0.1.dist-info/top_level.txt,sha256=tW8rylj-n8z-u12VUudRb9hAjiWtBM7puX7yAO0614Y,5
+macc-0.0.1.dist-info/RECORD,,
