@@ -1,0 +1,5 @@
+[console_scripts]
+pttn = pttn.commands:app
+
+[nbdev]
+pttn = pttn._modidx:d
