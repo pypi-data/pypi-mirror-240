@@ -1,0 +1,9 @@
+svn2git/__init__.py,sha256=_Air0uwvAqVcr1vydeWZQoLsr6jt8RJvmQctP9KbYuI,211
+svn2git/__main__.py,sha256=4GisBdN0EO1_jRfiHqbUU-vYMzPfzmUSstwAlC1kkTk,6992
+svn2git/git.py,sha256=TFINfMuIwWU91ZvtQUcs5syvD3wokgFmOV7rp8xJro8,21059
+svn2git/options.py,sha256=rQnOVhMhCZOzNfPQbGr50fMZiSjC7ZX-vhIznHea3oA,2456
+svn2git/utils.py,sha256=XsHN-_54p5UjoGUvf88EK4Qrw3rCY-0stZeqP9P5o3Y,1330
+svn2git-0.5.0a4.dist-info/METADATA,sha256=1loSPBClScYkFp7nv2_ar4ES383n4xjRlVaq7Yu8fdc,12190
+svn2git-0.5.0a4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+svn2git-0.5.0a4.dist-info/entry_points.txt,sha256=ToKrd2f3LlFmylGYp52WkNAMZNRPmKfonzh_GuCYv8Q,49
+svn2git-0.5.0a4.dist-info/RECORD,,
