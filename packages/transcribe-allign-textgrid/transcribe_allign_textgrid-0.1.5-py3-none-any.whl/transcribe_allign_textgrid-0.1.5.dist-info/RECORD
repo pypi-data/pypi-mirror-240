@@ -1,0 +1,10 @@
+transcribe_allign_textgrid/__init__.py,sha256=PclhsK8RohDdfYLVsfQFeGWO5A_f1FC89gDgbl28Y78,1001
+transcribe_allign_textgrid/__main__.py,sha256=Pm9BHciKlhGvtu9aF1AbYhsQ0TAbE08QIUr5_pxhaiY,79
+transcribe_allign_textgrid/adapter.py,sha256=u1IalZONaQCosUhXGM3ePSnfKB_bi8VRrWpX-2kXyUg,3315
+transcribe_allign_textgrid/cli.py,sha256=oasZNmttTD0OEpE65f2wKiluwTL-vi_jeJOSql-r_qc,4582
+transcribe_allign_textgrid/whisper_schema.py,sha256=ia9vR0XGCoB0PRTgg4cgjycXEYcLaT-Shy4xbjTALzk,1994
+transcribe_allign_textgrid-0.1.5.dist-info/LICENCE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+transcribe_allign_textgrid-0.1.5.dist-info/METADATA,sha256=yq-9LwVTdNHMit3BJZYPjCrBAYH_4VU0392T4ZAYfMk,7073
+transcribe_allign_textgrid-0.1.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+transcribe_allign_textgrid-0.1.5.dist-info/top_level.txt,sha256=eKe_tltUaCzF1-QkspERastes1JBEk7_PHogNF4T4-0,27
+transcribe_allign_textgrid-0.1.5.dist-info/RECORD,,
