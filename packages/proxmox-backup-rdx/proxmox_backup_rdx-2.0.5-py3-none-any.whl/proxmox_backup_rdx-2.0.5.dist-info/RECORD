@@ -1,0 +1,13 @@
+proxmox_backup_rdx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxmox_backup_rdx/main.py,sha256=s1XCT37xLvLvgSaFMadviWB1o8CUNYzSkTPv1fStv3g,2130
+proxmox_backup_rdx/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxmox_backup_rdx/models/datastore.py,sha256=szBnSI7vxTT0PORzA8nTY5BzSlTAxVt01nz_mlInn7Q,9277
+proxmox_backup_rdx/models/prunejob.py,sha256=yNH0Ytw4yNVEEuZkrFErrostz4CeDFzEVLMdoTlKlhc,5939
+proxmox_backup_rdx/models/syncjob.py,sha256=al2IguOFQwRKoCvihWPa1EZ8ugmTek-wwuXkvpSCuOM,3952
+proxmox_backup_rdx/models/utils.py,sha256=3vyLKVwx5hPNxZRut_X01EYWstRULb7Ne0nC-QaEyjI,727
+proxmox_backup_rdx-2.0.5.dist-info/LICENCE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+proxmox_backup_rdx-2.0.5.dist-info/METADATA,sha256=77dKK39d3Hvsm6irxf4nlWOE6EQczc1AAsUqqllkolA,6420
+proxmox_backup_rdx-2.0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+proxmox_backup_rdx-2.0.5.dist-info/entry_points.txt,sha256=iF-1GS7a4naPZ6xjKOWHjSg6iWQCtQvlXMP0B6HAIac,68
+proxmox_backup_rdx-2.0.5.dist-info/top_level.txt,sha256=PDLQEv2fSha0Z6jnzU-IwDb_-QbI9_FkpxeHRALfen0,19
+proxmox_backup_rdx-2.0.5.dist-info/RECORD,,
