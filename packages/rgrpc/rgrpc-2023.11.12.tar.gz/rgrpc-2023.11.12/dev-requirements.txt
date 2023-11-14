@@ -1,0 +1,11 @@
+-r requirements.txt
+grpcio-tools
+pytest
+pytest-cov
+#Linting and Formatting tools
+mypy
+pre-commit
+ruff
+#Typing Extensions
+grpc-stubs
+types-protobuf
