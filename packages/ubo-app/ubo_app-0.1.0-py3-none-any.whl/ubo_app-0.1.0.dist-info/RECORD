@@ -1,0 +1,12 @@
+ubo_app/__init__.py,sha256=xt3rXfUOOtaVgzNj9uH6kcbGbO6BW20ZVgdOdtdVVbY,973
+ubo_app/keypad.py,sha256=Y44Pg0PWqzlAkcAEkMaekntmcwJJelEHKRiqebXcrtc,9259
+ubo_app/menu.py,sha256=z2UDiazL_Z46UiWKG7IDqVo2bwRsXPsCSiZnXvrFk8Y,7976
+ubo_app/services/0-wifi.toml,sha256=RzlxQToqZ4wItDiauna2bTHoaG1J3konTnsFKzCAcIQ,219
+ubo_app/services/0_wifi/__init__.py,sha256=JaRXFTuKwsjMXn8KpiL1-SgGNF2IAhtmGAJzZ_i9R5o,955
+ubo_app/store/__init__.py,sha256=KiG0DSjBRnb_jJsnyu5fG-EHK094D31M9R1GTSSGE9E,1169
+ubo_app/store/status_icons.py,sha256=I_7_cCVS0B3MfP_tZN46mnF8hz61lN_x-2fHJ4MSPvk,1364
+ubo_app/stuff.py,sha256=9tgEVq3uDRFYdk3I8qR_atmki9oPsB2tV46G-ooy1_k,4550
+ubo_app-0.1.0.dist-info/METADATA,sha256=KSABnqHg7SlWQ84bdZbvbS_oHUxtkj6ahjLsHpWYIVM,1221
+ubo_app-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ubo_app-0.1.0.dist-info/entry_points.txt,sha256=RB8EI8I6ZtR2JihT_Eq6spE21o6T_UWKO2hGSCLh2RQ,36
+ubo_app-0.1.0.dist-info/RECORD,,
