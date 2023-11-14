@@ -1,0 +1,12 @@
+ipernity/__init__.py,sha256=3oUUXfbAyBoMD_OGEPoZQ7_74anFVDTLff5NIYca6O8,97
+ipernity/_version.py,sha256=L5DCMp1QAlSqy-8bW7d51bLubTxNjZGYc5fMQkb752U,411
+ipernity/api.py,sha256=K-S8Qb7_oU3KToHCCqs4_gDCflwnZzYkpMdZxElPFVk,12154
+ipernity/auth.py,sha256=uee2CdvliXjvm4LgJN5eda7WeI3mlq1thZ0GsMZ_9CM,5540
+ipernity/exceptions.py,sha256=e6OFrZeT-CPXRxwoGtBGw_tB68LWPhjYG3br-nEO_TQ,374
+ipernity/method.py,sha256=x0qMRTu1pINCFJjsMOBkOcSXYRuuq-wx0hDaTgF7KTI,795
+ipernity/methods.json,sha256=vzv5GVJRefOflm-Kpq17aTBFXu-HnN9ctVWBYobnHfc,44173
+PyIpernity-0.1.3.dist-info/LICENSE,sha256=uWEkhwEL7FGzmdrTUohMx70p8piuRZt16A-ZG5PaYdI,1062
+PyIpernity-0.1.3.dist-info/METADATA,sha256=ebOIY7IeGgt2263UWom4be5bK_MPPHIDCZJSLGjXn48,1298
+PyIpernity-0.1.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+PyIpernity-0.1.3.dist-info/top_level.txt,sha256=CZCyQU3h7M0wckI9sfRmIHqxHrcM_IU1RYMH0rbS_aI,9
+PyIpernity-0.1.3.dist-info/RECORD,,
