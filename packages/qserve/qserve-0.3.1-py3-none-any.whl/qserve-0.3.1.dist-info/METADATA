@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: qserve
+Version: 0.3.1
+Summary: job queue server
+Home-page: https://github.com/pediapress/qserve
+Maintainer: pediapress.com
+Maintainer-email: info@pediapress.com
+License: BSD License
+Requires-Dist: gevent
+Requires-Dist: future
+
