@@ -1,0 +1,12 @@
+argolid/libargolid.cp311-win_amd64.pyd,sha256=cyB-KLwhe31kcSuM1u-wN9JYnPPr33a4B4jgiwa5nL8,24498688
+argolid/pyramid_generator.py,sha256=MQs0nwy_EhB41YiSJgDFjRmEfnJIhIEd1wPEuW_1lP8,1291
+argolid/_version.py,sha256=NnBp1sRclUIjAEKvCk1nfTC9XpEfrqPau2wtnxrBM2s,518
+argolid/__init__.py,sha256=ir1c_mCRRRjajhbObQA77Dm9OzQ2jbkH_kzZilqLEZY,465
+argolid-0.0.3.dist-info/DELVEWHEEL,sha256=4cTgMXtTbYOeuospd5nxxQYyze0b0IiAlx-hXbYtgxY,355
+argolid-0.0.3.dist-info/LICENSE,sha256=89CjiZBoV1eMyTHIFpoyq34j4ukGOodhKT4yvtwoPvE,1085
+argolid-0.0.3.dist-info/METADATA,sha256=M007v0nXSqloPrnD_XYb_EARKyO6oTt_na84931Ah7g,2830
+argolid-0.0.3.dist-info/RECORD,,
+argolid-0.0.3.dist-info/top_level.txt,sha256=pjCWdXMo-MKwmBJQ9NBfN4bsO9S4tHScl5ZMDAnvd88,27
+argolid-0.0.3.dist-info/WHEEL,sha256=badvNS-y9fEq0X-qzdZYvql_JFjI7Xfw-wR8FsjoK0I,102
+argolid.libs/filepattern-ac9d07311a58c78de78147073735678d.dll,sha256=fRJcXSGE6bFRszDh869lZcL7jhfqYNOd-hZh50F5us4,442880
+argolid.libs/msvcp140-33c4abb41317a824e9632934e23e298a.dll,sha256=_w1gClolnoGcqMdL2PAByYbUbsjVcdZzPc8uw44NKrU,575568
