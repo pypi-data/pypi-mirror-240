@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./torchtree_scipy/__init__.py
+./torchtree_scipy/_version.py
+./torchtree_scipy/cli/__init__.py
+./torchtree_scipy/evolution/__init__.py
+./torchtree_scipy/evolution/site_model.py
+torchtree_scipy.egg-info/PKG-INFO
+torchtree_scipy.egg-info/SOURCES.txt
+torchtree_scipy.egg-info/dependency_links.txt
+torchtree_scipy.egg-info/requires.txt
+torchtree_scipy.egg-info/top_level.txt

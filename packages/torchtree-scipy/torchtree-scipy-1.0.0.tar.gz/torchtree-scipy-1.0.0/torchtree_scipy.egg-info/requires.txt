@@ -1,0 +1,13 @@
+torchtree
+numpy>=1.7
+torch>=1.9
+scipy
+
+[dev]
+black
+flake8
+isort
+pylint
+
+[test]
+pytest
