@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/cleandoc/__init__.py
+src/cleandoc/clean.py
+src/cleandoc/cli.py
+src/cleandoc/doq.py
+src/cleandoc/helper.py
+src/cleandoc/py.typed
+src/cleandoc/sphinxdoc.py
+src/cleandoc.egg-info/PKG-INFO
+src/cleandoc.egg-info/SOURCES.txt
+src/cleandoc.egg-info/dependency_links.txt
+src/cleandoc.egg-info/entry_points.txt
+src/cleandoc.egg-info/requires.txt
+src/cleandoc.egg-info/top_level.txt
+test/test_cleandoc.py
