@@ -1,0 +1,13 @@
+dataverse_api/__init__.py,sha256=qw-ePWLGxQNApotFHMrufIfzUP27XjUzi5xc7NAkwBo,119
+dataverse_api/_api.py,sha256=MC3zf7XH0kOHTqxjiI_kwTau-lhff8aNC19qpUev5X4,10377
+dataverse_api/_metadata_defs.py,sha256=U_1wqY0ye4zVZHjB7Dht3nTQ1MUzJlE48DiOvU7dVq0,12105
+dataverse_api/dataclasses.py,sha256=W-2fShuQaDnqMGXpnQzRLsyTaCUa4IZMuMGtdn0bZiU,3216
+dataverse_api/dataverse.py,sha256=JM0ZxEd6o8RRG4vT11Mt9h2VSo5f0OzJEPRVRiYymRM,10548
+dataverse_api/entity.py,sha256=B9XHjvabaYQ93xeNQkyNisxxhGawASxE4rrIeWSlWms,21308
+dataverse_api/errors.py,sha256=eyG-TxdL7zeDEcjYly8Sy-y4Vce-xWGfzLmPSppAEys,511
+dataverse_api/schema.py,sha256=ft6pWwDsHPM4733meFPCMX6jYcPdoUAngxUq4CMGoY8,10405
+dataverse_api/utils.py,sha256=SNsslf9bg4dPDSGCUIRdRkn87wBPojxkB4ZLfHfIm5E,14808
+dataverse_api-0.3.10.dist-info/LICENSE,sha256=XFmz0E1wmjWWoezeHWW4GEsk8492ibTbHRAdPfr32Zo,1093
+dataverse_api-0.3.10.dist-info/METADATA,sha256=EFvOU_nDknuFFXBjqIIb8ADTq1-1ZHDASjnX57Y_5wo,4394
+dataverse_api-0.3.10.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+dataverse_api-0.3.10.dist-info/RECORD,,
