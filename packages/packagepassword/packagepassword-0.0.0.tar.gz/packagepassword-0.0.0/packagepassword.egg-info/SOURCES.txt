@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+packagepassword/__init__.py
+packagepassword/generatorpassword.py
+packagepassword.egg-info/PKG-INFO
+packagepassword.egg-info/SOURCES.txt
+packagepassword.egg-info/dependency_links.txt
+packagepassword.egg-info/top_level.txt
