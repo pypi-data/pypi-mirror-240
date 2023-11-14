@@ -1,0 +1,10 @@
+ipyllogger/__init__.py,sha256=Micm0KWMawDdhpsJ7KlpTPhKeEDJTMXtn8oPedm-YYE,1124
+ipyllogger/level.py,sha256=iLOhUxU0S9O031vVeGDXcOQknBt5I6R3WFjUvNXo52I,128
+ipyllogger/logger.py,sha256=aLrKSoObhmzBZmB4HT_uPtWsray3RDpGrSSjkIWsTLA,658
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/iloger_test.py,sha256=r5zEum5jKfLGZFyZr8QC7AjnflCGfYCVF6dVRJAS-vw,1030
+ipyllogger-0.0.1.dist-info/LICENSE,sha256=VjK1tXnJ81ZrVbAdGoGC8xSGvh3Ab5MCHGyz43Leggw,1047
+ipyllogger-0.0.1.dist-info/METADATA,sha256=Dh0Nu61_QIBn_2WATV5jLEVBPZOlDmdipGDS_-9dqWc,1232
+ipyllogger-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ipyllogger-0.0.1.dist-info/top_level.txt,sha256=mXkb-ggW7bSt4idndFPc94vDr2NRFOm5L8u8T0YGBRk,17
+ipyllogger-0.0.1.dist-info/RECORD,,
