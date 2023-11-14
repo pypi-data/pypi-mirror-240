@@ -1,0 +1,9 @@
+BetheFluid/__init__.py,sha256=vD08pcBeWI1D8WGLjx2-iovmLx8yp26s-8wknR2l8UA,96
+BetheFluid/calc.py,sha256=sldZuT9n06p2L7zXsUFXxkOdjVz5_Wqm3WYVfuDburA,5253
+BetheFluid/observable.py,sha256=WH5nFVVuujdsf3gzTDMUYAMxFeq5JL0k7lV6RE5gEPM,4540
+BetheFluid/plotter.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BetheFluid/solver.py,sha256=Z2EYSbFDg8cLmMORd06jqGA8u1TJPG6hx9aRePdTLlk,10214
+BetheFluid-0.2.dist-info/METADATA,sha256=-cI6DxxcWipHyNxqnyEYp0lV8Yh2zr6ujwbSu5vcRIE,241
+BetheFluid-0.2.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+BetheFluid-0.2.dist-info/top_level.txt,sha256=sDLEybqaV7KC-iH8vFmYGjvKwgWXlvQ7sdqHJw06oIQ,11
+BetheFluid-0.2.dist-info/RECORD,,
