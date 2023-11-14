@@ -1,0 +1,7 @@
+setup.py
+amacle_pac/__init__.py
+amacle_pac/amacle.py
+amacle_package.egg-info/PKG-INFO
+amacle_package.egg-info/SOURCES.txt
+amacle_package.egg-info/dependency_links.txt
+amacle_package.egg-info/top_level.txt
