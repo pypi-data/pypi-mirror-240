@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: HinaCloudSDK
+Version: 1.0.0
+Summary: This is the official Python SDK for Hina Analytics.
+Home-page: http://git.hinadt.com/hina-cloud-sdk/hina-cloud-python-sdk.git
+Author: hina
+Author-email: hina@hinadt.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
