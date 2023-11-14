@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: django-kcommunication
+Version: 1.1.6
+Summary: Communication helpers and background task management for Huey queue.
+Home-page: https://github.com/kajalagroup/communication
+Author: Tuan Bach Van
+Author-email: tuan@kajala.com
+License: MIT licence, see LICENCE.txt
+
+# background-task
+
+Background tasks management for HUEY queue.
