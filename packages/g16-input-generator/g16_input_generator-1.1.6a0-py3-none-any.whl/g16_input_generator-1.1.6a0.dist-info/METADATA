@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: g16-input-generator
+Version: 1.1.6a0
+Requires-Dist: PyQt6
+Requires-Dist: rdkit
+
