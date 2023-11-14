@@ -1,0 +1,10 @@
+torchtree_scipy/__init__.py,sha256=RyzM6JaqbgaUOAN2QVCXtr6oAmNnnh0nxa4Jywb8kjs,195
+torchtree_scipy/_version.py,sha256=-lsMf_GskJj21YR9pBXLHfIHV76alS7qjtxgHXuCoJw,97
+torchtree_scipy/cli/__init__.py,sha256=k4sawFjNsnuJIN9002uzAW04a9xQfaSv1HpUWL8VoYU,734
+torchtree_scipy/evolution/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchtree_scipy/evolution/site_model.py,sha256=4qyJ5xCxbnxD33fTcc78iXhAAFkr54s1m2D36G-waGU,2815
+torchtree_scipy-1.0.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+torchtree_scipy-1.0.0.dist-info/METADATA,sha256=BTbTC8V5nnAuU5Wn7X_IgrRZ3HTxvx8CB-XXBjKSQ5g,3171
+torchtree_scipy-1.0.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+torchtree_scipy-1.0.0.dist-info/top_level.txt,sha256=kYgYSUD5MeVjBo8GHRvPUJxQWF0-UQYXdS1LTNiZEnk,16
+torchtree_scipy-1.0.0.dist-info/RECORD,,
