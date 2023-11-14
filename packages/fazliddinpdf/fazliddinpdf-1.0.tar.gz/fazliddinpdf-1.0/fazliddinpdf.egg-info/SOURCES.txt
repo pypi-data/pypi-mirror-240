@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fazliddinpdf.egg-info/PKG-INFO
+fazliddinpdf.egg-info/SOURCES.txt
+fazliddinpdf.egg-info/dependency_links.txt
+fazliddinpdf.egg-info/top_level.txt
+pypi/__init__.py
+pypi/pdf2image.py
+pypi/pdf2text.py
