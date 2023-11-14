@@ -1,0 +1,231 @@
+Metadata-Version: 2.1
+Name: own-knowledge-gpt
+Version: 0.0.3
+Summary: Custom Knowledge GPT
+Home-page: https://huggingface.co/myn0908
+Author: TinVo
+Author-email: tinprocoder0908@gmail.com
+License: MIT
+Keywords: AI HACKER,AI,autoGPT,Deep Learning,LLM,Interface
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: aiofiles ==23.2.1
+Requires-Dist: aiohttp ==3.8.6
+Requires-Dist: aiosignal ==1.3.1
+Requires-Dist: altair ==5.1.2
+Requires-Dist: annotated-types ==0.6.0
+Requires-Dist: anyio ==3.7.1
+Requires-Dist: async-timeout ==4.0.3
+Requires-Dist: attrs ==23.1.0
+Requires-Dist: backoff ==2.2.1
+Requires-Dist: bcrypt ==4.0.1
+Requires-Dist: beautifulsoup4 ==4.12.2
+Requires-Dist: cachetools ==5.3.2
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: chardet ==5.2.0
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: chroma-hnswlib ==0.7.3
+Requires-Dist: chromadb ==0.4.16
+Requires-Dist: ci-info ==0.3.0
+Requires-Dist: click ==8.1.7
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: coloredlogs ==15.0.1
+Requires-Dist: configobj ==5.0.8
+Requires-Dist: configparser ==6.0.0
+Requires-Dist: contourpy ==1.2.0
+Requires-Dist: cycler ==0.12.1
+Requires-Dist: dataclasses-json ==0.6.2
+Requires-Dist: Deprecated ==1.2.14
+Requires-Dist: emoji ==2.8.0
+Requires-Dist: etelemetry ==0.3.1
+Requires-Dist: exceptiongroup ==1.1.3
+Requires-Dist: faiss-cpu ==1.7.4
+Requires-Dist: fastapi ==0.104.1
+Requires-Dist: ffmpy ==0.3.1
+Requires-Dist: filelock ==3.13.1
+Requires-Dist: filetype ==1.2.0
+Requires-Dist: flatbuffers ==23.5.26
+Requires-Dist: fonttools ==4.44.0
+Requires-Dist: fpdf ==1.7.2
+Requires-Dist: frozenlist ==1.4.0
+Requires-Dist: fsspec ==2023.10.0
+Requires-Dist: future ==0.18.3
+Requires-Dist: google-auth ==2.23.4
+Requires-Dist: googleapis-common-protos ==1.61.0
+Requires-Dist: gradio ==3.45.2
+Requires-Dist: gradio-client ==0.5.3
+Requires-Dist: grpcio ==1.59.2
+Requires-Dist: h11 ==0.14.0
+Requires-Dist: httpcore ==1.0.2
+Requires-Dist: httplib2 ==0.22.0
+Requires-Dist: httptools ==0.6.1
+Requires-Dist: httpx ==0.25.1
+Requires-Dist: huggingface-hub ==0.17.3
+Requires-Dist: humanfriendly ==10.0
+Requires-Dist: idna ==3.4
+Requires-Dist: importlib-metadata ==6.8.0
+Requires-Dist: importlib-resources ==6.1.1
+Requires-Dist: install ==1.3.5
+Requires-Dist: isodate ==0.6.1
+Requires-Dist: Jinja2 ==3.1.2
+Requires-Dist: joblib ==1.3.2
+Requires-Dist: jsonpatch ==1.33
+Requires-Dist: jsonpointer ==2.4
+Requires-Dist: jsonschema ==4.19.2
+Requires-Dist: jsonschema-specifications ==2023.7.1
+Requires-Dist: kiwisolver ==1.4.5
+Requires-Dist: kubernetes ==28.1.0
+Requires-Dist: langchain ==0.0.334
+Requires-Dist: langdetect ==1.0.9
+Requires-Dist: langsmith ==0.0.63
+Requires-Dist: looseversion ==1.3.0
+Requires-Dist: lxml ==4.9.3
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: MarkupSafe ==2.1.3
+Requires-Dist: marshmallow ==3.20.1
+Requires-Dist: matplotlib ==3.8.1
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: monotonic ==1.6
+Requires-Dist: mpmath ==1.3.0
+Requires-Dist: multidict ==6.0.4
+Requires-Dist: mypy-extensions ==1.0.0
+Requires-Dist: networkx ==3.2.1
+Requires-Dist: nibabel ==5.1.0
+Requires-Dist: nipype ==1.8.6
+Requires-Dist: nltk ==3.8.1
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: oauthlib ==3.2.2
+Requires-Dist: onnxruntime ==1.16.2
+Requires-Dist: openai ==0.27.3
+Requires-Dist: opentelemetry-api ==1.21.0
+Requires-Dist: opentelemetry-exporter-otlp-proto-common ==1.21.0
+Requires-Dist: opentelemetry-exporter-otlp-proto-grpc ==1.21.0
+Requires-Dist: opentelemetry-proto ==1.21.0
+Requires-Dist: opentelemetry-sdk ==1.21.0
+Requires-Dist: opentelemetry-semantic-conventions ==0.42b0
+Requires-Dist: orjson ==3.9.10
+Requires-Dist: overrides ==7.4.0
+Requires-Dist: packaging ==23.2
+Requires-Dist: pandas ==2.1.2
+Requires-Dist: pathlib ==1.0.1
+Requires-Dist: pdfminer ==20191125
+Requires-Dist: Pillow ==10.1.0
+Requires-Dist: posthog ==3.0.2
+Requires-Dist: protobuf ==4.25.0
+Requires-Dist: prov ==2.0.0
+Requires-Dist: pulsar-client ==3.3.0
+Requires-Dist: pyasn1 ==0.5.0
+Requires-Dist: pyasn1-modules ==0.3.0
+Requires-Dist: pycryptodome ==3.19.0
+Requires-Dist: pydantic ==2.4.2
+Requires-Dist: pydantic-core ==2.10.1
+Requires-Dist: pydot ==1.4.2
+Requires-Dist: pydub ==0.25.1
+Requires-Dist: Pygments ==2.16.1
+Requires-Dist: pyparsing ==3.1.1
+Requires-Dist: pypdf ==3.17.0
+Requires-Dist: PyPDF2 ==3.0.1
+Requires-Dist: PyPika ==0.48.9
+Requires-Dist: python-dateutil ==2.8.2
+Requires-Dist: python-dotenv ==1.0.0
+Requires-Dist: python-iso639 ==2023.6.15
+Requires-Dist: python-magic ==0.4.27
+Requires-Dist: python-multipart ==0.0.6
+Requires-Dist: pytz ==2023.3.post1
+Requires-Dist: pyxnat ==1.6
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: rapidfuzz ==3.5.2
+Requires-Dist: rdflib ==7.0.0
+Requires-Dist: referencing ==0.30.2
+Requires-Dist: regex ==2023.10.3
+Requires-Dist: requests ==2.31.0
+Requires-Dist: requests-oauthlib ==1.3.1
+Requires-Dist: rich ==13.6.0
+Requires-Dist: rpds-py ==0.12.0
+Requires-Dist: rsa ==4.9
+Requires-Dist: scipy ==1.11.3
+Requires-Dist: semantic-version ==2.10.0
+Requires-Dist: shellingham ==1.5.4
+Requires-Dist: simplejson ==3.19.2
+Requires-Dist: six ==1.16.0
+Requires-Dist: sniffio ==1.3.0
+Requires-Dist: soupsieve ==2.5
+Requires-Dist: SQLAlchemy ==2.0.23
+Requires-Dist: starlette ==0.27.0
+Requires-Dist: sympy ==1.12
+Requires-Dist: tabulate ==0.9.0
+Requires-Dist: tenacity ==8.2.3
+Requires-Dist: tiktoken ==0.5.1
+Requires-Dist: tokenizers ==0.14.1
+Requires-Dist: tomlkit ==0.12.0
+Requires-Dist: toolz ==0.12.0
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: traits ==6.3.2
+Requires-Dist: typer ==0.9.0
+Requires-Dist: typing-inspect ==0.9.0
+Requires-Dist: typing-extensions ==4.8.0
+Requires-Dist: tzdata ==2023.3
+Requires-Dist: twine
+Requires-Dist: unstructured ==0.10.29
+Requires-Dist: urllib3 ==1.26.18
+Requires-Dist: uvicorn ==0.24.0.post1
+Requires-Dist: uvloop ==0.19.0
+Requires-Dist: watchfiles ==0.21.0
+Requires-Dist: websocket-client ==1.6.4
+Requires-Dist: websockets ==11.0.3
+Requires-Dist: wrapt ==1.16.0
+Requires-Dist: yarl ==1.9.2
+Requires-Dist: zipp ==3.17.0
+Provides-Extra: dev
+Requires-Dist: pytest >=7.0 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
+---
+title: Own Knowledge GPT
+emoji: 🚀
+colorFrom: indigo
+colorTo: red
+sdk: gradio
+sdk_version: 4.2.0
+app_file: app.py
+pinned: false
+license: mit
+---
+
+# Own-Knowledge-GPT 
+## Introduction 
+Welcome to the Own-Knowledge-GPT, this is a demo project that allow you want your Chat bot can learn anything you want 
+
+This project is built by Python and integration with OpenAI API which use GPT-3.5-turbo model 
+
+## Getting Started 
+### 1. Environment Setup
+The project is built in python 3.9+. You need to install python 3.9 or later
+```commandline
+  git clone git@hf.co:spaces/myn0908/Own-Knowledge-GPT
+```
+For install dependencies:
+```commandline
+ pip install -r requirements.txt
+```
+### How to use 
+This project use Gradio to build User Interface, please use: 
+```commandline
+ python app.py
+```
+Enjoy project with step by step follow this: 
+
+Bot Learning with URL 
+![Screenshot 2023-11-13 at 19.56.40.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fzc%2Fcsmhsgrd0bz3bbkycljwdk2c0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_zJFx9p%2FScreenshot%202023-11-13%20at%2019.56.40.png)
+
+Please input URL and your file format and then press Training button, when the training process is finished, it's will notice you Training Completed 
+
+After that, you can starting chat with your custom bot about the topic in your URL
+![Screenshot 2023-11-13 at 20.00.10.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fzc%2Fcsmhsgrd0bz3bbkycljwdk2c0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_xDIQGv%2FScreenshot%202023-11-13%20at%2020.00.10.png)
+
+The vector index storage by this structure: 
+
+![Screenshot 2023-11-13 at 20.03.04.png](..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fzc%2Fcsmhsgrd0bz3bbkycljwdk2c0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_ZTP7r9%2FScreenshot%202023-11-13%20at%2020.03.04.png)
