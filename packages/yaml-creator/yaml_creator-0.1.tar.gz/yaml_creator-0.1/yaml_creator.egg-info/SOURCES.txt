@@ -1,0 +1,9 @@
+README.md
+setup.py
+yaml_creator/__init__.py
+yaml_creator/resource_manager.py
+yaml_creator.egg-info/PKG-INFO
+yaml_creator.egg-info/SOURCES.txt
+yaml_creator.egg-info/dependency_links.txt
+yaml_creator.egg-info/requires.txt
+yaml_creator.egg-info/top_level.txt
