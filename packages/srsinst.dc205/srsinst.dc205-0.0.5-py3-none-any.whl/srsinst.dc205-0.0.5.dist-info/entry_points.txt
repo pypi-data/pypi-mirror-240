@@ -1,0 +1,2 @@
+[console_scripts]
+dc205 = srsinst.dc205.__main__:main
