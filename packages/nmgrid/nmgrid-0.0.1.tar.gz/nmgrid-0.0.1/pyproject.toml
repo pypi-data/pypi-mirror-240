@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nmgrid"
+version = "0.0.1"
+authors = [
+  { name = "Rushikesh Kundkar", email = "r4002001005025k@gmail.com" },
+]
+description = 'The classic 2048 number grid game'
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE.txt"}
+keywords = ["game","2048","number game"]
+
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "pygame>=2.1.2",
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/RRkundkar777/ngrid"
+Documentation = "https://gitlab.com/RRkundkar777/ngrid/-/blob/master/README.md?ref_type=heads"
+Issues = "https://gitlab.com/RRkundkar777/ngrid/-/issues"
+
+[tool.hatch.build.targets.sdist]
+exclude = [
+  "docs/",
+  ".github",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nmgrid"]
