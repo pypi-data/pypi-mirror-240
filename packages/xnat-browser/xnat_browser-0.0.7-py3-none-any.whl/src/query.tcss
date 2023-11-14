@@ -1,0 +1,39 @@
+#search_base_fields {
+    height: auto;
+}
+
+#selections {
+    height: auto;
+    border: panel darkturquoise;
+}
+
+#root_element {
+    height: auto;
+    border: panel darkturquoise;
+}
+
+#search_base_fields.remove {
+    display: none;
+}
+
+#query_button {
+    width: 100%;
+    border: round olivedrab;
+}
+
+#query_input {
+    width: 2fr;
+    min-width: 75;
+    border: panel limegreen;
+}
+
+#data_table {
+    width: 3fr;
+    border: panel limegreen;
+    height: 100%
+}
+
+#rich_log {
+    border: panel mediumvioletred;
+    height: 20%;
+}
