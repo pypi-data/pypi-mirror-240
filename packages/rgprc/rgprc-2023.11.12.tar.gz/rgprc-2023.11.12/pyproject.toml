@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rgprc"
+version = "2023.11.12"
+description = "A simple to use Python gRPC Reflection Client"
+readme = "README.md"
+authors = [
+    { name = "Wayne Manselle", email = "wayne@viridianforge.tech" },
+]
+license = { text = "Apache 2.0" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3.8",
+]
+keywords = ["grpc", "reflection", "client"]
+dependencies = [
+    "grpcio>=1.53.0",
+    "grpcio-reflection>=1.53.0",
+    "google-api-core>=2.9.0",
+    "cryptography>=39.0.1",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = [
+    "gprcio-tools",
+    "pytest",
+    "mypy",
+    "pre-commit",
+    "ruff",
+    "grpc-stubs",
+    "types-protobuf"
+]
+
+[project.urls]
+"Homepage" = "https://codeberg.org/viridianforge/rgprc"
+"Bug Tracker" = "https://codeberg.org/viridianforge/rgprc/issues"
