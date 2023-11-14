@@ -1,0 +1,11 @@
+myapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myapp/admin.py,sha256=p6xop1PuuDG2Uwv3G_aRfldxOfBzTRfMaoZmORVkqyU,66
+myapp/apps.py,sha256=YN8NaYOXwiLQkBwGxUnpWoANzGfW5Re9hdcFRHsdv4I,148
+myapp/models.py,sha256=hIXb-u7imrTiM_oW5Y6GrJ49bWYRDqK-iEMcDU1fLCg,213
+myapp/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+myapp/urls.py,sha256=sTeNZjQ3kCv8d78CWjYNtcbexuMba9rRPzEXdD_9-ck,146
+myapp/views.py,sha256=XK8rY_5DSpd0FmyBU60yhe_jZ862AqA0m-A6xB6cv4k,410
+testModule000101-1.1.dist-info/METADATA,sha256=21Aji24uMhRVnjxLlAmZ8h030PlEr7krPbdngq98DIo,425
+testModule000101-1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+testModule000101-1.1.dist-info/top_level.txt,sha256=mpTy47xfkgdU0oEqsofUDZ-1ddd-Dv0ct-TjiFec8Ks,6
+testModule000101-1.1.dist-info/RECORD,,
