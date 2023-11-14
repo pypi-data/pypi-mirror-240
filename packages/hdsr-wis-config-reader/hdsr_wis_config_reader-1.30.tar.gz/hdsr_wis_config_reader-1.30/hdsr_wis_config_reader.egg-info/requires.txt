@@ -1,0 +1,7 @@
+geopandas
+lxml
+hdsr-pygithub
+
+[test]
+pytest
+pytest-cov
