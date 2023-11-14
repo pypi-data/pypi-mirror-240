@@ -1,0 +1,2 @@
+[console_scripts]
+bop-cli = bop.command_line:main
