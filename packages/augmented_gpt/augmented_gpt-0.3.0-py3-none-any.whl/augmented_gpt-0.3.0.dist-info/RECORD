@@ -1,0 +1,14 @@
+augmented_gpt/__init__.py,sha256=1rbZXG_W3dD155DaEPR_w9gkxiyE9V3nyIgi7SPPECE,785
+augmented_gpt/augmented_gpt.py,sha256=2rsFghgCLqchL_P2PnVG_wMW1yOQdzGr4Q0cWLOe7JA,11776
+augmented_gpt/decorators.py,sha256=sP4SGll0IO6zynupiqsQSd4noyeVNsi7dbEpTSzq8_U,2267
+augmented_gpt/message.py,sha256=FigIFIe6itxdQzEszMENq4BfRhSe1fyu7Pn9g7BdRQs,10330
+augmented_gpt/plugins/__init__.py,sha256=Ob2fKg5XQ3weELuuTgbtxr8_VDVqzpgs-Nn6wRbeHFQ,1345
+augmented_gpt/plugins/calc.py,sha256=hHjLG4yV5i_gltIMkrOGmGaZZRbpSuilo0qgXkpyrVE,466
+augmented_gpt/plugins/memory.py,sha256=CmLeT4BmACwW6AO7kCmW-bvAPsdGgKiM17doq5GvAcU,3025
+augmented_gpt/utils/__init__.py,sha256=pxCDx1nWmvJPzeXXJyuXFJigYFBi5Beoc5KAaYnj6mE,265
+augmented_gpt/utils/stt.py,sha256=-00x6Nj4Ref_6mJPScN4cynZrscTsFlY8de15Ih-1nQ,712
+augmented_gpt/utils/tts.py,sha256=8Oo_auxlMKOxxIVKHw7lDrD_pLkUk5qU4UqB-LtQ3Go,1043
+augmented_gpt-0.3.0.dist-info/LICENSE,sha256=cbsA8hUQ8QEloowZI80PFgDpFOBr2GMtJMP2YJNTPSs,1067
+augmented_gpt-0.3.0.dist-info/METADATA,sha256=OL8NkC32NWGAn21PF5joVeV-GRz6_yDbdZbKLZWW4Zs,977
+augmented_gpt-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+augmented_gpt-0.3.0.dist-info/RECORD,,
