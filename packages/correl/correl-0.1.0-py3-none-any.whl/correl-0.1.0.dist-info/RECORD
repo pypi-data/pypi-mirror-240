@@ -1,0 +1,10 @@
+correl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+correl/hubbard.py,sha256=bQQZ3CIySH_Pt8lKwdNxFBKzIJLVENKGsyYipOHEIqc,31517
+correl/plotting.py,sha256=-1j6_PS4MlIJ-NUOyNW6yEMXl-WopSxjbf_MbaUiSjo,5536
+correl/pseudogap.py,sha256=fFf9bQ5AzdKdzPem8jdOGfSMyt8zRo5SwnZEmUNrvsA,10771
+correl/w2dyn_post.py,sha256=-GoWEfUNFjveMbrzOh4I8wM4hDxTPDxbC8AWfy8IvpQ,31055
+correl-0.1.0.dist-info/LICENSE,sha256=VgoF6TrRE-r1QjD04rb4GOxKJjj344hrk9rb06-HYNA,1065
+correl-0.1.0.dist-info/METADATA,sha256=kGYWmWc8vdZ_KcH1I2lR94iEzUp252GaUb1gUZ6OJfI,896
+correl-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+correl-0.1.0.dist-info/top_level.txt,sha256=_TCI5TQodaRMRfAfyJ2yCaRvDFiHGqSzxc6SscwxPpI,7
+correl-0.1.0.dist-info/RECORD,,
