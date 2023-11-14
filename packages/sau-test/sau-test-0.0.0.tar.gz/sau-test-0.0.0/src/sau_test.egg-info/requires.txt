@@ -1,0 +1,4 @@
+boto3==1.28.80
+prometheus-client==0.17.1
+PyYAML==6.0.1
+requests
