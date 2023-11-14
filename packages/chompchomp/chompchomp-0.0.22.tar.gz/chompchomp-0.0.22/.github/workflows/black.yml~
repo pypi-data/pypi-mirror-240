@@ -1,0 +1,8 @@
+name: apply-black-formatting
+run-name: Apply black formatting
+on: [push]
+jobs:
+  apply-black-formatting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4

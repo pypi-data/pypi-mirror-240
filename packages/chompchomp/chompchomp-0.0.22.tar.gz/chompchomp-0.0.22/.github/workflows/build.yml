@@ -1,0 +1,24 @@
+name: build-wheel
+run-name: Build Wheel
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]*.[0-9]*'
+jobs:
+  build-wheel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Prepare Python Environment
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Prepare virtual environment
+        run: make venv
+      - name: Build wheel
+        run: make build
+      - name: Create Release
+        run: gh release create ${GITHUB_REF_NAME} dist/chomp-${GITHUB_REF_NAME}-py3-none-any.whl
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

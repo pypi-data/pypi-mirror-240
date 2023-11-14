@@ -1,0 +1,13 @@
+
+class Food:
+    def __init__(self, name, brand, nutritional_facts):
+        self.name = name
+        self.brand = brand
+        self.nutritional_facts = nutritional_facts
+
+    @class
+    def from_dict(d):
+        name = d['name']
+        brand = d['brand']
+        nutritional_facts = d['nutritional_facts']
+        
