@@ -1,0 +1,7 @@
+feature_center/__init__.py,sha256=KzMEbwJePjyiLi7LHdDok7NhlGicJM_6P08AOveanUc,416
+feature_center/downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feature_center/downloader/downloader.py,sha256=7hpjV5oLqq_l8s0XgYzq6Q8hV1XOjd9EJ4V1nGogVXM,4505
+feature_center-0.1.dist-info/METADATA,sha256=fNCAxZqDEC8akvLSXEJVS-F6VjjeBFz69wAFQZy6Db0,292
+feature_center-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+feature_center-0.1.dist-info/top_level.txt,sha256=oop7FuKVbqFPMqnWkFbBYSO_yiBWaqq0RqfxFmWH_vQ,15
+feature_center-0.1.dist-info/RECORD,,
