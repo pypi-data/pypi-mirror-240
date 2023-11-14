@@ -1,0 +1,14 @@
+livekit/api/__init__.py,sha256=ER5tuJZOPDaPFRMKUxRXVZnwHlhuhrKcB22YZ8Z5nxI,1015
+livekit/api/_service.py,sha256=8_nU9CLBxRw9-tvFGoKaxDGqXqDTRP5uPsS1YSyefAY,705
+livekit/api/_twirp_client.py,sha256=g-3otMnsu5rvQLg2GTeUzl8chtoDa2cyqpTYKs8KT5U,2873
+livekit/api/access_token.py,sha256=OwRLCCwnlfYt4_07Ovz_P0QyDmb5EQhbjKPS34D27CY,5490
+livekit/api/egress_service.py,sha256=xfeYC6LIvo8JMefYOaW0V98bcFPIBaxS7O1a0O_68yU,3469
+livekit/api/ingress_service.py,sha256=Z4SrIsbhJDxIDkDgKZ8MaFz2PAO47MYBJQCaZrBUp-8,1748
+livekit/api/livekit_api.py,sha256=ube8V7uCEOJHSkR_w726zy2jAljiirThluuB-m8fkuE,1015
+livekit/api/room_service.py,sha256=VBUEaRo-vpTn1lpFLV053wZb1xwt1bEf1p1AFN2ESfM,4391
+livekit/api/version.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+livekit/api/webhook.py,sha256=58j91_jXwnR_AR5xCHR-rzG6poIVX2K_hrATY8DJ5es,677
+livekit_api-0.2.0.dist-info/METADATA,sha256=EepZqFt54DF6mBTf_WgERVf8D_JXLZDiwj_WA7AGcZs,1250
+livekit_api-0.2.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+livekit_api-0.2.0.dist-info/top_level.txt,sha256=OoDok3xUmXbZRvOrfvvXB-Juu4DX79dlq188E19YHoo,8
+livekit_api-0.2.0.dist-info/RECORD,,
