@@ -1,0 +1,8 @@
+prettytable
+colorama
+requests
+matplotlib
+numpy
+perlin_noise
+numba
+ursina
