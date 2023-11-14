@@ -1,0 +1,10 @@
+black
+flake8
+isort
+pytest
+pytest-asyncio
+pytest-cache
+pytest-cov
+pytest-mock
+pytest-xdist
+pre-commit
