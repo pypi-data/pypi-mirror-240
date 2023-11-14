@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gega_promptflow_vectordb
+Version: 0.0.2
+Summary: Prompt flow tools for accessing popular vector databases
+Author: Microsoft Corporation
+Author-email: aethercn@microsoft.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Other/Proprietary License
+Description-Content-Type: text/markdown
+Provides-Extra: azure
+
+# Introduction
+
+To store and search over unstructured data, a widely adopted approach is embedding data into vectors, stored and indexed in vector databases. The promptflow-vectordb SDK is designed for PromptFlow, provides essential tools for vector similarity search within popular vector databases, including  FAISS, Qdrant, Azure Congnitive Search, and more.
