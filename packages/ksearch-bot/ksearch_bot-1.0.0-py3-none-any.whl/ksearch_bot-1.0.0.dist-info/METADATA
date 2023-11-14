@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ksearch-bot
+Version: 1.0.0
+Author: henrybit
+Author-email: qipenghui3056@sina.com
+Requires-Dist: fastapi >=0.95.1
+Requires-Dist: pydantic >=1.8.2
+Requires-Dist: uvicorn >=0.22.0
+Requires-Dist: keyboard >=0.13.5
+Requires-Dist: mysql-connector >=2.2.9
+Requires-Dist: PyPDF2 >=3.0.1
+Requires-Dist: pypdf >=3.12.0
+Requires-Dist: pytz >=2019.3
+Requires-Dist: oss2 >=2.15.0
+Requires-Dist: docx2txt >=0.8
+Requires-Dist: selenium >=4.3.0
+Requires-Dist: beautifulsoup4 >=4.9.3
+Requires-Dist: pymongo >=4.6.0
+
