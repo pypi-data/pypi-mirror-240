@@ -1,0 +1,9 @@
+atyp
+nchr
+nlit
+pfmt
+putl
+asto
+chck
+
+[dev]
