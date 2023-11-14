@@ -1,0 +1,8 @@
+trio_serial_windows/__init__.py,sha256=KxYK1SyOWqgSHOb2Z9TEnNoUshGIQ1YWWAYS2BWIIME,1319
+trio_serial_windows/_windows.py,sha256=SnCjAMNOalsiXoRwxmAoQpc7nw6ffjynpO27BZ3eujE,9446
+trio_serial_windows/_windows_cffi.py,sha256=2bOE2f4d-Kfi6cKqNMrGzgEEn7X26cMZhYLyVZPG_Ys,18383
+trio_serial_windows-0.1.1.dist-info/LICENSE,sha256=S3ce5msuCpP2qj8qTthHCV4j2kilQSkzaYM6sWJY1R0,1071
+trio_serial_windows-0.1.1.dist-info/METADATA,sha256=J1-qYDBDG3Nj69eBdAjDAQedmrr7XyGtY3TvD1JntSY,909
+trio_serial_windows-0.1.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+trio_serial_windows-0.1.1.dist-info/top_level.txt,sha256=6HIzpc9EEJJ8o619swOx_zSbVU1XLJXAA6mZ4Q8WW4I,20
+trio_serial_windows-0.1.1.dist-info/RECORD,,
