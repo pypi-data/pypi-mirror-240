@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+autodistill_hls_geospatial/__init__.py
+autodistill_hls_geospatial/hls_model.py
+autodistill_hls_geospatial.egg-info/PKG-INFO
+autodistill_hls_geospatial.egg-info/SOURCES.txt
+autodistill_hls_geospatial.egg-info/dependency_links.txt
+autodistill_hls_geospatial.egg-info/requires.txt
+autodistill_hls_geospatial.egg-info/top_level.txt
