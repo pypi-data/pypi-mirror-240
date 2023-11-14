@@ -1,0 +1,10 @@
+_genpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+_genpdf/main.py,sha256=Bi56EFoiHn7OiEM5QKniPvgVkpH6QB3ahRHUe614_vI,699
+_genpdf/deposit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+_genpdf/deposit/pdfgen.py,sha256=So9tPEatM_IKtkJBdXRtVmzjNA3RPjxq-yrrjvUYR7M,1268
+_genpdf/deposit/test25.py,sha256=_w3gH99Jq2deEEBzxKdnY5M31j1i7-PkGMsBcR5fJZk,597
+_genpdf/deposit/utilitaires.py,sha256=SFzM7_7ms0aRPNB_wy6q-IHsMfftJdAB-BrblTA0JNo,566
+genpdf-0.1.dist-info/METADATA,sha256=BPWnToS8reu4pUjDo6gkWBdgI2rkSCfOED5sIAjzU60,53
+genpdf-0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+genpdf-0.1.dist-info/top_level.txt,sha256=Bq9EqZicJUegzpl8hPP3xq00ukngmZ3PZZ6qJsJyq74,8
+genpdf-0.1.dist-info/RECORD,,
