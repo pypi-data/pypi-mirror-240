@@ -1,0 +1,9 @@
+README.md
+license
+setup.py
+ssu_package_deploy_tutorial/__init__.py
+ssu_package_deploy_tutorial/__main__.py
+ssu_package_deploy_tutorial.egg-info/PKG-INFO
+ssu_package_deploy_tutorial.egg-info/SOURCES.txt
+ssu_package_deploy_tutorial.egg-info/dependency_links.txt
+ssu_package_deploy_tutorial.egg-info/top_level.txt
