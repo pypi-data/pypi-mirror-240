@@ -1,0 +1,13 @@
+aphylogeo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aphylogeo/alignement.py,sha256=FaEJTfeATDNNNckQ7iyULCiFgDied1JpVOLEvuTEDuI,33889
+aphylogeo/genetic_trees.py,sha256=-iomnWRO97AhvodrSsaaankcOUcCM878K5Z4pcvqAbk,1705
+aphylogeo/main.py,sha256=t4Alu_bWZJg7meYDbDbVHSZmSNjUwjz0Ztc_xpfjOKU,1840
+aphylogeo/multiProcessor.py,sha256=IzKDYSWKsBZG5XW4gzn2wPK7Ry2w9dhO8YT2HlDOuKg,13426
+aphylogeo/params.py,sha256=xNNuNdOQH57QWLkBwjJHeKO-hWVNXg1nFPko-S0meG4,1673
+aphylogeo/params.yaml,sha256=NPgS6igZjChS9e-EaJJ6l8QCQi1tbbz8QW4awIPnfvY,1277
+aphylogeo/requirements.txt,sha256=PeoW6NlxkQNHHddL4CHivtVU9feHnAIJCKn_vmbng_8,157
+aphylogeo/utils.py,sha256=npMqoGvJv5rvTurChnvGOroqIOhGjrpzFiBLM4Ack2k,20648
+aphylogeo-0.4.2.dist-info/LICENSE,sha256=RMj6v6g9ThF-xWNUJf09BhH_H72UWtamm0jZL0uBWCQ,1067
+aphylogeo-0.4.2.dist-info/METADATA,sha256=WPRg_tOQ2MMZZkk2ZX_A-zz_9S2ytoLIfvnauVLIjqA,6690
+aphylogeo-0.4.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+aphylogeo-0.4.2.dist-info/RECORD,,
