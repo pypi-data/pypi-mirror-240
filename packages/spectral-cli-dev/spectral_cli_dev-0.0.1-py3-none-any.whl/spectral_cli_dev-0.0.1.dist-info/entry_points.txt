@@ -1,0 +1,3 @@
+[console_scripts]
+spectral-cli-dev=spectral_cli_dev.spectralaisdk:cli
+
