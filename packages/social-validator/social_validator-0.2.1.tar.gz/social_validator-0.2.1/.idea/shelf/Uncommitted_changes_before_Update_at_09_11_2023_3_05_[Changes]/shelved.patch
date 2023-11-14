@@ -1,0 +1,162 @@
+Index: tests/telegram/input.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from social_validator.telegram import (\r\n    CHAT_NAME_MAX_LENGTH,\r\n    COMMAND_MAX_LENGTH,\r\n    DESCRIPTION_BOT_MAX_LENGTH,\r\n    DESCRIPTION_CHANNEL_MAX_LENGTH,\r\n    DESCRIPTION_GROUP_MAX_LENGTH,\r\n    DESCRIPTION_USER_MAX_LENGTH,\r\n    FIRST_NAME_MAX_LENGTH,\r\n    ID_MAX_LENGTH,\r\n    ID_MIN_LENGTH,\r\n    LAST_NAME_MAX_LENGTH,\r\n    MEDIA_MESSAGE_MAX_LENGTH,\r\n    MESSAGE_MAX_LENGTH,\r\n)\r\n\r\nRANDOM_UNICODE_STRING = \"➷⡞⍄⪮ⴱ⧕⭀₃\u2D7D▊⯛⪔⸠Ⱀ❠∭⯲⮈ⅈ⭐ℭ⥙⑼\"\r\n\r\nVALID_IDS = (\r\n    \"A\" * ID_MAX_LENGTH,\r\n    \"A\" * ID_MIN_LENGTH,\r\n    \"B12345\",\r\n    \"Z12345\",\r\n    \"Q_t_e_s_t\",\r\n    \"Q_1_2_3_4_5\",\r\n)\r\n\r\nINVALID_IDS = (\r\n    \"A\" * (ID_MIN_LENGTH - 1),\r\n    \"A\" * (ID_MAX_LENGTH + 1),\r\n    \"123456\",\r\n    \"_test\",\r\n    \"__test\",\r\n    \"test__\",\r\n    \"t__q__\",\r\n    \"t______\",\r\n    \"1_test\",\r\n    \"тест_ид\",\r\n    RANDOM_UNICODE_STRING,\r\n)\r\n\r\nVALID_BOT_IDS = (\r\n    f\"{'A' * 2}bot\",\r\n    f\"{'A' * (ID_MAX_LENGTH - 3)}bot\",\r\n    \"B12345bot\",\r\n    \"Z12345_bot\",\r\n    \"Q_1_2_3_4_5bot\",\r\n)\r\n\r\nINVALID_BOT_IDS = (\r\n    \"Abot\",\r\n    f\"{'A' * (ID_MAX_LENGTH - 2)}bot\",\r\n    \"123456bot\",\r\n    \"_testbot\",\r\n    \"__testbot\",\r\n    \"test__bot\",\r\n    \"t__q__bot\",\r\n    \"t______bot\",\r\n    \"1_testbot\",\r\n    \"тестовый_идbot\",\r\n    f\"{RANDOM_UNICODE_STRING}bot\",\r\n    \"correct_name_without_suffix\",\r\n)\r\n\r\nVALID_DESCRIPTIONS = (\r\n    (\"\", \"user\"),\r\n    (\"a\" * DESCRIPTION_USER_MAX_LENGTH, \"user\"),\r\n    (RANDOM_UNICODE_STRING, \"user\"),\r\n    (\"\", \"group\"),\r\n    (\"a\" * DESCRIPTION_GROUP_MAX_LENGTH, \"group\"),\r\n    (RANDOM_UNICODE_STRING, \"group\"),\r\n    (\"\", \"channel\"),\r\n    (\"a\" * DESCRIPTION_CHANNEL_MAX_LENGTH, \"channel\"),\r\n    (RANDOM_UNICODE_STRING, \"channel\"),\r\n    (\"\", \"bot\"),\r\n    (\"a\" * DESCRIPTION_BOT_MAX_LENGTH, \"bot\"),\r\n    (RANDOM_UNICODE_STRING, \"bot\"),\r\n)\r\n\r\nINVALID_DESCRIPTIONS = (\r\n    (\"A\" * (DESCRIPTION_USER_MAX_LENGTH + 1), \"user\"),\r\n    (\"A\" * (DESCRIPTION_GROUP_MAX_LENGTH + 1), \"group\"),\r\n    (\"A\" * (DESCRIPTION_CHANNEL_MAX_LENGTH + 1), \"channel\"),\r\n    (\"A\" * (DESCRIPTION_BOT_MAX_LENGTH + 1), \"bot\"),\r\n)\r\n\r\nVALID_CHAT_NAMES = (\r\n    \"A\",\r\n    \"A\" * CHAT_NAME_MAX_LENGTH,\r\n    RANDOM_UNICODE_STRING,\r\n)\r\n\r\nINVALID_CHAT_NAMES = (\r\n    \"\",\r\n    \"A\" * (CHAT_NAME_MAX_LENGTH + 1),\r\n)\r\n\r\nVALID_FIRST_NAMES = (\r\n    \"A\",\r\n    \"A\" * FIRST_NAME_MAX_LENGTH,\r\n    RANDOM_UNICODE_STRING,\r\n)\r\n\r\nINVALID_FIRST_NAMES = (\r\n    \"\",\r\n    \"A\" * (FIRST_NAME_MAX_LENGTH + 1),\r\n)\r\n\r\nVALID_LAST_NAMES = (\r\n    \"\",\r\n    \"A\" * LAST_NAME_MAX_LENGTH,\r\n    RANDOM_UNICODE_STRING,\r\n)\r\n\r\nINVALID_LAST_NAMES = (\"A\" * (LAST_NAME_MAX_LENGTH + 1),)\r\n\r\nVALID_FULL_NAMES = (\r\n    # this may be a bit hard to read,\r\n    # but here we just map each first_name to each last_name\r\n    *(\r\n        (first_name, last_name)\r\n        for last_name in VALID_LAST_NAMES\r\n        for first_name in VALID_FIRST_NAMES\r\n    ),\r\n    # map valid first names to empty last name\r\n    *((first_name, \"\") for first_name in VALID_FIRST_NAMES),\r\n)\r\n\r\nINVALID_FULL_NAMES = (\r\n    # this may be even more difficult to read,\r\n    # but here we simply map the correct and incorrect first and last names\r\n    # in order to get a validation error in the final result\r\n    *(\r\n        (first_name, last_name)\r\n        for last_name in INVALID_LAST_NAMES\r\n        for first_name in VALID_FIRST_NAMES\r\n    ),\r\n    *(\r\n        (first_name, last_name)\r\n        for last_name in VALID_LAST_NAMES\r\n        for first_name in INVALID_FIRST_NAMES\r\n    ),\r\n    *(\r\n        (first_name, last_name)\r\n        for last_name in INVALID_LAST_NAMES\r\n        for first_name in INVALID_FIRST_NAMES\r\n    ),\r\n    # map invalid first names to empty last name\r\n    *((first_name, \"\") for first_name in INVALID_FIRST_NAMES),\r\n)\r\n\r\nVALID_MESSAGES = (\r\n    # (text: str, include_media: bool)\r\n    (\"A\", False),\r\n    (\"A\" * MESSAGE_MAX_LENGTH, False),\r\n    (RANDOM_UNICODE_STRING, False),\r\n    (\"A\", True),\r\n    (\"A\" * MEDIA_MESSAGE_MAX_LENGTH, True),\r\n    (RANDOM_UNICODE_STRING, True),\r\n)\r\n\r\nINVALID_MESSAGES = (\r\n    # (text: str, include_media: bool)\r\n    (\"\", False),\r\n    (\"A\" * (MESSAGE_MAX_LENGTH + 1), False),\r\n    (\"\", True),\r\n    (\"A\" * (MEDIA_MESSAGE_MAX_LENGTH + 1), True),\r\n)\r\n\r\nVALID_COMMANDS = (\r\n    \"A\",\r\n    \"A\" * COMMAND_MAX_LENGTH,\r\n    \"12345\",\r\n    \"_\",\r\n    \"_____\",\r\n    \"_test\",\r\n    \"__test\",\r\n    \"_12345\",\r\n    \"__12345\",\r\n    \"another__test__\",\r\n    \"double_underscore__\",\r\n    \"t_e_s_t_u_n_d_e_r_s_c_o_r_e_s\",\r\n    \"1_2_3_4_5\",\r\n    \"test12345withDIGITS\",\r\n)\r\n\r\nINVALID_COMMANDS = (\r\n    \"\",\r\n    \"A\" * (COMMAND_MAX_LENGTH + 1),\r\n    RANDOM_UNICODE_STRING,\r\n)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/tests/telegram/input.py b/tests/telegram/input.py
+--- a/tests/telegram/input.py	(revision 30d73a7d6939bd9a6f2aa77815538398bf71717d)
++++ b/tests/telegram/input.py	(date 1699488263428)
+@@ -25,6 +25,7 @@
+ )
+ 
+ INVALID_IDS = (
++    "",
+     "A" * (ID_MIN_LENGTH - 1),
+     "A" * (ID_MAX_LENGTH + 1),
+     "123456",
+@@ -83,6 +84,11 @@
+     ("A" * (DESCRIPTION_BOT_MAX_LENGTH + 1), "bot"),
+ )
+ 
++INVALID_DESCRIPTIONS_CHAT_TYPES = (
++    ("test", ""),
++    ("test", "unexpected"),
++)
++
+ VALID_CHAT_NAMES = (
+     "A",
+     "A" * CHAT_NAME_MAX_LENGTH,
+Index: tests/telegram/test_validation.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import pytest as pytest\r\nfrom assertpy import assert_that\r\n\r\nfrom social_validator import telegram\r\nfrom social_validator.exceptions import ValidationError\r\nfrom tests.telegram import input\r\n\r\n\r\n@pytest.mark.parametrize(\"_id\", input.VALID_IDS)\r\ndef test_valid_id(_id: str) -> None:\r\n    v = telegram.validate_id(_id)\r\n    assert_that(v).is_equal_to(_id.lower())\r\n\r\n\r\n@pytest.mark.parametrize(\"_id\", input.INVALID_IDS)\r\ndef test_invalid_id(_id: str) -> None:\r\n    with pytest.raises(ValidationError):\r\n        telegram.validate_id(_id)\r\n\r\n\r\n@pytest.mark.parametrize(\"_id\", input.VALID_BOT_IDS)\r\ndef test_valid_bot_id(_id: str) -> None:\r\n    v = telegram.validate_bot_id(_id)\r\n    assert_that(v).is_equal_to(_id.lower())\r\n\r\n\r\n@pytest.mark.parametrize(\"_id\", input.INVALID_BOT_IDS)\r\ndef test_invalid_bot_id(_id: str) -> None:\r\n    with pytest.raises(ValidationError):\r\n        telegram.validate_bot_id(_id)\r\n\r\n\r\n@pytest.mark.parametrize(\"text, chat_type\", input.VALID_DESCRIPTIONS)\r\ndef test_valid_description(text: str, chat_type: telegram.ChatType) -> None:\r\n    v = telegram.validate_description(text, chat_type=chat_type)\r\n    assert_that(v).is_equal_to(text)\r\n\r\n\r\n@pytest.mark.parametrize(\"text, chat_type\", input.INVALID_DESCRIPTIONS)\r\ndef test_invalid_description(text: str, chat_type: telegram.ChatType) -> None:\r\n    with pytest.raises(ValidationError):\r\n        telegram.validate_description(text, chat_type=chat_type)\r\n\r\n\r\n@pytest.mark.parametrize(\"name\", input.VALID_CHAT_NAMES)\r\ndef test_valid_chat_name(name: str) -> None:\r\n    v = telegram.validate_chat_name(name)\r\n    assert_that(v).is_equal_to(name)\r\n\r\n\r\n@pytest.mark.parametrize(\"name\", input.INVALID_CHAT_NAMES)\r\ndef test_invalid_chat_name(name: str) -> None:\r\n    with pytest.raises(ValidationError):\r\n        telegram.validate_chat_name(name)\r\n\r\n\r\n@pytest.mark.parametrize(\"first_name, last_name\", input.VALID_FULL_NAMES)\r\ndef test_valid_full_name(first_name: str, last_name: str) -> None:\r\n    out_first_name, out_last_name = telegram.validate_full_name(\r\n        first_name=first_name, last_name=last_name\r\n    )\r\n    assert_that(out_first_name).is_equal_to(first_name)\r\n    assert_that(out_last_name).is_equal_to(last_name)\r\n\r\n\r\n@pytest.mark.parametrize('first_name, last_name', input.INVALID_FULL_NAMES)\r\ndef test_invalid_full_name(first_name: str, last_name: str) -> None:\r\n    with pytest.raises(ValidationError):\r\n        telegram.validate_full_name(first_name=first_name, last_name=last_name)\r\n\r\n\r\n@pytest.mark.parametrize(\"text, include_media\", input.VALID_MESSAGES)\r\ndef test_valid_message(text: str, include_media: bool) -> None:\r\n    v = telegram.validate_message(text, include_media=include_media)\r\n    assert_that(v).is_equal_to(text)\r\n\r\n\r\n@pytest.mark.parametrize(\"text, include_media\", input.INVALID_MESSAGES)\r\ndef test_invalid_message(text: str, include_media: bool) -> None:\r\n    with pytest.raises(ValidationError):\r\n        telegram.validate_message(text, include_media=include_media)\r\n\r\n\r\n@pytest.mark.parametrize(\"cmd\", input.VALID_COMMANDS)\r\ndef test_valid_command(cmd: str) -> None:\r\n    v = telegram.validate_command(cmd)\r\n    assert_that(v).is_equal_to(cmd.lower())\r\n\r\n\r\n@pytest.mark.parametrize(\"cmd\", input.INVALID_COMMANDS)\r\ndef test_invalid_command(cmd: str) -> None:\r\n    with pytest.raises(ValidationError):\r\n        telegram.validate_command(cmd)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/tests/telegram/test_validation.py b/tests/telegram/test_validation.py
+--- a/tests/telegram/test_validation.py	(revision 30d73a7d6939bd9a6f2aa77815538398bf71717d)
++++ b/tests/telegram/test_validation.py	(date 1699488263428)
+@@ -6,6 +6,9 @@
+ from tests.telegram import input
+ 
+ 
++# *** Validation functions ***
++
++
+ @pytest.mark.parametrize("_id", input.VALID_IDS)
+ def test_valid_id(_id: str) -> None:
+     v = telegram.validate_id(_id)
+@@ -42,6 +45,12 @@
+         telegram.validate_description(text, chat_type=chat_type)
+ 
+ 
++@pytest.mark.parametrize("text, chat_type", input.INVALID_DESCRIPTIONS_CHAT_TYPES)
++def test_invalid_chat_type(text: str, chat_type: str) -> None:
++    with pytest.raises(ValueError):
++        telegram.validate_description(text, chat_type=chat_type)  # type: ignore
++
++
+ @pytest.mark.parametrize("name", input.VALID_CHAT_NAMES)
+ def test_valid_chat_name(name: str) -> None:
+     v = telegram.validate_chat_name(name)
+@@ -63,7 +72,7 @@
+     assert_that(out_last_name).is_equal_to(last_name)
+ 
+ 
+-@pytest.mark.parametrize('first_name, last_name', input.INVALID_FULL_NAMES)
++@pytest.mark.parametrize("first_name, last_name", input.INVALID_FULL_NAMES)
+ def test_invalid_full_name(first_name: str, last_name: str) -> None:
+     with pytest.raises(ValidationError):
+         telegram.validate_full_name(first_name=first_name, last_name=last_name)
+@@ -91,3 +100,16 @@
+ def test_invalid_command(cmd: str) -> None:
+     with pytest.raises(ValidationError):
+         telegram.validate_command(cmd)
++
++
++# *** Check functions ***
++
++
++@pytest.mark.parametrize("first_name, last_name", input.VALID_FULL_NAMES)
++def test_is_valid_full_name(first_name: str, last_name: str) -> None:
++    assert_that(telegram.is_valid_full_name(first_name, last_name)).is_true()
++
++
++@pytest.mark.parametrize("first_name, last_name", input.INVALID_FULL_NAMES)
++def test_is_invalid_full_name(first_name: str, last_name: str) -> None:
++    assert_that(telegram.is_valid_full_name(first_name, last_name)).is_false()
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Social validator\r\n\r\n![CI](https://github.com/flacy/social-validator/actions/workflows/ci.yml/badge.svg)\r\n[![codecov](https://codecov.io/gh/Flacy/social-validator/graph/badge.svg?token=IX9AMG6L9F)](https://codecov.io/gh/Flacy/social-validator)\r\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/social-validator)\r\n![License](https://img.shields.io/github/license/flacy/social-validator)\r\n\r\n### ❓ What's this\r\nThis is a library for validating data from social networks and messengers,\r\nsuch as identifiers, usernames, etc.\r\n\r\n### ⚡ Motivation\r\nThe motivation for creating this library was derived from the fact that there\r\nis no single database to determine the restrictions of each service.\r\nAccordingly, in order to validate the data correctly, you need to deep down\r\ninto the documentation, but sometimes even these data are not specified in it,\r\nand you need to test the validation manually. This library is designed to\r\nsolve this problem. *Unfortunately, only for python ;(*\r\n\r\n### \uD83D\uDCD1 Documentation\r\nDocumentation for each method is available via docstrings.\r\nIf you really need documentation as a separate page, please open issue.\r\n\r\n### ⚠\uFE0F Roadmap\r\nThe project is under development and is moving to a stable version.\r\nTo track the status, you can [follow the link](https://github.com/users/Flacy/projects/1).\r\n\r\n### \uD83D\uDEE0\uFE0F Contributing\r\nIf you want to help with development, or want to see some feature, or fix a\r\nbug, please open issue with the appropriate label first.
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+--- a/README.md	(revision 30d73a7d6939bd9a6f2aa77815538398bf71717d)
++++ b/README.md	(date 1699488267728)
+@@ -2,6 +2,7 @@
+ 
+ ![CI](https://github.com/flacy/social-validator/actions/workflows/ci.yml/badge.svg)
+ [![codecov](https://codecov.io/gh/Flacy/social-validator/graph/badge.svg?token=IX9AMG6L9F)](https://codecov.io/gh/Flacy/social-validator)
++[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+ ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/social-validator)
+ ![License](https://img.shields.io/github/license/flacy/social-validator)
+ 
+@@ -10,14 +11,36 @@
+ such as identifiers, usernames, etc.
+ 
+ ### ⚡ Motivation
+-The motivation for creating this library was derived from the fact that there
+-is no single database to determine the restrictions of each service.
+-Accordingly, in order to validate the data correctly, you need to deep down
+-into the documentation, but sometimes even these data are not specified in it,
+-and you need to test the validation manually. This library is designed to
+-solve this problem. *Unfortunately, only for python ;(*
++The motivation behind creating this library stemmed from the lack of a
++centralized database containing restrictions for each service.
++Often, validating data correctly requires thoroughly analyzing documentation
++or manually testing validation.
++This library aims to solve this problem but is currently available only for Python.
++
++### 💽 Installation
++You can use [pip](https://github.com/pypa/pip) or
++[fext](https://github.com/fextpkg/cli) to install the library:
++```shell
++fext install social-validator
++```
++
++### ✨ Usage
++The interface for validating the values of **each service** looks like this:
++```python
++from social_validator import telegram
++
++# Functions starting with "is" are used for boolean value checking.
++telegram.is_valid_id("test_user_id")  # True
+ 
+-### 📑 Documentation
++# Functions starting with "validate" perform full-fledged validation,
++# formatting and raising "social_validator.exceptions.ValidationError" if the
++# validation fails.
++telegram.validate_id("test_user_ID")  # "test_user_id"
++
++# Note: Each validation function is based on a corresponding boolean check
++# function, but not vice versa.
++telegram.validate_command("cmd") and telegram.is_valid_command("cmd")
++```
+ Documentation for each method is available via docstrings.
+ If you really need documentation as a separate page, please open issue.
+ 
+@@ -26,5 +49,6 @@
+ To track the status, you can [follow the link](https://github.com/users/Flacy/projects/1).
+ 
+ ### 🛠️ Contributing
+-If you want to help with development, or want to see some feature, or fix a
+-bug, please open issue with the appropriate label first.
+\ No newline at end of file
++If you want to contribute to development, request a feature, or report a bug,
++please open an [issue](https://github.com/Flacy/social-validator/issues)
++with the appropriate label.
+\ No newline at end of file
