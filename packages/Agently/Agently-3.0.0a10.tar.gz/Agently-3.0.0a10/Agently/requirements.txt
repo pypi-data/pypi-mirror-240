@@ -1,0 +1,11 @@
+# Network
+aiohttp
+websockets
+torando
+# Model Client
+openai
+httpx
+erniebot
+zhipuai
+# Format
+PyYAML
