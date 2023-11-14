@@ -1,0 +1,144 @@
+##generated class RnaRegionReference
+#############################
+##   Definition: A RNARegion reference is a grouping of several RNARegion entities
+##   that are common in sequence and genomic position.  Members can differ in celular
+##   location, sequence features, mutations and bound partners.
+
+##############################
+ 
+from biopax.entityreference import EntityReference
+##############################
+ 
+
+
+ 
+from biopax.utils.class_utils import tostring,tojson
+from biopax.utils.validate_utils import CValidateArgType,raise_error
+
+
+
+
+
+validator = CValidateArgType(raise_error, logger=None)
+
+@tostring
+class RnaRegionReference(EntityReference) :
+##########constructor
+    def __init__(self, *args, **kwargs):
+        #args -- tuple of anonymous arguments
+        #kwargs -- dictionary of named arguments
+        
+        self.pk=kwargs.get('pk',None)    
+        self.pop_state=kwargs.get('pop_state',None)  
+        self.exhausted=kwargs.get('exhausted',None)
+        self.meta_label=None  
+        
+        super().__init__(*args, **kwargs) 
+        self.rdf_type="http://www.biopax.org/release/biopax-level3.owl#RnaRegionReference"
+##   Absolute location as defined by the referenced sequence database record. E.g. an
+##   operon has a absolute region on the DNA molecule referenced by the
+##   UnificationXref.
+
+        self._absoluteRegion=kwargs.get('absoluteRegion',None)  
+##   An organism, e.g. 'Homo sapiens'. This is the organism that the entity is found
+##   in. Pathways may not have an organism associated with them, for instance,
+##   reference pathways from KEGG. Sequence-based entities (DNA, protein, RNA) may
+##   contain an xref to a sequence database that contains organism information, in
+##   which case the information should be consistent with the value for ORGANISM.
+
+        self._organism=kwargs.get('organism',None)  
+        self._regionType=kwargs.get('regionType',None)  
+##   The sub region of a region or nucleic acid molecule. The sub region must be
+##   wholly part of the region, not outside of it.
+
+        self._subRegion=kwargs.get('subRegion',None)  
+##   Polymer sequence in uppercase letters. For DNA, usually A,C,G,T letters
+##   representing the nucleosides of adenine, cytosine, guanine and thymine,
+##   respectively; for RNA, usually A, C, U, G; for protein, usually the letters
+##   corresponding to the 20 letter IUPAC amino acid code.
+
+        self._sequence=kwargs.get('sequence',None)  
+  
+
+##########getter
+     
+    def get_absoluteRegion(self):
+        return self._absoluteRegion  
+     
+    def get_organism(self):
+        return self._organism  
+     
+    def get_regionType(self):
+        return self._regionType  
+     
+    def get_subRegion(self):
+        return self._subRegion  
+     
+    def get_sequence(self):
+        return self._sequence  
+  
+##########setter
+    
+    @validator(value='biopax.SequenceLocation')  
+ 
+    def set_absoluteRegion(self,value):
+        self._absoluteRegion=value  
+    
+    @validator(value='biopax.BioSource')  
+ 
+    def set_organism(self,value):
+        self._organism=value  
+    
+    @validator(value='biopax.SequenceRegionVocabulary')  
+ 
+    def set_regionType(self,value):
+        self._regionType=value  
+    
+    @validator(value='biopax.DnaRegionReference')  
+ 
+    def set_subRegion(self,value):
+        self._subRegion=value  
+    
+    @validator(value=str)  
+ 
+    def set_sequence(self,value):
+        self._sequence=value  
+  
+
+
+
+
+    def object_attributes(self):
+
+      object_attribute_list=super().object_attributes() 
+      satt=['absoluteRegion', 'organism', 'regionType', 'subRegion']
+      for elem in satt:
+        object_attribute_list.append(elem)
+      return object_attribute_list
+ 
+
+    def type_attributes(self):
+ 
+      type_attribute_list=super().type_attributes() 
+      satt=['sequence']
+      for elem in satt:
+        type_attribute_list.append(elem)
+      return type_attribute_list
+ 
+#####get attributes types 
+    def attribute_type_by_name(self):
+      ma=dict()
+      ma=super().attribute_type_by_name() 
+      ma['absoluteRegion']='SequenceLocation'  
+      ma['organism']='BioSource'  
+      ma['regionType']='SequenceRegionVocabulary'  
+      ma['subRegion']='DnaRegionReference'  
+      ma['sequence']='str'  
+      return ma
+
+
+
+    def to_json(self):
+        return tojson(self)
+        
+
