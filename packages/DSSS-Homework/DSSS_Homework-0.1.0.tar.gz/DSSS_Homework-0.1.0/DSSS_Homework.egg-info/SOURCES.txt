@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+DSSS_Homework.egg-info/PKG-INFO
+DSSS_Homework.egg-info/SOURCES.txt
+DSSS_Homework.egg-info/dependency_links.txt
+DSSS_Homework.egg-info/top_level.txt
