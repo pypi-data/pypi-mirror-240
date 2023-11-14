@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: silvr-client
+Version: 0.1.0
+Summary: Silvr client
+Home-page: https://github.com/SilvrGroup/silvr-client/
+Author: Silvr Group
+Author-email: contact@silvr.co
+License: Apache License (2.0)
+Keywords: web services
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENCE
+
+# silvr-client
+
+A Python client for brokers to send new application.
+
+See [demo.py](demo.py) to see how to use the API.
+
+
+# CHANGELOG
+
+This document describes changes between each  past release.
+
+## 0.1.0 (2023-11-13)
+
+- Allow broker login
+- Allow sending applications
