@@ -1,0 +1,8 @@
+LICENSE
+codeenv.py
+pyproject.toml
+codeenv.egg-info/PKG-INFO
+codeenv.egg-info/SOURCES.txt
+codeenv.egg-info/dependency_links.txt
+codeenv.egg-info/requires.txt
+codeenv.egg-info/top_level.txt
