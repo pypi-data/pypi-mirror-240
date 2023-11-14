@@ -1,0 +1,10 @@
+paradigm_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paradigm_client/communicator.py,sha256=A2VFUwF1Yh8pAcgRMeuBkUOQ5Za3Dzep2R8wcN3_yAw,10314
+paradigm_client/remote_model.py,sha256=AHssJSmoruvu-iwJrvHbMlSy2rUti-r7mN_LE8pgdw0,13365
+paradigm_client/request.py,sha256=nCaNcgoh_CnVkrE6p1F-EQNYpszeDf6IVp43gQkgiAk,7084
+paradigm_client/response.py,sha256=H8dQr9Wq9MJDECLU5YPD1jWOjnD3rozv14_IJTd4e64,1630
+paradigm_client-0.5.dist-info/LICENSE,sha256=tC-tkcvAnYG53Il5_SKMj-rxQfQ36JIsFIj3N8e0HNo,1064
+paradigm_client-0.5.dist-info/METADATA,sha256=aTSYo9fpf8VMh248ex-gOQYH3bvD5E6Ks-Q474zwfN4,3226
+paradigm_client-0.5.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+paradigm_client-0.5.dist-info/top_level.txt,sha256=FGKIpsoRbSoewd11esw66NagPNCyZr2JPlHKm8lnz1A,16
+paradigm_client-0.5.dist-info/RECORD,,
