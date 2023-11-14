@@ -1,0 +1,7 @@
+livekit/plugins/vad/__init__.py,sha256=gGlQLFPIwmEdB7SBWK3IEcKlf7pV_hTTDzMxdCGahi4,27
+livekit/plugins/vad/vad.py,sha256=HdZKa5vLjhqmsj_DzkZxsu31VFqNrF_AlcIbIeEEeu4,5000
+livekit/plugins/vad/version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+livekit_plugins_vad-0.0.1.dist-info/METADATA,sha256=ue5HzAq2ZzmaZyBkKFJiy42kzxgzmJ_qwiSI-8BNDzA,1179
+livekit_plugins_vad-0.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+livekit_plugins_vad-0.0.1.dist-info/top_level.txt,sha256=OoDok3xUmXbZRvOrfvvXB-Juu4DX79dlq188E19YHoo,8
+livekit_plugins_vad-0.0.1.dist-info/RECORD,,
