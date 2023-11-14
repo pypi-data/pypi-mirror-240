@@ -1,0 +1,7 @@
+setup.py
+pymageconverter/__init__.py
+pymageconverter/konvesyon.py
+pymageconverter.egg-info/PKG-INFO
+pymageconverter.egg-info/SOURCES.txt
+pymageconverter.egg-info/dependency_links.txt
+pymageconverter.egg-info/top_level.txt
