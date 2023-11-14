@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wavejax
+Version: 0.0.2
+Summary: Tools and utilities for computational math and engineering in Jax.
+Project-URL: Documentation, https://github.com/unknown/wavejax#readme
+Project-URL: Issues, https://github.com/unknown/wavejax/issues
+Project-URL: Source, https://github.com/unknown/wavejax
+Author-email: Nick Richardson <nrichardson@g.hmc.edu>
+License-Expression: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: jax==0.4.20
+Requires-Dist: jaxlib==0.4.20
+Requires-Dist: numpy==1.26.1
+Requires-Dist: opt-einsum==3.3.0
