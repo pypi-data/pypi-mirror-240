@@ -1,0 +1,8 @@
+prefect_jupyter/__init__.py,sha256=jMVE6eKegndV9O0lmGwPddirpw8Rn7Pdlqw5tyj2c4w,73
+prefect_jupyter/_version.py,sha256=H5glo_WgHngcBWErgA7mpEfGN4NbYKySIvj_QLiDMkE,497
+prefect_jupyter/notebook.py,sha256=Jflb3-gbb1s65SRzGOAuzWBGcxUog9MReKS1g-OeJdE,3447
+prefect_jupyter-0.3.1.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_jupyter-0.3.1.dist-info/METADATA,sha256=A0YPSatIjLk-UP3oFhwVI3jbnhKlibPCaLBB32YLk_M,5694
+prefect_jupyter-0.3.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+prefect_jupyter-0.3.1.dist-info/top_level.txt,sha256=NQxJt1KELowMaoAZcx4mWjOErVz3ILEsCG1qKZiRvY0,16
+prefect_jupyter-0.3.1.dist-info/RECORD,,
