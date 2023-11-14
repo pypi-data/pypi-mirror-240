@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: junit-to-markdown
+Version: 0.1.0
+Summary: Convert JUnit XML reports to Markdown
+Home-page: https://github.com/stevengoossensB/junit-to-md
+Author: Steven Goossens
+Author-email: steven@teamg.be
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# junit-to-md
+Convert junit XML format to a Markdown page
