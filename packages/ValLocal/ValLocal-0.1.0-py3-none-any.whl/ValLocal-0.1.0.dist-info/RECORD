@@ -1,0 +1,13 @@
+ValLocal/__init__.py,sha256=_h3CcMifdETo57PqjpVT-ZT1eMzhRGMUhc_WGXTOfq8,194
+ValLocal/api.py,sha256=KarIgVRUpIK5HHc2LrqNg4-GSugy-pArzQCWPP8OgMY,707
+ValLocal/lock.py,sha256=RcFOLtlpA90EqDOEnUTUkWFbdR_pnloUbZCkTH_yA6s,359
+ValLocal/parsing.py,sha256=pFI2b0CqioP9BRLu1sxG9BNoPJq80fboGCw4H5HdPRE,296
+ValLocal/structs.py,sha256=GkjV3MzP5Nu67TcjrJv7291t-WczmmBA_XLhyp1h1Gs,493
+ValLocal/auth/__init__.py,sha256=rcMJ1gefY-r6yHl2XPUiJZdNI7SVm4OxKl2wNSGT97o,55
+ValLocal/auth/auth.py,sha256=v0plcI3mbKIhTCLFx_QW_yYEVI-Lr9YOBQqxeIBYgxg,759
+ValLocal/auth/region.py,sha256=kkBuNLqO8wr4MxVvlhniMAsqf7PX-6FRVMAgHFg8AmE,2307
+ValLocal-0.1.0.dist-info/LICENSE,sha256=OY5Wsq59-1KueMYJLtzyLPMJWUvEILNfHnjnxJb0L5M,35145
+ValLocal-0.1.0.dist-info/METADATA,sha256=wdbiOe9qWO50cpXsJMVg0_DGyfyJV6nEiijMZh8SR14,1751
+ValLocal-0.1.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+ValLocal-0.1.0.dist-info/top_level.txt,sha256=P4Pn0PBFcpU1szGtMEpJ5LksGoGDuDGEr0QSMjzxU-Q,9
+ValLocal-0.1.0.dist-info/RECORD,,
