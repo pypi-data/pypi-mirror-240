@@ -1,0 +1,1 @@
+from .Pray import prayer

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+OmnissiahPrayer.egg-info/PKG-INFO
+OmnissiahPrayer.egg-info/SOURCES.txt
+OmnissiahPrayer.egg-info/dependency_links.txt
+OmnissiahPrayer.egg-info/top_level.txt
+Prayer/Pray.py
+Prayer/__init__.py
