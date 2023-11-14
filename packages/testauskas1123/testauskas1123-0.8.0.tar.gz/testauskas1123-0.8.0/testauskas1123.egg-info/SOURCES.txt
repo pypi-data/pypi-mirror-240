@@ -1,0 +1,6 @@
+setup.py
+testauskas1123.egg-info/PKG-INFO
+testauskas1123.egg-info/SOURCES.txt
+testauskas1123.egg-info/dependency_links.txt
+testauskas1123.egg-info/not-zip-safe
+testauskas1123.egg-info/top_level.txt

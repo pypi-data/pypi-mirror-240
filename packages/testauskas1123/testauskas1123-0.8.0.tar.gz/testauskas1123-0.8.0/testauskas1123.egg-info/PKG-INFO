@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: testauskas1123
+Version: 0.8.0
+Summary: A short description of your project
+Home-page: https://github.com/your_username/your_package_name
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Project-URL: Documentation, https://your-package-name.readthedocs.io
+Project-URL: Source, https://github.com/your_username/your_package_name
+Keywords: your,keywords,here
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+ test description 
+
