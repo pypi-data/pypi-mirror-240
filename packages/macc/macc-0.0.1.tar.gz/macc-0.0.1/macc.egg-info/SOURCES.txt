@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+macc/__init__.py
+macc/_modidx.py
+macc/datasets.py
+macc/learn.py
+macc.egg-info/PKG-INFO
+macc.egg-info/SOURCES.txt
+macc.egg-info/dependency_links.txt
+macc.egg-info/entry_points.txt
+macc.egg-info/not-zip-safe
+macc.egg-info/requires.txt
+macc.egg-info/top_level.txt

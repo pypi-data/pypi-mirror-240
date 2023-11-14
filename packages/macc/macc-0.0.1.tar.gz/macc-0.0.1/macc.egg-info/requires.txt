@@ -1,0 +1,10 @@
+fastcore
+torch
+fastprogress
+matplotlib
+numpy
+datasets
+torchvision
+torcheval
+
+[dev]
