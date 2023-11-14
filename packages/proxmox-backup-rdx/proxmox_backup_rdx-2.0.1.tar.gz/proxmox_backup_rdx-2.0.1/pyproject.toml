@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proxmox_backup_rdx"
+version = "2.0.1"
+description = "Sync proxmox backup datastore to RDX"
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { file = "LICENSE" }
+authors = [
+  { name = "Mathieu Fruchet", email = "mathieu.fruchet@greenitsolutions.fr" },
+]
+maintainers = [
+  { name= "Green IT Solutions", email = "support@greenitsolutions.fr" },
+]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+proxmox-backup-rdx = "proxmox_backup_rdx.main:main"
