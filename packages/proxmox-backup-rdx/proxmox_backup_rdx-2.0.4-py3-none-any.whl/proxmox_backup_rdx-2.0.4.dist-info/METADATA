@@ -1,0 +1,181 @@
+Metadata-Version: 2.1
+Name: proxmox-backup-rdx
+Version: 2.0.4
+Summary: Sync proxmox backup datastore to RDX
+Author-email: Mathieu Fruchet <mathieu.fruchet@greenitsolutions.fr>
+Maintainer-email: Green IT Solutions <support@greenitsolutions.fr>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Proxmox Backup Server - RDX
+Ce dépôt contient l'ensemble des scripts liés au déploiement et à l'usage de la solution de sauvegarde sur cassette RDX pour Proxmox Backup Serveur.
+
+## Installation du lecteur de cassette RDX Tandberg
+
+Le lecteur est reconnu nativement sous GNU/Linux. Les éléments suivants permette de monter automatiquement et au même emplacement la cassette se trouvant dans le lecteur.
+
+* Copiez les fichiers sur le système en respectant l'arborescence décrit dans ce dépôt.
+```bash
+git clone https://gitlab.greenitsolutions.fr/01-greenitsolutions/01-infrastructures/safebox/pbs_rdx.git /srv/pbs_rdx
+cp /srv/pbs_rdx/etc/systemd/system/mnt-rdx.* /etc/systemd/system/
+```
+
+* On recharge la liste des unités *systemd* et on active celle permettant de monté automatiquement la cassette quand nécessaire.
+```bash
+systemctl daemon-reload
+systemctl enable mnt-rdx.automount
+systemctl start mnt-rdx.automount
+```
+
+> Il ne faut pas activer le service *mnt-rdx.mount*. Ce dernier étant lancé par le service *mnt-rdx.automount*
+
+## Installation de la tâche CRON de synchronisation
+
+* L'exécution de la copie est réalisé à l'aide d'une tâche CRON exécuté par l'utilisateur *root*.
+```
+crontab -e
+```
+```
+30 9 * * * /usr/sbin/proxmox-rdx -sync-job RDX -prune-job RDX -eject hebdomadaire
+```
+
+## Initialisation d'une nouvelle cassette
+
+### Formattage de la cassette
+
+* On créé le système de fichier de la cassette. `/dev/sdb` correspond dans cette exemple à la cassette RDX.
+```bash
+root@srv-XXXXXXXX:~/ fdisk /dev/sdb
+
+Welcome to fdisk (util-linux 2.36.1).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+Command (m for help): p
+Disk /dev/sdb: 3.64 TiB, 4000782835712 bytes, 7814028976 sectors
+Disk model: RDX             
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 2031616 bytes
+Disklabel type: gpt
+Disk identifier: 26C3A9E7-0E5C-4038-945F-B327D090598F
+
+Device     Start        End    Sectors  Size Type
+/dev/sdb1   2048 7814027263 7814025216  3.6T Microsoft basic data
+
+Command (m for help): d
+Selected partition 1
+Partition 1 has been deleted.
+
+Command (m for help): g
+Created a new GPT disklabel (GUID: 0E563EB2-18AA-6046-8852-9B50E1B2864E).
+
+Command (m for help): n
+Partition number (1-128, default 1): 
+First sector (3968-7814028942, default 3968): 
+Last sector, +/-sectors or +/-size{K,M,G,T,P} (3968-7814028942, default 7814028942): 
+
+Created a new partition 1 of type 'Linux filesystem' and of size 3.6 TiB.
+
+Command (m for help): p
+Disk /dev/sdb: 3.64 TiB, 4000782835712 bytes, 7814028976 sectors
+Disk model: RDX             
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 2031616 bytes
+Disklabel type: gpt
+Disk identifier: 0E563EB2-18AA-6046-8852-9B50E1B2864E
+
+Device     Start        End    Sectors  Size Type
+/dev/sdb1   3968 7814028942 7814024975  3.6T Linux filesystem
+
+Command (m for help): w
+The partition table has been altered.
+Calling ioctl() to re-read partition table.
+Syncing disks.
+
+```
+
+### Préparation du système de fichier
+
+* On formate la nouvelle partition en ext4
+```bash
+root@srv-xxxxxxxx:/# mkfs.ext4 /dev/sdb1
+```
+* On ajoute une étiquette à la partition pour savoir de quel cassette il s'agit dans la rotation
+```bash
+root@srv-xxxxxxxx:/# e2label /dev/sdb1 rdx_bkp_offsite
+```
+* On se place dans le répertoire /mnt/rdx. Cela doit normalement monter la cassette automatiquement.
+```
+cd /mnt/rdx
+```
+```
+lsblk
+NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sdb      8:0    1  1.8T  0 disk 
+└─sdb1   8:1    1  1.8T  0 part /mnt/rdx
+```
+* On créé un fichier permettant de connaître le numéro de la cassette. Le nom du fichier est à adapter en fonction du client, de la période de rotation et du numéro de la cassete pour donner le motif suivant `<NOM_CLIENT> - SAUVEGARDE <PERIODE> <N° CASSETTE>`
+```
+touch "<NOM_CLIENT> - SAUVEGARDE <PERIODE> <N° CASSETTE>"
+```
+
+### Initialisation du datastore (.chunks)
+
+1. On initialise un datastore sur la cassette afin de créer le répertoire .chunks.
+2. On supprime ce datastore de la configuration du Proxmox BS. Cela ne supprime pas le répertoire .chunks de la cassette
+3. Redémarrage des services `proxmox-backup` afin de supprimer le fichier `.lock` de la casette
+4. Éjection de la cassette
+
+```
+proxmox-backup-manager datastore create RDX_Init /mnt/rdx  --maintenance-mode offline
+proxmox-backup-manager datastore remove RDX_Init
+systemctl restart proxmox-backup proxmox-backup-proxy
+eject /mnt/rdx
+```
+
+## Préparation de la synchronisation
+
+### Création de l'utilisateur de synchronisation
+
+```
+proxmox-backup-manager user create rdx@pbs --comment "Utilisateur dédier à la synchronisation sur les cassetes RDX" --enable true --password "Uya4sTocwuumaCnU"
+proxmox-backup-manager acl update / Admin --propagate true --auth-id rdx@pbs
+```
+
+### Ajout du serveur dans les remotes
+
+Proxmox BS ne peut pas directement synchroniser deux Datastore locaux. Pour cela, il est nécessaire d'ajouter le serveur Proxmox BS comme étant lui même un serveur distant.
+
+```
+proxmox-backup-manager remote create proxmox_bs_local --host $(hostname -f) --fingerprint $(proxmox-backup-manager cert info | grep Fingerprint | sed 's/^Fingerprint ([[:alnum:]]*): //g') --auth-id sync@pbs --password 'Uya4sTocwuumaCnU'
+```
+
+## Création du Datastore RDX
+
+```
+vim /etc/proxmox-backup/datastore.cfg
+```
+```
+datastore: RDX
+        maintenance-mode offline
+        path /mnt/rdx
+```
+
+### Création de la tâche de synchronisation
+
+```
+proxmox-backup-manager sync-job create RDX --remote proxmox_bs_local --store RDX --owner root@pam  --schedule none --transfer-last 1 --remote-store EspaceClefs 
+```
+
+### Création de la tâche de pruning
+
+```
+proxmox-backup-manager prune-job create RDX --store RDX --comment "Suppression des anciennes sauvegardes présentes sur la cassette" --disable --keep-last 1 --schedule none
+```
+
+## Licence
+
+MIT Licence
