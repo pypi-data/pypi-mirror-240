@@ -1,0 +1,9 @@
+README.md
+setup.py
+Ascento.egg-info/PKG-INFO
+Ascento.egg-info/SOURCES.txt
+Ascento.egg-info/dependency_links.txt
+Ascento.egg-info/requires.txt
+Ascento.egg-info/top_level.txt
+TS/TsPython.py
+TS/__init__.py

@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Ascento
+Version: 1.0.0
+Summary: This Package helps to create unique key (foriegn key) and droping the different type of null values, encoding and decoding
+Home-page: https://github.com/TejaAi/Ascento
+Author: TejaSwaroop
+Author-email: teja136@hotmail.com
+License: MIT
+Keywords: Ascento,Unique_Key_Generator,NullValueDropper
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
