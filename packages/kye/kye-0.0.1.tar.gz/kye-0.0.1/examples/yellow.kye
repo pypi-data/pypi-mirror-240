@@ -1,0 +1,19 @@
+type Size: Number
+
+model User(id)(name) {
+    id: Number,
+    name: String,
+    admin: Boolean?,
+    friends: User*,
+}
+
+model Yellow(id) {
+    id: Number,
+    size: Size?,
+    meep: model Meep(id) {
+        id: Number,
+    }+,
+    mother: User,
+    father: User,
+    tags: String*,
+}
