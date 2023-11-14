@@ -1,0 +1,4 @@
+odoo12-addon-base_rest
+odoo12-addon-base_rest_base_structure
+odoo12-addon-base_rest_datamodel
+odoo<12.1dev,>=12.0a
