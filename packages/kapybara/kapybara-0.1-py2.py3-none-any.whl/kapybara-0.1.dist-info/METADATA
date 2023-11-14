@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: kapybara
+Version: 0.1
+Summary: Python library for creating map-reduce workflows on AWS Lambda.
+Home-page: https://github.com/bengetch/kapybara
+Author: Ben Getchell
+Author-email: bengetch@gmail.com
+License: MIT
+Requires-Python: >=3.9
+License-File: LICENSE
+Provides-Extra: build
+Requires-Dist: setuptools >=67.6 ; extra == 'build'
+Requires-Dist: wheel ~=0.37 ; extra == 'build'
+Requires-Dist: pystache ~=0.6 ; extra == 'build'
+Requires-Dist: build ~=0.10 ; extra == 'build'
+Provides-Extra: lint
+Requires-Dist: pylint ~=2.17.0 ; extra == 'lint'
+Provides-Extra: publish
+Requires-Dist: twine ~=4.0 ; extra == 'publish'
+Provides-Extra: test
+Requires-Dist: pytest ~=7.2 ; extra == 'test'
+Requires-Dist: pytest-cov ~=4.0 ; extra == 'test'
+
+# kapybara
+Map reduce with AWS lambda
