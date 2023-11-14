@@ -1,0 +1,1 @@
+from bbat.web import fastapi_router
