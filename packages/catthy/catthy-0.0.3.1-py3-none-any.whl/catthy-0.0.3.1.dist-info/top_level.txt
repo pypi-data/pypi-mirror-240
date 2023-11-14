@@ -1,0 +1,3 @@
+catthy
+catthy/applicative
+catthy/functor
