@@ -1,0 +1,6 @@
+setup.py
+qa/qa.py
+qaoverpapers.egg-info/PKG-INFO
+qaoverpapers.egg-info/SOURCES.txt
+qaoverpapers.egg-info/dependency_links.txt
+qaoverpapers.egg-info/top_level.txt
