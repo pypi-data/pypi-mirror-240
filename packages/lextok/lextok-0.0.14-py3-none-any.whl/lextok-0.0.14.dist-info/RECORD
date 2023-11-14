@@ -1,0 +1,13 @@
+lextok/__init__.py,sha256=VwUgEcDx7JZSp7hRpOiRmBpdB_iVmNbkL98b_mZDnvM,887
+lextok/attrs.py,sha256=CUysX0VpWnXKXDHzNPWTNgLyI9DfUUWce-GfBIciz0k,4747
+lextok/main.py,sha256=PdB96y_SYeJt6NkBsfpWuDi8KiKIJANVeMXtjCbrFDM,3809
+lextok/rules/__init__.py,sha256=6dNmQm7PvFCDoiR6qj4tcVK84pVzlPs1N93ehzUo-Rw,1778
+lextok/rules/_pattern.py,sha256=XYsuu7OA5-Qtz9AjlbOJ-_KoUB9lz1x-UTu1DTRQo88,7899
+lextok/rules/abbv.py,sha256=fSGCq41t3Ekh_YqIL_-zfjJHaVg-NlFItDZ3ooVXqFM,10208
+lextok/rules/builder.py,sha256=BsGcBpxu2NunXJuVORby0pYrQP6zbapeZ0rYhd5juUQ,4970
+lextok/rules/cites.py,sha256=9AE1INER0Mxc5x0bi9PltwJ5vQ1SsxK40sSyfEgjwXI,5497
+lextok/rules/pretest.py,sha256=FAmgRKDNwsQKTVkMi9bsuRMl-E7GkiESv_7kmKkaROc,1305
+lextok/tokens.py,sha256=UCvXJLHxJoY6KPioDRJvCb_KGQSP_w4l55PZrp2hl30,3094
+lextok-0.0.14.dist-info/METADATA,sha256=LsfJZr87UCiJcrCm-MN3FI4YODS88nH51gOFkkps69U,8779
+lextok-0.0.14.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+lextok-0.0.14.dist-info/RECORD,,
