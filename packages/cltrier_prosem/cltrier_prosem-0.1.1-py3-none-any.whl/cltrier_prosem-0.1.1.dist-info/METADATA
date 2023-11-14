@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cltrier_prosem
+Version: 0.1.1
+Summary: ToDo!
+Author-email: Simon Münker <muenker@uni-trier.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+
+# CLTrier ProSem
+
+ToDo
+
