@@ -1,0 +1,4 @@
+Metadata-Version: 2.1
+Name: scrapy-llm-loader
+Version: 0.1
+Summary: A Scrapy extension for data extraction using LangChain

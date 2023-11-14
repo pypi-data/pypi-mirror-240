@@ -1,0 +1,6 @@
+README.md
+setup.py
+scrapy_llm_loader.egg-info/PKG-INFO
+scrapy_llm_loader.egg-info/SOURCES.txt
+scrapy_llm_loader.egg-info/dependency_links.txt
+scrapy_llm_loader.egg-info/top_level.txt
