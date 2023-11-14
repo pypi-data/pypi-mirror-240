@@ -1,0 +1,9 @@
+LICENCE
+README.md
+hydrology_api.py
+pyproject.toml
+hydrology_api_uk_client.egg-info/PKG-INFO
+hydrology_api_uk_client.egg-info/SOURCES.txt
+hydrology_api_uk_client.egg-info/dependency_links.txt
+hydrology_api_uk_client.egg-info/requires.txt
+hydrology_api_uk_client.egg-info/top_level.txt
