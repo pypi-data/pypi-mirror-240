@@ -1,0 +1,2 @@
+[console_scripts]
+solidlab-perftest-upload = solidlab_perftest_upload.main:main
