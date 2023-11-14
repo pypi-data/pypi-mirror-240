@@ -1,0 +1,443 @@
+
+
+# AMF TOOLS Python Librairie
+
+## Description
+
+AMF TOOLS Python Librairie is a python librairie to control AMF products (RVMFS, RVMLP, SPM and LSPOne) with a serial connection protocole.
+
+## Installation
+
+### Requirements
+
+- Python 3.6 or higher
+- pyserial 3.4 or higher
+- ftd2xx 1.1.2 or higher
+
+currently only tested on Windows 11 with Python 3.11 an update will be made to test on other OS
+
+### Installation with pip
+
+```bash
+pip install AMFTools
+```
+
+### Installation from source
+
+```bash
+git clone
+cd AMFTools
+python setup.py install
+```
+## License
+
+This Librairie is proprietary software of **Advanced Microfluidics S.A**. It is distributed under a proprietary license.
+
+This Librairie is free to use for Advanced Microfluidics SA customers. It is not free to use for non-customers of Advanced Microfluidics SA.
+
+If you have any questions about the license, please contact Advanced Microfluidics SA : 
+- Chem. de la Dent d'Oche 1A, 1024 Ecublens (Switzerland)
+- +41 21 552 14 30
+- info@amf.ch
+
+## Usage
+
+### Import
+
+```python
+import amfTools
+```
+
+
+## Class AMF() : 
+
+```python
+AMF(product : Object, autoconect : bool = True, portnumber : int = None, syringeVolume : int = None, productAddress : int = 1, type : str = None, serialBaudrate : int = None) 
+
+```
+Initialize the AMF object. Either serialPort, serialNumber or a Device type object must be specified as product.
+
+### General Methods : 
+
+```python
+connect(serialBaudrate : int = defaultSerialBaudrate, serialTimeout : float = defaultSerialTimeout) -> bool
+```
+Connect to the product. If the connection is successful, return True, otherwise return False.
+
+```python
+disconnect() 
+```
+Disconnect from the product
+
+```python
+send(command : str, integer : bool = False, force_aws : bool = False) 
+```
+Send a command to the product. If the command is successful, return the response of the product. If integer is True, the response will be converted to an integer. If force_aws is True, the product will be temporary set to wait for an answer even if it is set to not wait for an answer.
+
+```python
+receive(integer = False, full : bool = False, isfloat : bool = False) -> str
+```
+Receive a line of response from the product. If integer is True, the response will be converted to an integer. If full is True, the response will be returned as is, without removing the first and last character. If float is True, the response will be converted to a float.
+
+```python
+prepareCommand(command : str, parameter : int = None) -> str
+```
+Prepare a command to be sent to the product. If the command needs a parameter, it must be specified. The parameter must be an integer.
+
+```python
+pullAndWait(homming_mode : bool = False) 
+```
+Wait until the valve and the pump are not busy.
+
+### LIST OF SET FUNCTION
+
+
+```python
+setAddress(address : int) 
+```
+Set the Address of the product. The Address must be between 1 and 9. (1 by default)
+
+```python
+setSyringeSize(size : int) 
+```
+Set the syringe size of the product. The size must be between 0 and 5000 ( $\mu l$ ). 
+
+```python
+setAnswerMode(mode : int) 
+```
+Set the answer mode of the product. The mode must be between 0 and 2. 0 : synchronous, 1 : Asynchronous, 2 : same as asynchronous but add number of subcommand processed in its last answer
+
+```python
+setPortNumber(portnumber : int = portnumber) 
+```
+Set the port number of the product's valves.
+
+```python
+setSpeedVolume(speed : float, syringeVolume : int = syringeSize) -> int
+```
+Set the speed of the product. The speed must be positive. The syringe volume must be between 0 and 5000  ( $\mu l$ ).
+
+```python
+setSpeed(speed : int) 
+```
+Set the speed of the product. The speed must be between 0 and 6000 (pulse/sec).
+
+```python
+setSpeedCode(speed : int) 
+```
+Set the speed of the product with a code. The speed must be between 0 and 50.
+
+```python
+setAcelerationRate(rate : int) 
+```
+Set the aceleration rate of the product. The rate must be between 1 and 59590. 
+
+```python
+setDecelerationRate(rate : int) 
+```
+Set the deceleration rate of the product. The rate must be between 1 and 59590.
+
+```python
+setMicrostepResolution(argument : int) 
+```
+Set the microstep resolution of the product. ( 0 : 0.01mm resolution/step, 1 : 0.00125mm resolution/step )
+
+```python
+setSlowMode() 
+```
+Set the slow mode of the product.
+
+```python
+setFastMode() 
+```
+Set the fast mode of the product.
+
+```python
+setPumpStrenghAndHome(strengh : int, block : bool = True) 
+```
+Set the pump strengh and home the pump. The strengh must be between 0 and 3. If block is True, the function will wait until the pump is not busy.
+
+```python
+setPlungerForce(force : int) 
+```
+Set the plunger force of the product. The force must be between 0 and 3.
+
+```python
+setNoAwser() 
+```
+Set the product to not wait for an answer. (if the product is set to not wait for an answer, it will not send any answer even if you force it with force_aws parameters)
+
+
+### LIST OF GET FUNCTION
+
+```python
+getSerialPort(serialNumber : str = serialNumber) -> str
+```
+Find the serial port of the product with the specified serial number
+
+```python
+getSerialNumber(serialPort = serialPort) -> str
+```
+Get the serial number of the product
+
+```python
+getType() 
+```
+Autoset the type of the product (SPM, RVMFS or RVMLP)
+ 
+```python
+getPortNumber() -> int
+```
+Get the number of port of the product's valve
+
+```python
+getCurrentStatus() -> str
+```
+Get the current status of the product
+
+```python
+getValvePosition() -> int
+```
+Get the valve position of the product
+
+```python
+getRealPlungerPosition() -> int : 
+```
+Get the real plunger position of the product
+
+```python
+getPlungerPosition() -> int
+```
+Get the plunger position of the product
+
+```python
+getNumberValveMovements() -> int
+```
+Get the number of valve Movements of the product
+
+```python
+getNumberValveMovementsSinceLastReport() -> int
+```
+Get the number of valve Movements since last report of the product
+
+```python
+getSpeedMode() -> str
+```
+Get the speed mode of the product
+
+```python
+getFirmwareChecksum() -> str
+```
+Get the firmware checksum of the product
+
+```python
+getFirmwareVersion() -> str
+```
+Get the firmware version of the product
+
+```python
+getValveAddress() -> int
+```
+Get the valve Address of the product
+
+```python
+getValveConfiguration() -> int
+```
+Get the valve configuration of the product
+
+```python
+getMicrostepResolution() -> int
+```
+Get the microstep resolution of the product
+
+```python
+getPlungerCurrent() -> int
+```
+Get the plunger current of the product
+
+```python
+getAnswerMode() -> str
+```
+Get the answer mode of the product
+
+```python
+getAcceleration() -> int
+```
+Get the acceleration of the product
+
+```python
+getDeceleration() -> int
+```
+Get the deceleration of the product
+
+```python
+getSuplyVoltage() -> float
+```
+Get the suply voltage of the product
+
+```python
+getUniqueID() -> str
+```
+Get the unique ID of the product
+
+```python
+getValveStatus() -> int
+```
+Get the valve status of the product
+
+```python
+getPumpStatus() -> int
+```
+Get the pump status of the product
+
+```python
+getHomeStatus() -> bool
+```
+Get the home status of the product (False : not homed, True : homed)
+
+```python
+getDeviceInformation() -> object
+```
+Get all the information of the product
+
+### GLOBAL ACTION FUNCTION
+
+```python
+checkValveStatus() 
+```
+Check the valve status of the product
+
+```python
+checkPumpStatus() 
+```
+Check the pump status of the product
+
+```python
+sendBrute(command : str, blocked : bool = True, force_aws : bool = False) 
+```
+Send a command to the product. If blocked is True, the function will wait until the product is not busy. If force_aws is True, the function will ask for an answer even if the product is set to not wait for an answer.
+
+```python
+internalReset() 
+```
+Reset the product
+
+```python
+executeLastCommand() 
+```
+Execute the last command of the product
+
+```python
+delay(delay : int) 
+```
+Delay the product. The delay must be positive.
+
+```python
+home(block = True) 
+```
+Home the product. If block is True, the function will wait until the product is not busy.
+
+```python
+valveShortestPath(target : int, enforced : bool = False, block : bool = True) 
+```
+move the valve to the target port with the shortest path. The target must be between 1 and the number of port of the product. If enforced is True, the valve will Move to the target port with the shortest path even if it is not the shortest path. If block is True, the function will wait until the product is not busy.
+
+```python	
+valveIncrementalMove(target : int, enforced : bool = False, block : bool = True) 
+```
+Move the valve to the target port with an incremental Move. The target must be between 1 and the number of port of the product. If enforced is True, the valve will Move even if they are already on the target point (1 complete rotation). If block is True, the function will wait until the product is not busy.
+
+```python
+valveClockwiseMove(target : int, enforced : bool = False, block : bool = True) 
+```
+Move the valve to the target port with an incremental Move. The target must be between 1 and the number of port of the product. If enforced is True, the valve will Move even if they are already on the target point (1 complete rotation). If block is True, the function will wait until the product is not busy.
+
+```python
+valveDecrementalMove(target : int, enforced : bool = False, block : bool = True) 
+```
+Move the valve to the target port with a decremental Move. The target must be between 1 and the number of port of the product. If enforced is True, the valve will Move even if they are already on the target point (1 complete rotation). If block is True, the function will wait until the product is not busy.
+
+```python
+valveCounterClockwiseMove(target : int, enforced : bool = False, block : bool = True) 
+```
+Move the valve to the target port with a decremental Move. The target must be between 1 and the number of port of the product. If enforced is True, the valve will Move even if they are already on the target point (1 complete rotation). If block is True, the function will wait until the product is not busy.
+
+```python
+valveMove(target : int, mode : int = 0, enforced = False, block : bool = True) 
+```
+Move the valve to the target port. The target must be between 1 and the number of port of the product. The mode must be between 0 and 2. 0 : ShortestPath, 1 : IncrementalMove, 2 : DecrementalMove. If enforced is True, the valve will Move even if they are already on the target point (1 complete rotation). If block is True, the function will wait until the product is not busy.
+
+```python
+hardStop() 
+```
+Stop the product (imediate stop of the valve and the pump)
+
+```python
+powerOff() 
+```
+Power off the product
+
+### PUMP ACTION FUNCTION
+
+```python
+pumpAbsolutePosition(position : int, block : bool = True) 
+```
+Move the pump to the specified position. The position must be between 0 and 3000 (or 24000). If block is True, the function will wait until the product is not busy.
+
+```python
+pump(position : int, block : bool = True)
+```
+Move the pump to the specified position. The position must be between 0 and 3000 (or 24000). If block is True, the function will wait until the product is not busy.
+
+```python
+pumpVolume(volume : int, syringeVolume : int = syringeSize, block : bool = True) 
+```
+Move the pump to the specified volume. The volume must be between 0 and 5000 ( $\mu l$ ). If syringeVolume is specified, it will be used as the syringe volume. If block is True, the function will wait until the product is not busy.
+
+```python
+pumpRelativePickup(position : int, block : bool = True) 
+```
+Move the pump to the specified relative position. The position must be between 0 and 3000 (or 24000). If block is True, the function will wait until the product is not busy.
+
+```python
+pumpPickup(position : int, block : bool = True)
+```
+Move the pump to the specified relative position. The position must be between 0 and 3000 (or 24000). If block is True, the function will wait until the product is not busy.
+
+```python
+pumpPickupVolume(volume : int, syringeVolume : int = syringeSize, block : bool = True) 
+```
+Move the pump to the specified relative volume. The volume must be between 0 and 5000 ( $\mu l$ ). If syringeVolume is specified, it will be used as the syringe volume. If block is True, the function will wait until the product is not busy.
+
+```python
+pumpRelativeDispense(position : int, block : bool = True) 
+```
+Move the pump to the specified relative position. The position must be between 0 and 3000 (or 24000). If block is True, the function will wait until the product is not busy.
+
+```python
+pumpDispense(position : int, block : bool = True)
+```
+Move the pump to the specified relative position. The position must be between 0 and 3000 (or 24000). If block is True, the function will wait until the product is not busy.
+
+```python
+pumpDispenseVolume(volume : int, syringeVolume : int = syringeSize, block : bool = True) 
+```
+Move the pump to the specified relative volume. The volume must be between 0 and 5000 ( $\mu l$ ). If syringeVolume is specified, it will be used as the syringe volume. If block is True, the function will wait until the product is not busy.
+
+## Class Device() : 
+
+### Atributes : 
+```python	
+SerialNumber : str = None
+ComPort : str = None
+DeviceType : str = None
+```
+
+str method return exemple : 
+"Device RVMFS on port com3 with serial number P201-O0000xxxx"
+
+## Class utile() : 
+```python
+getProductList(specified_type = None) -> list : 
+```
+Return a list of Device object. If specified_type is specified, only the Device object with the specified type will be returned.
