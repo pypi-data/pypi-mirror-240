@@ -1,0 +1,11 @@
+aiogt/__init__.py,sha256=pDAWYhxH0ZaxlKwFjk1YhLBiCTEfKdzov5OLD-JHXNQ,37
+aiogt/enums.py,sha256=Sddf5qQU5BN_dUELfTHULYFV_fM8ejoi8vseDv-lXDQ,167
+aiogt/translaitor.py,sha256=KWAMmaz9ZHffmtHzUVnApofxWHJLtKHLu15t2v1RpFM,962
+aiogt/transport/__init__.py,sha256=qrEKl1j-c3n9XklLQfUg1275Y1q3eMZ2GhdRi3V4RZw,126
+aiogt/transport/aiohttp_t.py,sha256=d1CBF30iBqbeSaZcHLbOfFSCVfrzU29mhNDJ8tq5UU4,640
+aiogt/transport/base.py,sha256=i-sfsRw2Arblwqp1zt-A9vyPCBHjjfOFxk6AMZZ_R18,306
+aiogt/transport/httpx_t.py,sha256=-7_Lxiri36Zr1VpiLN6ZM6tJpnOe3WO_w_9gwTzv1HU,610
+aiogt/utils.py,sha256=VnjkryPnMZ3Ud9KZQLlpNf1BbBgGx1NU9xdRP9ZNwps,161
+aiogt-1.0.0rc1.dist-info/METADATA,sha256=-EQeBEMEAjIivyMSeY2wCSyygPnzwfyK18zJB2qJuf4,572
+aiogt-1.0.0rc1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+aiogt-1.0.0rc1.dist-info/RECORD,,
