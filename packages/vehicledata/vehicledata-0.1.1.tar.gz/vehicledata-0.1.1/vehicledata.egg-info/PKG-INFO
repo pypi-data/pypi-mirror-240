@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vehicledata
+Version: 0.1.1
+Summary: A Python package for retrieving vehicle information, including challans and additional details.
+Home-page: https://www.sddoc.in
+Author: Deepak Gautam
+Author-email: rohit45deepak@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/plain
+
+This package provides a Python interface for retrieving information about vehicles, including details about challans and additional information. check docs in https://github.com/deepakstark01/getvehicledata 
+
