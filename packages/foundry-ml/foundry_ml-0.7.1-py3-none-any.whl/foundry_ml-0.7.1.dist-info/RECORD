@@ -1,0 +1,17 @@
+foundry/__init__.py,sha256=_9B67_JA9PwjFUMeL7v4O1EjcYKCfI_OOlDfPAOLcks,222
+foundry/auth.py,sha256=z9qcEw48Q5GZ1I84ZeaVCWBsumUSPaLR3dFIFWZenEs,648
+foundry/foundry.py,sha256=7nD_TonepZiTUpFKQvUgr7EaR1o2U7qxh-yuxg90kIs,35898
+foundry/https_download.py,sha256=asn_KWsDWZSfL88LfKEp5WNmWnw6BiqjcLsK2e4X4Eo,2485
+foundry/https_upload.py,sha256=vb15yidtGVNikOyyA6bxZZ7hlX2VvHPDrEZDgV1vmK4,10435
+foundry/models.py,sha256=nelhp8YGoY7-ftplZKao6FJqAhuwVHxaecCrDihoiX8,5487
+foundry/utils.py,sha256=XUVHA6dEPW0qSbIf8UP6UInGLgxBlj3lHVpXIxsX1Ms,830
+foundry/loaders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foundry/loaders/tf_wrapper.py,sha256=OBq_Jl56Z3EKTA-1cl8uTs9WDujE7-UYHHL3xi5yuuc,698
+foundry/loaders/torch_wrapper.py,sha256=pLF5GmPOYS-f1S2fSreQWgZtw0gwaH7qvYWVaOWdO2o,885
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_foundry.py,sha256=XR7bk5d-tT9b0BPeGv-fYO90GWlrs6-0a4JOlJedG9c,17577
+foundry_ml-0.7.1.dist-info/LICENSE,sha256=9F-AK4aUNlS1yfryus3we1NKXlqJW24WZVuCih2k0Gg,1064
+foundry_ml-0.7.1.dist-info/METADATA,sha256=VEqYMCQPX_72SBhd1jzoH3nT77i0d5xo7IvW6TWN2w4,6505
+foundry_ml-0.7.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+foundry_ml-0.7.1.dist-info/top_level.txt,sha256=j6Rw-XNQV_68H9rYbixAJHK4XRCF2SWMCrDTUrwaYag,14
+foundry_ml-0.7.1.dist-info/RECORD,,
