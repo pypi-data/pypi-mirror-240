@@ -1,0 +1,9 @@
+kconfiglib>=13.7.1
+
+[:platform_system == "Windows"]
+windows-curses
+
+[dev]
+pre-commit
+pexpect
+commitizen
