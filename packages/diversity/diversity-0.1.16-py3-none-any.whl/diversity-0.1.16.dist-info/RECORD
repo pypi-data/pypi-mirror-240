@@ -1,0 +1,13 @@
+diversity/__init__.py,sha256=eN0AMlLCSKXcc-C0P7T6M3Hk93N6N8kGVLaj50ooWCk,314
+diversity/compression.py,sha256=75mnCgBGZ7096M16T1Ek_9S56tyYisEAnAjcF92VE_4,1726
+diversity/eigen_auc.py,sha256=aK_TrHtzQkkapIiCgH9t8IVAhx5srzIao2aCord1f4w,1090
+diversity/homogenization.py,sha256=4oZX-o2RO9dRTXApHBKbWz1FEetG2rVSCBxXeWex_4M,3593
+diversity/ngram_diversity.py,sha256=6Bhhl0N3u12vHdEQwKfCNpNTLJa9-KlyM9Dj0ddBti0,724
+diversity/patterns/__init__.py,sha256=rnNiA1XrZZY8xgSTDLOp8UamGr13vekOGbyJPNqcPcw,84
+diversity/patterns/part_of_speech.py,sha256=BRzfgWBnelhPLYIVOidnOgahamTaR_Ub5FtGVQGwFxA,2155
+diversity/patterns/token.py,sha256=23r-Dn-I1FfY2HGthfaT4avNWUDVjJr5gqR2P3W9Nl0,821
+diversity/utils/__init__.py,sha256=C2GPeA8RggAtkoAv97pp1hUYaD_p9Ua_EC4cx6AfR1Q,30
+diversity/utils/memoize.py,sha256=O5iQsKktcfvPbaSIIRYxtphcOKczPnTu0em2HLojjTw,951
+diversity-0.1.16.dist-info/METADATA,sha256=ibj5tu-6PuBeNMm7QqBZL3rGrw01kKLzTmksl6Oe7eQ,2289
+diversity-0.1.16.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+diversity-0.1.16.dist-info/RECORD,,
