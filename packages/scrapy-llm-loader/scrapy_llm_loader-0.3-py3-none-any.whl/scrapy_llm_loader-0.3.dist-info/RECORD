@@ -1,0 +1,11 @@
+scrapy_llm_loader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_llm_loader/langchain_api.py,sha256=ehwBLJbTK1Iw9ruEv7pJHF4hAv6WGNXHGpCul14ir8U,460
+scrapy_llm_loader/langchain_integration.py,sha256=KT557aOjzB6U3YovdAFIEzx15Zo6aOcAG4evPQle2uM,938
+scrapy_llm_loader/loader.py,sha256=Kz7NN5DvY3eD1vcZNPVP5EpuAA1etsW2ZoifSoa3pHc,989
+scrapy_llm_loader/output_parser.py,sha256=RBGw0gAn39umysdhMheket066CHvuNECw-zV1Js5z-w,156
+scrapy_llm_loader/prompt.py,sha256=7nKVQLBGunFQOyzsiewTMJjKLTbYBSyuyFXd5-FiFj4,920
+scrapy_llm_loader/utils.py,sha256=s9nVZCDhbWf-gkscfL3zksX_e_VGWEkPoo7K1iMKM4c,1050
+scrapy_llm_loader-0.3.dist-info/METADATA,sha256=2-ib3vU3BvfMQPrcXIaI3rAEIj72k8Kk3r4d5mqAdwY,124
+scrapy_llm_loader-0.3.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+scrapy_llm_loader-0.3.dist-info/top_level.txt,sha256=z86hPqhClThooQ37YWuZzcdIg_M0TvW6qXV3-P40oYo,18
+scrapy_llm_loader-0.3.dist-info/RECORD,,
