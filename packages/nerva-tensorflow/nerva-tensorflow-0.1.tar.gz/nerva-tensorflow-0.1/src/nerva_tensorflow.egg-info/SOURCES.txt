@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nerva_tensorflow/__init__.py
+src/nerva_tensorflow/example.py
+src/nerva_tensorflow.egg-info/PKG-INFO
+src/nerva_tensorflow.egg-info/SOURCES.txt
+src/nerva_tensorflow.egg-info/dependency_links.txt
+src/nerva_tensorflow.egg-info/top_level.txt
