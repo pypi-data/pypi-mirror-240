@@ -1,0 +1,8 @@
+README.md
+setup.py
+vehicledata.egg-info/PKG-INFO
+vehicledata.egg-info/SOURCES.txt
+vehicledata.egg-info/dependency_links.txt
+vehicledata.egg-info/entry_points.txt
+vehicledata.egg-info/requires.txt
+vehicledata.egg-info/top_level.txt
