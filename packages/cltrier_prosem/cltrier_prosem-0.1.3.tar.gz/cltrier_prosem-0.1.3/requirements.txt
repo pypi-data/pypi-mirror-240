@@ -1,0 +1,12 @@
+jsonlines>=4.0.0
+tomli>=2.0.1
+pyarrow>=13.0.0
+tqdm>=4.66.1
+numpy>=1.25.2
+pandas>=2.1.0
+torch>=2.0.1
+transformers>=4.32.1
+datasets>=1.16.1
+matplotlib>=3.2.1
+seaborn>=0.12.2
+scikit-learn>=1.0.1
