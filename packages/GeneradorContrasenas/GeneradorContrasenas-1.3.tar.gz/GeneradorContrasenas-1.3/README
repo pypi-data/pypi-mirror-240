@@ -1,0 +1,67 @@
+# GeneradorContrasenas
+### Alba Vilches y Nerea Barrueta
+
+## Descripción
+GeneradorContrasenas es una librería que permite a los usuariso generar una o varias contraseñas en base a los requisitos que especifiquen. Además, se puede personalizar la contraseña con una cadena de carácteres que se quiera añadir. 
+
+## Objetivo
+> El objetivo de la librería es generar contraseñas seguras de forma que el usuario no tenga que 
+> pensar demasiado. La idea es facilitar el trabajo del usuario dándole a su vez algo de libertad
+> para poder personalizar la contraseña. 
+
+## Requisitos
+- Longitud de la contraseña
+- Si incluirá mayúsculas o no
+- Si incluirá dígitos o no
+- Si incluirá carácteres especiales o no
+
+
+## Estructura de la librería
+La librería consta de tres clases: 
+- *GenerarContrasena*: 
+    - Es la clase principal. En base a los requisitos del usuario genera una única contraseña. 
+- *GenerarContrasenasMultiples*: 
+    - Hereda la clase principal y repite el proceso para múltiples contraseñas teniendo en cuenta el número de contraseñas solicitado.  
+- *EjecutarGeneradorContrasena*: 
+    - Ejecuta el generador de contraseñas. Realiza varias preguntas a las que el usuario debe contestar para utilizar como input en los otros gneradores (mayúsculas, dígitos, caracteres especiales, personalización, número de contraseñas múltiples y longitud)
+
+La tolerancia a errores está integrada en todas las clases. 
+
+## Instalación de la librería
+
+GeneradorContrasenas requiere [Python](https://www.python.org/) v3+ para funcionar.
+
+Instala las dependencias necesarias para ejecutar el servidor
+
+```sh
+from GeneradorContrasenas import EjecutarGeneradorContrasena
+ejecutor = EjecutarGeneradorContrasena()
+ejecutor.EjecutarGenerador()
+```
+
+## Licencia
+MIT
+
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [dill]: <https://github.com/joemccann/dillinger>
+   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
+   [john gruber]: <http://daringfireball.net>
+   [df1]: <http://daringfireball.net/projects/markdown/>
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [Ace Editor]: <http://ace.ajax.org>
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [jQuery]: <http://jquery.com>
+   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+   [Gulp]: <http://gulpjs.com>
+
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>

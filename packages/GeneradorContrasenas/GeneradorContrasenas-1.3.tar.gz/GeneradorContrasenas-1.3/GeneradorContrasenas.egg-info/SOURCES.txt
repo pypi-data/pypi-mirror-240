@@ -1,0 +1,10 @@
+LICENSE.txt
+README
+setup.cfg
+setup.py
+GeneradorContrasenas/__init__.py
+GeneradorContrasenas/clase.py
+GeneradorContrasenas.egg-info/PKG-INFO
+GeneradorContrasenas.egg-info/SOURCES.txt
+GeneradorContrasenas.egg-info/dependency_links.txt
+GeneradorContrasenas.egg-info/top_level.txt
